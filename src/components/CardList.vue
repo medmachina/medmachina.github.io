@@ -1,9 +1,12 @@
 <template>
   <div class="row g-3">
-    <div v-for="item in items" :key="item.nom_de_projet" class="col-12 col-md-6 col-lg-4">
+    <div v-for="item in items" :key="item.project_name" class="col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
+        <template v-if="item.photoURL">
+          <img :src="item.photoURL" alt="photo" class="card-img-top rounded-top" style="object-fit:cover; max-height:180px; border-top-left-radius:1rem; border-top-right-radius:1rem;" />
+        </template>
         <div class="card-body">
-          <h5 class="card-title">{{ item.nom_de_projet }}</h5>
+          <h5 class="card-title">{{ item.project_name }}</h5>
           <p class="card-text">{{ item.description }}</p>
           <div class="mb-2">
             <span v-for="tag in item.tags" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>

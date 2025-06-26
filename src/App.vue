@@ -27,7 +27,7 @@ const filteredItems = computed(() => {
   return items.value.filter(item => {
     const matchSearch =
       !search.value ||
-      item.nom_de_projet.toLowerCase().includes(search.value.toLowerCase()) ||
+      item.project_name.toLowerCase().includes(search.value.toLowerCase()) ||
       (item.description && item.description.toLowerCase().includes(search.value.toLowerCase()))
     const matchTag = !selectedTag.value || (item.tags || []).includes(selectedTag.value)
     return matchSearch && matchTag
@@ -46,7 +46,7 @@ const filteredItems = computed(() => {
         <input
           v-model="search"
           type="text"
-          placeholder="Rechercher un projet..."
+          placeholder="Search for a project ..."
           class="form-control mb-3"
         />
         <CardList :items="filteredItems" />
