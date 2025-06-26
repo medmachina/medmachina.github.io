@@ -9,7 +9,7 @@ const selectedTag = ref(null)
 
 // Charger data.json dynamiquement
 onMounted(async () => {
-  const response = await fetch('/src/assets/data.json')
+  const response = await fetch('/data.json')
   items.value = await response.json()
 })
 
