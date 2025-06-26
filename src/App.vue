@@ -36,6 +36,10 @@ const filteredItems = computed(() => {
 </script>
 
 <template>
+  <header class="d-flex align-items-center justify-content-between p-3 mb-4 border-bottom">
+    <h1 class="mb-0">A Medical Robot Directory</h1>
+    <img src="/src/assets/bot.png" alt="Bot" style="height:48px; width:auto;" />
+  </header>
   <main class="container-fluid py-4">
     <div class="row">
       <section class="col-md-9 mb-4">
