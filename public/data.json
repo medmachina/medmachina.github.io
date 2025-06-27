@@ -1,6 +1,7 @@
 [
   {
     "project_name": "Intuitive: da Vinci",
+    "id": "intuitiveDaVinci",
     "urls": [
       "https://www.intuitive.com/en-us/products-and-services/da-vinci"
     ],
@@ -14,6 +15,7 @@
   },
   {
     "project_name": "Medtronic: Hugo RAS",
+    "id": "medtronicHugoRas",
     "urls": [
       "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
     ],
@@ -27,6 +29,7 @@
   },
   {
     "project_name": "Medicaroid: Hinotori",
+    "id": "medicaroidHinotori",
     "urls": [
       "https://www.medicaroid.com"
     ],
@@ -40,6 +43,7 @@
   },
   {
     "project_name": "CMR Surgical: Versius",
+    "id": "cmrSurgicalVersius",
     "urls": [
       "https://cmrsurgical.com/versius"
     ],
@@ -53,6 +57,7 @@
   },
   {
     "project_name": "SSII: Mantra",
+    "id": "ssiiMantra",
     "urls": [
       "https://ssinnovations.com/ssi-mantra/"
     ],
@@ -65,6 +70,7 @@
   },
   {
     "project_name": "Cornerstone Robotics: Sentire",
+    "id": "cornerstoneRoboticsSentire",
     "urls": [
       "https://www.csrbtx.com/en/product_center/"
     ],
@@ -77,6 +83,7 @@
   },
   {
     "project_name": "Moon surgical: Maestro",
+    "id": "moonSurgicalMaestro",
     "urls": [
       "https://moonsurgical.com/maestro-system"
     ],
@@ -90,6 +97,7 @@
   },
   {
     "project_name": "Revolve Surgical: R1",
+    "id": "revolveSurgicalR1",
     "urls": [
       "https://www.revolvesurgical.com"
     ],
@@ -102,6 +110,7 @@
   },
   {
     "project_name": "Vicarious Surgical Inc",
+    "id": "vicariousSurgicalInc",
     "urls": [
       "https://www.vicarioussurgical.com/"
     ],
@@ -115,6 +124,7 @@
   },
   {
     "project_name": "Asensus Surgical: Senhance, LUNA",
+    "id": "asensusSurgicalSenhanceLuna",
     "urls": [
       "https://www.asensus.com/senhance"
     ],
@@ -128,6 +138,7 @@
   },
   {
     "project_name": "Titan Medical: Enos",
+    "id": "titanMedicalEnos",
     "urls": [
       "https://titanmedicalinc.com/"
     ],
@@ -140,6 +151,7 @@
   },
   {
     "project_name": "Johnson & Johnson MedTech: Ottava",
+    "id": "johnsonAndJohnsonMedtechOttava",
     "urls": [
       "https://thenext.jnjmedtech.com/surgical-robotics"
     ],
@@ -153,6 +165,7 @@
   },
   {
     "project_name": "Virtuoso Surgical: Virtuoso",
+    "id": "virtuosoSurgicalVirtuoso",
     "urls": [
       "https://virtuososurgical.net/"
     ],
@@ -166,6 +179,7 @@
   },
   {
     "project_name": "Rob Surgical: Bitrack",
+    "id": "robSurgicalBitrack",
     "urls": [
       "https://www.robsurgical.com/"
     ],
@@ -179,6 +193,7 @@
   },
   {
     "project_name": "Revo Surgical: Revo-i",
+    "id": "revoSurgicalRevoI",
     "urls": [
       "http://revosurgical.com"
     ],
@@ -192,6 +207,7 @@
   },
   {
     "project_name": "Surgical Science: FlexVR",
+    "id": "surgicalScienceFlexVr",
     "urls": [
       "https://surgicalscience.com/simulators/flexvr/"
     ],
@@ -204,6 +220,7 @@
   },
   {
     "project_name": "ForceDimension: Sigma, Omega",
+    "id": "forceDimensionSigmaOmega",
     "urls": [
       "https://www.forcedimension.com"
     ],
@@ -216,6 +233,7 @@
   },
   {
     "project_name": "Haption: Virtuoso",
+    "id": "haptionVirtuoso",
     "urls": [
       "https://www.haption.com"
     ],
@@ -228,6 +246,7 @@
   },
   {
     "project_name": "Quanser: HD2",
+    "id": "quanserHd2",
     "urls": [
       "https://www.quanser.com/products/hd2-high-definition-haptic-device"
     ],
@@ -239,6 +258,7 @@
   },
   {
     "project_name": "Noah Medical: Galaxy",
+    "id": "noahMedicalGalaxy",
     "urls": [
       "https://www.noahmed.com/"
     ],
@@ -251,6 +271,7 @@
   },
   {
     "project_name": "Intuitive: Ion",
+    "id": "intuitiveIon",
     "urls": [
       "https://www.intuitive.com/en-us/products-and-services/da-vinci"
     ],
@@ -263,6 +284,7 @@
   },
   {
     "project_name": "Johnson & Johnson MedTech: Monarch Quest",
+    "id": "johnsonAndJohnsonMedtechMonarchQuest",
     "urls": [
       "https://thenext.jnjmedtech.com"
     ],
@@ -275,6 +297,7 @@
   },
   {
     "project_name": "Stryker: Mako",
+    "id": "strykerMako",
     "urls": [
       "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
     ],
@@ -288,6 +311,7 @@
   },
   {
     "project_name": "Johnson & Johnson: Velys",
+    "id": "johnsonAndJohnsonVelys",
     "urls": [
       "https://www.jnjmedtech.com/en-US/patient/velys"
     ],
@@ -302,6 +326,7 @@
   },
   {
     "project_name": "Think Surgical: TMINI",
+    "id": "thinkSurgicalTmini",
     "urls": [
       "https://thinksurgical.com/"
     ],
@@ -315,6 +340,7 @@
   },
   {
     "project_name": "Curexo: Cuvis {joint,spine}",
+    "id": "curexoCuvisJointSpine",
     "urls": [
       "https://www.curexo.com/"
     ],
@@ -329,6 +355,7 @@
   },
   {
     "project_name": "eCential Robotics",
+    "id": "ecentialRobotics",
     "urls": [
       "https://www.ecential-robotics.com/en-us"
     ],
@@ -341,6 +368,7 @@
   },
   {
     "project_name": "AcuSurgical: Luca",
+    "id": "acusurgicalLuca",
     "urls": [
       "https://acusurgical.com"
     ],
@@ -354,6 +382,7 @@
   },
   {
     "project_name": "MMI: Symani",
+    "id": "mmiSymani",
     "urls": [
       "https://www.mmimicro.com/our-technology/symani-surgical-system/"
     ],
@@ -366,6 +395,7 @@
   },
   {
     "project_name": "RavenII",
+    "id": "ravenIi",
     "urls": [
       "https://robotsguide.com/robots/ravensurgical"
     ],
@@ -378,6 +408,7 @@
   },
   {
     "project_name": "SuPER",
+    "id": "super",
     "urls": [
       "https://www.kinovarobotics.com/resource/enhancing-robotic-surgery-with-a-plug-and-play-multi-robot-surgical-platforms"
     ],
