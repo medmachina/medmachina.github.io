@@ -3,21 +3,50 @@
     <span
       v-for="tag in tags"
       :key="tag"
-      :class="['badge', tag === selectedTag ? 'bg-primary' : 'bg-light text-dark', 'tag-cloud-badge']"
+      :class="['badge', isSelected(tag) ? 'bg-primary' : 'bg-light text-dark', 'tag-cloud-badge']"
       style="cursor:pointer;"
-      @click="$emit('select', tag)"
+      @click="toggleTag(tag)"
     >
       {{ tag }}
+      <span v-if="isSelected(tag)" class="ms-1" style="font-size: 0.8em;">✕</span>
     </span>
-    <span v-if="selectedTag" class="ms-2 text-danger fw-bold" style="cursor:pointer;" @click="$emit('select', null)">✕</span>
+    <span v-if="selectedTags.length > 0" class="ms-2 text-danger fw-bold" style="cursor:pointer;" @click="clearAllTags">Remove all tags</span>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
   tags: Array,
-  selectedTag: String
+  selectedTags: {
+    type: Array,
+    default: () => []
+  }
 });
+
+const emit = defineEmits(['update:selectedTags']);
+
+function isSelected(tag) {
+  return props.selectedTags.includes(tag);
+}
+
+function toggleTag(tag) {
+  const newSelectedTags = [...props.selectedTags];
+  const index = newSelectedTags.indexOf(tag);
+
+  if (index > -1) {
+    // Tag déjà sélectionné, le retirer
+    newSelectedTags.splice(index, 1);
+  } else {
+    // Tag pas encore sélectionné, l'ajouter
+    newSelectedTags.push(tag);
+  }
+
+  emit('update:selectedTags', newSelectedTags);
+}
+
+function clearAllTags() {
+  emit('update:selectedTags', []);
+}
 </script>
 
 <!-- Plus de style custom, tout est Bootstrap -->

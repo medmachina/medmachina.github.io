@@ -5,7 +5,7 @@ import TagCloud from './TagCloud.vue'
 
 const items = ref([])
 const search = ref('')
-const selectedTag = ref(null)
+const selectedTags = ref([])
 
 onMounted(async () => {
   const response = await fetch('/data.json')
@@ -26,8 +26,11 @@ const filteredItems = computed(() => {
       !search.value ||
       item.project_name.toLowerCase().includes(search.value.toLowerCase()) ||
       (item.description && item.description.toLowerCase().includes(search.value.toLowerCase()))
-    const matchTag = !selectedTag.value || (item.tags || []).includes(selectedTag.value)
-    return matchSearch && matchTag
+
+    const matchTags = selectedTags.value.length === 0 ||
+      selectedTags.value.every(selectedTag => (item.tags || []).includes(selectedTag))
+
+    return matchSearch && matchTags
   })
 })
 </script>
@@ -54,9 +57,8 @@ const filteredItems = computed(() => {
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Tags</h2>
-        <TagCloud :tags="allTags" :selectedTag="selectedTag" @select="tag => selectedTag = tag" />
+        <TagCloud :tags="allTags" v-model:selectedTags="selectedTags" />
       </aside>
     </div>
   </main>
 </template>
-
