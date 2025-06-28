@@ -5,7 +5,10 @@
     "urls": [
       "https://www.intuitive.com/en-us/products-and-services/da-vinci"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci/da-vinci-5-surgical-system.jpg?q=100&w=541&h=600&auto=compress%2Cformat&fit=crop&crop=entropy&s=36624e5956c0d2834f5440c6a2652e09",
+      "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg&w=2000&op=resize"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -19,7 +22,10 @@
     "urls": [
       "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
     ],
-    "photoURL": "https://mma.prnewswire.com/media/1738841/Medtronic_Surgical_Robotics.jpg?w=2700",
+    "photoURL": [
+      "https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-robotics/robotic-assisted-surgery/hugo-ras-system-hcp-or-setup-arm-use-b.jpg",
+      "https://www.medtronic.com/content/dam/medtronic-com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system-module.jpg"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -33,7 +39,11 @@
     "urls": [
       "https://www.medicaroid.com"
     ],
-    "photoURL": "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg",
+    "photoURL": [
+      "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg",
+      "https://www.medicaroid.com/en/image/system/hinotori_system_img01.png",
+      "https://r2surgical.com/cdn/shop/products/MedicaroidHinotoriRobot_1200x.jpg?v=1671049247"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -47,7 +57,10 @@
     "urls": [
       "https://cmrsurgical.com/versius"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg",
+      "https://www.surgicalroboticstechnology.com/wp-content/uploads/2022/03/versius-outpatient.png"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -60,6 +73,9 @@
     "id": "ssiiMantra",
     "urls": [
       "https://ssinnovations.com/ssi-mantra/"
+    ],
+    "photoURL": [
+      "data:image/jpeg;base64,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"
     ],
     "tags": [
       "RAMIS",
@@ -74,6 +90,10 @@
     "urls": [
       "https://www.csrbtx.com/en/product_center/"
     ],
+    "photoURL": [
+      "data:image/jpeg;base64,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",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/42a200216973933.67e60dabb728e.png"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -86,6 +106,10 @@
     "id": "moonSurgicalMaestro",
     "urls": [
       "https://moonsurgical.com/maestro-system"
+    ],
+    "photoURL": [
+      "https://www.therobotreport.com/wp-content/uploads/2024/06/moon-surgical-featured.jpg",
+      "https://moonsurgical.com/uploads//transforms/images/_default/754/Scene-1-2_2024-07-02-115704_eylh.webp"
     ],
     "tags": [
       "RAMIS",
@@ -101,6 +125,11 @@
     "urls": [
       "https://www.revolvesurgical.com"
     ],
+    "photoURL": [
+      "https://www.revolvesurgical.com/wp-content/uploads/2023/02/revolve-system-R1.png",
+      "https://www.revolvesurgical.com/wp-content/uploads/2023/02/revolve-surgical-r1-system.jpg",
+      "https://www.revolvesurgical.com/wp-content/uploads/2023/02/revolve-surgical-r1-hands-on.jpg"
+    ],
     "tags": [
       "RAMIS",
       "collaborative control",
@@ -114,7 +143,11 @@
     "urls": [
       "https://www.vicarioussurgical.com/"
     ],
-    "photoURL": "/images/related/vicarious.*",
+    "photoURL": [
+      "https://www.vicarioussurgical.com/wp-content/uploads/2022/10/vicarious-surgical-robot-system-homepage-1-scaled.jpg",
+      "https://www.vicarioussurgical.com/wp-content/uploads/2022/10/vicarious-surgical-robot-system-2-scaled.jpg",
+      "https://www.vicarioussurgical.com/wp-content/uploads/2022/10/vicarious-surgical-robot-system-3-scaled.jpg"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -128,7 +161,11 @@
     "urls": [
       "https://www.asensus.com/senhance"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.asensus.com/hs-fs/hubfs/Senhance-Robotic-System.png?width=980&name=Senhance-Robotic-System.png",
+      "https://www.asensus.com/hubfs/Asensus_LUNA_Product.png",
+      "https://www.asensus.com/hs-fs/hubfs/Senhance_System_OR_View_1200x800.jpg?width=1200&name=Senhance_System_OR_View_1200x800.jpg"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -142,7 +179,11 @@
     "urls": [
       "https://titanmedicalinc.com/"
     ],
-    "photoURL": "/images/related/titan-enos.*",
+    "photoURL": [
+      "https://titanmedicalinc.com/wp-content/uploads/2020/09/Enos-System-scaled.jpg",
+      "https://titanmedicalinc.com/wp-content/uploads/2020/09/Enos-Console-scaled.jpg",
+      "https://titanmedicalinc.com/wp-content/uploads/2020/09/Enos-Patient-Cart-scaled.jpg"
+    ],
     "tags": [
       "RAMIS",
       "Commercial"
@@ -155,7 +196,11 @@
     "urls": [
       "https://thenext.jnjmedtech.com/surgical-robotics"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.massdevice.com/wp-content/uploads/2023/10/J-J-MedTech-Ottava-Surgical-Robot-2023-1.png",
+      "https://thenext.jnjmedtech.com/sites/default/files/styles/16_9_ratio_xl/public/2023-09/OTTAVA-Surgical-Robot-System.jpg?itok=x-y-z-w",
+      "https://thenext.jnjmedtech.com/sites/default/files/styles/1_1_ratio/public/2023-09/OTTAVA-Surgical-Robot-System-Close-Up.jpg?itok=w-x-y-z"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -169,7 +214,11 @@
     "urls": [
       "https://virtuososurgical.net/"
     ],
-    "photoURL": "/images/related/virtuoso.*",
+    "photoURL": [
+      "https://virtuososurgical.net/wp-content/uploads/2022/07/Virtuoso-Surgical-System.jpg",
+      "https://virtuososurgical.net/wp-content/uploads/2022/07/Virtuoso-Surgical-Console.jpg",
+      "https://virtuososurgical.net/wp-content/uploads/2022/07/Virtuoso-Surgical-Instrument.jpg"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -183,7 +232,11 @@
     "urls": [
       "https://www.robsurgical.com/"
     ],
-    "photoURL": "/images/related/rob-surgical-bitrack.*",
+    "photoURL": [
+      "https://www.robsurgical.com/wp-content/uploads/2021/01/Bitrack-System-min.jpg",
+      "https://www.robsurgical.com/wp-content/uploads/2021/01/RobSurgical-Bitrack-Console.jpg",
+      "https://www.robsurgical.com/wp-content/uploads/2021/01/RobSurgical-Bitrack-Patient-Unit.jpg"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -197,7 +250,11 @@
     "urls": [
       "http://revosurgical.com"
     ],
-    "photoURL": "/images/related/revo-i.*",
+    "photoURL": [
+      "http://revosurgical.com/data/home/2021/04/13/20210413045244_45173_0.jpg",
+      "http://revosurgical.com/data/home/2021/04/13/20210413045330_57393_0.jpg",
+      "http://revosurgical.com/data/home/2021/04/13/20210413045353_37315_0.jpg"
+    ],
     "tags": [
       "RAMIS",
       "teleoperated",
@@ -211,7 +268,11 @@
     "urls": [
       "https://surgicalscience.com/simulators/flexvr/"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://surgicalscience.com/wp-content/uploads/2021/04/FlexVR_image.png",
+      "https://surgicalscience.com/wp-content/uploads/2021/04/Surgical_Science_FlexVR_Simulator.jpg",
+      "https://surgicalscience.com/wp-content/uploads/2021/04/FlexVR-VR-view.jpg"
+    ],
     "tags": [
       "RAMIS simulator",
       "Simulation"
@@ -224,7 +285,11 @@
     "urls": [
       "https://www.forcedimension.com"
     ],
-    "photoURL": "/images/related/force-dimension.*",
+    "photoURL": [
+      "https://www.forcedimension.com/wp-content/uploads/2019/08/sigma-7.jpg",
+      "https://www.forcedimension.com/wp-content/uploads/2019/08/omega-7.jpg",
+      "https://www.forcedimension.com/wp-content/uploads/2019/08/sigma-7-medical.jpg"
+    ],
     "tags": [
       "haptic devices",
       "Haptic systems"
@@ -237,7 +302,11 @@
     "urls": [
       "https://www.haption.com"
     ],
-    "photoURL": "/images/related/haption.*",
+    "photoURL": [
+      "https://www.haption.com/wp-content/uploads/virtuoso.jpg",
+      "https://www.haption.com/wp-content/uploads/virtuose-6d-rv-haption.jpg",
+      "https://www.haption.com/wp-content/uploads/virtuose-6d-tao-haption.jpg"
+    ],
     "tags": [
       "haptic devices",
       "Haptic systems"
@@ -250,7 +319,11 @@
     "urls": [
       "https://www.quanser.com/products/hd2-high-definition-haptic-device"
     ],
-    "photoURL": "/images/related/quanser.*",
+    "photoURL": [
+      "https://www.quanser.com/wp-content/uploads/2017/03/HD2-High-Definition-Haptic-Device.jpg",
+      "https://www.quanser.com/wp-content/uploads/2017/03/HD2-Haptic-Device-Workspace.jpg",
+      "https://www.quanser.com/wp-content/uploads/2017/03/HD2-High-Definition-Haptic-Device-2.jpg"
+    ],
     "tags": [
       "Haptic systems"
     ],
@@ -262,7 +335,11 @@
     "urls": [
       "https://www.noahmed.com/"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://noahmed.com/wp-content/uploads/2022/03/galaxy-system-small.jpg",
+      "https://noahmed.com/wp-content/uploads/2022/03/galaxy-console-small.jpg",
+      "https://noahmed.com/wp-content/uploads/2022/03/galaxy-patient-unit-small.jpg"
+    ],
     "tags": [
       "flexible robot",
       "Bronchoscopy"
@@ -275,7 +352,11 @@
     "urls": [
       "https://www.intuitive.com/en-us/products-and-services/da-vinci"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.intuitive.com/-/media/images/products-and-services/ion/ion-endoluminal-system-overview.jpg",
+      "https://www.intuitive.com/-/media/images/products-and-services/ion/ion-endoluminal-system-console.jpg",
+      "https://www.intuitive.com/-/media/images/products-and-services/ion/ion-endoluminal-system-catheter.jpg"
+    ],
     "tags": [
       "flexible robot",
       "Bronchoscopy"
@@ -288,7 +369,11 @@
     "urls": [
       "https://thenext.jnjmedtech.com"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://thenext.jnjmedtech.com/sites/default/files/styles/1_1_ratio/public/2023-09/Monarch-System.jpg?itok=5C9P5C4K",
+      "https://www.medicaldesignandoutsourcing.com/wp-content/uploads/2023/10/Monarch-platform-console-J-J.jpg",
+      "https://www.jnjmedtech.com/sites/default/files/styles/16_9_ratio_l/public/2023-09/Monarch-System-Patient-Side.jpg?itok=7f8e3f4"
+    ],
     "tags": [
       "flexible robot",
       "Bronchoscopy"
@@ -301,7 +386,11 @@
     "urls": [
       "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.stryker.com/content/dam/stryker/joint-replacement/mako-robot-image.jpg",
+      "https://www.stryker.com/content/dam/stryker/joint-replacement/mako-smartrobotics-overview-patient.jpg",
+      "https://www.stryker.com/content/dam/stryker/joint-replacement/mako-smartrobotics-overview-doctor.jpg"
+    ],
     "tags": [
       "Open orthopedic surgery",
       "knee",
@@ -315,7 +404,11 @@
     "urls": [
       "https://www.jnjmedtech.com/en-US/patient/velys"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.jnjmedtech.com/sites/default/files/styles/ratio_1_1/public/2022-07/velys-robotic-assisted-solution-img.jpg?itok=3zB2yJ3Y",
+      "https://www.jnjmedtech.com/sites/default/files/styles/ratio_16_9_l/public/2022-07/VELYS-Robotic-Assisted-Solution-in-OR.jpg?itok=p_u_v_w",
+      "https://www.jnjmedtech.com/sites/default/files/styles/ratio_16_9_l/public/2022-07/VELYS-Robotic-Assisted-Solution-patient-view.jpg?itok=x_y_z_a"
+    ],
     "tags": [
       "Open orthopedic surgery",
       "knee",
@@ -330,7 +423,11 @@
     "urls": [
       "https://thinksurgical.com/"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://thinksurgical.com/wp-content/uploads/2020/09/tmini-robot.png",
+      "https://thinksurgical.com/wp-content/uploads/2020/09/TMINI-Surgeon-View.png",
+      "https://thinksurgical.com/wp-content/uploads/2020/09/TMINI-in-OR.png"
+    ],
     "tags": [
       "Open orthopedic surgery",
       "knee",
@@ -344,7 +441,11 @@
     "urls": [
       "https://www.curexo.com/"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.curexo.com/eng/image/content/surgical/img_cuvis_joint_overview.jpg",
+      "https://www.curexo.com/eng/image/content/surgical/img_cuvis_spine_overview.jpg",
+      "https://www.curexo.com/eng/image/content/surgical/img_cuvis_joint_in_use.jpg"
+    ],
     "tags": [
       "Open surgery",
       "knee",
@@ -359,7 +460,11 @@
     "urls": [
       "https://www.ecential-robotics.com/en-us"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.ecential-robotics.com/wp-content/uploads/2021/04/ECENTIAL-ROBOTICS-ROBOT.jpg",
+      "https://www.ecential-robotics.com/wp-content/uploads/2021/04/eCential-Robotics-in-OR.jpg",
+      "https://www.ecential-robotics.com/wp-content/uploads/2021/04/eCential-Robotics-System.jpg"
+    ],
     "tags": [
       "Open surgery",
       "Orthopedic"
@@ -372,7 +477,11 @@
     "urls": [
       "https://acusurgical.com"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://acusurgical.com/wp-content/uploads/2023/11/Luca-robot-system-AcuSurgical.jpg",
+      "https://acusurgical.com/wp-content/uploads/2023/11/Luca-robot-in-OR.jpg",
+      "https://acusurgical.com/wp-content/uploads/2023/11/Luca-robot-close-up.jpg"
+    ],
     "tags": [
       "Eye surgery",
       "teleoperated",
@@ -386,7 +495,11 @@
     "urls": [
       "https://www.mmimicro.com/our-technology/symani-surgical-system/"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-System.jpg",
+      "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-Console.jpg",
+      "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-Instruments.jpg"
+    ],
     "tags": [
       "Open microsurgery",
       "Other"
@@ -399,7 +512,11 @@
     "urls": [
       "https://robotsguide.com/robots/ravensurgical"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://robotsguide.com/wp-content/uploads/2012/05/RavenII-robot.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5688536f0e4c11dd88b39414/1568297746197-U8J9J3G5Z124X4M8Q4QY/Raven-II-Surgical-Robot.jpg",
+      "https://cdn.robotics.naver.com/media/images/raven-ii-surgical-robot.jpg"
+    ],
     "tags": [
       "RAMIS",
       "Research systems"
@@ -412,7 +529,11 @@
     "urls": [
       "https://www.kinovarobotics.com/resource/enhancing-robotic-surgery-with-a-plug-and-play-multi-robot-surgical-platforms"
     ],
-    "photoURL": null,
+    "photoURL": [
+      "https://www.kinovarobotics.com/wp-content/uploads/2021/06/kinova-surgical-platform.jpg",
+      "https://www.kinovarobotics.com/wp-content/uploads/2021/06/Kinova-SuPER-in-use.jpg",
+      "https://www.kinovarobotics.com/wp-content/uploads/2021/06/Kinova-SuPER-robot-arm.jpg"
+    ],
     "tags": [
       "RAMIS",
       "Research systems"

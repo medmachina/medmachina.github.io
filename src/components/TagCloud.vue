@@ -3,7 +3,7 @@
     <span
       v-for="tag in tags"
       :key="tag"
-      :class="['badge', isSelected(tag) ? 'bg-primary' : 'bg-light text-dark', 'tag-cloud-badge']"
+      :class="['badge', isSelected(tag) ? 'bg-primary' : 'dark-tag', 'tag-cloud-badge']"
       style="cursor:pointer;"
       @click="toggleTag(tag)"
     >
@@ -48,5 +48,17 @@ function clearAllTags() {
   emit('update:selectedTags', []);
 }
 </script>
+
+<style scoped>
+.dark-tag {
+  background-color: #333;
+  color: #fff;
+}
+.tag-cloud-badge {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+}
+</style>
 
 <!-- Plus de style custom, tout est Bootstrap -->

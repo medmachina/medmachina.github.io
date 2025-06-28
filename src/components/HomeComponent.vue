@@ -37,6 +37,33 @@ const filteredItems = computed(() => {
 
 <style scoped>
 @import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css';
+
+/* Dark theme overrides */
+header {
+  border-color: var(--color-border) !important;
+}
+
+h1, h2 {
+  color: var(--color-heading) !important;
+}
+
+.form-control {
+  background-color: var(--color-background-soft);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.form-control:focus {
+  background-color: var(--color-background-soft);
+  border-color: var(--color-border-hover);
+  color: var(--color-text);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.form-control::placeholder {
+  color: var(--color-text);
+  opacity: 0.6;
+}
 </style>
 
 <template>

@@ -2,12 +2,12 @@
   <div class="project-detail">
     <div class="header">
       <button class="home-btn" @click="goHome" title="Accueil">
-        <svg width="24" height="24" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
       </button>
-      <h1>{{ filteredProject["project_name"] }}</h1>
+      <h1 class="project-title">{{ filteredProject["project_name"] }}</h1>
     </div>
 
-    <div>
+    <div class="project-description">
       {{ filteredProject["description"] }}
     </div>
 
@@ -35,7 +35,7 @@
         <span
           v-for="tag in projectTags"
           :key="tag"
-          class="badge bg-light text-dark tag-cloud-badge"
+          class="badge tag-cloud-badge dark-tag"
         >
           {{ tag }}
         </span>
@@ -168,9 +168,9 @@ const projectUrls = computed(() => {
   width: 100%;
   margin: 2rem auto;
   padding: 2rem;
-  background: #fff;
+  background: var(--color-background-soft);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .header {
   display: flex;
@@ -182,6 +182,7 @@ const projectUrls = computed(() => {
   border: none;
   cursor: pointer;
   margin-right: 1rem;
+  color: var(--color-text);
 }
 .field {
   margin-bottom: 0.5rem;
@@ -227,8 +228,16 @@ const projectUrls = computed(() => {
   border-radius: 1rem;
   font-size: 0.875rem;
 }
+.dark-tag {
+  background-color: #333;
+  color: #fff;
+}
 .urls-section {
   margin-top: 2rem;
+}
+
+.urls-section h3 {
+  color: var(--color-heading);
 }
 .url-list {
   list-style: none;
@@ -239,16 +248,29 @@ const projectUrls = computed(() => {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border);
 }
 .url-title {
   font-weight: 500;
+  color: var(--color-text);
 }
 .url-complete {
   font-size: 0.875rem;
-  color: #666;
+  color: var(--color-text);
 }
 .btn {
   min-width: 100px;
+}
+.project-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-heading);
+}
+
+.project-description {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
 }
 </style>

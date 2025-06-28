@@ -14,8 +14,8 @@
   text-align: center;
   padding: 2rem 0;
   margin-top: 3rem;
-  border-top: 1px solid #eee;
-  color: #666;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text);
   font-size: 0.875rem;
 }
 
