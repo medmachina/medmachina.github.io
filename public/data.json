@@ -402,7 +402,7 @@
     ],
     "tags": [
       "Open orthopedic surgery",
-      "knee",
+      "Knee",
       "Orthopedic"
     ],
     "description": ""
@@ -418,8 +418,8 @@
     ],
     "tags": [
       "Open orthopedic surgery",
-      "knee",
-      "hip",
+      "Knee",
+      "Hip",
       "Orthopedic"
     ],
     "description": ""
@@ -431,13 +431,11 @@
       "https://thinksurgical.com/"
     ],
     "photoURL": [
-      "https://thinksurgical.com/wp-content/uploads/2020/09/tmini-robot.png",
-      "https://thinksurgical.com/wp-content/uploads/2020/09/TMINI-Surgeon-View.png",
-      "https://thinksurgical.com/wp-content/uploads/2020/09/TMINI-in-OR.png"
+      "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMini_Robot_V1_0010442+Left_hand_v1.jpg"
     ],
     "tags": [
       "Open orthopedic surgery",
-      "knee",
+      "Knee",
       "Orthopedic"
     ],
     "description": "Location: Freemont, California, USA."
@@ -449,13 +447,12 @@
       "https://www.curexo.com/"
     ],
     "photoURL": [
-      "https://www.curexo.com/eng/image/content/surgical/img_cuvis_joint_overview.jpg",
-      "https://www.curexo.com/eng/image/content/surgical/img_cuvis_spine_overview.jpg",
-      "https://www.curexo.com/eng/image/content/surgical/img_cuvis_joint_in_use.jpg"
+      "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-1-768x576.jpg",
+      "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-2-768x576.jpg"
     ],
     "tags": [
       "Open surgery",
-      "knee",
+      "Knee",
       "spine",
       "Orthopedic"
     ],
@@ -468,9 +465,7 @@
       "https://www.ecential-robotics.com/en-us"
     ],
     "photoURL": [
-      "https://www.ecential-robotics.com/wp-content/uploads/2021/04/ECENTIAL-ROBOTICS-ROBOT.jpg",
-      "https://www.ecential-robotics.com/wp-content/uploads/2021/04/eCential-Robotics-in-OR.jpg",
-      "https://www.ecential-robotics.com/wp-content/uploads/2021/04/eCential-Robotics-System.jpg"
+      "https://www.ecential-robotics.com/media/images/trash/_1920x1080_crop_center-center_none/43961/Ecential_Robotics_0837_operation_bloc%C2%A9e2nphoto.com-Copie-Copie.webp"
     ],
     "tags": [
       "Open surgery",
@@ -485,12 +480,10 @@
       "https://acusurgical.com"
     ],
     "photoURL": [
-      "https://acusurgical.com/wp-content/uploads/2023/11/Luca-robot-system-AcuSurgical.jpg",
-      "https://acusurgical.com/wp-content/uploads/2023/11/Luca-robot-in-OR.jpg",
-      "https://acusurgical.com/wp-content/uploads/2023/11/Luca-robot-close-up.jpg"
+      "https://static.wixstatic.com/media/7574e8_f639a2e99e8348edb7eabb11f551a9e0~mv2.png/v1/crop/x_561,y_0,w_829,h_894/fill/w_600,h_711,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/FIH%202024.png"
     ],
     "tags": [
-      "Eye surgery",
+      "Eye",
       "teleoperated",
       "Other"
     ],
@@ -520,9 +513,7 @@
       "https://robotsguide.com/robots/ravensurgical"
     ],
     "photoURL": [
-      "https://robotsguide.com/wp-content/uploads/2012/05/RavenII-robot.jpg",
-      "https://images.squarespace-cdn.com/content/v1/5688536f0e4c11dd88b39414/1568297746197-U8J9J3G5Z124X4M8Q4QY/Raven-II-Surgical-Robot.jpg",
-      "https://cdn.robotics.naver.com/media/images/raven-ii-surgical-robot.jpg"
+      "http://rll.berkeley.edu/raven/pieter-ken-raven.jpg"
     ],
     "tags": [
       "RAMIS",
