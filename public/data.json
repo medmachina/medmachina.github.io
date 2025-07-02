@@ -1,6 +1,6 @@
 [
   {
-    "project_name": "Intuitive: da Vinci",
+    "project_name": "Intuitive: da Vinci 5",
     "id": "intuitiveDaVinci",
     "urls": [
       "https://www.intuitive.com/en-us/products-and-services/da-vinci"
@@ -11,10 +11,33 @@
     ],
     "tags": [
       "RAMIS",
+      "Intuitive",
       "teleoperated",
       "Commercial"
     ],
-    "description": "Location: California, USA"
+    "description": "Designed to enable better outcomes, more efficiency, and actionable insights, da Vinci 5 brings more than 150 design innovations and 10,000x the computing power of da Vinci Xi.1 These advances support enhanced surgical senses, greater surgeon autonomy, more streamlined OR workflows, and advanced data analytics to enable the future of surgery."
+  },
+  {
+    "project_name": "Intuitive: da Vinci SP",
+    "id": "intuitiveDaVinciSP",
+    "urls": [
+      "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp",
+      "https://www.intuitive.com/en-us/products-and-services/da-vinci",
+      "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system",
+      "https://globalrobotics.adventhealth.com/global-robotics-institute/about-institute/da-vinci-sp-robot"
+    ],
+    "photoURL": [
+      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci-Systems/davinci-sp-single-port-surgical-robot-system-patient-cart.jpg?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=b63884311f09470892bcf5d9987baf78",
+      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/SP/da-vinci-sp-single-port-instruments.png?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=f3a04fc53d052483c0db765876260d9c"
+    ],
+    "tags": [
+      "RAMIS",
+      "Intuitive",
+      "teleoperated",
+      "Commercial",
+      "Single Port"
+    ],
+    "description": "Location: Sunnyvale, California, USA. The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures."
   },
   {
     "project_name": "Medtronic: Hugo RAS",
@@ -126,9 +149,7 @@
       "https://www.revolvesurgical.com"
     ],
     "photoURL": [
-      "https://www.revolvesurgical.com/wp-content/uploads/2023/02/revolve-system-R1.png",
-      "https://www.revolvesurgical.com/wp-content/uploads/2023/02/revolve-surgical-r1-system.jpg",
-      "https://www.revolvesurgical.com/wp-content/uploads/2023/02/revolve-surgical-r1-hands-on.jpg"
+      "https://cdn.prod.website-files.com/65b3c087a187154f99c5173c/65bbbaecf479b67122c02035_Product%20Banner-p-1600.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -144,12 +165,12 @@
       "https://www.vicarioussurgical.com/"
     ],
     "photoURL": [
-      "https://www.vicarioussurgical.com/wp-content/uploads/2022/10/vicarious-surgical-robot-system-homepage-1-scaled.jpg",
-      "https://www.vicarioussurgical.com/wp-content/uploads/2022/10/vicarious-surgical-robot-system-2-scaled.jpg",
-      "https://www.vicarioussurgical.com/wp-content/uploads/2022/10/vicarious-surgical-robot-system-3-scaled.jpg"
+      "https://www.vicarioussurgical.com/wp-content/uploads/advanced-technology-01.jpg"
     ],
     "tags": [
       "RAMIS",
+      "Vicarious",
+      "Single Port",
       "teleoperated",
       "Commercial"
     ],
@@ -162,9 +183,7 @@
       "https://www.asensus.com/senhance"
     ],
     "photoURL": [
-      "https://www.asensus.com/hs-fs/hubfs/Senhance-Robotic-System.png?width=980&name=Senhance-Robotic-System.png",
-      "https://www.asensus.com/hubfs/Asensus_LUNA_Product.png",
-      "https://www.asensus.com/hs-fs/hubfs/Senhance_System_OR_View_1200x800.jpg?width=1200&name=Senhance_System_OR_View_1200x800.jpg"
+      "https://ml.globenewswire.com/Resource/Download/37115e8d-9772-4352-a919-c794b2d3aa77/Asensus.png"
     ],
     "tags": [
       "RAMIS",
@@ -180,9 +199,7 @@
       "https://titanmedicalinc.com/"
     ],
     "photoURL": [
-      "https://titanmedicalinc.com/wp-content/uploads/2020/09/Enos-System-scaled.jpg",
-      "https://titanmedicalinc.com/wp-content/uploads/2020/09/Enos-Console-scaled.jpg",
-      "https://titanmedicalinc.com/wp-content/uploads/2020/09/Enos-Patient-Cart-scaled.jpg"
+      "https://titanmedicalinc.com/wp-content/uploads/2020/11/20201113_193832-1.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -197,9 +214,7 @@
       "https://thenext.jnjmedtech.com/surgical-robotics"
     ],
     "photoURL": [
-      "https://www.massdevice.com/wp-content/uploads/2023/10/J-J-MedTech-Ottava-Surgical-Robot-2023-1.png",
-      "https://thenext.jnjmedtech.com/sites/default/files/styles/16_9_ratio_xl/public/2023-09/OTTAVA-Surgical-Robot-System.jpg?itok=x-y-z-w",
-      "https://thenext.jnjmedtech.com/sites/default/files/styles/1_1_ratio/public/2023-09/OTTAVA-Surgical-Robot-System-Close-Up.jpg?itok=w-x-y-z"
+      "https://thenext.jnjmedtech.com/_next/image?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fbltb7c57cef5b058034%2Fbltd1b721f163bc0ba1%2F65259910fbc4f63a3d9ae4e4%2Fottava-02.webp&w=256&q=75"
     ],
     "tags": [
       "RAMIS",
@@ -215,14 +230,14 @@
       "https://virtuososurgical.net/"
     ],
     "photoURL": [
-      "https://virtuososurgical.net/wp-content/uploads/2022/07/Virtuoso-Surgical-System.jpg",
-      "https://virtuososurgical.net/wp-content/uploads/2022/07/Virtuoso-Surgical-Console.jpg",
-      "https://virtuososurgical.net/wp-content/uploads/2022/07/Virtuoso-Surgical-Instrument.jpg"
+      "https://virtuososurgical.net/wp-content/uploads/2023/05/carousel-pair-01.jpg",
+      "https://virtuososurgical.net/wp-content/uploads/2023/05/carousel-pair-02.jpg"
     ],
     "tags": [
       "RAMIS",
       "teleoperated",
-      "Commercial"
+      "Commercial",
+      "Single Port"
     ],
     "description": "Location: Nashville, Tennessee, USA. Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulator emulate laparoscopic instruments (not cartesian)."
   },
@@ -233,9 +248,10 @@
       "https://www.robsurgical.com/"
     ],
     "photoURL": [
-      "https://www.robsurgical.com/wp-content/uploads/2021/01/Bitrack-System-min.jpg",
-      "https://www.robsurgical.com/wp-content/uploads/2021/01/RobSurgical-Bitrack-Console.jpg",
-      "https://www.robsurgical.com/wp-content/uploads/2021/01/RobSurgical-Bitrack-Patient-Unit.jpg"
+      "https://www.robsurgical.com/wp-content/uploads/2022/09/deisgn-console-bitrack-system.jpg",
+      "https://www.robsurgical.com/wp-content/uploads/2022/10/robot-bitrack-system.png",
+      "https://www.robsurgical.com/wp-content/uploads/2022/09/dynamic-fulcrum-point.jpg",
+      "https://www.robsurgical.com/wp-content/uploads/2022/09/consola-bitrack-system-rob-surgical.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -251,9 +267,9 @@
       "http://revosurgical.com"
     ],
     "photoURL": [
-      "http://revosurgical.com/data/home/2021/04/13/20210413045244_45173_0.jpg",
-      "http://revosurgical.com/data/home/2021/04/13/20210413045330_57393_0.jpg",
-      "http://revosurgical.com/data/home/2021/04/13/20210413045353_37315_0.jpg"
+      "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_01_m.png",
+      "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_03.png",
+      "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_02_m.png"
     ],
     "tags": [
       "RAMIS",
@@ -303,9 +319,7 @@
       "https://www.haption.com"
     ],
     "photoURL": [
-      "https://www.haption.com/wp-content/uploads/virtuoso.jpg",
-      "https://www.haption.com/wp-content/uploads/virtuose-6d-rv-haption.jpg",
-      "https://www.haption.com/wp-content/uploads/virtuose-6d-tao-haption.jpg"
+      "https://images.squarespace-cdn.com/content/v1/65a0fbd6a8419c511349c9f6/ce09e0a7-f879-4c01-a729-e2635bc2c821/medical-surgical-robotic-assistant-laparoscopy-minimum-invasive-isir-haption-1.jpg?format=1500w"
     ],
     "tags": [
       "haptic devices",
@@ -336,9 +350,8 @@
       "https://www.noahmed.com/"
     ],
     "photoURL": [
-      "https://noahmed.com/wp-content/uploads/2022/03/galaxy-system-small.jpg",
-      "https://noahmed.com/wp-content/uploads/2022/03/galaxy-console-small.jpg",
-      "https://noahmed.com/wp-content/uploads/2022/03/galaxy-patient-unit-small.jpg"
+      "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Noah_web_Walkthrough_Silo1.png",
+      "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Galaxy_Feature_1_800x800pxl.jpg"
     ],
     "tags": [
       "flexible robot",
@@ -353,12 +366,11 @@
       "https://www.intuitive.com/en-us/products-and-services/da-vinci"
     ],
     "photoURL": [
-      "https://www.intuitive.com/-/media/images/products-and-services/ion/ion-endoluminal-system-overview.jpg",
-      "https://www.intuitive.com/-/media/images/products-and-services/ion/ion-endoluminal-system-console.jpg",
-      "https://www.intuitive.com/-/media/images/products-and-services/ion/ion-endoluminal-system-catheter.jpg"
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5443452499001/7cc75a4e-dd27-425a-93e8-8dc5a4d442f6/a2153c62-2227-4650-848d-d89fd01e065e/1280x720/match/image.jpg"
     ],
     "tags": [
       "flexible robot",
+      "Intuitive",
       "Bronchoscopy"
     ],
     "description": "Location: California, USA. Used with C-Arm/CBCT."
@@ -370,9 +382,7 @@
       "https://thenext.jnjmedtech.com"
     ],
     "photoURL": [
-      "https://thenext.jnjmedtech.com/sites/default/files/styles/1_1_ratio/public/2023-09/Monarch-System.jpg?itok=5C9P5C4K",
-      "https://www.medicaldesignandoutsourcing.com/wp-content/uploads/2023/10/Monarch-platform-console-J-J.jpg",
-      "https://www.jnjmedtech.com/sites/default/files/styles/16_9_ratio_l/public/2023-09/Monarch-System-Patient-Side.jpg?itok=7f8e3f4"
+      "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_620/public/2024-12/JJMT_Product_Other_Monarch_T_1-screen-image.png?itok=2orwW0WZ"
     ],
     "tags": [
       "flexible robot",
@@ -387,9 +397,8 @@
       "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
     ],
     "photoURL": [
-      "https://www.stryker.com/content/dam/stryker/joint-replacement/mako-robot-image.jpg",
-      "https://www.stryker.com/content/dam/stryker/joint-replacement/mako-smartrobotics-overview-patient.jpg",
-      "https://www.stryker.com/content/dam/stryker/joint-replacement/mako-smartrobotics-overview-doctor.jpg"
+      "https://media-assets.stryker.com/is/image/stryker/Mako%204%20Family%204%204K%20with%20shadow3?$max_width_1440$",
+      "https://media-assets.stryker.com/is/image/stryker/Mako%204%20TKA%20and%20Q%20Guidance%204K%20(1)?$max_width_1440$"
     ],
     "tags": [
       "Open orthopedic surgery",
@@ -405,9 +414,7 @@
       "https://www.jnjmedtech.com/en-US/patient/velys"
     ],
     "photoURL": [
-      "https://www.jnjmedtech.com/sites/default/files/styles/ratio_1_1/public/2022-07/velys-robotic-assisted-solution-img.jpg?itok=3zB2yJ3Y",
-      "https://www.jnjmedtech.com/sites/default/files/styles/ratio_16_9_l/public/2022-07/VELYS-Robotic-Assisted-Solution-in-OR.jpg?itok=p_u_v_w",
-      "https://www.jnjmedtech.com/sites/default/files/styles/ratio_16_9_l/public/2022-07/VELYS-Robotic-Assisted-Solution-patient-view.jpg?itok=x_y_z_a"
+      "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2024-08/1281984494%20-%20VRAS%20Software%20Render%20Update%201_0.png?h=35b68762&itok=Qml0ufDd"
     ],
     "tags": [
       "Open orthopedic surgery",
