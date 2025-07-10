@@ -22,16 +22,36 @@ const allTags = computed(() => {
 
 const filteredItems = computed(() => {
   return items.value.filter(item => {
-    const matchSearch =
-      !search.value ||
-      item.project_name.toLowerCase().includes(search.value.toLowerCase()) ||
-      (item.description && item.description.toLowerCase().includes(search.value.toLowerCase()))
+    // Si aucun terme de recherche, ou aucun tag sélectionné, on retourne tous les éléments
+    if (!search.value && selectedTags.value.length === 0) return true;
+
+    // Fonction qui vérifie si un terme de recherche est présent dans une valeur
+    const checkValue = (value, term) => {
+      if (!value) return false;
+
+      // Cas des tableaux (urls, tags, photoURL, etc.)
+      if (Array.isArray(value)) {
+        return value.some(val => checkValue(val, term));
+      }
+
+      // Cas des objets
+      if (typeof value === 'object') {
+        return Object.values(value).some(val => checkValue(val, term));
+      }
+
+      // Cas des strings ou valeurs convertibles en string
+      return String(value).toLowerCase().includes(term.toLowerCase());
+    };
+
+    // Vérification si le terme de recherche est présent dans n'importe quel champ
+    const matchSearch = !search.value ||
+      Object.values(item).some(value => checkValue(value, search.value));
 
     const matchTags = selectedTags.value.length === 0 ||
-      selectedTags.value.every(selectedTag => (item.tags || []).includes(selectedTag))
+      selectedTags.value.every(selectedTag => (item.tags || []).includes(selectedTag));
 
-    return matchSearch && matchTags
-  })
+    return matchSearch && matchTags;
+  });
 })
 </script>
 

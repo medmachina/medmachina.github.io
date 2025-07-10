@@ -26,7 +26,7 @@ npm run build
 ```
 
 ### TODO 
-- add a disclaimer page : 
+- ✔ add a disclaimer page : 
   - "the information on this site is provided as is, without any warranty or guarantee of accuracy. The site is not responsible for any errors or omissions in the information provided."
 - separate companies from robots 2 separate pages
   - id as string
@@ -44,7 +44,7 @@ npm run build
 - ✔ change the deguet brothers to "Aravind S. Kumar" "Anton Deguet" "Joris Deguet" 
 - ✔ images as URL : ok 
 - images catch exception if images have been removed
-- search should find hits on description name and tags EVERYTHING
+- ✔ search should find hits on description name and tags EVERYTHING
 - companies show
   - name
   - list of robots
