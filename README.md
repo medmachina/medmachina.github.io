@@ -36,7 +36,7 @@ npm run build
 - ✔ randomize the order of the robots on each display
 - ✔ how to contribute page  
 - RCM might stay as a tag specific values and others
-- specify usage as an another tag cloud
+- ✔ specify usage as an another tag cloud
 - regulatory year and 
   - value like "FDA 2023" or "CE 2022" or "clinical trials" think enter the time interval (entering service and being retired) or "no certification"
   - in the data you can have a list of regulatory statuses
