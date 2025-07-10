@@ -1,5 +1,6 @@
 <template>
   <router-view />
+  <DisclaimerModal />
   <footer class="footer">
     <p>
       Made by Joris Deguet, Anton Deguet, Aravind S. Kumar |
@@ -10,6 +11,7 @@
 </template>
 
 <script setup>
+import DisclaimerModal from './components/DisclaimerModal.vue';
 // Plus aucune logique ici, tout est géré par les composants de vue-router
 </script>
 
