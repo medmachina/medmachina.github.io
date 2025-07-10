@@ -58,6 +58,20 @@
       </div>
     </div>
 
+    <!-- Company Link Section -->
+    <div v-if="companyInfo" class="company-link-section">
+      <h3>Company</h3>
+      <div class="company-info">
+        <div class="company-details">
+          <strong>{{ companyInfo.name }}</strong>
+          <p>{{ companyInfo.description }}</p>
+        </div>
+        <button class="btn btn-primary" @click="goToCompany(companyInfo.name)">
+          See company details
+        </button>
+      </div>
+    </div>
+
     <div v-if="!project">
       <p>Projet introuvable.</p>
     </div>
@@ -71,13 +85,21 @@ import { useRoute, useRouter } from 'vue-router';
 const route = useRoute();
 const router = useRouter();
 const project = ref(null);
+const companies = ref([]);
 const invalidPhotoUrls = ref(new Set()); // Set pour stocker les URLs d'images invalides
 
 onMounted(async () => {
   console.log("Fetching project data for ID:", route.params.id);
-  const res = await fetch('/robots.json');
-  const data = await res.json();
-  project.value = data.find(p => String(p.id) === route.params.id);
+
+  // Charger les données des robots
+  const resRobots = await fetch('/robots.json');
+  const dataRobots = await resRobots.json();
+  project.value = dataRobots.find(p => String(p.id) === route.params.id);
+
+  // Charger les données des entreprises
+  const resCompanies = await fetch('/companies.json');
+  const dataCompanies = await resCompanies.json();
+  companies.value = dataCompanies;
 });
 
 function goHome() {
@@ -106,6 +128,20 @@ function handleImageError(photoUrl) {
 
   // Ajouter l'URL à la liste des URLs invalides
   invalidPhotoUrls.value.add(photoUrl);
+}
+
+// Computed property pour trouver l'entreprise associée au robot
+const companyInfo = computed(() => {
+  if (!project.value || !companies.value.length) return null;
+
+  return companies.value.find(company =>
+    company.robots && company.robots.includes(project.value.id)
+  );
+});
+
+// Fonction pour naviguer vers la page de détail de l'entreprise
+function goToCompany(companyName) {
+  router.push(`/company/${companyName}`);
 }
 
 // Computed properties pour extraire les photos et filtrer le projet
@@ -289,5 +325,22 @@ const projectUrls = computed(() => {
   font-size: 1rem;
   color: var(--color-text);
   margin-bottom: 1.5rem;
+}
+.company-link-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--color-background);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: white;
+}
+.company-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-details {
+  flex: 1;
+  margin-right: 1rem;
 }
 </style>
