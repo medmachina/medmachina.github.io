@@ -9,8 +9,20 @@ const selectedTags = ref([])
 
 onMounted(async () => {
   const response = await fetch('/robots.json')
-  items.value = await response.json()
+  const robots = await response.json()
+  // Randomiser l'ordre des robots avec l'algorithme de Fisher-Yates
+  items.value = shuffleArray(robots)
 })
+
+// Fonction pour mélanger un tableau (algorithme de Fisher-Yates)
+function shuffleArray(array) {
+  const newArray = [...array] // Copie du tableau pour ne pas modifier l'original
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]] // Échange des éléments
+  }
+  return newArray
+}
 
 const allTags = computed(() => {
   const tags = new Set()

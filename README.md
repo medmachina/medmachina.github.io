@@ -33,7 +33,7 @@ npm run build
   - default is still the robots page
   - two separate datasets in the json file
 - ✔ companies in the data order (json file)
-- randomize the order of the robots on each display
+- ✔ randomize the order of the robots on each display
 - ✔ how to contribute page  
 - RCM might stay as a tag specific values and others
 - specify usage as an another tag cloud
@@ -45,11 +45,10 @@ npm run build
 - ✔ images as URL : ok 
 - images catch exception if images have been removed
 - ✔ search should find hits on description name and tags EVERYTHING
-- companies show
+- ✔ companies show
   - name
   - list of robots
   - country
   - links (json array) if linkedin make it special
-- contact us through the issues in the github repository
-- 
+- ✔ contact us through the issues in the github repository
   
