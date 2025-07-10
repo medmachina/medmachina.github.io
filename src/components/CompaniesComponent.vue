@@ -62,7 +62,14 @@ const allCountries = computed(() => {
       countries.add(company.country)
     }
   })
-  return Array.from(countries).sort()
+
+  // Transformer le Set en tableau et trier par nombre d'entreprises (ordre décroissant)
+  return Array.from(countries)
+    .sort((a, b) => {
+      const countA = countCompaniesByCountry(a);
+      const countB = countCompaniesByCountry(b);
+      return countB - countA; // Tri décroissant (du plus grand au plus petit)
+    });
 })
 
 function countCompaniesByCountry(country) {
