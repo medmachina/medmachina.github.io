@@ -9,6 +9,15 @@
           <p><strong>Country:</strong> {{ company.country }}</p>
           <p v-if="company.description">{{ company.description }}</p>
 
+          <div v-if="company.linkedin_url" class="linkedin-container">
+            <a :href="company.linkedin_url" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="linkedin-icon">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>View on LinkedIn</span>
+            </a>
+          </div>
+
           <div v-if="company.urls && company.urls.length">
             <h3 class="h6 mt-4">Links</h3>
             <ul class="list-unstyled">
@@ -155,5 +164,33 @@ function handleImageError(event) {
 .btn-outline-primary:hover {
   background-color: var(--color-primary);
   color: white;
+}
+
+.linkedin-container {
+  margin: 1rem 0;
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #0077B5;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.linkedin-link:hover {
+  background-color: #005582;
+  color: white;
+}
+
+.linkedin-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  margin-right: 8px;
 }
 </style>

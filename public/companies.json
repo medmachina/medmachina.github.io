@@ -1,4 +1,3 @@
-
 [
   {
     "name": "Intuitive",
@@ -6,9 +5,11 @@
     "urls": [
       "https://www.intuitive.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/intuitive-surgical/",
     "robots": [
       "intuitiveDaVinci5",
-      "intuitiveDaVinciSP"
+      "intuitiveDaVinciSP",
+      "intuitiveIon"
     ],
     "description": "Intuitive is mostly famous for the Da Vinci platform."
   },
@@ -18,6 +19,7 @@
     "urls": [
       "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/medtronic/",
     "robots": [
       "medtronicHugoRas",
       "johnsonAndJohnsonMedtechMonarchQuest"
@@ -30,6 +32,7 @@
     "urls": [
       "https://www.medicaroid.com"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/medicaroid/",
     "robots": [
       "medicaroidHinotori"
     ],
@@ -41,6 +44,7 @@
     "urls": [
       "https://cmrsurgical.com/versius"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
     "robots": [
       "cmrSurgicalVersius"
     ],
@@ -52,6 +56,7 @@
     "urls": [
       "https://ssinnovations.com/ssi-mantra/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
     "robots": [
       "ssiiMantra"
     ],
@@ -63,6 +68,7 @@
     "urls": [
       "https://www.csrbtx.com/en/product_center/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
     "robots": [
       "cornerstoneRoboticsSentire"
     ],
@@ -74,6 +80,7 @@
     "urls": [
       "https://moonsurgical.com/maestro-system"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/moon-surgical/",
     "robots": [
       "moonSurgicalMaestro"
     ],
@@ -85,10 +92,11 @@
     "urls": [
       "https://www.revolvesurgical.com"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/revolve-surgical/",
     "robots": [
       "revolveSurgicalR1"
     ],
-    "description": "Revolve Surgical is a Canadian company based in Toronto, developing surgical robots like the R1."
+    "description": "Revolve Surgical is a Canadian company based in Toronto, building surgical robotics for every operating room, including the R1."
   },
   {
     "name": "Vicarious Surgical Inc",
@@ -96,6 +104,7 @@
     "urls": [
       "https://www.vicarioussurgical.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
     "robots": [
       "vicariousSurgicalInc"
     ],
@@ -107,6 +116,7 @@
     "urls": [
       "https://www.asensus.com/senhance"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
     "robots": [
       "asensusSurgicalSenhanceLuna"
     ],
@@ -118,6 +128,7 @@
     "urls": [
       "https://titanmedicalinc.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/titan-medical-inc/",
     "robots": [
       "titanMedicalEnos"
     ],
@@ -129,6 +140,7 @@
     "urls": [
       "https://thenext.jnjmedtech.com/surgical-robotics"
     ],
+    "linkedin_url": "https://www.linkedin.com/showcase/jnjmedtech/",
     "robots": [
       "johnsonAndJohnsonMedtechOttava"
     ],
@@ -140,6 +152,7 @@
     "urls": [
       "https://virtuososurgical.net/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
     "robots": [
       "virtuosoSurgicalVirtuoso"
     ],
@@ -151,6 +164,7 @@
     "urls": [
       "https://www.robsurgical.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/rob-surgical/",
     "robots": [
       "robSurgicalBitrack"
     ],
@@ -162,6 +176,7 @@
     "urls": [
       "http://revosurgical.com"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
     "robots": [
       "revoSurgicalRevoI"
     ],
@@ -173,6 +188,7 @@
     "urls": [
       "https://surgicalscience.com/simulators/flexvr/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
     "robots": [
       "surgicalScienceFlexVr"
     ],
@@ -184,6 +200,7 @@
     "urls": [
       "https://www.forcedimension.com"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
     "robots": [
       "forceDimensionSigmaOmega"
     ],
@@ -195,6 +212,7 @@
     "urls": [
       "https://www.haption.com"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/haption/",
     "robots": [
       "haptionVirtuoso"
     ],
@@ -206,6 +224,7 @@
     "urls": [
       "https://www.quanser.com/products/hd2-high-definition-haptic-device"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/quanser/",
     "robots": [
       "quanserHd2"
     ],
@@ -217,6 +236,7 @@
     "urls": [
       "https://www.noahmed.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
     "robots": [
       "noahMedicalGalaxy"
     ],
@@ -228,6 +248,7 @@
     "urls": [
       "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/stryker/",
     "robots": [
       "strykerMako"
     ],
@@ -239,6 +260,7 @@
     "urls": [
       "https://thinksurgical.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
     "robots": [
       "thinkSurgicalTmini"
     ],
@@ -250,6 +272,7 @@
     "urls": [
       "https://www.curexo.com/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/curexo/",
     "robots": [
       "curexoCuvisJointSpine"
     ],
@@ -261,6 +284,7 @@
     "urls": [
       "https://www.ecential-robotics.com/en-us"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/ecential-robotics/",
     "robots": [
       "ecentialRobotics"
     ],
@@ -272,6 +296,7 @@
     "urls": [
       "https://acusurgical.com"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
     "robots": [
       "acusurgicalLuca"
     ],
@@ -283,6 +308,7 @@
     "urls": [
       "https://www.mmimicro.com/our-technology/symani-surgical-system/"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
     "robots": [
       "mmiSymani"
     ],
@@ -294,6 +320,7 @@
     "urls": [
       "https://robotsguide.com/robots/ravensurgical"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/ravenii/",
     "robots": [
       "ravenIi"
     ],
@@ -305,6 +332,7 @@
     "urls": [
       "https://www.kinovarobotics.com/resource/enhancing-robotic-surgery-with-a-plug-and-play-multi-robot-surgical-platforms"
     ],
+    "linkedin_url": "https://www.linkedin.com/company/kinova-robotics/",
     "robots": [
       "super"
     ],
