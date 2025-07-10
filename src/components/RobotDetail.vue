@@ -12,10 +12,10 @@
     </div>
 
     <!-- Photo Gallery Section -->
-    <div v-if="photoUrls.length > 0" class="photo-gallery">
+    <div v-if="validPhotoUrls.length > 0" class="photo-gallery">
       <div class="gallery-grid">
         <div
-          v-for="(photoUrl, index) in photoUrls"
+          v-for="(photoUrl, index) in validPhotoUrls"
           :key="index"
           class="photo-item"
           @click="openPhoto(photoUrl)"
@@ -24,6 +24,7 @@
             :src="photoUrl"
             :alt="`Photo ${index + 1} du projet`"
             class="photo-thumbnail"
+            @error="handleImageError(photoUrl)"
           />
         </div>
       </div>
@@ -70,6 +71,7 @@ import { useRoute, useRouter } from 'vue-router';
 const route = useRoute();
 const router = useRouter();
 const project = ref(null);
+const invalidPhotoUrls = ref(new Set()); // Set pour stocker les URLs d'images invalides
 
 onMounted(async () => {
   console.log("Fetching project data for ID:", route.params.id);
@@ -99,6 +101,13 @@ function openPhoto(photoUrl) {
   window.open(photoUrl, '_blank');
 }
 
+function handleImageError(photoUrl) {
+  console.warn('Image non disponible:', photoUrl);
+
+  // Ajouter l'URL à la liste des URLs invalides
+  invalidPhotoUrls.value.add(photoUrl);
+}
+
 // Computed properties pour extraire les photos et filtrer le projet
 const photoUrls = computed(() => {
   if (!project.value?.photoURL) return [];
@@ -115,6 +124,14 @@ const photoUrls = computed(() => {
 
   // Si photoURL est une seule URL
   return [project.value.photoURL];
+});
+
+// Filtrer les URLs des photos valides (celles qui ne sont pas cassées)
+const validPhotoUrls = computed(() => {
+  return photoUrls.value.filter(url => {
+    // Vérifier si l'URL de l'image est valide et n'est pas dans la liste des URLs invalides
+    return isUrl(url) && !invalidPhotoUrls.value.has(url);
+  });
 });
 
 const filteredProject = computed(() => {
