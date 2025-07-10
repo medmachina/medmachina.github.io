@@ -43,7 +43,7 @@ npm run build
 - description should allow html tags (or markdown) for formatting
 - ✔ change the deguet brothers to "Aravind S. Kumar" "Anton Deguet" "Joris Deguet" 
 - ✔ images as URL : ok 
-- images catch exception if images have been removed
+- ✔ images catch exception if images have been removed
 - ✔ search should find hits on description name and tags EVERYTHING
 - ✔ companies show
   - name
