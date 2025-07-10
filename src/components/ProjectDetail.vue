@@ -73,7 +73,7 @@ const project = ref(null);
 
 onMounted(async () => {
   console.log("Fetching project data for ID:", route.params.id);
-  const res = await fetch('/data.json');
+  const res = await fetch('/robots.json');
   const data = await res.json();
   project.value = data.find(p => String(p.id) === route.params.id);
 });

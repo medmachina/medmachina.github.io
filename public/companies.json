@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Intuitive",
+    "country": "United States",
+    "urls": [
+      "https://www.intuitive.com/"
+    ],
+    "robots": [
+      "intuitiveDaVinci5",
+      "intuitiveDaVinciSP"
+    ],
+    "description": "Intuitive is mostly famous for the Da Vinci platform."
+  }
+]

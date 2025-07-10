@@ -1,7 +1,11 @@
 <template>
   <router-view />
   <footer class="footer">
-    <p>made by the Deguet brothers</p>
+    <p>
+      Made by Joris Deguet, Anton Deguet, Aravind S. Kumar |
+      <router-link to="/contribute">How to Contribute</router-link> |
+      <router-link to="/contact">Contact Us</router-link>
+    </p>
   </footer>
 </template>
 

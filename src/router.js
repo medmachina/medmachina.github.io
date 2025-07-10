@@ -3,6 +3,8 @@ import CardList from './components/CardList.vue';
 import ProjectDetail from './components/ProjectDetail.vue';
 import TestComponent from './components/TestComponent.vue';
 import HomeComponent from './components/HomeComponent.vue';
+import HowToContribute from './components/HowToContribute.vue';
+import ContactUs from './components/ContactUs.vue';
 
 const routes = [
   {
@@ -20,6 +22,16 @@ const routes = [
     path: '/test',
     name: 'Test',
     component: TestComponent
+  },
+  {
+    path: '/contribute',
+    name: 'Contribute',
+    component: HowToContribute
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: ContactUs
   }
 ];
 

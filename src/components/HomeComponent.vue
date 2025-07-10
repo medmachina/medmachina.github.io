@@ -8,7 +8,7 @@ const search = ref('')
 const selectedTags = ref([])
 
 onMounted(async () => {
-  const response = await fetch('/data.json')
+  const response = await fetch('/robots.json')
   items.value = await response.json()
 })
 
