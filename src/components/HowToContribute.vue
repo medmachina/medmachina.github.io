@@ -19,7 +19,7 @@
           Start by forking the <a href="https://github.com/amerodi/amerodi.github.io" target="_blank">AMERODI GitHub repository</a>
           to your own GitHub account.
         </p>
-        <div class="alert alert-info">
+        <div class="alert alert-info custom-alert">
           <i class="bi bi-info-circle me-2"></i>
           You'll need a GitHub account to fork the repository and submit a pull request.
         </div>
@@ -100,10 +100,9 @@ git push origin main</code></pre>
           Go to the <a href="https://github.com/amerodi/amerodi.github.io/pulls" target="_blank">original repository</a>
           and create a new pull request from your fork. Provide a clear description of your changes and why they should be included.
         </p>
-        <div class="alert alert-warning">
-          <i class="bi bi-exclamation-triangle me-2"></i>
+        <p>
           Please ensure all information is accurate and provide references where possible.
-        </div>
+        </p>
       </div>
     </div>
 
@@ -163,4 +162,18 @@ code {
   background-color: rgba(255, 193, 7, 0.1);
   border-left-color: rgba(255, 193, 7, 0.8);
 }
+
+.custom-alert {
+  background-color: var(--color-background-soft);
+  color: var(--color-text);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.custom-alert i {
+  color: var(--color-primary);
+}
 </style>
+<script setup lang="ts">
+</script>

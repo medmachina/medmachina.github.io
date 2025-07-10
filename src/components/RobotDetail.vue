@@ -49,11 +49,9 @@
       <div class="url-list">
         <div v-for="(url, index) in projectUrls" :key="index" class="url-item">
           <div class="url-info">
-            <span class="url-title">{{ getUrlTitle(url) }}</span>&nbsp;&nbsp;&nbsp;<span class="url-complete">({{ url }})</span>
+            <button class="btn btn-primary" @click="openUrl(url)">{{ getUrlTitle(url) }}</button>
+            <span class="url-complete">({{ url }})</span>
           </div>
-          <button class="btn btn-outline-primary btn-sm" @click="openUrl(url)">
-            Ouvrir
-          </button>
         </div>
       </div>
     </div>
@@ -342,5 +340,11 @@ const projectUrls = computed(() => {
 .company-details {
   flex: 1;
   margin-right: 1rem;
+}
+
+
+.url-title-btn:hover {
+  background-color: rgba(var(--color-primary-rgb), 0.1);
+  text-decoration: underline;
 }
 </style>
