@@ -2,10 +2,12 @@
 import { ref, computed, onMounted } from 'vue'
 import CardList from './CardList.vue'
 import TagCloud from './TagCloud.vue'
+import UsageCloud from './UsageCloud.vue'
 
 const items = ref([])
 const search = ref('')
 const selectedTags = ref([])
+const selectedUsages = ref([])
 
 onMounted(async () => {
   const response = await fetch('/robots.json')
@@ -32,10 +34,18 @@ const allTags = computed(() => {
   return Array.from(tags).sort()
 })
 
+const allUsages = computed(() => {
+  const usages = new Set()
+  items.value.forEach(item => {
+    (item.usages || []).forEach(usage => usages.add(usage))
+  })
+  return Array.from(usages).sort()
+})
+
 const filteredItems = computed(() => {
   return items.value.filter(item => {
     // Si aucun terme de recherche, ou aucun tag sélectionné, on retourne tous les éléments
-    if (!search.value && selectedTags.value.length === 0) return true;
+    if (!search.value && selectedTags.value.length === 0 && selectedUsages.value.length === 0) return true;
 
     // Fonction qui vérifie si un terme de recherche est présent dans une valeur
     const checkValue = (value, term) => {
@@ -62,7 +72,10 @@ const filteredItems = computed(() => {
     const matchTags = selectedTags.value.length === 0 ||
       selectedTags.value.every(selectedTag => (item.tags || []).includes(selectedTag));
 
-    return matchSearch && matchTags;
+    const matchUsages = selectedUsages.value.length === 0 ||
+      selectedUsages.value.every(selectedUsage => (item.usages || []).includes(selectedUsage));
+
+    return matchSearch && matchTags && matchUsages;
   });
 })
 </script>
@@ -118,7 +131,9 @@ h1, h2 {
         <CardList :items="filteredItems" />
       </section>
       <aside class="col-md-3">
-        <h2 class="h5 mb-3">Tags</h2>
+        <h2 class="h5 mb-3">Usages</h2>
+        <UsageCloud :usages="allUsages" v-model:selectedUsages="selectedUsages" />
+        <h2 class="h5 mb-3 mt-5">Tags</h2>
         <TagCloud :tags="allTags" v-model:selectedTags="selectedTags" />
       </aside>
     </div>

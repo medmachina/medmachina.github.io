@@ -15,6 +15,11 @@
       "teleoperated",
       "Commercial"
     ],
+    "usages": [
+      "Abdominal",
+      "Urological",
+      "Gynecological"
+    ],
     "description": "Designed to enable better outcomes, more efficiency, and actionable insights, da Vinci 5 brings more than 150 design innovations and 10,000x the computing power of da Vinci Xi.1 These advances support enhanced surgical senses, greater surgeon autonomy, more streamlined OR workflows, and advanced data analytics to enable the future of surgery."
   },
   {
@@ -37,6 +42,11 @@
       "Commercial",
       "Single Port"
     ],
+    "usages": [
+      "Urological",
+      "ENT",
+      "Transoral"
+    ],
     "description": "Location: Sunnyvale, California, USA. The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures."
   },
   {
@@ -53,6 +63,11 @@
       "RAMIS",
       "teleoperated",
       "Commercial"
+    ],
+    "usages": [
+      "Urological",
+      "Gynecological",
+      "General Surgery"
     ],
     "description": "Location: USA. Wheeled separate patient side manipulators, physical RCM. Surgeon’s side controllers similar to da Vinci (7-dofs, cartesian), flat panel display."
   },
@@ -72,6 +87,13 @@
       "teleoperated",
       "Commercial"
     ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
+    ],
     "description": "Location: Kobe, Japan. Four patient side manipulators, software RCM, mounted on single serial robot for positioning. Surgeon's side with fixed stereo display (ala HMD), two 7-dofs haptic arms (similar to da Vinci)."
   },
   {
@@ -89,6 +111,13 @@
       "teleoperated",
       "Commercial"
     ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
+    ],
     "description": "Location: UK. Modular, portable bedside units, open console, 3D HD vision, 7-dof arms."
   },
   {
@@ -104,6 +133,12 @@
       "RAMIS",
       "teleoperated",
       "Commercial"
+    ],
+    "usages": [
+      "Abdomen",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
     ],
     "description": "Location: Gurugram, Haryana, India. Up to 5 patient side manipulators on separate wheeled-cart, physical RCM. Surgeon's side with 3D flat panel and glasses, 7-dof haptic arms?"
   },
@@ -121,6 +156,13 @@
       "RAMIS",
       "teleoperated",
       "Commercial"
+    ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
     ],
     "description": "Location: Hong Kong. Similar to da Vinci X."
   },
@@ -140,6 +182,12 @@
       "autonomous",
       "Commercial"
     ],
+    "usages": [
+      "Urological",
+      "Gynecological",
+      "ENT",
+      "Transoral"
+    ],
     "description": "Location: Paris, France/ San Carlos, California, USA. ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery."
   },
   {
@@ -155,6 +203,13 @@
       "RAMIS",
       "collaborative control",
       "Commercial"
+    ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
     ],
     "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle."
   },
@@ -174,6 +229,13 @@
       "teleoperated",
       "Commercial"
     ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
+    ],
     "description": "Location: Waltham, Massachussets, USA. Surgeon’s side controllers in cartesian space (off-the-shelf ForceDimension?), flat panel display. Patient side single port, two manipulators, folded stereo camera."
   },
   {
@@ -190,6 +252,13 @@
       "teleoperated",
       "Commercial"
     ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
+    ],
     "description": "Location: Durham, North Carolina, USA. Wheeled separate patient side manipulators, software RCM. Senhance had surgeon’s side manipulator emulate laparoscopic instruments (not cartesian). LUNA seems use free hand system (optical or magnetic tracking?), flat panel display."
   },
   {
@@ -204,6 +273,13 @@
     "tags": [
       "RAMIS",
       "Commercial"
+    ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
     ],
     "description": "Location: Toronto, Ontario, Canada. Surgeon’s side controllers in cartesian space (off-the-shelf ForceDimension?), flat panel display. Patient side single port, two manipulators, articulated stereo camera."
   },
@@ -220,6 +296,13 @@
       "RAMIS",
       "teleoperated",
       "Commercial"
+    ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
     ],
     "description": "Table-mounted separate patient side serial manipulators, software RCM Based on snapshots, stereo display with eye piece (ala da Vinci)."
   },
@@ -238,6 +321,9 @@
       "teleoperated",
       "Commercial",
       "Single Port"
+    ],
+    "usages": [
+      "Abdominal"
     ],
     "description": "Location: Nashville, Tennessee, USA. Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulator emulate laparoscopic instruments (not cartesian)."
   },
@@ -258,6 +344,13 @@
       "teleoperated",
       "Commercial"
     ],
+    "usages": [
+      "Abdominal",
+      "Thoracic",
+      "Urological",
+      "Gynecological",
+      "Cardiac"
+    ],
     "description": "Barcelona, Spain. Up to four patient manipulators, software RCM, uses off-the-shelf instruments (no articulated wrist?). Surgeon's side use 2 haptic devices and flat panel display."
   },
   {
@@ -275,6 +368,9 @@
       "RAMIS",
       "teleoperated",
       "Commercial"
+    ],
+    "usages": [
+      "Abdominal"
     ],
     "description": "Seoul, South Korea. Similar to da Vinci Si."
   },
@@ -354,7 +450,10 @@
       "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Galaxy_Feature_1_800x800pxl.jpg"
     ],
     "tags": [
-      "flexible robot",
+      "flexible robot"
+    ],
+    "usages": [
+      "Lung",
       "Bronchoscopy"
     ],
     "description": "Location: California, USA. Used with C-Arm/CBCT."
@@ -370,8 +469,10 @@
     ],
     "tags": [
       "flexible robot",
-      "Intuitive",
-      "Bronchoscopy"
+      "Intuitive"
+    ],
+    "usages": [
+      "Lung", "Bronchoscopy"
     ],
     "description": "Location: California, USA. Used with C-Arm/CBCT."
   },
@@ -401,7 +502,9 @@
       "https://media-assets.stryker.com/is/image/stryker/Mako%204%20TKA%20and%20Q%20Guidance%204K%20(1)?$max_width_1440$"
     ],
     "tags": [
-      "Open orthopedic surgery",
+      "Open surgery"
+    ],
+    "usages": [
       "Knee",
       "Orthopedic"
     ],
@@ -417,7 +520,9 @@
       "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2024-08/1281984494%20-%20VRAS%20Software%20Render%20Update%201_0.png?h=35b68762&itok=Qml0ufDd"
     ],
     "tags": [
-      "Open orthopedic surgery",
+      "Open surgery"
+    ],
+    "usages": [
       "Knee",
       "Hip",
       "Orthopedic"
@@ -434,8 +539,10 @@
       "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMini_Robot_V1_0010442+Left_hand_v1.jpg"
     ],
     "tags": [
-      "Open orthopedic surgery",
-      "Knee",
+      "Open surgery"
+    ],
+    "usages": [
+      "knee",
       "Orthopedic"
     ],
     "description": "Location: Freemont, California, USA."
@@ -451,9 +558,11 @@
       "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-2-768x576.jpg"
     ],
     "tags": [
-      "Open surgery",
+      "Open surgery"
+    ],
+    "usages": [
       "Knee",
-      "spine",
+      "Spine",
       "Orthopedic"
     ],
     "description": "Location: Seoul, South Korea. Different robotic systems for knee and spine."
@@ -468,8 +577,7 @@
       "https://www.ecential-robotics.com/media/images/trash/_1920x1080_crop_center-center_none/43961/Ecential_Robotics_0837_operation_bloc%C2%A9e2nphoto.com-Copie-Copie.webp"
     ],
     "tags": [
-      "Open surgery",
-      "Orthopedic"
+      "Open surgery"
     ],
     "description": "Location: Grenoble, France. Seems to use Kuka medical arm and optical tracker."
   },
@@ -483,9 +591,10 @@
       "https://static.wixstatic.com/media/7574e8_f639a2e99e8348edb7eabb11f551a9e0~mv2.png/v1/crop/x_561,y_0,w_829,h_894/fill/w_600,h_711,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/FIH%202024.png"
     ],
     "tags": [
-      "Eye",
-      "teleoperated",
-      "Other"
+      "teleoperated"
+    ],
+    "usages": [
+      "eye"
     ],
     "description": "Location: Montpellier, France. 2 patient side manipulators."
   },
@@ -501,8 +610,7 @@
       "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-Instruments.jpg"
     ],
     "tags": [
-      "Open microsurgery",
-      "Other"
+      "Open microsurgery"
     ],
     "description": "Location: Jacksonville, Florida, USA. 2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?"
   },
@@ -518,6 +626,9 @@
     "tags": [
       "RAMIS",
       "Research systems"
+    ],
+    "usages": [
+      "Abdominal"
     ],
     "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
   },
@@ -539,3 +650,4 @@
     "description": "da Vinci S/Si instruments mounted on serial manipulator (Kinova). Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
   }
 ]
+
