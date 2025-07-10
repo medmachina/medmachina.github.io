@@ -2,19 +2,24 @@
   <div class="d-flex flex-wrap align-items-center gap-2">
     <span
       v-for="usage in usages"
-      :key="usage"
-      :class="['badge', isSelected(usage) ? 'bg-success' : 'dark-usage', 'usage-cloud-badge']"
-      style="cursor:pointer;"
-      @click="toggleUsage(usage)"
+      :key="usage.name"
+      :class="['badge', isSelected(usage.name) ? 'bg-success' : 'dark-usage', 'usage-cloud-badge']"
+      :style="{
+        cursor: 'pointer',
+        fontSize: `${0.75 + (usage.count / maxUsageCount) * 0.5}rem`
+      }"
+      @click="toggleUsage(usage.name)"
     >
-      {{ usage }}
-      <span v-if="isSelected(usage)" class="ms-1" style="font-size: 0.8em;">✕</span>
+      {{ usage.name }}
+      <span v-if="isSelected(usage.name)" class="ms-1" style="font-size: 0.8em;">✕</span>
     </span>
     <span v-if="selectedUsages.length > 0" class="ms-2 text-danger fw-bold" style="cursor:pointer;" @click="clearAllUsages">Remove all</span>
   </div>
 </template>
 
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
   usages: Array,
   selectedUsages: {
@@ -25,20 +30,26 @@ const props = defineProps({
 
 const emit = defineEmits(['update:selectedUsages']);
 
-function isSelected(usage) {
-  return props.selectedUsages.includes(usage);
+// Calculer le nombre maximum d'occurrences pour normaliser les tailles
+const maxUsageCount = computed(() => {
+  if (!props.usages || props.usages.length === 0) return 1;
+  return Math.max(...props.usages.map(usage => usage.count));
+});
+
+function isSelected(usageName) {
+  return props.selectedUsages.includes(usageName);
 }
 
-function toggleUsage(usage) {
+function toggleUsage(usageName) {
   const newSelectedUsages = [...props.selectedUsages];
-  const index = newSelectedUsages.indexOf(usage);
+  const index = newSelectedUsages.indexOf(usageName);
 
   if (index > -1) {
     // Usage déjà sélectionné, le retirer
     newSelectedUsages.splice(index, 1);
   } else {
     // Usage pas encore sélectionné, l'ajouter
-    newSelectedUsages.push(usage);
+    newSelectedUsages.push(usageName);
   }
 
   emit('update:selectedUsages', newSelectedUsages);
@@ -57,6 +68,10 @@ function clearAllUsages() {
 .usage-cloud-badge {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
-  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+.usage-cloud-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 </style>

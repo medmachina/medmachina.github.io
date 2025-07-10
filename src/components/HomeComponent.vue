@@ -27,19 +27,33 @@ function shuffleArray(array) {
 }
 
 const allTags = computed(() => {
-  const tags = new Set()
+  // Compter la fréquence de chaque tag
+  const tagCount = {}
   items.value.forEach(item => {
-    (item.tags || []).forEach(tag => tags.add(tag))
+    (item.tags || []).forEach(tag => {
+      tagCount[tag] = (tagCount[tag] || 0) + 1
+    })
   })
-  return Array.from(tags).sort()
+
+  // Convertir en tableau d'objets avec le tag et sa fréquence
+  return Object.keys(tagCount)
+    .map(tag => ({ name: tag, count: tagCount[tag] }))
+    .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
 })
 
 const allUsages = computed(() => {
-  const usages = new Set()
+  // Compter la fréquence de chaque usage
+  const usageCount = {}
   items.value.forEach(item => {
-    (item.usages || []).forEach(usage => usages.add(usage))
+    (item.usages || []).forEach(usage => {
+      usageCount[usage] = (usageCount[usage] || 0) + 1
+    })
   })
-  return Array.from(usages).sort()
+
+  // Convertir en tableau d'objets avec l'usage et sa fréquence
+  return Object.keys(usageCount)
+    .map(usage => ({ name: usage, count: usageCount[usage] }))
+    .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
 })
 
 const filteredItems = computed(() => {
