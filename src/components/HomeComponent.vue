@@ -88,7 +88,10 @@ h1, h2 {
 
 <template>
   <header class="d-flex align-items-center justify-content-between p-3 mb-4 border-bottom">
-    <h1 class="mb-0">A Medical Robot Directory</h1>
+    <div class="d-flex align-items-center">
+      <h1 class="mb-0 me-4">A Medical Robot Directory</h1>
+      <router-link to="/companies" class="btn btn-primary">Companies</router-link>
+    </div>
     <img src="/src/assets/bot.png" alt="Bot" style="height:48px; width:auto;" />
   </header>
   <main class="container-fluid py-4">

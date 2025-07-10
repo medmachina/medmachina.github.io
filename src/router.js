@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import CardList from './components/CardList.vue';
-import ProjectDetail from './components/ProjectDetail.vue';
+import RobotDetail from './components/RobotDetail.vue';
 import TestComponent from './components/TestComponent.vue';
 import HomeComponent from './components/HomeComponent.vue';
 import HowToContribute from './components/HowToContribute.vue';
 import ContactUs from './components/ContactUs.vue';
+import CompaniesComponent from './components/CompaniesComponent.vue';
+import CompanyDetail from './components/CompanyDetail.vue';
 
 const routes = [
   {
@@ -15,8 +17,7 @@ const routes = [
   {
     path: '/robot/:id',
     name: 'RobotDetail',
-    component: ProjectDetail//,
-    //props: true
+    component: RobotDetail
   },
   {
     path: '/test',
@@ -32,6 +33,16 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: ContactUs
+  },
+  {
+    path: '/companies',
+    name: 'Companies',
+    component: CompaniesComponent
+  },
+  {
+    path: '/company/:name',
+    name: 'CompanyDetail',
+    component: CompanyDetail
   }
 ];
 

@@ -28,12 +28,12 @@ npm run build
 ### TODO 
 - ✔ add a disclaimer page : 
   - "the information on this site is provided as is, without any warranty or guarantee of accuracy. The site is not responsible for any errors or omissions in the information provided."
-- separate companies from robots 2 separate pages
+- ✔ separate companies from robots 2 separate pages
   - id as string
   - default is still the robots page
-  - randomize the order of the robots on each display
   - two separate datasets in the json file
-  - companies in the data order (json file)
+- ✔ companies in the data order (json file)
+- randomize the order of the robots on each display
 - ✔ how to contribute page  
 - RCM might stay as a tag specific values and others
 - specify usage as an another tag cloud
