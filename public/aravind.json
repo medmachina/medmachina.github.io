@@ -4,10 +4,11 @@
     "company_country": "Intuitive Surgical / USA",
     "rcm_type": "mechanical",
     "configuration": "patient cart with 4 overhead arms on boom, separate surgeon console & vision cart",
-    "regulatory_status": "FDA 510(k) 2014 (Xi model) \u2014 original da Vinci cleared 2000; CE",
+    "regulatory_status": "FDA 510(k) 2014 (Xi model) - original da Vinci cleared 2000; CE",
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "multi-quadrant minimally invasive surgery",
+    "image_url": "https://www.hudsonregionalhospital.com/wp-content/uploads/2018/06/Img128_Xi_Trio_of_System_Components_High_Res_184859-1024x687.jpg",
     "other_details": "market leader; millions of procedures"
   },
   {
@@ -19,6 +20,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "general, urology, gynecology MIS",
+    "image_url": "https://imgproxy.divecdn.com/89izXvqEkGzXfltlANY1MFdBXhQM1vhWwr8jggnfCgw/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qcGctbWVkaXVtLWR2LXN5cy1kdjUtZmlyc3RhY2Nlc3MtMi1mdWxsc3lzdGVtLXd0LTAyMjAyNF9xVTJVb055LmpwZw==.webp",
     "other_details": "adds force-sensing and AI workflow guidance"
   },
   {
@@ -30,17 +32,19 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "single-port urology, trans-oral MIS",
+    "image_url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci/sp-system-front-view.jpg?s=e042b0dabc16bdf087f86cb6a9af33c0",
     "other_details": "snake-like instruments allow triangulation through one incision"
   },
   {
     "robot_name": "Versius",
     "company_country": "CMR Surgical / UK",
     "rcm_type": "virtual",
-    "configuration": "3\u20134 independent arm carts, open console, vision cart",
+    "configuration": "3-4 independent arm carts, open console, vision cart",
     "regulatory_status": "CE 2019; FDA De Novo Apr 2024",
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "laparoscopic general surgery",
+    "image_url": "https://www.therobotreport.com/wp-content/uploads/2025/02/CMR-Surgical-Versius-surgical-robot-wins-FDA-clearance-1-768x499-1.jpg",
     "other_details": "portable carts; biomimetic 7-DoF wrists"
   },
   {
@@ -52,17 +56,19 @@
     "clinical_trials": "ongoing",
     "display_type": "stereo 3D",
     "usage": "urology, gynecology, general MIS",
+    "image_url": "https://www.massdevice.com/wp-content/uploads/2019/09/Medtronic-RAS-system-copy.jpg",
     "other_details": "open console boosts team communication"
   },
   {
     "robot_name": "Senhance",
     "company_country": "Asensus Surgical / USA-Italy",
     "rcm_type": "mechanical",
-    "configuration": "3\u20134 arm carts + open console with eye-tracking camera",
+    "configuration": "3-4 arm carts + open console with eye-tracking camera",
     "regulatory_status": "FDA 510(k) 2017; CE 2012",
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "laparoscopic colorectal & gyne",
+    "image_url": "https://www.therobotreport.com/wp-content/uploads/2024/01/Asensus_Senhance.jpg",
     "other_details": "haptic feedback + eye-tracking"
   },
   {
@@ -74,6 +80,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "urology, general MIS",
+    "image_url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2022/05/revo-surgical-robot.png",
     "other_details": "first Korean soft-tissue robot"
   },
   {
@@ -85,6 +92,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "urology, GI, gynecology",
+    "image_url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2022/09/hinotori%E2%84%A2-Surgical-Robot-System-1.jpg",
     "other_details": "Kawasaki-Sysmex joint venture"
   },
   {
@@ -96,6 +104,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "urology, general MIS",
+    "image_url": "https://avatera.eu/fileadmin/_processed_/b/9/csm_avatera_news_201911_fa96ae9ce9.jpg",
     "other_details": "single-use sterile instruments"
   },
   {
@@ -107,6 +116,7 @@
     "clinical_trials": "ongoing",
     "display_type": "stereo 3D",
     "usage": "cardiac, thoracic, general MIS",
+    "image_url": "https://imgproxy.divecdn.com/_o0yADM7dMPDYjAMFCn9lgZrrHU8mpLpYbvAGyRW_O4/g:nowe:475:47/c:1440:813/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90aHVtYm5haWxfU1NJLU0zLS0tNUstUmVuZGVyLTIwMC1wdHMucG5n.webp",
     "other_details": "low-cost emerging-market design"
   },
   {
@@ -118,6 +128,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "GI, urology",
+    "image_url": "https://www2.goldenpin.org.tw/en/file/2022/09/GPD-2022-01A13-0820-1840-1.jpg",
     "other_details": "early domestic Chinese robot"
   },
   {
@@ -129,6 +140,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "general & urologic MIS",
+    "image_url": "https://www.red-dot.org/fileadmin/_processed_/5/5/csm_36-05804-2022PD-01_CO_EV_2ff0937d11.jpg",
     "other_details": "marketed domestically as Toumiao"
   },
   {
@@ -140,6 +152,7 @@
     "clinical_trials": "ongoing",
     "display_type": "stereo 3D",
     "usage": "general MIS (planned)",
+    "image_url": "https://www.bioworld.com/ext/resources/BMT-source/2023/1-26--Da-Vinci-Xi-robot-Intuitive-Surgical.png?1744749714",
     "other_details": "eliminates floor carts"
   },
   {
@@ -151,6 +164,7 @@
     "clinical_trials": "no",
     "display_type": "stereo 3D",
     "usage": "single-port abdominal MIS (concept)",
+    "image_url": "https://www.therobotreport.com/wp-content/uploads/2022/11/ENOS-surgical-system.jpg",
     "other_details": "company pivoted to IP licensing"
   },
   {
@@ -162,6 +176,7 @@
     "clinical_trials": "no",
     "display_type": "stereo 3D",
     "usage": "academic R&D platform",
+    "image_url": "https://cdn.sanity.io/images/7p2whiua/production/627bfcf42a6a641b3e3d73638ae73fea910cb0dc-2048x1536.jpg",
     "other_details": "open-source control code"
   },
   {
@@ -173,6 +188,7 @@
     "clinical_trials": "no",
     "display_type": "stereo 3D",
     "usage": "force-feedback MIS research",
+    "image_url": "https://inhabitat.com/wp-content/blogs.dir/1/files/2013/11/Microsurge-e1384802442373.jpg",
     "other_details": "test-bed for haptics"
   },
   {
@@ -184,6 +200,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "transoral & colorectal NOTES",
+    "image_url": "https://www.sages.org/wp-content/uploads/2018/04/flex1.png",
     "other_details": "first commercial continuum-robot"
   },
   {
@@ -195,6 +212,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "gynecologic NOTES",
+    "image_url": "https://www.sages.org/wp-content/uploads/2021/06/Hominis.jpg",
     "other_details": "first FDA-cleared NOTES robot"
   },
   {
@@ -206,6 +224,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "lung nodule biopsy, kidney stones",
+    "image_url": "https://www.jnjmedtech.com/sites/default/files/styles/crop_presets/public/2024-12/JJMT_Product_Other_Monarch_T_1-screen-image.png?itok=-G0iF_6p",
     "other_details": "first robotic bronchoscope on market"
   },
   {
@@ -217,6 +236,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "peripheral lung biopsy",
+    "image_url": "https://www.leehealth.org/getmedia/c8164d56-aefe-4023-abe1-625345f494dc/intuitive-ion-system-hi-res.jpg?width=500&height=348",
     "other_details": "shape-sensing catheter for deep-lung access"
   },
   {
@@ -228,7 +248,8 @@
     "clinical_trials": "ongoing",
     "display_type": "mono 2D",
     "usage": "lung biopsy",
-    "other_details": "TiLT+ imaging verifies tool\u2013nodule overlap"
+    "image_url": "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Galaxy_Feature_1_800x800pxl.jpg",
+    "other_details": "TiLT+ imaging verifies tool-nodule overlap"
   },
   {
     "robot_name": "MIRA",
@@ -239,6 +260,7 @@
     "clinical_trials": "ongoing",
     "display_type": "mono 2D",
     "usage": "colon resection; remote surgery R&D",
+    "image_url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2021/08/mira-robotic-platform-e1629373202191.png",
     "other_details": "first surgical robot operated in space"
   },
   {
@@ -250,7 +272,8 @@
     "clinical_trials": "no",
     "display_type": "stereo 3D",
     "usage": "abdominal MIS (prototype)",
-    "other_details": "360\u00b0 immersive view, 14\u00d7 motion scaling"
+    "image_url": "https://www.vicarioussurgical.com/wp-content/uploads/home-system-122022-sm-v2.png",
+    "other_details": "360 degree immersive view, 14x motion scaling"
   },
   {
     "robot_name": "Maestro",
@@ -261,6 +284,7 @@
     "clinical_trials": "ongoing",
     "display_type": "none / N-A",
     "usage": "laparoscopic assistance",
+    "image_url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2025/06/moon-surgical-maestro-system-740x1107.jpg",
     "other_details": "cobot that augments, not replaces, surgeon hands"
   },
   {
@@ -272,6 +296,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "orthopedic joint replacement",
+    "image_url": "https://media-assets.stryker.com/is/image/stryker/Mako%204%20TKA%20and%20Q%20Guidance%204K%20(1)?$max_width_1440$",
     "other_details": "surgeon-held burr stays in virtual boundaries"
   },
   {
@@ -283,6 +308,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "total knee arthroplasty",
+    "image_url": "https://www.zimmerbiomet.com/en/products-and-solutions/specialties/knee/rosa--knee-system/_jcr_content/root/container/hero_jump_links/horizontalImage.coreimg.png/1734724597629/rosa-knee-hero.png",
     "other_details": "imageless or CT-based workflow"
   },
   {
@@ -294,6 +320,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "partial & total knee arthroplasty",
+    "image_url": "hhttps://smith-nephew.stylelabs.cloud/api/public/content/a18e0adc225b40209184d0085718b05d?v=2d88afed",
     "other_details": "replaces earlier NAVIO"
   },
   {
@@ -305,6 +332,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "total knee arthroplasty",
+    "image_url": "https://www.jnjmedtech.com/sites/default/files/styles/crop_presets/public/2025-04/Johnson%20and%20Johnson%20MedTech%20VELYS%20Robotic%20Assisted%20Solution%20H3_0.png?h=f5dc67b8&itok=xwpXM3WL",
     "other_details": "smallest footprint in ortho segment"
   },
   {
@@ -316,6 +344,7 @@
     "clinical_trials": "yes",
     "display_type": "stereo 3D",
     "usage": "general & gyne MIS",
+    "image_url": "https://cms.distalmotion.com/uploads/2024_11_01_6_1_Individual_Shots_PC_Pair_064832d703.jpg",
     "other_details": "instant switch between laparoscopy and robotics"
   },
   {
@@ -327,6 +356,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "depth electrodes, DBS, biopsy",
+    "image_url": "https://www.zimmerbiomet.com/en/products-and-solutions/zb-edge/robotics/rosa-brain/_jcr_content/root/container/container_copy/container_copy_11441/container_755527286__1486694949/container_2098533126/image.coreimg.png/1710214223221/rosapkaknee%402x.png",
     "other_details": "shared platform with ROSA Spine & Knee"
   },
   {
@@ -338,6 +368,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "stereotactic neurosurgery",
+    "image_url": "https://www.renishaw.com/media/img/gen/fd3ed2ced87849579c7494185edfe8d7.png",
     "other_details": "one of the earliest neurosurgical robots"
   },
   {
@@ -349,6 +380,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "spine & trauma",
+    "image_url": "https://bonezonepub.com/wp-content/uploads/2019/10/TINAVI_robot.png",
     "other_details": "first Chinese ortho robot"
   },
   {
@@ -360,6 +392,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "total knee arthroplasty",
+    "image_url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2021/03/curexo-surgical-robot-joint-cuvis.jpg",
     "other_details": "descendant of ROBODOC concept"
   },
   {
@@ -371,6 +404,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "spine pedicle screw trajectories",
+    "image_url": "https://www.brownhealth.org/sites/default/files/2022-05/mazor-equipment-media-card.jpg",
     "other_details": "integrates O-arm imaging"
   },
   {
@@ -382,6 +416,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "spine instrumentation",
+    "image_url": "https://www.globusmedical.com/wp-content/uploads/2024/08/egps-sq-300x300.png",
     "other_details": "integrated cone-beam CT"
   },
   {
@@ -393,6 +428,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "knee & hip arthroplasty",
+    "image_url": "https://www.therobotreport.com/wp-content/uploads/2020/11/THINK-SURGICAL1A3b.jpg",
     "other_details": "only fully active robot in ortho market"
   },
   {
@@ -404,6 +440,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "camera positioning for laparoscopy",
+    "image_url": "https://www.freehandsurgeon.com/system/files/styles/max_650x650/private/2021-11/spp-3tile.png?itok=RMiJLiVS",
     "other_details": "cost-effective camera holder"
   },
   {
@@ -415,6 +452,7 @@
     "clinical_trials": "yes",
     "display_type": "optical microscope",
     "usage": "vitreoretinal microsurgery",
+    "image_url": "https://assets.w3.tue.nl/w/fileadmin/_processed_/8/a/csm_BvOF_2011_1018_BL_Eye-RHAS_-HR-_ontkleurd_licht_klein_06eddfd335.jpg",
     "other_details": "sub-micron accuracy for retinal membrane peel"
   },
   {
@@ -426,7 +464,8 @@
     "clinical_trials": "yes",
     "display_type": "optical microscope",
     "usage": "super-microsurgery (lymphatics)",
-    "other_details": "20\u00d7 motion scaling & tremor filtering"
+    "image_url": "https://microsure.nl/wp-content/uploads/2023/09/Microsure_Render_04.jpg",
+    "other_details": "20x motion scaling & tremor filtering"
   },
   {
     "robot_name": "Symani Surgical System",
@@ -437,7 +476,8 @@
     "clinical_trials": "yes",
     "display_type": "optical microscope",
     "usage": "microsurgery, reconstructive",
-    "other_details": "world\u2019s smallest wristed tools (\u00d8 3.5 mm)"
+    "image_url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-1.jpg",
+    "other_details": "world's smallest wristed tools (diameter 3.5 mm)"
   },
   {
     "robot_name": "CorPath GRX",
@@ -448,6 +488,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "coronary & peripheral intervention",
+    "image_url": "https://www.therobotreport.com/wp-content/uploads/2019/11/Extended-Reach_Arm_HR-1-1024x523.jpg",
     "other_details": "reduces operator radiation exposure to zero"
   },
   {
@@ -459,6 +500,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "peripheral vascular navigation",
+    "image_url": "https://www.medicaldesignandoutsourcing.com/wp-content/uploads/2015/10/robotic-system.jpg",
     "other_details": "acquired by Auris Health 2016"
   },
   {
@@ -470,6 +512,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D (planning workstation)",
     "usage": "stereotactic radiosurgery & SBRT",
+    "image_url": "https://cyberknife.com/wp-content/uploads/ck-s7-linacghosting.jpg",
     "other_details": "non-invasive radiation, not tissue-cutting"
   },
   {
@@ -481,6 +524,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "BPH tissue resection (Aquablation)",
+    "image_url": "https://www.procept-biorobotics.com/_next/image?url=https%3A%2F%2Fproceptwebback.wpenginepowered.com%2Fwp-content%2Fuploads%2F2024%2F10%2Ffaded-aquablation-mobile.png&w=3840&q=75",
     "other_details": "automated, heat-free therapy"
   },
   {
@@ -492,6 +536,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D (MRI)",
     "usage": "brain tumor LITT",
+    "image_url": "https://www.monteris.com/wp-content/uploads/2019/05/technologies-hardware-v101.png",
     "other_details": "real-time MRI thermometry"
   },
   {
@@ -503,6 +548,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "hair restoration",
+    "image_url": "https://www.venusconcept.com/products/artas-ix-top.png",
     "other_details": "AI vision selects optimal follicles"
   },
   {
@@ -514,9 +560,11 @@
     "clinical_trials": "ongoing",
     "display_type": "stereo 3D",
     "usage": "general MIS & remote surgery R&D",
+    "image_url": "https://sinamed.ir/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproducts_001.65bd8632.png&w=3840&q=75",
     "other_details": "developed under sanctions"
   },
   {
+
     "robot_name": "i-Migo - Very little information available",
     "company_country": "IMR / China",
     "rcm_type": "virtual",
@@ -525,6 +573,7 @@
     "clinical_trials": "ongoing",
     "display_type": "stereo 3D",
     "usage": "gynecology, general surgery",
+    "image_url": "",
     "other_details": "second-wave Chinese soft-tissue robot"
   },
   {
@@ -536,6 +585,7 @@
     "clinical_trials": "ongoing",
     "display_type": "stereo 3D",
     "usage": "general surgery, bariatrics",
+    "image_url": "https://eu-images.contentstack.com/v3/assets/blt14ac89070d5e4751/blt02b7937272e6f93a/651adff8f2a4c5707339979b/IMG_2023-3-9-111517.jpg?disable=upscale&width=1200&height=630&fit=crop",
     "other_details": "future successor to Senhance"
   },
   {
@@ -547,6 +597,7 @@
     "clinical_trials": "yes",
     "display_type": "mono 2D",
     "usage": "cranial neurosurgery (DBS, biopsy)",
+    "image_url": "https://media.nature.com/lw767/magazine-assets/d42473-020-00264-z/d42473-020-00264-z_18111600.png",
     "other_details": "rapid domestic adoption in China"
   }
 ]
