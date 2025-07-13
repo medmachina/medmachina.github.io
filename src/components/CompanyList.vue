@@ -7,7 +7,10 @@
           <h6 class="card-subtitle mb-2 text-muted">{{ company.country }}</h6>
           <p class="card-text text-ellipsis">{{ company.description }}</p>
           <div class="mb-2" v-if="company.robots && company.robots.length">
-            <span class="badge bg-info me-1">{{ company.robots.length }} robots</span>
+<!--            <span class="badge bg-info me-1">{{ company.robots.length }} robots</span>-->
+            <span v-for="robotId in company.robots" :key="robotId" class="badge bg-secondary me-1 robot-link robot-badge-ellipsis" @click.stop="goToRobot(robotId)" :title="getRobotName(robotId)">
+              {{ getRobotName(robotId) }}
+            </span>
           </div>
         </div>
       </div>
@@ -17,6 +20,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router';
+import { ref, onMounted } from 'vue';
 
 const props = defineProps({
   companies: {
@@ -26,9 +30,32 @@ const props = defineProps({
 });
 
 const router = useRouter();
+const robotsData = ref([]);
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/robots.json');
+    if (response.ok) {
+      robotsData.value = await response.json();
+    } else {
+      console.error('Failed to fetch robots data');
+    }
+  } catch (error) {
+    console.error('Error fetching robots data:', error);
+  }
+});
+
+function getRobotName(robotId) {
+  const robot = robotsData.value.find(r => r.id === robotId);
+  return robot ? robot.project_name : robotId;
+}
 
 function goToDetail(company) {
   router.push(`/company/${company.name}`);
+}
+
+function goToRobot(robotId) {
+  router.push(`/robot/${robotId}`);
 }
 </script>
 
@@ -62,5 +89,19 @@ function goToDetail(company) {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.robot-link {
+  cursor: pointer;
+  transition: background-color 0.2s;
+  max-width: 200px;
+  display: inline-block;
+}
+.robot-badge-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.robot-link:hover {
+  background-color: var(--color-primary);
 }
 </style>

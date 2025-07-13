@@ -4,9 +4,9 @@
 
     <div class="card mb-4">
       <div class="card-body">
-        <h2 class="card-title">Contributing to AMERODI</h2>
+        <h2 class="card-title">Contributing to Med Machina</h2>
         <p class="card-text">
-          We welcome contributions to the A Medical Robot Directory (AMERODI). This guide will help you understand
+          We welcome contributions to Med Machina. This guide will help you understand
           how to contribute by adding or updating robot and company information in our database.
         </p>
       </div>
@@ -16,7 +16,7 @@
       <div class="card-body">
         <h2 class="card-title">Step 1: Fork the Repository</h2>
         <p class="card-text">
-          Start by forking the <a href="https://github.com/amerodi/amerodi.github.io" target="_blank">AMERODI GitHub repository</a>
+          Start by forking the <a href="https://github.com/medmachina/medmachina.github.io" target="_blank">MedMachina GitHub repository</a>
           to your own GitHub account.
         </p>
         <div class="alert alert-info custom-alert">
@@ -32,8 +32,8 @@
         <p class="card-text">
           Clone your forked repository to your local machine:
         </p>
-        <pre class="bg-dark text-light p-3 rounded"><code>git clone https://github.com/YOUR_USERNAME/amerodi.github.io.git
-cd amerodi.github.io</code></pre>
+        <pre class="bg-dark text-light p-3 rounded"><code>git clone https://github.com/YOUR_USERNAME/medmachina.github.io.git
+cd medmachina.github.io</code></pre>
       </div>
     </div>
 
@@ -97,7 +97,7 @@ git push origin main</code></pre>
       <div class="card-body">
         <h2 class="card-title">Step 5: Create a Pull Request</h2>
         <p class="card-text">
-          Go to the <a href="https://github.com/amerodi/amerodi.github.io/pulls" target="_blank">original repository</a>
+          Go to the <a href="https://github.com/medmachina/medmachina.github.io/pulls" target="_blank">original repository</a>
           and create a new pull request from your fork. Provide a clear description of your changes and why they should be included.
         </p>
         <p>

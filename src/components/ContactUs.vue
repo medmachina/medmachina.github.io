@@ -6,7 +6,7 @@
       <div class="card-body">
         <h2 class="card-title">Get in Touch</h2>
         <p class="card-text">
-          We welcome feedback, questions, and suggestions about the A Medical Robot Directory (AMERODI).
+          We welcome feedback, questions, and suggestions about MedMachina, our Medical Robot Directory.
           The best way to reach us is through the GitHub Issues section of our repository.
         </p>
       </div>
@@ -31,7 +31,7 @@
       <div class="card-body">
         <h2 class="card-title">How to Create an Issue</h2>
         <ol class="card-text">
-          <li>Visit our <a href="https://github.com/amerodi/amerodi.github.io/issues" target="_blank">GitHub Issues page</a></li>
+          <li>Visit our <a href="https://github.com/medmachina/medmachina.github.io/issues" target="_blank">GitHub Issues page</a></li>
           <li>Click on the green "New issue" button in the top right</li>
           <li>Provide a clear title that summarizes your question or feedback</li>
           <li>In the description, include as much detail as possible</li>
@@ -39,7 +39,7 @@
         </ol>
 
         <div class="mt-4">
-          <a href="https://github.com/amerodi/amerodi.github.io/issues/new" target="_blank" class="btn btn-primary">
+          <a href="https://github.com/medmachina/medmachina.github.io/issues/new" target="_blank" class="btn btn-primary">
             Create New Issue
           </a>
         </div>

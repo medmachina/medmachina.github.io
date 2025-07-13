@@ -3,7 +3,7 @@
     <div class="modal-content">
       <h2 class="modal-title">Disclaimer</h2>
       <div class="modal-body">
-        <p>The information provided by A Medical Robot Directory (AMERODI) is made available for general information purposes only.</p>
+        <p>The information provided by Med Machina is made available for general information purposes only.</p>
         <p>While we strive to keep the information up-to-date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability of the information.</p>
         <p>Through this website, you can access other websites via links. We have no control over the nature, content, and availability of those sites, and the inclusion of any links does not necessarily imply a recommendation or endorsement of the views expressed within them.</p>
       </div>

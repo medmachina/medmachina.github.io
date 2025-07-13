@@ -1,4 +1,4 @@
-# amerodi
+# Med Machina
 
 A medical robot directory. 
 
