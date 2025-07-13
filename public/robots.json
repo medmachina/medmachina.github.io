@@ -69,7 +69,11 @@
       "Gynecological",
       "General Surgery"
     ],
-    "description": "Location: USA. Wheeled separate patient side manipulators, physical RCM. Surgeon’s side controllers similar to da Vinci (7-dofs, cartesian), flat panel display."
+    "description": "Location: USA. Wheeled separate patient side manipulators, physical RCM. Surgeon’s side controllers similar to da Vinci (7-dofs, cartesian), flat panel display.",
+    "regulatory": [
+      "CE 2021",
+      "FDA 2022"
+    ]
   },
   {
     "project_name": "Medicaroid: Hinotori",
@@ -94,7 +98,11 @@
       "Gynecological",
       "Cardiac"
     ],
-    "description": "Location: Kobe, Japan. Four patient side manipulators, software RCM, mounted on single serial robot for positioning. Surgeon's side with fixed stereo display (ala HMD), two 7-dofs haptic arms (similar to da Vinci)."
+    "description": "Location: Kobe, Japan. Four patient side manipulators, software RCM, mounted on single serial robot for positioning. Surgeon's side with fixed stereo display (ala HMD), two 7-dofs haptic arms (similar to da Vinci).",
+    "regulatory": [
+      "FDA 2020",
+      "CE 2019"
+    ]
   },
   {
     "project_name": "CMR Surgical: Versius",
@@ -118,7 +126,11 @@
       "Gynecological",
       "Cardiac"
     ],
-    "description": "Location: UK. Modular, portable bedside units, open console, 3D HD vision, 7-dof arms."
+    "description": "Location: UK. Modular, portable bedside units, open console, 3D HD vision, 7-dof arms.",
+    "regulatory": [
+      "CE 2019",
+      "FDA 2021"
+    ]
   },
   {
     "project_name": "SSII: Mantra",
@@ -471,7 +483,8 @@
       "Intuitive"
     ],
     "usages": [
-      "Lung", "Bronchoscopy"
+      "Lung",
+      "Bronchoscopy"
     ],
     "description": "Location: California, USA. Used with C-Arm/CBCT."
   },
@@ -649,4 +662,3 @@
     "description": "da Vinci S/Si instruments mounted on serial manipulator (Kinova). Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
   }
 ]
-

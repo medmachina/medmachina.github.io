@@ -3,11 +3,13 @@ import { ref, computed, onMounted } from 'vue'
 import CardList from './CardList.vue'
 import TagCloud from './TagCloud.vue'
 import UsageCloud from './UsageCloud.vue'
+import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
 
 const items = ref([])
 const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
+const selectedStatuses = ref([])
 
 onMounted(async () => {
   const response = await fetch('/robots.json')
@@ -56,10 +58,42 @@ const allUsages = computed(() => {
     .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
 })
 
+const allStatuses = computed(() => {
+  // Compter la fréquence de chaque statut réglementaire
+  const statusCount = {}
+  items.value.forEach(item => {
+    (item.regulatory || []).forEach(status => {
+      // Ajouter le statut original
+      statusCount[status] = (statusCount[status] || 0) + 1
+
+      // Si le statut commence par FDA ou CE, on le divise
+      if (status.startsWith('FDA') || status.startsWith('CE')) {
+        // Extraire le préfixe (FDA ou CE)
+        const prefix = status.startsWith('FDA') ? 'FDA' : 'CE'
+        statusCount[prefix] = (statusCount[prefix] || 0) + 1
+
+        // Extraire l'année ou le reste (ce qui suit FDA ou CE)
+        const remainder = status.substring(prefix.length).trim()
+        if (remainder) {
+          statusCount[remainder] = (statusCount[remainder] || 0) + 1
+        }
+      }
+    })
+  })
+
+  // Convertir en tableau d'objets avec le statut et sa fréquence
+  return Object.keys(statusCount)
+    .map(status => ({ name: status, count: statusCount[status] }))
+    .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
+})
+
 const filteredItems = computed(() => {
   return items.value.filter(item => {
-    // Si aucun terme de recherche, ou aucun tag sélectionné, on retourne tous les éléments
-    if (!search.value && selectedTags.value.length === 0 && selectedUsages.value.length === 0) return true;
+    // Si aucun terme de recherche, ou aucun tag/usage/statut sélectionné, on retourne tous les éléments
+    if (!search.value &&
+        selectedTags.value.length === 0 &&
+        selectedUsages.value.length === 0 &&
+        selectedStatuses.value.length === 0) return true;
 
     // Fonction qui vérifie si un terme de recherche est présent dans une valeur
     const checkValue = (value, term) => {
@@ -89,7 +123,19 @@ const filteredItems = computed(() => {
     const matchUsages = selectedUsages.value.length === 0 ||
       selectedUsages.value.every(selectedUsage => (item.usages || []).includes(selectedUsage));
 
-    return matchSearch && matchTags && matchUsages;
+    // Modification pour le filtrage par statut réglementaire
+    const matchStatuses = selectedStatuses.value.length === 0 ||
+      selectedStatuses.value.every(selectedStatus => {
+        // Vérifier si le statut exact existe dans le tableau des statuts réglementaires
+        if ((item.regulatory || []).includes(selectedStatus)) {
+          return true;
+        }
+
+        // Vérifier si le statut est une partie d'un statut plus long (FDA dans FDA 2023, ou 2023 dans FDA 2023)
+        return (item.regulatory || []).some(status => status.includes(selectedStatus));
+      });
+
+    return matchSearch && matchTags && matchUsages && matchStatuses;
   });
 })
 </script>
@@ -147,6 +193,10 @@ h1, h2 {
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>
         <UsageCloud :usages="allUsages" v-model:selectedUsages="selectedUsages" />
+
+        <h2 class="h5 mb-3 mt-5">Regulatory Status</h2>
+        <RegulatoryStatusCloud :statuses="allStatuses" v-model:selectedStatuses="selectedStatuses" />
+
         <h2 class="h5 mb-3 mt-5">Tags</h2>
         <TagCloud :tags="allTags" v-model:selectedTags="selectedTags" />
       </aside>
