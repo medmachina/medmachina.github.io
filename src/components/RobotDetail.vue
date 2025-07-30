@@ -4,7 +4,7 @@
       <button class="home-btn" @click="goHome" title="Accueil">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
       </button>
-      <h1 class="project-title">{{ filteredProject["project_name"] }}</h1>
+      <h1 class="project-title">{{ filteredProject["name"] }}</h1>
     </div>
 
     <div class="project-description">
@@ -144,20 +144,20 @@ function goToCompany(companyName) {
 
 // Computed properties pour extraire les photos et filtrer le projet
 const photoUrls = computed(() => {
-  if (!project.value?.photoURL) return [];
+  if (!project.value?.photo_urls) return [];
 
-  // Si photoURL est une chaîne avec plusieurs URLs séparées par des virgules
-  if (typeof project.value.photoURL === 'string') {
-    return project.value.photoURL.split(',').map(url => url.trim()).filter(url => url);
+  // Si photo_urls est une chaîne avec plusieurs URLs séparées par des virgules
+  if (typeof project.value.photo_urls === 'string') {
+    return project.value.photo_urls.split(',').map(url => url.trim()).filter(url => url);
   }
 
-  // Si photoURL est un array
-  if (Array.isArray(project.value.photoURL)) {
-    return project.value.photoURL.filter(url => url);
+  // Si photo_urls est un array
+  if (Array.isArray(project.value.photo_urls)) {
+    return project.value.photo_urls.filter(url => url);
   }
 
-  // Si photoURL est une seule URL
-  return [project.value.photoURL];
+  // Si photo_urls est une seule URL
+  return [project.value.photo_urls];
 });
 
 // Filtrer les URLs des photos valides (celles qui ne sont pas cassées)
@@ -172,7 +172,7 @@ const filteredProject = computed(() => {
   if (!project.value) return {};
 
   const filtered = { ...project.value };
-  delete filtered.photoURL; // Supprimer photoURL car affiché séparément
+  delete filtered.photo_urls; // Supprimer photo_urls car affiché séparément
   delete filtered.tags; // Supprimer tags car affiché séparément
   delete filtered.urls; // Supprimer urls car affiché séparément
   return filtered;

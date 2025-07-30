@@ -99,7 +99,7 @@ const filteredItems = computed(() => {
     const checkValue = (value, term) => {
       if (!value) return false;
 
-      // Cas des tableaux (urls, tags, photoURL, etc.)
+      // Cas des tableaux (urls, tags, photo_urls, etc.)
       if (Array.isArray(value)) {
         return value.some(val => checkValue(val, term));
       }

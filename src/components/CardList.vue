@@ -1,6 +1,6 @@
 <template>
   <div class="row g-3">
-    <div v-for="item in items" :key="item.project_name" class="col-12 col-md-6 col-lg-4">
+    <div v-for="item in items" :key="item.name" class="col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm card-clickable" @click="goToDetail(item)">
         <template v-if="getFirstPhotoUrl(item)">
           <img
@@ -12,7 +12,7 @@
           />
         </template>
         <div class="card-body">
-          <h5 class="card-title">{{ item.project_name }}</h5>
+          <h5 class="card-title">{{ item.name }}</h5>
           <p class="card-text text-ellipsis">{{ item.description }}</p>
           <div class="mb-2">
             <span v-for="tag in item.tags" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
@@ -45,34 +45,34 @@ function goToDetail(item) {
 }
 
 function getFirstPhotoUrl(item) {
-  if (!item.photoURL || !item.photoURL.length) {
+  if (!item.photo_urls || !item.photo_urls.length) {
     return null;
   }
 
   // Vérifier si la première URL est déjà connue comme invalide
-  if (invalidImageUrls.value.has(item.photoURL[0])) {
+  if (invalidImageUrls.value.has(item.photo_urls[0])) {
     return null;
   }
 
   // Essayer la première URL
-  return item.photoURL[0];
+  return item.photo_urls[0];
 }
 
 function handleImageError(item, event) {
   const url = event.target.src;
-  console.warn(`Image non disponible pour ${item.project_name}: ${url}`);
+  console.warn(`Image non disponible pour ${item.name}: ${url}`);
 
   // Marquer cette URL comme invalide
   invalidImageUrls.value.add(url);
 
   // Essayer la prochaine URL d'image si disponible
-  if (item.photoURL && item.photoURL.length > 1) {
-    const currentIndex = item.photoURL.indexOf(url);
-    if (currentIndex >= 0 && currentIndex + 1 < item.photoURL.length) {
+  if (item.photo_urls && item.photo_urls.length > 1) {
+    const currentIndex = item.photo_urls.indexOf(url);
+    if (currentIndex >= 0 && currentIndex + 1 < item.photo_urls.length) {
       // Essayer l'URL suivante qui n'est pas déjà connue comme invalide
-      for (let i = currentIndex + 1; i < item.photoURL.length; i++) {
-        if (!invalidImageUrls.value.has(item.photoURL[i])) {
-          event.target.src = item.photoURL[i];
+      for (let i = currentIndex + 1; i < item.photo_urls.length; i++) {
+        if (!invalidImageUrls.value.has(item.photo_urls[i])) {
+          event.target.src = item.photo_urls[i];
           return;
         }
       }

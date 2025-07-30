@@ -41,7 +41,7 @@
                        @error="handleImageError" />
                 </template>
                 <div class="card-body">
-                  <h5 class="card-title">{{ robot.project_name }}</h5>
+                  <h5 class="card-title">{{ robot.name }}</h5>
                   <p class="card-text text-ellipsis">{{ robot.description }}</p>
                   <div class="mb-2">
                     <span v-for="tag in robot.tags" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
@@ -111,7 +111,7 @@ function goToRobotDetail(robot) {
 }
 
 function getFirstPhotoUrl(item) {
-  return item.photoURL && item.photoURL.length > 0 ? item.photoURL[0] : null;
+  return item.photo_urls && item.photo_urls.length > 0 ? item.photo_urls[0] : null;
 }
 
 function handleImageError(event) {

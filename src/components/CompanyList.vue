@@ -47,7 +47,7 @@ onMounted(async () => {
 
 function getRobotName(robotId) {
   const robot = robotsData.value.find(r => r.id === robotId);
-  return robot ? robot.project_name : robotId;
+  return robot ? robot.name : robotId;
 }
 
 function goToDetail(company) {

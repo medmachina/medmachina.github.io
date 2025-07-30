@@ -51,14 +51,14 @@ cd medmachina.github.io</code></pre>
         <h3>Robot Data Format</h3>
         <p>Each robot entry should follow this format:</p>
         <pre class="bg-dark text-light p-3 rounded"><code>{
-  "project_name": "Robot Name",
+  "name": "Robot Name",
   "id": "uniqueRobotId",
   "company_id": "companyIdReference",
   "urls": [
     "https://example.com/robot-page",
     "https://example.com/additional-info"
   ],
-  "photoURL": [
+  "photo_urls": [
     "https://example.com/robot-image.jpg",
     "https://example.com/another-image.jpg"
   ],
