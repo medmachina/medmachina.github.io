@@ -7,11 +7,11 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/intuitive-surgical/",
     "robots": [
-      "intuitiveDaVinci5",
-      "intuitiveDaVinciSP",
-      "intuitiveIon"
+      "intuitive_da_vinci_5",
+      "intuitive_da_vinci_SP",
+      "intuitive_ion"
     ],
-    "description": "Intuitive is mostly famous for the Da Vinci platform."
+    "description": "Intuitive is based in Sunnyvale, California, USA"
   },
   {
     "name": "Medtronic",
@@ -21,10 +21,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/medtronic/",
     "robots": [
-      "medtronicHugoRas",
-      "johnsonAndJohnsonMedtechMonarchQuest"
+      "medtronic_hugo_ras"
     ],
-    "description": "Medtronic is a medical device company with operational headquarters in Minneapolis, Minnesota, and legal headquarters in Ireland. They offer a robotic-assisted surgery system called Hugo RAS."
+    "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland."
   },
   {
     "name": "Medicaroid",
@@ -34,9 +33,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/medicaroid/",
     "robots": [
-      "medicaroidHinotori"
+      "medicaroid_hinotori"
     ],
-    "description": "Medicaroid is a Japanese company based in Kobe, known for its Hinotori robotic surgical system."
+    "description": "Medicaroid is a Japanese company based in Kobe, Japan."
   },
   {
     "name": "CMR Surgical",
@@ -46,9 +45,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
     "robots": [
-      "cmrSurgicalVersius"
+      "cmr_versius"
     ],
-    "description": "CMR Surgical is a British medical device company based in Cambridge, producing the Versius robot-assisted surgery system."
+    "description": "CMR Surgical is based in Cambridge, UK."
   },
   {
     "name": "SSII",
@@ -58,9 +57,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
     "robots": [
-      "ssiiMantra"
+      "ssii_mantra"
     ],
-    "description": "SSII (SS Innovations International, Inc.) is an Indian company based in Gurugram, known for its SSi Mantra surgical robotic system."
+    "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India."
   },
   {
     "name": "Cornerstone Robotics",
@@ -70,9 +69,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
     "robots": [
-      "cornerstoneRoboticsSentire"
+      "cornerstone_sentire"
     ],
-    "description": "Cornerstone Robotics is a Chinese company based in Shenzhen, developing medical robotic devices like Sentire."
+    "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019"
   },
   {
     "name": "Moon Surgical",
@@ -82,9 +81,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/moon-surgical/",
     "robots": [
-      "moonSurgicalMaestro"
+      "moon_maestro"
     ],
-    "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, developing the Maestro surgical robot for laparoscopy assistance."
+    "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, USA."
   },
   {
     "name": "Revolve Surgical",
@@ -94,9 +93,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/revolve-surgical/",
     "robots": [
-      "revolveSurgicalR1"
+      "revolve_R1"
     ],
-    "description": "Revolve Surgical is a Canadian company based in Toronto, building surgical robotics for every operating room, including the R1."
+    "description": "Revolve Surgical is based in Toronto, Ontario, Canada."
   },
   {
     "name": "Vicarious Surgical Inc",
@@ -106,9 +105,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
     "robots": [
-      "vicariousSurgicalInc"
+      "vicarious_v1.0"
     ],
-    "description": "Vicarious Surgical Inc. is a US-based company in Waltham, Massachusetts, known for its single-port robotic surgical system."
+    "description": "Vicarious Surgical Inc. is based in Waltham, Massachusetts, USA."
   },
   {
     "name": "Asensus Surgical",
@@ -118,9 +117,10 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
     "robots": [
-      "asensusSurgicalSenhanceLuna"
+      "asensus_senhance",
+      "asensus_luna"
     ],
-    "description": "Asensus Surgical is a US-based medical device company in Durham, North Carolina, engaged in the research, development, and sale of medical device robotics to enhance minimally invasive surgery, including the Senhance and LUNA systems."
+    "description": "Asensus Surgical is based in Durham, North Carolina, USA."
   },
   {
     "name": "Titan Medical",
@@ -130,9 +130,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/titan-medical-inc/",
     "robots": [
-      "titanMedicalEnos"
+      "titan_enos"
     ],
-    "description": "Titan Medical is a Canadian company based in Toronto, known for its Enos robotic surgical system."
+    "description": "Titan Medical is based in Toronto, Ontario, CA."
   },
   {
     "name": "Johnson & Johnson MedTech",
@@ -142,9 +142,11 @@
     ],
     "linkedin_url": "https://www.linkedin.com/showcase/jnjmedtech/",
     "robots": [
-      "johnsonAndJohnsonMedtechOttava"
+      "j&j_ottava",
+      "j&j_monarch",
+      "j&j_velys"
     ],
-    "description": "Johnson & Johnson MedTech is a US-based company, providing innovative medical technologies including the Ottava surgical robot."
+    "description": "Johnson & Johnson MedTech is a US-based company."
   },
   {
     "name": "Virtuoso Surgical",
@@ -154,9 +156,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
     "robots": [
-      "virtuosoSurgicalVirtuoso"
+      "virtuoso_virtuoso"
     ],
-    "description": "Virtuoso Surgical is a US-based company in Nashville, Tennessee, known for its Virtuoso single-port surgical system."
+    "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA."
   },
   {
     "name": "Rob Surgical",
@@ -166,9 +168,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/rob-surgical/",
     "robots": [
-      "robSurgicalBitrack"
+      "rob_surgical_bitrack"
     ],
-    "description": "Rob Surgical is a Spanish company based in Barcelona, known for its Bitrack robotic surgical system."
+    "description": "Rob Surgical is based in Barcelona, Spain."
   },
   {
     "name": "Revo Surgical",
@@ -178,9 +180,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
     "robots": [
-      "revoSurgicalRevoI"
+      "revo_revo_i"
     ],
-    "description": "Revo Surgical is a South Korean company based in Seoul, known for its Revo-i robotic surgical system."
+    "description": "Revo Surgical is based in Seoul, South Korea."
   },
   {
     "name": "Surgical Science",
@@ -190,9 +192,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
     "robots": [
-      "surgicalScienceFlexVr"
+      "surgical_science_flex_vr"
     ],
-    "description": "Surgical Science is a Swedish company based in Göteborg, specializing in medical simulation, including the FlexVR simulator."
+    "description": "Surgical Science is based in Göteborg, Sweden."
   },
   {
     "name": "ForceDimension",
@@ -202,9 +204,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
     "robots": [
-      "forceDimensionSigmaOmega"
+      "force_dimension_sigma"
     ],
-    "description": "ForceDimension is a Swiss company specializing in high-precision haptic devices like Sigma and Omega."
+    "description": "ForceDimension is a Swiss company specializing in haptic devices."
   },
   {
     "name": "Haption",
@@ -214,9 +216,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/haption/",
     "robots": [
-      "haptionVirtuoso"
+      "haption_virtuoso"
     ],
-    "description": "Haption is a French high-tech company that designs, manufactures, and sells professional quality haptic devices like Virtuoso."
+    "description": "Haption is a French company specializing in haptic devices."
   },
   {
     "name": "Quanser",
@@ -226,7 +228,7 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/quanser/",
     "robots": [
-      "quanserHd2"
+      "quanser_hd2"
     ],
     "description": "Quanser is a Canadian company based in Markham, providing robot systems and parts, including the HD2 haptic device."
   },
@@ -240,7 +242,7 @@
     "robots": [
       "noahMedicalGalaxy"
     ],
-    "description": "Noah Medical is a US-based company in San Carlos, California, developing robotic systems for minimally invasive lung biopsies, such as Galaxy."
+    "description": "Noah Medical is based in San Carlos, California, USA."
   },
   {
     "name": "Stryker",
@@ -250,9 +252,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/stryker/",
     "robots": [
-      "strykerMako"
+      "stryker_mako"
     ],
-    "description": "Stryker is an American multinational medical technologies corporation based in Kalamazoo, Michigan, known for its Mako SmartRobotics system for joint replacement."
+    "description": "Stryker is based in Kalamazoo, Michigan, USA."
   },
   {
     "name": "Think Surgical",
@@ -262,9 +264,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
     "robots": [
-      "thinkSurgicalTmini"
+      "think_surgical_t_mini"
     ],
-    "description": "Think Surgical is a US-based company in Freemont, California, known for its TMINI orthopedic surgical robot."
+    "description": "Think Surgical is based in Freemont, California, USA."
   },
   {
     "name": "Curexo",
@@ -274,9 +276,10 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/curexo/",
     "robots": [
-      "curexoCuvisJointSpine"
+      "curexo_cuvis_joint",
+      "curexo_cuvis_spine"
     ],
-    "description": "Curexo is a South Korean company based in Seoul, engaged in the distribution of medical equipment and known for its Cuvis robotic systems for joint and spine surgery."
+    "description": "Curexo is based in Seoul, South Korea."
   },
   {
     "name": "eCential Robotics",
@@ -286,9 +289,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/ecential-robotics/",
     "robots": [
-      "ecentialRobotics"
+      "ecential_robotics_platform"
     ],
-    "description": "eCential Robotics is a French company based in Grenoble, focused on open surgery robotics, seemingly using a Kuka medical arm."
+    "description": "eCential Robotics is based in Grenoble, France."
   },
   {
     "name": "AcuSurgical",
@@ -298,9 +301,9 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
     "robots": [
-      "acusurgicalLuca"
+      "acusurgical_luca"
     ],
-    "description": "AcuSurgical is a French company based in Montpellier, focused on advanced robotic solutions for vitreoretinal procedures, including the Luca platform."
+    "description": "AcuSurgical is based in Montpellier, France."
   },
   {
     "name": "MMI",
@@ -310,32 +313,21 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
     "robots": [
-      "mmiSymani"
+      "mmi_symani"
     ],
-    "description": "MMI (Medical Microinstruments) is an Italian company based in Calci, known for its Symani surgical system for open microsurgery."
+    "description": "MMI (Medical Microinstruments) is based in Calci, Italy."
   },
   {
-    "name": "RavenII",
+    "name": "Applied Dexterity",
     "country": "United States",
     "urls": [
+      "https://applieddexterity.com/",
       "https://robotsguide.com/robots/ravensurgical"
     ],
-    "linkedin_url": "https://www.linkedin.com/company/ravenii/",
+    "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
     "robots": [
-      "ravenIi"
+      "raven_II"
     ],
     "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments."
-  },
-  {
-    "name": "SuPER",
-    "country": "Canada",
-    "urls": [
-      "https://www.kinovarobotics.com/resource/enhancing-robotic-surgery-with-a-plug-and-play-multi-robot-surgical-platforms"
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/kinova-robotics/",
-    "robots": [
-      "super"
-    ],
-    "description": "SuPER is a research robotic system developed in Canada, which integrates da Vinci S/Si instruments onto a serial manipulator (Kinova)."
   }
 ]
