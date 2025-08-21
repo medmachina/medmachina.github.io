@@ -3,7 +3,7 @@
   <DisclaimerModal />
   <footer class="footer">
     <p>
-      Made by Joris Deguet, Anton Deguet, Aravind S. Kumar |
+      By Joris Deguet, Anton Deguet, Aravind S. Kumar |
       <router-link to="/contribute">How to Contribute</router-link> |
       <router-link to="/contact">Contact Us</router-link>
     </p>
@@ -12,7 +12,7 @@
 
 <script setup>
 import DisclaimerModal from './components/DisclaimerModal.vue';
-// Plus aucune logique ici, tout est géré par les composants de vue-router
+// TODO pop disclaimer back
 </script>
 
 <style>

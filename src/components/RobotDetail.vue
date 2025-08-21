@@ -3,7 +3,7 @@
     <div class="header">
       <h1 class="project-title">
         <router-link to="/">Robots</router-link> : {{ filteredProject["name"] }}
-        <span v-if="companyInfo"> (<router-link :to="`/company/${companyInfo.name}`">{{ companyInfo.name }}</router-link>)</span>
+        <span v-if="companyInfo" style="font-size:.6em;"> <router-link :to="`/company/${companyInfo.name}`">by {{ companyInfo.name }}</router-link></span>
       </h1>
     </div>
 
@@ -123,7 +123,6 @@ const companyInfo = computed(() => {
   );
 });
 
-// Fonction pour naviguer vers la page de détail de l'entreprise
 function goToCompany(companyName) {
   router.push(`/company/${companyName}`);
 }
@@ -210,7 +209,7 @@ const projectUrls = computed(() => {
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .header {
-  display: flex;
+  //display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
