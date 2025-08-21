@@ -2,7 +2,7 @@
   <div v-if="company">
     <div class="container py-4">
       <h1 class="mb-4 title">
-        <router-link to="/companies">Companies</router-link> : {{ company.name }}
+        <router-link to="/companies" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Companies</router-link> : {{ company.name }}
       </h1>
 
       <div class="card mb-4">
@@ -156,16 +156,6 @@ function handleImageError(event) {
 
 .card-clickable:hover {
   box-shadow: 0 4px 16px rgba(255,255,255,0.1);
-}
-
-.btn-outline-primary {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
-}
-
-.btn-outline-primary:hover {
-  background-color: var(--color-primary);
-  color: white;
 }
 
 .linkedin-container {

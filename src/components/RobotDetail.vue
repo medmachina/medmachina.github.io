@@ -2,7 +2,7 @@
   <div class="project-detail">
     <div class="header">
       <h1 class="project-title">
-        <router-link to="/">Robots</router-link> : {{ filteredProject["name"] }}
+        <router-link to="/" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Robots</router-link> : {{ filteredProject["name"] }}
         <span v-if="companyInfo" style="font-size:.6em;"> <router-link :to="`/company/${companyInfo.name}`">by {{ companyInfo.name }}</router-link></span>
       </h1>
     </div>
@@ -239,7 +239,7 @@ const projectUrls = computed(() => {
 }
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 0.5rem;
 }
 .photo-item {
@@ -255,6 +255,7 @@ const projectUrls = computed(() => {
   width: 100%;
   height: auto;
   display: block;
+  max-height: 400px;
 }
 .tags-section {
   margin-bottom: 1.5rem;
