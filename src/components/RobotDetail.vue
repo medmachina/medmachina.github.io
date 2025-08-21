@@ -3,6 +3,7 @@
     <div class="header">
       <h1 class="project-title">
         <router-link to="/">Robots</router-link> : {{ filteredProject["name"] }}
+        <span v-if="companyInfo"> (<router-link :to="`/company/${companyInfo.name}`">{{ companyInfo.name }}</router-link>)</span>
       </h1>
     </div>
 
@@ -48,24 +49,10 @@
       <div class="url-list">
         <div v-for="(url, index) in projectUrls" :key="index" class="url-item">
           <div class="url-info">
-            <button class="btn btn-primary" @click="openUrl(url)">{{ getUrlTitle(url) }}</button>
+            <a :href="url" target="_blank" rel="noopener noreferrer">{{ getUrlTitle(url) }}</a>
             <span class="url-complete">({{ url }})</span>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Company Link Section -->
-    <div v-if="companyInfo" class="company-link-section">
-      <h3>Company</h3>
-      <div class="company-info">
-        <div class="company-details">
-          <strong>{{ companyInfo.name }}</strong>
-          <p>{{ companyInfo.description }}</p>
-        </div>
-        <button class="btn btn-primary" @click="goToCompany(companyInfo.name)">
-          See company details
-        </button>
       </div>
     </div>
 

@@ -14,7 +14,7 @@
           <input
             v-model="search"
             type="text"
-            placeholder="Search for a company..."
+            placeholder="Search ..."
             class="form-control mb-3"
           />
           <CompanyList :companies="filteredCompanies" />

@@ -185,7 +185,7 @@ h1, h2 {
         <input
             v-model="search"
             type="text"
-            placeholder="Search for a project ..."
+            placeholder="Search ..."
             class="form-control mb-3"
         />
         <CardList :items="filteredItems" />
