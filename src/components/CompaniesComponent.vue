@@ -3,7 +3,7 @@
     <header class="d-flex align-items-center justify-content-between p-3 mb-4 border-bottom">
       <div class="d-flex align-items-center">
         <h1 class="mb-0 me-4">Companies</h1>
-        <router-link to="/" class="btn btn-primary">Robots</router-link>
+        <router-link to="/" class="btn btn-outline-primary">Robots</router-link>
       </div>
       <img src="/src/assets/bot.png" alt="Bot" style="height:48px; width:auto;" />
     </header>

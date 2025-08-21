@@ -4,8 +4,7 @@
       <div class="card h-100 shadow-sm card-clickable" @click="goToDetail(company)">
         <div class="card-body">
           <h5 class="card-title">{{ company.name }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{ company.country }}</h6>
-          <p class="card-text text-ellipsis">{{ company.description }}</p>
+          <h6 class="card-subtitle mb-2">{{ company.country }}</h6>
           <div class="mb-2" v-if="company.robots && company.robots.length">
 <!--            <span class="badge bg-info me-1">{{ company.robots.length }} robots</span>-->
             <span v-for="robotId in company.robots" :key="robotId" class="badge bg-secondary me-1 robot-link robot-badge-ellipsis" @click.stop="goToRobot(robotId)" :title="getRobotName(robotId)">

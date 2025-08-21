@@ -1,10 +1,9 @@
 <template>
   <div class="project-detail">
     <div class="header">
-      <button class="home-btn" @click="goHome" title="Accueil">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-      </button>
-      <h1 class="project-title">{{ filteredProject["name"] }}</h1>
+      <h1 class="project-title">
+        <router-link to="/">Robots</router-link> : {{ filteredProject["name"] }}
+      </h1>
     </div>
 
     <div class="project-description">

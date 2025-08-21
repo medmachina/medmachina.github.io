@@ -61,10 +61,10 @@ npm run build
   - remove every info on company cause we have a link to the company page
   - after description add titles for "Images from the web" and "Links" and "Tags"
   - double the image size
-- on companies list, only name country and list of robots
-- change title on home page to "Robots" instead of "A Medical Robot Directory"
-- change the title of company detail to "Companies : <company name>" with Companies a link to company listing
-- same for robots detail page "Robots : <robot name>" with Robots a link to robots listing
+- ✔ on companies list, only name country and list of robots
+- ✔ change title on home page to "Robots" instead of "A Medical Robot Directory"
+- ✔ change the title of company detail to "Companies : <company name>" with Companies a link to company listing
+- ✔ same for robots detail page "Robots : <robot name>" with Robots a link to robots listing
 - Every link should look like a regular link in HTML, no button make it nice to look at
 - In all listing for robots, keep the name, name of company, the first 5 tags (with ... if more)
 - In all listing for companies, keep the name, country, and all robots   
