@@ -11,6 +11,7 @@
       {{ filteredProject["description"] }}
     </div>
 
+    <h3 class="mt-4 mb-4">Images from the web</h3>
     <!-- Photo Gallery Section -->
     <div v-if="validPhotoUrls.length > 0" class="photo-gallery">
       <div class="gallery-grid">
@@ -30,6 +31,7 @@
       </div>
     </div>
 
+    <h3 class="mt-4 mb-4">Tags</h3>
     <!-- Tags Section -->
     <div v-if="projectTags.length > 0" class="tags-section">
       <div class="d-flex flex-wrap align-items-center gap-2">
@@ -43,9 +45,9 @@
       </div>
     </div>
 
+    <h3 class="mt-2">Links</h3>
     <!-- URLs Section -->
     <div v-if="projectUrls.length > 0" class="urls-section">
-      <h3>Links</h3>
       <div class="url-list">
         <div v-for="(url, index) in projectUrls" :key="index" class="url-item">
           <div class="url-info">
@@ -328,6 +330,9 @@ const projectUrls = computed(() => {
   margin-right: 1rem;
 }
 
+h3 {
+  color: white;
+}
 
 .url-title-btn:hover {
   background-color: rgba(var(--color-primary-rgb), 0.1);
