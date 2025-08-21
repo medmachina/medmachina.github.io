@@ -54,8 +54,8 @@ npm run build
 
 ## TODO Sprint 2 (planning on Aug 18 2025)
 
-- Change data structure for urls from an array of strings to an array of objects with a caption and a url
-- Every link by URL should have a description from Json
+- ✔ Change data structure for urls from an array of strings to an array of objects with a caption and a url
+- ✔ Every link by URL should have a description from Json
 - ✔ on robot detail, 
   - ✔ ajouter le nom de la company avant ou apres le nom du robot?  Par example: Intuitive: Ion ou Ion (Intuitive).  Dans l’ideal, le nom de la compagnie est un lien vers la page de detail de la companyX
   - ✔ remove every info on company cause we have a link to the company page
