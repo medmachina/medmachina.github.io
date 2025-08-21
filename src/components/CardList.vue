@@ -13,10 +13,10 @@
         </template>
         <div class="card-body">
           <h5 class="card-title">{{ item.name }}</h5>
-          <p class="card-text text-ellipsis">{{ item.description }}</p>
           <div class="mb-2">
-            <span v-for="tag in item.tags" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
-          </div>
+              <span v-for="(tag, idx) in item.tags.slice(0,5)" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
+              <span v-if="item.tags.length > 5">...</span>
+            </div>
         </div>
       </div>
     </div>
