@@ -24,7 +24,9 @@
             <h3 class="h6 mt-4">Links</h3>
             <ul class="list-unstyled">
               <li v-for="url in company.urls" :key="url" class="mb-2">
-                <a :href="url" target="_blank" rel="noopener noreferrer">{{ url }}</a>
+                <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+                &nbsp;&nbsp;<span class="url-complete">({{ url.url }})</span>
+               
               </li>
             </ul>
           </div>
@@ -44,9 +46,9 @@
                 </template>
                 <div class="card-body">
                   <h5 class="card-title">{{ robot.name }}</h5>
-                  <p class="card-text text-ellipsis">{{ robot.description }}</p>
                   <div class="mb-2">
-                    <span v-for="tag in robot.tags" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
+                    <span v-for="(tag, idx) in robot.tags.slice(0,5)" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
+                    <span v-if="robot.tags.length > 5">...</span>
                   </div>
                 </div>
               </div>
@@ -54,21 +56,12 @@
           </div>
         </div>
       </div>
-
-      <div class="mt-4">
-        <router-link to="/companies" class="btn btn-outline-primary">
-          Back to Companies
-        </router-link>
-      </div>
     </div>
   </div>
   <div v-else class="container py-4">
     <div class="alert alert-warning">
       Company not found
     </div>
-    <router-link to="/companies" class="btn btn-outline-primary">
-      Back to Companies
-    </router-link>
   </div>
 </template>
 

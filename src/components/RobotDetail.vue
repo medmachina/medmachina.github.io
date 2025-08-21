@@ -51,8 +51,8 @@
       <div class="url-list">
         <div v-for="(url, index) in projectUrls" :key="index" class="url-item">
           <div class="url-info">
-            <a :href="url" target="_blank" rel="noopener noreferrer">{{ getUrlTitle(url) }}</a>
-            <span class="url-complete">({{ url }})</span>
+            <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+            <span class="url-complete">({{ url.url }})</span>
           </div>
         </div>
       </div>

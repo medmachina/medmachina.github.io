@@ -3,7 +3,10 @@
     "name": "Intuitive",
     "country": "United States",
     "urls": [
-      "https://www.intuitive.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.intuitive.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/intuitive-surgical/",
     "robots": [
@@ -17,7 +20,10 @@
     "name": "Medtronic",
     "country": "United States",
     "urls": [
-      "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+      {
+        "caption": "todo caption",
+        "url": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/medtronic/",
     "robots": [
@@ -29,7 +35,10 @@
     "name": "Medicaroid",
     "country": "Japan",
     "urls": [
-      "https://www.medicaroid.com"
+      {
+        "caption": "todo caption",
+        "url": "https://www.medicaroid.com"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/medicaroid/",
     "robots": [
@@ -41,7 +50,10 @@
     "name": "CMR Surgical",
     "country": "United Kingdom",
     "urls": [
-      "https://cmrsurgical.com/versius"
+      {
+        "caption": "todo caption",
+        "url": "https://cmrsurgical.com/versius"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
     "robots": [
@@ -53,7 +65,10 @@
     "name": "SSII",
     "country": "India",
     "urls": [
-      "https://ssinnovations.com/ssi-mantra/"
+      {
+        "caption": "todo caption",
+        "url": "https://ssinnovations.com/ssi-mantra/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
     "robots": [
@@ -65,7 +80,10 @@
     "name": "Cornerstone Robotics",
     "country": "China",
     "urls": [
-      "https://www.csrbtx.com/en/product_center/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.csrbtx.com/en/product_center/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
     "robots": [
@@ -77,7 +95,10 @@
     "name": "Moon Surgical",
     "country": "France / United States",
     "urls": [
-      "https://moonsurgical.com/maestro-system"
+      {
+        "caption": "todo caption",
+        "url": "https://moonsurgical.com/maestro-system"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/moon-surgical/",
     "robots": [
@@ -89,7 +110,10 @@
     "name": "Revolve Surgical",
     "country": "Canada",
     "urls": [
-      "https://www.revolvesurgical.com"
+      {
+        "caption": "todo caption",
+        "url": "https://www.revolvesurgical.com"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/revolve-surgical/",
     "robots": [
@@ -101,7 +125,10 @@
     "name": "Vicarious Surgical Inc",
     "country": "United States",
     "urls": [
-      "https://www.vicarioussurgical.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.vicarioussurgical.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
     "robots": [
@@ -113,7 +140,10 @@
     "name": "Asensus Surgical",
     "country": "United States",
     "urls": [
-      "https://www.asensus.com/senhance"
+      {
+        "caption": "todo caption",
+        "url": "https://www.asensus.com/senhance"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
     "robots": [
@@ -126,7 +156,10 @@
     "name": "Titan Medical",
     "country": "Canada",
     "urls": [
-      "https://titanmedicalinc.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://titanmedicalinc.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/titan-medical-inc/",
     "robots": [
@@ -138,7 +171,10 @@
     "name": "Johnson & Johnson MedTech",
     "country": "United States",
     "urls": [
-      "https://thenext.jnjmedtech.com/surgical-robotics"
+      {
+        "caption": "todo caption",
+        "url": "https://thenext.jnjmedtech.com/surgical-robotics"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/showcase/jnjmedtech/",
     "robots": [
@@ -152,7 +188,10 @@
     "name": "Virtuoso Surgical",
     "country": "United States",
     "urls": [
-      "https://virtuososurgical.net/"
+      {
+        "caption": "todo caption",
+        "url": "https://virtuososurgical.net/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
     "robots": [
@@ -164,7 +203,10 @@
     "name": "Rob Surgical",
     "country": "Spain",
     "urls": [
-      "https://www.robsurgical.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.robsurgical.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/rob-surgical/",
     "robots": [
@@ -176,7 +218,10 @@
     "name": "Revo Surgical",
     "country": "South Korea",
     "urls": [
-      "http://revosurgical.com"
+      {
+        "caption": "todo caption",
+        "url": "http://revosurgical.com"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
     "robots": [
@@ -188,7 +233,10 @@
     "name": "Surgical Science",
     "country": "Sweden",
     "urls": [
-      "https://surgicalscience.com/simulators/flexvr/"
+      {
+        "caption": "todo caption",
+        "url": "https://surgicalscience.com/simulators/flexvr/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
     "robots": [
@@ -200,7 +248,10 @@
     "name": "ForceDimension",
     "country": "Switzerland",
     "urls": [
-      "https://www.forcedimension.com"
+      {
+        "caption": "todo caption",
+        "url": "https://www.forcedimension.com"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
     "robots": [
@@ -212,7 +263,10 @@
     "name": "Haption",
     "country": "France",
     "urls": [
-      "https://www.haption.com"
+      {
+        "caption": "todo caption",
+        "url": "https://www.haption.com"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/haption/",
     "robots": [
@@ -224,7 +278,10 @@
     "name": "Quanser",
     "country": "Canada",
     "urls": [
-      "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+      {
+        "caption": "todo caption",
+        "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/quanser/",
     "robots": [
@@ -236,7 +293,10 @@
     "name": "Noah Medical",
     "country": "United States",
     "urls": [
-      "https://www.noahmed.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.noahmed.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
     "robots": [
@@ -248,7 +308,10 @@
     "name": "Stryker",
     "country": "United States",
     "urls": [
-      "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+      {
+        "caption": "todo caption",
+        "url": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/stryker/",
     "robots": [
@@ -260,7 +323,10 @@
     "name": "Think Surgical",
     "country": "United States",
     "urls": [
-      "https://thinksurgical.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://thinksurgical.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
     "robots": [
@@ -272,7 +338,10 @@
     "name": "Curexo",
     "country": "South Korea",
     "urls": [
-      "https://www.curexo.com/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.curexo.com/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/curexo/",
     "robots": [
@@ -285,7 +354,10 @@
     "name": "eCential Robotics",
     "country": "France",
     "urls": [
-      "https://www.ecential-robotics.com/en-us"
+      {
+        "caption": "todo caption",
+        "url": "https://www.ecential-robotics.com/en-us"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/ecential-robotics/",
     "robots": [
@@ -297,7 +369,10 @@
     "name": "AcuSurgical",
     "country": "France",
     "urls": [
-      "https://acusurgical.com"
+      {
+        "caption": "todo caption",
+        "url": "https://acusurgical.com"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
     "robots": [
@@ -309,7 +384,10 @@
     "name": "MMI",
     "country": "Italy",
     "urls": [
-      "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+      {
+        "caption": "todo caption",
+        "url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
     "robots": [
@@ -321,8 +399,14 @@
     "name": "Applied Dexterity",
     "country": "United States",
     "urls": [
-      "https://applieddexterity.com/",
-      "https://robotsguide.com/robots/ravensurgical"
+      {
+        "caption": "todo caption",
+        "url": "https://applieddexterity.com/"
+      },
+      {
+        "caption": "todo caption",
+        "url": "https://robotsguide.com/robots/ravensurgical"
+      }
     ],
     "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
     "robots": [
