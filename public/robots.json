@@ -4,13 +4,12 @@
     "id": "intuitive_da_vinci_5",
     "urls": [
       {
-        "caption": "todo caption",
+          "caption": "Intuitive, da Vinci",
         "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       }
     ],
     "photo_urls": [
-      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci/da-vinci-5-surgical-system.jpg?q=100&w=541&h=600&auto=compress%2Cformat&fit=crop&crop=entropy&s=36624e5956c0d2834f5440c6a2652e09",
-      "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg&w=2000&op=resize"
+      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci/da-vinci-5-surgical-system.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -44,19 +43,19 @@
     "id": "intuitive_da_vinci_SP",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Intuitive, da Vinci SP",
         "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
       },
       {
-        "caption": "todo caption",
+        "caption": "Intuitive, da Vinci",
         "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       },
       {
-        "caption": "todo caption",
+        "caption": "da Vinci SP at Tampa General Hospital",
         "url": "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system"
       },
       {
-        "caption": "todo caption",
+        "caption": "da Vinci SP at AdventHealth",
         "url": "https://globalrobotics.adventhealth.com/global-robotics-institute/about-institute/da-vinci-sp-robot"
       }
     ],
@@ -90,11 +89,48 @@
     ]
   },
   {
+    "name": "da Vinci Si",
+    "id": "intuitive_da_vinci_Si",
+    "urls": [
+      {
+        "caption": "Intuitive, da Vinci",
+        "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+      }
+    ],
+    "photo_urls": [
+      "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Haptic",
+      "Commercial"
+    ],
+    "usages": [
+      "Abdominal",
+      "Urological",
+      "Gynecological",
+      "Transoral"
+    ],
+    "description": "Third generation da Vinci system.  The patient cart is very similar to the previous generation (da Vinci S). The surgeon's console is totally new, including new manipulators, individual clutch on each gripper, infinite roll...  The stereo viewer is updated to use two flat panel monitors.",
+    "regulatory": [
+      "CE",
+      "FDA 2008"
+    ]
+  },
+  {
     "name": "Hugo RAS",
     "id": "medtronic_hugo_ras",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Medtronic, Hugo RAS",
         "url": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
       }
     ],
@@ -125,7 +161,7 @@
     "id": "medicaroid_hinotori",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Medicaroid",
         "url": "https://www.medicaroid.com"
       }
     ],
@@ -162,7 +198,7 @@
     "id": "cmr_versius",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "CMR Surgical, Versius",
         "url": "https://cmrsurgical.com/versius"
       }
     ],
@@ -194,7 +230,7 @@
     "id": "ssii_mantra",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "SSI, Mantra",
         "url": "https://ssinnovations.com/ssi-mantra/"
       }
     ],
@@ -219,7 +255,7 @@
     "id": "cornerstone_sentire",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Cornerstone, Sentire",
         "url": "https://www.csrbtx.com/en/product_center/"
       }
     ],
@@ -247,7 +283,7 @@
     "id": "moon_maestro",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Moon Surgical, Maestro",
         "url": "https://moonsurgical.com/maestro-system"
       }
     ],
@@ -270,7 +306,7 @@
     "id": "revolve_R1",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Revolve Surgical",
         "url": "https://www.revolvesurgical.com"
       }
     ],
@@ -291,7 +327,7 @@
     "id": "vicarious_v1.0",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Vicarious Surgical",
         "url": "https://www.vicarioussurgical.com/"
       }
     ],
@@ -318,7 +354,7 @@
     "id": "asensus_senhance",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Asensus, Senhance",
         "url": "https://www.asensus.com/senhance"
       }
     ],
@@ -338,8 +374,8 @@
     "id": "asensus_luna",
     "urls": [
       {
-        "caption": "todo caption",
-        "url": "https://www.asensus.com/senhance"
+        "caption": "Asensus, Luna press release 01/2024",
+        "url": "https://ir.asensus.com/news-releases/news-release-details/asensus-surgical-completes-vivo-surgeon-lab-luna-surgical"
       }
     ],
     "photo_urls": [
@@ -358,12 +394,18 @@
     "id": "titan_enos",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Titan Medical [defunct]",
         "url": "https://titanmedicalinc.com/"
+      }
+      ,
+      {
+        "caption": "FIERCE Biotech, 06/2023 article",
+        "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
       }
     ],
     "photo_urls": [
-      "https://titanmedicalinc.com/wp-content/uploads/2020/11/20201113_193832-1.jpg"
+      "https://titanmedicalinc.com/wp-content/uploads/2020/11/20201113_193832-1.jpg",
+	  "https://www.surgicalroboticstechnology.com/wp-content/uploads/2020/10/titan-medical-medtronic-740x406.jpeg"
     ],
     "tags": [
       "RAMIS",
@@ -377,7 +419,7 @@
     "id": "j&j_ottava",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Johnson & Johnson MedTech",
         "url": "https://thenext.jnjmedtech.com/surgical-robotics"
       }
     ],
@@ -397,7 +439,7 @@
     "id": "virtuoso_virtuoso",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Virtuoso",
         "url": "https://virtuososurgical.net/"
       }
     ],
@@ -422,7 +464,7 @@
     "id": "rob_surgical_bitrack",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Rob Surgical, bitrack",
         "url": "https://www.robsurgical.com/"
       }
     ],
@@ -445,7 +487,7 @@
     "id": "revo_revo_i",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Revo Surgical",
         "url": "http://revosurgical.com"
       }
     ],
@@ -470,7 +512,7 @@
     "id": "surgical_science_flex_vr",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Surgical Science, FlexVR",
         "url": "https://surgicalscience.com/simulators/flexvr/"
       }
     ],
@@ -490,7 +532,7 @@
     "id": "force_dimension_sigma",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Force Dimensiom",
         "url": "https://www.forcedimension.com"
       }
     ],
@@ -508,7 +550,7 @@
     "id": "haption_virtuoso",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Haption, Virtuoso",
         "url": "https://www.haption.com"
       }
     ],
@@ -521,11 +563,11 @@
     "description": "Haptic devices using serial arm, up to 6 dofs motorized."
   },
   {
-    "name": "Quanser: HD2",
+    "name": "HD2",
     "id": "quanser_hd2",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Quanser, HD2",
         "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
       }
     ],
@@ -544,7 +586,7 @@
     "id": "noah_galaxy",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Noah Medical",
         "url": "https://www.noahmed.com/"
       }
     ],
@@ -561,8 +603,8 @@
     "id": "intuitive_ion",
     "urls": [
       {
-        "caption": "todo caption",
-        "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+        "caption": "Intuitive, Ion",
+        "url": "https://www.intuitive.com/en-us/products-and-services/ion"
       }
     ],
     "photo_urls": [
@@ -601,7 +643,7 @@
     "id": "stryker_mako",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Stryker, Mako",
         "url": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
       }
     ],
@@ -645,8 +687,8 @@
     "id": "think_surgical_t_mini",
     "urls": [
       {
-        "caption": "todo caption",
-        "url": "https://thinksurgical.com/"
+        "caption": "Think Surgical, TMINI",
+        "url": "https://thinksurgical.com/tmini/"
       }
     ],
     "photo_urls": [
@@ -767,7 +809,7 @@
     "id": "raven_II",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Robots Guide: Raven",
         "url": "https://robotsguide.com/robots/ravensurgical"
       }
     ],
