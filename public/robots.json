@@ -8,7 +8,9 @@
         "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       }
     ],
-    "photo_urls": [],
+    "photo_urls": [
+      "https://imgproxy.divecdn.com/YCzJiRJOc0wZsq9afmnTHXp4Rs01bn3MAg2YBboKGQk/g:ce/rs:fill:800:450:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qcGctbWVkaXVtLWR2LXN5cy1kdjUtZmlyc3RhY2Nlc3MtMi1mdWxsc3lzdGVtLXd0LTAyMjAyNF9xVTJVb055LmpwZw==.webp"
+    ],
     "tags": [
       "RAMIS",
       "Single patient cart",
@@ -229,7 +231,10 @@
         "url": "https://ssinnovations.com/ssi-mantra/"
       }
     ],
-    "photo_urls": [],
+    "photo_urls": [
+      "https://ssinnovations.com/wp-content/uploads/2024/12/M3-PSAC-DEC241A-600x600.webp",
+      "https://ssinnovations.com/wp-content/uploads/2024/12/M3-VC-DEC241B-600x600.webp"
+    ],
     "tags": [
       "RAMIS",
       "Teleoperated",

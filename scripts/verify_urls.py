@@ -131,6 +131,21 @@ def verify_urls(robots_data, companies_data):
     
     return len(broken_links) == 0
 
+def print_photo_url_summary(robots_data):
+    """Print a summary of photo URLs for each robot, sorted by count"""
+    # Create a list of tuples (name, url_count)
+    robot_url_counts = [(robot['name'], len(robot.get('photo_urls', []))) 
+                       for robot in robots_data]
+    
+    # Sort by URL count, then by name for same counts
+    robot_url_counts.sort(key=lambda x: (x[1], x[0]))
+    
+    print("\n=== Photo URL Count Summary ===")
+    print("Robot Name".ljust(30), "Number of Photos")
+    print("-" * 45)
+    for name, count in robot_url_counts:
+        print(f"{name[:29].ljust(30)} {count}")
+
 def main():
     # Get the script's directory
     script_dir = Path(__file__).parent.parent
@@ -149,6 +164,9 @@ def main():
     
     # Verify URLs
     all_valid = verify_urls(robots_data, companies_data)
+    
+    # Print summary of photo URLs
+    print_photo_url_summary(robots_data)
     
     # Exit with appropriate status code
     sys.exit(0 if all_valid else 1)
