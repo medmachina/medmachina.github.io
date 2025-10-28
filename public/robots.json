@@ -4,13 +4,11 @@
     "id": "intuitive_da_vinci_5",
     "urls": [
       {
-          "caption": "Intuitive, da Vinci",
+        "caption": "Intuitive, da Vinci",
         "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       }
     ],
-    "photo_urls": [
-      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci/da-vinci-5-surgical-system.jpg"
-    ],
+    "photo_urls": [],
     "tags": [
       "RAMIS",
       "Single patient cart",
@@ -166,9 +164,7 @@
       }
     ],
     "photo_urls": [
-      "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg",
-      "https://www.medicaroid.com/en/image/system/hinotori_system_img01.png",
-      "https://r2surgical.com/cdn/shop/products/MedicaroidHinotoriRobot_1200x.jpg?v=1671049247"
+      "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -203,8 +199,7 @@
       }
     ],
     "photo_urls": [
-      "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg",
-      "https://www.surgicalroboticstechnology.com/wp-content/uploads/2022/03/versius-outpatient.png"
+      "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -288,7 +283,6 @@
       }
     ],
     "photo_urls": [
-      "https://www.therobotreport.com/wp-content/uploads/2024/06/moon-surgical-featured.jpg",
       "https://moonsurgical.com/uploads//transforms/images/_default/754/Scene-1-2_2024-07-02-115704_eylh.webp"
     ],
     "tags": [
@@ -396,17 +390,13 @@
       {
         "caption": "Titan Medical [defunct]",
         "url": "https://titanmedicalinc.com/"
-      }
-      ,
+      },
       {
         "caption": "FIERCE Biotech, 06/2023 article",
         "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
       }
     ],
-    "photo_urls": [
-      "https://titanmedicalinc.com/wp-content/uploads/2020/11/20201113_193832-1.jpg",
-	  "https://www.surgicalroboticstechnology.com/wp-content/uploads/2020/10/titan-medical-medtronic-740x406.jpeg"
-    ],
+    "photo_urls": [],
     "tags": [
       "RAMIS",
       "Commercial"
@@ -457,7 +447,7 @@
       "Single Port"
     ],
     "usages": [],
-    "description": "Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulators emulate laparoscopic instruments (not cartesian)."
+    "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not cartesian)."
   },
   {
     "name": "Bitrack",
@@ -516,11 +506,7 @@
         "url": "https://surgicalscience.com/simulators/flexvr/"
       }
     ],
-    "photo_urls": [
-      "https://surgicalscience.com/wp-content/uploads/2021/04/FlexVR_image.png",
-      "https://surgicalscience.com/wp-content/uploads/2021/04/Surgical_Science_FlexVR_Simulator.jpg",
-      "https://surgicalscience.com/wp-content/uploads/2021/04/FlexVR-VR-view.jpg"
-    ],
+    "photo_urls": [],
     "tags": [
       "RAMIS",
       "Simulation"
@@ -536,10 +522,7 @@
         "url": "https://www.forcedimension.com"
       }
     ],
-    "photo_urls": [
-      "https://www.forcedimension.com/wp-content/uploads/2019/08/sigma-7.jpg",
-      "https://www.forcedimension.com/wp-content/uploads/2019/08/sigma-7-medical.jpg"
-    ],
+    "photo_urls": [],
     "tags": [
       "Haptic device"
     ],
@@ -571,11 +554,7 @@
         "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
       }
     ],
-    "photo_urls": [
-      "https://www.quanser.com/wp-content/uploads/2017/03/HD2-High-Definition-Haptic-Device.jpg",
-      "https://www.quanser.com/wp-content/uploads/2017/03/HD2-Haptic-Device-Workspace.jpg",
-      "https://www.quanser.com/wp-content/uploads/2017/03/HD2-High-Definition-Haptic-Device-2.jpg"
-    ],
+    "photo_urls": [],
     "tags": [
       "Haptic device"
     ],
@@ -626,9 +605,7 @@
         "url": "https://thenext.jnjmedtech.com"
       }
     ],
-    "photo_urls": [
-      "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_620/public/2024-12/JJMT_Product_Other_Monarch_T_1-screen-image.png?itok=2orwW0WZ"
-    ],
+    "photo_urls": [],
     "tags": [
       "Flexible robot"
     ],
@@ -669,9 +646,7 @@
         "url": "https://www.jnjmedtech.com/en-US/patient/velys"
       }
     ],
-    "photo_urls": [
-      "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2024-08/1281984494%20-%20VRAS%20Software%20Render%20Update%201_0.png?h=35b68762&itok=Qml0ufDd"
-    ],
+    "photo_urls": [],
     "tags": [
       "Open surgery"
     ],
@@ -691,9 +666,7 @@
         "url": "https://thinksurgical.com/tmini/"
       }
     ],
-    "photo_urls": [
-      "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMini_Robot_V1_0010442+Left_hand_v1.jpg"
-    ],
+    "photo_urls": [],
     "tags": [
       "Open surgery"
     ],
@@ -794,11 +767,7 @@
         "url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
       }
     ],
-    "photo_urls": [
-      "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-System.jpg",
-      "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-Console.jpg",
-      "https://www.mmimicro.com/wp-content/uploads/2020/06/Symani-Instruments.jpg"
-    ],
+    "photo_urls": [],
     "tags": [
       "Open microsurgery"
     ],
@@ -823,6 +792,6 @@
     "usages": [
       "Abdominal"
     ],
-    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
+    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
   }
 ]
