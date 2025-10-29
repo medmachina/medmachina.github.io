@@ -9,7 +9,8 @@
       }
     ],
     "photo_urls": [
-      "https://imgproxy.divecdn.com/YCzJiRJOc0wZsq9afmnTHXp4Rs01bn3MAg2YBboKGQk/g:ce/rs:fill:800:450:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qcGctbWVkaXVtLWR2LXN5cy1kdjUtZmlyc3RhY2Nlc3MtMi1mdWxsc3lzdGVtLXd0LTAyMjAyNF9xVTJVb055LmpwZw==.webp"
+      "https://imgproxy.divecdn.com/YCzJiRJOc0wZsq9afmnTHXp4Rs01bn3MAg2YBboKGQk/g:ce/rs:fill:800:450:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qcGctbWVkaXVtLWR2LXN5cy1kdjUtZmlyc3RhY2Nlc3MtMi1mdWxsc3lzdGVtLXd0LTAyMjAyNF9xVTJVb055LmpwZw==.webp",
+      "https://news.med.virginia.edu/files/2024/08/Robot_DaVinci5-1x1-1.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -95,6 +96,10 @@
       {
         "caption": "Intuitive, da Vinci",
         "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+      },
+      {
+        "caption": "dVRK: da Vinci Si",
+        "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
       }
     ],
     "photo_urls": [
@@ -111,7 +116,8 @@
       "Stereo endocoscope",
       "Mechanical cartesian manipulation",
       "Haptic",
-      "Commercial"
+      "Commercial",
+      "Retired"
     ],
     "usages": [
       "Abdominal",
@@ -124,6 +130,85 @@
       "CE",
       "FDA 2008"
     ]
+  },
+  {
+    "name": "da Vinci S",
+    "id": "intuitive_da_vinci_Si",
+    "urls": [
+      {
+        "caption": "dVRK: da Vinci Classic",
+        "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+      },
+      {
+        "caption": "dVRK: da Vinci Si",
+        "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+      }
+    ],
+    "photo_urls": [
+      "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-S-overview-labeled.png",
+      "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-Si-overview-labeled.png"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Haptic",
+      "Commercial",
+      "Retired"
+    ],
+    "usages": [
+      "Abdominal",
+      "Urological",
+      "Gynecological",
+      "Transoral"
+    ],
+    "description": "Second generation da Vinci system.  The surgeon's console is very similar to the previous generation (da Vinci Standard). The patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) have less degrees of freedom and are fully gravity compensated.  The setup arm for the third arm is now mounted on the back of the column and doesn't require a motor to go up and down.  The patient cart has motorized wheels to ease transport between rooms. The video remains similar to the Standard one. The stereo endoscopes are also unchanged but the camera head is updated to use SD or HD sensors with SDI outputs on the camera control unit (CCU). The patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are totally new.  They now require brakes and are not gravity compensated.  They are stronger and more precise.  Instruments are longer but the mechanics and end effectors are similar to the Standard ones.",
+    "regulatory": []
+  },
+  {
+    "name": "da Vinci",
+    "id": "intuitive_da_vinci",
+    "urls": [
+      {
+        "caption": "dVRK: da Vinci Classic",
+        "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+      },
+      {
+        "caption": "Science Museum Group Collection, Surgeon console from da Vinci Classic Surgical System",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8606526/surgeon-console-from-da-vinci-classic-surgical-system"
+      }
+    ],
+    "photo_urls": [
+      "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-Classic-overview-labeled.png"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Haptic",
+      "Commercial",
+      "Retired"
+    ],
+    "usages": [
+      "Abdominal",
+      "Urological",
+      "Gynecological",
+      "Transoral"
+    ],
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Hugo RAS",
