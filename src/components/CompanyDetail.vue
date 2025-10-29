@@ -25,7 +25,6 @@
             <ul class="list-unstyled">
               <li v-for="url in company.urls" :key="url" class="mb-2">
                 <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
-                &nbsp;&nbsp;<span class="url-complete">({{ url.url }})</span>
               </li>
             </ul>
           </div>

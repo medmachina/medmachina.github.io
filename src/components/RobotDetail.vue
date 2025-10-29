@@ -2,8 +2,11 @@
   <div class="project-detail">
     <div class="header">
       <h1 class="project-title">
-        <router-link to="/" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Robots</router-link> : {{ filteredProject["name"] }}
-        <span v-if="companyInfo" style="font-size:.6em;"> <router-link :to="`/company/${companyInfo.name}`">by {{ companyInfo.name }}</router-link></span>
+        <router-link to="/" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Robots</router-link>
+        {{ filteredProject["name"] }}
+        <span v-if="companyInfo" style="font-size:.85em;"> (
+          <router-link :to="`/company/${companyInfo.name}`">{{ companyInfo.name }}</router-link>
+        )</span>
       </h1>
     </div>
 
@@ -52,7 +55,6 @@
         <div v-for="(url, index) in projectUrls" :key="index" class="url-item">
           <div class="url-info">
             <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
-            <span class="url-complete">({{ url.url }})</span>
           </div>
         </div>
       </div>
@@ -293,10 +295,7 @@ const projectUrls = computed(() => {
   font-weight: 500;
   color: var(--color-text);
 }
-.url-complete {
-  font-size: 0.875rem;
-  color: var(--color-text);
-}
+...existing code...
 .btn {
   min-width: 100px;
 }
