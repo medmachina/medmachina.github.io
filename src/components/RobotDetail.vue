@@ -11,7 +11,12 @@
     </div>
 
     <div class="project-description">
-      {{ filteredProject["description"] }}
+      <template v-if="descriptionParagraphs.length">
+        <p v-for="(para, idx) in descriptionParagraphs" :key="idx">{{ para }}</p>
+      </template>
+      <template v-else>
+        {{ filteredProject["description"] }}
+      </template>
     </div>
 
     <h3 class="mt-4 mb-4">Images from the web</h3>
@@ -165,6 +170,18 @@ const filteredProject = computed(() => {
   delete filtered.tags; // Supprimer tags car affiché séparément
   delete filtered.urls; // Supprimer urls car affiché séparément
   return filtered;
+});
+
+// Split description into paragraphs by double newlines. Keeps text escaped (no v-html).
+const descriptionParagraphs = computed(() => {
+  const desc = filteredProject.value?.description;
+  if (!desc) return [];
+
+  // Normalize CRLF and CR to LF
+  const text = String(desc).replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+
+  // Split on two or more newlines to create paragraphs, trim each
+  return text.split(/\n{2,}/).map(s => s.trim()).filter(s => s.length > 0);
 });
 
 // Computed property pour les tags du projet
