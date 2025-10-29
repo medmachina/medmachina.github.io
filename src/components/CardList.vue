@@ -12,7 +12,14 @@
           />
         </template>
         <div class="card-body">
-          <h5 class="card-title">{{ item.name }}</h5>
+          <h5 class="card-title">
+            {{ item.name }}
+            <span v-if="getCompanyForItem(item)" style="font-size:0.9em; color:var(--color-text-muted);"> (
+              <router-link :to="`/company/${getCompanyForItem(item).name}`" @click.stop>
+                {{ getCompanyForItem(item).name }}
+              </router-link>
+            )</span>
+          </h5>
           <div class="mb-2">
               <span v-for="(tag, idx) in item.tags.slice(0,5)" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
               <span v-if="item.tags.length > 5">...</span>
@@ -31,6 +38,10 @@ const props = defineProps({
   items: {
     type: Array,
     required: true
+  },
+  companies: {
+    type: Array,
+    default: () => []
   }
 });
 
@@ -81,6 +92,11 @@ function handleImageError(item, event) {
 
   // Si aucune URL valide n'est trouvée, cacher l'image
   event.target.style.display = 'none';
+}
+
+function getCompanyForItem(item) {
+  if (!props.companies || !props.companies.length) return null;
+  return props.companies.find(c => c.robots && c.robots.includes(item.id));
 }
 </script>
 

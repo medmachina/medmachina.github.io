@@ -6,6 +6,7 @@ import UsageCloud from './UsageCloud.vue'
 import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
 
 const items = ref([])
+const companies = ref([])
 const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
@@ -16,6 +17,14 @@ onMounted(async () => {
   const robots = await response.json()
   // Randomiser l'ordre des robots avec l'algorithme de Fisher-Yates
   items.value = shuffleArray(robots)
+
+  // Charger les données des entreprises pour transmettre à CardList
+  try {
+    const resCompanies = await fetch('/companies.json')
+    companies.value = await resCompanies.json()
+  } catch (err) {
+    console.error('Failed to load companies.json', err)
+  }
 })
 
 // Fonction pour mélanger un tableau (algorithme de Fisher-Yates)
@@ -188,7 +197,7 @@ h1, h2 {
             placeholder="Search ..."
             class="form-control mb-3"
         />
-        <CardList :items="filteredItems" />
+  <CardList :items="filteredItems" :companies="companies" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>
