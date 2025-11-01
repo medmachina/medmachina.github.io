@@ -52,8 +52,20 @@ const selectedCountries = ref([])
 
 onMounted(async () => {
   const response = await fetch('/companies.json')
-  companies.value = await response.json()
+  const data = await response.json()
+  // Randomize companies order on load
+  companies.value = shuffleArray(data)
 })
+
+// Fisher-Yates shuffle used to randomize order
+function shuffleArray(array) {
+  const newArray = [...array]
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]]
+  }
+  return newArray
+}
 
 const allCountries = computed(() => {
   const countries = new Set()
