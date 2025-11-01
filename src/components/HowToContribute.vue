@@ -50,24 +50,22 @@ cd medmachina.github.io</code></pre>
 
         <h3>Robot Data Format</h3>
         <p>Each robot entry should follow this format:</p>
+        <p class="card-text">Note: robots are linked to companies by including the robot's <code>id</code> in the company's <code>robots</code> array (see Company Data Format).</p>
         <pre class="bg-dark text-light p-3 rounded"><code>{
   "name": "Robot Name",
-  "id": "uniqueRobotId",
-  "company_id": "companyIdReference",
+  "id": "unique_robot_id",
   "urls": [
-    "https://example.com/robot-page",
-    "https://example.com/additional-info"
+    { "caption": "Manufacturer page", "url": "https://example.com/robot-page" },
+    { "caption": "Additional info", "url": "https://example.com/additional-info" }
   ],
   "photo_urls": [
     "https://example.com/robot-image.jpg",
     "https://example.com/another-image.jpg"
   ],
-  "tags": [
-    "RAMIS",
-    "teleoperated",
-    "Commercial"
-  ],
-  "description": "Detailed description of the robot and its capabilities."
+  "tags": ["RAMIS", "teleoperated", "Commercial"],
+  "usages": ["Abdominal", "Urological"],
+  "description": "Detailed description of the robot and its capabilities.",
+  "regulatory": ["CE 2025", "FDA 2024"]
 }</code></pre>
 
         <h3>Company Data Format</h3>
@@ -75,8 +73,13 @@ cd medmachina.github.io</code></pre>
         <pre class="bg-dark text-light p-3 rounded"><code>{
   "name": "Company Name",
   "country": "Country Name",
-  "urls": ["https://company-website.com", "https://linkedin.com/company/company-name"],
-  "robots": [ "uniqueRobotId1", "uniqueRobotId2" ]
+  "urls": [
+    { "caption": "Official site", "url": "https://company-website.com" },
+    { "caption": "Company LinkedIn", "url": "https://linkedin.com/company/company-name" }
+  ],
+  "linkedin_url": "https://linkedin.com/company/company-name",
+  "robots": [ "unique_robot_id_1", "unique_robot_id_2" ],
+  "description": "Short description of the company and location."
 }</code></pre>
       </div>
     </div>
