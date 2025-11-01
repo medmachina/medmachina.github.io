@@ -418,4 +418,20 @@
     ],
     "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments."
   }
+  ,
+  {
+    "name": "Avatera Medical",
+    "country": "Germany",
+    "urls": [
+      {
+        "caption": "Avatera Medical",
+        "url": "https://avatera.eu/en/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/avateramedical-gmbh/",
+    "robots": [
+      "avatera_avatera"
+    ],
+    "description": "Avatera Medical is based in Jena, Germany."
+  }
 ]

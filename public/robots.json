@@ -883,5 +883,37 @@
       "Abdominal"
     ],
     "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
+  },
+  {
+    "name": "avatera",
+    "id": "avatera_avatera",
+    "urls": [
+      {
+        "caption": "Product site",
+        "url": "https://avatera.eu/en/avatera-system"
+      }
+    ],
+    "photo_urls": [
+      "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_content_ergonomische-op.jpg",
+      "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_header_system-8.jpg",
+      "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_content_instrumente.jpg",
+      "https://avatera.eu/fileadmin/user_upload/Banner/avatera_header_system-7.jpg"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Haptic",
+      "Commercial",
+      "Retired"
+    ],
+    "usages": [],
+    "description": ""
   }
 ]
