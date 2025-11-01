@@ -15,15 +15,26 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const showModal = ref(false);
+
+function openHandler() {
+  showModal.value = true;
+}
 
 onMounted(() => {
   const hasSeenDisclaimer = localStorage.getItem('hasSeenDisclaimer');
   if (!hasSeenDisclaimer) {
     showModal.value = true;
   }
+
+  // Listen for a global event so other components can request the disclaimer to open
+  window.addEventListener('open-disclaimer', openHandler);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('open-disclaimer', openHandler);
 });
 
 function acceptDisclaimer() {
