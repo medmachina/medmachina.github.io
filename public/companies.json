@@ -12,10 +12,12 @@
     "robots": [
       "intuitive_da_vinci_5",
       "intuitive_da_vinci_SP",
-      "intuitive_ion",
+      "intuitive_da_vinci_Xi",
+      "intuitive_da_vinci_X",
       "intuitive_da_vinci_Si",
       "intuitive_da_vinci_S",
-      "intuitive_da_vinci"
+      "intuitive_da_vinci",
+      "intuitive_ion"
     ],
     "description": "Intuitive is based in Sunnyvale, California, USA"
   },

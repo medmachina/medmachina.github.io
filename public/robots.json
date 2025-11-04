@@ -62,7 +62,8 @@
     ],
     "photo_urls": [
       "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci-Systems/davinci-sp-single-port-surgical-robot-system-patient-cart.jpg?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=b63884311f09470892bcf5d9987baf78",
-      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/SP/da-vinci-sp-single-port-instruments.png?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=f3a04fc53d052483c0db765876260d9c"
+      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/SP/da-vinci-sp-single-port-instruments.png?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=f3a04fc53d052483c0db765876260d9c",
+      "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -90,6 +91,69 @@
     ]
   },
   {
+    "name": "da Vinci X",
+    "id": "intuitive_da_vinci_X",
+    "urls": [
+      {
+        "caption": "Intuitive, da Vinci",
+        "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+      }
+    ],
+    "photo_urls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIHOJZpucNEKrdWq7k6NzfOFC-cYLcGPyAg&s",
+      "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
+      "https://headneckroboticsurgery.com/wp-content/uploads/2023/05/dv-x-burgos-1.jpg"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Haptic",
+      "Commercial"
+    ],
+    "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems."
+  },
+  {
+    "name": "da Vinci Xi",
+    "id": "intuitive_da_vinci_Xi",
+    "urls": [
+      {
+        "caption": "Intuitive, da Vinci",
+        "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+      },
+      {
+        "caption": "Synektik, da Vinci in the world",
+        "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
+      }
+    ],
+    "photo_urls": [
+      "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Da-Vinci-X/Da-Vinci-Xi-product-lineup.jpg?q=100&w=524&h=350&auto=compress%2Cformat&fit=crop&crop=entropy&s=546c5411b1e2edaf944e63bb072e7f74",
+      "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
+      "https://isi-static.imgix.net/en-in/-/jssmedia/www/en-in/home/products-and-services/da-vinci/_assets/davinci-xi-surgical-system.jpg?h=600&iar=0&w=541&hash=689E47DEC8865D65F8B665E939082ACB"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Motorized table",
+      "Haptic",
+      "Commercial"
+    ],
+    "description": "Fourth generation da Vinci system.\n\nThe patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) are now fully motorized and computer controlled, with automatic positioning and gravity compensation.  Instead of four long setup arms starting from a central column, the patient's cart now has a main boom that allows to position all 4 arms above the patient.  Each active arm can then be positioned precisely with much shorter setup arms.  The setup is the OR is simpler and the kinematic chains shorter (likely more precise).\n\n An extra degree of freedom is provided on the setup joints to reposition the active arm without changing the RCM point.  This degree of freedom is not active during teleoperation, its main function is to place the arms away from each other and avoid collicions outside the patient.The Xi system also introduces a motorized table which allows to incline the patient while the instruments are in place.  This requires the setup joints to be motorized so the entry points (RCM) can follow the table's motion.\n\nThe patient cart has motorized wheels to ease transport between rooms.\n\nThe patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are interchangeable and renamed USMs (Universal serial manipulators).  Each arm can now hold either an instrument or the endoscope.  Each USM now has 8 motors, providing 5 actuators for the instrument itself (previous versions had 4).  All motors and sensors for the instrument's actuation are located on the insertion link, directly behind the sterile adapter.  Previous systems had complex cables and pulleys from the motors in the second link of the active arm to the back of the sterile adapter.\n\nThe video system is totally new, with a fully digital HD 3D video stream from the endoscope tip to the surgeon's console.\n\nThe surgeon's console remains visually unchanged from the da Vinci Si and SP."
+  },
+  {
     "name": "da Vinci Si",
     "id": "intuitive_da_vinci_Si",
     "urls": [
@@ -100,10 +164,15 @@
       {
         "caption": "dVRK: da Vinci Si",
         "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+      },
+      {
+        "caption": "Synektik, da Vinci in the world",
+        "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
       }
     ],
     "photo_urls": [
-      "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg"
+      "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg",
+      "https://auxomedical.com/wp-content/uploads/2024/06/Intuitive-Surgical-da-Vinci-Si-HD-Surgical-Robot-scaled.jpeg"
     ],
     "tags": [
       "RAMIS",
@@ -142,11 +211,16 @@
       {
         "caption": "dVRK: da Vinci Si",
         "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+      },
+      {
+        "caption": "Synektik, da Vinci in the world",
+        "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
       }
     ],
     "photo_urls": [
       "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-S-overview-labeled.png",
-      "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-Si-overview-labeled.png"
+      "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-Si-overview-labeled.png",
+      "https://d2yjegym0lbr1w.cloudfront.net/thumbs/davincioverview_1280.jpg?v=201404108"
     ],
     "tags": [
       "RAMIS",
@@ -182,6 +256,10 @@
       {
         "caption": "Science Museum Group Collection, Surgeon console from da Vinci Classic Surgical System",
         "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8606526/surgeon-console-from-da-vinci-classic-surgical-system"
+      },
+      {
+        "caption": "Synektik, da Vinci in the world",
+        "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
       }
     ],
     "photo_urls": [
