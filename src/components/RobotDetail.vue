@@ -230,7 +230,7 @@ const projectUrls = computed(() => {
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .header {
-  //display: flex;
+  /* display: flex; */
   align-items: center;
   margin-bottom: 1.5rem;
 }
@@ -312,7 +312,6 @@ const projectUrls = computed(() => {
   font-weight: 500;
   color: var(--color-text);
 }
-...existing code...
 .btn {
   min-width: 100px;
 }
