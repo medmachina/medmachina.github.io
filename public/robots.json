@@ -842,7 +842,11 @@
         "url": "https://www.jnjmedtech.com/en-US/patient/velys"
       }
     ],
-    "photo_urls": [],
+    "photo_urls": [
+      "https://www.jnjmedtech.com/sites/default/files/images/VRAS_Robotic-Device_2023.jpg",
+      "https://www.jnjmedtech.com/sites/default/files/images/20_6065_VELYS-Product-084_W2_F_RGB.png",
+      "https://www.jnjmedtech.com/sites/default/files/images/VRAS_System_OR_2023.png"
+    ],
     "tags": [
       "Open surgery"
     ],
@@ -963,11 +967,15 @@
         "url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
       }
     ],
-    "photo_urls": [],
+    "photo_urls": [
+      "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-1.jpg",
+      "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-2.jpg",
+      "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-3-2.jpg"
+    ],
     "tags": [
       "Open microsurgery"
     ],
-    "description": "Location: Jacksonville, Florida, USA. 2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?"
+    "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?"
   },
   {
     "name": "RavenII",
@@ -1021,5 +1029,27 @@
     ],
     "usages": [],
     "description": ""
+  },
+  {
+    "name": "Mona Lisa",
+    "id": "biobot_mona_lisa",
+    "urls": [
+      {
+        "caption": "Biobot Mona Lisa",
+        "url": "https://biobotsurgical.com/technology/"
+      }
+    ],
+    "photo_urls": [
+      "https://biobotsurgical.com/wp-content/uploads/2024/02/HomePage_ML2.png",
+      "https://www.priora.eu/wp-content/uploads/bf-advanced-images/3115/Mona-Lisa-Robot-scaled-1600x0.jpg"
+    ],
+    "tags": [
+      "Biopsy",
+      "TRUS"
+    ],
+    "usages": [
+      "Prostate"
+    ],
+    "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy."
   }
 ]

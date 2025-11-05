@@ -450,5 +450,20 @@
       "haply_inverse3"
     ],
     "description": "Haply is based in Montreal, Canada."
+  },
+  {
+    "name": "Biobot Surgical",
+    "country": "Singapore",
+    "urls": [
+      {
+        "caption": "Biobot Surgical",
+        "url": "https://biobotsurgical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/biobot-surgical-pte-ltd/",
+    "robots": [
+      "biobot_mona_lisa"
+    ],
+    "description": "Biobot Surgical is based in Singapore."
   }
 ]
