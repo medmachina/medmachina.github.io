@@ -11,11 +11,11 @@
     "photos": [
       {
         "url": "https://imgproxy.divecdn.com/YCzJiRJOc0wZsq9afmnTHXp4Rs01bn3MAg2YBboKGQk/g:ce/rs:fill:800:450:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qcGctbWVkaXVtLWR2LXN5cy1kdjUtZmlyc3RhY2Nlc3MtMi1mdWxsc3lzdGVtLXd0LTAyMjAyNF9xVTJVb055LmpwZw==.webp",
-        "site": "divecdn.com"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       },
       {
         "url": "https://news.med.virginia.edu/files/2024/08/Robot_DaVinci5-1x1-1.jpg",
-        "site": "med.virginia.edu"
+        "site": "https://news.med.virginia.edu/blog/2024/08/first-in-virginia-uva-health-debuts-new-da-vinci-5-robotic-surgical-system"
       }
     ],
     "tags": [
@@ -69,15 +69,15 @@
     "photos": [
       {
         "url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci-Systems/davinci-sp-single-port-surgical-robot-system-patient-cart.jpg?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=b63884311f09470892bcf5d9987baf78",
-        "site": "imgix.net"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
       },
       {
         "url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/SP/da-vinci-sp-single-port-instruments.png?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=f3a04fc53d052483c0db765876260d9c",
-        "site": "imgix.net"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
       },
       {
         "url": "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
-        "site": "twitter.com"
+        "site": "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system"
       }
     ],
     "tags": [
@@ -117,15 +117,15 @@
     "photos": [
       {
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIHOJZpucNEKrdWq7k6NzfOFC-cYLcGPyAg&s",
-        "site": "google.com"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       },
       {
         "url": "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
-        "site": "twitter.com"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       },
       {
         "url": "https://headneckroboticsurgery.com/wp-content/uploads/2023/05/dv-x-burgos-1.jpg",
-        "site": "headneckroboticsurgery.com"
+        "site": "https://headneckroboticsurgery.com/robotic-surgery-system-devices/da-vinci-x/"
       }
     ],
     "tags": [
@@ -159,15 +159,15 @@
     "photos": [
       {
         "url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Da-Vinci-X/Da-Vinci-Xi-product-lineup.jpg?q=100&w=524&h=350&auto=compress%2Cformat&fit=crop&crop=entropy&s=546c5411b1e2edaf944e63bb072e7f74",
-        "site": "imgix.net"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       },
       {
         "url": "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
-        "site": "twitter.com"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       },
       {
         "url": "https://isi-static.imgix.net/en-in/-/jssmedia/www/en-in/home/products-and-services/da-vinci/_assets/davinci-xi-surgical-system.jpg?h=600&iar=0&w=541&hash=689E47DEC8865D65F8B665E939082ACB",
-        "site": "imgix.net"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       }
     ],
     "tags": [
@@ -206,11 +206,11 @@
     "photos": [
       {
         "url": "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg",
-        "site": "foolcdn.com"
+        "site": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
       },
       {
         "url": "https://auxomedical.com/wp-content/uploads/2024/06/Intuitive-Surgical-da-Vinci-Si-HD-Surgical-Robot-scaled.jpeg",
-        "site": "auxomedical.com"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       }
     ],
     "tags": [
@@ -259,15 +259,15 @@
     "photos": [
       {
         "url": "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-S-overview-labeled.png",
-        "site": "readthedocs.io"
+        "site": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
       },
       {
         "url": "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-Si-overview-labeled.png",
-        "site": "readthedocs.io"
+        "site": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
       },
       {
         "url": "https://d2yjegym0lbr1w.cloudfront.net/thumbs/davincioverview_1280.jpg?v=201404108",
-        "site": "cloudfront.net"
+        "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
       }
     ],
     "tags": [
@@ -351,11 +351,11 @@
     "photos": [
       {
         "url": "https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-robotics/robotic-assisted-surgery/hugo-ras-system-hcp-or-setup-arm-use-b.jpg",
-        "site": "medtronic.com"
+        "site": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
       },
       {
         "url": "https://www.medtronic.com/content/dam/medtronic-com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system-module.jpg",
-        "site": "medtronic.com"
+        "site": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
       }
     ],
     "tags": [
@@ -388,15 +388,15 @@
     "photos": [
       {
         "url": "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg",
-        "site": "medicaroid.com"
+        "site": "https://www.medicaroid.com/en/product/hinotori/"
       },
       {
         "url": "https://www.medicaroid.com/en/product/hinotori/images/top_features04_img.png",
-        "site": "medicaroid.com"
+        "site": "https://www.medicaroid.com/en/product/hinotori/"
       },
       {
         "url": "https://www.medicaroid.com/en/release/images/thumb_221013-01.jpg",
-        "site": "medicaroid.com"
+        "site": "https://www.medicaroid.com/en/product/hinotori/"
       }
     ],
     "tags": [
@@ -434,15 +434,15 @@
     "photos": [
       {
         "url": "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg",
-        "site": "news-medical.net"
+        "site": "https://cmrsurgical.com/versius"
       },
       {
         "url": "https://www.ircad.fr/wp-content/uploads/Capture-decran-2020-08-24-a-11.48.47-1.png",
-        "site": "ircad.fr"
+        "site": "https://www.ircad.fr/professional-solutions/robotic-surgery-solutions/"
       },
       {
         "url": "https://ifdalivestorage.blob.core.windows.net/user-uploads/74399/304588/00000000-0000-0000-0000-000000000000/02_versius_console_stand_sit.jpg",
-        "site": "azure.net"
+        "site": "https://cmrsurgical.com/versius"
       }
     ],
     "tags": [
@@ -476,15 +476,15 @@
     "photos": [
       {
         "url": "https://ssinnovations.com/wp-content/uploads/2024/12/M3-PSAC-DEC241A-600x600.webp",
-        "site": "ssinnovations.com"
+        "site": "https://ssinnovations.com/ssi-mantra/"
       },
       {
         "url": "https://ssinnovations.com/wp-content/uploads/2024/12/M3-VC-DEC241B-600x600.webp",
-        "site": "ssinnovations.com"
+        "site": "https://ssinnovations.com/ssi-mantra/"
       },
       {
         "url": "https://ssinnovations.com/wp-content/uploads/2024/12/M3-SCC-DEC241A.webp",
-        "site": "ssinnovations.com"
+        "site": "https://ssinnovations.com/ssi-mantra/"
       }
     ],
     "tags": [
@@ -514,11 +514,11 @@
     "photos": [
       {
         "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/42a200216973933.67e60dabb728e.png",
-        "site": "behance.net"
+        "site": "https://www.csrbtx.com/en/product_center/"
       },
       {
         "url": "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2025/05/26/949dc71e-62a0-4777-920d-2eb82a55a8f9_222e6d43.jpg",
-        "site": "i-scmp.com"
+        "site": "https://www.csrbtx.com/en/product_center/"
       }
     ],
     "tags": [
@@ -549,7 +549,7 @@
     "photos": [
       {
         "url": "https://moonsurgical.com/uploads//transforms/images/_default/754/Scene-1-2_2024-07-02-115704_eylh.webp",
-        "site": "moonsurgical.com"
+        "site": "https://moonsurgical.com/maestro-system"
       }
     ],
     "tags": [
@@ -574,7 +574,7 @@
     "photos": [
       {
         "url": "https://cdn.prod.website-files.com/65b3c087a187154f99c5173c/65bbbaecf479b67122c02035_Product%20Banner-p-1600.jpg",
-        "site": "website-files.com"
+        "site": "https://www.revolvesurgical.com"
       }
     ],
     "tags": [
@@ -598,15 +598,15 @@
     "photos": [
       {
         "url": "https://www.vicarioussurgical.com/wp-content/uploads/advanced-technology-01.jpg",
-        "site": "vicarioussurgical.com"
+        "site": "https://www.vicarioussurgical.com/technology/"
       },
       {
         "url": "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-scaled.jpg",
-        "site": "vicarioussurgical.com"
+        "site": "https://www.vicarioussurgical.com/technology/"
       },
       {
         "url": "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-4-scaled.jpg",
-        "site": "vicarioussurgical.com"
+        "site": "https://www.vicarioussurgical.com/technology/"
       }
     ],
     "tags": [
@@ -636,7 +636,7 @@
     "photos": [
       {
         "url": "https://ml.globenewswire.com/Resource/Download/37115e8d-9772-4352-a919-c794b2d3aa77/Asensus.png",
-        "site": "globenewswire.com"
+        "site": "https://www.asensus.com/senhance"
       }
     ],
     "tags": [
@@ -659,7 +659,7 @@
     "photos": [
       {
         "url": "https://ml.globenewswire.com/Resource/Download/37115e8d-9772-4352-a919-c794b2d3aa77/Asensus.png",
-        "site": "globenewswire.com"
+        "site": "https://ir.asensus.com/news-releases/news-release-details/asensus-surgical-completes-vivo-surgeon-lab-luna-surgical"
       }
     ],
     "tags": [
@@ -703,7 +703,7 @@
     "photos": [
       {
         "url": "https://thenext.jnjmedtech.com/_next/image?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fbltb7c57cef5b058034%2Fbltd1b721f163bc0ba1%2F65259910fbc4f63a3d9ae4e4%2Fottava-02.webp&w=256&q=75",
-        "site": "jnjmedtech.com"
+        "site": "https://thenext.jnjmedtech.com/surgical-robotics"
       }
     ],
     "tags": [
@@ -726,11 +726,11 @@
     "photos": [
       {
         "url": "https://virtuososurgical.net/wp-content/uploads/2023/05/carousel-pair-01.jpg",
-        "site": "virtuososurgical.net"
+        "site": "https://virtuososurgical.net/technology/"
       },
       {
         "url": "https://virtuososurgical.net/wp-content/uploads/2023/05/carousel-pair-02.jpg",
-        "site": "virtuososurgical.net"
+        "site": "https://virtuososurgical.net/technology/"
       }
     ],
     "tags": [
@@ -757,19 +757,19 @@
     "photos": [
       {
         "url": "https://www.robsurgical.com/wp-content/uploads/2022/09/deisgn-console-bitrack-system.jpg",
-        "site": "robsurgical.com"
+        "site": "https://www.robsurgical.com/product/"
       },
       {
         "url": "https://www.robsurgical.com/wp-content/uploads/2022/10/robot-bitrack-system.png",
-        "site": "robsurgical.com"
+        "site": "https://www.robsurgical.com/product/"
       },
       {
         "url": "https://www.robsurgical.com/wp-content/uploads/2022/09/dynamic-fulcrum-point.jpg",
-        "site": "robsurgical.com"
+        "site": "https://www.robsurgical.com/product/"
       },
       {
         "url": "https://www.robsurgical.com/wp-content/uploads/2022/09/consola-bitrack-system-rob-surgical.jpg",
-        "site": "robsurgical.com"
+        "site": "https://www.robsurgical.com/product/"
       }
     ],
     "tags": [
@@ -792,15 +792,15 @@
     "photos": [
       {
         "url": "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_01_m.png",
-        "site": "revosurgical.com"
+        "site": "http://revosurgical.com/eng/sub/discover_revo_i/product.php"
       },
       {
         "url": "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_03.png",
-        "site": "revosurgical.com"
+        "site": "http://revosurgical.com/eng/sub/discover_revo_i/product.php"
       },
       {
         "url": "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_02_m.png",
-        "site": "revosurgical.com"
+        "site": "http://revosurgical.com/eng/sub/discover_revo_i/product.php"
       }
     ],
     "tags": [
@@ -892,19 +892,19 @@
     "photos": [
       {
         "url": "https://i.ytimg.com/vi/wszYGcix84Q/hqdefault.jpg",
-        "site": "youtube.com"
+        "site": "https://www.haply.co/inverse3"
       },
       {
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnzdsgeROU3dQuthilkP0wHCKuwF27XQtEw&s",
-        "site": "google.com"
+        "site": "https://www.haply.co/inverse3"
       },
       {
         "url": "https://images.squarespace-cdn.com/content/v1/6303dfe67e33741f9d4a2eed/fa35c78c-017c-4280-ad80-e98caea1dc8c/Frame+159.png",
-        "site": "squarespace-cdn.com"
+        "site": "https://www.haply.co/inverse3"
       },
       {
         "url": "https://mma.prnewswire.com/media/2312105/Inverse3_in_VR_1__Transparent.jpg?p=facebook",
-        "site": "prnewswire.com"
+        "site": "https://www.haply.co/inverse3"
       }
     ],
     "tags": [
@@ -924,11 +924,11 @@
     "photos": [
       {
         "url": "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Noah_web_Walkthrough_Silo1.png",
-        "site": "hubspotusercontent-na1.net"
+        "site": "https://www.noahmed.com/galaxy"
       },
       {
         "url": "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Galaxy_Feature_1_800x800pxl.jpg",
-        "site": "hubspotusercontent-na1.net"
+        "site": "https://www.noahmed.com/galaxy"
       }
     ],
     "tags": [],
@@ -947,7 +947,7 @@
     "photos": [
       {
         "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5443452499001/7cc75a4e-dd27-425a-93e8-8dc5a4d442f6/a2153c62-2227-4650-848d-d89fd01e065e/1280x720/match/image.jpg",
-        "site": "boltdns.net"
+        "site": "https://www.intuitive.com/en-us/products-and-services/ion"
       }
     ],
     "tags": [],
@@ -988,11 +988,11 @@
     "photos": [
       {
         "url": "https://media-assets.stryker.com/is/image/stryker/Mako%204%20Family%204%204K%20with%20shadow3?$max_width_1440$",
-        "site": "stryker.com"
+        "site": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
       },
       {
         "url": "https://media-assets.stryker.com/is/image/stryker/Mako%204%20TKA%20and%20Q%20Guidance%204K%20(1)?$max_width_1440$",
-        "site": "stryker.com"
+        "site": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
       }
     ],
     "tags": [
@@ -1016,15 +1016,15 @@
     "photos": [
       {
         "url": "https://www.jnjmedtech.com/sites/default/files/images/VRAS_Robotic-Device_2023.jpg",
-        "site": "jnjmedtech.com"
+        "site": "https://www.jnjmedtech.com/en-US/patient/velys"
       },
       {
         "url": "https://www.jnjmedtech.com/sites/default/files/images/20_6065_VELYS-Product-084_W2_F_RGB.png",
-        "site": "jnjmedtech.com"
+        "site": "https://www.jnjmedtech.com/en-US/patient/velys"
       },
       {
         "url": "https://www.jnjmedtech.com/sites/default/files/images/VRAS_System_OR_2023.png",
-        "site": "jnjmedtech.com"
+        "site": "https://www.jnjmedtech.com/en-US/patient/velys"
       }
     ],
     "tags": [
@@ -1114,7 +1114,7 @@
     "photos": [
       {
         "url": "https://www.ecential-robotics.com/media/images/trash/_1920x1080_crop_center-center_none/43961/Ecential_Robotics_0837_operation_bloc%C2%A9e2nphoto.com-Copie-Copie.webp",
-        "site": "ecential-robotics.com"
+        "site": "https://www.ecential-robotics.com/en-us/unified-imaging-navigation-and-robotic-platform"
       }
     ],
     "tags": [
@@ -1134,7 +1134,7 @@
     "photos": [
       {
         "url": "https://static.wixstatic.com/media/7574e8_f639a2e99e8348edb7eabb11f551a9e0~mv2.png/v1/crop/x_561,y_0,w_829,h_894/fill/w_600,h_711,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/FIH%202024.png",
-        "site": "wixstatic.com"
+        "site": "https://acusurgical.com/technology"
       }
     ],
     "tags": [
@@ -1157,15 +1157,15 @@
     "photos": [
       {
         "url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-1.jpg",
-        "site": "mmimicro.com"
+        "site": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
       },
       {
         "url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-2.jpg",
-        "site": "mmimicro.com"
+        "site": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
       },
       {
         "url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-3-2.jpg",
-        "site": "mmimicro.com"
+        "site": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
       }
     ],
     "tags": [
@@ -1189,11 +1189,11 @@
     "photos": [
       {
         "url": "http://rll.berkeley.edu/raven/pieter-ken-raven.jpg",
-        "site": "berkeley.edu"
+        "site": "https://robotsguide.com/robots/ravensurgical"
       },
       {
         "url": "https://images.newscientist.com/wp-content/uploads/2006/08/dn9835-1_400.jpg",
-        "site": "newscientist.com"
+        "site": "https://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
       }
     ],
     "tags": [
@@ -1217,19 +1217,19 @@
     "photos": [
       {
         "url": "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_content_ergonomische-op.jpg",
-        "site": "avatera.eu"
+        "site": "https://avatera.eu/en/avatera-system"
       },
       {
         "url": "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_header_system-8.jpg",
-        "site": "avatera.eu"
+        "site": "https://avatera.eu/en/avatera-system"
       },
       {
         "url": "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_content_instrumente.jpg",
-        "site": "avatera.eu"
+        "site": "https://avatera.eu/en/avatera-system"
       },
       {
         "url": "https://avatera.eu/fileadmin/user_upload/Banner/avatera_header_system-7.jpg",
-        "site": "avatera.eu"
+        "site": "https://avatera.eu/en/avatera-system"
       }
     ],
     "tags": [
@@ -1261,11 +1261,11 @@
     "photos": [
       {
         "url": "https://biobotsurgical.com/wp-content/uploads/2024/02/HomePage_ML2.png",
-        "site": "biobotsurgical.com"
+        "site": "https://biobotsurgical.com/technology/"
       },
       {
         "url": "https://www.priora.eu/wp-content/uploads/bf-advanced-images/3115/Mona-Lisa-Robot-scaled-1600x0.jpg",
-        "site": "priora.eu"
+        "site": "https://www.priora.eu/equipment/mona-lisa/"
       }
     ],
     "tags": [
@@ -1289,19 +1289,19 @@
     "photos": [
       {
         "url": "https://www.medbotsurgical.com/upload/solution/1679018003106762972.png",
-        "site": "medbotsurgical.com"
+        "site": "https://www.medbotsurgical.com/en/solution"
       },
       {
         "url": "https://www.red-dot.org/fileadmin/_processed_/5/5/csm_36-05804-2022PD-01_CO_EV_2ff0937d11.jpg",
-        "site": "red-dot.org"
+        "site": "https://www.red-dot.org/project/toumai-surgical-robot-system-65547"
       },
       {
         "url": "https://static.wixstatic.com/media/18fca8_f23f62d9711b4d81825482442648f92c~mv2.webp/v1/fill/w_954,h_962,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/MicroPort-MedBot-Toumai-Endoscopic-Surgical-Robot-Brochure-English-20240531_2.webp",
-        "site": "wixstatic.com"
+        "site": "https://www.medbotsurgical.com/en/solution"
       },
       {
         "url": "https://static.wixstatic.com/media/18fca8_a955b5967a324258bfba1a4a59222c21~mv2.webp/v1/fill/w_1020,h_1104,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/MicroPort-MedBot-Toumai-Endoscopic-Surgical-Robot-Brochure-English-20240531_4.webp",
-        "site": "wixstatic.com"
+        "site": "https://www.medbotsurgical.com/en/solution"
       }
     ],
     "tags": [
@@ -1335,15 +1335,15 @@
     "photos": [
       {
         "url": "https://www.medbotsurgical.com/en/upload/solution/1612489032604676926.png",
-        "site": "medbotsurgical.com"
+        "site": "https://www.medbotsurgical.com/en/solution/skywalker"
       },
       {
         "url": "https://www.medbotsurgical.com/en/upload/patientcare/1612479127554656470.png",
-        "site": "medbotsurgical.com"
+        "site": "https://www.medbotsurgical.com/en/solution/skywalker"
       },
       {
         "url": "https://www.medbotsurgical.com/en/upload/news/1747867841926813292.jpg",
-        "site": "medbotsurgical.com"
+        "site": "https://www.medbotsurgical.com/en/solution/skywalker"
       }
     ],
     "tags": [

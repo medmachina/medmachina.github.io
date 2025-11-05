@@ -28,14 +28,14 @@
           :key="index"
           class="photo-item"
         >
-          <a :href="`https://${photo.site}`" target="_blank" rel="noopener noreferrer" class="photo-link">
+          <a :href="photo.site" target="_blank" rel="noopener noreferrer" class="photo-link">
             <img
               :src="photo.url"
-              :alt="`Photo ${index + 1} from ${photo.site}`"
+              :alt="`Photo ${index + 1}`"
               class="photo-thumbnail"
               @error="handleImageError(photo)"
             />
-            <div class="photo-source">{{ photo.site }}</div>
+            <div class="photo-source">visit site</div>
           </a>
         </div>
       </div>
