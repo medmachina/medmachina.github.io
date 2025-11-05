@@ -435,5 +435,20 @@
       "avatera_avatera"
     ],
     "description": "Avatera Medical is based in Jena, Germany."
+  },
+  {
+    "name": "Haply Robotics",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "Haply Robotics",
+        "url": "https://www.haply.co/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/haplyrobotics",
+    "robots": [
+      "haply_inverse3"
+    ],
+    "description": "Haply is based in Montreal, Canada."
   }
 ]

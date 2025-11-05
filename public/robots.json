@@ -69,7 +69,7 @@
       "RAMIS",
       "Single patient cart",
       "Single port",
-      "2 instruments",
+      "3+ instruments",
       "Teleoperated",
       "Stereo viewer",
       "Stereo endocoscope",
@@ -329,7 +329,9 @@
       }
     ],
     "photo_urls": [
-      "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg"
+      "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg",
+      "https://www.medicaroid.com/en/product/hinotori/images/top_features04_img.png",
+      "https://www.medicaroid.com/en/release/images/thumb_221013-01.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -364,7 +366,9 @@
       }
     ],
     "photo_urls": [
-      "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg"
+      "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg",
+      "https://www.ircad.fr/wp-content/uploads/Capture-decran-2020-08-24-a-11.48.47-1.png",
+      "https://ifdalivestorage.blob.core.windows.net/user-uploads/74399/304588/00000000-0000-0000-0000-000000000000/02_versius_console_stand_sit.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -396,7 +400,8 @@
     ],
     "photo_urls": [
       "https://ssinnovations.com/wp-content/uploads/2024/12/M3-PSAC-DEC241A-600x600.webp",
-      "https://ssinnovations.com/wp-content/uploads/2024/12/M3-VC-DEC241B-600x600.webp"
+      "https://ssinnovations.com/wp-content/uploads/2024/12/M3-VC-DEC241B-600x600.webp",
+      "https://ssinnovations.com/wp-content/uploads/2024/12/M3-SCC-DEC241A.webp"
     ],
     "tags": [
       "RAMIS",
@@ -423,7 +428,8 @@
       }
     ],
     "photo_urls": [
-      "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/42a200216973933.67e60dabb728e.png"
+      "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/42a200216973933.67e60dabb728e.png",
+      "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2025/05/26/949dc71e-62a0-4777-920d-2eb82a55a8f9_222e6d43.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -439,7 +445,7 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart"
   },
   {
     "name": "Maestro",
@@ -494,7 +500,9 @@
       }
     ],
     "photo_urls": [
-      "https://www.vicarioussurgical.com/wp-content/uploads/advanced-technology-01.jpg"
+      "https://www.vicarioussurgical.com/wp-content/uploads/advanced-technology-01.jpg",
+      "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-scaled.jpg",
+      "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-4-scaled.jpg"
     ],
     "tags": [
       "RAMIS",
@@ -727,6 +735,26 @@
       "Haptic device"
     ],
     "description": ""
+  },
+  {
+    "name": "Inverse3",
+    "id": "haply_inverse3",
+    "urls": [
+      {
+        "caption": "Haply, Inverse3",
+        "url": "https://www.haply.co/inverse3"
+      }
+    ],
+    "photo_urls": [
+      "https://i.ytimg.com/vi/wszYGcix84Q/hqdefault.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnzdsgeROU3dQuthilkP0wHCKuwF27XQtEw&s",
+      "https://images.squarespace-cdn.com/content/v1/6303dfe67e33741f9d4a2eed/fa35c78c-017c-4280-ad80-e98caea1dc8c/Frame+159.png",
+      "https://mma.prnewswire.com/media/2312105/Inverse3_in_VR_1__Transparent.jpg?p=facebook"
+    ],
+    "tags": [
+      "Haptic device"
+    ],
+    "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons."
   },
   {
     "name": "Galaxy",
