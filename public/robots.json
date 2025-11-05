@@ -985,10 +985,15 @@
       {
         "caption": "Robots Guide: Raven",
         "url": "https://robotsguide.com/robots/ravensurgical"
+      },
+      {
+        "caption": "NewScientist article 08/2006",
+        "url": "hhttps://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
       }
     ],
     "photo_urls": [
-      "http://rll.berkeley.edu/raven/pieter-ken-raven.jpg"
+      "http://rll.berkeley.edu/raven/pieter-ken-raven.jpg",
+      "https://images.newscientist.com/wp-content/uploads/2006/08/dn9835-1_400.jpg"
     ],
     "tags": [
       "RAMIS",
