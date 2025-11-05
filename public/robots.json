@@ -825,11 +825,11 @@
       "https://media-assets.stryker.com/is/image/stryker/Mako%204%20TKA%20and%20Q%20Guidance%204K%20(1)?$max_width_1440$"
     ],
     "tags": [
-      "Open surgery"
+      "Open surgery",
+      "Orthopedic"
     ],
     "usages": [
-      "Knee",
-      "Orthopedic"
+      "Knee"
     ],
     "description": ""
   },
@@ -838,7 +838,7 @@
     "id": "j&j_velys",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Johnson & Johnson MedTech, Velys",
         "url": "https://www.jnjmedtech.com/en-US/patient/velys"
       }
     ],
@@ -848,12 +848,12 @@
       "https://www.jnjmedtech.com/sites/default/files/images/VRAS_System_OR_2023.png"
     ],
     "tags": [
-      "Open surgery"
+      "Open surgery",
+      "Orthopedic"
     ],
     "usages": [
       "Knee",
-      "Hip",
-      "Orthopedic"
+      "Hip"
     ],
     "description": ""
   },
@@ -868,11 +868,12 @@
     ],
     "photo_urls": [],
     "tags": [
-      "Open surgery"
+      "Open surgery",
+      "Orthopedic"
     ],
     "usages": [
-      "knee",
-      "Orthopedic"
+      "Knee"
+
     ],
     "description": ""
   },
@@ -891,11 +892,11 @@
     ],
     "photo_urls": [],
     "tags": [
-      "Open surgery"
+      "Open surgery",
+      "Orthopedic"
     ],
     "usages": [
-      "Knee",
-      "Orthopedic"
+      "Knee"
     ],
     "description": ""
   },
@@ -1085,5 +1086,29 @@
     "usages": [
     ],
     "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised."
+  },
+  {
+    "name": "MedBot Skywalker",
+    "id": "medbot_skywalker",
+    "urls": [
+      {
+        "caption": "MedBot Skywalker",
+        "url": "https://www.medbotsurgical.com/en/solution"
+      }
+    ],
+    "photo_urls": [
+      "https://www.medbotsurgical.com/en/upload/solution/1612489032604676926.png",
+      "https://www.medbotsurgical.com/en/upload/patientcare/1612479127554656470.png",
+      "https://www.medbotsurgical.com/en/upload/news/1747867841926813292.jpg"
+    ],
+    "tags": [
+      "Open surgery",
+      "Orthopedic"
+    ],
+    "usages": [
+      "Hip",
+      "Knee"
+    ],
+    "description": ""
   }
 ]

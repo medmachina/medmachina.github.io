@@ -464,6 +464,22 @@
     "robots": [
       "biobot_mona_lisa"
     ],
-    "description": "Biobot Surgical is based in Singapore."
+    "description": "Biobot Surgical is based in Singapore. Seems to be under the MedBot umbrella."
+  },
+  {
+    "name": "MicroPort MedBot",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "MicroPort MedBot",
+        "url": "https://www.medbotsurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/microport-medbot/",
+    "robots": [
+      "medbot_toumai",
+      "medbot_skywalker"
+    ],
+    "description": "MedBot is based in Shanghai, China."
   }
 ]
