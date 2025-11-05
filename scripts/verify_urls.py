@@ -56,15 +56,12 @@ def remove_invalid_urls(robots_data, broken_urls):
     changes_made = False
     
     for robot in robots_data:
-        if 'photo_urls' in robot:
-            original_urls = robot['photo_urls']
-            valid_urls = [url for url in original_urls if url not in broken_urls_set]
-            if len(valid_urls) != len(original_urls):
+        if 'photos' in robot:
+            original_photos = robot['photos']
+            valid_photos = [photo for photo in original_photos if photo['url'] not in broken_urls_set]
+            if len(valid_photos) != len(original_photos):
                 changes_made = True
-                if valid_urls:
-                    robot['photo_urls'] = valid_urls
-                else:
-                    robot['photo_urls'] = []
+                robot['photos'] = valid_photos
     
     return changes_made
 
@@ -75,8 +72,9 @@ def verify_urls(robots_data, companies_data):
     
     # Collect URLs from robots data
     for robot in robots_data:
-        for url in robot.get('photo_urls', []):
-            if url:  # Only check non-empty URLs
+        for photo in robot.get('photos', []):
+            if photo and photo.get('url'):  # Only check non-empty URLs
+                url = photo['url']
                 all_urls.append(url)
                 url_sources[url] = f"Robot: {robot['name']}"
     
@@ -133,18 +131,53 @@ def verify_urls(robots_data, companies_data):
 
 def print_photo_url_summary(robots_data):
     """Print a summary of photo URLs for each robot, sorted by count"""
-    # Create a list of tuples (name, url_count)
-    robot_url_counts = [(robot['name'], len(robot.get('photo_urls', []))) 
-                       for robot in robots_data]
+    # Create a list of tuples (name, url_count, sites)
+    robot_url_info = []
+    for robot in robots_data:
+        photo_count = len(robot.get('photos', []))
+        sites = set(photo['site'] for photo in robot.get('photos', []) if 'site' in photo)
+        robot_url_info.append((robot['name'], photo_count, sites))
     
     # Sort by URL count, then by name for same counts
-    robot_url_counts.sort(key=lambda x: (x[1], x[0]))
+    robot_url_info.sort(key=lambda x: (x[1], x[0]))
     
     print("\n=== Photo URL Count Summary ===")
-    print("Robot Name".ljust(30), "Number of Photos")
-    print("-" * 45)
-    for name, count in robot_url_counts:
-        print(f"{name[:29].ljust(30)} {count}")
+    print("Robot Name".ljust(30), "Photos", "Sites")
+    print("-" * 60)
+    for name, count, sites in robot_url_info:
+        sites_str = ", ".join(sorted(sites)) if sites else "N/A"
+        print(f"{name[:29].ljust(30)} {str(count).ljust(6)} {sites_str}")
+
+def validate_photo_structure(robots_data):
+    """Validate that all photo entries have the required structure"""
+    issues = []
+    
+    for robot in robots_data:
+        if 'photos' not in robot:
+            continue
+            
+        if not isinstance(robot['photos'], list):
+            issues.append(f"Robot '{robot['name']}': 'photos' is not a list")
+            continue
+            
+        for i, photo in enumerate(robot['photos']):
+            if not isinstance(photo, dict):
+                issues.append(f"Robot '{robot['name']}': photo {i} is not an object")
+                continue
+                
+            if 'url' not in photo:
+                issues.append(f"Robot '{robot['name']}': photo {i} missing 'url' field")
+            
+            if 'site' not in photo:
+                issues.append(f"Robot '{robot['name']}': photo {i} missing 'site' field")
+    
+    if issues:
+        print("\n=== Photo Structure Validation Issues ===")
+        for issue in issues:
+            print(f"- {issue}")
+        return False
+    
+    return True
 
 def main():
     # Get the script's directory
@@ -160,6 +193,11 @@ def main():
     
     if not robots_data or not companies_data:
         print("Failed to load JSON files")
+        sys.exit(1)
+        
+    # Validate photo structure
+    structure_valid = validate_photo_structure(robots_data)
+    if not structure_valid:
         sys.exit(1)
     
     # Verify URLs

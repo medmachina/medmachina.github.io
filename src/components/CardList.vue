@@ -56,17 +56,17 @@ function goToDetail(item) {
 }
 
 function getFirstPhotoUrl(item) {
-  if (!item.photo_urls || !item.photo_urls.length) {
+  if (!item.photos || !item.photos.length) {
     return null;
   }
 
   // Vérifier si la première URL est déjà connue comme invalide
-  if (invalidImageUrls.value.has(item.photo_urls[0])) {
+  if (invalidImageUrls.value.has(item.photos[0].url)) {
     return null;
   }
 
   // Essayer la première URL
-  return item.photo_urls[0];
+  return item.photos[0].url;
 }
 
 function handleImageError(item, event) {
@@ -77,13 +77,13 @@ function handleImageError(item, event) {
   invalidImageUrls.value.add(url);
 
   // Essayer la prochaine URL d'image si disponible
-  if (item.photo_urls && item.photo_urls.length > 1) {
-    const currentIndex = item.photo_urls.indexOf(url);
-    if (currentIndex >= 0 && currentIndex + 1 < item.photo_urls.length) {
+  if (item.photos && item.photos.length > 1) {
+    const currentIndex = item.photos.findIndex(photo => photo.url === url);
+    if (currentIndex >= 0 && currentIndex + 1 < item.photos.length) {
       // Essayer l'URL suivante qui n'est pas déjà connue comme invalide
-      for (let i = currentIndex + 1; i < item.photo_urls.length; i++) {
-        if (!invalidImageUrls.value.has(item.photo_urls[i])) {
-          event.target.src = item.photo_urls[i];
+      for (let i = currentIndex + 1; i < item.photos.length; i++) {
+        if (!invalidImageUrls.value.has(item.photos[i].url)) {
+          event.target.src = item.photos[i].url;
           return;
         }
       }

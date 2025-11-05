@@ -24,17 +24,19 @@
     <div v-if="validPhotoUrls.length > 0" class="photo-gallery">
       <div class="gallery-grid">
         <div
-          v-for="(photoUrl, index) in validPhotoUrls"
+          v-for="(photo, index) in validPhotoUrls"
           :key="index"
           class="photo-item"
-          @click="openPhoto(photoUrl)"
         >
-          <img
-            :src="photoUrl"
-            :alt="`Photo ${index + 1} du projet`"
-            class="photo-thumbnail"
-            @error="handleImageError(photoUrl)"
-          />
+          <a :href="`https://${photo.site}`" target="_blank" rel="noopener noreferrer" class="photo-link">
+            <img
+              :src="photo.url"
+              :alt="`Photo ${index + 1} from ${photo.site}`"
+              class="photo-thumbnail"
+              @error="handleImageError(photo)"
+            />
+            <div class="photo-source">{{ photo.site }}</div>
+          </a>
         </div>
       </div>
     </div>
@@ -112,15 +114,15 @@ function openUrl(url) {
   window.open(url, '_blank');
 }
 
-function openPhoto(photoUrl) {
-  window.open(photoUrl, '_blank');
+function openPhoto(photo) {
+  window.open(photo.url, '_blank');
 }
 
-function handleImageError(photoUrl) {
-  console.warn('Image non disponible:', photoUrl);
+function handleImageError(photo) {
+  console.warn('Image non disponible:', photo.url);
 
   // Ajouter l'URL à la liste des URLs invalides
-  invalidPhotoUrls.value.add(photoUrl);
+  invalidPhotoUrls.value.add(photo.url);
 }
 
 // Computed property pour trouver l'entreprise associée au robot
@@ -138,27 +140,21 @@ function goToCompany(companyName) {
 
 // Computed properties pour extraire les photos et filtrer le projet
 const photoUrls = computed(() => {
-  if (!project.value?.photo_urls) return [];
+  if (!project.value?.photos) return [];
 
-  // Si photo_urls est une chaîne avec plusieurs URLs séparées par des virgules
-  if (typeof project.value.photo_urls === 'string') {
-    return project.value.photo_urls.split(',').map(url => url.trim()).filter(url => url);
+  // Si photos est un array d'objets photo
+  if (Array.isArray(project.value.photos)) {
+    return project.value.photos.filter(photo => photo && photo.url);
   }
 
-  // Si photo_urls est un array
-  if (Array.isArray(project.value.photo_urls)) {
-    return project.value.photo_urls.filter(url => url);
-  }
-
-  // Si photo_urls est une seule URL
-  return [project.value.photo_urls];
+  return [];
 });
 
 // Filtrer les URLs des photos valides (celles qui ne sont pas cassées)
 const validPhotoUrls = computed(() => {
-  return photoUrls.value.filter(url => {
+  return photoUrls.value.filter(photo => {
     // Vérifier si l'URL de l'image est valide et n'est pas dans la liste des URLs invalides
-    return isUrl(url) && !invalidPhotoUrls.value.has(url);
+    return isUrl(photo.url) && !invalidPhotoUrls.value.has(photo.url);
   });
 });
 
@@ -277,6 +273,30 @@ const projectUrls = computed(() => {
   height: auto;
   display: block;
   max-height: 400px;
+}
+
+.photo-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.photo-source {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-top-left-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.photo-link:hover .photo-source {
+  opacity: 1;
 }
 .tags-section {
   margin-bottom: 1.5rem;

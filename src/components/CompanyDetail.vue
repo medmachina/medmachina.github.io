@@ -104,7 +104,7 @@ function goToRobotDetail(robot) {
 }
 
 function getFirstPhotoUrl(item) {
-  return item.photo_urls && item.photo_urls.length > 0 ? item.photo_urls[0] : null;
+  return item.photos && item.photos.length > 0 ? item.photos[0].url : null;
 }
 
 function handleImageError(event) {
