@@ -1051,5 +1051,39 @@
       "Prostate"
     ],
     "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy."
+  },
+  {
+    "name": "Toumai",
+    "id": "medbot_toumai",
+    "urls": [
+      {
+        "caption": "MedBot Toumai",
+        "url": "https://www.medbotsurgical.com/en/solution"
+      }
+    ],
+    "photo_urls": [
+      "https://www.medbotsurgical.com/upload/solution/1679018003106762972.png",
+      "https://www.red-dot.org/fileadmin/_processed_/5/5/csm_36-05804-2022PD-01_CO_EV_2ff0937d11.jpg",
+      "https://static.wixstatic.com/media/18fca8_f23f62d9711b4d81825482442648f92c~mv2.webp/v1/fill/w_954,h_962,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/MicroPort-MedBot-Toumai-Endoscopic-Surgical-Robot-Brochure-English-20240531_2.webp",
+      "https://static.wixstatic.com/media/18fca8_a955b5967a324258bfba1a4a59222c21~mv2.webp/v1/fill/w_1020,h_1104,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/MicroPort-MedBot-Toumai-Endoscopic-Surgical-Robot-Brochure-English-20240531_4.webp"
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Motorized table",
+      "Haptic",
+      "Force feedback",
+      "Commercial"
+    ],
+    "usages": [
+    ],
+    "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised."
   }
 ]
