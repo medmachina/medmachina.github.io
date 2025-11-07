@@ -15,6 +15,9 @@ def is_valid_url(url):
     except:
         return False
 
+# Timeout for HTTP requests (seconds)
+TIMEOUT = 30
+
 def check_url(url):
     """Check if a URL is accessible"""
     if not is_valid_url(url):
@@ -24,9 +27,9 @@ def check_url(url):
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
-        response = requests.head(url, allow_redirects=True, timeout=10, headers=headers)
+        response = requests.head(url, allow_redirects=True, timeout=TIMEOUT, headers=headers)
         if response.status_code == 405:  # If HEAD method not allowed, try GET
-            response = requests.get(url, allow_redirects=True, timeout=10, headers=headers)
+            response = requests.get(url, allow_redirects=True, timeout=TIMEOUT, headers=headers)
         return url, response.status_code == 200, f"Status code: {response.status_code}"
     except requests.RequestException as e:
         return url, False, str(e)

@@ -270,9 +270,10 @@ const projectUrls = computed(() => {
 }
 .photo-thumbnail {
   width: 100%;
-  height: auto;
+  height: 400px;
   display: block;
-  max-height: 400px;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .photo-link {
