@@ -15,7 +15,7 @@
       },
       {
         "url": "https://news.med.virginia.edu/files/2024/08/Robot_DaVinci5-1x1-1.jpg",
-        "site": "https://news.med.virginia.edu/blog/2024/08/first-in-virginia-uva-health-debuts-new-da-vinci-5-robotic-surgical-system"
+        "site": "https://news.med.virginia.edu/clinical/university-medical-center-becomes-first-in-the-world-to-adopt-the-da-vinci-5-robotic-surgical-system/"
       }
     ],
     "tags": [
@@ -438,10 +438,10 @@
       },
       {
         "url": "https://www.ircad.fr/wp-content/uploads/Capture-decran-2020-08-24-a-11.48.47-1.png",
-        "site": "https://www.ircad.fr/professional-solutions/robotic-surgery-solutions/"
+        "site": "https://www.ircad.fr/new-partnership-with-ircad-2/"
       },
       {
-        "url": "https://ifdalivestorage.blob.core.windows.net/user-uploads/74399/304588/00000000-0000-0000-0000-000000000000/02_versius_console_stand_sit.jpg",
+        "url": "https://www.ircad.fr/wp-content/uploads/Capture-decran-2020-08-24-a-11.48.47-1-1536x967.png",
         "site": "https://cmrsurgical.com/versius"
       }
     ],
@@ -508,17 +508,17 @@
     "urls": [
       {
         "caption": "Cornerstone, Sentire",
-        "url": "https://www.csrbtx.com/en/product_center/"
+        "url": "https://en.csrbtx.com/sentire/sentire-surgical-system"
       }
     ],
     "photos": [
       {
         "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/42a200216973933.67e60dabb728e.png",
-        "site": "https://www.csrbtx.com/en/product_center/"
+        "site": "https://en.csrbtx.com/sentire/sentire-surgical-system"
       },
       {
         "url": "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2025/05/26/949dc71e-62a0-4777-920d-2eb82a55a8f9_222e6d43.jpg",
-        "site": "https://www.csrbtx.com/en/product_center/"
+        "site": "https://en.csrbtx.com/sentire/sentire-surgical-system"
       }
     ],
     "tags": [
@@ -598,15 +598,15 @@
     "photos": [
       {
         "url": "https://www.vicarioussurgical.com/wp-content/uploads/advanced-technology-01.jpg",
-        "site": "https://www.vicarioussurgical.com/technology/"
+        "site": "https://www.vicarioussurgical.com/"
       },
       {
         "url": "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-scaled.jpg",
-        "site": "https://www.vicarioussurgical.com/technology/"
+        "site": "https://www.vicarioussurgical.com/"
       },
       {
         "url": "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-4-scaled.jpg",
-        "site": "https://www.vicarioussurgical.com/technology/"
+        "site": "https://www.vicarioussurgical.com/"
       }
     ],
     "tags": [
@@ -683,7 +683,7 @@
         "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
       }
     ],
-    "photo_urls": [],
+    "photos": [],
     "tags": [
       "RAMIS",
       "Commercial"
@@ -816,14 +816,19 @@
   },
   {
     "name": "Surgical Science: FlexVR",
-    "id": "surgical_science_flex_vr",
+    "id": "surgical_science_robotix_mentor",
     "urls": [
       {
-        "caption": "Surgical Science, FlexVR",
-        "url": "https://surgicalscience.com/simulators/flexvr/"
+        "caption": "Surgical Science, RobotiX Mentor",
+        "url": "https://surgicalscience.com/simulators/robotix-mentor/"
       }
     ],
-    "photo_urls": [],
+    "photos": [
+      {
+        "url": "https://surgicalscience.com/wp-content/uploads/2023/02/RobotiX_Mentor_w_Basic_Skills-1-1-503x500.png",
+        "site": "https://surgicalscience.com/simulators/robotix-mentor/"
+      }
+    ],
     "tags": [
       "RAMIS",
       "Simulation"
@@ -839,7 +844,40 @@
         "url": "https://www.forcedimension.com"
       }
     ],
-    "photo_urls": [],
+    "photos": [
+      {
+        "url": "https://www.forcedimension.com/images/2020/08/01/banner-sigma.jpg",
+        "site": "https://www.forcedimension.com/products/sigma"
+      },
+      {
+        "url": "https://www.forcedimension.com/images/2020/08/01/sigma-1.jpg",
+        "site": "https://www.forcedimension.com/products/sigma"
+      }
+    ],
+    "tags": [
+      "Haptic device"
+    ],
+    "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized."
+  },
+  {
+    "name": "Lambda",
+    "id": "force_dimension_lambda",
+    "urls": [
+      {
+        "caption": "Force Dimensiom",
+        "url": "https://www.forcedimension.com"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.forcedimension.com/images/2020/09/05/banner-lambda.jpg",
+        "site": "https://www.forcedimension.com/products/lambda"
+      },
+      {
+        "url": "https://www.forcedimension.com/images/2020/09/05/lambda.jpg",
+        "site": "https://www.forcedimension.com/products/lambda"
+      }
+    ],
     "tags": [
       "Haptic device"
     ],
@@ -874,7 +912,16 @@
         "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
       }
     ],
-    "photo_urls": [],
+    "photos": [
+      {
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigii9oKvwUy1PCq0xZufN9LliPVoe732xTY1vNE-TBZOVgz0Sy5JCzmdM_3xm9HV3NiYG_w9uucilRu7dbAnbVfCahx1AXY9mAZ_3caAzWgwJyAw9OQtxSzwxksGCvy_A52tNNRZe7NVkB/s320/HD._MBB36218A_rgb.jpg",
+        "site": "https://quanser.blogspot.com/2009/01/quansers-new-high-definition-haptic.html"
+      },
+      {
+        "url": "https://www.quanser.com/wp-content/uploads/2023/11/HD2_3-644x766.jpg",
+        "site": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+      }
+    ],
     "tags": [
       "Haptic device"
     ],
@@ -966,7 +1013,7 @@
         "url": "https://thenext.jnjmedtech.com"
       }
     ],
-    "photo_urls": [],
+    "photos": [],
     "tags": [
       "Flexible robot"
     ],
@@ -1046,7 +1093,7 @@
         "url": "https://thinksurgical.com/tmini/"
       }
     ],
-    "photo_urls": [],
+    "photos": [],
     "tags": [
       "Open surgery",
       "Orthopedic"
@@ -1070,7 +1117,7 @@
         "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
       }
     ],
-    "photo_urls": [],
+    "photos": [],
     "tags": [
       "Open surgery",
       "Orthopedic"
@@ -1093,7 +1140,7 @@
         "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
       }
     ],
-    "photo_urls": [],
+    "photos": [],
     "tags": [
       "Open surgery"
     ],

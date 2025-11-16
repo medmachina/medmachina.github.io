@@ -250,7 +250,7 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
     "robots": [
-      "surgical_science_flex_vr"
+      "surgical_science_robotix_mentor"
     ],
     "description": "Surgical Science is based in Göteborg, Sweden."
   },
@@ -265,7 +265,8 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
     "robots": [
-      "force_dimension_sigma"
+      "force_dimension_sigma",
+      "force_dimension_lambda"  
     ],
     "description": "ForceDimension is a Swiss company specializing in haptic devices."
   },
@@ -310,7 +311,7 @@
     ],
     "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
     "robots": [
-      "noahMedicalGalaxy"
+      "noah_galaxy"
     ],
     "description": "Noah Medical is based in San Carlos, California, USA."
   },
