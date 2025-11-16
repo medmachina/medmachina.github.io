@@ -1,9 +1,15 @@
 <template>
   <div v-if="company">
-    <div class="container py-4">
-      <h1 class="mb-4 title">
+    <div class="header-with-logo d-flex align-items-center justify-content-between mb-4">
+      <h1 class="mb-0">
         <router-link to="/companies" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Companies</router-link> {{ company.name }}
       </h1>
+      <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="/text-logo.svg" alt="medmachina" style="height:41px; width:auto;" />
+      </router-link>
+    </div>
+
+    <div class="container py-4">
 
       <div class="card mb-4">
         <div class="card-body">
@@ -108,7 +114,7 @@ function getFirstPhotoUrl(item) {
 }
 
 function handleImageError(event) {
-  event.target.src = '/src/assets/bot.png'; // Image de remplacement en cas d'erreur
+  event.target.src = '/text-logo.svg'; // Fallback image on error
 }
 </script>
 

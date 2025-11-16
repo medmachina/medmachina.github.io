@@ -1,6 +1,11 @@
 <template>
   <div class="container">
-    <h1 class="mb-4 title">How to Contribute</h1>
+    <div class="header-with-logo d-flex align-items-center justify-content-between mb-4">
+      <h1 class="mb-0 title">How to Contribute</h1>
+      <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="/text-logo.svg" alt="medmachina" style="height:41px; width:auto;" />
+      </router-link>
+    </div>
 
     <div class="card mb-4">
       <div class="card-body">

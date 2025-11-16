@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <!-- Transparent background -->
+  <rect width="800" height="200" fill="none"/>
+  
+  <!-- Main text in modern sans-serif, light grey -->
+  <text x="400" y="120" font-family="'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif" font-size="72" font-weight="300" text-anchor="middle" fill="#999999" letter-spacing="1">medmachina.github.io</text>
+  
+  <!-- Heartbeat line beneath text in subdued red - regular and healthy -->
+  <g stroke="#cc6666" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="100,160 140,160 145,155 150,165 155,160 165,160 170,150 175,160 180,160 190,160 200,160 205,155 210,165 215,160 225,160 230,150 235,160 240,160 250,160 260,160 265,155 270,165 275,160 285,160 290,150 295,160 300,160 310,160 320,160 325,155 330,165 335,160 345,160 350,150 355,160 360,160 370,160 380,160 385,155 390,165 395,160 405,160 410,150 415,160 420,160 430,160 440,160 445,155 450,165 455,160 465,160 470,150 475,160 480,160 490,160 500,160 505,155 510,165 515,160 525,160 530,150 535,160 540,160 550,160 560,160 565,155 570,165 575,160 585,160 590,150 595,160 600,160 610,160 620,160 625,155 630,165 635,160 645,160 650,150 655,160 660,160 670,160 680,160 685,155 690,165 695,160 700,160"/>
+  </g>
+</svg>

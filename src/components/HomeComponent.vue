@@ -186,7 +186,9 @@ h1, h2 {
       <h1 class="mb-0 me-4">Robots</h1>
       <router-link to="/companies" class="btn btn-outline-primary">Companies</router-link>
     </div>
-    <img src="/src/assets/bot.png" alt="Bot" style="height:48px; width:auto;" />
+    <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
+      <img src="/text-logo.svg" alt="medmachina" style="height:41px; width:auto;" />
+    </router-link>
   </header>
   <main class="container-fluid py-4">
     <div class="row">
