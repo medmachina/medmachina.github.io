@@ -482,5 +482,20 @@
       "medbot_skywalker"
     ],
     "description": "MedBot is based in Shanghai, China."
+  },
+  {
+    "name": "Ronovo Surgical",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Ronovo Surgical",
+        "url": "https://www.ronovosurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/ronovo-surgical/",
+    "robots": [
+      "ronovo_carina"
+    ],
+    "description": "Ronovo Surgical is a Chinese medical robotics company focused on developing minimally invasive surgical robots."
   }
 ]

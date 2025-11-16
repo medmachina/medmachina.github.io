@@ -1406,5 +1406,41 @@
       "Knee"
     ],
     "description": ""
+  },
+  {
+    "name": "Carina",
+    "id": "ronovo_carina",
+    "urls": [
+      {
+        "caption": "Ronovo Surgical, Carina",
+        "url": "https://www.ronovosurgical.com"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0ts6xzBeAyYJoz8LHu31P1gZ-hT8JOOjJQ&s",
+        "site": "https://www.ronovosurgical.com"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11MK0kakZXoSyT3AgpbPn617kX-PyQI8tXA&s",
+        "site": "https://www.ronovosurgical.com"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Multiple patient carts",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endocoscope",
+      "Mechanical cartesian manipulation",
+      "Haptic",
+      "Commercial"
+    ],
+    "usages": [
+    ],
+    "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments."
   }
 ]
