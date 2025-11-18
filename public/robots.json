@@ -1472,5 +1472,33 @@
     ],
     "description": "Imitation is the most sincere form of flattery: Edge Multi-Port looks remarkably like da Vinci Xi.",
     "regulatory": []
+  },
+  {
+    "name": "Yomo",
+    "id": "neocis_yomo",
+    "urls": [
+      {
+        "caption": "Neocis, Yomo",
+        "url": "https://www.neocis.com/products-and-services/yomi-robot/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.neocis.com/wp-content/uploads/2022/12/yomi-robot.png",
+        "site": "https://www.neocis.com/products-and-services/yomi-robot/"
+      }
+    ],
+    "tags": [
+      "Dental",
+      "Collaborative control",
+      "Commercial"
+    ],
+    "usages": [
+      "Dental implant"
+    ],
+    "description": "",
+    "regulatory": [
+      "FDA"
+    ]
   }
 ]

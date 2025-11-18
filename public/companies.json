@@ -496,22 +496,37 @@
     "robots": [
       "ronovo_carina"
     ],
-    "description": "Ronovo Surgical is a Chinese medical robotics company focused on developing minimally invasive surgical robots."
+    "description": "Ronovo Surgical is based in Hangzhou, China."
   }
   ,
   {
     "name": "Edge Medical",
-    "country": "United States",
+    "country": "China",
     "urls": [
       {
         "caption": "Edge Medical",
         "url": "https://edgemedical.com"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/company/edge-medical/",
+    "linkedin_url": "https://www.linkedin.com/company/shenzhen-edge-medical/",
     "robots": [
       "edge_multi_port"
     ],
-    "description": "Edge Medical develops modular multi-port surgical platforms for minimally invasive surgery."
+    "description": "Edge Medical is based in Shenzhen, China."
+  },
+  {
+    "name": "Neocis",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Neocis",
+        "url": "https://www.neocis.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/neocis/",
+    "robots": [
+      "neocis_yomo"
+    ],
+    "description": "Neocis is based in Miami, Florida, USA."
   }
 ]
