@@ -1443,4 +1443,34 @@
     ],
     "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments."
   }
+
+  ,
+  {
+    "name": "Edge Multi-Port",
+    "id": "edge_multi_port",
+    "urls": [
+      {
+        "caption": "Edge Medical, Edge Multi-Port",
+        "url": "https://en.edgemed.cn"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://en.edgemed.cn/uploads/多孔展示官网用图_1746675291.jpg",
+        "site": "https://en.edgemed.cn"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments",
+      "Teleoperated",
+      "Commercial"
+    ],
+    "usages": [
+    ],
+    "description": "Imitation is the most sincere form of flattery: Edge Multi-Port looks remarkably like da Vinci Xi.",
+    "regulatory": []
+  }
 ]

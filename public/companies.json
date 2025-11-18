@@ -498,4 +498,20 @@
     ],
     "description": "Ronovo Surgical is a Chinese medical robotics company focused on developing minimally invasive surgical robots."
   }
+  ,
+  {
+    "name": "Edge Medical",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Edge Medical",
+        "url": "https://edgemedical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/edge-medical/",
+    "robots": [
+      "edge_multi_port"
+    ],
+    "description": "Edge Medical develops modular multi-port surgical platforms for minimally invasive surgery."
+  }
 ]
