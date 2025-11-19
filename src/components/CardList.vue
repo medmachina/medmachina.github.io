@@ -14,11 +14,7 @@
         <div class="card-body">
           <h5 class="card-title">
             {{ item.name }}
-            <span v-if="getCompanyForItem(item)" style="font-size:0.9em; color:var(--color-text-muted);"> (
-              <router-link :to="`/company/${getCompanyForItem(item).name}`" @click.stop>
-                {{ getCompanyForItem(item).name }}
-              </router-link>
-            )</span>
+            <span v-if="getCompanyForItem(item)" style="font-size:0.9em; color:var(--color-text-muted);">(<router-link :to="`/company/${getCompanyForItem(item).name}`" @click.stop>{{ getCompanyForItem(item).name }}</router-link>)</span>
           </h5>
           <div class="mb-2">
               <span v-for="(tag, idx) in item.tags.slice(0,5)" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>

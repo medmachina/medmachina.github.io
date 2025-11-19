@@ -504,13 +504,14 @@
     "country": "China",
     "urls": [
       {
-        "caption": "Edge Medical",
-        "url": "https://edgemedical.com"
+        "caption": "Edge Medical Robotics",
+        "url": "https://en.edgemed.cn"
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/shenzhen-edge-medical/",
     "robots": [
-      "edge_multi_port"
+      "edge_multi_port",
+      "edge_single_port"
     ],
     "description": "Edge Medical is based in Shenzhen, China."
   },

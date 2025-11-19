@@ -4,9 +4,7 @@
       <h1 class="project-title mb-0">
         <router-link to="/" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Robots</router-link>
         {{ filteredProject["name"] }}
-        <span v-if="companyInfo" style="font-size:.85em;"> (
-          <router-link :to="`/company/${companyInfo.name}`">{{ companyInfo.name }}</router-link>
-        )</span>
+        <span v-if="companyInfo" style="font-size:.85em;">(<router-link :to="`/company/${companyInfo.name}`">{{ companyInfo.name }}</router-link>)</span>
       </h1>
       <router-link to="/" style="display: flex; align-items: center; text-decoration: none; margin-left: 1rem;">
         <img src="/text-logo.svg" alt="medmachina" style="height:41px; width:auto;" />
