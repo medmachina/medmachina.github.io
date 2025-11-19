@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import CardList from './CardList.vue'
+import RobotList from './RobotList.vue'
 import TagCloud from './TagCloud.vue'
 import UsageCloud from './UsageCloud.vue'
 import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
@@ -18,7 +18,7 @@ onMounted(async () => {
   // Randomiser l'ordre des robots avec l'algorithme de Fisher-Yates
   items.value = shuffleArray(robots)
 
-  // Charger les données des entreprises pour transmettre à CardList
+  // Charger les données des entreprises pour transmettre à RobotList
   try {
     const resCompanies = await fetch('/companies.json')
     companies.value = await resCompanies.json()
@@ -199,7 +199,7 @@ h1, h2 {
             placeholder="Search ..."
             class="form-control mb-3"
         />
-  <CardList :items="filteredItems" :companies="companies" />
+  <RobotList :items="filteredItems" :companies="companies" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

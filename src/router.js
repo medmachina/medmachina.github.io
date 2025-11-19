@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import CardList from './components/CardList.vue';
+import RobotList from './components/RobotList.vue';
 import RobotDetail from './components/RobotDetail.vue';
 import TestComponent from './components/TestComponent.vue';
 import HomeComponent from './components/HomeComponent.vue';
