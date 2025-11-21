@@ -41,13 +41,13 @@ const props = defineProps({
   }
 });
 
-// Garder une trace des URLs d'images invalides
+// Keep track of invalid image URLs
 const invalidImageUrls = ref(new Set());
 
 const router = useRouter();
 
 function goToDetail(item) {
-  // On suppose que chaque item a un champ 'id' unique
+  // Assume each item has a unique 'id' field
   router.push(`/robot/${item.id}`);
 }
 
@@ -56,27 +56,27 @@ function getFirstPhotoUrl(item) {
     return null;
   }
 
-  // Vérifier si la première URL est déjà connue comme invalide
+  // Check if the first URL is already known to be invalid
   if (invalidImageUrls.value.has(item.photos[0].url)) {
     return null;
   }
 
-  // Essayer la première URL
+  // Try the first URL
   return item.photos[0].url;
 }
 
 function handleImageError(item, event) {
   const url = event.target.src;
-  console.warn(`Image non disponible pour ${item.name}: ${url}`);
+  console.warn(`Image not available for ${item.name}: ${url}`);
 
-  // Marquer cette URL comme invalide
+  // Mark this URL as invalid
   invalidImageUrls.value.add(url);
 
-  // Essayer la prochaine URL d'image si disponible
+  // Try the next image URL if available
   if (item.photos && item.photos.length > 1) {
     const currentIndex = item.photos.findIndex(photo => photo.url === url);
     if (currentIndex >= 0 && currentIndex + 1 < item.photos.length) {
-      // Essayer l'URL suivante qui n'est pas déjà connue comme invalide
+      // Try the next URL that is not already known to be invalid
       for (let i = currentIndex + 1; i < item.photos.length; i++) {
         if (!invalidImageUrls.value.has(item.photos[i].url)) {
           event.target.src = item.photos[i].url;
@@ -86,7 +86,7 @@ function handleImageError(item, event) {
     }
   }
 
-  // Si aucune URL valide n'est trouvée, cacher l'image
+  // If no valid URL is found, hide the image
   event.target.style.display = 'none';
 }
 

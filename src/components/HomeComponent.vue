@@ -22,7 +22,7 @@ onMounted(async () => {
   // Randomiser l'ordre des robots avec l'algorithme de Fisher-Yates
   items.value = shuffleArray(robots)
 
-  // Charger les données des entreprises pour transmettre à RobotList
+  // Load companies data to pass to RobotList
   try {
     const resCompanies = await fetch('/companies.json')
     companies.value = await resCompanies.json()
@@ -31,12 +31,12 @@ onMounted(async () => {
   }
 })
 
-// Fonction pour mélanger un tableau (algorithme de Fisher-Yates)
+// Function to shuffle an array (Fisher-Yates algorithm)
 function shuffleArray(array) {
-  const newArray = [...array] // Copie du tableau pour ne pas modifier l'original
+  const newArray = [...array] // Copy of array to avoid modifying the original
   for (let i = newArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]] // Échange des éléments
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]] // Swap elements
   }
   return newArray
 }
@@ -56,7 +56,7 @@ function sortRandomly() {
 }
 
 const allTags = computed(() => {
-  // Compter la fréquence de chaque tag
+  // Count the frequency of each tag
   const tagCount = {}
   items.value.forEach(item => {
     (item.tags || []).forEach(tag => {
@@ -64,14 +64,14 @@ const allTags = computed(() => {
     })
   })
 
-  // Convertir en tableau d'objets avec le tag et sa fréquence
+  // Convert to array of objects with tag and frequency
   return Object.keys(tagCount)
     .map(tag => ({ name: tag, count: tagCount[tag] }))
-    .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
+    .sort((a, b) => b.count - a.count) // Sort by descending frequency
 })
 
 const allUsages = computed(() => {
-  // Compter la fréquence de chaque usage
+  // Count the frequency of each usage
   const usageCount = {}
   items.value.forEach(item => {
     (item.usages || []).forEach(usage => {
@@ -79,27 +79,27 @@ const allUsages = computed(() => {
     })
   })
 
-  // Convertir en tableau d'objets avec l'usage et sa fréquence
+  // Convert to array of objects with usage and frequency
   return Object.keys(usageCount)
     .map(usage => ({ name: usage, count: usageCount[usage] }))
-    .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
+    .sort((a, b) => b.count - a.count) // Sort by descending frequency
 })
 
 const allStatuses = computed(() => {
-  // Compter la fréquence de chaque statut réglementaire
+  // Count the frequency of each regulatory status
   const statusCount = {}
   items.value.forEach(item => {
     (item.regulatory || []).forEach(status => {
-      // Ajouter le statut original
+      // Add the original status
       statusCount[status] = (statusCount[status] || 0) + 1
 
-      // Si le statut commence par FDA ou CE, on le divise
+      // If status starts with FDA or CE, split it
       if (status.startsWith('FDA') || status.startsWith('CE')) {
-        // Extraire le préfixe (FDA ou CE)
+        // Extract the prefix (FDA or CE)
         const prefix = status.startsWith('FDA') ? 'FDA' : 'CE'
         statusCount[prefix] = (statusCount[prefix] || 0) + 1
 
-        // Extraire l'année ou le reste (ce qui suit FDA ou CE)
+        // Extract the year or remainder (what follows FDA or CE)
         const remainder = status.substring(prefix.length).trim()
         if (remainder) {
           statusCount[remainder] = (statusCount[remainder] || 0) + 1
@@ -108,39 +108,39 @@ const allStatuses = computed(() => {
     })
   })
 
-  // Convertir en tableau d'objets avec le statut et sa fréquence
+  // Convert to array of objects with status and frequency
   return Object.keys(statusCount)
     .map(status => ({ name: status, count: statusCount[status] }))
-    .sort((a, b) => b.count - a.count) // Trier par fréquence décroissante
+    .sort((a, b) => b.count - a.count) // Sort by descending frequency
 })
 
 const filteredItems = computed(() => {
   return items.value.filter(item => {
-    // Si aucun terme de recherche, ou aucun tag/usage/statut sélectionné, on retourne tous les éléments
+    // If no search term, or no tag/usage/status selected, return all items
     if (!search.value &&
         selectedTags.value.length === 0 &&
         selectedUsages.value.length === 0 &&
         selectedStatuses.value.length === 0) return true;
 
-    // Fonction qui vérifie si un terme de recherche est présent dans une valeur
+    // Function that checks if a search term is present in a value
     const checkValue = (value, term) => {
       if (!value) return false;
 
-      // Cas des tableaux (urls, tags, photo_urls, etc.)
+      // Case of arrays (urls, tags, photo_urls, etc.)
       if (Array.isArray(value)) {
         return value.some(val => checkValue(val, term));
       }
 
-      // Cas des objets
+      // Case of objects
       if (typeof value === 'object') {
         return Object.values(value).some(val => checkValue(val, term));
       }
 
-      // Cas des strings ou valeurs convertibles en string
+      // Case of strings or values convertible to string
       return String(value).toLowerCase().includes(term.toLowerCase());
     };
 
-    // Vérification si le terme de recherche est présent dans n'importe quel champ
+    // Check if the search term is present in any field
     const matchSearch = !search.value ||
       Object.values(item).some(value => checkValue(value, search.value));
 
@@ -150,15 +150,15 @@ const filteredItems = computed(() => {
     const matchUsages = selectedUsages.value.length === 0 ||
       selectedUsages.value.every(selectedUsage => (item.usages || []).includes(selectedUsage));
 
-    // Modification pour le filtrage par statut réglementaire
+    // Modification for regulatory status filtering
     const matchStatuses = selectedStatuses.value.length === 0 ||
       selectedStatuses.value.every(selectedStatus => {
-        // Vérifier si le statut exact existe dans le tableau des statuts réglementaires
+        // Check if the exact status exists in the regulatory status array
         if ((item.regulatory || []).includes(selectedStatus)) {
           return true;
         }
 
-        // Vérifier si le statut est une partie d'un statut plus long (FDA dans FDA 2023, ou 2023 dans FDA 2023)
+        // Check if the status is part of a longer status (FDA in FDA 2023, or 2023 in FDA 2023)
         return (item.regulatory || []).some(status => status.includes(selectedStatus));
       });
 

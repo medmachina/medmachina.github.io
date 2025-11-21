@@ -116,12 +116,12 @@ const allCountries = computed(() => {
     }
   })
 
-  // Transformer le Set en tableau et trier par nombre d'entreprises (ordre décroissant)
+  // Transform Set to array and sort by number of companies (descending order)
   return Array.from(countries)
     .sort((a, b) => {
       const countA = countCompaniesByCountry(a);
       const countB = countCompaniesByCountry(b);
-      return countB - countA; // Tri décroissant (du plus grand au plus petit)
+      return countB - countA; // Descending sort (largest to smallest)
     });
 })
 
@@ -140,29 +140,29 @@ function toggleCountry(country) {
 
 const filteredCompanies = computed(() => {
   return companies.value.filter(company => {
-    // Fonction récursive pour rechercher dans tous les champs
+    // Recursive function to search in all fields
     const checkValue = (value, term) => {
       if (!value) return false
 
-      // Pour les tableaux
+      // For arrays
       if (Array.isArray(value)) {
         return value.some(val => checkValue(val, term))
       }
 
-      // Pour les objets
+      // For objects
       if (typeof value === 'object') {
         return Object.values(value).some(val => checkValue(val, term))
       }
 
-      // Pour les autres valeurs
+      // For other values
       return String(value).toLowerCase().includes(term.toLowerCase())
     }
 
-    // Vérifier si la recherche correspond
+    // Check if search matches
     const matchSearch = !search.value ||
       Object.values(company).some(value => checkValue(value, search.value))
 
-    // Vérifier si le pays correspond aux filtres sélectionnés
+    // Check if country matches selected filters
     const matchCountry = selectedCountries.value.length === 0 ||
       selectedCountries.value.includes(company.country)
 

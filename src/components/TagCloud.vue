@@ -30,7 +30,7 @@ const props = defineProps({
 
 const emit = defineEmits(['update:selectedTags']);
 
-// Calculer le nombre maximum d'occurrences pour normaliser les tailles
+// Calculate the maximum number of occurrences to normalize sizes
 const maxTagCount = computed(() => {
   if (!props.tags || props.tags.length === 0) return 1;
   return Math.max(...props.tags.map(tag => tag.count));
@@ -45,10 +45,10 @@ function toggleTag(tagName) {
   const index = newSelectedTags.indexOf(tagName);
 
   if (index > -1) {
-    // Tag déjà sélectionné, le retirer
+    // Tag already selected, remove it
     newSelectedTags.splice(index, 1);
   } else {
-    // Tag pas encore sélectionné, l'ajouter
+    // Tag not yet selected, add it
     newSelectedTags.push(tagName);
   }
 
@@ -76,4 +76,4 @@ function clearAllTags() {
 }
 </style>
 
-<!-- Plus de style custom, tout est Bootstrap -->
+<!-- No more custom styles, everything uses Bootstrap -->

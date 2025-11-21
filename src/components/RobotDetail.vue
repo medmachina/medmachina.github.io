@@ -69,7 +69,7 @@
     </div>
 
     <div v-if="!project">
-      <p>Projet introuvable.</p>
+      <p>Project not found.</p>
     </div>
   </div>
 </template>
@@ -82,17 +82,15 @@ const route = useRoute();
 const router = useRouter();
 const project = ref(null);
 const companies = ref([]);
-const invalidPhotoUrls = ref(new Set()); // Set pour stocker les URLs d'images invalides
+const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
 
 onMounted(async () => {
-  console.log("Fetching project data for ID:", route.params.id);
-
-  // Charger les données des robots
+  // Load robots data
   const resRobots = await fetch('/robots.json');
   const dataRobots = await resRobots.json();
   project.value = dataRobots.find(p => String(p.id) === route.params.id);
 
-  // Charger les données des entreprises
+  // Load companies data
   const resCompanies = await fetch('/companies.json');
   const dataCompanies = await resCompanies.json();
   companies.value = dataCompanies;
@@ -120,13 +118,13 @@ function openPhoto(photo) {
 }
 
 function handleImageError(photo) {
-  console.warn('Image non disponible:', photo.url);
+  console.warn('Image not available:', photo.url);
 
-  // Ajouter l'URL à la liste des URLs invalides
+  // Add URL to the list of invalid URLs
   invalidPhotoUrls.value.add(photo.url);
 }
 
-// Computed property pour trouver l'entreprise associée au robot
+// Computed property to find the company associated with the robot
 const companyInfo = computed(() => {
   if (!project.value || !companies.value.length) return null;
 
@@ -139,11 +137,11 @@ function goToCompany(companyName) {
   router.push(`/company/${companyName}`);
 }
 
-// Computed properties pour extraire les photos et filtrer le projet
+// Computed properties to extract photos and filter the project
 const photoUrls = computed(() => {
   if (!project.value?.photos) return [];
 
-  // Si photos est un array d'objets photo
+  // If photos is an array of photo objects
   if (Array.isArray(project.value.photos)) {
     return project.value.photos.filter(photo => photo && photo.url);
   }
@@ -151,10 +149,10 @@ const photoUrls = computed(() => {
   return [];
 });
 
-// Filtrer les URLs des photos valides (celles qui ne sont pas cassées)
+// Filter valid photo URLs (those that are not broken)
 const validPhotoUrls = computed(() => {
   return photoUrls.value.filter(photo => {
-    // Vérifier si l'URL de l'image est valide et n'est pas dans la liste des URLs invalides
+    // Check if the image URL is valid and not in the list of invalid URLs
     return isUrl(photo.url) && !invalidPhotoUrls.value.has(photo.url);
   });
 });
@@ -163,9 +161,9 @@ const filteredProject = computed(() => {
   if (!project.value) return {};
 
   const filtered = { ...project.value };
-  delete filtered.photo_urls; // Supprimer photo_urls car affiché séparément
-  delete filtered.tags; // Supprimer tags car affiché séparément
-  delete filtered.urls; // Supprimer urls car affiché séparément
+  delete filtered.photo_urls; // Remove photo_urls as displayed separately
+  delete filtered.tags; // Remove tags as displayed separately
+  delete filtered.urls; // Remove urls as displayed separately
   return filtered;
 });
 
@@ -181,16 +179,16 @@ const descriptionParagraphs = computed(() => {
   return text.split(/\n{2,}/).map(s => s.trim()).filter(s => s.length > 0);
 });
 
-// Computed property pour les tags du projet
+// Computed property for project tags
 const projectTags = computed(() => {
   if (!project.value?.tags) return [];
 
-  // Si tags est un array (comme dans les données JSON)
+  // If tags is an array (as in JSON data)
   if (Array.isArray(project.value.tags)) {
     return project.value.tags.filter(tag => tag);
   }
 
-  // Si tags est une chaîne séparée par des virgules
+  // If tags is a comma-separated string
   if (typeof project.value.tags === 'string') {
     return project.value.tags.split(',').map(tag => tag.trim()).filter(tag => tag);
   }
@@ -198,16 +196,16 @@ const projectTags = computed(() => {
   return [];
 });
 
-// Computed property pour les URLs du projet
+// Computed property for project URLs
 const projectUrls = computed(() => {
   if (!project.value?.urls) return [];
 
-  // Si urls est un array (comme dans les données JSON)
+  // If urls is an array (as in JSON data)
   if (Array.isArray(project.value.urls)) {
     return project.value.urls.filter(url => url);
   }
 
-  // Si urls est une chaîne séparée par des virgules
+  // If urls is a comma-separated string
   if (typeof project.value.urls === 'string') {
     return project.value.urls.split(',').map(url => url.trim()).filter(url => url);
   }

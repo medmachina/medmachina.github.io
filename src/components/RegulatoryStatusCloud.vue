@@ -30,7 +30,7 @@ const props = defineProps({
 
 const emit = defineEmits(['update:selectedStatuses']);
 
-// Calculer le nombre maximum d'occurrences pour normaliser les tailles
+// Calculate the maximum number of occurrences to normalize sizes
 const maxStatusCount = computed(() => {
   if (!props.statuses || props.statuses.length === 0) return 1;
   return Math.max(...props.statuses.map(status => status.count));
@@ -45,10 +45,10 @@ function toggleStatus(statusName) {
   const index = newSelectedStatuses.indexOf(statusName);
 
   if (index > -1) {
-    // Status déjà sélectionné, le retirer
+    // Status already selected, remove it
     newSelectedStatuses.splice(index, 1);
   } else {
-    // Status pas encore sélectionné, l'ajouter
+    // Status not yet selected, add it
     newSelectedStatuses.push(statusName);
   }
 

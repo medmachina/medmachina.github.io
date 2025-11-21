@@ -30,7 +30,7 @@ const props = defineProps({
 
 const emit = defineEmits(['update:selectedUsages']);
 
-// Calculer le nombre maximum d'occurrences pour normaliser les tailles
+// Calculate the maximum number of occurrences to normalize sizes
 const maxUsageCount = computed(() => {
   if (!props.usages || props.usages.length === 0) return 1;
   return Math.max(...props.usages.map(usage => usage.count));
@@ -45,10 +45,10 @@ function toggleUsage(usageName) {
   const index = newSelectedUsages.indexOf(usageName);
 
   if (index > -1) {
-    // Usage déjà sélectionné, le retirer
+    // Usage already selected, remove it
     newSelectedUsages.splice(index, 1);
   } else {
-    // Usage pas encore sélectionné, l'ajouter
+    // Usage not yet selected, add it
     newSelectedUsages.push(usageName);
   }
 

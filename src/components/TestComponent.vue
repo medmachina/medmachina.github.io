@@ -1,12 +1,12 @@
 <template>
   <div class="test-component">
     <h1>Test Component</h1>
-    <p>Si vous voyez ceci, la route /test fonctionne !</p>
+    <p>If you see this, the /test route is working!</p>
   </div>
 </template>
 
 <script setup>
-// Aucun script nécessaire pour ce test
+// No script needed for this test
 </script>
 
 <style scoped>

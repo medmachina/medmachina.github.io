@@ -81,15 +81,15 @@ const allRobots = ref([]);
 
 onMounted(async () => {
   try {
-    // Charger les données des entreprises
+    // Load companies data
     const companyResponse = await fetch('/companies.json');
     const companies = await companyResponse.json();
 
-    // Trouver l'entreprise actuelle par son nom
+    // Find current company by name
     const companyName = route.params.name;
     company.value = companies.find(c => c.name === companyName);
 
-    // Charger les données des robots
+    // Load robots data
     const robotsResponse = await fetch('/robots.json');
     allRobots.value = await robotsResponse.json();
   } catch (error) {
