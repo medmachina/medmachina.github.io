@@ -44,3 +44,24 @@ a,
     margin: 0 auto;
   }
 }
+
+/* Mobile responsive header styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column-reverse !important;
+    gap: 1rem !important;
+  }
+
+  header > a:last-child,
+  .header > a:last-child,
+  .header-with-logo > a:last-child {
+    align-self: center !important;
+    margin-left: 0 !important;
+  }
+
+  .header,
+  .header-with-logo {
+    flex-direction: column-reverse !important;
+    gap: 1rem !important;
+  }
+}

@@ -245,6 +245,7 @@ const projectUrls = computed(() => {
   align-items: center;
   margin-bottom: 1.5rem;
 }
+
 .home-btn {
   background: none;
   border: none;
