@@ -1,25 +1,6 @@
 <template>
-  <div>
-    <div class="d-flex justify-content-end mb-2">
-      <button type="button" class="btn btn-sm btn-outline-secondary d-flex align-items-center" @click.stop="toggleSortByYear">
-        <span class="me-1" aria-hidden="true">
-          <svg v-if="sortByYear === 1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="18 15 12 9 6 15"></polyline>
-          </svg>
-          <svg v-else-if="sortByYear === -1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-          <svg v-else width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-            <line x1="16" y1="2" x2="16" y2="6"></line>
-            <line x1="8" y1="2" x2="8" y2="6"></line>
-          </svg>
-        </span>
-        <span>{{ sortByYearLabel }}</span>
-      </button>
-    </div>
-    <div class="row g-3">
-    <div v-for="item in displayItems" :key="item.id" class="col-12 col-md-6 col-lg-4">
+  <div class="row g-3">
+    <div v-for="item in items" :key="item.id" class="col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm card-clickable" @click="goToDetail(item)">
         <template v-if="getFirstPhotoUrl(item)">
           <img
@@ -47,7 +28,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router';
-import { ref, computed } from 'vue';
+import { ref } from 'vue';
 
 const props = defineProps({
   items: {
@@ -58,40 +39,6 @@ const props = defineProps({
     type: Array,
     default: () => []
   }
-});
-
-// Sort-by-year state: 0 = off, 1 = ascending (old->new), -1 = descending (new->old)
-const sortByYear = ref(0);
-
-function toggleSortByYear() {
-  // First click: ascending (old -> new). Subsequent clicks toggle sign.
-  sortByYear.value = sortByYear.value === 1 ? -1 : 1;
-}
-
-const sortByYearLabel = computed(() => {
-  if (sortByYear.value === 1) return 'Year ↑';
-  if (sortByYear.value === -1) return 'Year ↓';
-  return 'Sort: Year';
-});
-
-const displayItems = computed(() => {
-  // Always operate on a shallow copy to avoid mutating props
-  const list = Array.isArray(props.items) ? props.items.slice() : [];
-  if (!sortByYear.value) return list;
-
-  // Helper: treat null/undefined introduction_year as Infinity when sorting ascending
-  const val = i => {
-    const y = i && (i.introduction_year ?? i.introduced_year ?? null);
-    return y == null ? Infinity : Number(y);
-  };
-
-  list.sort((a, b) => {
-    const ay = val(a), by = val(b);
-    if (ay === by) return (a.id || '').localeCompare(b.id || '');
-    return sortByYear.value === 1 ? (ay - by) : (by - ay);
-  });
-
-  return list;
 });
 
 // Keep track of invalid image URLs

@@ -13,7 +13,8 @@ const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
 const selectedStatuses = ref([])
-const sortMode = ref('random') // 'random' or 'alphabetical'
+const sortMode = ref('random') // 'random', 'alphabetical', or 'year'
+const yearSortAscending = ref(true) // true for oldest-first, false for newest-first
 
 onMounted(async () => {
   const response = await fetch('/robots.json')
@@ -44,6 +45,27 @@ function sortAlphabetically() {
 function sortRandomly() {
   sortMode.value = 'random'
   items.value = shuffleArray(originalItems.value)
+}
+
+function sortByYear() {
+  if (sortMode.value === 'year') {
+    // Already in year mode, toggle the order
+    yearSortAscending.value = !yearSortAscending.value
+  } else {
+    // Switching to year mode, default to ascending (oldest first)
+    sortMode.value = 'year'
+    yearSortAscending.value = true
+  }
+  
+  items.value = [...originalItems.value].sort((a, b) => {
+    // Handle null introduction_year values - push them to the end
+    if (a.introduction_year === null && b.introduction_year === null) return 0
+    if (a.introduction_year === null) return 1
+    if (b.introduction_year === null) return -1
+    // Sort by year
+    const diff = a.introduction_year - b.introduction_year
+    return yearSortAscending.value ? diff : -diff
+  })
 }
 
 const allTags = computed(() => {
@@ -196,6 +218,14 @@ const filteredItems = computed(() => {
             style="min-width: 50px;"
           >
             🔤
+          </button>
+          <button 
+            @click="sortByYear" 
+            :class="['btn', 'ms-2', sortMode === 'year' ? 'btn-primary' : 'btn-outline-secondary']"
+            title="Sort by introduction year"
+            style="min-width: 50px;"
+          >
+            📅
           </button>
         </div>
   <RobotList :items="filteredItems" :companies="companies" />
