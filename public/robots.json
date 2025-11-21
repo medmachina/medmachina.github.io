@@ -1535,5 +1535,42 @@
     "regulatory": [
       "FDA"
     ]
+  },
+  {
+    "name": "Dexter",
+    "id": "distalmotion_dexter",
+    "urls": [
+      {
+        "caption": "Distalmotion, Dexter",
+        "url": "https://www.distalmotion.com/dexter/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://cms.distalmotion.com/uploads/xlarge_Epalinges_Product_shoot_DAY_1_51_facing_screen_b7e30d721d.jpg",
+        "site": "https://www.distalmotion.com/dexter/"
+      },
+      {
+        "url": "https://cms.distalmotion.com/uploads/large_Epalinges_Product_shoot_DAY_1_224_40b4ec9d20.jpg",
+        "site": "https://www.distalmotion.com/dexter/"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Teleoperated",
+      "Commercial",
+      "Stereo display",
+      "Open console",
+      "Multiple patient carts",
+      "Mechanical cartesian manipulation",
+      "Hardware RCM",
+      "Multiple ports"
+    ],
+    "usages": [
+    ],
+    "description": "",
+    "regulatory": [
+      "CE 2020"
+    ]
   }
 ]

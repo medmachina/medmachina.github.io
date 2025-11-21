@@ -529,5 +529,20 @@
       "neocis_yomo"
     ],
     "description": "Neocis is based in Miami, Florida, USA."
+  },
+  {
+    "name": "Distalmotion",
+    "country": "Switzerland",
+    "urls": [
+      {
+        "caption": "Distalmotion",
+        "url": "https://www.distalmotion.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/distalmotion/",
+    "robots": [
+      "distalmotion_dexter"
+    ],
+    "description": "Distalmotion is based in Lausanne, Switzerland."
   }
 ]
