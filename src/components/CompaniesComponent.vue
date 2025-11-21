@@ -90,7 +90,14 @@ function shuffleArray(array) {
 
 function sortAlphabetically() {
   sortMode.value = 'alphabetical'
-  companies.value = [...companies.value].sort((a, b) => a.name.localeCompare(b.name))
+  companies.value = [...companies.value].sort((a, b) => {
+    const nameCompare = a.name.localeCompare(b.name)
+    if (nameCompare !== 0) return nameCompare
+    // Use first robot id as tiebreaker if names are identical
+    const aId = a.robots?.[0] || ''
+    const bId = b.robots?.[0] || ''
+    return aId.localeCompare(bId)
+  })
 }
 
 function sortRandomly() {

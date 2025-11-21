@@ -1,6 +1,6 @@
 <template>
   <div class="row g-3">
-    <div v-for="item in items" :key="item.name" class="col-12 col-md-6 col-lg-4">
+    <div v-for="item in items" :key="item.id" class="col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm card-clickable" @click="goToDetail(item)">
         <template v-if="getFirstPhotoUrl(item)">
           <img

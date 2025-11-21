@@ -40,7 +40,11 @@ function shuffleArray(array) {
 
 function sortAlphabetically() {
   sortMode.value = 'alphabetical'
-  items.value = [...items.value].sort((a, b) => a.name.localeCompare(b.name))
+  items.value = [...items.value].sort((a, b) => {
+    const nameCompare = a.name.localeCompare(b.name)
+    if (nameCompare !== 0) return nameCompare
+    return a.id.localeCompare(b.id) // Use id as tiebreaker for duplicate names
+  })
 }
 
 function sortRandomly() {
