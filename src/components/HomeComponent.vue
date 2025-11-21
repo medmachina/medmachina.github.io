@@ -4,6 +4,7 @@ import RobotList from './RobotList.vue'
 import TagCloud from './TagCloud.vue'
 import UsageCloud from './UsageCloud.vue'
 import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
+import { shuffleArray } from '../utils/array.js'
 
 const items = ref([])
 const originalItems = ref([])
@@ -19,7 +20,7 @@ onMounted(async () => {
   const robots = await response.json()
   // Store original data
   originalItems.value = robots
-  // Randomiser l'ordre des robots avec l'algorithme de Fisher-Yates
+  // Randomize robots order using Fisher-Yates algorithm
   items.value = shuffleArray(robots)
 
   // Load companies data to pass to RobotList
@@ -30,16 +31,6 @@ onMounted(async () => {
     console.error('Failed to load companies.json', err)
   }
 })
-
-// Function to shuffle an array (Fisher-Yates algorithm)
-function shuffleArray(array) {
-  const newArray = [...array] // Copy of array to avoid modifying the original
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]] // Swap elements
-  }
-  return newArray
-}
 
 function sortAlphabetically() {
   sortMode.value = 'alphabetical'
@@ -168,34 +159,6 @@ const filteredItems = computed(() => {
 </script>
 
 <style scoped>
-@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css';
-
-/* Dark theme overrides */
-header {
-  border-color: var(--color-border) !important;
-}
-
-h1, h2 {
-  color: var(--color-heading) !important;
-}
-
-.form-control {
-  background-color: var(--color-background-soft);
-  border-color: var(--color-border);
-  color: var(--color-text);
-}
-
-.form-control:focus {
-  background-color: var(--color-background-soft);
-  border-color: var(--color-border-hover);
-  color: var(--color-text);
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
-}
-
-.form-control::placeholder {
-  color: var(--color-text);
-  opacity: 0.6;
-}
 </style>
 
 <template>

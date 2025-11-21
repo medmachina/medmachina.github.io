@@ -65,6 +65,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import CompanyList from './CompanyList.vue'
+import { shuffleArray } from '../utils/array.js'
 
 const companies = ref([])
 const originalCompanies = ref([])
@@ -80,16 +81,6 @@ onMounted(async () => {
   // Randomize companies order on load
   companies.value = shuffleArray(data)
 })
-
-// Fisher-Yates shuffle used to randomize order
-function shuffleArray(array) {
-  const newArray = [...array]
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]]
-  }
-  return newArray
-}
 
 function sortAlphabetically() {
   sortMode.value = 'alphabetical'
@@ -172,43 +163,4 @@ const filteredCompanies = computed(() => {
 </script>
 
 <style scoped>
-@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css';
-
-/* Dark theme overrides */
-header {
-  border-color: var(--color-border) !important;
-}
-
-h1, h2 {
-  color: var(--color-heading) !important;
-}
-
-.form-control {
-  background-color: var(--color-background-soft);
-  border-color: var(--color-border);
-  color: var(--color-text);
-}
-
-.form-control:focus {
-  background-color: var(--color-background-soft);
-  border-color: var(--color-border-hover);
-  color: var(--color-text);
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
-}
-
-.form-control::placeholder {
-  color: var(--color-text);
-  opacity: 0.6;
-}
-
-.list-group-item {
-  background-color: var(--color-background-soft);
-  border-color: var(--color-border);
-  color: var(--color-text);
-}
-
-.list-group-item.active {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-}
 </style>
