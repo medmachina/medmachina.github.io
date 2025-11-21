@@ -27,7 +27,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Force feedback",
       "Motorized table",
@@ -88,7 +88,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Mechanical RCM",
       "Commercial"
@@ -137,7 +137,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial"
     ],
@@ -179,7 +179,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Motorized table",
       "Haptic",
       "Commercial"
@@ -222,7 +222,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial",
       "Retired"
@@ -279,7 +279,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial",
       "Retired"
@@ -325,7 +325,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial",
       "Retired"
@@ -366,7 +366,7 @@
       "3+ instruments",
       "Stereo display",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Mechanical RCM",
       "Commercial"
     ],
@@ -407,7 +407,7 @@
       "3+ instruments",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Software RCM",
       "Motorized table",
       "Commercial"
@@ -453,7 +453,7 @@
       "3+ instruments",
       "Stereo display",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Software RCM",
       "Commercial"
     ],
@@ -530,7 +530,7 @@
       "Stereo viewer",
       "Stereo endoscope",
       "Mechanical RCM",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial"
     ],
@@ -616,7 +616,7 @@
       "2 instruments",
       "Stereo display",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Teleoperated",
       "Commercial"
@@ -748,7 +748,7 @@
       "Single port"
     ],
     "usages": [],
-    "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not cartesian)."
+    "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not Cartesian)."
   },
   {
     "name": "Bitrack",
@@ -1014,7 +1014,7 @@
     "id": "j&j_monarch",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Johnson & Johnson MedTech (Monarch platform)",
         "url": "https://thenext.jnjmedtech.com"
       }
     ],
@@ -1132,11 +1132,11 @@
     "id": "curexo_cuvis_joint",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Curexo company site",
         "url": "https://www.curexo.com/"
       },
       {
-        "caption": "todo caption",
+        "caption": "Surgical Robotics Technology: Cuvis spine page",
         "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
       }
     ],
@@ -1164,11 +1164,11 @@
     "id": "curexo_cuvis_spine",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Curexo company site",
         "url": "https://www.curexo.com/"
       },
       {
-        "caption": "todo caption",
+        "caption": "Surgical Robotics Technology: Cuvis spine page",
         "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
       }
     ],
@@ -1199,7 +1199,7 @@
     "id": "ecential_robotics_platform",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "Ecential Robotics platform",
         "url": "https://www.ecential-robotics.com/en-us"
       }
     ],
@@ -1246,7 +1246,7 @@
     "id": "mmi_symani",
     "urls": [
       {
-        "caption": "todo caption",
+        "caption": "MMI: Symani surgical system",
         "url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
       }
     ],
@@ -1337,7 +1337,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial",
       "Retired"
@@ -1409,7 +1409,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Motorized table",
       "Haptic",
       "Force feedback",
@@ -1480,7 +1480,7 @@
       "Teleoperated",
       "Stereo viewer",
       "Stereo endoscope",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Haptic",
       "Commercial"
     ],
@@ -1607,7 +1607,7 @@
       "Stereo display",
       "Open console",
       "Multiple patient carts",
-      "Mechanical cartesian manipulation",
+      "Mechanical Cartesian manipulation",
       "Mechanical RCM",
       "Multiple ports"
     ],
