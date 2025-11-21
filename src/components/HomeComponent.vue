@@ -6,6 +6,7 @@ import UsageCloud from './UsageCloud.vue'
 import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
 
 const items = ref([])
+const originalItems = ref([])
 const companies = ref([])
 const search = ref('')
 const selectedTags = ref([])
@@ -16,6 +17,8 @@ const sortMode = ref('random') // 'random' or 'alphabetical'
 onMounted(async () => {
   const response = await fetch('/robots.json')
   const robots = await response.json()
+  // Store original data
+  originalItems.value = robots
   // Randomiser l'ordre des robots avec l'algorithme de Fisher-Yates
   items.value = shuffleArray(robots)
 
@@ -40,7 +43,7 @@ function shuffleArray(array) {
 
 function sortAlphabetically() {
   sortMode.value = 'alphabetical'
-  items.value = [...items.value].sort((a, b) => {
+  items.value = [...originalItems.value].sort((a, b) => {
     const nameCompare = a.name.localeCompare(b.name)
     if (nameCompare !== 0) return nameCompare
     return a.id.localeCompare(b.id) // Use id as tiebreaker for duplicate names
@@ -49,7 +52,7 @@ function sortAlphabetically() {
 
 function sortRandomly() {
   sortMode.value = 'random'
-  items.value = shuffleArray(items.value)
+  items.value = shuffleArray(originalItems.value)
 }
 
 const allTags = computed(() => {

@@ -67,6 +67,7 @@ import { ref, computed, onMounted } from 'vue'
 import CompanyList from './CompanyList.vue'
 
 const companies = ref([])
+const originalCompanies = ref([])
 const search = ref('')
 const selectedCountries = ref([])
 const sortMode = ref('random') // 'random' or 'alphabetical'
@@ -74,6 +75,8 @@ const sortMode = ref('random') // 'random' or 'alphabetical'
 onMounted(async () => {
   const response = await fetch('/companies.json')
   const data = await response.json()
+  // Store original data
+  originalCompanies.value = data
   // Randomize companies order on load
   companies.value = shuffleArray(data)
 })
@@ -90,7 +93,7 @@ function shuffleArray(array) {
 
 function sortAlphabetically() {
   sortMode.value = 'alphabetical'
-  companies.value = [...companies.value].sort((a, b) => {
+  companies.value = [...originalCompanies.value].sort((a, b) => {
     const nameCompare = a.name.localeCompare(b.name)
     if (nameCompare !== 0) return nameCompare
     // Use first robot id as tiebreaker if names are identical
@@ -102,7 +105,7 @@ function sortAlphabetically() {
 
 function sortRandomly() {
   sortMode.value = 'random'
-  companies.value = shuffleArray(companies.value)
+  companies.value = shuffleArray(originalCompanies.value)
 }
 
 const allCountries = computed(() => {
