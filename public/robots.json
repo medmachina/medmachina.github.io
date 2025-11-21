@@ -340,6 +340,46 @@
     "regulatory": []
   },
   {
+    "name": "dVRK (da Vinci Research Kit)",
+    "id": "dvrk_dvrk",
+    "urls": [
+      {
+        "caption": "dVRK wiki (sawIntuitiveResearchKit)",
+        "url": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+      },
+      {
+        "caption": "Intuitive Foundation dVRK page",
+        "url": "http://www.intuitive-foundation.org/dvrk/"
+      },
+      {
+        "caption": "dVRK documentatiomn",
+        "url": "https://dvrk.readdthedocs.io/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/assets/general/full-daVinci-B08-03-2021.png",
+        "site": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Research system",
+      "Open source",
+      "Open architecture",
+      "Teleoperated",
+      "Multiple ports",
+      "3+ instruments",
+      "Stereo viewer",
+      "Stereo endoscope",
+      "Modular"
+    ],
+    "usages": [
+    ],
+    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human–robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).", 
+    "regulatory": []
+  },
+  {
     "name": "Hugo RAS",
     "id": "medtronic_hugo_ras",
     "urls": [

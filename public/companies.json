@@ -545,4 +545,20 @@
     ],
     "description": "Distalmotion is based in Lausanne, Switzerland."
   }
+  ,
+  {
+    "name": "dVRK Consortium",
+    "country": "International (led by Johns Hopkins University, USA)",
+    "urls": [
+      {
+        "caption": "dVRK Consortium home page",
+        "url": "https://dvrk.lcsr.jhu.edu/dvrk-consortium/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/in/lcsr-jhu-robotics-b54a44132/",
+    "robots": [
+      "dvrk_research_kit"
+    ],
+    "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware."
+  }
 ]
