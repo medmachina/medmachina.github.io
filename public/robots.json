@@ -683,7 +683,12 @@
         "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://d1io3yog0oux5.cloudfront.net/_9d1a3f5f5f8e9d4b2e1d9c2f9f7b8a54/titanmedical/db/1130/thumbnail.jpg",
+        "site": "https://titanmedicalinc.com" 
+      }
+    ],
     "tags": [
       "RAMIS",
       "Commercial"
@@ -1013,7 +1018,16 @@
         "url": "https://thenext.jnjmedtech.com"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2022-02/Monarch%20Bronchoscope%20System%20-%20Scope%20Coming%20Out%20of%20Lung%20Model%201%20%281%29.jpg?h=b7de626e&itok=tUD7PtXv",
+        "site": "https://www.jnjmedtech.com/en-US/search?search=Monarch"
+      },
+      {
+        "url": "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2022-03/Monarch%20Tower%20-%20User%20Touching%20Monarch%20Tower%27s%20Displays%20Touch%20Screen%20%281%29%20%281%29%20%281%29.jpg?h=783b7dca&itok=_Nrk_9ve",
+        "site": "https://www.jnjmedtech.com/en-US/search?search=Monarch"
+      }
+    ],
     "tags": [
       "Flexible robot"
     ],
@@ -1093,7 +1107,16 @@
         "url": "https://thinksurgical.com/tmini/"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMINI_Fade_v2.jpg",
+        "site": "https://thinksurgical.com/tmini/"
+      },
+      {
+        "url": "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMini_Robot_V1_0010442+Left_hand_v1.jpg",
+        "site": "https://thinksurgical.com/tmini/"
+      }
+    ],
     "tags": [
       "Open surgery",
       "Orthopedic"
@@ -1117,7 +1140,16 @@
         "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/active-knee-replacement-robot.png",
+        "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-joint/"
+      },
+      {
+        "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/active-Knee-Replacement-robot-2.jpg",
+        "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-joint/"
+      }
+    ],
     "tags": [
       "Open surgery",
       "Orthopedic"
@@ -1140,7 +1172,20 @@
         "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/surgical-navigation-robot-1.jpg",
+        "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+      },
+      {
+        "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/surgical-navigation-robot-2.jpg",
+        "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+      },
+      {
+        "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/surgical-navigation-robot-4.jpg",
+        "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+      }
+    ],
     "tags": [
       "Open surgery"
     ],
