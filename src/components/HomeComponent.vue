@@ -11,6 +11,7 @@ const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
 const selectedStatuses = ref([])
+const sortMode = ref('random') // 'random' or 'alphabetical'
 
 onMounted(async () => {
   const response = await fetch('/robots.json')
@@ -35,6 +36,16 @@ function shuffleArray(array) {
     [newArray[i], newArray[j]] = [newArray[j], newArray[i]] // Échange des éléments
   }
   return newArray
+}
+
+function sortAlphabetically() {
+  sortMode.value = 'alphabetical'
+  items.value = [...items.value].sort((a, b) => a.name.localeCompare(b.name))
+}
+
+function sortRandomly() {
+  sortMode.value = 'random'
+  items.value = shuffleArray(items.value)
 }
 
 const allTags = computed(() => {
@@ -193,12 +204,30 @@ h1, h2 {
   <main class="container-fluid py-4">
     <div class="row">
       <section class="col-md-9 mb-4">
-        <input
-            v-model="search"
-            type="text"
-            placeholder="Search ..."
-            class="form-control mb-3"
-        />
+        <div class="d-flex align-items-center mb-3">
+          <input
+              v-model="search"
+              type="text"
+              placeholder="Search ..."
+              class="form-control me-2"
+          />
+          <button 
+            @click="sortRandomly" 
+            :class="['btn', sortMode === 'random' ? 'btn-primary' : 'btn-outline-secondary']"
+            title="Random order"
+            style="min-width: 50px;"
+          >
+            🎲
+          </button>
+          <button 
+            @click="sortAlphabetically" 
+            :class="['btn', 'ms-2', sortMode === 'alphabetical' ? 'btn-primary' : 'btn-outline-secondary']"
+            title="Alphabetical order"
+            style="min-width: 50px;"
+          >
+            🔤
+          </button>
+        </div>
   <RobotList :items="filteredItems" :companies="companies" />
       </section>
       <aside class="col-md-3">
