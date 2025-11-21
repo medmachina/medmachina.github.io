@@ -548,7 +548,7 @@
   ,
   {
     "name": "dVRK Consortium",
-    "country": "International (led by Johns Hopkins University, USA)",
+    "country": "United States",
     "urls": [
       {
         "caption": "dVRK Consortium home page",
@@ -557,7 +557,7 @@
     ],
     "linkedin_url": "https://www.linkedin.com/in/lcsr-jhu-robotics-b54a44132/",
     "robots": [
-      "dvrk_research_kit"
+      "dvrk_dvrk"
     ],
     "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware."
   }
