@@ -1279,7 +1279,7 @@
       },
       {
         "caption": "NewScientist article 08/2006",
-        "url": "hhttps://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
+        "url": "https://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
       }
     ],
     "photos": [
@@ -1290,6 +1290,18 @@
       {
         "url": "https://images.newscientist.com/wp-content/uploads/2006/08/dn9835-1_400.jpg",
         "site": "https://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
+      },
+      {
+        "url": "https://assets.robotsguide.com/images/7p2whiua/production/1228216d8822edeca164b720adb87128fe9d476d-2048x1536.jpg?w=1400&auto=format",
+        "site": "https://robotsguide.com/robots/ravensurgical"
+      },
+      {
+        "url": "https://assets.robotsguide.com/images/7p2whiua/production/627bfcf42a6a641b3e3d73638ae73fea910cb0dc-2048x1536.jpg?w=1400&auto=format",
+        "site": "https://robotsguide.com/robots/ravensurgical"
+      },
+      {
+        "url": "https://assets.robotsguide.com/images/7p2whiua/production/74aecab397ed9009353517da09ade2b0a072b157-2048x1536.jpg?w=1400&auto=format",
+        "site": "https://robotsguide.com/robots/ravensurgical"
       }
     ],
     "tags": [
