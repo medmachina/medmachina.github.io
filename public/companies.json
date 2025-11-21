@@ -561,4 +561,44 @@
     ],
     "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware."
   }
+  ,
+  {
+    "name": "Computer Motion",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Archived Computer Motion site",
+        "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
+      },
+      {
+        "caption": "Wikipedia: Computer Motion",
+        "url": "https://en.wikipedia.org/wiki/Computer_Motion"
+      }
+    ],
+    "linkedin_url": "",
+    "robots": [
+      "computer_motion_zeus"
+    ],
+    "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems."
+  }
+  ,
+  {
+    "name": "Integrated Surgical Systems",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Think Surgical (lineage successor)",
+        "url": "https://thinksurgical.com/"
+      },
+      {
+        "caption": "UC Davis health (research origins context)",
+        "url": "https://health.ucdavis.edu/"
+      }
+    ],
+    "linkedin_url": "",
+    "robots": [
+      "robodoc_robodoc"
+    ],
+    "description": "ROBODOC (originally developed by Integrated Surgical Systems leveraging university research) delivered semi-autonomous robotic milling for femoral canal preparation in total hip arthroplasty. Early European clinical adoption preceded FDA clearance (2008). Technology lineage continued under successor organizations, culminating in Think Surgical systems; not associated with Computer Motion."
+  }
 ]

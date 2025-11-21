@@ -340,6 +340,78 @@
     "regulatory": []
   },
   {
+    "name": "Zeus",
+    "id": "computer_motion_zeus",
+    "urls": [
+      {
+        "caption": "Wikipedia: Zeus surgical system",
+        "url": "https://en.wikipedia.org/wiki/ZEUS_robotic_surgical_system"
+      },
+      {
+        "caption": "Archived Computer Motion site",
+        "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.researchgate.net/profile/Elizabeth-Dawe/publication/227203277/figure/fig1/AS:393629559476228@1470860008379/Zeus-surgical-robot-a-Zeus-surgical-telemanipulator-system-Surgeon-sits-at-control_W640.jpg",
+        "site": "https://www.researchgate.net/publication/227203277_Robotic_endoscopic_surgery_in_a_porcine_model_of_the_infant_neck"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Multiple ports",
+      "2 instruments",
+      "Teleoperated",
+      "Mono endoscope",
+      "Mechanical MIS manipulation",
+      "Open console",
+      "Commercial",
+      "Retired"
+    ],
+    "usages": [
+    ],
+    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master–slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
+    "regulatory": [
+      "FDA 2001"
+    ]
+  },
+  {
+    "name": "ROBODOC",
+    "id": "iss_robodoc",
+    "urls": [
+      {
+        "caption": "Think Surgical corporate site (lineage)",
+        "url": "https://thinksurgical.com/"
+      },
+      {
+        "caption": "UC Davis origin reference (research roots)",
+        "url": "https://health.ucdavis.edu/" 
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-33169-000001",
+        "site": "https://americanhistory.si.edu/collections/object/nmah_1842522"
+      }
+    ],
+    "tags": [
+      "Open surgery",
+      "Orthopedic",
+      "Semi-autonomous",
+      "Commercial",
+      "Retired"
+    ],
+    "usages": [
+      "Hip"
+    ],
+    "description": "ROBODOC was an early orthopedic robotic system (originally developed by Integrated Surgical Systems based on university research) focused on precise femoral canal milling for total hip arthroplasty. Using preoperative CT imaging and planning, it performed semi-autonomous bone preparation to improve implant fit, alignment, and reproducibility versus manual instrumentation. It underscored early challenges in surgical robotics: accurate registration, OR workflow integration, and multi-year regulatory pathways (European clinical use well before FDA clearance in 2008). Its technology lineage continued under successor companies culminating in Think Surgical platforms.",
+    "regulatory": [
+      "CE 1994",
+      "FDA 2008"
+    ]
+  },
+  {
     "name": "dVRK (da Vinci Research Kit)",
     "id": "dvrk_dvrk",
     "urls": [
