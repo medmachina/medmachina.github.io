@@ -7,7 +7,7 @@
           <h6 class="card-subtitle mb-2">{{ company.country }}</h6>
           <div class="mb-2" v-if="company.robots && company.robots.length">
 <!--            <span class="badge bg-info me-1">{{ company.robots.length }} robots</span>-->
-            <span v-for="robotId in company.robots" :key="robotId" class="badge bg-secondary me-1 robot-link robot-badge-ellipsis" @click.stop="goToRobot(robotId)" :title="getRobotName(robotId)">
+            <span v-for="robotId in getSortedRobotIds(company.robots)" :key="robotId" class="badge bg-secondary me-1 robot-link robot-badge-ellipsis" @click.stop="goToRobot(robotId)" :title="getRobotName(robotId)">
               {{ getRobotName(robotId) }}
             </span>
           </div>
@@ -47,6 +47,25 @@ onMounted(async () => {
 function getRobotName(robotId) {
   const robot = robotsData.value.find(r => r.id === robotId);
   return robot ? robot.name : robotId;
+}
+
+function getSortedRobotIds(robotIds) {
+  if (!robotsData.value.length) return robotIds;
+  
+  // Get robot objects for the IDs
+  const robots = robotIds
+    .map(id => robotsData.value.find(r => r.id === id))
+    .filter(r => r); // Remove any undefined entries
+  
+  // Sort by introduction_year (oldest first), nulls at end
+  robots.sort((a, b) => {
+    if (a.introduction_year === null && b.introduction_year === null) return 0;
+    if (a.introduction_year === null) return 1;
+    if (b.introduction_year === null) return -1;
+    return a.introduction_year - b.introduction_year;
+  });
+  
+  return robots.map(r => r.id);
 }
 
 function goToDetail(company) {

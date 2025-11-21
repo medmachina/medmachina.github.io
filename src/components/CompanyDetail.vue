@@ -118,7 +118,15 @@ const companyRobots = computed(() => {
     return [];
   }
 
-  return allRobots.value.filter(robot => company.value.robots.includes(robot.id));
+  const filtered = allRobots.value.filter(robot => company.value.robots.includes(robot.id));
+  
+  // Sort by introduction_year (oldest first), with nulls at the end
+  return filtered.sort((a, b) => {
+    if (a.introduction_year === null && b.introduction_year === null) return 0;
+    if (a.introduction_year === null) return 1;
+    if (b.introduction_year === null) return -1;
+    return a.introduction_year - b.introduction_year;
+  });
 });
 
 function goToRobotDetail(robot) {
