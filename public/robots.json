@@ -50,7 +50,8 @@
         "source_urls": [
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=da%20Vinci%205",
           "https://www.intuitive.com/en-us/products-and-services/da-vinci"
-        ]
+        ],
+        "last_verified": "2025-11-22"
       },
       {
         "body": "FDA",
@@ -58,8 +59,67 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=da%20Vinci%205"
-        ]
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%205%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%205%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22da%20Vinci%205%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%205%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%205%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -126,11 +186,12 @@
         "region": "EU",
         "type": "Mark",
         "source_urls": [
-          "https://www.intuitive.com/en-us/products-and-services/da-vinci",
-          "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system",
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=da%20Vinci%20SP",
-          "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
-        ]
+          "https://www.intuitive.com/en-us/products-and-services/da-vinci",
+          "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp",
+          "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system"
+        ],
+        "last_verified": "2025-11-22"
       },
       {
         "body": "FDA",
@@ -138,17 +199,85 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192717",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243596",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232773",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131962",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212747",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173906",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192717",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202968",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241814"
-        ]
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212747",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232773",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241814",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242318",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243596",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251426",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%20SP%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%20SP%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22da%20Vinci%20SP%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%20SP%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%20SP%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -190,7 +319,19 @@
       "Commercial"
     ],
     "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%20X%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "da Vinci Xi",
@@ -235,7 +376,19 @@
       "Commercial"
     ],
     "description": "Fourth generation da Vinci system.\n\nThe patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) are now fully motorized and computer controlled, with automatic positioning and gravity compensation.  Instead of four long setup arms starting from a central column, the patient's cart now has a main boom that allows to position all 4 arms above the patient.  Each active arm can then be positioned precisely with much shorter setup arms.  The setup is the OR is simpler and the kinematic chains shorter (likely more precise).\n\n An extra degree of freedom is provided on the setup joints to reposition the active arm without changing the RCM point.  This degree of freedom is not active during teleoperation, its main function is to place the arms away from each other and avoid collicions outside the patient.The Xi system also introduces a motorized table which allows to incline the patient while the instruments are in place.  This requires the setup joints to be motorized so the entry points (RCM) can follow the table's motion.\n\nThe patient cart has motorized wheels to ease transport between rooms.\n\nThe patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are interchangeable and renamed USMs (Universal serial manipulators).  Each arm can now hold either an instrument or the endoscope.  Each USM now has 8 motors, providing 5 actuators for the instrument itself (previous versions had 4).  All motors and sensors for the instrument's actuation are located on the insertion link, directly behind the sterile adapter.  Previous systems had complex cables and pulleys from the motors in the second link of the active arm to the back of the sterile adapter.\n\nThe video system is totally new, with a fully digital HD 3D video stream from the endoscope tip to the surgeon's console.\n\nThe surgeon's console remains visually unchanged from the da Vinci Si and SP.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%20Xi%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "da Vinci Si",
@@ -295,7 +448,8 @@
         "source_urls": [
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=da%20Vinci%20Si",
           "https://www.intuitive.com/en-us/products-and-services/da-vinci"
-        ]
+        ],
+        "last_verified": "2025-11-22"
       },
       {
         "body": "FDA",
@@ -303,11 +457,69 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137"
-        ]
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%20Si%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%20Si%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22da%20Vinci%20Si%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%20Si%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22da%20Vinci%20Si%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -364,7 +576,19 @@
       "Transoral"
     ],
     "description": "Second generation da Vinci system.  The surgeon's console is very similar to the previous generation (da Vinci Standard). The patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) have less degrees of freedom and are fully gravity compensated.  The setup arm for the third arm is now mounted on the back of the column and doesn't require a motor to go up and down.  The patient cart has motorized wheels to ease transport between rooms. The video remains similar to the Standard one. The stereo endoscopes are also unchanged but the camera head is updated to use SD or HD sensors with SDI outputs on the camera control unit (CCU). The patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are totally new.  They now require brakes and are not gravity compensated.  They are stronger and more precise.  Instruments are longer but the mechanics and end effectors are similar to the Standard ones.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%20S%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "da Vinci",
@@ -411,7 +635,19 @@
       "Transoral"
     ],
     "description": "Original da Vinci system, first generation, aka IS 1000.  Designed in the late 20th century, it is a teleoperation based system for RAMIS (robotically assisted minimally invasive surgery).  The patient side manipulators always follow the surgeon's movements, there is no automomy whatsoever.\n\n    All the patient's side robotic arms (PSMs and ECM) have a mechanical remote center of motion (RCM) using a parallel linkage. The active arms holding the instruments (PSMs) are mechanically gravity compensated, they are light and don't require brakes.  In case of power failure, they won't drop in the patient.  These arms are cable driven and quite impressive from a mechanical point of view.  Instruments have wristed end effectors and can be swapped.  The camera manipulator (ECM) is not gravity compensated and requires brakes.\n\n    The patient cart has long passive arms (setup joints) that are gravity compensated except for the last joint (roll).  These setup joints or passive arms are designed to hold the active arms RCM points The da Vinci intially came with one camera arm (ECM) and two patient side manipulators (PSMs). A third PSM was later added (IS 1200).  The setup joints for the third PSM is tacked under the ECM ones and are not gravity compensated, clearly an afterthought.\n\n     The video system uses fiber optic bundles for the stereo images and light in the endoscope. CCD sensors are located in the camera head.  Focus is mechanical.\n\n  The surgeon's console uses a stereoscopic viewer with two CRT monitors (640x480) and mirrors.  The surgeon's console includes two master manipulators (aka 3D joysticks or haptic devices).  These robotic arms arr counter balanced and have 7 degrees of freedom to ensure a larger workspace, specially for the hand's orientation (SO3).  The MTMs are motorized.  These motors are used to add software based gravity compensation but can also provide some haptic feedback.  The feedback is based on the model (joint limits on PSMs) and/or the current teleoperation task (instruments vs camera teleoperation).  It is not based on forces measured on the patient side so the system doesn't provide *force feedback* per say.\n\n    This generation introduced the core features of most current RAMIS systems: 3D vision, remote center of motion, wristed instruments, hand-eye registration, motion scaling, clutching, ECM bimanual teleoperation, remote and ergonomic console, interchangeable instruments sterile adpaters between the instruments or endoscopes and the patient cart...",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22da%20Vinci%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Zeus",
@@ -453,17 +689,85 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181502",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K000362",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K011244",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K103603",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222389",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K970791",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200001",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230863",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K030578",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K981014"
-        ]
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091075",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K103603",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K113397",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181502",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191240",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200001",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201956",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222389",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230863",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230961",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K970791",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K970792",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K981014",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K981021",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K981120",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991179"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Zeus%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Zeus%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22Zeus%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Zeus%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Zeus%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -507,7 +811,8 @@
         "source_urls": [
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=ROBODOC",
           "https://health.ucdavis.edu/"
-        ]
+        ],
+        "last_verified": "2025-11-22"
       },
       {
         "body": "FDA",
@@ -515,9 +820,67 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
-          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629"
-        ]
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22ROBODOC%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22ROBODOC%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22ROBODOC%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22ROBODOC%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22ROBODOC%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -558,7 +921,19 @@
     ],
     "usages": [],
     "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22dVRK%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Hugo RAS",
@@ -602,7 +977,63 @@
         "type": "Mark",
         "source_urls": [
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=Hugo%20RAS"
-        ]
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Hugo%20RAS%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Hugo%20RAS%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22Hugo%20RAS%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Hugo%20RAS%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Hugo%20RAS%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -668,6 +1099,17 @@
         "region": "MY",
         "type": null,
         "source_urls": []
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Hinotori%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -717,7 +1159,8 @@
         "type": "Mark",
         "source_urls": [
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=Versius"
-        ]
+        ],
+        "last_verified": "2025-11-22"
       },
       {
         "body": "FDA",
@@ -725,8 +1168,66 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230078"
-        ]
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Versius%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Versius%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22Versius%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Versius%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Versius%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -768,7 +1269,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Mantra%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Sentire",
@@ -805,7 +1318,19 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Sentire%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Maestro",
@@ -832,7 +1357,19 @@
     ],
     "usages": [],
     "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Maestro%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "R1",
@@ -858,7 +1395,19 @@
     ],
     "usages": [],
     "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22R1%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Vicarious Surgical v1.0",
@@ -898,7 +1447,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Vicarious%20Surgical%20v1.0%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Senhance",
@@ -923,7 +1484,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Senhance%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "LUNA",
@@ -948,7 +1521,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22LUNA%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Enos",
@@ -976,7 +1561,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Enos%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Ottava",
@@ -1001,7 +1598,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Ottava%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Virtuoso",
@@ -1034,7 +1643,19 @@
     ],
     "usages": [],
     "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not Cartesian).",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Virtuoso%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Bitrack",
@@ -1071,7 +1692,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Bitrack%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Revo-i",
@@ -1107,7 +1740,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Revo%20i%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Surgical Science: FlexVR",
@@ -1130,7 +1775,19 @@
       "Simulation"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Surgical%20Science%20FlexVR%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Sigma",
@@ -1156,7 +1813,19 @@
       "Haptic device"
     ],
     "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Sigma%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Lambda",
@@ -1182,7 +1851,19 @@
       "Haptic device"
     ],
     "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Lambda%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Virtuoso",
@@ -1204,7 +1885,19 @@
       "Haptic device"
     ],
     "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Virtuoso%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "HD2",
@@ -1230,7 +1923,19 @@
       "Haptic device"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22HD2%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Inverse3",
@@ -1264,7 +1969,19 @@
       "Haptic device"
     ],
     "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Inverse3%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Galaxy",
@@ -1289,7 +2006,19 @@
     "tags": [],
     "usages": [],
     "description": "Used with C-Arm/CBCT.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Galaxy%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Ion",
@@ -1313,7 +2042,19 @@
       "Bronchoscopy"
     ],
     "description": "Used with C-Arm/CBCT.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Ion%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Monarch Quest",
@@ -1343,7 +2084,19 @@
       "Bronchoscopy"
     ],
     "description": "Used with C-Arm/CBCT.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Monarch%20Quest%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Mako",
@@ -1373,7 +2126,19 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Mako%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Velys",
@@ -1408,7 +2173,19 @@
       "Hip"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Velys%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "TMINI",
@@ -1438,7 +2215,19 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22TMINI%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Cuvis-joint",
@@ -1472,7 +2261,19 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Cuvis%20joint%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Cuvis-spine",
@@ -1509,7 +2310,19 @@
       "Spine"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Cuvis%20spine%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "eCential Robotics",
@@ -1531,7 +2344,19 @@
       "Open surgery"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22eCential%20Robotics%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Luca",
@@ -1560,7 +2385,19 @@
       "Eye"
     ],
     "description": "Location: Montpellier, France. 2 patient side manipulators.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Luca%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Symani",
@@ -1590,7 +2427,19 @@
       "Open microsurgery"
     ],
     "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Symani%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "RavenII",
@@ -1636,7 +2485,19 @@
       "Abdominal"
     ],
     "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22RavenII%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "avatera",
@@ -1682,7 +2543,19 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22avatera%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Mona Lisa",
@@ -1712,7 +2585,19 @@
       "Prostate"
     ],
     "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Mona%20Lisa%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Toumai",
@@ -1759,7 +2644,19 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Toumai%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "MedBot Skywalker",
@@ -1794,7 +2691,19 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22MedBot%20Skywalker%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Carina",
@@ -1831,7 +2740,19 @@
     ],
     "usages": [],
     "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Carina%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Edge Multi-Port",
@@ -1859,7 +2780,19 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: Edge Multi-Port looks remarkably like da Vinci Xi.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Edge%20Multi%20Port%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Edge Single-Port",
@@ -1894,7 +2827,19 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: Edge Single-Port looks remarkably like da Vinci Sp.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Edge%20Single%20Port%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      }
+    ]
   },
   {
     "name": "Yomo",
@@ -1928,8 +2873,67 @@
         "region": "US",
         "type": "Clearance",
         "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm",
           "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=Yomo"
-        ]
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Yomo%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Yomo%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22Yomo%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Yomo%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Yomo%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   },
@@ -1974,7 +2978,63 @@
         "type": "Mark",
         "source_urls": [
           "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=Dexter"
-        ]
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "Health Canada",
+        "region": "CA",
+        "type": "Licence",
+        "year": null,
+        "source_urls": [
+          "https://health-products.canada.ca/mdall-limh/index-eng.jsp",
+          "https://www.google.com/search?q=%22Dexter%22%20site%3Ahealth-products.canada.ca/mdall-limh"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "TGA",
+        "region": "AU",
+        "type": "Register",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Dexter%22%20site%3Atga.gov.au%20artg",
+          "https://www.tga.gov.au/resources/artg"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "PMDA",
+        "region": "JP",
+        "type": "Approval",
+        "year": null,
+        "source_urls": [
+          "https://pmda.mhlw.go.jp/search/",
+          "https://www.google.com/search?q=%22Dexter%22%20site%3Apmda.mhlw.go.jp"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "NMPA",
+        "region": "CN",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Dexter%22%20site%3Anmpa.gov.cn",
+          "https://www.nmpa.gov.cn/"
+        ],
+        "last_verified": "2025-11-22"
+      },
+      {
+        "body": "ANVISA",
+        "region": "BR",
+        "type": "Registration",
+        "year": null,
+        "source_urls": [
+          "https://www.google.com/search?q=%22Dexter%22%20site%3Aanvisa.gov.br%20dispositivo",
+          "https://www.gov.br/anvisa/pt-br"
+        ],
+        "last_verified": "2025-11-22"
       }
     ]
   }

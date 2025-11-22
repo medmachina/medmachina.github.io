@@ -30,6 +30,7 @@ except ImportError:
 
 # Request rate limiting: delay between HTTP requests (seconds)
 REQUEST_DELAY = 2.0
+TODAY = time.strftime('%Y-%m-%d')
 
 REGION_MAP = {
     'FDA': ('US', 'Clearance'),
@@ -37,6 +38,11 @@ REGION_MAP = {
     'Japan': ('JP', None),
     'Singapore': ('SG', None),
     'Malaysia': ('MY', None),
+    'Health Canada': ('CA', 'Licence'),
+    'TGA': ('AU', 'Register'),
+    'PMDA': ('JP', 'Approval'),
+    'NMPA': ('CN', 'Registration'),
+    'ANVISA': ('BR', 'Registration'),
 }
 
 # Regulatory database lookup URL patterns
@@ -90,6 +96,143 @@ def search_fda_510k(robot_name: str) -> List[str]:
         print(f'  [FDA fallback search skipped: {e}]', file=sys.stderr)
     
     return []
+
+def search_fda_pma(robot_name: str) -> List[str]:
+    """Search FDA PMA database via OpenFDA API for approval links."""
+    if not HAS_REQUESTS:
+        return []
+    try:
+        # https://open.fda.gov/apis/device/pma/
+        query = f'device_name:"{robot_name}"'
+        api_url = f'https://api.fda.gov/device/pma.json?search={quote(query)}&limit=10'
+        response = requests.get(api_url, timeout=5)
+        time.sleep(REQUEST_DELAY)
+        if response.status_code == 200:
+            data = response.json()
+            results = data.get('results', [])
+            urls = []
+            for result in results:
+                # PMA numbers appear as pma_number
+                pma_number = result.get('pma_number') or result.get('supplement_number')
+                if pma_number:
+                    # There is no direct detail page pattern like 510k; link generic search portal
+                    # Provide a search URL including PMA number for manual verification
+                    pma_url = f'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id={pma_number}'
+                    urls.append(pma_url)
+            if urls:
+                return urls
+    except Exception as e:
+        print(f'  [FDA PMA search skipped: {e}]', file=sys.stderr)
+    return []
+
+def search_fda_denovo(robot_name: str) -> List[str]:
+    """Search FDA De Novo database via OpenFDA API for classification request links."""
+    if not HAS_REQUESTS:
+        return []
+    try:
+        # https://open.fda.gov/apis/device/denovo/
+        query = f'device_name:"{robot_name}"'
+        api_url = f'https://api.fda.gov/device/denovo.json?search={quote(query)}&limit=10'
+        response = requests.get(api_url, timeout=5)
+        time.sleep(REQUEST_DELAY)
+        if response.status_code == 200:
+            data = response.json()
+            results = data.get('results', [])
+            urls = []
+            for result in results:
+                docket_number = result.get('docket_number') or result.get('denovo_number')
+                if docket_number:
+                    denovo_url = f'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo={docket_number}'
+                    urls.append(denovo_url)
+            if urls:
+                return urls
+    except Exception as e:
+        print(f'  [FDA De Novo search skipped: {e}]', file=sys.stderr)
+    return []
+
+def search_health_canada_mdall(robot_name: str, company_name: str) -> List[str]:
+    """Attempt to discover Health Canada MDALL (Medical Device Active Licence Listing) references.
+
+    There is no stable, documented JSON API; we provide heuristic URL candidates:
+    - Base portal
+    - Google search restricted to mdall-limh domain for robot or company name
+    - Potential direct result page pattern (best-effort, may 404 harmlessly)
+    """
+    if not HAS_REQUESTS:
+        return []
+    urls: List[str] = []
+    base_portal = 'https://health-products.canada.ca/mdall-limh/index-eng.jsp'
+    urls.append(base_portal)
+    norm_robot = normalize_name(robot_name)
+    norm_company = normalize_name(company_name)
+    # Construct Google query for domain-limited search (kept minimal to avoid scraping depth)
+    if norm_robot:
+        google_q = quote(f'"{norm_robot}" site:health-products.canada.ca/mdall-limh')
+        urls.append(f'https://www.google.com/search?q={google_q}')
+    elif norm_company:
+        google_q = quote(f'"{norm_company}" site:health-products.canada.ca/mdall-limh')
+        urls.append(f'https://www.google.com/search?q={google_q}')
+    # Deduplicate and return
+    dedup: List[str] = []
+    seen = set()
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            dedup.append(u)
+    return dedup
+
+def search_tga_artg(robot_name: str, company_name: str) -> List[str]:
+    """Heuristic collection of Australian TGA ARTG references.
+
+    Provides base ARTG resource page and a site-limited Google query for robot/company.
+    """
+    if not HAS_REQUESTS:
+        return []
+    urls: List[str] = []
+    base_portal = 'https://www.tga.gov.au/resources/artg'
+    urls.append(base_portal)
+    norm_robot = normalize_name(robot_name)
+    norm_company = normalize_name(company_name)
+    term = norm_robot or norm_company
+    if term:
+        google_q = quote(f'"{term}" site:tga.gov.au artg')
+        urls.append(f'https://www.google.com/search?q={google_q}')
+    dedup: List[str] = []
+    seen = set()
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            dedup.append(u)
+    return dedup
+
+def _simple_domain_search(base_portal: str, domain: str, robot_name: str, company_name: str, extra: str = '') -> List[str]:
+    if not HAS_REQUESTS:
+        return []
+    urls: List[str] = [base_portal]
+    norm_robot = normalize_name(robot_name)
+    norm_company = normalize_name(company_name)
+    term = norm_robot or norm_company
+    if term:
+        query_phrase = f'"{term}" site:{domain}' + (f' {extra}' if extra else '')
+        google_q = quote(query_phrase)
+        urls.append(f'https://www.google.com/search?q={google_q}')
+    # Deduplicate
+    dedup: List[str] = []
+    seen = set()
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            dedup.append(u)
+    return dedup
+
+def search_pmda(robot_name: str, company_name: str) -> List[str]:
+    return _simple_domain_search('https://pmda.mhlw.go.jp/search/', 'pmda.mhlw.go.jp', robot_name, company_name)
+
+def search_nmpa(robot_name: str, company_name: str) -> List[str]:
+    return _simple_domain_search('https://www.nmpa.gov.cn/', 'nmpa.gov.cn', robot_name, company_name)
+
+def search_anvisa(robot_name: str, company_name: str) -> List[str]:
+    return _simple_domain_search('https://www.gov.br/anvisa/pt-br', 'anvisa.gov.br', robot_name, company_name, extra='dispositivo')
 
 def search_eu_eudamed(robot_name: str) -> List[str]:
     """Search EU EUDAMED database via API for CE mark devices.
@@ -153,17 +296,128 @@ def search_company_press_releases(robot_name: str, company_name: str, body: str)
         print(f'  [Press release search skipped: {e}]', file=sys.stderr)
     return found_urls
 
+def normalize_name(name: str) -> str:
+    """Produce a simplified variant for broader query attempts."""
+    if not name:
+        return ''
+    # Remove trademark symbols and punctuation except spaces
+    cleaned = re.sub(r'[™®]', '', name)
+    cleaned = re.sub(r'[,;:()\-]', ' ', cleaned)
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    return cleaned
+
+def search_fda_endpoint(endpoint: str, robot_name: str, company_name: str) -> List[str]:
+    """Generic broadened search across device_name and applicant with variants.
+
+    endpoint: one of '510k', 'pma', 'denovo'
+    Returns list of detail or portal URLs.
+    """
+    if not HAS_REQUESTS:
+        return []
+    base = f'https://api.fda.gov/device/{endpoint}.json'
+    variants = []
+    norm_robot = normalize_name(robot_name)
+    if norm_robot:
+        variants.append(f'device_name:"{norm_robot}"')
+        # wildcard attempt on first token if multi-word
+        first_token = norm_robot.split()[0]
+        if len(first_token) > 3:
+            variants.append(f'device_name:"{first_token}*"')
+    norm_company = normalize_name(company_name)
+    if norm_company:
+        # restrict applicant/company queries to avoid overbroad results
+        variants.append(f'applicant:"{norm_company}"')
+    # Deduplicate while preserving order
+    seen = set()
+    ordered_variants = []
+    for v in variants:
+        if v not in seen:
+            seen.add(v)
+            ordered_variants.append(v)
+
+    collected: List[dict] = []
+    for v in ordered_variants:
+        query = quote(v)
+        url = f'{base}?search={query}&limit=20'
+        try:
+            resp = requests.get(url, timeout=6)
+            time.sleep(REQUEST_DELAY)
+            if resp.status_code == 200:
+                js = resp.json()
+                results = js.get('results', [])
+                if results:
+                    collected.extend(results)
+                    # Stop early if we got enough hits (avoid noise)
+                    if len(collected) >= 10:
+                        break
+        except Exception as e:
+            print(f'  [FDA {endpoint} broadened search skipped variant {v}: {e}]', file=sys.stderr)
+            continue
+
+    urls: List[str] = []
+    for result in collected:
+        if endpoint == '510k':
+            k_number = result.get('k_number')
+            if k_number:
+                urls.append(f'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID={k_number}')
+        elif endpoint == 'pma':
+            pma_number = result.get('pma_number') or result.get('supplement_number')
+            if pma_number:
+                urls.append(f'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id={pma_number}')
+        elif endpoint == 'denovo':
+            docket_number = result.get('docket_number') or result.get('denovo_number')
+            if docket_number:
+                urls.append(f'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo={docket_number}')
+
+    # Fallback generic portal search if nothing found
+    if not urls and endpoint == '510k':
+        urls.append('https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm')
+    if not urls and endpoint == 'pma':
+        urls.append('https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm')
+    if not urls and endpoint == 'denovo':
+        urls.append('https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm')
+
+    # Deduplicate final URL list
+    final_urls = []
+    seen_u = set()
+    for u in urls:
+        if u not in seen_u:
+            seen_u.add(u)
+            final_urls.append(u)
+    return final_urls
+
 def discover_regulatory_sources(robot_name: str, company_name: str, body: str) -> List[str]:
     """Discover external regulatory sources for a robot and authority using official APIs and databases."""
     sources = []
     
     # Query official regulatory APIs based on authority body
     if body == 'FDA':
-        fda_urls = search_fda_510k(robot_name)
-        sources.extend(fda_urls)
+        # Broadened queries via unified endpoint searches
+        aggregate = []
+        for ep in ('510k', 'pma', 'denovo'):
+            ep_urls = search_fda_endpoint(ep, robot_name, company_name)
+            for u in ep_urls:
+                if u not in aggregate:
+                    aggregate.append(u)
+        sources.extend(aggregate)
+    elif body == 'Health Canada':
+        hc_urls = search_health_canada_mdall(robot_name, company_name)
+        sources.extend(hc_urls)
     elif body == 'CE':
         eu_urls = search_eu_eudamed(robot_name)
         sources.extend(eu_urls)
+    elif body == 'TGA':
+        tga_urls = search_tga_artg(robot_name, company_name)
+        sources.extend(tga_urls)
+    elif body == 'PMDA':
+        pmda_urls = search_pmda(robot_name, company_name)
+        sources.extend(pmda_urls)
+    elif body == 'NMPA':
+        nmpa_urls = search_nmpa(robot_name, company_name)
+        sources.extend(nmpa_urls)
+    elif body == 'ANVISA':
+        anvisa_urls = search_anvisa(robot_name, company_name)
+        sources.extend(anvisa_urls)
     
     # Add fallback web portal links for unsupported authorities
     if body in REGULATORY_DB_URLS and not sources:
@@ -229,7 +483,10 @@ def merge_entry(existing: dict, fresh: dict) -> dict:
     # Merge source_urls (union, no duplicates)
     existing_urls = set(result.get('source_urls', []))
     fresh_urls = set(fresh.get('source_urls', []))
-    result['source_urls'] = list(existing_urls | fresh_urls)
+    result['source_urls'] = sorted(existing_urls | fresh_urls)
+    # Update last_verified if sources changed
+    if set(result.get('source_urls', [])) != set(existing_urls):
+        result['last_verified'] = TODAY
     return result
 
 def update_robot(robot: dict, strategy: str = 'merge') -> dict:
@@ -246,13 +503,12 @@ def update_robot(robot: dict, strategy: str = 'merge') -> dict:
         try:
             entry = extract_entry(status)
             # Preserve any existing source_urls and union with newly collected ones
-            existing_urls = entry.get('source_urls', []) or []
-            collected_urls = collect_source_urls(entry['body'], robot)
-            if collected_urls:
-                entry['source_urls'] = list({*existing_urls, *collected_urls})
-            else:
-                # Keep existing even if no collected URLs found
-                entry['source_urls'] = existing_urls
+            existing_urls = set(entry.get('source_urls', []) or [])
+            collected_urls = set(collect_source_urls(entry['body'], robot))
+            combined = existing_urls | collected_urls
+            entry['source_urls'] = sorted(combined)
+            if combined and (set(entry.get('source_urls', [])) != existing_urls or not entry.get('last_verified')):
+                entry['last_verified'] = TODAY
             new_list.append(entry)
         except ValueError as e:
             print(f"  Warning: Skipping invalid entry in {robot.get('name', 'unknown')}: {e}", file=sys.stderr)
@@ -280,7 +536,70 @@ def update_robot_with_sources(robot: dict, strategy: str = 'merge', search_exter
         external_sources = discover_regulatory_sources(robot_name, company_name, body)
         existing_urls = set(entry.get('source_urls', []))
         external_urls = set(external_sources)
-        entry['source_urls'] = list(existing_urls | external_urls)
+        entry['source_urls'] = sorted(existing_urls | external_urls)
+        if external_urls and (external_urls - existing_urls or not entry.get('last_verified')):
+            entry['last_verified'] = TODAY
+
+    # Auto-add Health Canada entry if absent and sources found
+    existing_bodies = {e.get('body') for e in robot.get('regulatory', []) if isinstance(e, dict)}
+    # Only add Health Canada if robot already has FDA or CE (to reduce noise)
+    if 'Health Canada' not in existing_bodies and ('FDA' in existing_bodies or 'CE' in existing_bodies):
+        hc_sources = search_health_canada_mdall(robot_name, company_name)
+        if hc_sources:
+            robot.setdefault('regulatory', []).append({
+                'body': 'Health Canada',
+                'region': 'CA',
+                'type': 'Licence',
+                'year': None,
+                'source_urls': sorted(set(hc_sources)),
+                'last_verified': TODAY
+            })
+    if 'TGA' not in existing_bodies and ('FDA' in existing_bodies or 'CE' in existing_bodies):
+        tga_sources = search_tga_artg(robot_name, company_name)
+        if tga_sources:
+            robot.setdefault('regulatory', []).append({
+                'body': 'TGA',
+                'region': 'AU',
+                'type': 'Register',
+                'year': None,
+                'source_urls': sorted(set(tga_sources)),
+                'last_verified': TODAY
+            })
+    # Auto-add PMDA / NMPA / ANVISA under same condition
+    if ('FDA' in existing_bodies or 'CE' in existing_bodies):
+        if 'PMDA' not in existing_bodies:
+            pmda_sources = search_pmda(robot_name, company_name)
+            if pmda_sources:
+                robot.setdefault('regulatory', []).append({
+                    'body': 'PMDA',
+                    'region': 'JP',
+                    'type': 'Approval',
+                    'year': None,
+                    'source_urls': sorted(set(pmda_sources)),
+                    'last_verified': TODAY
+                })
+        if 'NMPA' not in existing_bodies:
+            nmpa_sources = search_nmpa(robot_name, company_name)
+            if nmpa_sources:
+                robot.setdefault('regulatory', []).append({
+                    'body': 'NMPA',
+                    'region': 'CN',
+                    'type': 'Registration',
+                    'year': None,
+                    'source_urls': sorted(set(nmpa_sources)),
+                    'last_verified': TODAY
+                })
+        if 'ANVISA' not in existing_bodies:
+            anvisa_sources = search_anvisa(robot_name, company_name)
+            if anvisa_sources:
+                robot.setdefault('regulatory', []).append({
+                    'body': 'ANVISA',
+                    'region': 'BR',
+                    'type': 'Registration',
+                    'year': None,
+                    'source_urls': sorted(set(anvisa_sources)),
+                    'last_verified': TODAY
+                })
     
     return robot
 
@@ -344,7 +663,8 @@ def main():
             e.get('year'),
             e.get('region'),
             e.get('type'),
-            tuple(sorted(e.get('source_urls', [])))
+            tuple(sorted(e.get('source_urls', []))),
+            e.get('last_verified')
         )
 
     updated_count = 0

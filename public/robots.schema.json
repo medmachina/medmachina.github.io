@@ -34,7 +34,8 @@
           "type": "array",
           "items": {"type": "string", "format": "uri"},
           "uniqueItems": true
-        }
+        },
+        "last_verified": {"type": ["string", "null"], "description": "Date (YYYY-MM-DD) when source URLs were last verified."}
       },
       "additionalProperties": false
     },
