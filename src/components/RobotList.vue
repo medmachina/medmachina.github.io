@@ -20,12 +20,12 @@
             <span v-for="(tag, idx) in (item.tags || []).slice(0,5)" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
             <span v-if="(item.tags || []).length > 5">...</span>
             <!-- Regulatory bodies (show body and year) -->
-            <span
-              v-for="reg in (item.regulatory || [])"
-              :key="'reg-'+reg.body+'-'+(reg.year || '')"
-              class="badge bg-info text-dark ms-1"
-              v-if="reg.body"
-            >{{ reg.year ? `${reg.body} ${reg.year}` : reg.body }}</span>
+            <template v-for="reg in (item.regulatory || [])" :key="'reg-'+reg.body+'-'+(reg.year || '')">
+              <span
+                class="badge bg-info text-dark ms-1"
+                v-if="reg.body"
+              >{{ reg.year ? `${reg.body} ${reg.year}` : reg.body }}</span>
+            </template>
           </div>
         </div>
       </div>
