@@ -78,7 +78,6 @@
         </div>
       </div>
     </div>
-    <div v-else class="alert alert-info">No regulatory information available.</div>
 
     <h3 class="mt-2">Links</h3>
     <!-- URLs Section -->
