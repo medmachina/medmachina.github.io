@@ -245,7 +245,14 @@ def update_robot(robot: dict, strategy: str = 'merge') -> dict:
     for status in existing_list:
         try:
             entry = extract_entry(status)
-            entry['source_urls'] = collect_source_urls(entry['body'], robot)
+            # Preserve any existing source_urls and union with newly collected ones
+            existing_urls = entry.get('source_urls', []) or []
+            collected_urls = collect_source_urls(entry['body'], robot)
+            if collected_urls:
+                entry['source_urls'] = list({*existing_urls, *collected_urls})
+            else:
+                # Keep existing even if no collected URLs found
+                entry['source_urls'] = existing_urls
             new_list.append(entry)
         except ValueError as e:
             print(f"  Warning: Skipping invalid entry in {robot.get('name', 'unknown')}: {e}", file=sys.stderr)
@@ -330,25 +337,108 @@ def main():
         backup_path.write_text(out_path.read_text())
         print(f'Backed up to {backup_path}')
     
-    # Update all robots
+    # Helper for diffing entries
+    def entry_key(e: dict) -> tuple:
+        return (
+            e.get('body'),
+            e.get('year'),
+            e.get('region'),
+            e.get('type'),
+            tuple(sorted(e.get('source_urls', [])))
+        )
+
     updated_count = 0
+    unchanged_count = 0
+    added_entries_details: List[tuple] = []  # (robot_name, body)
+    removed_entries_details: List[tuple] = []  # (robot_name, body)
+    added_urls_details: List[tuple] = []  # (robot_name, body, url)
+
     for i, robot in enumerate(data):
-        before = robot.get('regulatory', [])
+        robot_name = robot.get('name', f'robot_{i}')
+        before_list = robot.get('regulatory', []) or []
+        # Snapshot for URL diffing by body
+        before_by_body = { (e.get('body') or f'body_{idx}'): e for idx, e in enumerate(before_list) if isinstance(e, dict) }
+
         robot = update_robot_with_sources(robot, strategy=args.strategy, search_external=args.search_external)
-        after = robot.get('regulatory', [])
-        if before != after:
+        after_list = robot.get('regulatory', []) or []
+        after_by_body = { (e.get('body') or f'body_{idx}'): e for idx, e in enumerate(after_list) if isinstance(e, dict) }
+
+        before_keys = { entry_key(e) for e in before_list if isinstance(e, dict) }
+        after_keys = { entry_key(e) for e in after_list if isinstance(e, dict) }
+
+        # Added / removed whole entries
+        added_entries = [e for e in after_list if isinstance(e, dict) and entry_key(e) not in before_keys]
+        removed_entries = [e for e in before_list if isinstance(e, dict) and entry_key(e) not in after_keys]
+
+        # Added URLs inside existing bodies
+        intersect_bodies = set(before_by_body.keys()) & set(after_by_body.keys())
+        new_urls_this_robot = []
+        for body in intersect_bodies:
+            b_urls = set(before_by_body[body].get('source_urls', []) or [])
+            a_urls = set(after_by_body[body].get('source_urls', []) or [])
+            new_urls = a_urls - b_urls
+            for u in sorted(new_urls):
+                added_urls_details.append((robot_name, body, u))
+                new_urls_this_robot.append(u)
+
+        # Determine if this robot changed (new entry, removed entry, or new URLs within existing entry)
+        if added_entries or removed_entries or new_urls_this_robot:
             updated_count += 1
-        
+            for e in added_entries:
+                added_entries_details.append((robot_name, e.get('body')))
+            for e in removed_entries:
+                removed_entries_details.append((robot_name, e.get('body')))
+        else:
+            unchanged_count += 1
+
         # Progress indicator for external search
         if args.search_external and (i + 1) % 10 == 0:
             print(f'  Processed {i + 1}/{len(data)} robots...', file=sys.stderr)
     
     # Write output
     out_path.write_text(json.dumps(data, indent=2))
-    print(f'Updated {updated_count} robots (strategy: {args.strategy})')
+    total_robots = len(data)
+    print(f'Updated {updated_count} robots; unchanged {unchanged_count} (strategy: {args.strategy})')
     if args.search_external:
-        print(f'  External source discovery enabled.')
-    print(f'Wrote {out_path}')
+        print('External source discovery enabled.')
+
+    # Aggregate stats
+    print('\nRegulatory diff summary:')
+    print(f'  Total robots processed: {total_robots}')
+    print(f'  Robots updated: {updated_count}')
+    print(f'  Robots unchanged: {unchanged_count}')
+    print(f'  Added entries: {len(added_entries_details)}')
+    print(f'  Removed entries: {len(removed_entries_details)}')
+    print(f'  New source URLs added within existing entries: {len(added_urls_details)}')
+
+    # Detail samples (limit to avoid excessive output)
+    def sample(lst: List[tuple], limit: int = 15):
+        return lst[:limit], max(0, len(lst) - limit)
+
+    added_sample, added_remaining = sample(added_entries_details)
+    removed_sample, removed_remaining = sample(removed_entries_details)
+    url_sample, url_remaining = sample(added_urls_details)
+
+    if added_sample:
+        print('\n  Added Entries (sample):')
+        for robot_name, body in added_sample:
+            print(f'    + {robot_name}: {body}')
+        if added_remaining:
+            print(f'    ... {added_remaining} more')
+    if removed_sample:
+        print('\n  Removed Entries (sample):')
+        for robot_name, body in removed_sample:
+            print(f'    - {robot_name}: {body}')
+        if removed_remaining:
+            print(f'    ... {removed_remaining} more')
+    if url_sample:
+        print('\n  Added Source URLs (sample):')
+        for robot_name, body, url in url_sample:
+            print(f'    * {robot_name} [{body}]: {url}')
+        if url_remaining:
+            print(f'    ... {url_remaining} more')
+
+    print(f'\nWrote {out_path}')
 
 if __name__ == '__main__':
     main()
