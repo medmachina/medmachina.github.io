@@ -30,27 +30,6 @@ python3 scripts/update_robots.py --verify-only
 
 Both commands validate against JSON Schema (Draft 2020-12) and verify all URLs. The update scripts also validate automatically before writing output.
 
-### Regulatory Schema
-
-The `regulatory` field in each robot is an array of objects with standardized structure:
-
-```json
-{
-  "body": "FDA",
-  "year": 2024,
-  "region": "US",
-  "type": "Clearance",
-  "source_urls": ["https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123456"]
-}
-```
-
-Field semantics:
-- `body`: Regulatory authority or descriptor (e.g., `FDA`, `CE`, `Japan`, `NMPA`).
-- `year`: Integer year of clearance/approval; null if unknown or not applicable.
-- `region`: Geographic region/market code (e.g., `US`, `EU`, `JP`) when applicable.
-- `type`: Nature of the status (e.g., `Clearance`, `Mark`, `Authorization`); null if unspecified.
-- `source_urls`: Array of evidence URLs supporting the regulatory status.
-
 **Updating Regulatory Data:**
 
 Use `scripts/update_regulatory.py` to normalize and enrich regulatory entries:
