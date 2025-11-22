@@ -99,32 +99,18 @@ const allUsages = computed(() => {
 })
 
 const allStatuses = computed(() => {
-  // Count the frequency of each regulatory status
+  // Extract regulatory bodies from array of objects
   const statusCount = {}
   items.value.forEach(item => {
-    (item.regulatory || []).forEach(status => {
-      // Add the original status
-      statusCount[status] = (statusCount[status] || 0) + 1
-
-      // If status starts with FDA or CE, split it
-      if (status.startsWith('FDA') || status.startsWith('CE')) {
-        // Extract the prefix (FDA or CE)
-        const prefix = status.startsWith('FDA') ? 'FDA' : 'CE'
-        statusCount[prefix] = (statusCount[prefix] || 0) + 1
-
-        // Extract the year or remainder (what follows FDA or CE)
-        const remainder = status.substring(prefix.length).trim()
-        if (remainder) {
-          statusCount[remainder] = (statusCount[remainder] || 0) + 1
-        }
-      }
+    (item.regulatory || []).forEach(entry => {
+      const body = entry.body || ''
+      if (!body) return
+      statusCount[body] = (statusCount[body] || 0) + 1
     })
   })
-
-  // Convert to array of objects with status and frequency
   return Object.keys(statusCount)
-    .map(status => ({ name: status, count: statusCount[status] }))
-    .sort((a, b) => b.count - a.count) // Sort by descending frequency
+    .map(body => ({ name: body, count: statusCount[body] }))
+    .sort((a, b) => b.count - a.count)
 })
 
 const filteredItems = computed(() => {
@@ -166,14 +152,10 @@ const filteredItems = computed(() => {
     // Modification for regulatory status filtering
     const matchStatuses = selectedStatuses.value.length === 0 ||
       selectedStatuses.value.every(selectedStatus => {
-        // Check if the exact status exists in the regulatory status array
-        if ((item.regulatory || []).includes(selectedStatus)) {
-          return true;
-        }
-
-        // Check if the status is part of a longer status (FDA in FDA 2023, or 2023 in FDA 2023)
-        return (item.regulatory || []).some(status => status.includes(selectedStatus));
-      });
+        return (item.regulatory || []).some(entry => {
+          return entry.body === selectedStatus
+        })
+      })
 
     return matchSearch && matchTags && matchUsages && matchStatuses;
   });

@@ -42,8 +42,25 @@
     ],
     "description": "Designed to enable better outcomes, more efficiency, and actionable insights, da Vinci 5 brings more than 150 design innovations and 10,000x the computing power of da Vinci Xi. These advances support enhanced surgical senses, greater surgeon autonomy, more streamlined OR workflows, and advanced data analytics to enable the future of surgery.",
     "regulatory": [
-      "CE 2025",
-      "FDA 2024"
+      {
+        "body": "CE",
+        "year": 2025,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=da%20Vinci%205",
+          "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+        ]
+      },
+      {
+        "body": "FDA",
+        "year": 2024,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=da%20Vinci%205"
+        ]
+      }
     ]
   },
   {
@@ -103,8 +120,36 @@
     ],
     "description": "The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures.",
     "regulatory": [
-      "CE 2024",
-      "FDA 2018"
+      {
+        "body": "CE",
+        "year": 2024,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system",
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=da%20Vinci%20SP",
+          "https://www.intuitive.com/en-us/products-and-services/da-vinci",
+          "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
+        ]
+      },
+      {
+        "body": "FDA",
+        "year": 2018,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232773",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192717",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241814",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212747",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202968",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131962",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243596"
+        ]
+      }
     ]
   },
   {
@@ -144,7 +189,8 @@
       "Haptic",
       "Commercial"
     ],
-    "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems."
+    "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems.",
+    "regulatory": []
   },
   {
     "name": "da Vinci Xi",
@@ -188,7 +234,8 @@
       "Haptic",
       "Commercial"
     ],
-    "description": "Fourth generation da Vinci system.\n\nThe patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) are now fully motorized and computer controlled, with automatic positioning and gravity compensation.  Instead of four long setup arms starting from a central column, the patient's cart now has a main boom that allows to position all 4 arms above the patient.  Each active arm can then be positioned precisely with much shorter setup arms.  The setup is the OR is simpler and the kinematic chains shorter (likely more precise).\n\n An extra degree of freedom is provided on the setup joints to reposition the active arm without changing the RCM point.  This degree of freedom is not active during teleoperation, its main function is to place the arms away from each other and avoid collicions outside the patient.The Xi system also introduces a motorized table which allows to incline the patient while the instruments are in place.  This requires the setup joints to be motorized so the entry points (RCM) can follow the table's motion.\n\nThe patient cart has motorized wheels to ease transport between rooms.\n\nThe patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are interchangeable and renamed USMs (Universal serial manipulators).  Each arm can now hold either an instrument or the endoscope.  Each USM now has 8 motors, providing 5 actuators for the instrument itself (previous versions had 4).  All motors and sensors for the instrument's actuation are located on the insertion link, directly behind the sterile adapter.  Previous systems had complex cables and pulleys from the motors in the second link of the active arm to the back of the sterile adapter.\n\nThe video system is totally new, with a fully digital HD 3D video stream from the endoscope tip to the surgeon's console.\n\nThe surgeon's console remains visually unchanged from the da Vinci Si and SP."
+    "description": "Fourth generation da Vinci system.\n\nThe patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) are now fully motorized and computer controlled, with automatic positioning and gravity compensation.  Instead of four long setup arms starting from a central column, the patient's cart now has a main boom that allows to position all 4 arms above the patient.  Each active arm can then be positioned precisely with much shorter setup arms.  The setup is the OR is simpler and the kinematic chains shorter (likely more precise).\n\n An extra degree of freedom is provided on the setup joints to reposition the active arm without changing the RCM point.  This degree of freedom is not active during teleoperation, its main function is to place the arms away from each other and avoid collicions outside the patient.The Xi system also introduces a motorized table which allows to incline the patient while the instruments are in place.  This requires the setup joints to be motorized so the entry points (RCM) can follow the table's motion.\n\nThe patient cart has motorized wheels to ease transport between rooms.\n\nThe patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are interchangeable and renamed USMs (Universal serial manipulators).  Each arm can now hold either an instrument or the endoscope.  Each USM now has 8 motors, providing 5 actuators for the instrument itself (previous versions had 4).  All motors and sensors for the instrument's actuation are located on the insertion link, directly behind the sterile adapter.  Previous systems had complex cables and pulleys from the motors in the second link of the active arm to the back of the sterile adapter.\n\nThe video system is totally new, with a fully digital HD 3D video stream from the endoscope tip to the surgeon's console.\n\nThe surgeon's console remains visually unchanged from the da Vinci Si and SP.",
+    "regulatory": []
   },
   {
     "name": "da Vinci Si",
@@ -240,8 +287,28 @@
     ],
     "description": "Third generation da Vinci system.  The patient cart is very similar to the previous generation (da Vinci S). The surgeon's console is totally new, including new manipulators, individual clutch on each gripper, infinite roll...  The stereo viewer is updated to use two flat panel monitors.",
     "regulatory": [
-      "CE",
-      "FDA 2008"
+      {
+        "body": "CE",
+        "year": null,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=da%20Vinci%20Si",
+          "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+        ]
+      },
+      {
+        "body": "FDA",
+        "year": 2008,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699"
+        ]
+      }
     ]
   },
   {
@@ -378,9 +445,26 @@
       "Retired"
     ],
     "usages": [],
-    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master–slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
+    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master\u2013slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
     "regulatory": [
-      "FDA 2001"
+      {
+        "body": "FDA",
+        "year": 2001,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181502",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200001",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K970791",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K030578",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K103603",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230863",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K011244",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222389",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K981014"
+        ]
+      }
     ]
   },
   {
@@ -415,8 +499,26 @@
     ],
     "description": "ROBODOC was an early orthopedic robotic system (originally developed by Integrated Surgical Systems based on university research) focused on precise femoral canal milling for total hip arthroplasty. Using preoperative CT imaging and planning, it performed semi-autonomous bone preparation to improve implant fit, alignment, and reproducibility versus manual instrumentation. It underscored early challenges in surgical robotics: accurate registration, OR workflow integration, and multi-year regulatory pathways (European clinical use well before FDA clearance in 2008). Its technology lineage continued under successor companies culminating in Think Surgical platforms.",
     "regulatory": [
-      "CE 1994",
-      "FDA 2008"
+      {
+        "body": "CE",
+        "year": 1994,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=ROBODOC",
+          "https://health.ucdavis.edu/"
+        ]
+      },
+      {
+        "body": "FDA",
+        "year": 2008,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629"
+        ]
+      }
     ]
   },
   {
@@ -456,7 +558,7 @@
       "Modular"
     ],
     "usages": [],
-    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human–robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
+    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
     "regulatory": []
   },
   {
@@ -494,7 +596,15 @@
     "usages": [],
     "description": "",
     "regulatory": [
-      "CE 2021"
+      {
+        "body": "CE",
+        "year": 2021,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=Hugo%20RAS"
+        ]
+      }
     ]
   },
   {
@@ -539,9 +649,27 @@
     ],
     "description": "",
     "regulatory": [
-      "Japan",
-      "Singapore",
-      "Malaysia"
+      {
+        "body": "Japan",
+        "year": null,
+        "region": "JP",
+        "type": null,
+        "source_urls": []
+      },
+      {
+        "body": "Singapore",
+        "year": null,
+        "region": "SG",
+        "type": null,
+        "source_urls": []
+      },
+      {
+        "body": "Malaysia",
+        "year": null,
+        "region": "MY",
+        "type": null,
+        "source_urls": []
+      }
     ]
   },
   {
@@ -583,8 +711,24 @@
     "usages": [],
     "description": "",
     "regulatory": [
-      "CE 2019",
-      "FDA 2024"
+      {
+        "body": "CE",
+        "year": 2019,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=Versius"
+        ]
+      },
+      {
+        "body": "FDA",
+        "year": 2024,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230078"
+        ]
+      }
     ]
   },
   {
@@ -624,7 +768,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Sentire",
@@ -660,7 +805,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart"
+    "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart",
+    "regulatory": []
   },
   {
     "name": "Maestro",
@@ -686,7 +832,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery."
+    "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery.",
+    "regulatory": []
   },
   {
     "name": "R1",
@@ -711,7 +858,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle."
+    "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle.",
+    "regulatory": []
   },
   {
     "name": "Vicarious Surgical v1.0",
@@ -750,7 +898,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Senhance",
@@ -774,7 +923,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "LUNA",
@@ -798,7 +948,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Enos",
@@ -825,7 +976,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Ottava",
@@ -849,7 +1001,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Virtuoso",
@@ -881,7 +1034,8 @@
       "Single port"
     ],
     "usages": [],
-    "description": "Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulators emulate laparoscopic instruments (not Cartesian)."
+    "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not Cartesian).",
+    "regulatory": []
   },
   {
     "name": "Bitrack",
@@ -917,7 +1071,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Revo-i",
@@ -952,7 +1107,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Surgical Science: FlexVR",
@@ -974,7 +1130,8 @@
       "RAMIS",
       "Simulation"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Sigma",
@@ -999,7 +1156,8 @@
     "tags": [
       "Haptic device"
     ],
-    "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized."
+    "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
+    "regulatory": []
   },
   {
     "name": "Lambda",
@@ -1024,7 +1182,8 @@
     "tags": [
       "Haptic device"
     ],
-    "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized."
+    "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
+    "regulatory": []
   },
   {
     "name": "Virtuoso",
@@ -1045,7 +1204,8 @@
     "tags": [
       "Haptic device"
     ],
-    "description": "Haptic devices using serial arm, up to 6 dofs motorized."
+    "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
+    "regulatory": []
   },
   {
     "name": "HD2",
@@ -1070,7 +1230,8 @@
     "tags": [
       "Haptic device"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Inverse3",
@@ -1103,7 +1264,8 @@
     "tags": [
       "Haptic device"
     ],
-    "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons."
+    "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons.",
+    "regulatory": []
   },
   {
     "name": "Galaxy",
@@ -1127,7 +1289,8 @@
     ],
     "tags": [],
     "usages": [],
-    "description": "Used with C-Arm/CBCT."
+    "description": "Used with C-Arm/CBCT.",
+    "regulatory": []
   },
   {
     "name": "Ion",
@@ -1150,7 +1313,8 @@
       "Lung",
       "Bronchoscopy"
     ],
-    "description": "Used with C-Arm/CBCT."
+    "description": "Used with C-Arm/CBCT.",
+    "regulatory": []
   },
   {
     "name": "Monarch Quest",
@@ -1179,7 +1343,8 @@
       "Lung",
       "Bronchoscopy"
     ],
-    "description": "Used with C-Arm/CBCT."
+    "description": "Used with C-Arm/CBCT.",
+    "regulatory": []
   },
   {
     "name": "Mako",
@@ -1208,7 +1373,8 @@
     "usages": [
       "Knee"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Velys",
@@ -1242,7 +1408,8 @@
       "Knee",
       "Hip"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "TMINI",
@@ -1271,7 +1438,8 @@
     "usages": [
       "Knee"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Cuvis-joint",
@@ -1304,7 +1472,8 @@
     "usages": [
       "Knee"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Cuvis-spine",
@@ -1340,7 +1509,8 @@
     "usages": [
       "Spine"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "eCential Robotics",
@@ -1361,7 +1531,8 @@
     "tags": [
       "Open surgery"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Luca",
@@ -1389,7 +1560,8 @@
     "usages": [
       "Eye"
     ],
-    "description": "Location: Montpellier, France. 2 patient side manipulators."
+    "description": "Location: Montpellier, France. 2 patient side manipulators.",
+    "regulatory": []
   },
   {
     "name": "Symani",
@@ -1418,7 +1590,8 @@
     "tags": [
       "Open microsurgery"
     ],
-    "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?"
+    "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?",
+    "regulatory": []
   },
   {
     "name": "RavenII",
@@ -1463,7 +1636,8 @@
     "usages": [
       "Abdominal"
     ],
-    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display."
+    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
+    "regulatory": []
   },
   {
     "name": "avatera",
@@ -1508,7 +1682,8 @@
       "Retired"
     ],
     "usages": [],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Mona Lisa",
@@ -1537,7 +1712,8 @@
     "usages": [
       "Prostate"
     ],
-    "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy."
+    "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
+    "regulatory": []
   },
   {
     "name": "Toumai",
@@ -1583,7 +1759,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised."
+    "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised.",
+    "regulatory": []
   },
   {
     "name": "MedBot Skywalker",
@@ -1617,7 +1794,8 @@
       "Hip",
       "Knee"
     ],
-    "description": ""
+    "description": "",
+    "regulatory": []
   },
   {
     "name": "Carina",
@@ -1653,7 +1831,8 @@
       "Commercial"
     ],
     "usages": [],
-    "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments."
+    "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments.",
+    "regulatory": []
   },
   {
     "name": "Edge Multi-Port",
@@ -1667,7 +1846,7 @@
     ],
     "photos": [
       {
-        "url": "https://en.edgemed.cn/uploads/多孔展示官网用图_1746675291.jpg",
+        "url": "https://en.edgemed.cn/uploads/\u591a\u5b54\u5c55\u793a\u5b98\u7f51\u7528\u56fe_1746675291.jpg",
         "site": "https://en.edgemed.cn"
       }
     ],
@@ -1744,7 +1923,15 @@
     ],
     "description": "",
     "regulatory": [
-      "FDA"
+      {
+        "body": "FDA",
+        "year": null,
+        "region": "US",
+        "type": "Clearance",
+        "source_urls": [
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=Yomo"
+        ]
+      }
     ]
   },
   {
@@ -1781,7 +1968,15 @@
     "usages": [],
     "description": "",
     "regulatory": [
-      "CE 2020"
+      {
+        "body": "CE",
+        "year": 2020,
+        "region": "EU",
+        "type": "Mark",
+        "source_urls": [
+          "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id=Dexter"
+        ]
+      }
     ]
   }
 ]

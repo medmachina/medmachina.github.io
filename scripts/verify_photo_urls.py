@@ -16,7 +16,7 @@ def is_valid_url(url):
         return False
 
 # Timeout for HTTP requests (seconds)
-TIMEOUT = 30
+TIMEOUT = 60
 
 def check_url(url):
     """Check if a URL is accessible"""
@@ -85,10 +85,13 @@ def verify_urls(robots_data, companies_data):
     
     # Use ThreadPoolExecutor to check URLs concurrently
     results = []
+    completed = 0
     with ThreadPoolExecutor(max_workers=10) as executor:
         future_to_url = {executor.submit(check_url, url): url for url in all_urls}
         for future in as_completed(future_to_url):
             results.append(future.result())
+            completed += 1
+            print(f"Progress: {completed}/{len(all_urls)} URLs checked")
     
     # Process and display results
     broken_links = []

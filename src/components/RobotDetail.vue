@@ -56,6 +56,30 @@
       </div>
     </div>
 
+    <h3 class="mt-4 mb-4">Regulatory Status</h3>
+    <!-- Regulatory Information Section -->
+    <div v-if="projectRegulatoryInfo.length > 0" class="regulatory-section">
+      <div class="regulatory-list">
+        <div v-for="(reg, index) in projectRegulatoryInfo" :key="index" class="regulatory-item">
+          <div class="regulatory-header">
+            <span class="badge bg-info text-dark">{{ reg.body }}</span>
+            <span v-if="reg.year" class="badge bg-secondary ms-2">{{ reg.year }}</span>
+            <span v-if="reg.region" class="badge bg-warning text-dark ms-2">{{ reg.region }}</span>
+            <span v-if="reg.type" class="badge bg-success ms-2">{{ reg.type }}</span>
+          </div>
+          <div v-if="reg.source_urls && reg.source_urls.length > 0" class="regulatory-sources mt-2">
+            <strong>Source URLs:</strong>
+            <ul class="source-list">
+              <li v-for="(url, urlIdx) in reg.source_urls" :key="urlIdx">
+                <a :href="url" target="_blank" rel="noopener noreferrer">{{ getUrlDomain(url) }}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-else class="alert alert-info">No regulatory information available.</div>
+
     <h3 class="mt-2">Links</h3>
     <!-- URLs Section -->
     <div v-if="projectUrls.length > 0" class="urls-section">
@@ -228,6 +252,27 @@ const projectUrls = computed(() => {
 
   return [];
 });
+
+// Computed property for regulatory information
+const projectRegulatoryInfo = computed(() => {
+  if (!project.value?.regulatory) return [];
+
+  // Regulatory is an array of objects
+  if (Array.isArray(project.value.regulatory)) {
+    return project.value.regulatory.filter(reg => reg && reg.body);
+  }
+
+  return [];
+});
+
+function getUrlDomain(url) {
+  try {
+    const urlObj = new URL(url);
+    return urlObj.hostname.replace('www.', '');
+  } catch {
+    return url;
+  }
+}
 </script>
 
 <style scoped>
@@ -326,6 +371,45 @@ const projectUrls = computed(() => {
 .dark-tag {
   background-color: #333;
   color: #fff;
+}
+.regulatory-section {
+  margin-bottom: 1.5rem;
+}
+.regulatory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.regulatory-item {
+  padding: 1rem;
+  background: var(--color-background);
+  border-left: 4px solid var(--color-border);
+  border-radius: 4px;
+}
+.regulatory-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.regulatory-sources {
+  margin-top: 0.75rem;
+  color: var(--color-text);
+}
+.source-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+.source-list li {
+  margin-bottom: 0.5rem;
+}
+.source-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+.source-list a:hover {
+  text-decoration: underline;
 }
 .urls-section {
   margin-top: 2rem;

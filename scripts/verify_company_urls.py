@@ -13,8 +13,8 @@ from typing import Dict, List, Optional, Tuple
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 logger = logging.getLogger(__name__)
 
-# Timeout for HTTP requests (seconds) — increase this if some hosts are slow
-TIMEOUT = 30
+# Timeout for HTTP requests (seconds)
+TIMEOUT = 60
 
 # Get the repository root directory
 REPO_ROOT = Path(__file__).parent.parent
@@ -79,13 +79,16 @@ def verify_all_urls(companies_data: List[Dict]) -> Tuple[List[Tuple[str, str, st
             for company_name, url_type, url in all_urls
         }
 
+        completed = 0
         for future in as_completed(future_to_url):
             company_name, url_type, url, is_valid = future.result()
+            completed += 1
             if is_valid:
                 valid_urls.append((company_name, url_type, url))
             else:
                 invalid_urls.append((company_name, url_type, url))
                 logger.error(f"✗ Invalid {url_type} for {company_name}: {url}")
+            logger.info(f"Progress: {completed}/{len(all_urls)} URLs checked")
 
     return valid_urls, invalid_urls
 
