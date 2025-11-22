@@ -210,7 +210,7 @@ const filteredItems = computed(() => {
             📅
           </button>
         </div>
-  <RobotList :items="filteredItems" :companies="companies" />
+        <RobotList :items="filteredItems" :companies="companies" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

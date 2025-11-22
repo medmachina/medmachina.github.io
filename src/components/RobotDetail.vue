@@ -56,24 +56,26 @@
       </div>
     </div>
 
-    <h3 class="mt-4 mb-4">Regulatory Status</h3>
     <!-- Regulatory Information Section -->
-    <div v-if="projectRegulatoryInfo.length > 0" class="regulatory-section">
-      <div class="regulatory-list">
-        <div v-for="(reg, index) in projectRegulatoryInfo" :key="index" class="regulatory-item">
-          <div class="regulatory-header">
-            <span class="badge bg-info text-dark">{{ reg.body }}</span>
-            <span v-if="reg.year" class="badge bg-secondary ms-2">{{ reg.year }}</span>
-            <span v-if="reg.region" class="badge bg-warning text-dark ms-2">{{ reg.region }}</span>
-            <span v-if="reg.type" class="badge bg-success ms-2">{{ reg.type }}</span>
-          </div>
-          <div v-if="reg.source_urls && reg.source_urls.length > 0" class="regulatory-sources mt-2">
-            <strong>Source URLs:</strong>
-            <ul class="source-list">
-              <li v-for="(url, urlIdx) in reg.source_urls" :key="urlIdx">
-                <a :href="url" target="_blank" rel="noopener noreferrer">{{ getUrlDomain(url) }}</a>
-              </li>
-            </ul>
+    <div v-if="projectRegulatoryInfo.length > 0">
+      <h3 class="mt-4 mb-4">Regulatory Status</h3>
+      <div class="regulatory-section">
+        <div class="regulatory-list">
+          <div v-for="(reg, index) in projectRegulatoryInfo" :key="index" class="regulatory-item">
+            <div class="regulatory-header">
+              <span class="badge bg-info text-dark">{{ reg.body }}</span>
+              <span v-if="reg.year" class="badge bg-secondary ms-2">{{ reg.year }}</span>
+              <span v-if="reg.region" class="badge bg-warning text-dark ms-2">{{ reg.region }}</span>
+              <span v-if="reg.type" class="badge bg-success ms-2">{{ reg.type }}</span>
+            </div>
+            <div v-if="reg.source_urls && reg.source_urls.length > 0" class="regulatory-sources mt-2">
+              <strong>Source URLs:</strong>
+              <ul class="source-list">
+                <li v-for="(url, urlIdx) in reg.source_urls" :key="urlIdx">
+                  <a :href="url" target="_blank" rel="noopener noreferrer">{{ getUrlDomain(url) }}</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
