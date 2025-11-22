@@ -439,7 +439,7 @@
       "2 instruments",
       "Teleoperated",
       "Mono endoscope",
-      "Mechanical MIS manipulation",
+      "Mechanical manipulation",
       "Open console",
       "Commercial",
       "Retired"
@@ -554,8 +554,7 @@
       "Multiple ports",
       "3+ instruments",
       "Stereo viewer",
-      "Stereo endoscope",
-      "Modular"
+      "Stereo endoscope"
     ],
     "usages": [],
     "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
@@ -1028,7 +1027,7 @@
       "RAMIS",
       "Teleoperated",
       "2 instruments",
-      "Mechanical MIS manipulation",
+      "Mechanical manipulation",
       "Mono endoscope",
       "Commercial",
       "Single port"

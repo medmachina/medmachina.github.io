@@ -96,97 +96,112 @@ All requests respect a 2-second rate limit to avoid suspicion.
 
 ---
 
-### `verify_robot_urls.py`
+### `update_robots.py`
 
-Verifies that all robot detail URLs and company website URLs in `robots.json` are valid and reachable.
+Validates and verifies robot data in `robots.json` with schema conformance checking and URL accessibility tests.
 
 **Features:**
-- Validates URL format for each robot and company
+- Validates robot dataset against `public/robots.schema.json` for schema conformance
+- Validates photo structure (required fields, proper format)
+- Verifies URL format and accessibility for robot info URLs and photo URLs
 - Performs HTTP HEAD requests to check URL accessibility
 - Concurrent verification with 10 worker threads for faster processing
 - 60-second timeout per request for slower servers
 - Real-time progress tracking
-- Detailed logging of broken links and errors
+- Optional photo URL summary display
+- Automatic backup creation with `--backup` flag
+- Suppresses per-URL invalid logging during verification (summary only)
 
 **Usage:**
 
 ```bash
-# Verify all URLs in robots.json
-python3 scripts/verify_robot_urls.py
+# Verify schema conformance and all URLs (info + photos)
+python3 scripts/update_robots.py --verify-only
 
-# Output shows validation status for each robot and URL
+# Show photo URL summary after verification
+python3 scripts/update_robots.py --verify-only --photo-summary
+
+# Full validation and verification with backup
+python3 scripts/update_robots.py --backup
+
+# Custom source and output files
+python3 scripts/update_robots.py --source custom.json --output updated.json
+
+# View all options
+python3 scripts/update_robots.py --help
 ```
 
-**Dependencies:** `requests`
+**Note:** The `--verify-only` flag runs both schema validation and URL verification (including photo URLs). Schema validation always runs before URL checks or any write operations.
+
+**Dependencies:** `requests`, `jsonschema`
 
 ---
 
-### `verify_photo_urls.py`
+### `update_companies.py`
 
-Validates image URLs referenced in `robots.json` (avatar, primary photos, gallery images).
+Enriches company data in `companies.json` with external metadata sources while validating existing URLs.
 
 **Features:**
-- Checks existence and accessibility of avatar and photo URLs
-- Verifies gallery image URLs
-- Concurrent verification with 10 worker threads
-- 60-second timeout per request
+- Validates company dataset against `public/companies.schema.json` for schema conformance
+- Validates company website URLs and LinkedIn URLs for accessibility
+- Optional external data enrichment via `--enrich-external` flag:
+  - **OpenCorporates API** for company registration data (jurisdiction, incorporation date, company type)
+  - **Website metadata extraction** for descriptions, titles, and Open Graph data
+  - Falls back to registered address and company type when description is missing
+- Concurrent URL verification with 10 worker threads
+- 60-second timeout per request for slower servers
+- 2-second rate limiting between external API calls to avoid detection
 - Real-time progress tracking
-- Reports broken or missing images
-- Optional: prompts to remove invalid URLs from robots.json
+- Automatic backup creation with `--backup` flag
+- Preserves existing LinkedIn URLs and validates their accessibility
 
 **Usage:**
 
 ```bash
-# Verify all photo URLs in robots.json
-python3 scripts/verify_photo_urls.py
+# Verify schema conformance and company URLs (no enrichment)
+python3 scripts/update_companies.py --verify-only
 
-# Output shows status for each robot's images
-# Script can optionally remove broken image URLs
+# Verify and enrich with external sources
+python3 scripts/update_companies.py --enrich-external --backup
+
+# Custom source and output files
+python3 scripts/update_companies.py --source custom.json --output updated.json
+
+# View all options
+python3 scripts/update_companies.py --help
 ```
 
-**Dependencies:** `requests`
+**Note:** The `--verify-only` flag runs both schema validation and URL verification. Schema validation always runs before URL checks, enrichment, or any write operations.
 
----
+**External Data Sources:**
 
-### `verify_company_urls.py`
+When `--enrich-external` is enabled:
+1. Queries **OpenCorporates API** for company registration details (free tier with rate limits)
+2. Extracts **website metadata** (meta tags, Open Graph) from company URLs
+3. Adds missing fields: `description`, `founded_year`, `company_type`
+4. Preserves existing data - only fills in missing fields
 
-Validates company URLs and details associated with each robot (manufacturers, distributors, resellers).
-
-**Features:**
-- Checks company website URLs for validity
-- Verifies company contact and social media URLs (LinkedIn, etc.)
-- Concurrent verification with 10 worker threads
-- 60-second timeout per request
-- Real-time progress tracking
-- Detailed error reporting for unreachable URLs
-
-**Usage:**
-
-```bash
-# Verify all company URLs in robots.json
-python3 scripts/verify_company_urls.py
-
-# Output shows company validation results
-```
-
-**Dependencies:** `requests`
+**Dependencies:** `requests`, `beautifulsoup4`, `jsonschema`
 
 ---
 
 ## Performance Notes
 
-- **Concurrent Threads:** All URL verification scripts use 10 concurrent worker threads for parallel validation
+- **Concurrent Threads:** All update scripts use 10 concurrent worker threads for parallel URL validation
 - **Request Timeout:** 60-second timeout per URL to accommodate slower servers
-- **Rate Limiting:** `update_regulatory.py` uses 2-second delays between requests to avoid triggering bot detection
+- **Rate Limiting:** `update_regulatory.py` and `update_companies.py` use 2-second delays between external API requests to avoid triggering bot detection
 - **Progress Tracking:** All scripts display real-time progress during execution
 
 ---
 
 ## Notes
 
-- All scripts operate on `public/robots.json` by default
+- `update_robots.py` operates on `public/robots.json` by default
+- `update_companies.py` operates on `public/companies.json` by default
+- `update_regulatory.py` operates on `public/robots.json` (modifies regulatory field) by default
 - Use the `--backup` flag when modifying data to create automatic backups
 - The `--search-external` flag in `update_regulatory.py` requires internet connectivity
+- The `--enrich-external` flag in `update_companies.py` requires internet connectivity
 - Regulatory entries must be objects (legacy string format no longer supported)
-- URL verification scripts use 10 concurrent worker threads and 60-second timeout per request
+- All scripts support schema validation via JSON Schema Draft 2020-12
 - All scripts are Python 3.9+ compatible

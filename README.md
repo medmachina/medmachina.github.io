@@ -11,6 +11,24 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 - `public/robots.json`: Primary dataset of robot entries consumed by the UI.
 - `public/companies.json`: Company metadata.
+- `public/companies.schema.json`: JSON Schema (Draft 2020-12) for companies dataset.
+- `public/robots.schema.json`: JSON Schema (Draft 2020-12) for robots dataset (includes inline tag & usage descriptions).
+
+### Validating Data
+
+Company dataset validation (schema conformance and URL verification):
+
+```bash
+python3 scripts/update_companies.py --verify-only
+```
+
+Robot dataset validation (schema conformance and URL verification):
+
+```bash
+python3 scripts/update_robots.py --verify-only
+```
+
+Both commands validate against JSON Schema (Draft 2020-12) and verify all URLs. The update scripts also validate automatically before writing output.
 
 ### Regulatory Schema
 

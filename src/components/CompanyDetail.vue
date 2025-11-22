@@ -15,6 +15,7 @@
         <div class="card-body">
           <h2 class="card-title h5">Information</h2>
           <p><strong>Country:</strong> {{ company.country }}</p>
+          <p v-if="company.employee_count"><strong>Employees:</strong> {{ company.employee_count.toLocaleString() }}</p>
           <p v-if="company.description">{{ company.description }}</p>
 
           <div v-if="company.linkedin_url" class="linkedin-container">
@@ -24,6 +25,15 @@
               </svg>
               <span>LinkedIn</span>
             </a>
+
+                    <div v-if="company.opencorporates_url" class="opencorporates-container">
+                      <a :href="company.opencorporates_url" target="_blank" rel="noopener noreferrer" class="opencorporates-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="opencorporates-icon">
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+                        </svg>
+                        <span>OpenCorporates</span>
+                      </a>
+                    </div>
           </div>
 
           <div v-if="company.urls && company.urls.length">
@@ -205,5 +215,33 @@ function handleImageError(event) {
   height: 18px;
   fill: currentColor;
   margin-right: 8px;
+
+.opencorporates-container {
+  margin: 1rem 0;
+}
+
+.opencorporates-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #2c5f2d;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.opencorporates-link:hover {
+  background-color: #1e4620;
+  color: white;
+}
+
+.opencorporates-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  margin-right: 8px;
+}
 }
 </style>

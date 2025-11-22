@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://medmachina.github.io/schemas/companies.schema.json",
+    "title": "Companies Dataset",
+    "$defs": {
+      "UrlEntry": {
+        "type": "object",
+        "required": ["caption", "url"],
+        "properties": {
+          "caption": {"type": "string"},
+          "url": {"type": "string", "format": "uri"}
+        },
+        "additionalProperties": false
+      }
+    },
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "country"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {"type": "string", "minLength": 1},
+      "country": {"type": "string", "minLength": 1},
+      "description": {"type": "string"},
+      "employee_count": {"type": ["integer", "null"], "minimum": 1},
+      "founded_year": {"type": ["string", "null"], "pattern": "^(19|20)\\d{2}$"},
+      "company_type": {"type": ["string", "null"]},
+      "linkedin_url": {"type": ["string", "null"], "format": "uri"},
+      "opencorporates_url": {"type": ["string", "null"], "format": "uri"},
+      "urls": {"type": "array", "items": {"$ref": "#/$defs/UrlEntry"}},
+      "robots": {
+        "type": "array",
+        "items": {"type": "string", "pattern": "^[A-Za-z0-9_.&]+$"},
+        "uniqueItems": true,
+        "description": "List of robot IDs associated with the company. Allowed characters: letters, digits, underscore, period, ampersand."
+      }
+    }
+  }
+}

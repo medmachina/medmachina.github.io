@@ -9,6 +9,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/intuitive-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/2800224",
     "robots": [
       "intuitive_da_vinci_5",
       "intuitive_da_vinci_SP",
@@ -19,7 +20,8 @@
       "intuitive_da_vinci",
       "intuitive_ion"
     ],
-    "description": "Intuitive is based in Sunnyvale, California, USA"
+    "description": "Intuitive is based in Sunnyvale, California, USA",
+    "employee_count": 13000
   },
   {
     "name": "Medtronic",
@@ -31,10 +33,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/medtronic/",
+    "opencorporates_url": "https://opencorporates.com/companies/ie/504224",
     "robots": [
       "medtronic_hugo_ras"
     ],
-    "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland."
+    "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
+    "employee_count": 95000
   },
   {
     "name": "Medicaroid",
@@ -46,10 +50,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/medicaroid/",
+    "opencorporates_url": "https://opencorporates.com/companies/jp/0110-01-133952",
     "robots": [
       "medicaroid_hinotori"
     ],
-    "description": "Medicaroid is a Japanese company based in Kobe, Japan."
+    "description": "Medicaroid is a Japanese company based in Kobe, Japan.",
+    "employee_count": 150
   },
   {
     "name": "CMR Surgical",
@@ -61,10 +67,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/gb/09515608",
     "robots": [
       "cmr_versius"
     ],
-    "description": "CMR Surgical is based in Cambridge, UK."
+    "description": "CMR Surgical is based in Cambridge, UK.",
+    "employee_count": 600
   },
   {
     "name": "SSII",
@@ -76,10 +84,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
+    "opencorporates_url": "https://opencorporates.com/companies/in/U74900HR2017PTC069300",
     "robots": [
       "ssii_mantra"
     ],
-    "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India."
+    "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India.",
+    "employee_count": 250
   },
   {
     "name": "Cornerstone Robotics",
@@ -91,10 +101,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
+    "opencorporates_url": "",
     "robots": [
       "cornerstone_sentire"
     ],
-    "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019"
+    "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019",
+    "employee_count": 80
   },
   {
     "name": "Moon Surgical",
@@ -106,10 +118,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/moon-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/6564812",
     "robots": [
       "moon_maestro"
     ],
-    "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, USA."
+    "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, USA.",
+    "employee_count": 120
   },
   {
     "name": "Revolve Surgical",
@@ -121,6 +135,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/revolve-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/ca/1186509-0",
     "robots": [
       "revolve_R1"
     ],
@@ -136,6 +151,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/6015753",
     "robots": [
       "vicarious_v1.0"
     ],
@@ -151,6 +167,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/3518358",
     "robots": [
       "asensus_senhance",
       "asensus_luna"
@@ -167,6 +184,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/titan-medical-inc/",
+    "opencorporates_url": "https://opencorporates.com/companies/ca/8414298",
     "robots": [
       "titan_enos"
     ],
@@ -179,14 +197,14 @@
       {
         "caption": "Johnson & Johnson MedTech",
         "url": "https://www.jnjmedtech.com/"
-      }
-      , 
+      },
       {
         "caption": "Johnson & Johnson MedTech, surgical robotics",
         "url": "https://thenext.jnjmedtech.com/surgical-robotics"
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/johnson-&-johnson-medtech",
+    "opencorporates_url": "https://opencorporates.com/companies/us_nj/0100116689",
     "robots": [
       "j&j_ottava",
       "j&j_monarch",
@@ -204,6 +222,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/6692085",
     "robots": [
       "virtuoso_virtuoso"
     ],
@@ -219,6 +238,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/rob-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/es/B66663175",
     "robots": [
       "rob_surgical_bitrack"
     ],
@@ -234,6 +254,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
+    "opencorporates_url": "",
     "robots": [
       "revo_revo_i"
     ],
@@ -249,6 +270,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
+    "opencorporates_url": "https://opencorporates.com/companies/se/556544-8783",
     "robots": [
       "surgical_science_robotix_mentor"
     ],
@@ -264,9 +286,10 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
+    "opencorporates_url": "https://opencorporates.com/companies/ch/CHE-109.174.899",
     "robots": [
       "force_dimension_sigma",
-      "force_dimension_lambda"  
+      "force_dimension_lambda"
     ],
     "description": "ForceDimension is a Swiss company specializing in haptic devices."
   },
@@ -280,6 +303,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/haption/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/392821174",
     "robots": [
       "haption_virtuoso"
     ],
@@ -295,6 +319,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/quanser/",
+    "opencorporates_url": "https://opencorporates.com/companies/ca/1824967",
     "robots": [
       "quanser_hd2"
     ],
@@ -310,6 +335,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/5839829",
     "robots": [
       "noah_galaxy"
     ],
@@ -325,10 +351,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/stryker/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_mi/261079",
     "robots": [
       "stryker_mako"
     ],
-    "description": "Stryker is based in Kalamazoo, Michigan, USA."
+    "description": "Stryker is based in Kalamazoo, Michigan, USA.",
+    "employee_count": 51000
   },
   {
     "name": "Think Surgical",
@@ -340,6 +368,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/4142551",
     "robots": [
       "think_surgical_t_mini"
     ],
@@ -355,6 +384,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/curexo/",
+    "opencorporates_url": "",
     "robots": [
       "curexo_cuvis_joint",
       "curexo_cuvis_spine"
@@ -371,6 +401,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/ecential-robotics/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/824945423",
     "robots": [
       "ecential_robotics_platform"
     ],
@@ -386,6 +417,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/849752644",
     "robots": [
       "acusurgical_luca"
     ],
@@ -401,6 +433,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
+    "opencorporates_url": "https://opencorporates.com/companies/it/01871340505",
     "robots": [
       "mmi_symani"
     ],
@@ -416,12 +449,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
+    "opencorporates_url": "https://opencorporates.com/companies/us_wa/604372269",
     "robots": [
       "raven_II"
     ],
     "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments."
-  }
-  ,
+  },
   {
     "name": "Avatera Medical",
     "country": "Germany",
@@ -432,6 +465,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/avateramedical-gmbh/",
+    "opencorporates_url": "https://opencorporates.com/companies/de/HRB_515071",
     "robots": [
       "avatera_avatera"
     ],
@@ -447,6 +481,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/haplyrobotics",
+    "opencorporates_url": "https://opencorporates.com/companies/ca/1173918621",
     "robots": [
       "haply_inverse3"
     ],
@@ -462,6 +497,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/biobot-surgical-pte-ltd/",
+    "opencorporates_url": "",
     "robots": [
       "biobot_mona_lisa"
     ],
@@ -477,6 +513,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/microport-medbot/",
+    "opencorporates_url": "",
     "robots": [
       "medbot_toumai",
       "medbot_skywalker"
@@ -493,12 +530,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/ronovo-surgical/",
+    "opencorporates_url": "",
     "robots": [
       "ronovo_carina"
     ],
     "description": "Ronovo Surgical is based in Hangzhou, China."
-  }
-  ,
+  },
   {
     "name": "Edge Medical",
     "country": "China",
@@ -509,6 +546,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/shenzhen-edge-medical/",
+    "opencorporates_url": "",
     "robots": [
       "edge_multi_port",
       "edge_single_port"
@@ -525,6 +563,7 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/neocis/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_fl/P11000091824",
     "robots": [
       "neocis_yomo"
     ],
@@ -540,12 +579,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/company/distalmotion/",
+    "opencorporates_url": "https://opencorporates.com/companies/ch/CHE-184.274.469",
     "robots": [
       "distalmotion_dexter"
     ],
     "description": "Distalmotion is based in Lausanne, Switzerland."
-  }
-  ,
+  },
   {
     "name": "dVRK Consortium",
     "country": "United States",
@@ -556,12 +595,12 @@
       }
     ],
     "linkedin_url": "https://www.linkedin.com/in/lcsr-jhu-robotics-b54a44132/",
+    "opencorporates_url": "",
     "robots": [
       "dvrk_dvrk"
     ],
     "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware."
-  }
-  ,
+  },
   {
     "name": "Computer Motion",
     "country": "United States",
@@ -576,12 +615,12 @@
       }
     ],
     "linkedin_url": "",
+    "opencorporates_url": "",
     "robots": [
       "computer_motion_zeus"
     ],
     "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems."
-  }
-  ,
+  },
   {
     "name": "Integrated Surgical Systems",
     "country": "United States",
