@@ -137,25 +137,28 @@ const allStatuses = computed(() => {
 const filteredItems = computed(() => {
   return items.value.filter(item => {
     // If no tag or usage is selected, show all robots (ignore status filter)
-    if (selectedTags.value.length === 0 && selectedUsages.value.length === 0) {
+    if (selectedTags.value.length === 0 && selectedUsages.value.length === 0 && !search.value) {
       return true;
     }
 
-    // Function that checks if a search term is present in a value
-    const checkValue = (value, term) => {
-      if (!value) return false;
-      if (Array.isArray(value)) {
-        return value.some(val => checkValue(val, term));
+    // Improved search: match robot name, tags, usages, and company name
+    const term = (search.value || '').toLowerCase().trim();
+    let matchSearch = true;
+    if (term) {
+      // Check robot name
+      matchSearch = (item.name && item.name.toLowerCase().includes(term));
+      // Check tags
+      matchSearch = matchSearch || (item.tags && item.tags.some(tag => tag.toLowerCase().includes(term)));
+      // Check usages
+      matchSearch = matchSearch || (item.usages && item.usages.some(usage => usage.toLowerCase().includes(term)));
+      // Check company name
+      if (companies.value && companies.value.length) {
+        const company = companies.value.find(c => c.robots && c.robots.includes(item.id));
+        if (company && company.name && company.name.toLowerCase().includes(term)) {
+          matchSearch = true;
+        }
       }
-      if (typeof value === 'object') {
-        return Object.values(value).some(val => checkValue(val, term));
-      }
-      return String(value).toLowerCase().includes(term.toLowerCase());
-    };
-
-    // Check if the search term is present in any field
-    const matchSearch = !search.value ||
-      Object.values(item).some(value => checkValue(value, search.value));
+    }
 
     // Only show robots that have all selected tags and all selected usages
     const hasAllSelectedTags = selectedTags.value.length === 0 || selectedTags.value.every(tag => (item.tags || []).includes(tag));
