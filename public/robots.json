@@ -811,6 +811,7 @@
       "Open source",
       "Open architecture",
       "Teleoperated",
+      "Autonomous motion",
       "Multiple ports",
       "3+ instruments",
       "Stereo viewer",
@@ -1983,7 +1984,10 @@
     ],
     "tags": [
       "RAMIS",
-      "Research system"
+      "Research system",
+      "Open architecture",
+      "Open source",
+      "Autonomous motion"
     ],
     "usages": [
       "Abdominal"

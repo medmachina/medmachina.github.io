@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- Logo now shown globally in App.vue header -->
     <h1 class="mb-4 title">Links</h1>
 
     <div class="card mb-4">

@@ -17,8 +17,9 @@
             <span v-if="getCompanyForItem(item)" style="font-size:0.9em; color:var(--color-text-muted);">(<router-link :to="`/company/${getCompanyForItem(item).name}`" @click.stop>{{ getCompanyForItem(item).name }}</router-link>)</span>
           </h5>
           <div class="mb-2">
-            <span v-for="(tag, idx) in (item.tags || []).slice(0,5)" :key="tag" class="badge bg-secondary me-1">{{ tag }}</span>
+            <span v-for="(tag, idx) in (item.tags || []).slice(0,5)" :key="tag" class="badge bg-secondary me-1" :title="getTagDescription(tag)">{{ tag }}</span>
             <span v-if="(item.tags || []).length > 5">...</span>
+            <span v-for="(usage, idx) in (item.usages || [])" :key="usage" class="badge bg-success me-1" :title="getUsageDescription(usage)">{{ usage }}</span>
             <!-- Regulatory bodies (show body and year) -->
             <template v-for="reg in (item.regulatory || [])" :key="'reg-'+reg.body+'-'+(reg.year || '')">
               <span
@@ -27,6 +28,71 @@
               >{{ reg.year ? `${reg.body} ${reg.year}` : reg.body }}</span>
             </template>
           </div>
+        // Tag and usage descriptions from robots.schema.json
+        const tagDescriptions = {
+          "RAMIS": "Robot-assisted minimally invasive surgery systems.",
+          "Commercial": "Available as a marketed, regulatory-cleared product.",
+          "Teleoperated": "Surgeon controls instruments remotely via master console.",
+          "Multiple ports": "Uses several trocar access points into the patient.",
+          "3+ instruments": "Supports at least three concurrently mountable instruments.",
+          "Stereo endoscope": "Provides stereoscopic intraoperative imaging.",
+          "Mechanical Cartesian manipulation": "Arm kinematics primarily based on Cartesian/linkage design.",
+          "Stereo viewer": "Dedicated binocular display for depth perception.",
+          "Single patient cart": "All arms mounted on one mobile patient-side base.",
+          "Haptic": "Provides tactile or force cues to the operator, doesn't assume full force feedback.",
+          "Wristed instruments": "End effector instruments include distal articulation (wrist).",
+          "Open surgery": "Intended for non-endoscopic (open) surgical approaches.",
+          "Mechanical RCM": "Hardware geometry enforces a remote center of motion pivot.",
+          "Retired": "No longer produced or clinically supported.",
+          "Orthopedic": "Focused on bone and joint related procedures.",
+          "Multiple patient carts": "System separates arms across multiple bases.",
+          "Stereo display": "Stereoscopic display (flat screen).",
+          "Haptic device": "Provides an haptic interface.",
+          "Motorized table": "Includes integrated powered patient positioning table.",
+          "Single port": "Access via one incision using multi-channel port.",
+          "2 instruments": "Supports a maximum of two concurrent instruments.",
+          "Collaborative control": "Shares task execution between human and automation.",
+          "Force feedback": "Returns quantitative force/torque data to operator.",
+          "Mono endoscope": "Monocular endoscopic imaging only.",
+          "Mechanical manipulation": "User input is captured mechanically, with or without actuation.",
+          "Open console": "Operator interface without enclosed immersive hood.",
+          "Research system": "Primarily for laboratory or academic research use.",
+          "Software RCM": "Remote center of motion enforced algorithmically, not by hardware.",
+          "Semi-autonomous": "Performs subtasks automatically with human supervision.",
+          "Open source": "Provides source code openly for modification.",
+          "Open architecture": "Designed for extensibility via documented interfaces.",
+          "Free hand manipulation": "User input is captured wirelessly or without mechanical linkage.  Doesn't support haptic feedback.",
+          "Autonomous": "Capable of executing tasks without direct real-time human input.",
+          "Simulation": "Used chiefly for training or procedural rehearsal.",
+          "Flexible robot": "Employs flexible continuum or snake-like mechanisms.",
+          "Open microsurgery": "Designed for delicate open microsurgical procedures.",
+          "Biopsy": "Supports tissue sampling guidance or extraction.",
+          "TRUS": "Transrectal ultrasound guidance or manipulation.",
+          "Dental": "Focused on dental or oral implant procedures.",
+          "Autonomous motion": "Capable of moving independently without human control."
+        };
+        const usageDescriptions = {
+          "Abdominal": "Procedures within the abdominal cavity (e.g., general, colorectal).",
+          "Urological": "Procedures involving urinary tract or male reproductive organs.",
+          "Gynecological": "Procedures involving female reproductive system.",
+          "Transoral": "Access through the mouth for head and neck or airway surgery.",
+          "Knee": "Orthopedic interventions focused on the knee joint.",
+          "Hip": "Orthopedic procedures involving the hip joint (e.g., replacement).",
+          "Lung": "Pulmonary surgical or interventional procedures.",
+          "Bronchoscopy": "Endoscopic examination or intervention in bronchial airways.",
+          "Thoracic": "Procedures within the chest excluding the heart.",
+          "Spine": "Spinal column or vertebral interventions.",
+          "Eye": "Ophthalmic microsurgery or ocular interventions.",
+          "Prostate": "Procedures targeting the prostate gland.",
+          "Dental implant": "Placement or guidance for dental implants."
+        };
+
+        function getTagDescription(tagName) {
+          return tagDescriptions[tagName] || '';
+        }
+        function getUsageDescription(usageName) {
+          return usageDescriptions[usageName] || '';
+        }
         </div>
       </div>
     </div>

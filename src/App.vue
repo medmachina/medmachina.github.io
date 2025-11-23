@@ -1,4 +1,7 @@
 <template>
+  <div class="global-header">
+    <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
+  </div>
   <router-view />
   <DisclaimerModal />
   <footer class="footer">
@@ -32,5 +35,18 @@ function openDisclaimer() {
 
 .footer p {
   margin: 0;
+}
+
+.global-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.2rem 2.2rem 0 0;
+  box-sizing: border-box;
+}
+.global-logo {
+  height: 48px;
+  width: auto;
 }
 </style>

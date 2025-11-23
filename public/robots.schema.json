@@ -79,7 +79,8 @@
         {"const": "Open microsurgery", "description": "Designed for delicate open microsurgical procedures."},
         {"const": "Biopsy", "description": "Supports tissue sampling guidance or extraction."},
         {"const": "TRUS", "description": "Transrectal ultrasound guidance or manipulation."},
-        {"const": "Dental", "description": "Focused on dental or oral implant procedures."}
+        {"const": "Dental", "description": "Focused on dental or oral implant procedures."},
+        {"const": "Autonomous motion", "description": "Capable of moving independently without human control."}
       ]
     },
     "Usage": {

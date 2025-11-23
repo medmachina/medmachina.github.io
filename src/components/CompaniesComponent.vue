@@ -6,7 +6,7 @@
         <router-link to="/" class="btn btn-outline-primary">Robots</router-link>
       </div>
       <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
-        <img src="/text-logo.svg" alt="medmachina" style="height:41px; width:auto;" />
+        <!-- Logo now shown globally in App.vue header -->
       </router-link>
     </header>
 

@@ -172,7 +172,7 @@ const filteredItems = computed(() => {
       <router-link to="/companies" class="btn btn-outline-primary">Companies</router-link>
     </div>
     <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
-      <img src="/text-logo.svg" alt="medmachina" style="height:41px; width:auto;" />
+      <!-- Logo now shown globally in App.vue header -->
     </router-link>
   </header>
   <main class="container-fluid py-4">
