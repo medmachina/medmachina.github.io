@@ -114,13 +114,15 @@ const allStatuses = computed(() => {
 })
 
 const filteredItems = computed(() => {
-  return items.value.filter(item => {
-    // If no search term, or no tag/usage/status selected, return all items
-    if (!search.value &&
-        selectedTags.value.length === 0 &&
-        selectedUsages.value.length === 0 &&
-        selectedStatuses.value.length === 0) return true;
+  // If no filters or search, show all robots
+  if (!search.value &&
+      selectedTags.value.length === 0 &&
+      selectedUsages.value.length === 0 &&
+      selectedStatuses.value.length === 0) {
+    return items.value;
+  }
 
+  return items.value.filter(item => {
     // Function that checks if a search term is present in a value
     const checkValue = (value, term) => {
       if (!value) return false;
