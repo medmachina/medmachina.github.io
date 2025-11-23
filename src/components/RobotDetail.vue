@@ -67,14 +67,20 @@
               <span v-if="reg.year" class="badge bg-secondary ms-2">{{ reg.year }}</span>
               <span v-if="reg.region" class="badge bg-warning text-dark ms-2">{{ reg.region }}</span>
               <span v-if="reg.type" class="badge bg-success ms-2">{{ reg.type }}</span>
-            </div>
-            <div v-if="reg.source_urls && reg.source_urls.length > 0" class="regulatory-sources mt-2">
-              <strong>Source URLs:</strong>
-              <ul class="source-list">
-                <li v-for="(url, urlIdx) in reg.source_urls" :key="urlIdx">
-                  <a :href="url" target="_blank" rel="noopener noreferrer">{{ getUrlDomain(url) }}</a>
-                </li>
-              </ul>
+
+              <div v-if="reg.source_urls && reg.source_urls.length > 0" class="sources-inline-badges ms-3">
+                <strong class="sources-label">Sources:</strong>
+                <div class="source-inline ms-2">
+                  <span
+                    v-for="(url, urlIdx) in reg.source_urls"
+                    :key="urlIdx"
+                    class="source-inline-item"
+                  >
+                    <a :href="url" target="_blank" rel="noopener noreferrer" :title="url">{{ getUrlDomain(url) }}</a>
+                    <span v-if="urlIdx < reg.source_urls.length - 1" class="source-sep">&nbsp;|&nbsp;</span>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -382,15 +388,16 @@ function getUrlDomain(url) {
   gap: 1rem;
 }
 .regulatory-item {
-  padding: 1rem;
-  background: var(--color-background);
+  padding: 0.35rem 0.6rem;
+  background: #333; /* same as .dark-tag */
+  color: #fff;
   border-left: 4px solid var(--color-border);
   border-radius: 4px;
 }
 .regulatory-header {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
   align-items: center;
 }
 .regulatory-sources {
@@ -411,6 +418,58 @@ function getUrlDomain(url) {
 }
 .source-list a:hover {
   text-decoration: underline;
+}
+/* Inline sources styling */
+.source-inline {
+  margin-top: 0.5rem;
+}
+.source-inline-item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.4rem;
+}
+.source-inline-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+.source-inline-item a:hover {
+  text-decoration: underline;
+}
+.source-sep {
+  color: rgba(255,255,255,0.6);
+}
+/* Keep sources on same line as badges */
+.sources-inline-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sources-label {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+  margin-right: 0.25rem;
+}
+
+.source-inline {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Ensure badges and source links are vertically centered */
+.regulatory-header .badge {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+.source-inline-item a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  vertical-align: middle;
+  padding: 0;
 }
 .urls-section {
   margin-top: 2rem;

@@ -38,7 +38,6 @@ REGION_MAP = {
     'Japan': ('JP', None),
     'Singapore': ('SG', None),
     'Malaysia': ('MY', None),
-    'Health Canada': ('CA', 'Licence'),
     'TGA': ('AU', 'Register'),
     'PMDA': ('JP', 'Approval'),
     'NMPA': ('CN', 'Registration'),
@@ -150,60 +149,6 @@ def search_fda_denovo(robot_name: str) -> List[str]:
         print(f'  [FDA De Novo search skipped: {e}]', file=sys.stderr)
     return []
 
-def search_health_canada_mdall(robot_name: str, company_name: str) -> List[str]:
-    """Attempt to discover Health Canada MDALL (Medical Device Active Licence Listing) references.
-
-    There is no stable, documented JSON API; we provide heuristic URL candidates:
-    - Base portal
-    - Google search restricted to mdall-limh domain for robot or company name
-    - Potential direct result page pattern (best-effort, may 404 harmlessly)
-    """
-    if not HAS_REQUESTS:
-        return []
-    urls: List[str] = []
-    base_portal = 'https://health-products.canada.ca/mdall-limh/index-eng.jsp'
-    urls.append(base_portal)
-    norm_robot = normalize_name(robot_name)
-    norm_company = normalize_name(company_name)
-    # Construct Google query for domain-limited search (kept minimal to avoid scraping depth)
-    if norm_robot:
-        google_q = quote(f'"{norm_robot}" site:health-products.canada.ca/mdall-limh')
-        urls.append(f'https://www.google.com/search?q={google_q}')
-    elif norm_company:
-        google_q = quote(f'"{norm_company}" site:health-products.canada.ca/mdall-limh')
-        urls.append(f'https://www.google.com/search?q={google_q}')
-    # Deduplicate and return
-    dedup: List[str] = []
-    seen = set()
-    for u in urls:
-        if u not in seen:
-            seen.add(u)
-            dedup.append(u)
-    return dedup
-
-def search_tga_artg(robot_name: str, company_name: str) -> List[str]:
-    """Heuristic collection of Australian TGA ARTG references.
-
-    Provides base ARTG resource page and a site-limited Google query for robot/company.
-    """
-    if not HAS_REQUESTS:
-        return []
-    urls: List[str] = []
-    base_portal = 'https://www.tga.gov.au/resources/artg'
-    urls.append(base_portal)
-    norm_robot = normalize_name(robot_name)
-    norm_company = normalize_name(company_name)
-    term = norm_robot or norm_company
-    if term:
-        google_q = quote(f'"{term}" site:tga.gov.au artg')
-        urls.append(f'https://www.google.com/search?q={google_q}')
-    dedup: List[str] = []
-    seen = set()
-    for u in urls:
-        if u not in seen:
-            seen.add(u)
-            dedup.append(u)
-    return dedup
 
 def _simple_domain_search(base_portal: str, domain: str, robot_name: str, company_name: str, extra: str = '') -> List[str]:
     if not HAS_REQUESTS:
@@ -224,6 +169,13 @@ def _simple_domain_search(base_portal: str, domain: str, robot_name: str, compan
             seen.add(u)
             dedup.append(u)
     return dedup
+
+def search_tga_artg(robot_name: str, company_name: str) -> List[str]:
+    """Heuristic collection of Australian TGA ARTG references.
+
+    Provides base ARTG resource page and a site-limited Google query for robot/company.
+    """
+    return _simple_domain_search('https://www.tga.gov.au/resources/artg', 'tga.gov.au', robot_name, company_name, extra='artg')
 
 def search_pmda(robot_name: str, company_name: str) -> List[str]:
     return _simple_domain_search('https://pmda.mhlw.go.jp/search/', 'pmda.mhlw.go.jp', robot_name, company_name)
@@ -400,9 +352,6 @@ def discover_regulatory_sources(robot_name: str, company_name: str, body: str) -
                 if u not in aggregate:
                     aggregate.append(u)
         sources.extend(aggregate)
-    elif body == 'Health Canada':
-        hc_urls = search_health_canada_mdall(robot_name, company_name)
-        sources.extend(hc_urls)
     elif body == 'CE':
         eu_urls = search_eu_eudamed(robot_name)
         sources.extend(eu_urls)
@@ -540,20 +489,7 @@ def update_robot_with_sources(robot: dict, strategy: str = 'merge', search_exter
         if external_urls and (external_urls - existing_urls or not entry.get('last_verified')):
             entry['last_verified'] = TODAY
 
-    # Auto-add Health Canada entry if absent and sources found
     existing_bodies = {e.get('body') for e in robot.get('regulatory', []) if isinstance(e, dict)}
-    # Only add Health Canada if robot already has FDA or CE (to reduce noise)
-    if 'Health Canada' not in existing_bodies and ('FDA' in existing_bodies or 'CE' in existing_bodies):
-        hc_sources = search_health_canada_mdall(robot_name, company_name)
-        if hc_sources:
-            robot.setdefault('regulatory', []).append({
-                'body': 'Health Canada',
-                'region': 'CA',
-                'type': 'Licence',
-                'year': None,
-                'source_urls': sorted(set(hc_sources)),
-                'last_verified': TODAY
-            })
     if 'TGA' not in existing_bodies and ('FDA' in existing_bodies or 'CE' in existing_bodies):
         tga_sources = search_tga_artg(robot_name, company_name)
         if tga_sources:
