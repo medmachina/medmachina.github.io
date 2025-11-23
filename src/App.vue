@@ -3,10 +3,11 @@
   <DisclaimerModal />
   <footer class="footer">
     <p>
-      By Joris Deguet, Anton Deguet, Aravind S. Kumar |
       <a href="#" @click.prevent="openDisclaimer">Disclaimer</a> |
       <router-link to="/contribute">How to Contribute</router-link> |
-      <router-link to="/contact">Contact Us</router-link>
+      <router-link to="/links">Links</router-link>
+      <br />
+      Joris Deguet, Anton Deguet, Aravind S. Kumar
     </p>
   </footer>
 </template>

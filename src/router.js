@@ -4,7 +4,7 @@ import RobotDetail from './components/RobotDetail.vue';
 import TestComponent from './components/TestComponent.vue';
 import HomeComponent from './components/HomeComponent.vue';
 import HowToContribute from './components/HowToContribute.vue';
-import ContactUs from './components/ContactUs.vue';
+import Links from './components/Links.vue';
 import CompaniesComponent from './components/CompaniesComponent.vue';
 import CompanyDetail from './components/CompanyDetail.vue';
 
@@ -30,10 +30,11 @@ const routes = [
     component: HowToContribute
   },
   {
-    path: '/contact',
-    name: 'Contact',
-    component: ContactUs
+    path: '/links',
+    name: 'Links',
+    component: Links
   },
+  
   {
     path: '/companies',
     name: 'Companies',
