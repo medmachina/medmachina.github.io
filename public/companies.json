@@ -245,6 +245,20 @@
     "description": "Rob Surgical is based in Barcelona, Spain."
   },
   {
+    "name": "Robeauté",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "Robeauté",
+        "url": "https://www.robeaute.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/robeauté/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/829012236",
+    "robots": [],
+    "description": "Robeauté is based in Paris, France."
+  },
+  {
     "name": "Revo Surgical",
     "country": "South Korea",
     "urls": [
@@ -639,5 +653,22 @@
       "iss_robodoc"
     ],
     "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement."
+  },
+  {
+    "name": "Momentis Surgical",
+    "country": "Israel",
+    "urls": [
+      {
+        "caption": "Momentis Surgical",
+        "url": "https://www.momentissurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/momentis-surgical",
+    "opencorporates_url": "https://opencorporates.com/companies/il/514809664",
+    "robots": [
+      "momentis_anovo"
+    ],
+    "description": "Momentis Surgical is an Israeli medical robotics company developing the Anovo platform for minimally invasive gynecologic procedures.",
+    "employee_count": null
   }
 ]

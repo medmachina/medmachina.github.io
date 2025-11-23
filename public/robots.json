@@ -600,7 +600,7 @@
       "Retired"
     ],
     "usages": [],
-    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master–slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
+    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master\u2013slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
     "regulatory": [
       {
         "body": "FDA",
@@ -817,7 +817,7 @@
       "Stereo endoscope"
     ],
     "usages": [],
-    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human–robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
+    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
     "regulatory": []
   },
   {
@@ -1386,7 +1386,7 @@
       "Single port"
     ],
     "usages": [],
-    "description": "Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulators emulate laparoscopic instruments (not Cartesian).",
+    "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not Cartesian).",
     "regulatory": []
   },
   {
@@ -1988,7 +1988,7 @@
     "usages": [
       "Abdominal"
     ],
-    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
+    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
     "regulatory": []
   },
   {
@@ -2198,7 +2198,7 @@
     ],
     "photos": [
       {
-        "url": "https://en.edgemed.cn/uploads/多孔展示官网用图_1746675291.jpg",
+        "url": "https://en.edgemed.cn/uploads/\u591a\u5b54\u5c55\u793a\u5b98\u7f51\u7528\u56fe_1746675291.jpg",
         "site": "https://en.edgemed.cn"
       }
     ],
@@ -2423,5 +2423,41 @@
         "last_verified": "2025-11-22"
       }
     ]
+  },
+  {
+    "name": "Anovo",
+    "id": "momentis_anovo",
+    "introduction_year": null,
+    "urls": [
+      {
+        "caption": "Momentis Surgical, Anovo",
+        "url": "https://www.momentissurgical.com"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.momentissurgical.com/wp-content/uploads/2022/11/slider-image-1280x640.jpg",
+        "site": "https://www.momentissurgical.com"
+      },
+      {
+        "url": "https://www.momentissurgical.com/wp-content/uploads/2022/11/Miniaturized-Humanoid-Arm-1-e1678814430441-1143x640.png",
+        "site": "https://www.momentissurgical.com"
+      },
+      {
+        "url": "https://www.momentissurgical.com/wp-content/uploads/2023/03/Accessibility_homepage-edit-2-840x640.jpg",
+        "site": "https://www.momentissurgical.com"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Teleoperated",
+      "Commercial",
+      "Mechanical Cartesian manipulation"
+    ],
+    "usages": [
+      "Gynecological"
+    ],
+    "description": "",
+    "regulatory": []
   }
 ]

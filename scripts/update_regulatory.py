@@ -569,6 +569,11 @@ def main():
         action='store_true',
         help='Search external regulatory databases (FDA 510k, EU EUDAMED) and company press releases for source URLs.'
     )
+    parser.add_argument(
+        '--prefix',
+        type=str,
+        help='Process only robots whose IDs start with this prefix (case-insensitive)'
+    )
     
     args = parser.parse_args()
     src_path = Path(args.source)
@@ -584,7 +589,16 @@ def main():
         args.search_external = False
     
     # Load source data
-    data = json.loads(src_path.read_text())
+    full_data = json.loads(src_path.read_text())
+    
+    # Apply prefix filter if specified (for processing only)
+    if args.prefix:
+        prefix_lower = args.prefix.lower()
+        original_count = len(full_data)
+        data = [robot for robot in full_data if robot.get('id', '').lower().startswith(prefix_lower)]
+        print(f"Processing {len(data)}/{original_count} robots with ID prefix '{args.prefix}'", file=sys.stderr)
+    else:
+        data = full_data
     
     # Backup if requested
     if args.backup and out_path.exists():
@@ -615,8 +629,9 @@ def main():
         # Snapshot for URL diffing by body
         before_by_body = { (e.get('body') or f'body_{idx}'): e for idx, e in enumerate(before_list) if isinstance(e, dict) }
 
-        robot = update_robot_with_sources(robot, strategy=args.strategy, search_external=args.search_external)
-        after_list = robot.get('regulatory', []) or []
+        updated_robot = update_robot_with_sources(robot, strategy=args.strategy, search_external=args.search_external)
+        data[i] = updated_robot  # Update robot in the list
+        after_list = updated_robot.get('regulatory', []) or []
         after_by_body = { (e.get('body') or f'body_{idx}'): e for idx, e in enumerate(after_list) if isinstance(e, dict) }
 
         before_keys = { entry_key(e) for e in before_list if isinstance(e, dict) }
@@ -651,8 +666,6 @@ def main():
         if args.search_external and (i + 1) % 10 == 0:
             print(f'  Processed {i + 1}/{len(data)} robots...', file=sys.stderr)
     
-    # Write output
-    out_path.write_text(json.dumps(data, indent=2))
     total_robots = len(data)
     print(f'Updated {updated_count} robots; unchanged {unchanged_count} (strategy: {args.strategy})')
     if args.search_external:
@@ -694,6 +707,22 @@ def main():
         if url_remaining:
             print(f'    ... {url_remaining} more')
 
+    # Merge updated robots back into full dataset if prefix filter was used
+    if args.prefix:
+        # Create a map of updated robots by ID
+        updated_by_id = {robot.get('id'): robot for robot in data}
+        # Merge back into full dataset
+        final_data = []
+        for robot in full_data:
+            robot_id = robot.get('id')
+            if robot_id in updated_by_id:
+                final_data.append(updated_by_id[robot_id])
+            else:
+                final_data.append(robot)
+        data = final_data
+    
+    # Write output (after merging if prefix filter was used)
+    out_path.write_text(json.dumps(data, indent=2))
     print(f'\nWrote {out_path}')
 
 if __name__ == '__main__':

@@ -30,6 +30,23 @@ python3 scripts/update_robots.py --verify-only
 
 Both commands validate against JSON Schema (Draft 2020-12) and verify all URLs. The update scripts also validate automatically before writing output.
 
+**Filtering by Robot ID Prefix:**
+
+All update scripts support `--prefix` to process only robots (or companies with matching robots) whose IDs start with the given prefix (case-insensitive):
+
+```bash
+# Validate only Intuitive robots
+python3 scripts/update_robots.py --verify-only --prefix intuitive
+
+# Update regulatory data for Momentis robots only
+python3 scripts/update_regulatory.py --prefix momentis
+
+# Verify companies with Edge robots
+python3 scripts/update_companies.py --verify-only --prefix edge
+```
+
+When `--prefix` is used, only matching entries are processed/validated, but **all entries are preserved** in the output file.
+
 **Updating Regulatory Data:**
 
 Use `scripts/update_regulatory.py` to normalize and enrich regulatory entries:

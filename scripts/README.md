@@ -78,9 +78,22 @@ python3 scripts/update_regulatory.py --strategy skip
 # Custom source and output files
 python3 scripts/update_regulatory.py --source custom.json --output updated.json
 
+# Process only robots with specific ID prefix (case-insensitive)
+python3 scripts/update_regulatory.py --prefix momentis
+python3 scripts/update_regulatory.py --prefix INTUITIVE --search-external
+
 # View all options
 python3 scripts/update_regulatory.py --help
 ```
+
+**Prefix Filtering:**
+
+The `--prefix` option filters robots by ID prefix (case-insensitive) for processing:
+- Only robots matching the prefix are updated/enriched
+- All robots (matching and non-matching) are preserved in the output file
+- Useful for testing changes on specific manufacturers before full runs
+
+Example: `--prefix intuitive` processes only `intuitive_da_vinci_5`, `intuitive_da_vinci_SP`, etc.
 
 **External Source Discovery:**
 
@@ -127,9 +140,22 @@ python3 scripts/update_robots.py --backup
 # Custom source and output files
 python3 scripts/update_robots.py --source custom.json --output updated.json
 
+# Process only robots with specific ID prefix (case-insensitive)
+python3 scripts/update_robots.py --verify-only --prefix edge
+python3 scripts/update_robots.py --prefix momentis --photo-summary
+
 # View all options
 python3 scripts/update_robots.py --help
 ```
+
+**Prefix Filtering:**
+
+The `--prefix` option filters robots by ID prefix (case-insensitive) for validation:
+- Only robots matching the prefix are validated/processed
+- All robots (matching and non-matching) are preserved in the output file
+- Useful for focused validation on specific manufacturers
+
+Example: `--prefix edge` validates only `edge_multi_port` and `edge_single_port`.
 
 **Note:** The `--verify-only` flag runs both schema validation and URL verification (including photo URLs). Schema validation always runs before URL checks or any write operations.
 
@@ -167,9 +193,22 @@ python3 scripts/update_companies.py --enrich-external --backup
 # Custom source and output files
 python3 scripts/update_companies.py --source custom.json --output updated.json
 
+# Process only companies with robots matching ID prefix (case-insensitive)
+python3 scripts/update_companies.py --verify-only --prefix momentis
+python3 scripts/update_companies.py --enrich-external --prefix intuitive --backup
+
 # View all options
 python3 scripts/update_companies.py --help
 ```
+
+**Prefix Filtering:**
+
+The `--prefix` option filters companies by their robots' ID prefixes (case-insensitive):
+- Only companies with robots matching the prefix are validated/enriched
+- All companies (matching and non-matching) are preserved in the output file
+- Useful for focused updates on specific manufacturers
+
+Example: `--prefix momentis` processes only companies with `momentis_anovo` in their robots array.
 
 **Note:** The `--verify-only` flag runs both schema validation and URL verification. Schema validation always runs before URL checks, enrichment, or any write operations.
 

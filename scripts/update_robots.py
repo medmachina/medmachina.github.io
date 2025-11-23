@@ -206,6 +206,11 @@ def main():
         action='store_true',
         help='Create a backup of the original file before updating'
     )
+    parser.add_argument(
+        '--prefix',
+        type=str,
+        help='Process only robots whose IDs start with this prefix (case-insensitive)'
+    )
     
     args = parser.parse_args()
     
@@ -224,6 +229,14 @@ def main():
         sys.exit(1)
     
     logger.info(f"Loaded {len(robots_data)} robots from {source_file}")
+    
+    # Apply prefix filter if specified (for validation only)
+    full_robots_data = robots_data
+    if args.prefix:
+        prefix_lower = args.prefix.lower()
+        original_count = len(robots_data)
+        robots_data = [robot for robot in robots_data if robot.get('id', '').lower().startswith(prefix_lower)]
+        logger.info(f"Processing {len(robots_data)}/{original_count} robots with ID prefix '{args.prefix}'")
 
     # Validate photo structure first
     if not validate_photo_structure(robots_data):
@@ -276,11 +289,13 @@ def main():
         logger.info(f"\n✓ Backup created: {backup_file}")
     
     # Write output (only if validation passes)
+    # If prefix filter was used, write full dataset (not just filtered subset)
+    data_to_write = full_robots_data if args.prefix else robots_data
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(robots_data, f, indent=2, ensure_ascii=False)
+        json.dump(data_to_write, f, indent=2, ensure_ascii=False)
     
     logger.info(f"\n✓ Updated robots written to: {output_file}")
-    logger.info(f"Total robots: {len(robots_data)}")
+    logger.info(f"Total robots: {len(data_to_write)}")
     
     sys.exit(0)
 

@@ -350,6 +350,11 @@ def main():
         action='store_true',
         help='Create a backup of the original file before updating'
     )
+    parser.add_argument(
+        '--prefix',
+        type=str,
+        help='Process only robots whose IDs start with this prefix (case-insensitive)'
+    )
     
     args = parser.parse_args()
     
@@ -368,6 +373,19 @@ def main():
         sys.exit(1)
     
     logger.info(f"Loaded {len(companies_data)} companies from {source_file}")
+    
+    # Apply prefix filter if specified (filter companies by their robots for processing only)
+    full_companies_data = companies_data
+    if args.prefix:
+        prefix_lower = args.prefix.lower()
+        filtered_companies = []
+        for company in companies_data:
+            robots = company.get('robots', [])
+            matching_robots = [r for r in robots if r.lower().startswith(prefix_lower)]
+            if matching_robots:
+                filtered_companies.append(company)
+        companies_data = filtered_companies
+        logger.info(f"Processing {len(companies_data)} companies with robots matching prefix '{args.prefix}'")
     
     # Schema validation (always runs first)
     if not COMPANIES_SCHEMA_FILE.exists():
@@ -403,6 +421,20 @@ def main():
     
     # Enrich companies
     enriched_companies = enrich_companies(companies_data, args.enrich_external)
+    
+    # Merge enriched companies back into full dataset if prefix filter was used
+    if args.prefix:
+        # Create a map of enriched companies by name
+        enriched_by_name = {company.get('name'): company for company in enriched_companies}
+        # Merge back into full dataset
+        final_companies = []
+        for company in full_companies_data:
+            company_name = company.get('name')
+            if company_name in enriched_by_name:
+                final_companies.append(enriched_by_name[company_name])
+            else:
+                final_companies.append(company)
+        enriched_companies = final_companies
     
     # Create backup if requested
     if args.backup and output_file.exists():
