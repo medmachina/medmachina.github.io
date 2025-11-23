@@ -6,9 +6,12 @@ import UsageCloud from './UsageCloud.vue'
 import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
 import { shuffleArray } from '../utils/array.js'
 
+
 const items = ref([])
 const originalItems = ref([])
 const companies = ref([])
+const robotsError = ref('')
+const companiesError = ref('')
 const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
@@ -17,19 +20,37 @@ const sortMode = ref('random') // 'random', 'alphabetical', or 'year'
 const yearSortAscending = ref(true) // true for oldest-first, false for newest-first
 
 onMounted(async () => {
-  const response = await fetch('/robots.json')
-  const robots = await response.json()
-  // Store original data
-  originalItems.value = robots
-  // Randomize robots order using Fisher-Yates algorithm
-  items.value = shuffleArray(robots)
+  try {
+    const response = await fetch('/robots.json')
+    if (!response.ok) {
+      robotsError.value = `Failed to load robots.json: ${response.status} ${response.statusText}`
+      return
+    }
+    const robots = await response.json()
+    if (!Array.isArray(robots)) {
+      robotsError.value = 'robots.json did not return an array.'
+      return
+    }
+    originalItems.value = robots
+    items.value = shuffleArray(robots)
+  } catch (err) {
+    robotsError.value = `Error loading robots.json: ${err}`
+  }
 
-  // Load companies data to pass to RobotList
   try {
     const resCompanies = await fetch('/companies.json')
-    companies.value = await resCompanies.json()
+    if (!resCompanies.ok) {
+      companiesError.value = `Failed to load companies.json: ${resCompanies.status} ${resCompanies.statusText}`
+      return
+    }
+    const companiesData = await resCompanies.json()
+    if (!Array.isArray(companiesData)) {
+      companiesError.value = 'companies.json did not return an array.'
+      return
+    }
+    companies.value = companiesData
   } catch (err) {
-    console.error('Failed to load companies.json', err)
+    companiesError.value = `Error loading companies.json: ${err}`
   }
 })
 
@@ -114,30 +135,21 @@ const allStatuses = computed(() => {
 })
 
 const filteredItems = computed(() => {
-  // If no filters or search, show all robots
-  if (!search.value &&
-      selectedTags.value.length === 0 &&
-      selectedUsages.value.length === 0 &&
-      selectedStatuses.value.length === 0) {
-    return items.value;
-  }
-
   return items.value.filter(item => {
+    // If no tag or usage is selected, show all robots (ignore status filter)
+    if (selectedTags.value.length === 0 && selectedUsages.value.length === 0) {
+      return true;
+    }
+
     // Function that checks if a search term is present in a value
     const checkValue = (value, term) => {
       if (!value) return false;
-
-      // Case of arrays (urls, tags, photo_urls, etc.)
       if (Array.isArray(value)) {
         return value.some(val => checkValue(val, term));
       }
-
-      // Case of objects
       if (typeof value === 'object') {
         return Object.values(value).some(val => checkValue(val, term));
       }
-
-      // Case of strings or values convertible to string
       return String(value).toLowerCase().includes(term.toLowerCase());
     };
 
@@ -145,13 +157,11 @@ const filteredItems = computed(() => {
     const matchSearch = !search.value ||
       Object.values(item).some(value => checkValue(value, search.value));
 
-    const matchTags = selectedTags.value.length === 0 ||
-      selectedTags.value.every(selectedTag => (item.tags || []).includes(selectedTag));
+    // Only show robots that have all selected tags and all selected usages
+    const hasAllSelectedTags = selectedTags.value.length === 0 || selectedTags.value.every(tag => (item.tags || []).includes(tag));
+    const hasAllSelectedUsages = selectedUsages.value.length === 0 || selectedUsages.value.every(usage => (item.usages || []).includes(usage));
 
-    const matchUsages = selectedUsages.value.length === 0 ||
-      selectedUsages.value.every(selectedUsage => (item.usages || []).includes(selectedUsage));
-
-    // Modification for regulatory status filtering
+    // Regulatory status filter only applies if tag or usage is selected
     const matchStatuses = selectedStatuses.value.length === 0 ||
       selectedStatuses.value.every(selectedStatus => {
         return (item.regulatory || []).some(entry => {
@@ -159,7 +169,7 @@ const filteredItems = computed(() => {
         })
       })
 
-    return matchSearch && matchTags && matchUsages && matchStatuses;
+    return matchSearch && hasAllSelectedTags && hasAllSelectedUsages && matchStatuses;
   });
 })
 </script>
@@ -212,7 +222,9 @@ const filteredItems = computed(() => {
             📅
           </button>
         </div>
-        <RobotList :items="filteredItems" :companies="companies" />
+        <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>
+        <div v-if="companiesError" class="alert alert-danger my-3">{{ companiesError }}</div>
+        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>
