@@ -85,8 +85,19 @@
                     :key="urlIdx"
                     class="source-inline-item"
                   >
-                    <a :href="url" target="_blank" rel="noopener noreferrer" :title="url">{{ getUrlDomain(url) }}</a>
-                    <span v-if="urlIdx < reg.source_urls.length - 1" class="source-sep">&nbsp;|&nbsp;</span>
+                    <button
+                      type="button"
+                      class="source-btn"
+                      @click.prevent="openUrl(url)"
+                      :title="getUrlDomain(url)"
+                    >
+                      <!-- compact link icon -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M10 13a5 5 0 0 0 7.07 0l1.41-1.41a5 5 0 0 0 0-7.07 5 5 0 0 0-7.07 0L10 5" />
+                        <path d="M14 11a5 5 0 0 0-7.07 0L5.52 12.41a5 5 0 0 0 0 7.07 5 5 0 0 0 7.07 0L14 19" />
+                      </svg>
+                    </button>
+                    <span v-if="urlIdx < reg.source_urls.length - 1" class="source-sep">&nbsp;</span>
                   </span>
                 </div>
               </div>
@@ -366,6 +377,12 @@ function getUrlDomain(url) {
     return url;
   }
 }
+
+function getShortDomain(url) {
+  const d = getUrlDomain(url);
+  if (!d) return '';
+  return d.length > 12 ? d.slice(0, 10) + '…' : d;
+}
 </script>
 
 <style scoped>
@@ -520,6 +537,25 @@ function getUrlDomain(url) {
 }
 .source-inline-item a:hover {
   text-decoration: underline;
+}
+.source-btn {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+.source-btn svg {
+  display: block;
+}
+.source-btn:hover {
+  background: rgba(255,255,255,0.12);
 }
 .source-sep {
   color: rgba(255,255,255,0.6);
