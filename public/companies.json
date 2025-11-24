@@ -670,5 +670,22 @@
     ],
     "description": "Momentis Surgical is based in Tel Aviv, Israel.",
     "employee_count": null
+  },
+  {
+    "name": "Zimmer Biomet",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Zimmer Biomet",
+        "url": "https://www.zimmerbiomet.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/zimmerbiomet/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_in/1999041331",
+    "robots": [
+      "zimmer_rosa"
+    ],
+    "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
+    "employee_count": 20000
   }
 ]

@@ -2464,4 +2464,35 @@
     "description": "",
     "regulatory": []
   }
+  ,
+  {
+    "name": "ROSA",
+    "id": "zimmer_rosa",
+    "introduction_year": 2012,
+    "urls": [
+      {
+        "caption": "Zimmer Biomet ROSA",
+        "url": "https://www.zimmerbiomet.com/en/products/rosa.html"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.zimmerbiomet.com/en/products-and-solutions/specialties/knee/rosa--knee-system/_jcr_content/root/container/container_719055777/image.coreimg.png/1756825858075/robotics-hero-2.png",
+        "site": "https://www.zimmerbiomet.com"
+      }
+    ],
+    "tags": [
+      "Orthopedic",
+      "Open surgery",
+      "Commercial"
+    ],
+    "usages": [
+      "Knee",
+      "Hip",
+      "Shoulder"
+    ],
+    "description": "ROSA (Robotic Surgical Assistant) is Zimmer Biomet's platform for robotic-assisted orthopedic surgery, including knee procedures. It provides preoperative planning, intraoperative navigation, and robotic guidance to improve precision and reproducibility in joint replacement.",
+    "regulatory": [
+    ]
+  }
 ]

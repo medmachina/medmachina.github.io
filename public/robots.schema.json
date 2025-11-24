@@ -91,6 +91,7 @@
         {"const": "Transoral", "description": "Access through the mouth for head and neck or airway surgery."},
         {"const": "Knee", "description": "Orthopedic interventions focused on the knee joint."},
         {"const": "Hip", "description": "Orthopedic procedures involving the hip joint (e.g., replacement)."},
+        {"const": "Shoulder", "description": "Orthopedic procedures involving the shoulder joint."},
         {"const": "Lung", "description": "Pulmonary surgical or interventional procedures."},
         {"const": "Bronchoscopy", "description": "Endoscopic examination or intervention in bronchial airways."},
         {"const": "Thoracic", "description": "Procedures within the chest excluding the heart."},
