@@ -89,10 +89,9 @@
 
     <div class="card">
       <div class="card-body">
-        <h2 class="card-title">Contribute</h2>
-        <p class="mb-3">Have a link to add? Open an issue with details:</p>
-        <a href="https://github.com/medmachina/medmachina.github.io/issues/new" target="_blank" rel="noopener" class="btn btn-primary">
-          Suggest a Link
+        <h2 class="card-title">GitHub</h2>
+        <a href="https://github.com/medmachina/medmachina.github.io" target="_blank" rel="noopener" class="btn btn-primary">
+          github.com/medmachina/medmachina.github.io
         </a>
       </div>
     </div>
