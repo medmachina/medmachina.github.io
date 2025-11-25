@@ -5,7 +5,6 @@ update_companies.py
 Enriches company data in companies.json with external metadata sources.
 - Validates existing URLs (website, LinkedIn)
 - Optionally fetches additional company metadata from:
-  - OpenCorporates API (company registration, jurisdiction)
   - Crunchbase-like data via web scraping (funding, employee count)
   - Company website metadata (description, industry)
 - Preserves existing LinkedIn URLs and validates accessibility
@@ -40,7 +39,6 @@ COMPANIES_FILE = REPO_ROOT / 'public' / 'companies.json'
 COMPANIES_SCHEMA_FILE = REPO_ROOT / 'public' / 'companies.schema.json'
 
 # External API endpoints
-OPENCORPORATES_API = "https://api.opencorporates.com/v0.4"
 
 
 def is_valid_url(url: str) -> bool:
@@ -128,43 +126,6 @@ def verify_all_urls(companies_data: List[Dict]) -> Tuple[List[Tuple[str, str, st
     return valid_urls, invalid_urls
 
 
-def fetch_opencorporates_data(company_name: str, jurisdiction: Optional[str] = None) -> Optional[Dict]:
-    """
-    Fetch company data from OpenCorporates API.
-    Free tier has rate limits - use sparingly.
-    """
-    try:
-        # Search for company by name
-        params = {
-            'q': company_name,
-            'format': 'json'
-        }
-        if jurisdiction:
-            params['jurisdiction_code'] = jurisdiction
-
-        url = f"{OPENCORPORATES_API}/companies/search"
-        response = requests.get(url, params=params, timeout=TIMEOUT)
-        
-        if response.status_code == 200:
-            data = response.json()
-            companies = data.get('results', {}).get('companies', [])
-            if companies:
-                # Return the first match
-                company_data = companies[0].get('company', {})
-                return {
-                    'name': company_data.get('name'),
-                    'jurisdiction': company_data.get('jurisdiction_code'),
-                    'company_number': company_data.get('company_number'),
-                    'incorporation_date': company_data.get('incorporation_date'),
-                    'company_type': company_data.get('company_type'),
-                    'registered_address': company_data.get('registered_address_in_full'),
-                    'status': company_data.get('current_status')
-                }
-        time.sleep(RATE_LIMIT_DELAY)
-        return None
-    except Exception as e:
-        logger.debug(f"OpenCorporates lookup failed for {company_name}: {e}")
-        return None
 
 
 def extract_website_metadata(url: str) -> Optional[Dict]:
@@ -256,30 +217,6 @@ def enrich_company(company: Dict, enrich_external: bool = False) -> Dict:
     company_name = company.get('name', '')
     logger.info(f"Enriching: {company_name}")
     
-    # Try OpenCorporates if we have a country hint
-    country = company.get('country')
-    jurisdiction_map = {
-        'United States': 'us',
-        'Germany': 'de',
-        'United Kingdom': 'gb',
-        'France': 'fr',
-        'Switzerland': 'ch',
-        'Netherlands': 'nl',
-        'Israel': 'il',
-        'Canada': 'ca',
-        'Japan': 'jp',
-        'South Korea': 'kr'
-    }
-    jurisdiction = jurisdiction_map.get(country)
-    
-    oc_data = fetch_opencorporates_data(company_name, jurisdiction)
-    if oc_data:
-        if not enriched.get('description') and oc_data.get('registered_address'):
-            enriched['description'] = f"Registered at: {oc_data['registered_address']}"
-        if oc_data.get('incorporation_date'):
-            enriched['founded_year'] = oc_data['incorporation_date'][:4]  # Extract year
-        if oc_data.get('company_type'):
-            enriched['company_type'] = oc_data['company_type']
     
     # Try to enrich from website metadata
     urls_array = company.get('urls', [])
@@ -338,7 +275,7 @@ def main():
     parser.add_argument(
         '--enrich-external',
         action='store_true',
-        help='Fetch additional company metadata from external sources (OpenCorporates, website scraping)'
+        help='Fetch additional company metadata from external sources (website scraping)'
     )
     parser.add_argument(
         '--verify-only',
