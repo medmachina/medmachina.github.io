@@ -74,31 +74,22 @@
             <div class="regulatory-header">
               <span class="badge bg-info text-dark">{{ reg.body }}</span>
               <span v-if="reg.year" class="badge bg-secondary ms-2">{{ reg.year }}</span>
-              <span v-if="reg.region" class="badge bg-warning text-dark ms-2">{{ reg.region }}</span>
-              <span v-if="reg.type" class="badge bg-success ms-2">{{ reg.type }}</span>
+              <!-- Removed region/type badges per schema change -->
 
-              <div v-if="reg.source_urls && reg.source_urls.length > 0" class="sources-inline-badges ms-3">
-                <strong class="sources-label">Sources:</strong>
+              <div v-if="reg.url" class="sources-inline-badges ms-3">
+                <strong class="sources-label">Source:</strong>
                 <div class="source-inline ms-2">
-                  <span
-                    v-for="(url, urlIdx) in reg.source_urls"
-                    :key="urlIdx"
-                    class="source-inline-item"
+                  <button
+                    type="button"
+                    class="source-btn"
+                    @click.prevent="openUrl(reg.url)"
+                    :title="getUrlDomain(reg.url)"
                   >
-                    <button
-                      type="button"
-                      class="source-btn"
-                      @click.prevent="openUrl(url)"
-                      :title="getUrlDomain(url)"
-                    >
-                      <!-- compact link icon -->
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <path d="M10 13a5 5 0 0 0 7.07 0l1.41-1.41a5 5 0 0 0 0-7.07 5 5 0 0 0-7.07 0L10 5" />
-                        <path d="M14 11a5 5 0 0 0-7.07 0L5.52 12.41a5 5 0 0 0 0 7.07 5 5 0 0 0 7.07 0L14 19" />
-                      </svg>
-                    </button>
-                    <span v-if="urlIdx < reg.source_urls.length - 1" class="source-sep">&nbsp;</span>
-                  </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M10 13a5 5 0 0 0 7.07 0l1.41-1.41a5 5 0 0 0 0-7.07 5 5 0 0 0-7.07 0L10 5" />
+                      <path d="M14 11a5 5 0 0 0-7.07 0L5.52 12.41a5 5 0 0 0 0 7.07 5 5 0 0 0 7.07 0L14 19" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>

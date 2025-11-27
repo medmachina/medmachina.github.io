@@ -55,8 +55,8 @@ Use `scripts/update_regulatory.py` to normalize and enrich regulatory entries:
 # Normalize existing regulatory data
 python3 scripts/update_regulatory.py
 
-# Enrich with external sources (FDA 510k, EUDAMED, press releases)
-python3 scripts/update_regulatory.py --search-external --backup
+# Enrich with external sources (FDA 510k, EUDAMED, press releases; internet required)
+python3 scripts/update_regulatory.py --backup
 ```
 
 See [scripts/README.md](scripts/README.md) for full documentation.

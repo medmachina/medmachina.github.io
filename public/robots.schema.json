@@ -13,7 +13,7 @@
       "additionalProperties": false
     },
     "PhotoEntry": {
-      "type": "object",
+      "type": "object",>
       "description": "Robot photo entry with a direct image URL in 'url' and optional source page URL in 'site'.",
       "required": ["url"],
       "properties": {
@@ -28,13 +28,7 @@
       "properties": {
         "body": {"type": "string"},
         "year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
-        "region": {"type": ["string", "null"]},
-        "type": {"type": ["string", "null"]},
-        "source_urls": {
-          "type": "array",
-          "items": {"type": "string", "format": "uri"},
-          "uniqueItems": true
-        },
+        "url": {"type": ["string", "null"], "format": "uri", "description": "Canonical source URL supporting this regulatory entry (single value)."},
         "last_verified": {"type": ["string", "null"], "description": "Date (YYYY-MM-DD) when source URLs were last verified."}
       },
       "additionalProperties": false

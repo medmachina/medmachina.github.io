@@ -200,21 +200,13 @@ git push origin main</code></pre>
             <div class="col-md-2"><input v-model.number="r.year" type="number" min="1900" max="2100" :class="['form-control', regYearError(i) && 'is-invalid']" placeholder="Year" />
               <div v-if="regYearError(i)" class="invalid-feedback">{{ regYearError(i) }}</div>
             </div>
-            <div class="col-md-2"><input v-model="r.region" type="text" class="form-control" placeholder="Region" /></div>
-            <div class="col-md-2"><input v-model="r.type" type="text" class="form-control" placeholder="Type" /></div>
-            <div class="col-md-2"><input v-model="r.sourceUrlInput" type="url" class="form-control" placeholder="Add source URL" /></div>
+            <div class="col-md-4"><input v-model="r.url" type="url" class="form-control" placeholder="Source URL (canonical)" /></div>
             <div class="col-md-1 text-end"><button @click="removeReg(i)" class="btn btn-outline-danger btn-sm">×</button></div>
           </div>
           <div class="mb-2">
-            <button @click="addRegSource(i)" class="btn btn-outline-primary btn-sm me-2">Add Source</button>
-            <small class="text-muted">Sources ({{ r.source_urls.length }}):</small>
+            <small class="text-muted">Source:</small>
+            <div v-if="r.url" class="small" style="word-break:break-all;">{{ r.url }}</div>
           </div>
-          <ul class="small mb-0">
-            <li v-for="(s,si) in r.source_urls" :key="'src-'+si" class="d-flex justify-content-between align-items-center">
-              <span style="word-break:break-all;">{{ s }}</span>
-              <button @click="removeRegSource(i, si)" class="btn btn-outline-danger btn-sm" title="Remove">×</button>
-            </li>
-          </ul>
         </div>
         <button @click="addReg" class="btn btn-outline-primary btn-sm mb-3">Add Regulatory Entry</button>
 
@@ -452,7 +444,7 @@ import Ajv, { ValidateFunction } from 'ajv'
 
 interface UrlEntry { caption: string; url: string }
 interface PhotoEntry { url: string; site?: string }
-interface RegulatoryEntry { body: string; year: number|null; region: string|null; type: string|null; source_urls: string[]; sourceUrlInput?: string }
+interface RegulatoryEntry { body: string; year: number|null; url?: string; sourceUrlInput?: string }
 interface CompanyUrl { caption:string; url:string }
 
 const tagOptions = ref<string[]>([ 'RAMIS','Commercial','Teleoperated','Multiple ports','3+ instruments','Stereo endoscope','Mechanical Cartesian manipulation','Stereo viewer','Single patient cart','Haptic','Wristed instruments','Open surgery','Mechanical RCM','Retired','Orthopedic','Multiple patient carts','Stereo display','Haptic device','Motorized table','Single port','2 instruments','Collaborative control','Force feedback','Mono endoscope','Mechanical manipulation','Open console','Research system','Software RCM','Semi-autonomous','Open source','Open architecture','Free hand manipulation','Autonomous','Simulation','Flexible robot','Open microsurgery','Biopsy','TRUS','Dental' ])
@@ -534,10 +526,9 @@ function addPhoto(){ form.photos.push({ url:'', site:'' }) }
 function removePhoto(i:number){ form.photos.splice(i,1) }
 function toggleTag(t:string){ const idx=form.tags.indexOf(t); idx>=0?form.tags.splice(idx,1):form.tags.push(t) }
 function toggleUsage(u:string){ const idx=form.usages.indexOf(u); idx>=0?form.usages.splice(idx,1):form.usages.push(u) }
-function addReg(){ form.regulatory.push({ body:'', year:null, region:null, type:null, source_urls:[], sourceUrlInput:'' }) }
+function addReg(){ form.regulatory.push({ body:'', year:null, url:'', sourceUrlInput:'' }) }
 function removeReg(i:number){ form.regulatory.splice(i,1) }
-function addRegSource(i:number){ const entry=form.regulatory[i]; if(entry.sourceUrlInput){ entry.source_urls.push(entry.sourceUrlInput); entry.sourceUrlInput='' } }
-function removeRegSource(i:number,si:number){ form.regulatory[i].source_urls.splice(si,1) }
+function clearRegSource(i:number){ form.regulatory[i].url = '' }
 function suggestId(){ if(!form.name) return; const base=form.name.toLowerCase().replace(/\s+/g,'_').replace(/[^a-z0-9_.&]/g,''); if(!form.id) form.id=base.slice(0,50); else if(confirm('Replace existing ID with suggested?')) form.id=base.slice(0,50) }
 
 function addCompanyUrl(){ companyForm.urls.push({ caption:'', url:'' }) }
@@ -580,7 +571,7 @@ function generate(){
   if(form.photos.length) robot.photos = form.photos.filter(p=>p.url)
   if(form.tags.length) robot.tags=[...form.tags]
   if(form.usages.length) robot.usages=[...form.usages]
-  const regFiltered=form.regulatory.filter(r=>r.body).map(r=>({ body:r.body, year:r.year, region:r.region, type:r.type, source_urls:r.source_urls }))
+  const regFiltered=form.regulatory.filter(r=>r.body).map(r=>({ body:r.body, year:r.year, url:r.url }))
   if(regFiltered.length) robot.regulatory=regFiltered
   validateRobotObject(robot)
   generatedJson.value = JSON.stringify(robot,null,2)

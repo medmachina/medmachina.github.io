@@ -34,16 +34,13 @@ deactivate
 
 ### `update_regulatory.py`
 
-Normalizes and enriches regulatory entries in `robots.json` with optional external source discovery via official regulatory APIs.
+Normalizes and enriches regulatory entries in `robots.json` with external source discovery via official regulatory APIs.
 
 **Features:**
 - Normalizes regulatory entries to standard object format
-- Ensures all entries have required fields: `body`, `year`, `region`, `type`, `source_urls`
+- Ensures all entries have required fields: `body`, `year`, `url`
 - Three merge strategies: `merge` (normalized merge), `overwrite` (re-normalize), `skip` (keep if populated)
-- Optional `--search-external` flag to query official regulatory databases:
-  - **FDA 510(k)** via OpenFDA API for device clearances (https://api.fda.gov)
-  - **EU EUDAMED API** for CE mark devices
-  - Company press releases and announcements as fallback
+- Queries official regulatory databases for additional sources (OpenFDA, EUDAMED) and can fall back to company press releases
 - Configurable request rate limiting (2.0s default) to avoid bot detection
 - Automatic backup creation with `--backup` flag
 
@@ -54,9 +51,7 @@ Regulatory entries must be objects:
 {
   "body": "FDA",
   "year": 2024,
-  "region": "US",
-  "type": "Clearance",
-  "source_urls": ["https://www.accessdata.fda.gov/..."]
+  "url": "https://www.accessdata.fda.gov/..."
 }
 ```
 
@@ -66,21 +61,13 @@ Regulatory entries must be objects:
 # Normalize existing regulatory data (merge strategy)
 python3 scripts/update_regulatory.py
 
-# Normalize + enrich with external sources
-python3 scripts/update_regulatory.py --search-external --backup
-
-# Re-normalize all entries (overwrites existing)
-python3 scripts/update_regulatory.py --strategy overwrite
-
-# Skip if already normalized
-python3 scripts/update_regulatory.py --strategy skip
-
-# Custom source and output files
-python3 scripts/update_regulatory.py --source custom.json --output updated.json
+# Normalize + enrich with external sources (internet required)
+python3 scripts/update_regulatory.py
 
 # Process only robots with specific ID prefix (case-insensitive)
 python3 scripts/update_regulatory.py --prefix momentis
-python3 scripts/update_regulatory.py --prefix INTUITIVE --search-external
+# Example with prefix filtering (enrichment still performed):
+python3 scripts/update_regulatory.py --prefix INTUITIVE
 
 # View all options
 python3 scripts/update_regulatory.py --help
@@ -97,7 +84,7 @@ Example: `--prefix intuitive` processes only `intuitive_da_vinci_5`, `intuitive_
 
 **External Source Discovery:**
 
-When `--search-external` is enabled:
+External Source Discovery:
 1. Queries **OpenFDA API** for FDA 510(k) clearances (K-numbers and direct links)
 2. Queries **EUDAMED API** for EU CE mark devices
 3. Falls back to web portal URLs for unsupported authorities
@@ -239,7 +226,7 @@ When `--enrich-external` is enabled:
 - `update_companies.py` operates on `public/companies.json` by default
 - `update_regulatory.py` operates on `public/robots.json` (modifies regulatory field) by default
 - Use the `--backup` flag when modifying data to create automatic backups
-- The `--search-external` flag in `update_regulatory.py` requires internet connectivity
+-- External enrichment in `update_regulatory.py` requires internet connectivity
 - The `--enrich-external` flag in `update_companies.py` requires internet connectivity
 - Regulatory entries must be objects (legacy string format no longer supported)
 - All scripts support schema validation via JSON Schema Draft 2020-12
