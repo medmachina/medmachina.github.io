@@ -278,26 +278,18 @@ def update_robot_with_sources(robot: dict, reviewer: 'UrlReviewer') -> dict:
     # Collect all external sources for this robot across all regulatory entries
     all_external_sources = discover_regulatory_sources(robot_name, company_name)
 
-    print(all_external_sources)
     # Review all collected external sources for this robot at once
     approved_sources, should_exit = reviewer.review(list(all_external_sources), robot_id)
 
-    # Now, assign approved sources back to entries that don't have a URL
-    approved_iter = iter(approved_sources)
-    for entry in robot.get('regulatory', []):
-        if not entry.get('url'):
-            try:
-                source = next(approved_iter)
-                entry['url'] = source[1]
-                entry['body'] = source[0]
-            except StopIteration:
-                break  # No more approved sources
+    regulatory = robot.get('regulatory')
+    for approved in approved_sources:
+        # add approved source to regulatory
+        regulatory.append({
+            'url': approved[1],
+            'body': approved[0]
+        })
 
-    # exit if user requested it
-    if should_exit:
-        return robot, True
-
-    return robot, False
+    return robot, should_exit
 
 
 def main():
@@ -343,7 +335,6 @@ def main():
             robot,
             reviewer=reviewer
         )
-        print(updated_robot)
         data[i] = updated_robot  # Update robot in the list
         if should_exit:
             break

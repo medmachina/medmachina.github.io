@@ -99,7 +99,100 @@
       "Transoral"
     ],
     "description": "The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+        "body": "FDA 510k"
+      }
+    ]
   },
   {
     "name": "da Vinci X",
