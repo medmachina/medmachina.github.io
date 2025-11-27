@@ -145,7 +145,7 @@ class UrlReviewer:
                 data = json.loads(self.rejected_path.read_text())
                 # New format: dict of robot_id -> list of urls
                 for robot_id, urls in data.items():
-                    self.rejected_by_robot[robot_id] = set(urls)
+                    self.rejected_by_robot[robot_id] = set(tuple(u) for u in urls)
             except Exception as e:
                 print(f"Warning: Could not load rejected URLs: {e}", file=sys.stderr)
 
@@ -179,11 +179,13 @@ class UrlReviewer:
         """Review URLs and return (approved_urls, should_exit)."""
         approved = []
         for url in urls:
-            if url in self.approved_by_robot.get(robot_id, set()):
+            if url[1] in self.approved_by_robot.get(robot_id, set()):
+                print(f"  [previously approved] {url[1]}")
                 approved.append(url)
                 continue
             # Check if URL is rejected for this robot
             if url in self.rejected_by_robot.get(robot_id, set()):
+                print(f"  [previously rejected] {url[1]}")
                 continue
 
             # New URL, ask user
@@ -276,10 +278,28 @@ def update_robot_with_sources(robot: dict, reviewer: 'UrlReviewer') -> dict:
         company_name = find_company_for_robot(robot_id)
 
     # Collect all external sources for this robot across all regulatory entries
-    all_external_sources = discover_regulatory_sources(robot_name, company_name)
+    all_external_sources = []
+    seen_urls = set()
+
+    # Search for primary name and aliases
+    names_to_search = [robot_name]
+    also_known_as = robot.get('also_known_as', [])
+    if isinstance(also_known_as, list):
+        names_to_search.extend(also_known_as)
+
+    for name in names_to_search:
+        if not name:
+            continue
+        print(f"  Searching for '{name}'...")
+        sources = discover_regulatory_sources(name, company_name)
+        for source in sources:
+            # source is (body, url)
+            if source[1] not in seen_urls:
+                seen_urls.add(source[1])
+                all_external_sources.append(source)
 
     # Review all collected external sources for this robot at once
-    approved_sources, should_exit = reviewer.review(list(all_external_sources), robot_id)
+    approved_sources, should_exit = reviewer.review(all_external_sources, robot_id)
 
     regulatory = robot.get('regulatory')
     for approved in approved_sources:

@@ -2,6 +2,9 @@
   {
     "name": "da Vinci 5",
     "id": "intuitive_da_vinci_5",
+    "also_known_as": [
+      "IS5000"
+    ],
     "introduction_year": 2024,
     "urls": [
       {
@@ -41,7 +44,120 @@
       "Transoral"
     ],
     "description": "Designed to enable better outcomes, more efficiency, and actionable insights, da Vinci 5 brings more than 150 design innovations and 10,000x the computing power of da Vinci Xi. These advances support enhanced surgical senses, greater surgeon autonomy, more streamlined OR workflows, and advanced data analytics to enable the future of surgery.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
+        "body": "FDA 510k"
+      }
+    ]
   },
   {
     "name": "da Vinci SP",
@@ -113,6 +229,114 @@
         "body": "FDA 510k"
       },
       {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+        "body": "FDA 510k"
+      },
+      {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
         "body": "FDA 510k"
       },
@@ -192,7 +416,8 @@
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
         "body": "FDA 510k"
       }
-    ]
+    ],
+    "also_known_as": []
   },
   {
     "name": "da Vinci X",
@@ -232,7 +457,291 @@
       "Commercial"
     ],
     "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152578",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150837",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152578",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150837",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152578",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150837",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150284",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152578",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150837",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": [
+      "IS4000"
+    ]
   },
   {
     "name": "da Vinci Xi",
@@ -277,7 +786,339 @@
       "Commercial"
     ],
     "description": "Fourth generation da Vinci system.\n\nThe patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) are now fully motorized and computer controlled, with automatic positioning and gravity compensation.  Instead of four long setup arms starting from a central column, the patient's cart now has a main boom that allows to position all 4 arms above the patient.  Each active arm can then be positioned precisely with much shorter setup arms.  The setup is the OR is simpler and the kinematic chains shorter (likely more precise).\n\n An extra degree of freedom is provided on the setup joints to reposition the active arm without changing the RCM point.  This degree of freedom is not active during teleoperation, its main function is to place the arms away from each other and avoid collicions outside the patient.The Xi system also introduces a motorized table which allows to incline the patient while the instruments are in place.  This requires the setup joints to be motorized so the entry points (RCM) can follow the table's motion.\n\nThe patient cart has motorized wheels to ease transport between rooms.\n\nThe patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are interchangeable and renamed USMs (Universal serial manipulators).  Each arm can now hold either an instrument or the endoscope.  Each USM now has 8 motors, providing 5 actuators for the instrument itself (previous versions had 4).  All motors and sensors for the instrument's actuation are located on the insertion link, directly behind the sterile adapter.  Previous systems had complex cables and pulleys from the motors in the second link of the active arm to the back of the sterile adapter.\n\nThe video system is totally new, with a fully digital HD 3D video stream from the endoscope tip to the surgeon's console.\n\nThe surgeon's console remains visually unchanged from the da Vinci Si and SP.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": [
+      "IS4200"
+    ]
   },
   {
     "name": "da Vinci Si",
@@ -328,7 +1169,147 @@
       "Transoral"
     ],
     "description": "Third generation da Vinci system.  The patient cart is very similar to the previous generation (da Vinci S). The surgeon's console is totally new, including new manipulators, individual clutch on each gripper, infinite roll...  The stereo viewer is updated to use two flat panel monitors.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170879",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170879",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170879",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": [
+      "IS3000"
+    ]
   },
   {
     "name": "da Vinci S",
@@ -383,7 +1364,159 @@
       "Transoral"
     ],
     "description": "Second generation da Vinci system.  The surgeon's console is very similar to the previous generation (da Vinci Standard). The patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) have less degrees of freedom and are fully gravity compensated.  The setup arm for the third arm is now mounted on the back of the column and doesn't require a motor to go up and down.  The patient cart has motorized wheels to ease transport between rooms. The video remains similar to the Standard one. The stereo endoscopes are also unchanged but the camera head is updated to use SD or HD sensors with SDI outputs on the camera control unit (CCU). The patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are totally new.  They now require brakes and are not gravity compensated.  They are stronger and more precise.  Instruments are longer but the mechanics and end effectors are similar to the Standard ones.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050369",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050369",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050369",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": [
+      "IS2000"
+    ]
   },
   {
     "name": "da Vinci",
@@ -430,7 +1563,76 @@
       "Transoral"
     ],
     "description": "Original da Vinci system, first generation, aka IS 1000.  Designed in the late 20th century, it is a teleoperation based system for RAMIS (robotically assisted minimally invasive surgery).  The patient side manipulators always follow the surgeon's movements, there is no automomy whatsoever.\n\n    All the patient's side robotic arms (PSMs and ECM) have a mechanical remote center of motion (RCM) using a parallel linkage. The active arms holding the instruments (PSMs) are mechanically gravity compensated, they are light and don't require brakes.  In case of power failure, they won't drop in the patient.  These arms are cable driven and quite impressive from a mechanical point of view.  Instruments have wristed end effectors and can be swapped.  The camera manipulator (ECM) is not gravity compensated and requires brakes.\n\n    The patient cart has long passive arms (setup joints) that are gravity compensated except for the last joint (roll).  These setup joints or passive arms are designed to hold the active arms RCM points The da Vinci intially came with one camera arm (ECM) and two patient side manipulators (PSMs). A third PSM was later added (IS 1200).  The setup joints for the third PSM is tacked under the ECM ones and are not gravity compensated, clearly an afterthought.\n\n     The video system uses fiber optic bundles for the stereo images and light in the endoscope. CCD sensors are located in the camera head.  Focus is mechanical.\n\n  The surgeon's console uses a stereoscopic viewer with two CRT monitors (640x480) and mirrors.  The surgeon's console includes two master manipulators (aka 3D joysticks or haptic devices).  These robotic arms arr counter balanced and have 7 degrees of freedom to ensure a larger workspace, specially for the hand's orientation (SO3).  The MTMs are motorized.  These motors are used to add software based gravity compensation but can also provide some haptic feedback.  The feedback is based on the model (joint limits on PSMs) and/or the current teleoperation task (instruments vs camera teleoperation).  It is not based on forces measured on the patient side so the system doesn't provide *force feedback* per say.\n\n    This generation introduced the core features of most current RAMIS systems: 3D vision, remote center of motion, wristed instruments, hand-eye registration, motion scaling, clutching, ECM bimanual teleoperation, remote and ergonomic console, interchangeable instruments sterile adpaters between the instruments or endoscopes and the patient cart...",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K053511",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K053511",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021036",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043153",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K053511",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021036",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043153",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K053511",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021036",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043153",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": [
+      "IS1000",
+      "IS1200"
+    ]
   },
   {
     "name": "Zeus",
@@ -465,7 +1667,25 @@
     ],
     "usages": [],
     "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master\u2013slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "ROBODOC",
@@ -498,7 +1718,41 @@
       "Hip"
     ],
     "description": "ROBODOC was an early orthopedic robotic system (originally developed by Integrated Surgical Systems based on university research) focused on precise femoral canal milling for total hip arthroplasty. Using preoperative CT imaging and planning, it performed semi-autonomous bone preparation to improve implant fit, alignment, and reproducibility versus manual instrumentation. It underscored early challenges in surgical robotics: accurate registration, OR workflow integration, and multi-year regulatory pathways (European clinical use well before FDA clearance in 2008). Its technology lineage continued under successor companies culminating in Think Surgical platforms.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "dVRK",
@@ -538,7 +1792,8 @@
     ],
     "usages": [],
     "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Hugo RAS",
@@ -574,7 +1829,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Hinotori",
@@ -617,7 +1873,8 @@
       "Thoracic"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Versius",
@@ -657,7 +1914,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Mantra",
@@ -697,7 +1955,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Sentire",
@@ -734,7 +1993,8 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Maestro",
@@ -761,7 +2021,8 @@
     ],
     "usages": [],
     "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "R1",
@@ -787,7 +2048,8 @@
     ],
     "usages": [],
     "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Vicarious Surgical v1.0",
@@ -827,7 +2089,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Senhance",
@@ -852,7 +2115,169 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "LUNA",
@@ -877,7 +2302,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Enos",
@@ -905,7 +2331,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Ottava",
@@ -930,7 +2357,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Virtuoso",
@@ -963,7 +2391,8 @@
     ],
     "usages": [],
     "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not Cartesian).",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Bitrack",
@@ -1000,7 +2429,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Revo-i",
@@ -1036,7 +2466,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Surgical Science: FlexVR",
@@ -1059,7 +2490,8 @@
       "Simulation"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Sigma",
@@ -1085,7 +2517,8 @@
       "Haptic device"
     ],
     "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Lambda",
@@ -1111,7 +2544,8 @@
       "Haptic device"
     ],
     "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Virtuoso",
@@ -1133,7 +2567,129 @@
       "Haptic device"
     ],
     "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111869",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991706",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111755",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111543",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121516",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K953930",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111872",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122143",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140465",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111869",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991706",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111755",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111543",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121516",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K953930",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111872",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122143",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140465",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111869",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121033",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991706",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111755",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111543",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121516",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K953930",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111872",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122143",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140465",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "HD2",
@@ -1159,7 +2715,8 @@
       "Haptic device"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Inverse3",
@@ -1193,7 +2750,8 @@
       "Haptic device"
     ],
     "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Galaxy",
@@ -1218,7 +2776,8 @@
     "tags": [],
     "usages": [],
     "description": "Used with C-Arm/CBCT.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Ion",
@@ -1242,7 +2801,21 @@
       "Bronchoscopy"
     ],
     "description": "Used with C-Arm/CBCT.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201146",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201146",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201146",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "Monarch Quest",
@@ -1272,7 +2845,8 @@
       "Bronchoscopy"
     ],
     "description": "Used with C-Arm/CBCT.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Mako",
@@ -1302,7 +2876,105 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172219",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193515",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172301",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250608",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060017",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081867",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072806",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172219",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193515",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172301",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250608",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060017",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081867",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072806",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172219",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193515",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172301",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170581",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250608",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060017",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081867",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072806",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "Velys",
@@ -1337,7 +3009,45 @@
       "Hip"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202769",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240211",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202769",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240211",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202769",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233227",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240211",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "TMINI",
@@ -1367,7 +3077,105 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243481",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241031",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242264",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252544",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243285",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232802",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243481",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241031",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242264",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252544",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243285",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232802",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243481",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241031",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230202",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242264",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250877",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252544",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243285",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232802",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "Cuvis-joint",
@@ -1401,7 +3209,8 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Cuvis-spine",
@@ -1438,7 +3247,45 @@
       "Spine"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223558",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222698",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201569",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223558",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222698",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201569",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223558",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222698",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201569",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "eCential Robotics",
@@ -1460,7 +3307,8 @@
       "Open surgery"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Luca",
@@ -1489,7 +3337,8 @@
       "Eye"
     ],
     "description": "Location: Montpellier, France. 2 patient side manipulators.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Symani",
@@ -1519,7 +3368,57 @@
       "Open microsurgery"
     ],
     "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251510",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252287",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250014",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242368",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251510",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252287",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250014",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242368",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251510",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252287",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250014",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242368",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "RavenII",
@@ -1568,7 +3467,8 @@
       "Abdominal"
     ],
     "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "avatera",
@@ -1614,7 +3514,8 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Mona Lisa",
@@ -1644,7 +3545,69 @@
       "Prostate"
     ],
     "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203659",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111347",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130944",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232320",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203659",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111347",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130944",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232320",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213411",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203659",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111347",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130944",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232320",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213411",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "Toumai",
@@ -1691,7 +3654,8 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "MedBot Skywalker",
@@ -1726,7 +3690,8 @@
       "Knee"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Carina",
@@ -1763,7 +3728,8 @@
     ],
     "usages": [],
     "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Edge Multi-Port",
@@ -1791,7 +3757,8 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: Edge Multi-Port looks remarkably like da Vinci Xi.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Edge Single-Port",
@@ -1826,7 +3793,8 @@
     ],
     "usages": [],
     "description": "Imitation is the most sincere form of flattery: Edge Single-Port looks remarkably like da Vinci Sp.",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Yomo",
@@ -1853,7 +3821,8 @@
       "Dental implant"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [],
+    "also_known_as": []
   },
   {
     "name": "Dexter",
@@ -1888,7 +3857,33 @@
     ],
     "usages": [],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251197",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250435",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251197",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250435",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251197",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250435",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "Anovo",
@@ -1924,7 +3919,93 @@
       "Gynecological"
     ],
     "description": "",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251761",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250591",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251056",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241907",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232146",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242157",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243182",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251761",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250591",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251056",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241907",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232146",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242157",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243182",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251761",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250591",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251056",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241907",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232146",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242157",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243182",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   },
   {
     "name": "ROSA",
@@ -1953,6 +4034,84 @@
       "Shoulder"
     ],
     "description": "ROSA (Robotic Surgical Assistant) is Zimmer Biomet's platform for robotic-assisted orthopedic surgery, including knee procedures. It provides preoperative planning, intraoperative navigation, and robotic guidance to improve precision and reproducibility in joint replacement.",
-    "regulatory": []
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230180",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213708",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242864",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232533",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230180",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213708",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242864",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232533",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251314",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182417",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230180",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151359",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213708",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K092239",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242864",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232533",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101791",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251314",
+        "body": "FDA 510k"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182417",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   }
 ]
