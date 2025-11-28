@@ -156,9 +156,12 @@ class UrlReviewer:
         if self.rejected_path.exists():
             try:
                 data = json.loads(self.rejected_path.read_text())
-                # New format: dict of robot_id -> list of urls
-                for robot_id, urls in data.items():
-                    self.rejected_by_robot[robot_id] = set(tuple(u) for u in urls)
+                # Format: dict of robot_id -> list of {"url": "...", "body": "..."}
+                for robot_id, entries in data.items():
+                    # Convert objects to tuples (body, url) for internal use
+                    self.rejected_by_robot[robot_id] = set(
+                        (entry['body'], entry['url']) for entry in entries
+                    )
             except Exception as e:
                 print(f"Warning: Could not load rejected URLs: {e}", file=sys.stderr)
 
@@ -178,11 +181,15 @@ class UrlReviewer:
 
     def _save_rejected(self):
         try:
-            # Convert sets to sorted lists for JSON serialization
+            # Convert sets of tuples (body, url) to list of objects {"url": "...", "body": "..."}
             output = {}
             for robot_id, urls in self.rejected_by_robot.items():
                 if urls:  # Only save non-empty sets
-                    output[robot_id] = sorted(list(urls))
+                    # Convert tuples to objects and sort by URL
+                    output[robot_id] = sorted(
+                        [{"url": url, "body": body} for body, url in urls],
+                        key=lambda x: x['url']
+                    )
 
             self.rejected_path.write_text(json.dumps(output, indent=2))
         except Exception as e:

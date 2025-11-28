@@ -1,506 +1,512 @@
 {
   "intuitive_da_vinci_Si": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K993532"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K993532",
+      "body": "FDA 510k"
+    }
   ],
   "intuitive_da_vinci": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K080291"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241635"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K080291",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241635",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+      "body": "FDA 510k"
+    }
   ],
   "computer_motion_zeus": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021103"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K040111"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091075"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K113397"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142681"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201956"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202527"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210044"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241432"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021103",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K040111",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091075",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K113397",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142681",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201956",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202527",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210044",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241432",
+      "body": "FDA 510k"
+    }
   ],
   "cmr_versius": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230078"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230078",
+      "body": "FDA 510k"
+    }
   ],
   "ssii_mantra": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K041520"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K041902"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091236"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K041520",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K041902",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091236",
+      "body": "FDA 510k"
+    }
   ],
   "moon_maestro": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K010458"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K020133"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K022795"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050028"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063452"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K110271"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K853400"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K880422"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K884023"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K923868"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K010458",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K020133",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K022795",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050028",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063452",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K110271",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K853400",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K880422",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K884023",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K923868",
+      "body": "FDA 510k"
+    }
   ],
   "revolve_R1": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202611"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223655"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K842213"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K893765"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K924508"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K950128"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K950234"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K951494"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K990981"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991111"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202611",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223655",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K842213",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K893765",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K924508",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K950128",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K950234",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K951494",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K990981",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991111",
+      "body": "FDA 510k"
+    }
   ],
   "asensus_luna": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123155"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141770"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K160106"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K183560"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212263"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223395"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240874"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K801683"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K853947"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K982351"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123155",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141770",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K160106",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K183560",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212263",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223395",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240874",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K801683",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K853947",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K982351",
+      "body": "FDA 510k"
+    }
   ],
   "virtuoso_virtuoso": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111543"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111755"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111869"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111872"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121033"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121516"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122143"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140465"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K953930"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991706"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111543",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111755",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111869",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111872",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121033",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121516",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122143",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140465",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K953930",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991706",
+      "body": "FDA 510k"
+    }
   ],
   "force_dimension_sigma": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K010652"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K033272"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193549"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K843355"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K862686"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K913636"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K930956"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K933679"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K972743"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K982236"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K010652",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K033272",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193549",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K843355",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K862686",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K913636",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K930956",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K933679",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K972743",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K982236",
+      "body": "FDA 510k"
+    }
   ],
   "force_dimension_lambda": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K002563"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K023131"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K083601"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K160819"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K190879"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231290"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K812327"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K822667"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K852999"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K855007"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K002563",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K023131",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K083601",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K160819",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K190879",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231290",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K812327",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K822667",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K852999",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K855007",
+      "body": "FDA 510k"
+    }
   ],
   "quanser_hd2": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K092448"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K780317"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K092448",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K780317",
+      "body": "FDA 510k"
+    }
   ],
   "noah_galaxy": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K023993"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093816"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142052"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142429"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143110"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170146"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171862"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180576"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211344"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K870532"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K023993",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093816",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142052",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142429",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143110",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170146",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171862",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180576",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211344",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K870532",
+      "body": "FDA 510k"
+    }
   ],
   "intuitive_ion": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K001811"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123018"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212048"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243265"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K834305"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K842025"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K851350"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K912628"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K963627"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K001811",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123018",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212048",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243265",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K834305",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K842025",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K851350",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K912628",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K963627",
+      "body": "FDA 510k"
+    }
   ],
   "stryker_mako": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151275"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182975"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151275",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182975",
+      "body": "FDA 510k"
+    }
   ],
   "mmi_symani": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230032"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230032",
+      "body": "FDA 510k"
+    }
   ],
   "biobot_mona_lisa": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K032208"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K032208",
+      "body": "FDA 510k"
+    }
   ],
   "ronovo_carina": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060705"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072885"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060705",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072885",
+      "body": "FDA 510k"
+    }
   ],
   "distalmotion_dexter": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230084"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233312"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K915144"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K944732"
-    ],
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K950830"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN230084",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233312",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K915144",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K944732",
+      "body": "FDA 510k"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K950830",
+      "body": "FDA 510k"
+    }
   ],
   "zimmer_rosa": [
-    [
-      "FDA 510k",
-      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182672"
-    ]
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182672",
+      "body": "FDA 510k"
+    }
+  ],
+  "intuitive_da_vinci_5": [
+    {
+      "url": "https://ec.europa.eu/tools/eudamed/#/screen/search-device/dbf7ca0e-6cf4-4040-b0d0-1af36d0bdbd8",
+      "body": "CE Mark"
+    }
   ]
 }
