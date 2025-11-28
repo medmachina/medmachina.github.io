@@ -1436,46 +1436,6 @@
     ],
     "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
     "regulatory": [
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111869",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121033",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K991706",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111755",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111543",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121516",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K953930",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111872",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122143",
-        "body": "FDA 510k"
-      },
-      {
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140465",
-        "body": "FDA 510k"
-      }
     ],
     "also_known_as": []
   },
