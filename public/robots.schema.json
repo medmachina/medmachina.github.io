@@ -5,112 +5,371 @@
   "$defs": {
     "UrlEntry": {
       "type": "object",
-      "required": ["caption", "url"],
+      "required": [
+        "caption",
+        "url"
+      ],
       "properties": {
-        "caption": {"type": "string"},
-        "url": {"type": "string", "format": "uri"}
+        "caption": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
       },
       "additionalProperties": false
     },
     "PhotoEntry": {
-      "type": "object",>
+      "type": "object",
       "description": "Robot photo entry with a direct image URL in 'url' and optional source page URL in 'site'.",
-      "required": ["url"],
+      "required": [
+        "url"
+      ],
       "properties": {
-        "url": {"type": "string", "format": "uri"},
-        "site": {"type": "string", "format": "uri"}
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "site": {
+          "type": "string",
+          "format": "uri"
+        }
       },
       "additionalProperties": false
     },
     "RegulatoryEntry": {
       "type": "object",
-      "required": ["body"],
+      "required": [
+        "body"
+      ],
       "properties": {
-        "body": {"type": "string"},
-        "year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
-        "url": {"type": ["string", "null"], "format": "uri", "description": "Canonical source URL supporting this regulatory entry (single value)."},
-        "last_verified": {"type": ["string", "null"], "description": "Date (YYYY-MM-DD) when source URLs were last verified."}
+        "body": {
+          "type": "string"
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Canonical source URL supporting this regulatory entry (single value)."
+        },
+        "last_verified": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Date (YYYY-MM-DD) when source URLs were last verified."
+        }
       },
       "additionalProperties": false
     },
     "Tag": {
       "oneOf": [
-        {"const": "RAMIS", "description": "Robot-assisted minimally invasive surgery systems."},
-        {"const": "Commercial", "description": "Available as a marketed, regulatory-cleared product."},
-        {"const": "Teleoperated", "description": "Surgeon controls instruments remotely via master console."},
-        {"const": "Multiple ports", "description": "Uses several trocar access points into the patient."},
-        {"const": "3+ instruments", "description": "Supports at least three concurrently mountable instruments."},
-        {"const": "Stereo endoscope", "description": "Provides stereoscopic intraoperative imaging."},
-        {"const": "Mechanical Cartesian manipulation", "description": "Arm kinematics primarily based on Cartesian/linkage design."},
-        {"const": "Stereo viewer", "description": "Dedicated binocular display for depth perception."},
-        {"const": "Single patient cart", "description": "All arms mounted on one mobile patient-side base."},
-        {"const": "Haptic", "description": "Provides tactile or force cues to the operator, doesn't assume full force feedback."},
-        {"const": "Wristed instruments", "description": "End effector instruments include distal articulation (wrist)."},
-        {"const": "Open surgery", "description": "Intended for non-endoscopic (open) surgical approaches."},
-        {"const": "Mechanical RCM", "description": "Hardware geometry enforces a remote center of motion pivot."},
-        {"const": "Retired", "description": "No longer produced or clinically supported."},
-        {"const": "Orthopedic", "description": "Focused on bone and joint related procedures."},
-        {"const": "Multiple patient carts", "description": "System separates arms across multiple bases."},
-        {"const": "Stereo display", "description": "Stereoscopic display (flat screen)."},
-        {"const": "Haptic device", "description": "Provides an haptic interface."},
-        {"const": "Motorized table", "description": "Includes integrated powered patient positioning table."},
-        {"const": "Single port", "description": "Access via one incision using multi-channel port."},
-        {"const": "2 instruments", "description": "Supports a maximum of two concurrent instruments."},
-        {"const": "Collaborative control", "description": "Shares task execution between human and automation."},
-        {"const": "Force feedback", "description": "Returns quantitative force/torque data to operator."},
-        {"const": "Mono endoscope", "description": "Monocular endoscopic imaging only."},
-        {"const": "Mechanical manipulation", "description": "User input is captured mechanically, with or without actuation."},
-        {"const": "Open console", "description": "Operator interface without enclosed immersive hood."},
-        {"const": "Research system", "description": "Primarily for laboratory or academic research use."},
-        {"const": "Software RCM", "description": "Remote center of motion enforced algorithmically, not by hardware."},
-        {"const": "Semi-autonomous", "description": "Performs subtasks automatically with human supervision."},
-        {"const": "Open source", "description": "Provides source code openly for modification."},
-        {"const": "Open architecture", "description": "Designed for extensibility via documented interfaces."},
-        {"const": "Free hand manipulation", "description": "User input is captured wirelessly or without mechanical linkage.  Doesn't support haptic feedback."},
-        {"const": "Autonomous", "description": "Capable of executing tasks without direct real-time human input."},
-        {"const": "Simulation", "description": "Used chiefly for training or procedural rehearsal."},
-        {"const": "Flexible robot", "description": "Employs flexible continuum or snake-like mechanisms."},
-        {"const": "Open microsurgery", "description": "Designed for delicate open microsurgical procedures."},
-        {"const": "Biopsy", "description": "Supports tissue sampling guidance or extraction."},
-        {"const": "TRUS", "description": "Transrectal ultrasound guidance or manipulation."},
-        {"const": "Dental", "description": "Focused on dental or oral implant procedures."},
-        {"const": "Autonomous motion", "description": "Capable of moving independently without human control."}
+        {
+          "const": "RAMIS",
+          "description": "Robot-assisted minimally invasive surgery systems."
+        },
+        {
+          "const": "Commercial",
+          "description": "Available as a marketed, regulatory-cleared product."
+        },
+        {
+          "const": "Teleoperated",
+          "description": "Surgeon controls instruments remotely via master console."
+        },
+        {
+          "const": "Multiple ports",
+          "description": "Uses several trocar access points into the patient."
+        },
+        {
+          "const": "3+ instruments",
+          "description": "Supports at least three concurrently mountable instruments."
+        },
+        {
+          "const": "Stereo endoscope",
+          "description": "Provides stereoscopic intraoperative imaging."
+        },
+        {
+          "const": "Mechanical Cartesian manipulation",
+          "description": "Arm kinematics primarily based on Cartesian/linkage design."
+        },
+        {
+          "const": "Stereo viewer",
+          "description": "Dedicated binocular display for depth perception."
+        },
+        {
+          "const": "Single patient cart",
+          "description": "All arms mounted on one mobile patient-side base."
+        },
+        {
+          "const": "Haptic",
+          "description": "Provides tactile or force cues to the operator, doesn't assume full force feedback."
+        },
+        {
+          "const": "Wristed instruments",
+          "description": "End effector instruments include distal articulation (wrist)."
+        },
+        {
+          "const": "Snake-like instruments",
+          "description": "End effector instruments include snake-like articulation."
+        },
+        {
+          "const": "Open surgery",
+          "description": "Intended for non-endoscopic (open) surgical approaches."
+        },
+        {
+          "const": "Mechanical RCM",
+          "description": "Hardware geometry enforces a remote center of motion pivot."
+        },
+        {
+          "const": "Retired",
+          "description": "No longer produced or clinically supported."
+        },
+        {
+          "const": "Orthopedic",
+          "description": "Focused on bone and joint related procedures."
+        },
+        {
+          "const": "Multiple patient carts",
+          "description": "System separates arms across multiple bases."
+        },
+        {
+          "const": "Stereo display",
+          "description": "Stereoscopic display (flat screen)."
+        },
+        {
+          "const": "Haptic device",
+          "description": "Provides an haptic interface."
+        },
+        {
+          "const": "Motorized table",
+          "description": "Includes integrated powered patient positioning table."
+        },
+        {
+          "const": "Single port",
+          "description": "Access via one incision using multi-channel port."
+        },
+        {
+          "const": "2 instruments",
+          "description": "Supports a maximum of two concurrent instruments."
+        },
+        {
+          "const": "Collaborative control",
+          "description": "Shares task execution between human and automation."
+        },
+        {
+          "const": "Force feedback",
+          "description": "Returns quantitative force/torque data to operator."
+        },
+        {
+          "const": "Mono endoscope",
+          "description": "Monocular endoscopic imaging only."
+        },
+        {
+          "const": "Mechanical manipulation",
+          "description": "User input is captured mechanically, with or without actuation."
+        },
+        {
+          "const": "Open console",
+          "description": "Operator interface without enclosed immersive hood."
+        },
+        {
+          "const": "Research system",
+          "description": "Primarily for laboratory or academic research use."
+        },
+        {
+          "const": "Software RCM",
+          "description": "Remote center of motion enforced algorithmically, not by hardware."
+        },
+        {
+          "const": "Semi-autonomous",
+          "description": "Performs subtasks automatically with human supervision."
+        },
+        {
+          "const": "Open source",
+          "description": "Provides source code openly for modification."
+        },
+        {
+          "const": "Open architecture",
+          "description": "Designed for extensibility via documented interfaces."
+        },
+        {
+          "const": "Free hand manipulation",
+          "description": "User input is captured wirelessly or without mechanical linkage.  Doesn't support haptic feedback."
+        },
+        {
+          "const": "Autonomous",
+          "description": "Capable of executing tasks without direct real-time human input."
+        },
+        {
+          "const": "Simulation",
+          "description": "Used chiefly for training or procedural rehearsal."
+        },
+        {
+          "const": "Flexible robot",
+          "description": "Employs flexible continuum or snake-like mechanisms."
+        },
+        {
+          "const": "Open microsurgery",
+          "description": "Designed for delicate open microsurgical procedures."
+        },
+        {
+          "const": "Biopsy",
+          "description": "Supports tissue sampling guidance or extraction."
+        },
+        {
+          "const": "TRUS",
+          "description": "Transrectal ultrasound guidance or manipulation."
+        },
+        {
+          "const": "Dental",
+          "description": "Focused on dental or oral implant procedures."
+        },
+        {
+          "const": "Autonomous motion",
+          "description": "Capable of moving independently without human control."
+        }
       ]
     },
     "Usage": {
       "oneOf": [
-        {"const": "Abdominal", "description": "Procedures within the abdominal cavity (e.g., general, colorectal)."},
-        {"const": "Urological", "description": "Procedures involving urinary tract or male reproductive organs."},
-        {"const": "Gynecological", "description": "Procedures involving female reproductive system."},
-        {"const": "Transoral", "description": "Access through the mouth for head and neck or airway surgery."},
-        {"const": "Knee", "description": "Orthopedic interventions focused on the knee joint."},
-        {"const": "Hip", "description": "Orthopedic procedures involving the hip joint (e.g., replacement)."},
-        {"const": "Shoulder", "description": "Orthopedic procedures involving the shoulder joint."},
-        {"const": "Lung", "description": "Pulmonary surgical or interventional procedures."},
-        {"const": "Bronchoscopy", "description": "Endoscopic examination or intervention in bronchial airways."},
-        {"const": "Thoracic", "description": "Procedures within the chest excluding the heart."},
-        {"const": "Spine", "description": "Spinal column or vertebral interventions."},
-        {"const": "Eye", "description": "Ophthalmic microsurgery or ocular interventions."},
-        {"const": "Prostate", "description": "Procedures targeting the prostate gland."},
-        {"const": "Dental implant", "description": "Placement or guidance for dental implants."}
+        {
+          "const": "Abdominal",
+          "description": "Procedures within the abdominal cavity (e.g., general, colorectal)."
+        },
+        {
+          "const": "Urological",
+          "description": "Procedures involving urinary tract or male reproductive organs."
+        },
+        {
+          "const": "Gynecological",
+          "description": "Procedures involving female reproductive system."
+        },
+        {
+          "const": "Transoral",
+          "description": "Access through the mouth for head and neck or airway surgery."
+        },
+        {
+          "const": "Knee",
+          "description": "Orthopedic interventions focused on the knee joint."
+        },
+        {
+          "const": "Hip",
+          "description": "Orthopedic procedures involving the hip joint (e.g., replacement)."
+        },
+        {
+          "const": "Shoulder",
+          "description": "Orthopedic procedures involving the shoulder joint."
+        },
+        {
+          "const": "Lung",
+          "description": "Pulmonary surgical or interventional procedures."
+        },
+        {
+          "const": "Bronchoscopy",
+          "description": "Endoscopic examination or intervention in bronchial airways."
+        },
+        {
+          "const": "Thoracic",
+          "description": "Procedures within the chest excluding the heart."
+        },
+        {
+          "const": "Spine",
+          "description": "Spinal column or vertebral interventions."
+        },
+        {
+          "const": "Eye",
+          "description": "Ophthalmic microsurgery or ocular interventions."
+        },
+        {
+          "const": "Prostate",
+          "description": "Procedures targeting the prostate gland."
+        },
+        {
+          "const": "Dental implant",
+          "description": "Placement or guidance for dental implants."
+        }
       ]
     }
   },
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["name", "id"],
+    "required": [
+      "name",
+      "id"
+    ],
     "additionalProperties": false,
     "properties": {
-      "name": {"type": "string", "minLength": 1},
-      "id": {"type": "string", "pattern": "^[A-Za-z0-9_.&]+$", "description": "Unique robot identifier. Allowed characters: letters, digits, underscore, period, ampersand."},
-      "introduction_year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
-      "description": {"type": "string"},
-      "urls": {"type": "array", "items": {"$ref": "#/$defs/UrlEntry"}},
-      "photos": {"type": "array", "items": {"$ref": "#/$defs/PhotoEntry"}},
-      "tags": {"type": "array", "items": {"$ref": "#/$defs/Tag"}, "uniqueItems": true},
-      "usages": {"type": "array", "items": {"$ref": "#/$defs/Usage"}, "uniqueItems": true},
-      "regulatory": {"type": "array", "items": {"$ref": "#/$defs/RegulatoryEntry"}}
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9_.&]+$",
+        "description": "Unique robot identifier. Allowed characters: letters, digits, underscore, period, ampersand."
+      },
+      "also_known_as": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Alternative names or model numbers for this robot."
+      },
+      "introduction_year": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1900,
+        "maximum": 2100
+      },
+      "description": {
+        "type": "string"
+      },
+      "urls": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/UrlEntry"
+        }
+      },
+      "photos": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/PhotoEntry"
+        }
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Tag"
+        },
+        "uniqueItems": true
+      },
+      "usages": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Usage"
+        },
+        "uniqueItems": true
+      },
+      "regulatory": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/RegulatoryEntry"
+        }
+      }
     }
   }
 }

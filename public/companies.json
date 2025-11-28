@@ -687,5 +687,22 @@
     ],
     "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
     "employee_count": 20000
+  },
+  {
+    "name": "Surgerii",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Surgerii",
+        "url": "https://www.surgerii.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/surgerii-robotics/",
+    "opencorporates_url": "",
+    "robots": [
+      "surgeril_shurui"
+    ],
+    "description": "Surgerii is based in Beijing, China",
+    "employee_count": null
   }
 ]

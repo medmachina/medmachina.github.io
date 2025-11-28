@@ -99,35 +99,48 @@ def search_fda_denovo(robot_name: str):
 
 
 
-def search_eu_eudamed(robot_name: str):
-    """Search EU EUDAMED database via API for CE mark devices.
 
-    EUDAMED (European Union Database of Medical Devices) is accessible via web interface.
-    Direct API access may be limited; this searches the public portal.
+
+def search_eu_eudamed(robot_name: str):
+    """Search EU EUDAMED database for CE mark devices.
+    
+    Uses the EUDAMED public API endpoint that powers the official search interface.
     """
     try:
-        # EUDAMED API endpoint for device search
-        api_url = f'https://ec.europa.eu/growth/tools-databases/nando/api/devices?deviceName={quote(robot_name)}'
-        response = requests.get(api_url, timeout=5)
+        # EUDAMED public API endpoint for device search
+        # This is the endpoint used by the official EUDAMED UI
+        api_url = 'https://ec.europa.eu/tools/eudamed/api/devices/udiDiData'
+        
+        params = {
+            'page': 0,  # Page number (0-indexed)
+            'size': 10,  # Results per page
+            'search': robot_name  # Search query
+        }
+        
+        response = requests.get(api_url, params=params, timeout=10)
         time.sleep(REQUEST_DELAY)
-
+        
         if response.status_code == 200:
-            try:
-                data = response.json()
-                devices = data.get('devices', []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
-                urls = []
-                if devices:
-                    for device in devices[:3]:  # Limit to top 3 results
-                        if 'id' in device:
-                            device_id = device['id']
-                            eudamed_url = f'https://ec.europa.eu/growth/tools-databases/nando/index.cfm?action=detail&type=nando&id={device_id}'
-                            urls.append(('CE', eudamed_url))
-                    return urls
-            except:
-                pass
+            data = response.json()
+            urls = []
+            
+            # Results are in the 'content' key
+            devices = data.get('content', [])
+            
+            if devices:
+                for device in devices[:3]:  # Limit to top 3 results
+                    # Extract device UUID for creating detail URL
+                    device_uuid = device.get('uuid')
+                    if device_uuid:
+                        # Create URL to device detail page
+                        eudamed_url = f'https://ec.europa.eu/tools/eudamed/#/screen/search-device/{device_uuid}'
+                        urls.append(('CE Mark', eudamed_url))
+                        
+            return urls
     except Exception as e:
         print(f'  [EUDAMED search skipped: {e}]', file=sys.stderr)
     return []
+
 
 
 class UrlReviewer:

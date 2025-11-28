@@ -1435,8 +1435,7 @@
       "Haptic device"
     ],
     "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
-    "regulatory": [
-    ],
+    "regulatory": [],
     "also_known_as": []
   },
   {
@@ -2493,5 +2492,46 @@
       }
     ],
     "also_known_as": []
+  },
+  {
+    "name": "SHURUI",
+    "id": "surgerii_shurui",
+    "introduction_year": null,
+    "urls": [
+      {
+        "caption": "Surgerii",
+        "url": "https://en.surgerii.com/robot/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://en.surgerii.com/upload/2024-12/173451128133184600.png",
+        "site": "https://en.surgerii.com/robot/"
+      },
+      {
+        "url": "https://en.surgerii.com/upload/2024-12/173451108005967600.png",
+        "site": "https://en.surgerii.com/robot/"
+      },
+      {
+        "url": "https://en.surgerii.com/upload/2025-03/174098558572016000.png",
+        "site": "https://en.surgerii.com/robot/"
+      }
+    ],
+    "tags": [
+      "RAMIS",
+      "Single patient cart",
+      "Single port",
+      "3+ instruments",
+      "Snake-like instruments",
+      "Teleoperated",
+      "Stereo viewer",
+      "Stereo endoscope",
+      "Mechanical Cartesian manipulation",
+      "Haptic",
+      "Commercial"
+    ],
+    "usages": [],
+    "description": "",
+    "regulatory": []
   }
 ]
