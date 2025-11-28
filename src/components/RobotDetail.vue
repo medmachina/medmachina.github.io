@@ -70,30 +70,23 @@
       <h3 class="mt-4 mb-4">Regulatory Status</h3>
       <div class="regulatory-section">
         <div class="regulatory-list">
-          <div v-for="(reg, index) in projectRegulatoryInfo" :key="index" class="regulatory-item">
-            <div class="regulatory-header">
-              <span class="badge bg-info text-dark">{{ reg.body }}</span>
-              <span v-if="reg.year" class="badge bg-secondary ms-2">{{ reg.year }}</span>
-              <!-- Removed region/type badges per schema change -->
-
-              <div v-if="reg.url" class="sources-inline-badges ms-3">
-                <strong class="sources-label">Source:</strong>
-                <div class="source-inline ms-2">
-                  <button
-                    type="button"
-                    class="source-btn"
-                    @click.prevent="openUrl(reg.url)"
-                    :title="getUrlDomain(reg.url)"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                      <path d="M10 13a5 5 0 0 0 7.07 0l1.41-1.41a5 5 0 0 0 0-7.07 5 5 0 0 0-7.07 0L10 5" />
-                      <path d="M14 11a5 5 0 0 0-7.07 0L5.52 12.41a5 5 0 0 0 0 7.07 5 5 0 0 0 7.07 0L14 19" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <a
+            v-for="(reg, index) in projectRegulatoryInfo"
+            :key="index"
+            :href="reg.url"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="regulatory-badge"
+            :title="getUrlDomain(reg.url)"
+          >
+            <span class="reg-body">{{ reg.body }}</span>
+            <span v-if="reg.year" class="reg-year">{{ reg.year }}</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
@@ -478,111 +471,39 @@ function getShortDomain(url) {
 }
 .regulatory-list {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.regulatory-item {
-  padding: 0.35rem 0.6rem;
-  background: #333; /* same as .dark-tag */
-  color: #fff;
-  border-left: 4px solid var(--color-border);
-  border-radius: 4px;
-}
-.regulatory-header {
-  display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  align-items: center;
-}
-.regulatory-sources {
-  margin-top: 0.75rem;
-  color: var(--color-text);
-}
-.source-list {
-  list-style: none;
-  padding-left: 1rem;
-  margin-top: 0.5rem;
-}
-.source-list li {
-  margin-bottom: 0.5rem;
-}
-.source-list a {
-  color: #007bff;
-  text-decoration: none;
-}
-.source-list a:hover {
-  text-decoration: underline;
-}
-/* Inline sources styling */
-.source-inline {
-  margin-top: 0.5rem;
-}
-.source-inline-item {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 0.4rem;
-}
-.source-inline-item a {
-  color: #007bff;
-  text-decoration: none;
-}
-.source-inline-item a:hover {
-  text-decoration: underline;
-}
-.source-btn {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.12);
-  color: #fff;
-  padding: 3px 6px;
-  border-radius: 6px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  height: 24px;
-  width: 24px;
-}
-.source-btn svg {
-  display: block;
-}
-.source-btn:hover {
-  background: rgba(255,255,255,0.12);
-}
-.source-sep {
-  color: rgba(255,255,255,0.6);
-}
-/* Keep sources on same line as badges */
-.sources-inline-badges {
-  display: inline-flex;
-  align-items: center;
   gap: 0.5rem;
 }
-.sources-label {
+
+.regulatory-badge {
   display: inline-flex;
   align-items: center;
-  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  background-color: #333;
   color: #fff;
-  line-height: 1;
-  margin-right: 0.25rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s, transform 0.1s;
+  border: 1px solid transparent;
 }
 
-.source-inline {
-  display: inline-flex;
-  align-items: center;
+.regulatory-badge:hover {
+  background-color: #444;
+  text-decoration: none;
+  color: #fff;
+  transform: translateY(-1px);
+  border-color: rgba(255,255,255,0.2);
 }
 
-/* Ensure badges and source links are vertically centered */
-.regulatory-header .badge {
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
+.reg-body {
+  font-weight: 600;
 }
-.source-inline-item a {
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-  vertical-align: middle;
-  padding: 0;
+
+.reg-year {
+  margin-left: 0.4rem;
+  opacity: 0.8;
+  font-size: 0.85em;
 }
 .urls-section {
   margin-top: 2rem;
