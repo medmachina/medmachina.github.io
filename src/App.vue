@@ -1,6 +1,8 @@
 <template>
   <div class="global-header">
-    <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
+    <router-link to="/">
+      <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
+    </router-link>
   </div>
   <router-view />
   <DisclaimerModal />
