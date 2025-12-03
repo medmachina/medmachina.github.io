@@ -704,5 +704,25 @@
     ],
     "description": "Surgerii is based in Beijing, China",
     "employee_count": 500
+  },
+  {
+    "name": "Renishaw",
+    "country": "United Kingdom",
+    "urls": [
+      {
+        "caption": "Renishaw",
+        "url": "https://www.renishaw.com/"
+      },
+      {
+        "caption": "Renishaw Neuromate",
+        "url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/renishaw/",
+    "opencorporates_url": "",
+    "robots": [
+      "renishaw_neuromate"
+    ],
+    "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom."
   }
 ]

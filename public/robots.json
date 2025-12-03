@@ -2533,5 +2533,37 @@
     "usages": [],
     "description": "",
     "regulatory": []
+  },
+  {
+    "name": "Neuromate",
+    "id": "renishaw_neuromate",
+    "introduction_year": 1987,
+    "urls": [
+      {
+        "caption": "Renishaw Neuromate",
+        "url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.renishaw.com/media/img/gen/7693771636ac4db3a81cfe6aae2c20c8.jpg",
+        "site": "https://www.renishaw.com/en/--48606"
+      }
+    ],
+    "tags": [
+      "Commercial"
+    ],
+    "usages": [],
+    "description": "The Renishaw neuromate is a highly accurate and repeatable stereotactic neurosurgical robot designed for a wide range of applications. It assists neurosurgeons in performing delicate procedures with enhanced precision and consistency. Key applications include Deep Brain Stimulation (DBS) for Parkinson's disease, epilepsy, and essential tremor; Stereoelectroencephalography (SEEG) for epilepsy monitoring; brain biopsies; neuroendoscopy; and targeted drug delivery. The system features six degrees of freedom and can be used in both frame-based and frameless modes. It has been used in over 10,000 procedures for more than 20 years. The robot integrates with neuroinspire surgical planning software for efficient procedure planning.",
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132755",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": [
+      "Neuromate Gen II",
+      "Neuromate Gen III"
+    ]
   }
 ]
