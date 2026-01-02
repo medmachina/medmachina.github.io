@@ -2594,7 +2594,7 @@
     "usages": [
       "Spine"
     ],
-    "description": "The Dynamis Robotic Surgical System is an integrated navigation-based robotic platform designed to enhance accuracy and control during hard tissue surgeries, particularly spine procedures. The system features three robotic arms - two for surgical guidance and one for optical navigation - consolidated into a single cart that fits partially beneath the surgical table. Unlike other systems, Dynamis supports a wide range of surgical instruments through unique adjustable end-effectors and an intraoperative qualification process, enhancing compatibility and hospital workflow efficiency. The system integrates real-time imaging, dynamic guidance, and adaptable instrumentation within one versatile platform. First clinical procedures in the U.S. were completed in October 2025 at Southern Hills Hospital in Las Vegas.",
+    "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243326",
