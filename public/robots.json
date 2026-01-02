@@ -2565,5 +2565,42 @@
       "Neuromate Gen II",
       "Neuromate Gen III"
     ]
+  },
+  {
+    "name": "Dynamis Robotic Surgical System",
+    "id": "lem_dynamis",
+    "introduction_year": 2025,
+    "urls": [
+      {
+        "caption": "LEM Surgical",
+        "url": "https://lemsurgical.com/"
+      },
+      {
+        "caption": "Dynamis FDA Clearance Announcement",
+        "url": "https://lemsurgical.com/dynamis-robotic-surgical-system-receives-fda-clearance/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://lemsurgical.com/wp-content/uploads/2025/02/Dynamis-from-LEM-Surgical.png",
+        "site": "https://lemsurgical.com/"
+      }
+    ],
+    "tags": [
+      "Open surgery",
+      "Orthopedic",
+      "Commercial"
+    ],
+    "usages": [
+      "Spine"
+    ],
+    "description": "The Dynamis Robotic Surgical System is an integrated navigation-based robotic platform designed to enhance accuracy and control during hard tissue surgeries, particularly spine procedures. The system features three robotic arms - two for surgical guidance and one for optical navigation - consolidated into a single cart that fits partially beneath the surgical table. Unlike other systems, Dynamis supports a wide range of surgical instruments through unique adjustable end-effectors and an intraoperative qualification process, enhancing compatibility and hospital workflow efficiency. The system integrates real-time imaging, dynamic guidance, and adaptable instrumentation within one versatile platform. First clinical procedures in the U.S. were completed in October 2025 at Southern Hills Hospital in Las Vegas.",
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243326",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   }
 ]
