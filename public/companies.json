@@ -724,5 +724,21 @@
       "renishaw_neuromate"
     ],
     "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom."
+  },
+  {
+    "name": "LEM Surgical",
+    "country": "Switzerland",
+    "urls": [
+      {
+        "caption": "LEM Surgical",
+        "url": "https://lemsurgical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/lem-surgical-ag/",
+    "opencorporates_url": "",
+    "robots": [
+      "lem_dynamis"
+    ],
+    "description": "LEM Surgical is based in Bern, Switzerland, with U.S. commercial operations in Tampa, Florida. Develops robotic surgical systems for hard tissue surgery."
   }
 ]

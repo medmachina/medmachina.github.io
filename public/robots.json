@@ -2565,5 +2565,42 @@
       "Neuromate Gen II",
       "Neuromate Gen III"
     ]
+  },
+  {
+    "name": "Dynamis Robotic Surgical System",
+    "id": "lem_dynamis",
+    "introduction_year": 2025,
+    "urls": [
+      {
+        "caption": "LEM Surgical",
+        "url": "https://lemsurgical.com/"
+      },
+      {
+        "caption": "Dynamis FDA Clearance Announcement",
+        "url": "https://lemsurgical.com/dynamis-robotic-surgical-system-receives-fda-clearance/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://lemsurgical.com/wp-content/uploads/2025/02/Dynamis-from-LEM-Surgical.png",
+        "site": "https://lemsurgical.com/"
+      }
+    ],
+    "tags": [
+      "Open surgery",
+      "Orthopedic",
+      "Commercial"
+    ],
+    "usages": [
+      "Spine"
+    ],
+    "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243326",
+        "body": "FDA 510k"
+      }
+    ],
+    "also_known_as": []
   }
 ]
