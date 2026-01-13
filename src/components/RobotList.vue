@@ -25,7 +25,7 @@
               <span
                 class="badge bg-info text-dark ms-1"
                 v-if="reg.body"
-              >{{ reg.year ? `${reg.body} ${reg.year}` : reg.body }}</span>
+              >{{ reg.year ? `${reg.body} (${reg.year})` : reg.body }}</span>
             </template>
           </div>
 <!-- ...existing template code... -->

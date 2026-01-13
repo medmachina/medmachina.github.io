@@ -80,7 +80,7 @@
             :title="getUrlDomain(reg.url)"
           >
             <span class="reg-body">{{ reg.body }}</span>
-            <span v-if="reg.year" class="reg-year">{{ reg.year }}</span>
+            <span v-if="reg.year" class="reg-year">({{ reg.year }})</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
@@ -341,13 +341,18 @@ const projectUrls = computed(() => {
   return [];
 });
 
-// Computed property for regulatory information
 const projectRegulatoryInfo = computed(() => {
   if (!project.value?.regulatory) return [];
 
   // Regulatory is an array of objects
   if (Array.isArray(project.value.regulatory)) {
-    return project.value.regulatory.filter(reg => reg && reg.body);
+    return [...project.value.regulatory]
+      .filter(reg => reg && reg.body)
+      .sort((a, b) => {
+        const yearA = a.year || 0;
+        const yearB = b.year || 0;
+        return yearB - yearA; // Newest first
+      });
   }
 
   return [];

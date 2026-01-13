@@ -39,39 +39,61 @@
     ],
     "usages": [
       "Abdominal",
-      "Urological",
+      "General Surgery",
       "Gynecological",
-      "Transoral"
+      "Transoral",
+      "Urological"
     ],
     "description": "Designed to enable better outcomes, more efficiency, and actionable insights, da Vinci 5 brings more than 150 design innovations and 10,000x the computing power of da Vinci Xi. These advances support enhanced surgical senses, greater surgeon autonomy, more streamlined OR workflows, and advanced data analytics to enable the future of surgery.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ]
   },
@@ -126,51 +148,83 @@
     ],
     "usages": [
       "Abdominal",
-      "Urological",
+      "ENT",
+      "General Surgery",
       "Gynecological",
-      "Transoral"
+      "Transoral",
+      "Urological"
     ],
     "description": "The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2019,
+        "product_code": "NAY",
+        "panel": "EN"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": []
@@ -216,67 +270,115 @@
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2019,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2022,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2018,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2022,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150284",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2015,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152578",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2016,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150837",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2015,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152421",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2016,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": [
       "IS4000"
+    ],
+    "usages": [
+      "General Surgery"
     ]
   },
   {
@@ -325,79 +427,136 @@
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2016,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2016,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2016,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2018,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2015,
+        "product_code": "GCJ",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2022,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2022,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": [
       "IS4200"
+    ],
+    "usages": [
+      "General Surgery"
     ]
   },
   {
@@ -444,43 +603,68 @@
     ],
     "usages": [
       "Abdominal",
-      "Urological",
+      "General Surgery",
       "Gynecological",
-      "Transoral"
+      "Transoral",
+      "Urological"
     ],
     "description": "Third generation da Vinci system.  The patient cart is very similar to the previous generation (da Vinci S). The surgeon's console is totally new, including new manipulators, individual clutch on each gripper, infinite roll...  The stereo viewer is updated to use two flat panel monitors.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2012,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2009,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2010,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2009,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170879",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": [
@@ -535,51 +719,82 @@
     ],
     "usages": [
       "Abdominal",
-      "Urological",
+      "General Surgery",
       "Gynecological",
-      "Transoral"
+      "Transoral",
+      "Urological"
     ],
     "description": "Second generation da Vinci system.  The surgeon's console is very similar to the previous generation (da Vinci Standard). The patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) have less degrees of freedom and are fully gravity compensated.  The setup arm for the third arm is now mounted on the back of the column and doesn't require a motor to go up and down.  The patient cart has motorized wheels to ease transport between rooms. The video remains similar to the Standard one. The stereo endoscopes are also unchanged but the camera head is updated to use SD or HD sensors with SDI outputs on the camera control unit (CCU). The patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are totally new.  They now require brakes and are not gravity compensated.  They are stronger and more precise.  Instruments are longer but the mechanics and end effectors are similar to the Standard ones.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2008,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2011,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2006,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2008,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2010,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2009,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050369",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2005,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": [
@@ -626,31 +841,47 @@
     ],
     "usages": [
       "Abdominal",
-      "Urological",
+      "General Surgery",
       "Gynecological",
-      "Transoral"
+      "Transoral",
+      "Urological"
     ],
     "description": "Original da Vinci system, first generation, aka IS 1000.  Designed in the late 20th century, it is a teleoperation based system for RAMIS (robotically assisted minimally invasive surgery).  The patient side manipulators always follow the surgeon's movements, there is no automomy whatsoever.\n\n    All the patient's side robotic arms (PSMs and ECM) have a mechanical remote center of motion (RCM) using a parallel linkage. The active arms holding the instruments (PSMs) are mechanically gravity compensated, they are light and don't require brakes.  In case of power failure, they won't drop in the patient.  These arms are cable driven and quite impressive from a mechanical point of view.  Instruments have wristed end effectors and can be swapped.  The camera manipulator (ECM) is not gravity compensated and requires brakes.\n\n    The patient cart has long passive arms (setup joints) that are gravity compensated except for the last joint (roll).  These setup joints or passive arms are designed to hold the active arms RCM points The da Vinci intially came with one camera arm (ECM) and two patient side manipulators (PSMs). A third PSM was later added (IS 1200).  The setup joints for the third PSM is tacked under the ECM ones and are not gravity compensated, clearly an afterthought.\n\n     The video system uses fiber optic bundles for the stereo images and light in the endoscope. CCD sensors are located in the camera head.  Focus is mechanical.\n\n  The surgeon's console uses a stereoscopic viewer with two CRT monitors (640x480) and mirrors.  The surgeon's console includes two master manipulators (aka 3D joysticks or haptic devices).  These robotic arms arr counter balanced and have 7 degrees of freedom to ensure a larger workspace, specially for the hand's orientation (SO3).  The MTMs are motorized.  These motors are used to add software based gravity compensation but can also provide some haptic feedback.  The feedback is based on the model (joint limits on PSMs) and/or the current teleoperation task (instruments vs camera teleoperation).  It is not based on forces measured on the patient side so the system doesn't provide *force feedback* per say.\n\n    This generation introduced the core features of most current RAMIS systems: 3D vision, remote center of motion, wristed instruments, hand-eye registration, motion scaling, clutching, ECM bimanual teleoperation, remote and ergonomic console, interchangeable instruments sterile adpaters between the instruments or endoscopes and the patient cart...",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K053511",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2006,
+        "product_code": "GEX",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021036",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2002,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043153",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2004,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2010,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2009,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": [
@@ -689,12 +920,17 @@
       "Commercial",
       "Retired"
     ],
-    "usages": [],
+    "usages": [
+      "General Surgery"
+    ],
     "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master\u2013slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2002,
+        "product_code": "GCJ",
+        "panel": "SU"
       }
     ],
     "also_known_as": []
@@ -727,17 +963,24 @@
       "Retired"
     ],
     "usages": [
-      "Hip"
+      "Hip",
+      "Orthopedic"
     ],
     "description": "ROBODOC was an early orthopedic robotic system (originally developed by Integrated Surgical Systems based on university research) focused on precise femoral canal milling for total hip arthroplasty. Using preoperative CT imaging and planning, it performed semi-autonomous bone preparation to improve implant fit, alignment, and reproducibility versus manual instrumentation. It underscored early challenges in surgical robotics: accurate registration, OR workflow integration, and multi-year regulatory pathways (European clinical use well before FDA clearance in 2008). Its technology lineage continued under successor companies culminating in Think Surgical platforms.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2014,
+        "product_code": "OJP",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2008,
+        "product_code": "OJP",
+        "panel": "OR"
       }
     ],
     "also_known_as": []
@@ -815,9 +1058,20 @@
       "Mechanical RCM",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "General Surgery",
+      "Urological"
+    ],
     "description": "",
-    "regulatory": [],
+    "regulatory": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250725",
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SCV",
+        "panel": "SU"
+      }
+    ],
     "also_known_as": []
   },
   {
@@ -1101,48 +1355,80 @@
       "Teleoperated",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "General Surgery"
+    ],
     "description": "",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2019,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2019,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2018,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2019,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "NAY",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2018,
+        "product_code": "NAY",
+        "panel": "SU"
       }
     ],
     "also_known_as": []
@@ -1544,14 +1830,19 @@
     ],
     "tags": [],
     "usages": [
+      "Bronchoscopy",
+      "ENT",
       "Lung",
-      "Bronchoscopy"
+      "Pulmonary"
     ],
     "description": "Used with C-Arm/CBCT.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201146",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "EOQ",
+        "panel": "EN"
       }
     ],
     "also_known_as": []
@@ -1612,41 +1903,67 @@
       "Orthopedic"
     ],
     "usages": [
-      "Knee"
+      "Knee",
+      "Neurological",
+      "Orthopedic"
     ],
     "description": "",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172219",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193515",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2020,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172301",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170581",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2017,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250608",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060017",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2006,
+        "product_code": "HSX",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081867",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2008,
+        "product_code": "HAW",
+        "panel": "NE"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072806",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2008,
+        "product_code": "HAW",
+        "panel": "NE"
       }
     ],
     "also_known_as": []
@@ -1680,22 +1997,32 @@
       "Orthopedic"
     ],
     "usages": [
+      "Hip",
       "Knee",
-      "Hip"
+      "Orthopedic"
     ],
     "description": "",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202769",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233227",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240211",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "OLO",
+        "panel": "OR"
       }
     ],
     "also_known_as": []
@@ -1725,41 +2052,66 @@
       "Orthopedic"
     ],
     "usages": [
-      "Knee"
+      "Knee",
+      "Orthopedic"
     ],
     "description": "",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243481",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241031",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230202",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242264",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250877",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252544",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243285",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232802",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "OLO",
+        "panel": "OR"
       }
     ],
     "also_known_as": []
@@ -1831,21 +2183,31 @@
       "Open surgery"
     ],
     "usages": [
+      "Orthopedic",
       "Spine"
     ],
     "description": "",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223558",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222698",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2022,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201569",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "OLO",
+        "panel": "OR"
       }
     ],
     "also_known_as": []
@@ -1934,22 +2296,37 @@
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251510",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SAQ",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252287",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SAQ",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250014",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SAQ",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242368",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SAQ",
+        "panel": "SU"
       }
     ],
-    "also_known_as": []
+    "also_known_as": [],
+    "usages": [
+      "General Surgery"
+    ]
   },
   {
     "name": "RavenII",
@@ -2073,29 +2450,45 @@
       "TRUS"
     ],
     "usages": [
-      "Prostate"
+      "Prostate",
+      "Radiological"
     ],
     "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203659",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "IYO",
+        "panel": "RA"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111347",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2011,
+        "product_code": "IYO",
+        "panel": "RA"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130944",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2013,
+        "product_code": "IYO",
+        "panel": "RA"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232320",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "IYO",
+        "panel": "RA"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213411",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2021,
+        "product_code": "IYO",
+        "panel": "RA"
       }
     ],
     "also_known_as": []
@@ -2346,16 +2739,24 @@
       "Mechanical RCM",
       "Multiple ports"
     ],
-    "usages": [],
+    "usages": [
+      "General Surgery"
+    ],
     "description": "",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251197",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SDD",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250435",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "SDD",
+        "panel": "SU"
       }
     ],
     "also_known_as": []
@@ -2397,31 +2798,52 @@
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251761",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "QNM",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250591",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "QNM",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251056",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "QNM",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241907",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "QNM",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232146",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "QNM",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242157",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "QNM",
+        "panel": "SU"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243182",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "QNM",
+        "panel": "SU"
       }
     ],
     "also_known_as": []
@@ -2448,47 +2870,76 @@
       "Commercial"
     ],
     "usages": [
-      "Knee",
       "Hip",
+      "Knee",
+      "Neurological",
+      "Orthopedic",
       "Shoulder"
     ],
     "description": "ROSA (Robotic Surgical Assistant) is Zimmer Biomet's platform for robotic-assisted orthopedic surgery, including knee procedures. It provides preoperative planning, intraoperative navigation, and robotic guidance to improve precision and reproducibility in joint replacement.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230180",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213708",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2022,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242864",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2024,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232533",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2023,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251314",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "OLO",
+        "panel": "OR"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182417",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2019,
+        "product_code": "HAW",
+        "panel": "NE"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151359",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2015,
+        "product_code": "HAW",
+        "panel": "NE"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K092239",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2009,
+        "product_code": "HAW",
+        "panel": "NE"
       },
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101791",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2010,
+        "product_code": "HAW",
+        "panel": "NE"
       }
     ],
     "also_known_as": []
@@ -2553,12 +3004,17 @@
     "tags": [
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Neurological"
+    ],
     "description": "The Renishaw neuromate is a highly accurate and repeatable stereotactic neurosurgical robot designed for a wide range of applications. It assists neurosurgeons in performing delicate procedures with enhanced precision and consistency. Key applications include Deep Brain Stimulation (DBS) for Parkinson's disease, epilepsy, and essential tremor; Stereoelectroencephalography (SEEG) for epilepsy monitoring; brain biopsies; neuroendoscopy; and targeted drug delivery. The system features six degrees of freedom and can be used in both frame-based and frameless modes. It has been used in over 10,000 procedures for more than 20 years. The robot integrates with neuroinspire surgical planning software for efficient procedure planning.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132755",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2014,
+        "product_code": "HAW",
+        "panel": "NE"
       }
     ],
     "also_known_as": [
@@ -2592,13 +3048,17 @@
       "Commercial"
     ],
     "usages": [
+      "Orthopedic",
       "Spine"
     ],
     "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
     "regulatory": [
       {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243326",
-        "body": "FDA 510k"
+        "body": "FDA 510k",
+        "year": 2025,
+        "product_code": "OLO",
+        "panel": "OR"
       }
     ],
     "also_known_as": []
