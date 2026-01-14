@@ -1,5 +1,6 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import RobotList from './RobotList.vue'
 import TagCloud from './TagCloud.vue'
 import UsageCloud from './UsageCloud.vue'
@@ -7,6 +8,7 @@ import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
 import { shuffleArray } from '../utils/array.js'
 
 
+const route = useRoute()
 const items = ref([])
 const originalItems = ref([])
 const companies = ref([])
@@ -19,7 +21,17 @@ const selectedStatuses = ref([])
 const sortMode = ref('random') // 'random', 'alphabetical', or 'year'
 const yearSortAscending = ref(true) // true for oldest-first, false for newest-first
 
+function updateFiltersFromQuery() {
+  selectedTags.value = route.query.tag ? [route.query.tag] : []
+  selectedUsages.value = route.query.usage ? [route.query.usage] : []
+}
+
+watch(() => route.query, () => {
+  updateFiltersFromQuery()
+})
+
 onMounted(async () => {
+  updateFiltersFromQuery()
   try {
     const response = await fetch('/robots.json')
     if (!response.ok) {

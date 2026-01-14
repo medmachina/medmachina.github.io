@@ -42,26 +42,36 @@
       </div>
     </div>
 
-    <h3 class="mt-4 mb-4">Tags</h3>
-    <!-- Tags Section -->
     <div v-if="projectTags.length > 0" class="tags-section">
+      <h3 class="mt-4 mb-3">Tags</h3>
       <div class="d-flex flex-wrap align-items-center gap-2">
-        <span
+        <router-link
           v-for="tag in projectTags"
           :key="tag"
-          class="badge tag-cloud-badge dark-tag"
+          :to="{ path: '/', query: { tag: tag } }"
+          class="badge bg-secondary tag-cloud-badge"
           :title="getTagDescription(tag)"
+          style="text-decoration: none;"
         >
           {{ tag }}
-        </span>
-        <span
+        </router-link>
+      </div>
+    </div>
+
+    <!-- Usages Section -->
+    <div v-if="projectUsages.length > 0" class="usages-section">
+      <h3 class="mt-4 mb-3">Usages</h3>
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <router-link
           v-for="usage in projectUsages"
           :key="usage"
-          class="badge usage-cloud-badge dark-usage"
+          :to="{ path: '/', query: { usage: usage } }"
+          class="badge bg-success usage-cloud-badge"
           :title="getUsageDescription(usage)"
+          style="text-decoration: none;"
         >
           {{ usage }}
-        </span>
+        </router-link>
       </div>
     </div>
 
@@ -126,6 +136,15 @@
 </template>
 
 <script setup>
+import { ref, onMounted, computed } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
+
+const route = useRoute();
+const router = useRouter();
+const project = ref(null);
+const companies = ref([]);
+const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
+
 // Tag and usage descriptions from robots.schema.json
 const tagDescriptions = {
   "RAMIS": "Robot-assisted minimally invasive surgery systems.",
@@ -203,14 +222,6 @@ const projectUsages = computed(() => {
   }
   return [];
 });
-import { ref, onMounted, computed } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
-
-const route = useRoute();
-const router = useRouter();
-const project = ref(null);
-const companies = ref([]);
-const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
 
 onMounted(async () => {
   // Load robots data
@@ -459,16 +470,17 @@ function getShortDomain(url) {
 .photo-link:hover .photo-source {
   opacity: 1;
 }
-.tags-section {
+.tags-section, .usages-section {
   margin-bottom: 1.5rem;
 }
-.tag-cloud-badge {
+.tag-cloud-badge, .usage-cloud-badge {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   font-size: 0.875rem;
+  transition: transform 0.2s;
 }
-.dark-tag {
-  background-color: #333;
+.tag-cloud-badge:hover, .usage-cloud-badge:hover {
+  transform: translateY(-2px);
   color: #fff;
 }
 .regulatory-section {
