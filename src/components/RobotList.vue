@@ -21,11 +21,11 @@
             <span v-if="(item.tags || []).length > 5">...</span>
             <span v-for="(usage, idx) in (item.usages || [])" :key="usage" class="badge bg-success me-1" :title="getUsageDescription(usage)">{{ usage }}</span>
             <!-- Regulatory bodies (show body and year) -->
-            <template v-for="reg in getUniqueRegulatory(item.id)" :key="'reg-'+reg.body+'-'+(reg.year || '')">
+            <template v-for="reg in getUniqueRegulatory(item.id)" :key="'reg-'+reg.body">
               <span
                 class="badge bg-info text-dark ms-1"
                 v-if="reg.body"
-              >{{ reg.year ? `${reg.body} (${reg.year})` : reg.body }}</span>
+              >{{ reg.body }}</span>
             </template>
           </div>
 <!-- ...existing template code... -->
