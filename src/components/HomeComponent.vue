@@ -12,6 +12,7 @@ const route = useRoute()
 const items = ref([])
 const originalItems = ref([])
 const companies = ref([])
+const regulatoryData = ref({})
 const robotsError = ref('')
 const companiesError = ref('')
 const search = ref('')
@@ -63,6 +64,16 @@ onMounted(async () => {
     companies.value = companiesData
   } catch (err) {
     companiesError.value = `Error loading companies.json: ${err}`
+  }
+
+  try {
+    const resRegulatory = await fetch('/regulatory.json')
+    if (resRegulatory.ok) {
+      const regulatoryJson = await resRegulatory.json()
+      regulatoryData.value = regulatoryJson
+    }
+  } catch (err) {
+    console.warn('Error loading regulatory.json:', err)
   }
 })
 
@@ -132,10 +143,11 @@ const allUsages = computed(() => {
 })
 
 const allStatuses = computed(() => {
-  // Extract regulatory bodies from array of objects
+  // Extract regulatory bodies from regulatory.json
   const statusCount = {}
   items.value.forEach(item => {
-    (item.regulatory || []).forEach(entry => {
+    const regulatory = regulatoryData.value[item.id] || []
+    regulatory.forEach(entry => {
       const body = entry.body || ''
       if (!body) return
       statusCount[body] = (statusCount[body] || 0) + 1
@@ -179,7 +191,8 @@ const filteredItems = computed(() => {
     // Regulatory status filter only applies if tag or usage is selected
     const matchStatuses = selectedStatuses.value.length === 0 ||
       selectedStatuses.value.every(selectedStatus => {
-        return (item.regulatory || []).some(entry => {
+        const regulatory = regulatoryData.value[item.id] || []
+        return regulatory.some(entry => {
           return entry.body === selectedStatus
         })
       })
@@ -239,7 +252,7 @@ const filteredItems = computed(() => {
         </div>
         <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>
         <div v-if="companiesError" class="alert alert-danger my-3">{{ companiesError }}</div>
-        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" />
+        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" :regulatoryData="regulatoryData" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

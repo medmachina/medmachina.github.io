@@ -1,0 +1,1613 @@
+{
+  "intuitive_da_vinci_5": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "intuitive_da_vinci_SP": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182371",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243714",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202571",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231798",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211316",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252350",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230033",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251324",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240502",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251817",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131962",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173906",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192717",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202968",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211595",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212101",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212747",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232773",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241814",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242318",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243582",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251426",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252069",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252675",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "intuitive_da_vinci_X": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191736",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214095",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171294",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150837",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152421",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143132",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170879",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K183086",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150284",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152578",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "intuitive_da_vinci_Xi": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "GCJ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152892",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161178",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161271",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170645",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170713",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171632",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172643",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173585",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173842",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "intuitive_da_vinci_Si": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+      "body": "FDA 510k",
+      "year": 2012,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "intuitive_da_vinci_S": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050369",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "intuitive_da_vinci": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021036",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043153",
+      "body": "FDA 510k",
+      "year": 2004,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K002489",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K011002",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K022574",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K040237",
+      "body": "FDA 510k",
+      "year": 2004,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043288",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050802",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K070947",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K080291",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101077",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "GCJ",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112208",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122532",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123840",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130726",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131861",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152448",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170865",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191043",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "GCJ",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241913",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "GCJ",
+      "panel": "GU"
+    }
+  ],
+  "computer_motion_zeus": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "GCJ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K003431",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "GCJ",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021152",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K030578",
+      "body": "FDA 510k",
+      "year": 2003,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "iss_robodoc": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "OJP",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "OJP",
+      "panel": "OR"
+    }
+  ],
+  "medtronic_hugo_ras": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250725",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SCV",
+      "panel": "SU"
+    }
+  ],
+  "cmr_versius": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230078",
+      "body": "FDA denovo",
+      "year": 2024,
+      "product_code": "SCV",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252111",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SCV",
+      "panel": "SU"
+    }
+  ],
+  "asensus_senhance": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171120",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K183098",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212054",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220889",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "noah_galaxy": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223144",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "EOQ",
+      "panel": "EN"
+    }
+  ],
+  "intuitive_ion": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201146",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182188",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192367",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202370",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212048",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220299",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232984",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240135",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242070",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252045",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252528",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "EOQ",
+      "panel": "EN"
+    }
+  ],
+  "stryker_mako": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172219",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193515",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172301",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170581",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250608",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060017",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081867",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072806",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K073248",
+      "body": "FDA 510k",
+      "year": 2007,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K080368",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K082081",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K082172",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K083644",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093425",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170584",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170593",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170891",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180612",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191998",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193128",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220459",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241011",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241517",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242373",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243751",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "NE"
+    }
+  ],
+  "j&j_velys": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202769",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233227",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240211",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    }
+  ],
+  "think_surgical_t_mini": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243481",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241031",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230202",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242264",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250877",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252544",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243285",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232802",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253661",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "NE"
+    }
+  ],
+  "curexo_cuvis_spine": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223558",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222698",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201569",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OLO",
+      "panel": "OR"
+    }
+  ],
+  "mmi_symani": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251510",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SAQ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252287",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SAQ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250014",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SAQ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242368",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SAQ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230032",
+      "body": "FDA denovo",
+      "year": 2024,
+      "product_code": "SAQ",
+      "panel": "SU"
+    }
+  ],
+  "biobot_mona_lisa": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203659",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111347",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130944",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232320",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213411",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "IYO",
+      "panel": "RA"
+    }
+  ],
+  "distalmotion_dexter": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251197",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SDD",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250435",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SDD",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230084",
+      "body": "FDA denovo",
+      "year": 2024,
+      "product_code": "SDD",
+      "panel": "SU"
+    }
+  ],
+  "momentis_anovo": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251761",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250591",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251056",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241907",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232146",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242157",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243182",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    }
+  ],
+  "zimmer_rosa": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230180",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213708",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242864",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232533",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251314",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182417",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151359",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K092239",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101791",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151511",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172444",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182848",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182964",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192173",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200511",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210121",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210998",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "LLZ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214065",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220733",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "LLZ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K221928",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230243",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230567",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231103",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231162",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "LLZ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233199",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    }
+  ],
+  "renishaw_neuromate": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132755",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180206",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181706",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HAW",
+      "panel": "NE"
+    }
+  ],
+  "lem_dynamis": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243326",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    }
+  ]
+}

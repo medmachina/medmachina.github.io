@@ -85,6 +85,18 @@ def load_companies_json(path: str = "public/companies.json") -> List[Dict[str, A
     with open(path, 'r') as f:
         return json.load(f)
 
+def load_regulatory_json(path: str = "public/regulatory.json"):
+    """Load regulatory data from regulatory.json."""
+    if not os.path.exists(path):
+        return {}
+    with open(path, 'r') as f:
+        return json.load(f)
+
+def save_regulatory_json(data: dict, path: str = "public/regulatory.json"):
+    """Save regulatory data to regulatory.json."""
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=2)
+
 def is_relevant_match(search_names: List[str], device_name: str, applicant: str, company_name: Optional[str], product_code: str, excludes: List[str] = []) -> Optional[str]:
     """Determine if an FDA record is a relevant match for a robot.
     
@@ -201,6 +213,7 @@ def main():
     # 4. Load robot data
     robots = load_robots_json()
     companies = load_companies_json()
+    regulatory_data = load_regulatory_json()
 
     # Pre-calculate company map
     rid_to_company = {}
@@ -208,11 +221,10 @@ def main():
         for rid in c.get('robots', []):
             rid_to_company[rid] = c['name']
 
-    # Pre-calculate existing entries
+    # Pre-calculate existing entries from regulatory.json
     id_to_existing_reg = {} # (robot_id, reg_id) -> entry
-    for robot in robots:
-        rid = robot.get('id')
-        for reg in robot.get('regulatory', []):
+    for rid, reg_list in regulatory_data.items():
+        for reg in reg_list:
             url = reg.get('url', '')
             reg_id = None
             if 'ID=' in url: reg_id = url.split('ID=')[-1]
@@ -257,11 +269,10 @@ def main():
                 record_assignments[best_robot_id] = set()
             record_assignments[best_robot_id].add(rec['id'])
             
-            # If it's a new match, add it
+            # If it's a new match, add it to regulatory_data
             if (best_robot_id, rec['id']) not in id_to_existing_reg:
-                robot = next(r for r in robots if r.get('id') == best_robot_id)
-                if 'regulatory' not in robot:
-                    robot['regulatory'] = []
+                if best_robot_id not in regulatory_data:
+                    regulatory_data[best_robot_id] = []
                 
                 # Add new regulatory entry
                 entry = {
@@ -282,16 +293,13 @@ def main():
                     entry['url'] = f"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id={rec['id']}"
                     entry['body'] = "FDA PMA"
                 
-                robot['regulatory'].append(entry)
+                regulatory_data[best_robot_id].append(entry)
                 new_entries_count += 1
                 modified_count += 1
 
-    # Now check for stale entries (in robots.json but not in record_assignments)
-    for robot in robots:
-        rid = robot.get('id')
-        if not rid: continue
-        
-        current_reg = robot.get('regulatory', [])
+    # Now check for stale entries (in regulatory.json but not in record_assignments)
+    for rid in list(regulatory_data.keys()):
+        current_reg = regulatory_data.get(rid, [])
         new_reg = []
         to_remove = []
         
@@ -319,7 +327,7 @@ def main():
                 confirmed = ans == 'y'
             
             if confirmed:
-                robot['regulatory'] = new_reg
+                regulatory_data[rid] = new_reg
                 removed_entries_count += len(to_remove)
                 modified_count += 1
             else:
@@ -327,13 +335,11 @@ def main():
 
     print(f"\nProcessed: {new_entries_count} added, {removed_entries_count} removed.")
 
-    print(f"\nUpdated {modified_count} robots with {new_entries_count} new regulatory entries.")
-
     # 6. Save
     if modified_count > 0:
-        with open("public/robots.json", 'w') as f:
-            json.dump(robots, f, indent=2)
-            print("Successfully updated public/robots.json")
+        save_regulatory_json(regulatory_data)
+        print(f"Successfully updated public/regulatory.json")
+        print(f"Updated {modified_count} robots with {new_entries_count} new regulatory entries.")
     else:
         print("No new regulatory entries found.")
 

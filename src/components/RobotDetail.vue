@@ -143,6 +143,7 @@ const route = useRoute();
 const router = useRouter();
 const project = ref(null);
 const companies = ref([]);
+const regulatoryData = ref({});
 const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
 
 // Tag and usage descriptions from robots.schema.json
@@ -233,6 +234,11 @@ onMounted(async () => {
   const resCompanies = await fetch('/companies.json');
   const dataCompanies = await resCompanies.json();
   companies.value = dataCompanies;
+
+  // Load regulatory data
+  const resRegulatory = await fetch('/regulatory.json');
+  const dataRegulatory = await resRegulatory.json();
+  regulatoryData.value = dataRegulatory;
 });
 
 function goHome() {
@@ -353,11 +359,14 @@ const projectUrls = computed(() => {
 });
 
 const projectRegulatoryInfo = computed(() => {
-  if (!project.value?.regulatory) return [];
+  if (!project.value?.id) return [];
+
+  // Get regulatory data for this robot from regulatory.json
+  const regulatory = regulatoryData.value[project.value.id] || [];
 
   // Regulatory is an array of objects
-  if (Array.isArray(project.value.regulatory)) {
-    return [...project.value.regulatory]
+  if (Array.isArray(regulatory)) {
+    return [...regulatory]
       .filter(reg => reg && reg.body)
       .sort((a, b) => {
         const yearA = a.year || 0;
