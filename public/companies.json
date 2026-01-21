@@ -740,5 +740,21 @@
       "lem_dynamis"
     ],
     "description": "LEM Surgical is based in Bern, Switzerland, with U.S. commercial operations in Tampa, Florida. Develops robotic surgical systems for hard tissue surgery."
+  },
+  {
+    "name": "Sagebot",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Sagebot",
+        "url": "http://sagebot-medical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/sagebot",
+    "opencorporates_url": "",
+    "robots": [
+      "sagebot_kangduo"
+    ],
+    "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China."
   }
 ]

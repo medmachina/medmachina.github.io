@@ -2019,4 +2019,48 @@
     "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
     "also_known_as": []
   }
+  ,
+  {
+    "name": "KANGDUO SR2000",
+    "id": "sagebot_kangduo",
+    "introduction_year": null,
+    "urls": [
+      {
+        "caption": "SageBot product page (KANGDUO SR2000)",
+        "url": "http://kangduorobot.com/index.php?m=content&c=index&a=show&catid=24&id=6"
+      },
+      {
+        "caption": "SageBot official site",
+        "url": "http://sagebot-medical.com/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418041354291.png",
+        "site": "http://sagebot-medical.com"
+      },
+      {
+        "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418042135600.png",
+        "site": "http://sagebot-medical.com"
+      },
+      {
+        "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418042221870.png",
+        "site": "http://sagebot-medical.com"
+      }
+    ],
+    "tags": [
+      "Teleoperated",
+      "Commercial"
+    ],
+    "usages": [
+      "Urology",
+      "General Surgery",
+      "Gynecology",
+      "Thoracic Surgery"
+    ],
+    "description": "KANGDUO SR2000 — a teleoperated surgical robot platform from Harbin Sagebot Intelligent Medical Equipment Co., Ltd.",
+    "also_known_as": [
+      "KangDuo SR2000"
+    ]
+  }
 ]
