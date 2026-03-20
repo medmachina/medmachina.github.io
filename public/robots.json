@@ -2092,5 +2092,43 @@
       "Spine"
     ],
     "description": ""
+  },
+  {
+    "name": "AVIAR",
+    "id": "ln_robotics_aviar",
+    "also_known_as": [
+      "MX-03",
+      "MX-01"
+    ],
+    "introduction_year": 2023,
+    "description": "AVIAR is a vascular robotic system for safer, more precise percutaneous coronary interventions (PCI).",
+    "urls": [
+      {
+        "caption": "LN Robotics Official Website",
+        "url": "https://www.lnrobo.com/"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.lnrobo.com/images/apps/pages/product/aviar/sec_02_img_01.png",
+        "site": "https://www.lnrobo.com/"
+      },
+      {
+        "url": "https://www.lnrobo.com/images/apps/pages/product/aviar/sec_02_img_02.png",
+        "site": "https://www.lnrobo.com/"
+      },
+      {
+        "url": "https://www.lnrobo.com/images/apps/pages/product/aviar/subtop_img_01.png",
+        "site": "https://www.lnrobo.com/"
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D5612AQGzETM9fHIO9Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1736310479340?e=2147483647&v=beta&t=8GZdpJ9jYhvKK6yLT_uufK1GYAMOlOIkq1Wxp8Vrr0Q",
+        "site": "https://www.linkedin.com/company/ln-robotics/"
+      }
+    ],
+    "tags": [
+      "Commercial",
+      "Teleoperated"
+    ]
   }
 ]

@@ -757,5 +757,21 @@
       "sagebot_kangduo"
     ],
     "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China."
+  },
+  {
+    "name": "LN Robotics",
+    "country": "South Korea",
+    "urls": [
+      {
+        "caption": "LN Robotics",
+        "url": "https://www.lnrobo.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/ln-robotics/",
+    "opencorporates_url": "",
+    "robots": [
+      "ln_robotics_aviar"
+    ],
+    "description": "LN Robotics is based in South Korea."
   }
 ]
