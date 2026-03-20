@@ -13,12 +13,16 @@
       <router-link to="/links">Links</router-link>
       <br />
       Joris Deguet, Anton Deguet, Aravind S. Kumar
+      <br />
+      Last updated {{ commitDate }}
     </p>
   </footer>
 </template>
 
 <script setup>
 import DisclaimerModal from './components/DisclaimerModal.vue';
+
+const commitDate = __COMMIT_DATE__;
 function openDisclaimer() {
   window.dispatchEvent(new Event('open-disclaimer'));
 }
