@@ -1609,5 +1609,70 @@
       "product_code": "OLO",
       "panel": "OR"
     }
+  ],
+  "medtronic_mazor": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K163221",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172522",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180307",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182077",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182121",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200935",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203005",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230064",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251316",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "NE"
+    }
   ]
 }

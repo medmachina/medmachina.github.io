@@ -35,7 +35,8 @@
     "linkedin_url": "https://www.linkedin.com/company/medtronic/",
     "opencorporates_url": "https://opencorporates.com/companies/us_mn/dee866a5-b1d4-e011-a886-001ec94ffe7f",
     "robots": [
-      "medtronic_hugo_ras"
+      "medtronic_hugo_ras",
+      "medtronic_mazor"
     ],
     "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
     "employee_count": 95000

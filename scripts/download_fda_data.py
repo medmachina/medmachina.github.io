@@ -177,6 +177,7 @@ def is_relevant_match(search_names: List[str], device_name: str, applicant: str,
 def main():
     parser = argparse.ArgumentParser(description="Download and match FDA regulatory data.")
     parser.add_argument("--yes", "-y", action="store_true", help="Automatically accept removals.")
+    parser.add_argument("--robot", help="Limit search and update to a specific robot ID")
     args = parser.parse_args()
 
     # 1. Download
@@ -212,6 +213,12 @@ def main():
 
     # 4. Load robot data
     robots = load_robots_json()
+    if args.robot:
+        robots = [r for r in robots if r.get('id') == args.robot]
+        if not robots:
+            print(f"Robot ID '{args.robot}' not found in robots.json")
+            return
+
     companies = load_companies_json()
     regulatory_data = load_regulatory_json()
 
@@ -298,7 +305,8 @@ def main():
                 modified_count += 1
 
     # Now check for stale entries (in regulatory.json but not in record_assignments)
-    for rid in list(regulatory_data.keys()):
+    rids_to_check = [r.get('id') for r in robots]
+    for rid in rids_to_check:
         current_reg = regulatory_data.get(rid, [])
         new_reg = []
         to_remove = []

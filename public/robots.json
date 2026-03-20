@@ -2062,5 +2062,35 @@
     "also_known_as": [
       "KangDuo SR2000"
     ]
+  },
+  {
+    "name": "Mazor",
+    "id": "medtronic_mazor",
+    "urls": [
+      {
+        "caption": "Medtronic, Mazor",
+        "url": "https://www.medtronic.com/us-en/healthcare-professionals/products/neurological/surgical-robotics/mazor-robotic-guidance-system.html"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://www.researchgate.net/publication/342939886/figure/fig1/AS:912959828238337@1594657155663/Photo-of-Mazor-X-Mazor-Stealth-technologies-Medtronic-A-commercial-system.png",
+        "site": "https://www.researchgate.net/"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/366761008/figure/fig2/AS:11431268393593233@1673322693892/Mazor-X-Surgical-System-Stealth-Edition-A-Mazor-X-robotic-workstation-B.png",
+        "site": "https://www.researchgate.net/"
+      }
+    ],
+    "tags": [
+      "Commercial",
+      "Orthopedic",
+      "Semi-autonomous",
+      "Collaborative control"
+    ],
+    "usages": [
+      "Spine"
+    ],
+    "description": ""
   }
 ]
