@@ -1,0 +1,1352 @@
+{
+  "intuitive_da_vinci_SP": [
+    {
+      "url": "https://www.youtube.com/watch?v=j7_PVCpvCk8",
+      "title": "Intuitive-Fosun's da Vinci SP surgical system is on display at CIIE",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"intuitive da vinci SP\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "intuitive_da_vinci_X": [
+    {
+      "url": "https://www.youtube.com/watch?v=q9rWUHpa2gE",
+      "title": "Surgical Robot Da Vinci XI Makes Its Tyler Debut",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"da Vinci X\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HHKEHTr7o3Y",
+      "title": "da Vinci® Robotic Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"da Vinci X\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "intuitive_da_vinci_Xi": [
+    {
+      "url": "https://www.youtube.com/watch?v=zV-5ntY8-6E",
+      "title": "How does the intuitive da Vinci Xi Robotic Surgical platform work?",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 15,
+      "query": "site:youtube.com/watch \"intuitive da vinci Xi\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NWzAkbUSI0U",
+      "title": "Introducing the da Vinci XI surgical robotic surgical system",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"da Vinci Xi\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dSnvCCoBHxU",
+      "title": "Intuitive Technology da Vinci Xi Robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"intuitive da vinci Xi\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "intuitive_da_vinci_Si": [
+    {
+      "url": "https://www.youtube.com/watch?v=p71JFYVGC1c",
+      "title": "Colorectal Surgery performed by RCRS using a Da Vinci SI Robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"da Vinci Si\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HHKEHTr7o3Y",
+      "title": "da Vinci® Robotic Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"IS3000\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CacWd64RJhM",
+      "title": "Davinci Xi Surgical Robot Overview",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"da Vinci Si\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "intuitive_da_vinci_S": [
+    {
+      "url": "https://www.youtube.com/watch?v=Oy1McwFoMcw",
+      "title": "Intuitive Surgical's Da Vinci surgery robots will be the future of surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 15,
+      "query": "site:youtube.com/watch \"da Vinci S\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=p0gWyXLbfM0",
+      "title": "Robotic Surgery: Da Vinci Si System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"intuitive da vinci S\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oGPuFmQpn7Q",
+      "title": "Master Controller da Vinci Surgical Robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"intuitive da vinci S\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0VGgDT-IzFs",
+      "title": "The da Vinci Si System Overview",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"da Vinci S\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=h9xwznjCB7Q",
+      "title": "da Vinci Si Short Overview.wmv",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"da Vinci S\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "intuitive_da_vinci": [
+    {
+      "url": "https://www.youtube.com/watch?v=HHKEHTr7o3Y",
+      "title": "da Vinci® Robotic Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"da Vinci\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=M4eclQcqhH0",
+      "title": "Do you know how the da Vinci robotic system works?",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"da Vinci\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MxIuOdny2cs",
+      "title": "Introducing da Vinci 5: our most advanced and integrated robotic system—ever.",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"da Vinci\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QUY0Jl-di8k",
+      "title": "Introducing the da Vinci 5: The Latest in Robotic Surgery Technology",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"da Vinci\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cpPofyZbvDw",
+      "title": "Precision da Vinci Robotic Surgery Peels Grape Skin",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"da Vinci\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "computer_motion_zeus": [
+    {
+      "url": "https://www.youtube.com/watch?v=22wzHoZKQ7c",
+      "title": "ZEUS robotic surgical system",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Zeus\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=M7R0GMFK4wk",
+      "title": "ZEUS ROBOT",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Zeus\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GNRJo8CpVGY",
+      "title": "ZEUS ROBOT",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Zeus\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "iss_robodoc": [
+    {
+      "url": "https://www.youtube.com/watch?v=Xo5lE4ISg_M",
+      "title": "RoboDoc",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"ROBODOC\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "medtronic_hugo_ras": [
+    {
+      "url": "https://www.youtube.com/watch?v=Q98BYM1IFKs",
+      "title": "Medtronic Hugo RAS Breaking News - soft tissue robotic surgical system",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 18,
+      "query": "site:youtube.com/watch \"Hugo RAS\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "medicaroid_hinotori": [
+    {
+      "url": "https://www.youtube.com/watch?v=tttERLSL9ws",
+      "title": "Hinotori, the first domestically produced surgical support robot in Yamagata Prefecture",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Hinotori\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "cmr_versius": [
+    {
+      "url": "https://www.youtube.com/watch?v=2Td60ZzzFOA",
+      "title": "Ma.Subramanian inaugurated CMR's Versius Robotic Surgical System at SIMS Hospital, Vadapalani\"",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"cmr versius\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7QhqrtCGN4U",
+      "title": "Ma.Subramanian inaugurated CMR's Versius Robotic Surgical System at SIMS Hospital, Vadapalani\"",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"cmr versius\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=g3VL8U4fU8Y",
+      "title": "Mark Slack, Chief Medical Officer, CMR Surgical | Versius Surgical Robotic System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"Versius\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q15TQfzTwwc",
+      "title": "Minister Ma.Subramanian Inaugurated CMR's Versius Robotic Surgical System @ SIMS Hospital Vadapalani",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"cmr versius\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=554dcliO--s",
+      "title": "|Thiru.Ma.Subramanian inaugurated CMR's Versius Robotic Surgical System at SIMS Hospital,Vadapalani|",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"cmr versius\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "ssii_mantra": [
+    {
+      "url": "https://www.youtube.com/watch?v=EZn3miqMDsY",
+      "title": "MANTRA AT SMSIMSR- World's First Philanthropic Robotic Surgery Program",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Mantra\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NQiLxYCUOTY",
+      "title": "SSI Mantra Robotic Surgery | With Electromagnetic Technology | Preeti Urology & Kidney Hospital.",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Mantra\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pkYyfcuV2bM",
+      "title": "India’s first Surgical Robot SSI Mantra successfully completes 100 surgeries",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Mantra\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "moon_maestro": [
+    {
+      "url": "https://www.youtube.com/watch?v=J8qbzCHWflw",
+      "title": "Ep11 - The Maestro Robot with Anne Osdoit, CEO of Moon Surgical",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Maestro\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=d74g4q9g6n8",
+      "title": "Novel Maestro Robotic Surgical System Extends Limits of Current Laparoscopic Procedures while Im...",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Maestro\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AYMx-x7Z3pQ",
+      "title": "Ep11 - Clip1 - What is the Maestro robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Maestro\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "revolve_R1": [
+    {
+      "url": "https://www.youtube.com/watch?v=jUdFat3D_rs",
+      "title": "Endless Innovation: An R1 Research Institution (1948-1997) | Uncovering Hawkeye History Part 3",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 8,
+      "query": "site:youtube.com/watch \"R1\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "vicarious_v1.0": [
+    {
+      "url": "https://www.youtube.com/watch?v=M5gRF-NNfRo",
+      "title": "How Vicarious Surgical's Miniature Surgical Robot Aims To Re",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"Vicarious Surgical v1.0\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "asensus_senhance": [
+    {
+      "url": "https://www.youtube.com/watch?v=YOEOevyfpd8",
+      "title": "Senhance Robotic surgery system for colon polyps Health wfmz",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Senhance\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Wc4LrltUehw",
+      "title": "SENHANCE: NEW ROBOTIC SURGERY FOR COLON POLYPS",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Senhance\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "asensus_luna": [
+    {
+      "url": "https://www.youtube.com/watch?v=ey9K-A0mxi4",
+      "title": "Asensus Luna Surgical Robotic System -  First Impressions Review",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"LUNA\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MvHEBxRIt80",
+      "title": "Oncological Rehabilitation & Use of Luna EMG Robotic System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"LUNA\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=W3NUpUiZBk4",
+      "title": "Dr. Luna & the da Vinci Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"LUNA\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oVGlSRKT4X8",
+      "title": "Luna EMG Multi-Unit System in Amed Clinic (Poland)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"LUNA\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UxOxzgzp4bQ",
+      "title": "🤖 Robot Mower Hacked, LimX Luna Humanoid Debuts, CMR Versius Hits the US | RoboBrief May 25",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"LUNA\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "titan_enos": [
+    {
+      "url": "https://www.youtube.com/watch?v=29yDQ1Guz5Y",
+      "title": "Enos single port laparoscopic surgical robot Enos single port laparoscopic surgical robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Enos\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "j&j_ottava": [
+    {
+      "url": "https://www.youtube.com/watch?v=nZJ-mL4NiyI",
+      "title": "Johnson and Johnson submits Ottava surgical robot to FDA and surprises everyone",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Ottava\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=g2M6jj6Vzl8",
+      "title": "Ottava : Is this how the arms and workflow work? (JNJs soft tissue surgical robot)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Ottava\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gUgvzGkBzu8",
+      "title": "Why did JNJ choose a de Novo with FDA for their Ottava Surgical Robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Ottava\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=C8zEEIDxeZ8",
+      "title": "🤖 Atlas Bear-Hugs a Fridge, RobotPhoenix HK IPO Pop, J&J Ottava Pivotal Trial | RoboBrief May 21",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Ottava\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CbW_qGYNlfw",
+      "title": "68% of surveyed people think Ottava will not gain significant market share... but",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"Ottava\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "virtuoso_virtuoso": [
+    {
+      "url": "https://www.youtube.com/watch?v=d-m2OIHOb_E",
+      "title": "Redefining Surgery: Virtuoso’s Robotic Precision w/ Dr. Duke Herrell | Innovation Podcast Ep. 64",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"virtuoso virtuoso\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6DeX0QdcqbI",
+      "title": "Redefining Surgery: Virtuoso’s Robotic Precision w/ Dr. Duke Herrell | Urology Podcast Ep. 137",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"virtuoso virtuoso\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5M2S7ZjN3Kc",
+      "title": "Virtuoso Surgical - The Origin Story (Robert Webster)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Virtuoso\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "rob_surgical_bitrack": [
+    {
+      "url": "https://www.youtube.com/watch?v=U-ukv88s2cE",
+      "title": "Bitrack está listo para democratizar la cirugía robótica | economia",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Bitrack\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CAkOZF38UKs",
+      "title": "CMR Robotics Surgical Systems - Live Demonstration at Arab Health 2023",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"Bitrack\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t9ey9jRS1qk",
+      "title": "Robotic Surgery for Surgical Residents: Bedside Assistant Skills",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"rob surgical bitrack\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ynwpaFGok3o",
+      "title": "2025 Surgical Robotics Review with robotics expert Steve Bell",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"rob surgical bitrack\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hEsPEcvcHP0",
+      "title": "Nursing and Robotic Surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"Bitrack\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "force_dimension_sigma": [
+    {
+      "url": "https://www.youtube.com/watch?v=MEU8f0c5ta0",
+      "title": "AIMIS Robotics - Κεντρικό Δελτίο SIGMA",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Sigma\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eHcvjCjV1pU",
+      "title": "AIMIS Robotics Surgeons Sigma TV Interview",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Sigma\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1RMe6GEHB9o",
+      "title": "Project Exoscarne (SIGMA Clermont) - Robot assisted meat cutting for meat industry",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Sigma\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wtTuXZK-RuU",
+      "title": "IROS 2013 - Sigma Hulls for Gaussian Belief Space Planning",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"Sigma\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "haption_virtuoso": [
+    {
+      "url": "https://www.youtube.com/watch?v=d-m2OIHOb_E",
+      "title": "Redefining Surgery: Virtuoso’s Robotic Precision w/ Dr. Duke Herrell | Innovation Podcast Ep. 64",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Virtuoso\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6DeX0QdcqbI",
+      "title": "Redefining Surgery: Virtuoso’s Robotic Precision w/ Dr. Duke Herrell | Urology Podcast Ep. 137",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Virtuoso\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5M2S7ZjN3Kc",
+      "title": "Virtuoso Surgical - The Origin Story (Robert Webster)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Virtuoso\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=emijbWd7ygo",
+      "title": "Virtuoso Surgical Technology - Feb 2019",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Virtuoso\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "quanser_hd2": [
+    {
+      "url": "https://www.youtube.com/watch?v=CP4MD5jAFAE",
+      "title": "RCBP At Work GlobalGrant TB ver HD2,0",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"HD2\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t9ey9jRS1qk",
+      "title": "Robotic Surgery for Surgical Residents: Bedside Assistant Skills",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"quanser hd2\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "haply_inverse3": [
+    {
+      "url": "https://www.youtube.com/watch?v=R05ahE1_w3U",
+      "title": "Haptics Club #19 Surgical Robotics & Haptic Perception with Antoine Weill-Duflos of Haply",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"Inverse3\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "noah_galaxy": [
+    {
+      "url": "https://www.youtube.com/watch?v=AS0ojUFEVz0",
+      "title": "Episode #34 Matt Penny on Shaping Innovators and Noah Medical’s Galaxy System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"noah galaxy\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J5h9tUtXqn0",
+      "title": "OCTOBER 2025 | From Limitations to Innovation Evolution of Robotics with the Galaxy System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"noah galaxy\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lFAWDJAR-VE",
+      "title": "The Galaxy System at Cheyenne Regional and Lung Cancer Detection",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 11,
+      "query": "site:youtube.com/watch \"Galaxy\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "intuitive_ion": [
+    {
+      "url": "https://www.youtube.com/watch?v=n-X1-nQOXNA",
+      "title": "Da Vinci Xi System overview: Explanation of robotic system parts, instruments, docking, console use",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Ion\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0IyTAXsFoMQ",
+      "title": "Robotic Bronchoscopy Ion by Intuitive",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"intuitive ion\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=snV5eN_X7gw",
+      "title": "Huntsman Cancer Institute uses new less invasive ION robotic surgery, shortening recovery time for p",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Ion\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aPxBRE3fgyw",
+      "title": "Robotic Lung Surgery & Ion Bronchoscopy: How Tech is Changing Cancer Care",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Ion\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "j&j_monarch": [
+    {
+      "url": "https://www.youtube.com/watch?v=x69l0XzWF3c",
+      "title": "NOV 2025 | MONARCH QUEST: Navigating to Unchartered Territories",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Monarch Quest\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2RFE9xKOV4s",
+      "title": "Overview of the Monarch Robotic Bronchoscopy Platform",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"j j monarch\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "stryker_mako": [
+    {
+      "url": "https://www.youtube.com/watch?v=fWcb_KCc_l4",
+      "title": "Ballad Health Robotic Surgery — Mako Overview",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Mako\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jJkwhm4jOdo",
+      "title": "Joyce Majors - Stryker Mako robot surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"stryker mako\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zHrGyiNQPpU",
+      "title": "Mako Robotic Surgical System at Maury Regional Medical Center",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"stryker mako\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MsCMdV5EhRU",
+      "title": "Stryker Mako Robot-Assisted Orthopedic Surgical Device in use at Newman Regional Health",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Mako\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "j&j_velys": [
+    {
+      "url": "https://www.youtube.com/watch?v=tavgJH178Sw",
+      "title": "Bryan Medical Center Performs First VELYS Robotic-Assisted Knee Replacement Surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Velys\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=I6kIgTxujsc",
+      "title": "VELYS™ Robotic-Assisted Solution at St. Cloud Surgical Center",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"Velys\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "think_surgical_t_mini": [
+    {
+      "url": "https://www.youtube.com/watch?v=424DY--TPbs",
+      "title": "THINK Surgical, TMINI miniature robotic system - Surgical robotic development partner",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 18,
+      "query": "site:youtube.com/watch \"think surgical t mini\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HJTcemJrdTY",
+      "title": "Early Experiences with the TMINI™ Miniature Robotic System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 15,
+      "query": "site:youtube.com/watch \"think surgical t mini\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iKtFpqajEW0",
+      "title": "How Robotics Can Enable Choice in TKA with the TMINI® Miniature Robotic System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 15,
+      "query": "site:youtube.com/watch \"TMINI\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VyDkA8rtMZ0",
+      "title": "Patient Testimonial - TMINI® Miniature Robotic System & Dr. James Womack",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 15,
+      "query": "site:youtube.com/watch \"think surgical t mini\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "curexo_cuvis_joint": [
+    {
+      "url": "https://www.youtube.com/watch?v=zdA8G3vWFCQ",
+      "title": "CUVIS Joint Robotic System for Knee Replacement Surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 8,
+      "query": "site:youtube.com/watch \"Cuvis-joint\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "curexo_cuvis_spine": [
+    {
+      "url": "https://www.youtube.com/watch?v=kQNy7G4zwGc",
+      "title": "[마로솔] 큐렉소 척추수술로봇 CUVIS-Spine",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Cuvis-spine\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iin2tISVXUw",
+      "title": "Benefits of CUVIS Joint Robot System | Dr. Sujoy Bhattacharjee",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"Cuvis-spine\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "ecential_robotics_platform": [
+    {
+      "url": "https://www.youtube.com/watch?v=AORsclxOytQ",
+      "title": "POINT™ Kinguide Robotic-Assisted Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"eCential Robotics\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "acusurgical_luca": [
+    {
+      "url": "https://www.youtube.com/watch?v=ZAhsnfnM88o",
+      "title": "Robotics 1 - Prof. De Luca Lecture 12 (24 Oct 2014)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Luca\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VZSkq3wDC10",
+      "title": "Caserta Hospital: De Luca inaugurates new high-tech operating suite (July 15, 2025)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"Luca\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jxNJpEdXcHc",
+      "title": "Interview with Luca Morelli - University of Pisa (Italy)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"Luca\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "mmi_symani": [
+    {
+      "url": "https://www.youtube.com/watch?v=tpXUAnmxw8s",
+      "title": "Connecting Life | Symani® Surgical System features",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Symani\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "raven_II": [
+    {
+      "url": "https://www.youtube.com/watch?v=kJYtxOMn7IU",
+      "title": "How To Re-Cable a Raven II Surgical Robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"raven II\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tR5C1d_fhJ8",
+      "title": "Raven II surgical robot block transfer - UW BRL",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"raven II\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7Tb6gAKDFhA",
+      "title": "Suturing in simulation with Raven II surgical robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"raven II\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "biobot_mona_lisa": [
+    {
+      "url": "https://www.youtube.com/watch?v=xA7Z_K8FUps",
+      "title": "Biobot Mona Lisa Transperineal Prostate Biopsy for Prostate Cancer Screening",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Mona Lisa\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RUgv5mY8h2w",
+      "title": "da Vinci (robot) painting Mona Lisa, supporting better minimally invasive surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Mona Lisa\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "medbot_toumai": [
+    {
+      "url": "https://www.youtube.com/watch?v=QRe61E2UjRo",
+      "title": "Everything You Need to Know About Robotic Surgery | Medbot TOUMAI",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 15,
+      "query": "site:youtube.com/watch \"Toumai\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mm-xt6J93ZU",
+      "title": "A New Milestone for Robotic Surgery in Argentina #surgical #Toumai #future",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Toumai\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qp9jCAX3CtI",
+      "title": "Nigeria’s First Toumai® Robotic Surgery Platform Launched at Nisa Premier Hospital #robot #Surgical",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"medbot toumai\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=McUeyJxpRkQ",
+      "title": "North India's First Toumai Robotic Surgery System Arrives at Neelam Hospital",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Toumai\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "medbot_skywalker": [
+    {
+      "url": "https://www.youtube.com/watch?v=cp94lTkrveA",
+      "title": "INDIA'S FIRST Medbot Toumai Robotic Surgery System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"MedBot Skywalker\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mm-xt6J93ZU",
+      "title": "A New Milestone for Robotic Surgery in Argentina #surgical #Toumai #future",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"MedBot Skywalker\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t9ey9jRS1qk",
+      "title": "Robotic Surgery for Surgical Residents: Bedside Assistant Skills",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"MedBot Skywalker\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "ronovo_carina": [
+    {
+      "url": "https://www.youtube.com/watch?v=tlJN2QWe7SI",
+      "title": "Ronovo Surgical Carina soft tissue robotic system - a review",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 16,
+      "query": "site:youtube.com/watch \"ronovo carina\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WghB0Xb7ZaE",
+      "title": "Ronovo Surgical Carina RAS - a Review",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"ronovo carina\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mT6Pnu1p_vs",
+      "title": "Robotic Platforms Showdown: Medbot vs Mantra SSI vs Carina",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"Carina\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Wt7WdxNYKxM",
+      "title": "How Ronovo Surgical is targeting China’s MIS surgical market with modular surgical robotic system",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"ronovo carina\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "edge_multi_port": [
+    {
+      "url": "https://www.youtube.com/watch?v=VjCi6YItVX4",
+      "title": "Advancements in Telesurgery: Edge Medical’s Remote Surgical Innovations",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"Edge Multi-Port\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "edge_single_port": [
+    {
+      "url": "https://www.youtube.com/watch?v=iC0MIbKNi9k",
+      "title": "da Vinci SP: Single Port Surgical Robotic System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 8,
+      "query": "site:youtube.com/watch \"edge single port\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-jm63JdTrp4",
+      "title": "Intuitive Surgical da Vinci Sp Single Port Robotic Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 8,
+      "query": "site:youtube.com/watch \"Edge Single-Port\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Apfw8yAd6mw",
+      "title": "The Future of Robotic Surgery: Single-Port vs Multiport Debate",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 7,
+      "query": "site:youtube.com/watch \"edge single port\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JmY1C2nN5iY",
+      "title": "What is single port robotic surgery?",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 7,
+      "query": "site:youtube.com/watch \"Edge Single-Port\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=u0Rf9vtD6OQ",
+      "title": "Edge Medical SP1000 Single Port vs da Vinci SP - comparisons",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 6,
+      "query": "site:youtube.com/watch \"edge single port\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "neocis_yomi": [
+    {
+      "url": "https://www.youtube.com/watch?v=Zs75nxgyHcs",
+      "title": "Robotic Guided Surgery with Yomi (Part 1 of 2)",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"neocis yomi\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HNQleb4MAWA",
+      "title": "Spectrum News Interview-YOMI Dental Implant Robotic assisted surgery",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"neocis yomi\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "distalmotion_dexter": [
+    {
+      "url": "https://www.youtube.com/watch?v=bjF1GT61eII",
+      "title": "Distalmotion and Dexter (The soft tissue surgical robot) with CEO Greg Roche",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Dexter\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZmAlSEGf-Ak",
+      "title": "Inside the OR with DEXTER® Robotic Surgery System – Interview with Julie Holihan, MD",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Dexter\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "momentis_anovo": [
+    {
+      "url": "https://www.youtube.com/watch?v=v1Q2sh7EP2w",
+      "title": "Anovo Robotic Surgical System - Erica Stockwell, DO",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"Anovo\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0ywJ1QDpJl0",
+      "title": "How Momentis Surgical and EndoQuest Robotics are extending surgical robotics reach into the body",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"momentis anovo\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "zimmer_rosa": [
+    {
+      "url": "https://www.youtube.com/watch?v=8q_LxKWZ5HY",
+      "title": "Minimally Invasive Joint Sparing Robotic Knee Replacement with Zimmer Biomet's ROSA©",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 14,
+      "query": "site:youtube.com/watch \"ROSA\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_i0qNurcLT4",
+      "title": "ROSA: Robotic assistant in knee replacement surgeries",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 12,
+      "query": "site:youtube.com/watch \"ROSA\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "surgerii_shurui": [
+    {
+      "url": "https://www.youtube.com/watch?v=kUQIhYHAR9k",
+      "title": "Single port robotic surgery in Lanzhou training center with Shurui robot",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"SHURUI\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DnrwGtLVX1U",
+      "title": "🌐 A Glimpse into the Future of Surgery (SHURUI Robotics)🤖#shorts",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 13,
+      "query": "site:youtube.com/watch \"SHURUI\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "renishaw_neuromate": [
+    {
+      "url": "https://www.youtube.com/watch?v=t9ey9jRS1qk",
+      "title": "Robotic Surgery for Surgical Residents: Bedside Assistant Skills",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"Neuromate Gen III\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "lem_dynamis": [
+    {
+      "url": "https://www.youtube.com/watch?v=g74xlF_tZng",
+      "title": "Spinal Surgery Robot - LEM Surgical Dynamics",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"lem dynamis\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "sagebot_kangduo": [
+    {
+      "url": "https://www.youtube.com/watch?v=Io5lmRE50Vg",
+      "title": "Robotic Surgical  Innovation & Development Forum and  KANGDUO® Global Distributor Annual Workshop",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"KANGDUO SR2000\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-P_2QWjRAWA",
+      "title": "Witnessing a New Era of Robotic Surgery in Kazakhstan: Sagebot on National TV!",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 5,
+      "query": "site:youtube.com/watch \"KANGDUO SR2000\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YUNvD0d3NFQ",
+      "title": "Successful Hands-On Workshop in Brazil Showcases the Precision of the Kangduo® SR2000!",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"KANGDUO SR2000\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "ln_robotics_aviar": [
+    {
+      "url": "https://www.youtube.com/watch?v=HHKEHTr7o3Y",
+      "title": "da Vinci® Robotic Surgical System",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"MX-01\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t9ey9jRS1qk",
+      "title": "Robotic Surgery for Surgical Residents: Bedside Assistant Skills",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 4,
+      "query": "site:youtube.com/watch \"AVIAR\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "microsure_musa_3": [
+    {
+      "url": "https://www.youtube.com/watch?v=1EpMs7T34E0",
+      "title": "Microsure's MUSA",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 9,
+      "query": "site:youtube.com/watch \"MUSA-3\" \"surgical robot\"",
+      "rejected_at": "2026-06-04"
+    }
+  ],
+  "livsmed_stark": [
+    {
+      "url": "https://www.youtube.com/watch?v=qtkOXv9QyKI",
+      "title": "Christopher Stark, M.D.",
+      "provider": "youtube",
+      "reason": "not relevant",
+      "score": 10,
+      "query": "site:youtube.com/watch \"STARK\" \"robotic surgery\"",
+      "rejected_at": "2026-06-04"
+    }
+  ]
+}

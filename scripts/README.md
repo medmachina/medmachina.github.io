@@ -150,6 +150,100 @@ Example: `--prefix edge` validates only `edge_multi_port` and `edge_single_port`
 
 ---
 
+### `update_robot_videos.py`
+
+Validates and interactively updates video entries in `robots.json` with checks specific to YouTube/Vimeo curation.
+
+**Features:**
+- Validates `videos[]` structure for robot entries that include videos
+- Extracts YouTube/Vimeo video IDs and reports canonical URLs
+- Verifies supported providers match the current UI embed behavior
+- Reports missing titles, provider-title mismatches, duplicate videos, and titles that do not clearly match the robot name/id
+- Optionally checks video availability through YouTube/Vimeo oEmbed endpoints
+- Interactive mode for deleting failed videos, previewing/renaming videos that need review, and reviewing/adding search candidates
+- Search mode for discovering candidate new videos from provider-specific web searches
+- Supports focused validation by robot ID prefix
+
+**Usage:**
+
+```bash
+# Validate all robot video links, including YouTube/Vimeo availability checks
+python3 scripts/update_robot_videos.py
+
+# Run local-only checks without network requests
+python3 scripts/update_robot_videos.py --no-network
+
+# Show passing entries too
+python3 scripts/update_robot_videos.py --show-passed
+
+# Validate a specific robot/manufacturer prefix
+python3 scripts/update_robot_videos.py --prefix titan
+
+# Treat REVIEW results as CI failures
+python3 scripts/update_robot_videos.py --strict
+
+# Interactively curate FAIL and REVIEW entries
+python3 scripts/update_robot_videos.py --interactive
+
+# Run an interactive session without opening browser previews
+python3 scripts/update_robot_videos.py --interactive --no-open
+
+# Save interactive edits to another file instead of overwriting robots.json
+python3 scripts/update_robot_videos.py --interactive --output reviewed-robots.json
+
+# Create public/robots.json.bak before writing interactive edits
+python3 scripts/update_robot_videos.py --interactive --backup
+
+# Search for candidate new videos, without modifying robots.json
+python3 scripts/update_robot_videos.py --search --prefix intuitive_da_vinci_5
+
+# Search YouTube, Vimeo, and Dailymotion candidates
+python3 scripts/update_robot_videos.py --search --providers youtube,vimeo,dailymotion --prefix 'j&j'
+
+# Tune search breadth and strictness
+python3 scripts/update_robot_videos.py --search --search-limit 3 --search-min-score 8
+
+# Run a very gentle unattended search to reduce 403/429 throttling
+python3 scripts/update_robot_videos.py --search --search-delay 15 --search-backoff 300 --search-retries 2
+
+# Search, preview candidates, and add accepted YouTube/Vimeo links
+python3 scripts/update_robot_videos.py --search --interactive --prefix stryker
+
+# Review search candidates but write accepted links to a separate file
+python3 scripts/update_robot_videos.py --search --interactive --output reviewed-robots.json --prefix stryker
+
+# Ignore the rejected-video file for a one-off search
+python3 scripts/update_robot_videos.py --search --no-rejected-filter --prefix stryker
+```
+
+**Interactive Mode:**
+- `FAIL` entries prompt for `(k)eep` or `(d)elete`
+- `REVIEW` entries open in the default web browser, then prompt for `(k)eep`, `(d)elete`, or `(r)ename`
+- Rename prompts default to the provider title when YouTube/Vimeo oEmbed metadata is available
+- Changes are summarized before the script asks whether to write them
+
+**Search Mode:**
+- `--search` by itself is report-only and never modifies `robots.json`
+- Default providers are YouTube and Vimeo; Dailymotion can be included with `--providers dailymotion`
+- Candidates are found via direct YouTube search and provider-scoped web searches, canonicalized, deduplicated against existing videos, and scored by robot-name/alias/context matches
+- Search requests sleep between HTTP calls (`--search-delay`, default 5s) and back off after HTTP 403/429 (`--search-backoff`, default 60s)
+- `--search --interactive` opens each candidate for preview and prompts for `(a)dd`, `(r)ename+add`, `(s)kip`, `(x)reject`, or `(q)uit`
+- `(s)kip` ignores a candidate only for the current run; `(x)reject` records it in `public/rejected-video.json`
+- Search filters out candidates listed in `public/rejected-video.json` unless `--no-rejected-filter` is used
+- Interactive search additions respect the schema maximum of 4 videos per robot
+- Accepted search additions are written in relevance-score order, with existing videos on affected robots re-sorted by the same heuristic
+- Dailymotion is search-only by default because the current app embed path supports YouTube/Vimeo
+- Use `--prefix` for focused searches; searching every robot can take a while
+
+**Result Categories:**
+- `PASS`: URL parses, provider is supported, and metadata/title checks look sane
+- `REVIEW`: Link may be usable, but needs human curation (for example, missing title or weak title match)
+- `FAIL`: Malformed URL, unsupported provider, duplicate within one robot, or unavailable oEmbed result
+
+**Dependencies:** `requests`, `beautifulsoup4`
+
+---
+
 ### `update_companies.py`
 
 Enriches company data in `companies.json` with external metadata sources while validating existing URLs.

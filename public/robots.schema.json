@@ -372,8 +372,8 @@
         "items": {
           "$ref": "#/$defs/VideoEntry"
         },
-        "maxItems": 3,
-        "description": "Maximum of 3 official system overview or technique videos from the manufacturer."
+        "maxItems": 4,
+        "description": "Maximum of 4 official system overview or technique videos from the manufacturer."
       },
       "tags": {
         "type": "array",
