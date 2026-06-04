@@ -41,6 +41,28 @@
         </div>
       </div>
     </div>
+    
+    <!-- Video Gallery Section -->
+    <div v-if="projectVideos.length > 0" class="video-gallery">
+      <h3 class="mt-4 mb-3">Videos</h3>
+      <div class="video-grid">
+        <div
+          v-for="(video, index) in projectVideos"
+          :key="index"
+          class="video-item"
+        >
+          <div class="iframe-container">
+            <iframe 
+              :src="getVideoEmbedUrl(video.url)" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div v-if="video.title" class="video-title text-center mt-2">{{ video.title }}</div>
+        </div>
+      </div>
+    </div>
 
     <div v-if="projectTags.length > 0" class="tags-section">
       <h3 class="mt-4 mb-3">Tags</h3>
@@ -309,8 +331,42 @@ const filteredProject = computed(() => {
   delete filtered.photo_urls; // Remove photo_urls as displayed separately
   delete filtered.tags; // Remove tags as displayed separately
   delete filtered.urls; // Remove urls as displayed separately
+  delete filtered.photos;
+  delete filtered.videos;
   return filtered;
 });
+
+// Computed property to extract videos
+const projectVideos = computed(() => {
+  if (!project.value?.videos) return [];
+  if (Array.isArray(project.value.videos)) {
+    return project.value.videos.filter(v => v && v.url);
+  }
+  return [];
+});
+
+function getVideoEmbedUrl(url) {
+  try {
+    const urlObj = new URL(url);
+    if (urlObj.hostname.includes('youtube.com') || urlObj.hostname.includes('youtu.be')) {
+      let videoId = '';
+      if (urlObj.hostname.includes('youtu.be')) {
+        videoId = urlObj.pathname.substring(1);
+      } else {
+        videoId = urlObj.searchParams.get('v');
+      }
+      return `https://www.youtube.com/embed/${videoId}`;
+    }
+    if (urlObj.hostname.includes('vimeo.com')) {
+      const parts = urlObj.pathname.split('/');
+      const videoId = parts[parts.length - 1];
+      return `https://player.vimeo.com/video/${videoId}`;
+    }
+    return url;
+  } catch (e) {
+    return url;
+  }
+}
 
 // Split description into paragraphs by double newlines. Keeps text escaped (no v-html).
 const descriptionParagraphs = computed(() => {
@@ -454,6 +510,40 @@ function getShortDomain(url) {
   display: block;
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.video-gallery {
+  margin-bottom: 2rem;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+}
+.video-item {
+  display: flex;
+  flex-direction: column;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-title {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-weight: 500;
 }
 
 .photo-link {

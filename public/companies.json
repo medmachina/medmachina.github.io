@@ -580,7 +580,7 @@
     "linkedin_url": "https://www.linkedin.com/company/neocis/",
     "opencorporates_url": "https://opencorporates.com/companies/us_de/5215368",
     "robots": [
-      "neocis_yomo"
+      "neocis_yomi"
     ],
     "description": "Neocis is based in Miami, Florida, USA."
   },
@@ -773,5 +773,43 @@
       "ln_robotics_aviar"
     ],
     "description": "LN Robotics is based in South Korea."
+  },
+  {
+    "name": "Microsure",
+    "country": "Netherlands",
+    "urls": [
+      {
+        "caption": "Microsure",
+        "url": "https://www.microsure.nl"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/microsure-b.v./",
+    "opencorporates_url": "",
+    "robots": [
+      "microsure_musa_3"
+    ],
+    "description": "Microsure B.V. is a medical robotics company based in Eindhoven, Netherlands. Spin-off from Eindhoven University of Technology (TU/e) and Maastricht University Medical Center+ (MUMC+). Specializes in robotic systems for micro- and super-microsurgery.",
+    "founded_year": "2016"
+  },
+  {
+    "name": "LIVSMED",
+    "country": "South Korea",
+    "urls": [
+      {
+        "caption": "LIVSMED",
+        "url": "https://www.livsmed.com"
+      },
+      {
+        "caption": "LIVSMED US",
+        "url": "https://www.livsmed.us"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/livsmed/",
+    "opencorporates_url": "",
+    "robots": [
+      "livsmed_stark"
+    ],
+    "description": "LIVSMED Inc. is a global medical device company based in Seongnam, South Korea. Specializes in multi-joint handheld laparoscopic surgical instruments (ArtiSential line) and surgical robotics. IPO on KOSDAQ December 2025.",
+    "founded_year": "2011"
   }
 ]

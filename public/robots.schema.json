@@ -38,6 +38,23 @@
       },
       "additionalProperties": false
     },
+    "VideoEntry": {
+      "type": "object",
+      "description": "Robot video entry with a URL to a video service (YouTube, Vimeo).",
+      "required": [
+        "url"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
     "RegulatoryEntry": {
       "type": "object",
       "required": [
@@ -349,6 +366,14 @@
         "items": {
           "$ref": "#/$defs/PhotoEntry"
         }
+      },
+      "videos": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/VideoEntry"
+        },
+        "maxItems": 3,
+        "description": "Maximum of 3 official system overview or technique videos from the manufacturer."
       },
       "tags": {
         "type": "array",

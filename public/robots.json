@@ -387,12 +387,7 @@
         "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
       }
     ],
-    "photos": [
-      {
-        "url": "https://www.researchgate.net/profile/Elizabeth-Dawe/publication/227203277/figure/fig1/AS:393629559476228@1470860008379/Zeus-surgical-robot-a-Zeus-surgical-telemanipulator-system-Surgeon-sits-at-control_W640.jpg",
-        "site": "https://www.researchgate.net/publication/227203277_Robotic_endoscopic_surgery_in_a_porcine_model_of_the_infant_neck"
-      }
-    ],
+    "photos": [],
     "tags": [
       "RAMIS",
       "Multiple ports",
@@ -502,6 +497,10 @@
       {
         "url": "https://www.medtronic.com/content/dam/medtronic-com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system-module.jpg",
         "site": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+      },
+      {
+        "url": "https://www.medtronic.com/content/dam/medtronic-com/global/corporate/newsroom/media-kits/robotics/hugo-ras-system-overview.jpg",
+        "caption": "Hugo RAS"
       }
     ],
     "tags": [
@@ -697,6 +696,10 @@
       {
         "url": "https://moonsurgical.com/uploads//transforms/images/_default/754/Scene-1-2_2024-07-02-115704_eylh.webp",
         "site": "https://moonsurgical.com/maestro-system"
+      },
+      {
+        "url": "https://mma.prnewswire.com/media/2721647/Maestro_System_by_Moon_Surgical.jpg",
+        "caption": "Maestro"
       }
     ],
     "tags": [
@@ -842,19 +845,28 @@
         "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
       }
     ],
-    "photos": [
-      {
-        "url": "https://d1io3yog0oux5.cloudfront.net/_9d1a3f5f5f8e9d4b2e1d9c2f9f7b8a54/titanmedical/db/1130/thumbnail.jpg",
-        "site": "https://titanmedicalinc.com"
-      }
-    ],
+    "photos": [],
     "tags": [
       "RAMIS",
       "Commercial"
     ],
     "usages": [],
     "description": "",
-    "also_known_as": []
+    "also_known_as": [],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=kYJv1l44_8k",
+        "title": "Enos Robotic Single Access Surgery System"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3-w9aJ6_QG4",
+        "title": "Titan Medical - Robotic Single Access Surgery"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=P21rM7020o4",
+        "title": "The Future of Robotic Single Access Surgery | Titan Medical"
+      }
+    ]
   },
   {
     "name": "Ottava",
@@ -1223,7 +1235,17 @@
       "Bronchoscopy"
     ],
     "description": "Used with C-Arm/CBCT.",
-    "also_known_as": []
+    "also_known_as": [],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=4qjTs_FHZN8",
+        "title": "MONARCH Platform Robotic-Assisted Bronchoscopy Overview"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jiDZM4LHarE",
+        "title": "J&J MedTech MONARCH Platform Surgeon Testimonials"
+      }
+    ]
   },
   {
     "name": "Mako",
@@ -1789,12 +1811,12 @@
     "also_known_as": []
   },
   {
-    "name": "Yomo",
-    "id": "neocis_yomo",
+    "name": "Yomi",
+    "id": "neocis_yomi",
     "introduction_year": 2024,
     "urls": [
       {
-        "caption": "Neocis, Yomo",
+        "caption": "Neocis, Yomi",
         "url": "https://www.neocis.com/products-and-services/yomi-robot/"
       }
     ],
@@ -2018,8 +2040,7 @@
     ],
     "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
     "also_known_as": []
-  }
-  ,
+  },
   {
     "name": "KANGDUO SR2000",
     "id": "sagebot_kangduo",
@@ -2130,5 +2151,70 @@
       "Commercial",
       "Teleoperated"
     ]
+  },
+  {
+    "name": "MUSA-3",
+    "id": "microsure_musa_3",
+    "also_known_as": [
+      "MUSA"
+    ],
+    "introduction_year": 2026,
+    "description": "Third-generation robotic microsurgery platform for open super-microsurgery. The MUSA-3 translates a surgeon's hand movements into ultra-precise, tremor-free motions, enabling suturing of vessels as small as 0.3 mm. Features up to 20\u00d7 motion scaling and proprietary tremor filtering. Uniquely, surgeons can use their own preferred standard microsurgical instruments from various brands via disposable adapters \u2014 no proprietary instruments required. Built on clinical experience from the MUSA and MUSA-2 platforms (first-in-human 2017, ~50 patient clinical studies). The system consists of a surgeon console with ergonomic joysticks and a robotic arm cart, both operating under a surgical microscope or 3D exoscope.",
+    "urls": [
+      {
+        "caption": "Microsure",
+        "url": "https://www.microsure.nl"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://microsure.nl/wp-content/uploads/2023/09/Microsure_Render_04.jpg",
+        "site": "https://www.microsure.nl"
+      }
+    ],
+    "tags": [
+      "Open microsurgery",
+      "Teleoperated",
+      "2 instruments",
+      "Open console",
+      "Commercial"
+    ],
+    "usages": [],
+    "regulatory": [
+      {
+        "body": "CE",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "name": "STARK",
+    "id": "livsmed_stark",
+    "also_known_as": [],
+    "introduction_year": 2026,
+    "description": "A laparoscopic surgical robot developed by LIVSMED. The system features a modular architecture consisting of two carts, each equipped with two robotic arms (four arms total). It utilizes the 90\u00b0 articulating multi-joint technology from LIVSMED's ArtiSential handheld instrument line, and is designed to support remote telesurgery operations. Long-distance telesurgery has been demonstrated in trials between Santa Barbara and Chicago. As of mid-2026, the system is in a pre-commercial phase with animal clinical trials underway.",
+    "urls": [
+      {
+        "caption": "LIVSMED",
+        "url": "https://www.livsmed.com"
+      },
+      {
+        "caption": "LIVSMED US",
+        "url": "https://www.livsmed.us"
+      }
+    ],
+    "photos": [],
+    "tags": [
+      "RAMIS",
+      "Teleoperated",
+      "Multiple patient carts",
+      "Multiple ports",
+      "3+ instruments",
+      "Wristed instruments"
+    ],
+    "usages": [
+      "Abdominal"
+    ],
+    "regulatory": []
   }
 ]

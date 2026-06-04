@@ -1674,5 +1674,109 @@
       "product_code": "OLO",
       "panel": "NE"
     }
+  ],
+  "j&j_monarch": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231473",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
+  ],
+  "moon_maestro": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242323",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "QZB",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.moonsurgical.com/news/moon-surgical-obtains-ce-mark-for-its-maestro-system/",
+      "body": "CE",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "neocis_yomi": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252376",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "PLV",
+      "panel": "DE"
+    }
+  ],
+  "curexo_cuvis_joint": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252037",
+      "body": "FDA 510k",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.prnewswire.co.uk/news-releases/curexo-obtains-ce-mark-for-its-artificial-joint-surgical-robot-cuvis-joint-886989445.html",
+      "body": "CE",
+      "year": 2021,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "medbot_toumai": [
+    {
+      "url": "https://en.medbotsurgical.com/news/",
+      "body": "CE",
+      "year": 2024,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "microsure_musa_3": [
+    {
+      "url": "https://microsure.nl/news/musa-3-ce-mark-approved-microsure-announces-new-ceo/",
+      "body": "CE",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "avatera_avatera": [
+    {
+      "url": "https://www.tennor.com/avateramedical-gmbh-receives-ce-mark-for-avatera-system-for-robot-assisted-minimally-invasive-surgery/",
+      "body": "CE",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "cornerstone_sentire": [
+    {
+      "url": "https://en.csrbtx.com/news/",
+      "body": "CE",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "edge_multi_port": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/edge-medical-obtains-ce-mark-for-its-super-system-msp2000-multi-port-robotic-surgical-system-302300000.html",
+      "body": "CE",
+      "year": 2025,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "edge_single_port": [
+    {
+      "url": "https://www.vcbeathealth.com/news/edge-medical-receives-ce-certification-for-single-port-robot-and-multi-port-robotic-surgical-system/",
+      "body": "CE",
+      "year": 2025,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }
