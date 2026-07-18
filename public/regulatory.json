@@ -48,6 +48,13 @@
       "year": 2025,
       "product_code": "NAY",
       "panel": "GU"
+    },
+    {
+      "url": "https://www.intuitivesurgical.com/company/news-and-events/news/2025-07-02-intuitive-receives-ce-mark-for-da-vinci-5",
+      "body": "CE",
+      "year": 2025,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "intuitive_da_vinci_SP": [
@@ -218,6 +225,13 @@
       "year": 2025,
       "product_code": "NAY",
       "panel": "GU"
+    },
+    {
+      "url": "https://www.fiercebiotech.com/medtech/intuitive-surgical-da-vinci-sp-robot-earns-ce-mark-europe",
+      "body": "CE",
+      "year": 2024,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "intuitive_da_vinci_X": [
@@ -488,6 +502,13 @@
       "year": 2018,
       "product_code": "NAY",
       "panel": "GU"
+    },
+    {
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci",
+      "body": "CE",
+      "year": 2014,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "intuitive_da_vinci_Si": [
@@ -759,6 +780,20 @@
       "year": 2025,
       "product_code": "SCV",
       "panel": "SU"
+    },
+    {
+      "url": "https://news.medtronic.com/2021-10-11-Medtronic-Receives-CE-Mark-for-Hugo-RAS-System",
+      "body": "CE",
+      "year": 2021,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://news.medtronic.com/2022-10-19-Medtronic-Receives-CE-Mark-for-Hugo-RAS-System-for-General-Surgery",
+      "body": "CE",
+      "year": 2022,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "cmr_versius": [
@@ -775,6 +810,20 @@
       "year": 2025,
       "product_code": "SCV",
       "panel": "SU"
+    },
+    {
+      "url": "https://cmrsurgical.com/news/cmr-surgical-receives-ce-marking-for-versius/",
+      "body": "CE",
+      "year": 2019,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cmr-surgical-versius-pediatric-ce-ukca-mark/",
+      "body": "UKCA",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "asensus_senhance": [
@@ -875,6 +924,20 @@
       "year": 2022,
       "product_code": "NAY",
       "panel": "GU"
+    },
+    {
+      "url": "https://www.meddeviceonline.com/doc/transenterix-acquires-robotic-surgery-assets-from-sofar-0001",
+      "body": "CE",
+      "year": 2015,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.nsmedicaldevices.com/news/asensus-surgical-senhance-ce-mark-mdr/",
+      "body": "CE MDR",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "noah_galaxy": [
@@ -1163,6 +1226,13 @@
       "year": 2024,
       "product_code": "OLO",
       "panel": "OR"
+    },
+    {
+      "url": "https://www.jnjmedtech.com/en-US/patient/velys",
+      "body": "CE",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "think_surgical_t_mini": [
@@ -1288,6 +1358,13 @@
       "year": 2024,
       "product_code": "SAQ",
       "panel": "SU"
+    },
+    {
+      "url": "https://www.mmimicro.com/symani-surgical-system/",
+      "body": "CE",
+      "year": 2019,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "biobot_mona_lisa": [
@@ -1348,6 +1425,13 @@
       "year": 2024,
       "product_code": "SDD",
       "panel": "SU"
+    },
+    {
+      "url": "https://www.distalmotion.com/news/distalmotion-receives-ce-mark-for-dexter-surgical-robot",
+      "body": "CE",
+      "year": 2020,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "momentis_anovo": [
@@ -1576,6 +1660,13 @@
       "year": 2024,
       "product_code": "OLO",
       "panel": "NE"
+    },
+    {
+      "url": "https://www.therobotreport.com/zimmer-biomet-rosa-robotic-surgery-history/",
+      "body": "CE",
+      "year": 2014,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "renishaw_neuromate": [
@@ -1599,6 +1690,20 @@
       "year": 2018,
       "product_code": "HAW",
       "panel": "NE"
+    },
+    {
+      "url": "https://www.renishaw.com/en/neuromate-receives-updated-ce-marking-under-mdr--64459",
+      "body": "CE",
+      "year": 1997,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.renishaw.com/en/neuromate-receives-updated-ce-marking-under-mdr--64459",
+      "body": "CE MDR",
+      "year": 2022,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "lem_dynamis": [
@@ -1673,6 +1778,13 @@
       "year": 2025,
       "product_code": "OLO",
       "panel": "NE"
+    },
+    {
+      "url": "https://www.selbyspine.org/mazor-x-surgical-assurance-platform-receives-ce-mark-approval",
+      "body": "CE",
+      "year": 2017,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "j&j_monarch": [
@@ -1695,6 +1807,13 @@
     {
       "url": "https://www.moonsurgical.com/news/moon-surgical-obtains-ce-mark-for-its-maestro-system/",
       "body": "CE",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20230906447126/en/Moon-Surgical-Receives-CE-Mark-Under-MDR-for-Maestro-System",
+      "body": "CE MDR",
       "year": 2023,
       "product_code": "",
       "panel": ""
@@ -1745,9 +1864,9 @@
   ],
   "avatera_avatera": [
     {
-      "url": "https://www.tennor.com/avateramedical-gmbh-receives-ce-mark-for-avatera-system-for-robot-assisted-minimally-invasive-surgery/",
+      "url": "https://avatera.eu/avateramedical-gmbh-receives-ce-mark/",
       "body": "CE",
-      "year": 2023,
+      "year": 2019,
       "product_code": "",
       "panel": ""
     }
@@ -1775,6 +1894,33 @@
       "url": "https://www.vcbeathealth.com/news/edge-medical-receives-ce-certification-for-single-port-robot-and-multi-port-robotic-surgical-system/",
       "body": "CE",
       "year": 2025,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "medicaroid_hinotori": [
+    {
+      "url": "https://www.medicaroid.com/en/release/2026/0709.html",
+      "body": "CE MDR",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "rob_surgical_bitrack": [
+    {
+      "url": "https://www.surgicalroboticstechnology.com/news/rob-surgical-receives-ce-mark-for-rob-surgical-robot/",
+      "body": "CE",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "ecential_robotics_platform": [
+    {
+      "url": "https://ecential-robotics.com/regulatory/",
+      "body": "CE",
+      "year": 2017,
       "product_code": "",
       "panel": ""
     }
