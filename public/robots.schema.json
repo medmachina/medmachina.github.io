@@ -315,6 +315,14 @@
         {
           "const": "Dental implant",
           "description": "Placement or guidance for dental implants."
+        },
+        {
+          "const": "Neurological",
+          "description": "Brain, spinal cord, or peripheral nervous system surgical procedures (e.g., DBS, SEEG, biopsy)."
+        },
+        {
+          "const": "Microsurgery",
+          "description": "Delicate open microsurgical procedures on small anatomical structures (vessels, nerves, lymphatics)."
         }
       ]
     }

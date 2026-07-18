@@ -39,8 +39,8 @@
     ],
     "usages": [
       "Abdominal",
-      "General Surgery",
       "Gynecological",
+      "Thoracic",
       "Transoral",
       "Urological"
     ],
@@ -56,7 +56,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=MxIuOdny2cs",
-        "title": "Introducing da Vinci 5: our most advanced and integrated robotic system—ever."
+        "title": "Introducing da Vinci 5: our most advanced and integrated robotic system\u2014ever."
       },
       {
         "url": "https://www.youtube.com/watch?v=V5u1F2jEx-E",
@@ -115,8 +115,6 @@
     ],
     "usages": [
       "Abdominal",
-      "ENT",
-      "General Surgery",
       "Gynecological",
       "Transoral",
       "Urological"
@@ -184,7 +182,10 @@
       "IS4000"
     ],
     "usages": [
-      "General Surgery"
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
     ],
     "videos": [
       {
@@ -248,7 +249,10 @@
       "IS4200"
     ],
     "usages": [
-      "General Surgery"
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
     ],
     "videos": [
       {
@@ -305,7 +309,6 @@
     ],
     "usages": [
       "Abdominal",
-      "General Surgery",
       "Gynecological",
       "Transoral",
       "Urological"
@@ -373,7 +376,6 @@
     ],
     "usages": [
       "Abdominal",
-      "General Surgery",
       "Gynecological",
       "Transoral",
       "Urological"
@@ -423,7 +425,6 @@
     ],
     "usages": [
       "Abdominal",
-      "General Surgery",
       "Gynecological",
       "Transoral",
       "Urological"
@@ -470,9 +471,9 @@
       "Retired"
     ],
     "usages": [
-      "General Surgery"
+      "Abdominal"
     ],
-    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master–slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
+    "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master\u2013slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
     "also_known_as": [],
     "videos": [
       {
@@ -509,8 +510,7 @@
       "Retired"
     ],
     "usages": [
-      "Hip",
-      "Orthopedic"
+      "Hip"
     ],
     "description": "ROBODOC was an early orthopedic robotic system (originally developed by Integrated Surgical Systems based on university research) focused on precise femoral canal milling for total hip arthroplasty. Using preoperative CT imaging and planning, it performed semi-autonomous bone preparation to improve implant fit, alignment, and reproducibility versus manual instrumentation. It underscored early challenges in surgical robotics: accurate registration, OR workflow integration, and multi-year regulatory pathways (European clinical use well before FDA clearance in 2008). Its technology lineage continued under successor companies culminating in Think Surgical platforms.",
     "also_known_as": [],
@@ -521,7 +521,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=yEO4dMWmYro",
-        "title": "1. ROBODOC® Introduction_Dr. Bargar.wmv"
+        "title": "1. ROBODOC\u00ae Introduction_Dr. Bargar.wmv"
       },
       {
         "url": "https://www.youtube.com/watch?v=u4f8BWTliJY",
@@ -566,7 +566,7 @@
       "Stereo endoscope"
     ],
     "usages": [],
-    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human–robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
+    "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
     "also_known_as": [],
     "videos": [
       {
@@ -583,7 +583,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=abQcDzeNfQ8",
-        "title": "da Vinci Research Kit (dVRK) × MiRI"
+        "title": "da Vinci Research Kit (dVRK) \u00d7 MiRI"
       }
     ]
   },
@@ -624,7 +624,8 @@
       "Commercial"
     ],
     "usages": [
-      "General Surgery",
+      "Abdominal",
+      "Gynecological",
       "Urological"
     ],
     "description": "",
@@ -689,11 +690,11 @@
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
-        "title": "hinotori™ Robotic Assisted Surgery System"
+        "title": "hinotori\u2122 Robotic Assisted Surgery System"
       },
       {
         "url": "https://www.youtube.com/watch?v=1h17p3GeULM",
-        "title": "An Overview of the hinotori™ Surgical Robot"
+        "title": "An Overview of the hinotori\u2122 Surgical Robot"
       }
     ]
   },
@@ -733,7 +734,12 @@
       "Software RCM",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
+    ],
     "description": "",
     "also_known_as": []
   },
@@ -773,7 +779,11 @@
       "Free hand manipulation",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Urological"
+    ],
     "description": "",
     "also_known_as": [],
     "videos": [
@@ -816,7 +826,12 @@
       "Haptic",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
+    ],
     "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart",
     "also_known_as": [],
     "videos": [
@@ -861,7 +876,10 @@
       "Autonomous",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological"
+    ],
     "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery.",
     "also_known_as": [],
     "videos": [
@@ -973,7 +991,9 @@
       "Commercial"
     ],
     "usages": [
-      "General Surgery"
+      "Abdominal",
+      "Gynecological",
+      "Urological"
     ],
     "description": "",
     "also_known_as": [],
@@ -1028,7 +1048,11 @@
       "RAMIS",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Urological"
+    ],
     "description": "",
     "also_known_as": [],
     "videos": [
@@ -1067,7 +1091,11 @@
       "Teleoperated",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Urological"
+    ],
     "description": "",
     "also_known_as": []
   },
@@ -1101,7 +1129,7 @@
       "Single port"
     ],
     "usages": [],
-    "description": "Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulators emulate laparoscopic instruments (not Cartesian).",
+    "description": "Patient side single port, concentric tubes, mono camera. Surgeon\u2019s side manipulators emulate laparoscopic instruments (not Cartesian).",
     "also_known_as": [],
     "videos": [
       {
@@ -1147,7 +1175,9 @@
       "Teleoperated",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Urological"
+    ],
     "description": "",
     "also_known_as": []
   },
@@ -1183,7 +1213,11 @@
       "Multiple ports",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Urological"
+    ],
     "description": "",
     "also_known_as": [],
     "videos": [
@@ -1395,7 +1429,10 @@
       }
     ],
     "tags": [],
-    "usages": [],
+    "usages": [
+      "Bronchoscopy",
+      "Lung"
+    ],
     "description": "Used with C-Arm/CBCT.",
     "also_known_as": [],
     "videos": [
@@ -1424,9 +1461,7 @@
     "tags": [],
     "usages": [
       "Bronchoscopy",
-      "ENT",
-      "Lung",
-      "Pulmonary"
+      "Lung"
     ],
     "description": "Used with C-Arm/CBCT.",
     "also_known_as": [],
@@ -1473,7 +1508,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=fqtUlmhfZYE",
-        "title": "Auris Monarch® Robotic Bronchoscopy Platform Tutorial"
+        "title": "Auris Monarch\u00ae Robotic Bronchoscopy Platform Tutorial"
       },
       {
         "url": "https://www.youtube.com/watch?v=yGoUbRnsEko",
@@ -1506,9 +1541,8 @@
       "Orthopedic"
     ],
     "usages": [
-      "Knee",
-      "Neurological",
-      "Orthopedic"
+      "Hip",
+      "Knee"
     ],
     "description": "",
     "also_known_as": [],
@@ -1548,16 +1582,14 @@
       "Orthopedic"
     ],
     "usages": [
-      "Hip",
-      "Knee",
-      "Orthopedic"
+      "Knee"
     ],
     "description": "",
     "also_known_as": [],
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=jTXyi2Y0r1c",
-        "title": "How is the robotic knee replacement surgery performed? (Velys™ system)"
+        "title": "How is the robotic knee replacement surgery performed? (Velys\u2122 system)"
       },
       {
         "url": "https://www.youtube.com/watch?v=tv_0Zt71F0Q",
@@ -1590,15 +1622,15 @@
       "Orthopedic"
     ],
     "usages": [
-      "Knee",
-      "Orthopedic"
+      "Hip",
+      "Knee"
     ],
     "description": "",
     "also_known_as": [],
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=L7hEeYn-8UE",
-        "title": "TMINI® Miniature Robotic System - Hero"
+        "title": "TMINI\u00ae Miniature Robotic System - Hero"
       }
     ]
   },
@@ -1686,7 +1718,6 @@
       "Open surgery"
     ],
     "usages": [
-      "Orthopedic",
       "Spine"
     ],
     "description": "",
@@ -1740,6 +1771,9 @@
         "url": "https://www.youtube.com/watch?v=amVxODeaHfM",
         "title": "eCential: Robotic Platform"
       }
+    ],
+    "usages": [
+      "Spine"
     ]
   },
   {
@@ -1801,7 +1835,7 @@
     "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?",
     "also_known_as": [],
     "usages": [
-      "General Surgery"
+      "Microsurgery"
     ],
     "videos": [
       {
@@ -1810,15 +1844,15 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=Po6yhlp1-H8",
-        "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani® Patient Story"
+        "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani\u00ae Patient Story"
       },
       {
         "url": "https://www.youtube.com/watch?v=BcYBOsCFYF8",
-        "title": "Symani® | Discover the Beauty of Robotic Microsurgery"
+        "title": "Symani\u00ae | Discover the Beauty of Robotic Microsurgery"
       },
       {
         "url": "https://www.youtube.com/watch?v=QxXJhChEEdE",
-        "title": "Symani® | Why Begin a Microsurgical Robotics Program"
+        "title": "Symani\u00ae | Why Begin a Microsurgical Robotics Program"
       }
     ]
   },
@@ -1868,7 +1902,7 @@
     "usages": [
       "Abdominal"
     ],
-    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
+    "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
     "also_known_as": [],
     "videos": [
       {
@@ -1923,13 +1957,16 @@
       "Commercial",
       "Retired"
     ],
-    "usages": [],
+    "usages": [
+      "Gynecological",
+      "Urological"
+    ],
     "description": "",
     "also_known_as": [],
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=AHfkWIitDW4",
-        "title": "Avatera Robot -  Laparoscopie minim invazivă -  DrTech.ro"
+        "title": "Avatera Robot -  Laparoscopie minim invaziv\u0103 -  DrTech.ro"
       },
       {
         "url": "https://www.youtube.com/watch?v=c60jg8KxQOs",
@@ -1941,7 +1978,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
-        "title": "hinotori™ Robotic Assisted Surgery System"
+        "title": "hinotori\u2122 Robotic Assisted Surgery System"
       }
     ]
   },
@@ -1970,8 +2007,7 @@
       "TRUS"
     ],
     "usages": [
-      "Prostate",
-      "Radiological"
+      "Prostate"
     ],
     "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
     "also_known_as": [],
@@ -2029,7 +2065,12 @@
       "Force feedback",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
+    ],
     "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised.",
     "also_known_as": []
   },
@@ -2070,11 +2111,11 @@
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=iHfLh3ez8R8",
-        "title": "Cutting-edge robotic surgery solutions | MicroPort® MedBot™​"
+        "title": "Cutting-edge robotic surgery solutions | MicroPort\u00ae MedBot\u2122\u200b"
       },
       {
         "url": "https://www.youtube.com/watch?v=B9u7USDozr8",
-        "title": "Surgical robot， Medbot ，Microport ，China ，Orthopedic Robot"
+        "title": "Surgical robot\uff0c Medbot \uff0cMicroport \uff0cChina \uff0cOrthopedic Robot"
       }
     ]
   },
@@ -2111,7 +2152,12 @@
       "Haptic",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
+    ],
     "description": "Surgeon console looks similar to da Vinci Si/Xi, 1 cart per arm on the patient's side. Active arms look similar to da Vinci Xi, including motor pack for the instruments.",
     "also_known_as": [],
     "videos": [
@@ -2133,7 +2179,7 @@
     ],
     "photos": [
       {
-        "url": "https://en.edgemed.cn/uploads/多孔展示官网用图_1746675291.jpg",
+        "url": "https://en.edgemed.cn/uploads/\u591a\u5b54\u5c55\u793a\u5b98\u7f51\u7528\u56fe_1746675291.jpg",
         "site": "https://en.edgemed.cn"
       }
     ],
@@ -2145,7 +2191,12 @@
       "Teleoperated",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
+    ],
     "description": "Imitation is the most sincere form of flattery: Edge Multi-Port looks remarkably like da Vinci Xi.",
     "also_known_as": []
   },
@@ -2180,7 +2231,12 @@
       "Mechanical RCM",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
+    ],
     "description": "Imitation is the most sincere form of flattery: Edge Single-Port looks remarkably like da Vinci Sp.",
     "also_known_as": []
   },
@@ -2213,7 +2269,7 @@
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=BrUcceNKVqc",
-        "title": "Meet Yomi S — The Next Generation of Robotic Dental Implant Surgery"
+        "title": "Meet Yomi S \u2014 The Next Generation of Robotic Dental Implant Surgery"
       },
       {
         "url": "https://www.youtube.com/watch?v=BIfrwNoztzg",
@@ -2257,14 +2313,16 @@
       "Multiple ports"
     ],
     "usages": [
-      "General Surgery"
+      "Abdominal",
+      "Gynecological",
+      "Urological"
     ],
     "description": "",
     "also_known_as": [],
     "videos": [
       {
         "url": "https://www.youtube.com/watch?v=wMY8_DpHAug",
-        "title": "Dr. Erica Stockwell and her first impressions of DEXTER® Robotic Surgery System"
+        "title": "Dr. Erica Stockwell and her first impressions of DEXTER\u00ae Robotic Surgery System"
       }
     ]
   },
@@ -2299,6 +2357,7 @@
       "Mechanical Cartesian manipulation"
     ],
     "usages": [
+      "Abdominal",
       "Gynecological"
     ],
     "description": "",
@@ -2329,8 +2388,8 @@
       "Hip",
       "Knee",
       "Neurological",
-      "Orthopedic",
-      "Shoulder"
+      "Shoulder",
+      "Spine"
     ],
     "description": "ROSA (Robotic Surgical Assistant) is Zimmer Biomet's platform for robotic-assisted orthopedic surgery, including knee procedures. It provides preoperative planning, intraoperative navigation, and robotic guidance to improve precision and reproducibility in joint replacement.",
     "also_known_as": [],
@@ -2341,7 +2400,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=7qOg4KN5xuI",
-        "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA® Robotic Technology at Humber"
+        "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA\u00ae Robotic Technology at Humber"
       }
     ]
   },
@@ -2382,7 +2441,11 @@
       "Haptic",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Abdominal",
+      "Gynecological",
+      "Urological"
+    ],
     "description": "",
     "videos": [
       {
@@ -2453,7 +2516,6 @@
       "Commercial"
     ],
     "usages": [
-      "Orthopedic",
       "Spine"
     ],
     "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
@@ -2506,12 +2568,12 @@
       "Commercial"
     ],
     "usages": [
-      "Urology",
-      "General Surgery",
-      "Gynecology",
-      "Thoracic Surgery"
+      "Abdominal",
+      "Gynecological",
+      "Thoracic",
+      "Urological"
     ],
-    "description": "KANGDUO SR2000 — a teleoperated surgical robot platform from Harbin Sagebot Intelligent Medical Equipment Co., Ltd.",
+    "description": "KANGDUO SR2000 \u2014 a teleoperated surgical robot platform from Harbin Sagebot Intelligent Medical Equipment Co., Ltd.",
     "also_known_as": [
       "KangDuo SR2000"
     ],
@@ -2606,6 +2668,9 @@
     "tags": [
       "Commercial",
       "Teleoperated"
+    ],
+    "usages": [
+      "Spine"
     ]
   },
   {
@@ -2615,7 +2680,7 @@
       "MUSA"
     ],
     "introduction_year": 2026,
-    "description": "Third-generation robotic microsurgery platform for open super-microsurgery. The MUSA-3 translates a surgeon's hand movements into ultra-precise, tremor-free motions, enabling suturing of vessels as small as 0.3 mm. Features up to 20× motion scaling and proprietary tremor filtering. Uniquely, surgeons can use their own preferred standard microsurgical instruments from various brands via disposable adapters — no proprietary instruments required. Built on clinical experience from the MUSA and MUSA-2 platforms (first-in-human 2017, ~50 patient clinical studies). The system consists of a surgeon console with ergonomic joysticks and a robotic arm cart, both operating under a surgical microscope or 3D exoscope.",
+    "description": "Third-generation robotic microsurgery platform for open super-microsurgery. The MUSA-3 translates a surgeon's hand movements into ultra-precise, tremor-free motions, enabling suturing of vessels as small as 0.3 mm. Features up to 20\u00d7 motion scaling and proprietary tremor filtering. Uniquely, surgeons can use their own preferred standard microsurgical instruments from various brands via disposable adapters \u2014 no proprietary instruments required. Built on clinical experience from the MUSA and MUSA-2 platforms (first-in-human 2017, ~50 patient clinical studies). The system consists of a surgeon console with ergonomic joysticks and a robotic arm cart, both operating under a surgical microscope or 3D exoscope.",
     "urls": [
       {
         "caption": "Microsure",
@@ -2635,7 +2700,9 @@
       "Open console",
       "Commercial"
     ],
-    "usages": [],
+    "usages": [
+      "Microsurgery"
+    ],
     "regulatory": [
       {
         "body": "CE",
@@ -2653,11 +2720,11 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=I3RvpDQxZcg",
-        "title": "Attaching Your Microsurgical Instrument to the MUSA‑3 Robot Arm with a Disposable Adaptor"
+        "title": "Attaching Your Microsurgical Instrument to the MUSA\u20113 Robot Arm with a Disposable Adaptor"
       },
       {
         "url": "https://www.youtube.com/watch?v=vTsohJ3aP-8",
-        "title": "World’s First Clinically Available Microsurgical Robotic System: Super-Microsurgery with Robot Hands"
+        "title": "World\u2019s First Clinically Available Microsurgical Robotic System: Super-Microsurgery with Robot Hands"
       }
     ]
   },
@@ -2666,7 +2733,7 @@
     "id": "livsmed_stark",
     "also_known_as": [],
     "introduction_year": 2026,
-    "description": "A laparoscopic surgical robot developed by LIVSMED. The system features a modular architecture consisting of two carts, each equipped with two robotic arms (four arms total). It utilizes the 90° articulating multi-joint technology from LIVSMED's ArtiSential handheld instrument line, and is designed to support remote telesurgery operations. Long-distance telesurgery has been demonstrated in trials between Santa Barbara and Chicago. As of mid-2026, the system is in a pre-commercial phase with animal clinical trials underway.",
+    "description": "A laparoscopic surgical robot developed by LIVSMED. The system features a modular architecture consisting of two carts, each equipped with two robotic arms (four arms total). It utilizes the 90\u00b0 articulating multi-joint technology from LIVSMED's ArtiSential handheld instrument line, and is designed to support remote telesurgery operations. Long-distance telesurgery has been demonstrated in trials between Santa Barbara and Chicago. As of mid-2026, the system is in a pre-commercial phase with animal clinical trials underway.",
     "urls": [
       {
         "caption": "LIVSMED",
