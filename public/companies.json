@@ -21,7 +21,7 @@
       "intuitive_ion"
     ],
     "description": "Intuitive is based in Sunnyvale, California, USA",
-    "employee_count": 13000
+    "employee_count": "1000+"
   },
   {
     "name": "Medtronic",
@@ -39,7 +39,7 @@
       "medtronic_mazor"
     ],
     "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
-    "employee_count": 95000
+    "employee_count": "1000+"
   },
   {
     "name": "Medicaroid",
@@ -56,7 +56,7 @@
       "medicaroid_hinotori"
     ],
     "description": "Medicaroid is a Japanese company based in Kobe, Japan.",
-    "employee_count": 150
+    "employee_count": "100-500"
   },
   {
     "name": "CMR Surgical",
@@ -73,7 +73,7 @@
       "cmr_versius"
     ],
     "description": "CMR Surgical is based in Cambridge, UK.",
-    "employee_count": 600
+    "employee_count": "500-1000"
   },
   {
     "name": "SSII",
@@ -90,7 +90,7 @@
       "ssii_mantra"
     ],
     "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India.",
-    "employee_count": 250
+    "employee_count": "100-500"
   },
   {
     "name": "Cornerstone Robotics",
@@ -107,7 +107,7 @@
       "cornerstone_sentire"
     ],
     "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019",
-    "employee_count": 80
+    "employee_count": "50-100"
   },
   {
     "name": "Moon Surgical",
@@ -124,7 +124,7 @@
       "moon_maestro"
     ],
     "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, USA.",
-    "employee_count": 120
+    "employee_count": "100-500"
   },
   {
     "name": "Revolve Surgical",
@@ -140,7 +140,8 @@
     "robots": [
       "revolve_R1"
     ],
-    "description": "Revolve Surgical is based in Toronto, Ontario, Canada."
+    "description": "Revolve Surgical is based in Toronto, Ontario, Canada.",
+    "employee_count": "0-10"
   },
   {
     "name": "Vicarious Surgical Inc",
@@ -156,7 +157,8 @@
     "robots": [
       "vicarious_v1.0"
     ],
-    "description": "Vicarious Surgical Inc. is based in Waltham, Massachusetts, USA."
+    "description": "Vicarious Surgical Inc. is based in Waltham, Massachusetts, USA.",
+    "employee_count": "100-500"
   },
   {
     "name": "Asensus Surgical",
@@ -173,7 +175,8 @@
       "asensus_senhance",
       "asensus_luna"
     ],
-    "description": "Asensus Surgical is based in Durham, North Carolina, USA."
+    "description": "Asensus Surgical is based in Durham, North Carolina, USA.",
+    "employee_count": "100-500"
   },
   {
     "name": "Titan Medical",
@@ -189,7 +192,8 @@
     "robots": [
       "titan_enos"
     ],
-    "description": "Titan Medical is based in Toronto, Ontario, CA."
+    "description": "Titan Medical is based in Toronto, Ontario, CA.",
+    "employee_count": "100-500"
   },
   {
     "name": "Johnson & Johnson MedTech",
@@ -211,7 +215,8 @@
       "j&j_monarch",
       "j&j_velys"
     ],
-    "description": "Johnson & Johnson MedTech is a US-based company."
+    "description": "Johnson & Johnson MedTech is a US-based company.",
+    "employee_count": "1000+"
   },
   {
     "name": "Virtuoso Surgical",
@@ -227,7 +232,8 @@
     "robots": [
       "virtuoso_virtuoso"
     ],
-    "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA."
+    "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA.",
+    "employee_count": "10-50"
   },
   {
     "name": "Rob Surgical",
@@ -243,7 +249,8 @@
     "robots": [
       "rob_surgical_bitrack"
     ],
-    "description": "Rob Surgical is based in Barcelona, Spain."
+    "description": "Rob Surgical is based in Barcelona, Spain.",
+    "employee_count": "50-100"
   },
   {
     "name": "Robeauté",
@@ -257,7 +264,8 @@
     "linkedin_url": "https://www.linkedin.com/company/robeauté/",
     "opencorporates_url": "https://opencorporates.com/companies/fr/829012236",
     "robots": [],
-    "description": "Robeauté is based in Paris, France."
+    "description": "Robeauté is based in Paris, France.",
+    "employee_count": "10-50"
   },
   {
     "name": "Revo Surgical",
@@ -273,7 +281,8 @@
     "robots": [
       "revo_revo_i"
     ],
-    "description": "Revo Surgical is based in Seoul, South Korea."
+    "description": "Revo Surgical is based in Seoul, South Korea.",
+    "employee_count": null
   },
   {
     "name": "Surgical Science",
@@ -289,7 +298,8 @@
     "robots": [
       "surgical_science_robotix_mentor"
     ],
-    "description": "Surgical Science is based in Göteborg, Sweden."
+    "description": "Surgical Science is based in Göteborg, Sweden.",
+    "employee_count": "100-500"
   },
   {
     "name": "ForceDimension",
@@ -306,7 +316,8 @@
       "force_dimension_sigma",
       "force_dimension_lambda"
     ],
-    "description": "ForceDimension is a Swiss company specializing in haptic devices."
+    "description": "ForceDimension is a Swiss company specializing in haptic devices.",
+    "employee_count": null
   },
   {
     "name": "Haption",
@@ -322,7 +333,8 @@
     "robots": [
       "haption_virtuoso"
     ],
-    "description": "Haption is a French company specializing in haptic devices."
+    "description": "Haption is a French company specializing in haptic devices.",
+    "employee_count": "10-50"
   },
   {
     "name": "Quanser",
@@ -338,7 +350,8 @@
     "robots": [
       "quanser_hd2"
     ],
-    "description": "Quanser is a Canadian company based in Markham, providing robot systems and parts, including the HD2 haptic device."
+    "description": "Quanser is a Canadian company based in Markham, providing robot systems and parts, including the HD2 haptic device.",
+    "employee_count": "50-100"
   },
   {
     "name": "Noah Medical",
@@ -354,7 +367,8 @@
     "robots": [
       "noah_galaxy"
     ],
-    "description": "Noah Medical is based in San Carlos, California, USA."
+    "description": "Noah Medical is based in San Carlos, California, USA.",
+    "employee_count": "100-500"
   },
   {
     "name": "Stryker",
@@ -371,7 +385,7 @@
       "stryker_mako"
     ],
     "description": "Stryker is based in Kalamazoo, Michigan, USA.",
-    "employee_count": 51000
+    "employee_count": "1000+"
   },
   {
     "name": "Think Surgical",
@@ -387,7 +401,8 @@
     "robots": [
       "think_surgical_t_mini"
     ],
-    "description": "Think Surgical is based in Freemont, California, USA."
+    "description": "Think Surgical is based in Freemont, California, USA.",
+    "employee_count": "100-500"
   },
   {
     "name": "Curexo",
@@ -404,7 +419,8 @@
       "curexo_cuvis_joint",
       "curexo_cuvis_spine"
     ],
-    "description": "Curexo is based in Seoul, South Korea."
+    "description": "Curexo is based in Seoul, South Korea.",
+    "employee_count": "100-500"
   },
   {
     "name": "eCential Robotics",
@@ -420,7 +436,8 @@
     "robots": [
       "ecential_robotics_platform"
     ],
-    "description": "eCential Robotics is based in Grenoble, France."
+    "description": "eCential Robotics is based in Grenoble, France.",
+    "employee_count": "100-500"
   },
   {
     "name": "AcuSurgical",
@@ -436,7 +453,8 @@
     "robots": [
       "acusurgical_luca"
     ],
-    "description": "AcuSurgical is based in Montpellier, France."
+    "description": "AcuSurgical is based in Montpellier, France.",
+    "employee_count": "10-50"
   },
   {
     "name": "MMI",
@@ -452,7 +470,8 @@
     "robots": [
       "mmi_symani"
     ],
-    "description": "MMI (Medical Microinstruments) is based in Calci, Italy."
+    "description": "MMI (Medical Microinstruments) is based in Calci, Italy.",
+    "employee_count": "100-500"
   },
   {
     "name": "Applied Dexterity",
@@ -468,7 +487,8 @@
     "robots": [
       "raven_II"
     ],
-    "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments."
+    "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments.",
+    "employee_count": null
   },
   {
     "name": "Avatera Medical",
@@ -484,7 +504,8 @@
     "robots": [
       "avatera_avatera"
     ],
-    "description": "Avatera Medical is based in Jena, Germany."
+    "description": "Avatera Medical is based in Jena, Germany.",
+    "employee_count": null
   },
   {
     "name": "Haply Robotics",
@@ -500,7 +521,8 @@
     "robots": [
       "haply_inverse3"
     ],
-    "description": "Haply is based in Montreal, Canada."
+    "description": "Haply is based in Montreal, Canada.",
+    "employee_count": "10-50"
   },
   {
     "name": "Biobot Surgical",
@@ -516,7 +538,8 @@
     "robots": [
       "biobot_mona_lisa"
     ],
-    "description": "Biobot Surgical is based in Singapore. Seems to be under the MedBot umbrella."
+    "description": "Biobot Surgical is based in Singapore. Seems to be under the MedBot umbrella.",
+    "employee_count": "10-50"
   },
   {
     "name": "MicroPort MedBot",
@@ -533,7 +556,8 @@
       "medbot_toumai",
       "medbot_skywalker"
     ],
-    "description": "MedBot is based in Shanghai, China."
+    "description": "MedBot is based in Shanghai, China.",
+    "employee_count": "100-500"
   },
   {
     "name": "Ronovo Surgical",
@@ -549,7 +573,8 @@
     "robots": [
       "ronovo_carina"
     ],
-    "description": "Ronovo Surgical is based in Hangzhou, China."
+    "description": "Ronovo Surgical is based in Hangzhou, China.",
+    "employee_count": "100-500"
   },
   {
     "name": "Edge Medical",
@@ -566,7 +591,8 @@
       "edge_multi_port",
       "edge_single_port"
     ],
-    "description": "Edge Medical is based in Shenzhen, China."
+    "description": "Edge Medical is based in Shenzhen, China.",
+    "employee_count": "500-1000"
   },
   {
     "name": "Neocis",
@@ -582,7 +608,8 @@
     "robots": [
       "neocis_yomi"
     ],
-    "description": "Neocis is based in Miami, Florida, USA."
+    "description": "Neocis is based in Miami, Florida, USA.",
+    "employee_count": "100-500"
   },
   {
     "name": "Distalmotion",
@@ -598,7 +625,8 @@
     "robots": [
       "distalmotion_dexter"
     ],
-    "description": "Distalmotion is based in Lausanne, Switzerland."
+    "description": "Distalmotion is based in Lausanne, Switzerland.",
+    "employee_count": "100-500"
   },
   {
     "name": "dVRK Consortium",
@@ -614,7 +642,8 @@
     "robots": [
       "dvrk_dvrk"
     ],
-    "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware."
+    "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware.",
+    "employee_count": null
   },
   {
     "name": "Computer Motion",
@@ -634,7 +663,8 @@
     "robots": [
       "computer_motion_zeus"
     ],
-    "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems."
+    "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems.",
+    "employee_count": null
   },
   {
     "name": "Integrated Surgical Systems",
@@ -653,7 +683,8 @@
     "robots": [
       "iss_robodoc"
     ],
-    "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement."
+    "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement.",
+    "employee_count": null
   },
   {
     "name": "Momentis Surgical",
@@ -670,7 +701,7 @@
       "momentis_anovo"
     ],
     "description": "Momentis Surgical is based in Tel Aviv, Israel.",
-    "employee_count": null
+    "employee_count": "50-100"
   },
   {
     "name": "Zimmer Biomet",
@@ -687,7 +718,7 @@
       "zimmer_rosa"
     ],
     "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
-    "employee_count": 20000
+    "employee_count": "1000+"
   },
   {
     "name": "Surgerii",
@@ -704,7 +735,7 @@
       "surgerii_shurui"
     ],
     "description": "Surgerii is based in Beijing, China",
-    "employee_count": 500
+    "employee_count": "500-1000"
   },
   {
     "name": "Renishaw",
@@ -724,7 +755,8 @@
     "robots": [
       "renishaw_neuromate"
     ],
-    "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom."
+    "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom.",
+    "employee_count": "1000+"
   },
   {
     "name": "LEM Surgical",
@@ -740,7 +772,8 @@
     "robots": [
       "lem_dynamis"
     ],
-    "description": "LEM Surgical is based in Bern, Switzerland, with U.S. commercial operations in Tampa, Florida. Develops robotic surgical systems for hard tissue surgery."
+    "description": "LEM Surgical is based in Bern, Switzerland, with U.S. commercial operations in Tampa, Florida. Develops robotic surgical systems for hard tissue surgery.",
+    "employee_count": "50-100"
   },
   {
     "name": "Sagebot",
@@ -756,7 +789,8 @@
     "robots": [
       "sagebot_kangduo"
     ],
-    "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China."
+    "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China.",
+    "employee_count": null
   },
   {
     "name": "LN Robotics",
@@ -772,7 +806,8 @@
     "robots": [
       "ln_robotics_aviar"
     ],
-    "description": "LN Robotics is based in South Korea."
+    "description": "LN Robotics is based in South Korea.",
+    "employee_count": "10-50"
   },
   {
     "name": "Microsure",
@@ -789,7 +824,8 @@
       "microsure_musa_3"
     ],
     "description": "Microsure B.V. is a medical robotics company based in Eindhoven, Netherlands. Spin-off from Eindhoven University of Technology (TU/e) and Maastricht University Medical Center+ (MUMC+). Specializes in robotic systems for micro- and super-microsurgery.",
-    "founded_year": "2016"
+    "founded_year": "2016",
+    "employee_count": "50-100"
   },
   {
     "name": "LIVSMED",
@@ -810,6 +846,7 @@
       "livsmed_stark"
     ],
     "description": "LIVSMED Inc. is a global medical device company based in Seongnam, South Korea. Specializes in multi-joint handheld laparoscopic surgical instruments (ArtiSential line) and surgical robotics. IPO on KOSDAQ December 2025.",
-    "founded_year": "2011"
+    "founded_year": "2011",
+    "employee_count": "100-500"
   }
 ]
