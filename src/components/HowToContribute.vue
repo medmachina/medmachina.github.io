@@ -3,7 +3,7 @@
     <div class="header-with-logo d-flex align-items-center justify-content-between mb-4">
       <h1 class="mb-0 title">How to Contribute</h1>
       <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
-        <!-- Logo now shown globally in App.vue header -->
+        <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
       </router-link>
     </div>
 

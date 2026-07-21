@@ -1,7 +1,11 @@
 <template>
   <div class="container">
-    <!-- Logo now shown globally in App.vue header -->
-    <h1 class="mb-4 title">Links</h1>
+    <div class="d-flex align-items-center justify-content-between mb-4">
+      <h1 class="mb-0 title">Links</h1>
+      <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
+      </router-link>
+    </div>
 
     <div class="card mb-4">
       <div class="card-body">

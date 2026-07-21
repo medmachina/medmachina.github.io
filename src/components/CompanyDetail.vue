@@ -1,15 +1,15 @@
 <template>
   <div v-if="company">
-    <div class="header-with-logo d-flex align-items-center justify-content-between mb-4">
+    <div class="header-with-logo d-flex align-items-center justify-content-between mb-3 pb-2 border-bottom">
       <h1 class="mb-0">
         <router-link to="/companies" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Companies</router-link> {{ company.name }}
       </h1>
       <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
-        <!-- Logo now shown globally in App.vue header -->
+        <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
       </router-link>
     </div>
 
-    <div class="container py-4">
+    <div class="container pt-2 pb-4">
 
       <div class="card mb-4">
         <div class="card-body">
@@ -18,48 +18,32 @@
           <p v-if="company.employee_count"><strong>Employees:</strong> {{ company.employee_count.toLocaleString() }}</p>
           <p v-if="company.description">{{ company.description }}</p>
 
-          <div v-if="company.linkedin_url" class="linkedin-container">
-            <a :href="company.linkedin_url" target="_blank" rel="noopener noreferrer" class="linkedin-link">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="linkedin-icon">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-              </svg>
-              <span>LinkedIn</span>
-            </a>
+          <p v-if="company.urls && company.urls.length || company.linkedin_url || company.opencorporates_url">
+            <strong>Links:</strong>
+          </p>
+          <ul v-if="company.urls && company.urls.length || company.linkedin_url || company.opencorporates_url" class="list-unstyled">
+            <li v-for="url in company.urls" :key="url.url" class="mb-2">
+              <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+            </li>
+            <li v-if="company.linkedin_url" class="mb-2">
+              <a :href="company.linkedin_url" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="linkedin-icon">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li v-if="company.opencorporates_url" class="mb-2">
+              <a :href="company.opencorporates_url" target="_blank" rel="noopener noreferrer" class="opencorporates-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="opencorporates-icon">
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+                </svg>
+                <span>OpenCorporates</span>
+              </a>
+            </li>
+          </ul>
 
-                    <div v-if="company.opencorporates_url" class="opencorporates-container">
-                      <a :href="company.opencorporates_url" target="_blank" rel="noopener noreferrer" class="opencorporates-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="opencorporates-icon">
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
-                        </svg>
-                        <span>OpenCorporates</span>
-                      </a>
-                    </div>
-          </div>
-
-          <div v-if="company.urls && company.urls.length">
-            <h3 class="h6 mt-4">Links</h3>
-            <ul class="list-unstyled">
-              <li v-for="url in company.urls" :key="url" class="mb-2">
-                <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Edit on GitHub Section -->
-          <div class="edit-section mt-4">
-            <a 
-              href="https://github.com/medmachina/medmachina.github.io/edit/main/public/companies.json" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="btn btn-outline-secondary"
-              title="Edit this company on GitHub"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 4px;">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg>
-              Edit on GitHub
-            </a>
-          </div>
+          <!-- Edit on GitHub: fixed bottom-right via global style in main.css -->
         </div>
       </div>
 
@@ -93,6 +77,20 @@
       Company not found
     </div>
   </div>
+
+  <!-- Edit on GitHub: fixed bottom-right -->
+  <a
+    href="https://github.com/medmachina/medmachina.github.io/edit/main/public/companies.json"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn btn-outline-secondary edit-github-fixed"
+    title="Edit this company on GitHub"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" style="margin-right:4px;">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+    Edit on GitHub
+  </a>
 </template>
 
 <script setup>
@@ -215,6 +213,7 @@ function handleImageError(event) {
   height: 18px;
   fill: currentColor;
   margin-right: 8px;
+}
 
 .opencorporates-container {
   margin: 1rem 0;
@@ -242,6 +241,5 @@ function handleImageError(event) {
   height: 18px;
   fill: currentColor;
   margin-right: 8px;
-}
 }
 </style>

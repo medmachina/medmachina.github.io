@@ -1,160 +1,171 @@
 <template>
   <div class="project-detail">
-    <div class="header d-flex align-items-center justify-content-between mb-4">
+    <div class="header d-flex align-items-center justify-content-between mb-3 pb-2 border-bottom">
       <h1 class="project-title mb-0">
         <router-link to="/" class="btn btn-outline-primary btn-lg" style="vertical-align:middle;">Robots</router-link>
         {{ filteredProject["name"] }}
         <span v-if="companyInfo" style="font-size:.85em;">(<router-link :to="`/company/${companyInfo.name}`">{{ companyInfo.name }}</router-link>)</span>
       </h1>
-      <router-link to="/" style="display: flex; align-items: center; text-decoration: none; margin-left: 1rem;">
-        <!-- Logo now shown globally in App.vue header -->
+      <router-link to="/" style="display: flex; align-items: center; text-decoration: none; flex-shrink: 0; margin-left: 1rem;">
+        <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />
       </router-link>
     </div>
 
-    <div class="project-description">
-      <template v-if="descriptionParagraphs.length">
-        <p v-for="(para, idx) in descriptionParagraphs" :key="idx">{{ para }}</p>
-      </template>
-      <template v-else>
-        {{ filteredProject["description"] }}
-      </template>
-    </div>
+    <div class="container-fluid px-0">
 
-    <h3 class="mt-4 mb-4">Images from the web</h3>
-    <!-- Photo Gallery Section -->
-    <div v-if="validPhotoUrls.length > 0" class="photo-gallery">
-      <div class="gallery-grid">
-        <div
-          v-for="(photo, index) in validPhotoUrls"
-          :key="index"
-          class="photo-item"
-        >
-          <a :href="photo.site" target="_blank" rel="noopener noreferrer" class="photo-link">
-            <img
-              :src="photo.url"
-              :alt="`Photo ${index + 1}`"
-              class="photo-thumbnail"
-              @error="handleImageError(photo)"
-            />
-            <div class="photo-source">visit site</div>
-          </a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Video Gallery Section -->
-    <div v-if="projectVideos.length > 0" class="video-gallery">
-      <h3 class="mt-4 mb-3">Videos</h3>
-      <div class="video-grid">
-        <div
-          v-for="(video, index) in projectVideos"
-          :key="index"
-          class="video-item"
-        >
-          <div class="iframe-container">
-            <iframe 
-              :src="getVideoEmbedUrl(video.url)" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-            </iframe>
-          </div>
-          <div v-if="video.title" class="video-title text-center mt-2">{{ video.title }}</div>
-        </div>
-      </div>
-    </div>
-
-    <div v-if="projectTags.length > 0" class="tags-section">
-      <h3 class="mt-4 mb-3">Tags</h3>
-      <div class="d-flex flex-wrap align-items-center gap-2">
-        <router-link
-          v-for="tag in projectTags"
-          :key="tag"
-          :to="{ path: '/', query: { tag: tag } }"
-          class="badge bg-secondary tag-cloud-badge"
-          :title="getTagDescription(tag)"
-          style="text-decoration: none;"
-        >
-          {{ tag }}
-        </router-link>
-      </div>
-    </div>
-
-    <!-- Usages Section -->
-    <div v-if="projectUsages.length > 0" class="usages-section">
-      <h3 class="mt-4 mb-3">Usages</h3>
-      <div class="d-flex flex-wrap align-items-center gap-2">
-        <router-link
-          v-for="usage in projectUsages"
-          :key="usage"
-          :to="{ path: '/', query: { usage: usage } }"
-          class="badge bg-success usage-cloud-badge"
-          :title="getUsageDescription(usage)"
-          style="text-decoration: none;"
-        >
-          {{ usage }}
-        </router-link>
-      </div>
-    </div>
-
-    <!-- Regulatory Information Section -->
-    <div v-if="projectRegulatoryInfo.length > 0">
-      <h3 class="mt-4 mb-4">Regulatory Status</h3>
-      <div class="regulatory-section">
-        <div class="regulatory-list">
-          <a
-            v-for="(reg, index) in projectRegulatoryInfo"
-            :key="index"
-            :href="reg.url"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="regulatory-badge"
-            :title="getUrlDomain(reg.url)"
-          >
-            <span class="reg-body">{{ reg.body }}</span>
-            <span v-if="reg.year" class="reg-year">({{ reg.year }})</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-              <polyline points="15 3 21 3 21 9"></polyline>
-              <line x1="10" y1="14" x2="21" y2="3"></line>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <h3 class="mt-2">Links</h3>
-    <!-- URLs Section -->
-    <div v-if="projectUrls.length > 0" class="urls-section">
-      <div class="url-list">
-        <div v-for="(url, index) in projectUrls" :key="index" class="url-item">
-          <div class="url-info">
-            <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+      <!-- Information card -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5">Information</h2>
+          <div class="project-description">
+            <template v-if="descriptionParagraphs.length">
+              <p v-for="(para, idx) in descriptionParagraphs" :key="idx">{{ para }}</p>
+            </template>
+            <template v-else>
+              {{ filteredProject["description"] }}
+            </template>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Edit on GitHub Section -->
-    <div v-if="project" class="edit-section mt-4">
-      <a 
-        :href="`https://github.com/medmachina/medmachina.github.io/edit/main/public/robots.json`" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        class="btn btn-outline-secondary"
-        title="Edit this robot on GitHub"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 4px;">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        Edit on GitHub
-      </a>
+      <!-- Images card -->
+      <div v-if="validPhotoUrls.length > 0" class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5">Images</h2>
+          <div class="gallery-grid">
+            <div
+              v-for="(photo, index) in validPhotoUrls"
+              :key="index"
+              class="photo-item"
+            >
+              <a :href="photo.site" target="_blank" rel="noopener noreferrer" class="photo-link">
+                <img
+                  :src="photo.url"
+                  :alt="`Photo ${index + 1}`"
+                  class="photo-thumbnail"
+                  @error="handleImageError(photo)"
+                />
+                <div class="photo-source">visit site</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Videos card -->
+      <div v-if="projectVideos.length > 0" class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5">Videos</h2>
+          <div class="video-grid">
+            <div
+              v-for="(video, index) in projectVideos"
+              :key="index"
+              class="video-item"
+            >
+              <div class="iframe-container">
+                <iframe
+                  :src="getVideoEmbedUrl(video.url)"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div v-if="video.title" class="video-title text-center mt-2">{{ video.title }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tags & Usages card -->
+      <div v-if="projectTags.length > 0 || projectUsages.length > 0" class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5">Tags &amp; Usages</h2>
+          <div v-if="projectTags.length > 0" class="mb-2 d-flex flex-wrap align-items-center gap-2">
+            <router-link
+              v-for="tag in projectTags"
+              :key="tag"
+              :to="{ path: '/', query: { tag: tag } }"
+              class="badge bg-secondary tag-cloud-badge"
+              :title="getTagDescription(tag)"
+              style="text-decoration: none;"
+            >
+              {{ tag }}
+            </router-link>
+          </div>
+          <div v-if="projectUsages.length > 0" class="d-flex flex-wrap align-items-center gap-2">
+            <router-link
+              v-for="usage in projectUsages"
+              :key="usage"
+              :to="{ path: '/', query: { usage: usage } }"
+              class="badge bg-success usage-cloud-badge"
+              :title="getUsageDescription(usage)"
+              style="text-decoration: none;"
+            >
+              {{ usage }}
+            </router-link>
+          </div>
+        </div>
+      </div>
+
+      <!-- Regulatory Status card -->
+      <div v-if="projectRegulatoryInfo.length > 0" class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5">Regulatory Status</h2>
+          <div class="regulatory-list">
+            <a
+              v-for="(reg, index) in projectRegulatoryInfo"
+              :key="index"
+              :href="reg.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="regulatory-badge"
+              :title="getUrlDomain(reg.url)"
+            >
+              <span class="reg-body">{{ reg.body }}</span>
+              <span v-if="reg.year" class="reg-year">({{ reg.year }})</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Links card -->
+      <div v-if="projectUrls.length > 0" class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5">Links</h2>
+          <ul class="list-unstyled mb-0">
+            <li v-for="(url, index) in projectUrls" :key="index" class="mb-2">
+              <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </div>
 
     <div v-if="!project">
       <p>Project not found.</p>
     </div>
   </div>
+
+  <!-- Edit on GitHub: fixed bottom-right -->
+  <a
+    v-if="project"
+    href="https://github.com/medmachina/medmachina.github.io/edit/main/public/robots.json"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn btn-outline-secondary edit-github-fixed"
+    title="Edit this robot on GitHub"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" style="margin-right:4px;">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+    Edit on GitHub
+  </a>
 </template>
 
 <script setup>
@@ -454,11 +465,11 @@ function getShortDomain(url) {
 .project-detail {
   max-width: 1200px;
   width: 100%;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: var(--color-background-soft);
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
 }
 .header {
   /* display: flex; */
@@ -573,9 +584,9 @@ function getShortDomain(url) {
   margin-bottom: 1.5rem;
 }
 .tag-cloud-badge, .usage-cloud-badge {
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.55rem;
   border-radius: 1rem;
-  font-size: 0.875rem;
+  font-size: 0.78rem;
   transition: transform 0.2s;
 }
 .tag-cloud-badge:hover, .usage-cloud-badge:hover {
@@ -647,7 +658,7 @@ function getShortDomain(url) {
   min-width: 100px;
 }
 .project-title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   margin: 0;
   color: var(--color-heading);
@@ -664,7 +675,7 @@ function getShortDomain(url) {
   background: var(--color-background);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  color: white;
+  color: var(--color-text);
 }
 .company-info {
   display: flex;
@@ -677,7 +688,11 @@ function getShortDomain(url) {
 }
 
 h3 {
-  color: white;
+  color: var(--color-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .url-title-btn:hover {

@@ -6,7 +6,7 @@
       :class="['badge', isSelected(tag.name) ? 'bg-primary' : 'dark-tag', 'tag-cloud-badge']"
       :style="{
         cursor: 'pointer',
-        fontSize: `${0.75 + (tag.count / maxTagCount) * 0.5}rem`
+        fontSize: `${0.7 + (tag.count / maxTagCount) * 0.22}rem`
       }"
       @click="toggleTag(tag.name)"
       :title="getTagDescription(tag.name)"
@@ -115,7 +115,7 @@ function clearAllTags() {
   color: #fff;
 }
 .tag-cloud-badge {
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 1rem;
   transition: all 0.2s ease;
 }

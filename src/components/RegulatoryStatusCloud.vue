@@ -6,7 +6,7 @@
       :class="['badge', isSelected(status.name) ? 'bg-primary' : 'dark-status', 'status-cloud-badge']"
       :style="{
         cursor: 'pointer',
-        fontSize: `${0.75 + (status.count / maxStatusCount) * 0.5}rem`
+        fontSize: `${0.7 + (status.count / maxStatusCount) * 0.22}rem`
       }"
       @click="toggleStatus(status.name)"
     >
@@ -66,7 +66,7 @@ function clearAllStatuses() {
   color: #fff;
 }
 .status-cloud-badge {
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 1rem;
   transition: all 0.2s ease;
 }

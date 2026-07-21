@@ -67,9 +67,10 @@ a,
   }
 }
 
-/* Dark theme Bootstrap overrides */
+/* Light theme Bootstrap overrides */
 header {
   border-color: var(--color-border) !important;
+  background-color: var(--color-background) !important;
 }
 
 h1, h2 {
@@ -77,16 +78,16 @@ h1, h2 {
 }
 
 .form-control {
-  background-color: var(--color-background-soft);
+  background-color: var(--vt-c-white);
   border-color: var(--color-border);
   color: var(--color-text);
 }
 
 .form-control:focus {
-  background-color: var(--color-background-soft);
-  border-color: var(--color-border-hover);
-  color: var(--color-text);
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+  background-color: var(--vt-c-white);
+  border-color: #86b7fe;
+  color: var(--vt-c-indigo);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
 }
 
 .form-control::placeholder {
@@ -95,12 +96,30 @@ h1, h2 {
 }
 
 .list-group-item {
-  background-color: var(--color-background-soft);
+  background-color: var(--vt-c-white);
   border-color: var(--color-border);
-  color: var(--color-text);
+  color: var(--vt-c-indigo);
 }
 
 .list-group-item.active {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
 }
+
+/* Fixed bottom-right "Edit on GitHub" button */
+.edit-github-fixed {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.25rem;
+  z-index: 150;
+  opacity: 0.65;
+  transition: opacity 0.2s;
+  font-size: 0.72rem;
+  padding: 0.25rem 0.6rem;
+  line-height: 1.4;
+}
+.edit-github-fixed:hover {
+  opacity: 1;
+}
+
