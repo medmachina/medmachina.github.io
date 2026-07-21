@@ -17,6 +17,12 @@
       <div class="card mb-4">
         <div class="card-body">
           <h2 class="card-title h5">Information</h2>
+          <p v-if="unitsDeployedInfo" class="mb-2">
+            <strong>Units Deployed:</strong>
+            <span class="badge bg-primary ms-2 me-1">{{ unitsDeployedInfo.category }}</span>
+            <span v-if="unitsDeployedInfo.count">({{ unitsDeployedInfo.count.toLocaleString() }} units)</span>
+            <a v-if="unitsDeployedInfo.source_url" :href="unitsDeployedInfo.source_url" target="_blank" rel="noopener noreferrer" class="ms-2 small text-muted">(source)</a>
+          </p>
           <div class="project-description">
             <template v-if="descriptionParagraphs.length">
               <p v-for="(para, idx) in descriptionParagraphs" :key="idx">{{ para }}</p>
@@ -177,6 +183,7 @@ const router = useRouter();
 const project = ref(null);
 const companies = ref([]);
 const regulatoryData = ref({});
+const unitsDeployedMap = ref({});
 const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
 
 // Tag and usage descriptions from robots.schema.json
@@ -272,6 +279,21 @@ onMounted(async () => {
   const resRegulatory = await fetch('/regulatory.json');
   const dataRegulatory = await resRegulatory.json();
   regulatoryData.value = dataRegulatory;
+
+  // Load units deployed data
+  try {
+    const resUnits = await fetch('/units_deployed.json');
+    if (resUnits.ok) {
+      unitsDeployedMap.value = await resUnits.json();
+    }
+  } catch (e) {
+    console.error('Error fetching units deployed data:', e);
+  }
+});
+
+const unitsDeployedInfo = computed(() => {
+  if (!project.value || !unitsDeployedMap.value) return null;
+  return unitsDeployedMap.value[project.value.id] || null;
 });
 
 function goHome() {

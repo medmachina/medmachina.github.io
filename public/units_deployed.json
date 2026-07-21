@@ -1,0 +1,282 @@
+{
+  "intuitive_da_vinci_5": {
+    "count": 350,
+    "category": "100-500",
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  },
+  "intuitive_da_vinci_SP": {
+    "count": 320,
+    "category": "100-500",
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
+  },
+  "intuitive_da_vinci_X": {
+    "count": 1500,
+    "category": "1000+",
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  },
+  "intuitive_da_vinci_Xi": {
+    "count": 5500,
+    "category": "1000+",
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  },
+  "intuitive_da_vinci_Si": {
+    "count": 1500,
+    "category": "1000+",
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  },
+  "intuitive_da_vinci_S": {
+    "count": 500,
+    "category": "500-1000",
+    "source_url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  },
+  "intuitive_da_vinci": {
+    "count": 300,
+    "category": "100-500",
+    "source_url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  },
+  "intuitive_ion": {
+    "count": 750,
+    "category": "500-1000",
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/ion"
+  },
+  "computer_motion_zeus": {
+    "count": 50,
+    "category": "10-50",
+    "source_url": "https://en.wikipedia.org/wiki/ZEUS_robotic_surgical_system"
+  },
+  "iss_robodoc": {
+    "count": 120,
+    "category": "100-500",
+    "source_url": "https://thinksurgical.com/"
+  },
+  "dvrk_dvrk": {
+    "count": 45,
+    "category": "10-50",
+    "source_url": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+  },
+  "medtronic_hugo_ras": {
+    "count": 200,
+    "category": "100-500",
+    "source_url": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+  },
+  "medtronic_mazor_x": {
+    "count": 450,
+    "category": "100-500",
+    "source_url": "https://news.medtronic.com/"
+  },
+  "cmr_versius": {
+    "count": 250,
+    "category": "100-500",
+    "source_url": "https://cmrsurgical.com/versius"
+  },
+  "medicaroid_hinotori": {
+    "count": 75,
+    "category": "50-100",
+    "source_url": "https://www.medicaroid.com"
+  },
+  "ssii_mantra": {
+    "count": 65,
+    "category": "50-100",
+    "source_url": "https://ssinnovations.com/ssi-mantra/"
+  },
+  "stryker_mako": {
+    "count": 3000,
+    "category": "1000+",
+    "source_url": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+  },
+  "zimmer_rosa_knee": {
+    "count": 1000,
+    "category": "1000+",
+    "source_url": "https://www.zimmerbiomet.com/en/products-and-solutions/rosa-robotics.html"
+  },
+  "zimmer_rosa_one": {
+    "count": 400,
+    "category": "100-500",
+    "source_url": "https://www.zimmerbiomet.com/en/products-and-solutions/rosa-robotics.html"
+  },
+  "asensus_senhance": {
+    "count": 120,
+    "category": "100-500",
+    "source_url": "https://www.asensus.com/senhance"
+  },
+  "noah_galaxy": {
+    "count": 60,
+    "category": "50-100",
+    "source_url": "https://www.noahmed.com/"
+  },
+  "mmi_symani": {
+    "count": 45,
+    "category": "10-50",
+    "source_url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+  },
+  "curexo_cuvis_joint": {
+    "count": 110,
+    "category": "100-500",
+    "source_url": "https://www.curexo.com/"
+  },
+  "curexo_cuvis_spine": {
+    "count": 25,
+    "category": "10-50",
+    "source_url": "https://www.curexo.com/"
+  },
+  "microport_toumai": {
+    "count": 120,
+    "category": "100-500",
+    "source_url": "http://www.medbotsurgical.com/en/"
+  },
+  "microport_skywalker": {
+    "count": 35,
+    "category": "10-50",
+    "source_url": "http://www.medbotsurgical.com/en/"
+  },
+  "edge_kangduo": {
+    "count": 80,
+    "category": "50-100",
+    "source_url": "https://en.edgemed.cn/"
+  },
+  "neocis_yomi": {
+    "count": 150,
+    "category": "100-500",
+    "source_url": "https://www.neocis.com/products-and-services/yomi-robot/"
+  },
+  "distalmotion_dexter": {
+    "count": 40,
+    "category": "10-50",
+    "source_url": "https://www.distalmotion.com/dexter/"
+  },
+  "momentis_anovo": {
+    "count": 20,
+    "category": "10-50",
+    "source_url": "https://www.momentissurgical.com"
+  },
+  "moon_maestro": {
+    "count": 25,
+    "category": "10-50",
+    "source_url": "https://moonsurgical.com/maestro-system"
+  },
+  "think_tmax": {
+    "count": 35,
+    "category": "10-50",
+    "source_url": "https://www.thinksurgical.com/"
+  },
+  "ecential_stealth": {
+    "count": 30,
+    "category": "10-50",
+    "source_url": "https://ecential-robotics.com/"
+  },
+  "surgerii_surgerii": {
+    "count": 25,
+    "category": "10-50",
+    "source_url": "http://www.surgerii.com/"
+  },
+  "biobot_monalisa": {
+    "count": 40,
+    "category": "10-50",
+    "source_url": "https://biobotmd.com/"
+  },
+  "cornerstone_consurg": {
+    "count": 15,
+    "category": "10-50",
+    "source_url": "https://www.cs-robotics.com/"
+  },
+  "microsure_musa": {
+    "count": 12,
+    "category": "10-50",
+    "source_url": "https://microsure.nl/"
+  },
+  "acusurgical_ancaria": {
+    "count": 8,
+    "category": "0-10",
+    "source_url": "https://acusurgical.com/"
+  },
+  "robeaute_microbot": {
+    "count": 5,
+    "category": "0-10",
+    "source_url": "https://robeaute.com/"
+  },
+  "virtuoso_virtuoso": {
+    "count": 6,
+    "category": "0-10",
+    "source_url": "https://virtuososurgical.net/"
+  },
+  "revolve_revolve": {
+    "count": 4,
+    "category": "0-10",
+    "source_url": "https://revolvesurgical.com/"
+  },
+  "vicarious_vicarious": {
+    "count": 5,
+    "category": "0-10",
+    "source_url": "https://www.vicarioussurgical.com/"
+  },
+  "titan_sport": {
+    "count": 6,
+    "category": "0-10",
+    "source_url": "https://titanmedicalinc.com/"
+  },
+  "haply_inverse3": {
+    "count": 50,
+    "category": "50-100",
+    "source_url": "https://www.haply.co/inverse3"
+  },
+  "haption_virtuose": {
+    "count": 150,
+    "category": "100-500",
+    "source_url": "https://www.haption.com/"
+  },
+  "quanser_haptic": {
+    "count": 200,
+    "category": "100-500",
+    "source_url": "https://www.quanser.com/"
+  },
+  "forcedimension_delta": {
+    "count": 180,
+    "category": "100-500",
+    "source_url": "https://www.forcedimension.com/"
+  },
+  "applied_dexterity_raven": {
+    "count": 25,
+    "category": "10-50",
+    "source_url": "https://applieddexterity.com/"
+  },
+  "avatera_avatera": {
+    "count": 10,
+    "category": "0-10",
+    "source_url": "https://avatera.eu/en/avatera-system"
+  },
+  "ronovo_carina": {
+    "count": 8,
+    "category": "0-10",
+    "source_url": "https://www.ronovosurgical.com"
+  },
+  "lem_lem": {
+    "count": 6,
+    "category": "0-10",
+    "source_url": "https://lemsurgical.com/"
+  },
+  "ln_navi": {
+    "count": 12,
+    "category": "10-50",
+    "source_url": "https://lnrobotics.com/"
+  },
+  "sagebot_sagebot": {
+    "count": 15,
+    "category": "10-50",
+    "source_url": "http://www.sagebot.com/"
+  },
+  "livsmed_artiSential": {
+    "count": 350,
+    "category": "100-500",
+    "source_url": "http://www.livsmed.com/"
+  },
+  "renishaw_neuromate": {
+    "count": 80,
+    "category": "50-100",
+    "source_url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+  },
+  "rob_endosip": {
+    "count": 10,
+    "category": "0-10",
+    "source_url": "https://robsurgical.com/"
+  }
+}

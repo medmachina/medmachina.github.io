@@ -13,13 +13,14 @@ const items = ref([])
 const originalItems = ref([])
 const companies = ref([])
 const regulatoryData = ref({})
+const unitsDeployedData = ref({})
 const robotsError = ref('')
 const companiesError = ref('')
 const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
 const selectedStatuses = ref([])
-const sortMode = ref('random') // 'random', 'alphabetical', or 'year'
+const sortMode = ref('random') // 'random', 'alphabetical', 'year', or 'units'
 const yearSortAscending = ref(true) // true for oldest-first, false for newest-first
 
 function updateFiltersFromQuery() {
@@ -75,6 +76,15 @@ onMounted(async () => {
   } catch (err) {
     console.warn('Error loading regulatory.json:', err)
   }
+
+  try {
+    const resUnits = await fetch('/units_deployed.json')
+    if (resUnits.ok) {
+      unitsDeployedData.value = await resUnits.json()
+    }
+  } catch (err) {
+    console.warn('Error loading units_deployed.json:', err)
+  }
 })
 
 function sortAlphabetically() {
@@ -109,6 +119,31 @@ function sortByYear() {
     // Sort by year
     const diff = a.introduction_year - b.introduction_year
     return yearSortAscending.value ? diff : -diff
+  })
+}
+
+function sortByUnits() {
+  sortMode.value = 'units'
+  const categoryRanks = {
+    '1000+': 6,
+    '500-1000': 5,
+    '100-500': 4,
+    '50-100': 3,
+    '10-50': 2,
+    '0-10': 1
+  }
+
+  items.value = [...originalItems.value].sort((a, b) => {
+    const dataA = unitsDeployedData.value[a.id]
+    const dataB = unitsDeployedData.value[b.id]
+
+    const countA = dataA?.count ?? 0
+    const countB = dataB?.count ?? 0
+    if (countA !== countB) return countB - countA
+
+    const rankA = categoryRanks[dataA?.category] || 0
+    const rankB = categoryRanks[dataB?.category] || 0
+    return rankB - rankA
   })
 }
 
@@ -249,10 +284,18 @@ const filteredItems = computed(() => {
           >
             📅
           </button>
+          <button 
+            @click="sortByUnits" 
+            :class="['btn', 'ms-2', sortMode === 'units' ? 'btn-primary' : 'btn-outline-secondary']"
+            title="Sort by units deployed"
+            style="min-width: 50px;"
+          >
+            📊
+          </button>
         </div>
         <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>
         <div v-if="companiesError" class="alert alert-danger my-3">{{ companiesError }}</div>
-        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" :regulatoryData="regulatoryData" />
+        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" :regulatoryData="regulatoryData" :unitsDeployedData="unitsDeployedData" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

@@ -27,6 +27,12 @@
                 v-if="reg.body"
               >{{ reg.body }}</span>
             </template>
+            <!-- Units Deployed Badge -->
+            <span
+              v-if="getUnitsDeployed(item.id)"
+              class="badge bg-primary ms-1"
+              :title="getUnitsDeployedTooltip(item.id)"
+            >{{ getUnitsDeployed(item.id).category }}</span>
           </div>
 <!-- ...existing template code... -->
         </div>
@@ -49,6 +55,10 @@ const props = defineProps({
     default: () => []
   },
   regulatoryData: {
+    type: Object,
+    default: () => ({})
+  },
+  unitsDeployedData: {
     type: Object,
     default: () => ({})
   }
@@ -176,6 +186,19 @@ function getUniqueRegulatory(robotId) {
     seen.add(reg.body);
     return true;
   });
+}
+
+function getUnitsDeployed(robotId) {
+  return props.unitsDeployedData?.[robotId] || null;
+}
+
+function getUnitsDeployedTooltip(robotId) {
+  const data = getUnitsDeployed(robotId);
+  if (!data) return '';
+  if (data.count) {
+    return `${data.category} (~${data.count.toLocaleString()} units deployed)`;
+  }
+  return `${data.category} units deployed`;
 }
 </script>
 
