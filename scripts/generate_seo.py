@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html
 import json
 import os
 import re
@@ -61,8 +62,9 @@ def generate_sitemap(robots_data, companies_data):
 
     xml_entries = []
     for u in urls:
+        escaped_loc = html.escape(u['loc'], quote=True)
         xml_entries.append(f"""  <url>
-    <loc>{u['loc']}</loc>
+    <loc>{escaped_loc}</loc>
     <lastmod>{today}</lastmod>
     <changefreq>{u['changefreq']}</changefreq>
     <priority>{u['priority']}</priority>
@@ -85,45 +87,50 @@ def generate_sitemap(robots_data, companies_data):
             f.write(sitemap_content)
 
 def build_prerender_html(template, title, description, canonical_url, image_url, json_ld, prerender_body):
-    html = template
+    escaped_title = html.escape(title)
+    escaped_description = html.escape(description, quote=True)
+    escaped_canonical_url = html.escape(canonical_url, quote=True)
+
+    html_out = template
 
     # Replace <title>
-    html = re.sub(r'<title>.*?</title>', lambda m: f'<title>{title}</title>', html)
+    html_out = re.sub(r'<title>.*?</title>', lambda m: f'<title>{escaped_title}</title>', html_out)
 
     # Replace or add meta description
-    if '<meta name="description"' in html:
-        html = re.sub(r'<meta name="description"[^>]*>', lambda m: f'<meta name="description" content="{description}" />', html)
+    if '<meta name="description"' in html_out:
+        html_out = re.sub(r'<meta name="description"[^>]*>', lambda m: f'<meta name="description" content="{escaped_description}" />', html_out)
     else:
-        html = html.replace('</head>', f'  <meta name="description" content="{description}" />\n  </head>')
+        html_out = html_out.replace('</head>', f'  <meta name="description" content="{escaped_description}" />\n  </head>')
 
     # Replace or add canonical
-    if '<link rel="canonical"' in html:
-        html = re.sub(r'<link rel="canonical"[^>]*>', lambda m: f'<link rel="canonical" href="{canonical_url}" />', html)
+    if '<link rel="canonical"' in html_out:
+        html_out = re.sub(r'<link rel="canonical"[^>]*>', lambda m: f'<link rel="canonical" href="{escaped_canonical_url}" />', html_out)
     else:
-        html = html.replace('</head>', f'  <link rel="canonical" href="{canonical_url}" />\n  </head>')
+        html_out = html_out.replace('</head>', f'  <link rel="canonical" href="{escaped_canonical_url}" />\n  </head>')
 
     # Open Graph replacement
-    html = re.sub(r'<meta property="og:title"[^>]*>', lambda m: f'<meta property="og:title" content="{title}" />', html)
-    html = re.sub(r'<meta property="og:description"[^>]*>', lambda m: f'<meta property="og:description" content="{description}" />', html)
-    html = re.sub(r'<meta property="og:url"[^>]*>', lambda m: f'<meta property="og:url" content="{canonical_url}" />', html)
+    html_out = re.sub(r'<meta property="og:title"[^>]*>', lambda m: f'<meta property="og:title" content="{escaped_title}" />', html_out)
+    html_out = re.sub(r'<meta property="og:description"[^>]*>', lambda m: f'<meta property="og:description" content="{escaped_description}" />', html_out)
+    html_out = re.sub(r'<meta property="og:url"[^>]*>', lambda m: f'<meta property="og:url" content="{escaped_canonical_url}" />', html_out)
     if image_url:
         full_image = image_url if image_url.startswith('http') else f"{BASE_URL}{image_url}"
-        html = re.sub(r'<meta property="og:image"[^>]*>', lambda m: f'<meta property="og:image" content="{full_image}" />', html)
+        escaped_image_url = html.escape(full_image, quote=True)
+        html_out = re.sub(r'<meta property="og:image"[^>]*>', lambda m: f'<meta property="og:image" content="{escaped_image_url}" />', html_out)
 
     # JSON-LD injection
     if json_ld:
         json_str = json.dumps(json_ld, indent=2)
         script_tag = f'<script type="application/ld+json" id="seo-jsonld">\n{json_str}\n</script>'
-        if '<script type="application/ld+json"' in html:
-            html = re.sub(r'<script type="application/ld\+json"[^>]*>.*?</script>', lambda m: script_tag, html, flags=re.DOTALL)
+        if '<script type="application/ld+json"' in html_out:
+            html_out = re.sub(r'<script type="application/ld\+json"[^>]*>.*?</script>', lambda m: script_tag, html_out, flags=re.DOTALL)
         else:
-            html = html.replace('</head>', f'  {script_tag}\n  </head>')
+            html_out = html_out.replace('</head>', f'  {script_tag}\n  </head>')
 
     # Ingest pre-rendered HTML into <div id="app"></div>
     if prerender_body:
-        html = html.replace('<div id="app"></div>', f'<div id="app">{prerender_body}</div>')
+        html_out = html_out.replace('<div id="app"></div>', f'<div id="app">{prerender_body}</div>')
 
-    return html
+    return html_out
 
 def prerender_dist(robots_data, companies_data):
     index_path = os.path.join(DIST_DIR, "index.html")
