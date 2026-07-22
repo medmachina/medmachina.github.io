@@ -96,6 +96,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+import { updateSeo } from '../utils/seo';
 
 const route = useRoute();
 const router = useRouter();
@@ -116,6 +117,35 @@ onMounted(async () => {
     // Load robots data
     const robotsResponse = await fetch('/robots.json');
     allRobots.value = await robotsResponse.json();
+
+    if (company.value) {
+      const title = `${company.value.name} - Medical Robotics Company | Med Machina`;
+      const description = company.value.description 
+        ? `${company.value.description}. Explore surgical robots and regulatory portfolio for ${company.value.name}.`
+        : `Explore surgical robotics portfolio and company information for ${company.value.name}.`;
+      
+      const sameAs = [];
+      if (company.value.linkedin_url) sameAs.push(company.value.linkedin_url);
+      if (company.value.opencorporates_url) sameAs.push(company.value.opencorporates_url);
+      if (company.value.urls && company.value.urls[0]) sameAs.push(company.value.urls[0].url);
+
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': company.value.name,
+        'description': description,
+        'url': `https://medmachina.github.io/company/${encodeURIComponent(company.value.name)}`,
+        'address': company.value.country ? { '@type': 'PostalAddress', 'addressCountry': company.value.country } : undefined,
+        'sameAs': sameAs.length ? sameAs : undefined
+      };
+
+      updateSeo({
+        title,
+        description,
+        path: `/company/${encodeURIComponent(company.value.name)}`,
+        jsonLd
+      });
+    }
   } catch (error) {
     console.error('Error loading data:', error);
   }

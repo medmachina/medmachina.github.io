@@ -177,6 +177,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+import { updateSeo } from '../utils/seo';
 
 const route = useRoute();
 const router = useRouter();
@@ -288,6 +289,35 @@ onMounted(async () => {
     }
   } catch (e) {
     console.error('Error fetching units deployed data:', e);
+  }
+
+  // Update SEO Meta Tags & Structured Data
+  if (project.value) {
+    const compName = companyInfo.value?.name || '';
+    const title = `${project.value.name}${compName ? ' by ' + compName : ''} - Medical Robot | Med Machina`;
+    const description = `Specifications, regulatory history, videos, and manufacturer details for ${project.value.name}${compName ? ' (' + compName + ')' : ''}.`;
+    const photo = project.value.photos && project.value.photos[0] && project.value.photos[0].url ? project.value.photos[0].url : '/og/og-home.png';
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'MedicalDevice',
+      'name': project.value.name,
+      'description': description,
+      'url': `https://medmachina.github.io/robot/${project.value.id}`,
+      'image': photo.startsWith('http') ? photo : `https://medmachina.github.io${photo}`
+    };
+    if (compName) {
+      jsonLd.manufacturer = {
+        '@type': 'Organization',
+        'name': compName
+      };
+    }
+    updateSeo({
+      title,
+      description,
+      path: `/robot/${project.value.id}`,
+      image: photo,
+      jsonLd
+    });
   }
 });
 
