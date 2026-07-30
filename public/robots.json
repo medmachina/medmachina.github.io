@@ -1074,7 +1074,7 @@
     "name": "Ottava",
     "id": "j&j_ottava",
     "introduction_year": 2026,
-    "description": "The OTTAVA™ Robotic Surgical System, developed by Johnson & Johnson MedTech, is a soft-tissue robotic surgical platform featuring a table-integrated architecture. Four robotic arms are built directly into the operating table (utilizing Twin Motion™ technology to synchronize table and arm positioning), eliminating stand-alone patient carts and reducing operating room footprint by 30% to 50%. The platform features wristed laparoscopic instruments, zero-footprint arm storage under the table, and seamless connection to J&J's digital surgery ecosystem. FDA granted De Novo marketing authorization on July 22, 2026 for general surgery procedures including Roux-en-Y gastric bypass, sleeve gastrectomy, gastrectomy, cholecystectomy, splenectomy, small bowel resection, appendectomy, fundoplication, and hernia repair.",
+    "description": "The OTTAVA™ Robotic Surgical System, developed by Johnson & Johnson MedTech, is a soft-tissue robotic surgical platform featuring a table-integrated architecture. Four robotic arms are integrated into the operating table. The platform features wristed instruments and seamless connection to J&J's digital surgery ecosystem. FDA granted De Novo marketing authorization on July 22, 2026 for general surgery procedures",
     "urls": [
       {
         "caption": "Johnson & Johnson MedTech",
@@ -1097,10 +1097,6 @@
       {
         "url": "https://img.youtube.com/vi/D55AHbRo8Lo/maxresdefault.jpg",
         "site": "https://www.youtube.com/watch?v=D55AHbRo8Lo"
-      },
-      {
-        "url": "https://img.youtube.com/vi/_DxXkRZj_Fg/maxresdefault.jpg",
-        "site": "https://www.youtube.com/watch?v=_DxXkRZj_Fg"
       }
     ],
     "videos": [
