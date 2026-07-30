@@ -67,27 +67,29 @@ a,
   }
 }
 
-/* Light theme Bootstrap overrides */
+/* Bootstrap theme overrides */
 header {
   border-color: var(--color-border) !important;
   background-color: var(--color-background) !important;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--color-heading) !important;
 }
 
-.form-control {
-  background-color: var(--vt-c-white);
+.form-control,
+.form-select {
+  background-color: var(--color-background-soft);
   border-color: var(--color-border);
   color: var(--color-text);
 }
 
-.form-control:focus {
-  background-color: var(--vt-c-white);
-  border-color: #86b7fe;
-  color: var(--vt-c-indigo);
-  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+.form-control:focus,
+.form-select:focus {
+  background-color: var(--color-background-soft);
+  border-color: var(--color-border-hover);
+  color: var(--color-text);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
 }
 
 .form-control::placeholder {
@@ -96,15 +98,21 @@ h1, h2 {
 }
 
 .list-group-item {
-  background-color: var(--vt-c-white);
+  background-color: var(--color-background-soft);
   border-color: var(--color-border);
-  color: var(--vt-c-indigo);
+  color: var(--color-text);
 }
 
 .list-group-item.active {
   background-color: #0d6efd;
   border-color: #0d6efd;
   color: #fff;
+}
+
+.card {
+  background-color: var(--color-background-soft);
+  border-color: var(--color-border);
+  color: var(--color-text);
 }
 
 /* Fixed bottom-right "Edit on GitHub" button */
