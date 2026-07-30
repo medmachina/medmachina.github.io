@@ -1,0 +1,52 @@
+{
+  "name": "Cuvis-joint",
+  "id": "curexo_cuvis_joint",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Curexo company site",
+      "url": "https://www.curexo.com/"
+    },
+    {
+      "caption": "Surgical Robotics Technology: Cuvis spine page",
+      "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/active-knee-replacement-robot.png",
+      "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-joint/"
+    },
+    {
+      "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/active-Knee-Replacement-robot-2.jpg",
+      "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-joint/"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic"
+  ],
+  "usages": [
+    "Knee"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=Vpq4X-UnNgA",
+      "title": "CUREXO CUVIS-joint Surgical Robot System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dN8U3WVKHBs",
+      "title": "[CUVIS-joint] CUVIS-joint Procedure & Pre-Clinical Test"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kQPh_HSdDyk",
+      "title": "CUREXO:CUVIS spine surgical robot system"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FplldiyJvKI",
+      "title": "Cuvis fully Active Robotic Joint Replacement Surgery"
+    }
+  ]
+}

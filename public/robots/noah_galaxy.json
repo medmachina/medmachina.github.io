@@ -1,0 +1,34 @@
+{
+  "name": "Galaxy",
+  "id": "noah_galaxy",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Noah Medical",
+      "url": "https://www.noahmed.com/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Noah_web_Walkthrough_Silo1.png",
+      "site": "https://www.noahmed.com/galaxy"
+    },
+    {
+      "url": "https://21262706.fs1.hubspotusercontent-na1.net/hubfs/21262706/Galaxy_Feature_1_800x800pxl.jpg",
+      "site": "https://www.noahmed.com/galaxy"
+    }
+  ],
+  "tags": [],
+  "usages": [
+    "Bronchoscopy",
+    "Lung"
+  ],
+  "description": "Used with C-Arm/CBCT.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=H_XDDsxIkgw",
+      "title": "#Job to #Robot: Noah Medical: #Robotic #Bronchoscopy.#Robots looking for #jobs @jobtorob"
+    }
+  ]
+}

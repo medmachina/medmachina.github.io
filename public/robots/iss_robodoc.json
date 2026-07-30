@@ -1,0 +1,47 @@
+{
+  "name": "ROBODOC",
+  "id": "iss_robodoc",
+  "introduction_year": 1992,
+  "urls": [
+    {
+      "caption": "Think Surgical corporate site (lineage)",
+      "url": "https://thinksurgical.com/"
+    },
+    {
+      "caption": "UC Davis origin reference (research roots)",
+      "url": "https://health.ucdavis.edu/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-33169-000001",
+      "site": "https://americanhistory.si.edu/collections/object/nmah_1842522"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic",
+    "Semi-autonomous",
+    "Commercial",
+    "Retired"
+  ],
+  "usages": [
+    "Hip"
+  ],
+  "description": "ROBODOC was an early orthopedic robotic system (originally developed by Integrated Surgical Systems based on university research) focused on precise femoral canal milling for total hip arthroplasty. Using preoperative CT imaging and planning, it performed semi-autonomous bone preparation to improve implant fit, alignment, and reproducibility versus manual instrumentation. It underscored early challenges in surgical robotics: accurate registration, OR workflow integration, and multi-year regulatory pathways (European clinical use well before FDA clearance in 2008). Its technology lineage continued under successor companies culminating in Think Surgical platforms.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=RLNPKebg9aI",
+      "title": "1990s, VINTAGE, ROBODOC, SUTTER HOSPITAL, ROSEVILLE, CALIFORNIA, AUTOMATED SURGICAL ROBOT"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yEO4dMWmYro",
+      "title": "1. ROBODOC® Introduction_Dr. Bargar.wmv"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=u4f8BWTliJY",
+      "title": "Robodoc"
+    }
+  ]
+}

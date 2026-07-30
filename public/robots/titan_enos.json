@@ -1,0 +1,41 @@
+{
+  "name": "Enos",
+  "id": "titan_enos",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Titan Medical [defunct]",
+      "url": "https://titanmedicalinc.com/"
+    },
+    {
+      "caption": "FIERCE Biotech, 06/2023 article",
+      "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
+    }
+  ],
+  "photos": [],
+  "tags": [
+    "RAMIS",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=bSiJCMQvqiE",
+      "title": "Enos (SPORTS): Multi-articulating Robotic Surgery System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=M8QQASXZvTM",
+      "title": "Enos Robotic Single Access Surgery System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NUfjaQxjGKA",
+      "title": "Enos single port laparoscopic surgical robot"
+    }
+  ]
+}

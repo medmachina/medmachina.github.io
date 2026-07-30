@@ -1,0 +1,58 @@
+{
+  "name": "Hugo RAS",
+  "id": "medtronic_hugo_ras",
+  "introduction_year": 2021,
+  "urls": [
+    {
+      "caption": "Medtronic, Hugo RAS",
+      "url": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-robotics/robotic-assisted-surgery/hugo-ras-system-hcp-or-setup-arm-use-b.jpg",
+      "site": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+    },
+    {
+      "url": "https://www.medtronic.com/content/dam/medtronic-com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system-module.jpg",
+      "site": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+    },
+    {
+      "url": "https://www.medtronic.com/content/dam/medtronic-com/global/corporate/newsroom/media-kits/robotics/hugo-ras-system-overview.jpg",
+      "caption": "Hugo RAS"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Multiple patient carts",
+    "Multiple ports",
+    "3+ instruments",
+    "Stereo display",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Mechanical RCM",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=IG08p0ZpbQY",
+      "title": "Robots Takeover Surgery! Medtronic Hugo RAS AI Robot Targets da Vinci Surgical Robot's Dominance"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SSPq-8O2t0g",
+      "title": "Dr Premkumar Balachandran explains how robotic hernia surgery is done using Hugo RAS robotic system"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eQfLM4y-1I8",
+      "title": "Medtronic's Exibition of the Hugo RAS: Robot Assisted Surgery"
+    }
+  ]
+}

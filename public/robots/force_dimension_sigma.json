@@ -1,0 +1,26 @@
+{
+  "name": "Sigma",
+  "id": "force_dimension_sigma",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Force Dimensiom",
+      "url": "https://www.forcedimension.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.forcedimension.com/images/2020/08/01/banner-sigma.jpg",
+      "site": "https://www.forcedimension.com/products/sigma"
+    },
+    {
+      "url": "https://www.forcedimension.com/images/2020/08/01/sigma-1.jpg",
+      "site": "https://www.forcedimension.com/products/sigma"
+    }
+  ],
+  "tags": [
+    "Haptic device"
+  ],
+  "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
+  "also_known_as": []
+}

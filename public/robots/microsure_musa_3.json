@@ -1,0 +1,55 @@
+{
+  "name": "MUSA-3",
+  "id": "microsure_musa_3",
+  "also_known_as": [
+    "MUSA"
+  ],
+  "introduction_year": 2026,
+  "description": "Third-generation robotic microsurgery platform for open super-microsurgery. The MUSA-3 translates a surgeon's hand movements into ultra-precise, tremor-free motions, enabling suturing of vessels as small as 0.3 mm. Features up to 20× motion scaling and proprietary tremor filtering. Uniquely, surgeons can use their own preferred standard microsurgical instruments from various brands via disposable adapters — no proprietary instruments required. Built on clinical experience from the MUSA and MUSA-2 platforms (first-in-human 2017, ~50 patient clinical studies). The system consists of a surgeon console with ergonomic joysticks and a robotic arm cart, both operating under a surgical microscope or 3D exoscope.",
+  "urls": [
+    {
+      "caption": "Microsure",
+      "url": "https://www.microsure.nl"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://microsure.nl/wp-content/uploads/2023/09/Microsure_Render_04.jpg",
+      "site": "https://www.microsure.nl"
+    }
+  ],
+  "tags": [
+    "Open microsurgery",
+    "Teleoperated",
+    "2 instruments",
+    "Open console",
+    "Commercial"
+  ],
+  "usages": [
+    "Microsurgery"
+  ],
+  "regulatory": [
+    {
+      "body": "CE",
+      "year": 2026
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=yvgfl9zTHk0",
+      "title": "Microsure's MUSA-3 | Why a robot for microsurgery?"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=neAoqNE54co",
+      "title": "Microsure's MUSA-3"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=I3RvpDQxZcg",
+      "title": "Attaching Your Microsurgical Instrument to the MUSA‑3 Robot Arm with a Disposable Adaptor"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vTsohJ3aP-8",
+      "title": "World’s First Clinically Available Microsurgical Robotic System: Super-Microsurgery with Robot Hands"
+    }
+  ]
+}

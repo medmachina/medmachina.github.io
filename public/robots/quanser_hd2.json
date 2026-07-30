@@ -1,0 +1,32 @@
+{
+  "name": "HD2",
+  "id": "quanser_hd2",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Quanser, HD2",
+      "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigii9oKvwUy1PCq0xZufN9LliPVoe732xTY1vNE-TBZOVgz0Sy5JCzmdM_3xm9HV3NiYG_w9uucilRu7dbAnbVfCahx1AXY9mAZ_3caAzWgwJyAw9OQtxSzwxksGCvy_A52tNNRZe7NVkB/s320/HD._MBB36218A_rgb.jpg",
+      "site": "https://quanser.blogspot.com/2009/01/quansers-new-high-definition-haptic.html"
+    },
+    {
+      "url": "https://www.quanser.com/wp-content/uploads/2023/11/HD2_3-644x766.jpg",
+      "site": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+    }
+  ],
+  "tags": [
+    "Haptic device"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=J5OIiWopb2w",
+      "title": "HD2 High Definition Haptic Device: Multi-Domain Haptics, Single Platform"
+    }
+  ]
+}

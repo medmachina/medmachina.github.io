@@ -1,0 +1,37 @@
+{
+  "name": "Anovo",
+  "id": "momentis_anovo",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Momentis Surgical, Anovo",
+      "url": "https://www.momentissurgical.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.momentissurgical.com/wp-content/uploads/2022/11/slider-image-1280x640.jpg",
+      "site": "https://www.momentissurgical.com"
+    },
+    {
+      "url": "https://www.momentissurgical.com/wp-content/uploads/2022/11/Miniaturized-Humanoid-Arm-1-e1678814430441-1143x640.png",
+      "site": "https://www.momentissurgical.com"
+    },
+    {
+      "url": "https://www.momentissurgical.com/wp-content/uploads/2023/03/Accessibility_homepage-edit-2-840x640.jpg",
+      "site": "https://www.momentissurgical.com"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Commercial",
+    "Mechanical Cartesian manipulation"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological"
+  ],
+  "description": "",
+  "also_known_as": []
+}

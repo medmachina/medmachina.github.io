@@ -1,0 +1,39 @@
+{
+  "name": "Bitrack",
+  "id": "rob_surgical_bitrack",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Rob Surgical, bitrack",
+      "url": "https://www.robsurgical.com/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.robsurgical.com/wp-content/uploads/2022/09/deisgn-console-bitrack-system.jpg",
+      "site": "https://www.robsurgical.com/product/"
+    },
+    {
+      "url": "https://www.robsurgical.com/wp-content/uploads/2022/10/robot-bitrack-system.png",
+      "site": "https://www.robsurgical.com/product/"
+    },
+    {
+      "url": "https://www.robsurgical.com/wp-content/uploads/2022/09/dynamic-fulcrum-point.jpg",
+      "site": "https://www.robsurgical.com/product/"
+    },
+    {
+      "url": "https://www.robsurgical.com/wp-content/uploads/2022/09/consola-bitrack-system-rob-surgical.jpg",
+      "site": "https://www.robsurgical.com/product/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Commercial"
+  ],
+  "usages": [
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": []
+}

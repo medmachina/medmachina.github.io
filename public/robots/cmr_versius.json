@@ -1,0 +1,45 @@
+{
+  "name": "Versius",
+  "id": "cmr_versius",
+  "introduction_year": 2019,
+  "urls": [
+    {
+      "caption": "CMR Surgical, Versius",
+      "url": "https://cmrsurgical.com/versius"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.news-medical.net/image-handler/ts/20220504062915/ri/1350/src/images/news/ImageForNews_712636_16516601551255412.jpg",
+      "site": "https://cmrsurgical.com/versius"
+    },
+    {
+      "url": "https://www.ircad.fr/wp-content/uploads/Capture-decran-2020-08-24-a-11.48.47-1.png",
+      "site": "https://www.ircad.fr/new-partnership-with-ircad-2/"
+    },
+    {
+      "url": "https://www.ircad.fr/wp-content/uploads/Capture-decran-2020-08-24-a-11.48.47-1-1536x967.png",
+      "site": "https://cmrsurgical.com/versius"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Multiple patient carts",
+    "Multiple ports",
+    "3+ instruments",
+    "Stereo display",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Software RCM",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": []
+}

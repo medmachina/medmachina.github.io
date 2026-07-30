@@ -1,0 +1,63 @@
+{
+  "name": "da Vinci Xi",
+  "id": "intuitive_da_vinci_Xi",
+  "introduction_year": 2014,
+  "urls": [
+    {
+      "caption": "Intuitive, da Vinci",
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "caption": "Synektik, da Vinci in the world",
+      "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Da-Vinci-X/Da-Vinci-Xi-product-lineup.jpg?q=100&w=524&h=350&auto=compress%2Cformat&fit=crop&crop=entropy&s=546c5411b1e2edaf944e63bb072e7f74",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "url": "https://isi-static.imgix.net/en-in/-/jssmedia/www/en-in/home/products-and-services/da-vinci/_assets/davinci-xi-surgical-system.jpg?h=600&iar=0&w=541&hash=689E47DEC8865D65F8B665E939082ACB",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Motorized table",
+    "Haptic",
+    "Commercial"
+  ],
+  "description": "Fourth generation da Vinci system.\n\nThe patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) are now fully motorized and computer controlled, with automatic positioning and gravity compensation.  Instead of four long setup arms starting from a central column, the patient's cart now has a main boom that allows to position all 4 arms above the patient.  Each active arm can then be positioned precisely with much shorter setup arms.  The setup is the OR is simpler and the kinematic chains shorter (likely more precise).\n\n An extra degree of freedom is provided on the setup joints to reposition the active arm without changing the RCM point.  This degree of freedom is not active during teleoperation, its main function is to place the arms away from each other and avoid collicions outside the patient.The Xi system also introduces a motorized table which allows to incline the patient while the instruments are in place.  This requires the setup joints to be motorized so the entry points (RCM) can follow the table's motion.\n\nThe patient cart has motorized wheels to ease transport between rooms.\n\nThe patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are interchangeable and renamed USMs (Universal serial manipulators).  Each arm can now hold either an instrument or the endoscope.  Each USM now has 8 motors, providing 5 actuators for the instrument itself (previous versions had 4).  All motors and sensors for the instrument's actuation are located on the insertion link, directly behind the sterile adapter.  Previous systems had complex cables and pulleys from the motors in the second link of the active arm to the back of the sterile adapter.\n\nThe video system is totally new, with a fully digital HD 3D video stream from the endoscope tip to the surgeon's console.\n\nThe surgeon's console remains visually unchanged from the da Vinci Si and SP.",
+  "also_known_as": [
+    "IS4200"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=uRYBd7Lrzx4",
+      "title": "Robotic-Assisted Surgery: da Vinci Xi Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sbP-mb5ITIE",
+      "title": "Intuitive da vinci xi surgical system"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "R1",
+  "id": "revolve_R1",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Revolve Surgical",
+      "url": "https://www.revolvesurgical.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://cdn.prod.website-files.com/65b3c087a187154f99c5173c/65bbbaecf479b67122c02035_Product%20Banner-p-1600.jpg",
+      "site": "https://www.revolvesurgical.com"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Multiple ports",
+    "Collaborative control",
+    "Commercial"
+  ],
+  "usages": [],
+  "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle.",
+  "also_known_as": []
+}

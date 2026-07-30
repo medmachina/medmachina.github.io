@@ -1,0 +1,56 @@
+{
+  "name": "Sentire",
+  "id": "cornerstone_sentire",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Cornerstone, Sentire",
+      "url": "https://en.csrbtx.com/sentire/sentire-surgical-system"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/42a200216973933.67e60dabb728e.png",
+      "site": "https://en.csrbtx.com/sentire/sentire-surgical-system"
+    },
+    {
+      "url": "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2025/05/26/949dc71e-62a0-4777-920d-2eb82a55a8f9_222e6d43.jpg",
+      "site": "https://en.csrbtx.com/sentire/sentire-surgical-system"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical RCM",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "description": "Imitation is the most sincere form of flattery: Sentire robot looks remarkably like da Vinci X, from the surgeon's console to the patient's cart",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=hs5QeCS8SBY",
+      "title": "Cornerstone Robotics - Sentire"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ylFQ6XI71yo",
+      "title": "Introducing Sentire Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bAMeQBHwMjk",
+      "title": "Sentire Surgical Robot Aging Test"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Cuvis-spine",
+  "id": "curexo_cuvis_spine",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Curexo company site",
+      "url": "https://www.curexo.com/"
+    },
+    {
+      "caption": "Surgical Robotics Technology: Cuvis spine page",
+      "url": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/surgical-navigation-robot-1.jpg",
+      "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+    },
+    {
+      "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/surgical-navigation-robot-2.jpg",
+      "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+    },
+    {
+      "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2023/01/surgical-navigation-robot-4.jpg",
+      "site": "https://www.surgicalroboticstechnology.com/company/curexo/cuvis-spine/"
+    }
+  ],
+  "tags": [
+    "Open surgery"
+  ],
+  "usages": [
+    "Spine"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=rOojdaec_Q0",
+      "title": "[CUVIS-spine] Procedure & Pre-Clinical Test"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kQPh_HSdDyk",
+      "title": "CUREXO:CUVIS spine surgical robot system"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ttIGXxMDLng",
+      "title": "Spine robot CUREXO"
+    }
+  ]
+}

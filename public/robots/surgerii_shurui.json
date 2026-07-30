@@ -1,0 +1,58 @@
+{
+  "name": "SHURUI",
+  "id": "surgerii_shurui",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Surgerii",
+      "url": "https://en.surgerii.com/robot/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://en.surgerii.com/upload/2024-12/173451128133184600.png",
+      "site": "https://en.surgerii.com/robot/"
+    },
+    {
+      "url": "https://en.surgerii.com/upload/2024-12/173451108005967600.png",
+      "site": "https://en.surgerii.com/robot/"
+    },
+    {
+      "url": "https://en.surgerii.com/upload/2025-03/174098558572016000.png",
+      "site": "https://en.surgerii.com/robot/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Single port",
+    "3+ instruments",
+    "Snake-like instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=c4UalyU8s6M",
+      "title": "Discover Shurui Single-Port Robotic System from Surgerii Robotics"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2_MuUY3HobY",
+      "title": "Shurui surgical robot"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SC8Yo9qIe3M",
+      "title": "Shurui surgical robot (2)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Dexter",
+  "id": "distalmotion_dexter",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Distalmotion, Dexter",
+      "url": "https://www.distalmotion.com/dexter/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://cms.distalmotion.com/uploads/xlarge_Epalinges_Product_shoot_DAY_1_51_facing_screen_b7e30d721d.jpg",
+      "site": "https://www.distalmotion.com/dexter/"
+    },
+    {
+      "url": "https://cms.distalmotion.com/uploads/large_Epalinges_Product_shoot_DAY_1_224_40b4ec9d20.jpg",
+      "site": "https://www.distalmotion.com/dexter/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Commercial",
+    "Stereo display",
+    "Open console",
+    "Multiple patient carts",
+    "Mechanical Cartesian manipulation",
+    "Mechanical RCM",
+    "Multiple ports"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=wMY8_DpHAug",
+      "title": "Dr. Erica Stockwell and her first impressions of DEXTER® Robotic Surgery System"
+    }
+  ]
+}

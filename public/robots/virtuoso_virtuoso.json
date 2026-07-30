@@ -1,0 +1,43 @@
+{
+  "name": "Virtuoso",
+  "id": "virtuoso_virtuoso",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Virtuoso",
+      "url": "https://virtuososurgical.net/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://virtuososurgical.net/wp-content/uploads/2023/05/carousel-pair-01.jpg",
+      "site": "https://virtuososurgical.net/technology/"
+    },
+    {
+      "url": "https://virtuososurgical.net/wp-content/uploads/2023/05/carousel-pair-02.jpg",
+      "site": "https://virtuososurgical.net/technology/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "2 instruments",
+    "Mechanical manipulation",
+    "Mono endoscope",
+    "Commercial",
+    "Single port"
+  ],
+  "usages": [],
+  "description": "Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulators emulate laparoscopic instruments (not Cartesian).",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=opHoMILlzWs",
+      "title": "Virtuoso Surgical"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=emijbWd7ygo",
+      "title": "Virtuoso Surgical Technology - Feb 2019"
+    }
+  ]
+}

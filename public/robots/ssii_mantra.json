@@ -1,0 +1,50 @@
+{
+  "name": "Mantra",
+  "id": "ssii_mantra",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "SSI, Mantra",
+      "url": "https://ssinnovations.com/ssi-mantra/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://ssinnovations.com/wp-content/uploads/2024/12/M3-PSAC-DEC241A-600x600.webp",
+      "site": "https://ssinnovations.com/ssi-mantra/"
+    },
+    {
+      "url": "https://ssinnovations.com/wp-content/uploads/2024/12/M3-VC-DEC241B-600x600.webp",
+      "site": "https://ssinnovations.com/ssi-mantra/"
+    },
+    {
+      "url": "https://ssinnovations.com/wp-content/uploads/2024/12/M3-SCC-DEC241A.webp",
+      "site": "https://ssinnovations.com/ssi-mantra/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Multiple patient carts",
+    "Multiple ports",
+    "3+ instruments",
+    "Stereo display",
+    "Stereo endoscope",
+    "Mechanical RCM",
+    "Free hand manipulation",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=wC_FfcOVX4Y",
+      "title": "The Story of SSI Mantra - India's First Surgical Robotic System"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "eCential Robotics",
+  "id": "ecential_robotics_platform",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Ecential Robotics platform",
+      "url": "https://www.ecential-robotics.com/en-us"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.ecential-robotics.com/media/images/trash/_1920x1080_crop_center-center_none/43961/Ecential_Robotics_0837_operation_bloc%C2%A9e2nphoto.com-Copie-Copie.webp",
+      "site": "https://www.ecential-robotics.com/en-us/unified-imaging-navigation-and-robotic-platform"
+    }
+  ],
+  "tags": [
+    "Open surgery"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=rANu2lL0glc",
+      "title": "eCential Robotics - Revolutionizing Spinal Surgery with Open Surgical Assistant | Doctech.live\""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=f_oL_vM8bog",
+      "title": "eCential Robotics   the essentials of surgical robotics"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=amVxODeaHfM",
+      "title": "eCential: Robotic Platform"
+    }
+  ],
+  "usages": [
+    "Spine"
+  ]
+}

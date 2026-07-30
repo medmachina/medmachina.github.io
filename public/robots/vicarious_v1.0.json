@@ -1,0 +1,54 @@
+{
+  "name": "Vicarious Surgical v1.0",
+  "id": "vicarious_v1.0",
+  "introduction_year": 2022,
+  "urls": [
+    {
+      "caption": "Vicarious Surgical",
+      "url": "https://www.vicarioussurgical.com/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.vicarioussurgical.com/wp-content/uploads/advanced-technology-01.jpg",
+      "site": "https://www.vicarioussurgical.com/"
+    },
+    {
+      "url": "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-scaled.jpg",
+      "site": "https://www.vicarioussurgical.com/"
+    },
+    {
+      "url": "https://www.vicarioussurgical.com/wp-content/uploads/08-2022-vicarious-surgical-edit-4-scaled.jpg",
+      "site": "https://www.vicarioussurgical.com/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Single port",
+    "2 instruments",
+    "Stereo display",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Teleoperated",
+    "Commercial"
+  ],
+  "usages": [],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=Qr4ePfVSI-M",
+      "title": "Surgical Robotics: The Future of Precision with Vicarious Surgical"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zne3Q66cO0k",
+      "title": "Reimagining Surgical Robotics for Minimally Invasive Surgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nixZQUxu5Zg",
+      "title": "Vicarious Surgical Inc   Robot"
+    }
+  ]
+}

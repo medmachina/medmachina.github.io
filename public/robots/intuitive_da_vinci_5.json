@@ -1,0 +1,65 @@
+{
+  "name": "da Vinci 5",
+  "id": "intuitive_da_vinci_5",
+  "also_known_as": [
+    "IS5000"
+  ],
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Intuitive, da Vinci",
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://imgproxy.divecdn.com/YCzJiRJOc0wZsq9afmnTHXp4Rs01bn3MAg2YBboKGQk/g:ce/rs:fill:800:450:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qcGctbWVkaXVtLWR2LXN5cy1kdjUtZmlyc3RhY2Nlc3MtMi1mdWxsc3lzdGVtLXd0LTAyMjAyNF9xVTJVb055LmpwZw==.webp",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "url": "https://news.med.virginia.edu/files/2024/08/Robot_DaVinci5-1x1-1.jpg",
+      "site": "https://news.med.virginia.edu/clinical/university-medical-center-becomes-first-in-the-world-to-adopt-the-da-vinci-5-robotic-surgical-system/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Force feedback",
+    "Motorized table",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Transoral",
+    "Urological"
+  ],
+  "description": "Designed to enable better outcomes, more efficiency, and actionable insights, da Vinci 5 brings more than 150 design innovations and 10,000x the computing power of da Vinci Xi. These advances support enhanced surgical senses, greater surgeon autonomy, more streamlined OR workflows, and advanced data analytics to enable the future of surgery.",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=p2D6AXQCTyw",
+      "title": "da Vinci 5 Robotic Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uecAz1KsdcQ",
+      "title": "Intuitive Da Vinci 5 (Soft tissue surgical robot): 1 hour Industry review"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MxIuOdny2cs",
+      "title": "Introducing da Vinci 5: our most advanced and integrated robotic system—ever."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V5u1F2jEx-E",
+      "title": "The da Vinci 5 Robot: The Latest Technology in Hernia Surgery"
+    }
+  ]
+}

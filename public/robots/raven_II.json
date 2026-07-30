@@ -1,0 +1,59 @@
+{
+  "name": "RavenII",
+  "id": "raven_II",
+  "introduction_year": 2006,
+  "urls": [
+    {
+      "caption": "Robots Guide: Raven",
+      "url": "https://robotsguide.com/robots/ravensurgical"
+    },
+    {
+      "caption": "NewScientist article 08/2006",
+      "url": "https://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "http://rll.berkeley.edu/raven/pieter-ken-raven.jpg",
+      "site": "https://robotsguide.com/robots/ravensurgical"
+    },
+    {
+      "url": "https://images.newscientist.com/wp-content/uploads/2006/08/dn9835-1_400.jpg",
+      "site": "https://www.newscientist.com/article/dn9835-military-robo-surgeon-prepares-for-battle/"
+    },
+    {
+      "url": "https://assets.robotsguide.com/images/7p2whiua/production/1228216d8822edeca164b720adb87128fe9d476d-2048x1536.jpg?w=1400&auto=format",
+      "site": "https://robotsguide.com/robots/ravensurgical"
+    },
+    {
+      "url": "https://assets.robotsguide.com/images/7p2whiua/production/627bfcf42a6a641b3e3d73638ae73fea910cb0dc-2048x1536.jpg?w=1400&auto=format",
+      "site": "https://robotsguide.com/robots/ravensurgical"
+    },
+    {
+      "url": "https://assets.robotsguide.com/images/7p2whiua/production/74aecab397ed9009353517da09ade2b0a072b157-2048x1536.jpg?w=1400&auto=format",
+      "site": "https://robotsguide.com/robots/ravensurgical"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Research system",
+    "Open architecture",
+    "Open source",
+    "Autonomous motion"
+  ],
+  "usages": [
+    "Abdominal"
+  ],
+  "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=JZJfGHPTsVU",
+      "title": "The RAVEN Surgical Robotic System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nPk90YCpqFg",
+      "title": "RAVEN Surgical Robot, Overview"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Luca",
+  "id": "acusurgical_luca",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "AcuSurgical",
+      "url": "https://acusurgical.com"
+    },
+    {
+      "caption": "Surgical Robotics Technology 07/2024 article",
+      "url": "https://www.surgicalroboticstechnology.com/news/acusurgical-completes-first-clinical-study-with-luca-robotic-surgery-platform/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.surgicalroboticstechnology.com/wp-content/uploads/2024/07/acusurgical-clinical-study.jpg",
+      "site": "https://www.surgicalroboticstechnology.com/news/acusurgical-completes-first-clinical-study-with-luca-robotic-surgery-platform/"
+    }
+  ],
+  "tags": [
+    "Teleoperated"
+  ],
+  "usages": [
+    "Eye"
+  ],
+  "description": "Location: Montpellier, France. 2 patient side manipulators.",
+  "also_known_as": []
+}

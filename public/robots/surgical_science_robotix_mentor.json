@@ -1,0 +1,23 @@
+{
+  "name": "Surgical Science: FlexVR",
+  "id": "surgical_science_robotix_mentor",
+  "introduction_year": 2021,
+  "urls": [
+    {
+      "caption": "Surgical Science, RobotiX Mentor",
+      "url": "https://surgicalscience.com/simulators/robotix-mentor/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://surgicalscience.com/wp-content/uploads/2023/02/RobotiX_Mentor_w_Basic_Skills-1-1-503x500.png",
+      "site": "https://surgicalscience.com/simulators/robotix-mentor/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Simulation"
+  ],
+  "description": "",
+  "also_known_as": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Zeus",
+  "id": "computer_motion_zeus",
+  "introduction_year": 1998,
+  "urls": [
+    {
+      "caption": "Wikipedia: Zeus surgical system",
+      "url": "https://en.wikipedia.org/wiki/ZEUS_robotic_surgical_system"
+    },
+    {
+      "caption": "Archived Computer Motion site",
+      "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
+    }
+  ],
+  "photos": [],
+  "tags": [
+    "RAMIS",
+    "Multiple ports",
+    "2 instruments",
+    "Teleoperated",
+    "Mono endoscope",
+    "Mechanical manipulation",
+    "Open console",
+    "Commercial",
+    "Retired"
+  ],
+  "usages": [
+    "Abdominal"
+  ],
+  "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master–slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=GBT6PiFkxFM",
+      "title": "NCauctions.com Aesop 3000 Zeus Endoscope Robot Positioning Robotic System"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "da Vinci S",
+  "id": "intuitive_da_vinci_S",
+  "introduction_year": 2006,
+  "urls": [
+    {
+      "caption": "dVRK: da Vinci Classic",
+      "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+    },
+    {
+      "caption": "dVRK: da Vinci Si",
+      "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+    },
+    {
+      "caption": "Synektik, da Vinci in the world",
+      "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-S-overview-labeled.png",
+      "site": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+    },
+    {
+      "url": "https://dvrk.readthedocs.io/main/_images/ISI-da-Vinci-Si-overview-labeled.png",
+      "site": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+    },
+    {
+      "url": "https://d2yjegym0lbr1w.cloudfront.net/thumbs/davincioverview_1280.jpg?v=201404108",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Commercial",
+    "Retired"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Transoral",
+    "Urological"
+  ],
+  "description": "Second generation da Vinci system.  The surgeon's console is very similar to the previous generation (da Vinci Standard). The patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) have less degrees of freedom and are fully gravity compensated.  The setup arm for the third arm is now mounted on the back of the column and doesn't require a motor to go up and down.  The patient cart has motorized wheels to ease transport between rooms. The video remains similar to the Standard one. The stereo endoscopes are also unchanged but the camera head is updated to use SD or HD sensors with SDI outputs on the camera control unit (CCU). The patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are totally new.  They now require brakes and are not gravity compensated.  They are stronger and more precise.  Instruments are longer but the mechanics and end effectors are similar to the Standard ones.",
+  "also_known_as": [
+    "IS2000"
+  ]
+}

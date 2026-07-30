@@ -1,0 +1,51 @@
+{
+  "name": "Symani",
+  "id": "mmi_symani",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "MMI: Symani surgical system",
+      "url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-1.jpg",
+      "site": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+    },
+    {
+      "url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-2.jpg",
+      "site": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+    },
+    {
+      "url": "https://www.mmimicro.com/wp-content/uploads/2023/09/CMM-3-2.jpg",
+      "site": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+    }
+  ],
+  "tags": [
+    "Open microsurgery"
+  ],
+  "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?",
+  "also_known_as": [],
+  "usages": [
+    "Microsurgery"
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=WKBH_1UPiDg",
+      "title": "MMI successfully trials Symani surgical robot in neurosurgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Po6yhlp1-H8",
+      "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani® Patient Story"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BcYBOsCFYF8",
+      "title": "Symani® | Discover the Beauty of Robotic Microsurgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QxXJhChEEdE",
+      "title": "Symani® | Why Begin a Microsurgical Robotics Program"
+    }
+  ]
+}

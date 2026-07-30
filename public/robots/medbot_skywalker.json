@@ -1,0 +1,45 @@
+{
+  "name": "MedBot Skywalker",
+  "id": "medbot_skywalker",
+  "introduction_year": 2021,
+  "urls": [
+    {
+      "caption": "MedBot Skywalker",
+      "url": "https://www.medbotsurgical.com/en/solution"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.medbotsurgical.com/en/upload/solution/1612489032604676926.png",
+      "site": "https://www.medbotsurgical.com/en/solution/skywalker"
+    },
+    {
+      "url": "https://www.medbotsurgical.com/en/upload/patientcare/1612479127554656470.png",
+      "site": "https://www.medbotsurgical.com/en/solution/skywalker"
+    },
+    {
+      "url": "https://www.medbotsurgical.com/en/upload/news/1747867841926813292.jpg",
+      "site": "https://www.medbotsurgical.com/en/solution/skywalker"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic"
+  ],
+  "usages": [
+    "Hip",
+    "Knee"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=iHfLh3ez8R8",
+      "title": "Cutting-edge robotic surgery solutions | MicroPort® MedBot™​"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=B9u7USDozr8",
+      "title": "Surgical robot， Medbot ，Microport ，China ，Orthopedic Robot"
+    }
+  ]
+}

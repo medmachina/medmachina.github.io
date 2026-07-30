@@ -1,0 +1,67 @@
+{
+  "name": "avatera",
+  "id": "avatera_avatera",
+  "introduction_year": 2023,
+  "urls": [
+    {
+      "caption": "Product site",
+      "url": "https://avatera.eu/en/avatera-system"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_content_ergonomische-op.jpg",
+      "site": "https://avatera.eu/en/avatera-system"
+    },
+    {
+      "url": "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_header_system-8.jpg",
+      "site": "https://avatera.eu/en/avatera-system"
+    },
+    {
+      "url": "https://avatera.eu/fileadmin/user_upload/Inhaltsbilder/avatera_content_instrumente.jpg",
+      "site": "https://avatera.eu/en/avatera-system"
+    },
+    {
+      "url": "https://avatera.eu/fileadmin/user_upload/Banner/avatera_header_system-7.jpg",
+      "site": "https://avatera.eu/en/avatera-system"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Commercial",
+    "Retired"
+  ],
+  "usages": [
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=AHfkWIitDW4",
+      "title": "Avatera Robot -  Laparoscopie minim invazivă -  DrTech.ro"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c60jg8KxQOs",
+      "title": "Avatera"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vuHVfSVcgO4",
+      "title": "avatera Unternehmensfilm 2019"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
+      "title": "hinotori™ Robotic Assisted Surgery System"
+    }
+  ]
+}

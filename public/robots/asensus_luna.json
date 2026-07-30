@@ -1,0 +1,25 @@
+{
+  "name": "LUNA",
+  "id": "asensus_luna",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Asensus, Luna press release 01/2024",
+      "url": "https://ir.asensus.com/news-releases/news-release-details/asensus-surgical-completes-vivo-surgeon-lab-luna-surgical"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://ml.globenewswire.com/Resource/Download/37115e8d-9772-4352-a919-c794b2d3aa77/Asensus.png",
+      "site": "https://ir.asensus.com/news-releases/news-release-details/asensus-surgical-completes-vivo-surgeon-lab-luna-surgical"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Commercial"
+  ],
+  "usages": [],
+  "description": "",
+  "also_known_as": []
+}

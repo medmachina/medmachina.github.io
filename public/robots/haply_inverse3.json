@@ -1,0 +1,44 @@
+{
+  "name": "Inverse3",
+  "id": "haply_inverse3",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Haply, Inverse3",
+      "url": "https://www.haply.co/inverse3"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://i.ytimg.com/vi/wszYGcix84Q/hqdefault.jpg",
+      "site": "https://www.haply.co/inverse3"
+    },
+    {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnzdsgeROU3dQuthilkP0wHCKuwF27XQtEw&s",
+      "site": "https://www.haply.co/inverse3"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6303dfe67e33741f9d4a2eed/fa35c78c-017c-4280-ad80-e98caea1dc8c/Frame+159.png",
+      "site": "https://www.haply.co/inverse3"
+    },
+    {
+      "url": "https://mma.prnewswire.com/media/2312105/Inverse3_in_VR_1__Transparent.jpg?p=facebook",
+      "site": "https://www.haply.co/inverse3"
+    }
+  ],
+  "tags": [
+    "Haptic device"
+  ],
+  "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=W17AIU-ZqdQ",
+      "title": "Realistic Bimanual VR Surgery Simulation with Inverse3 | Haply Robotics"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qhsQ50p5K8Q",
+      "title": "65% More Accurate: The Science Behind Haptic Surgical Training | Haply Robotics"
+    }
+  ]
+}

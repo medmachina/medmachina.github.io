@@ -1,0 +1,54 @@
+{
+  "name": "Revo-i",
+  "id": "revo_revo_i",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Revo Surgical",
+      "url": "http://revosurgical.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_01_m.png",
+      "site": "http://revosurgical.com/eng/sub/discover_revo_i/product.php"
+    },
+    {
+      "url": "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_03.png",
+      "site": "http://revosurgical.com/eng/sub/discover_revo_i/product.php"
+    },
+    {
+      "url": "http://revosurgical.com/publish/images/content/discover_revo_i/img_section_02_02_m.png",
+      "site": "http://revosurgical.com/eng/sub/discover_revo_i/product.php"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Single patient cart",
+    "3+ instruments",
+    "Multiple ports",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=k_xCD5lBaXE",
+      "title": "Revo-i, Robotic Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6qSKSBMhbKA",
+      "title": "Suturing a Doll with Revo-i | Delicate Precision of a Surgical Robot"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9uEmDVvZoTM",
+      "title": "The First Korean Laparoscopic Surgical Robot, Revo-i"
+    }
+  ]
+}

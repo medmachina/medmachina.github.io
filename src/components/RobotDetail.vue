@@ -161,7 +161,7 @@
   <!-- Edit on GitHub: fixed bottom-right -->
   <a
     v-if="project"
-    href="https://github.com/medmachina/medmachina.github.io/edit/main/public/robots.json"
+    :href="`https://github.com/medmachina/medmachina.github.io/edit/main/public/robots/${project.id}.json`"
     target="_blank"
     rel="noopener noreferrer"
     class="btn btn-outline-secondary edit-github-fixed"

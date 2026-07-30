@@ -1,0 +1,45 @@
+{
+  "name": "Dynamis Robotic Surgical System",
+  "id": "lem_dynamis",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "LEM Surgical",
+      "url": "https://lemsurgical.com/"
+    },
+    {
+      "caption": "Dynamis FDA Clearance Announcement",
+      "url": "https://lemsurgical.com/dynamis-robotic-surgical-system-receives-fda-clearance/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://lemsurgical.com/wp-content/uploads/2025/02/Dynamis-from-LEM-Surgical.png",
+      "site": "https://lemsurgical.com/"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic",
+    "Commercial"
+  ],
+  "usages": [
+    "Spine"
+  ],
+  "description": "Navigation-based robotic system for spine and hard tissue surgery. Features three robotic arms: two for surgical guidance and one for optical navigation, all mounted on a single cart. Supports multiple surgical instruments through adjustable end-effectors. Received FDA 510(k) clearance in April 2025. First U.S. clinical use was at Southern Hills Hospital in Las Vegas in October 2025.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=4fOJtuIt0k4",
+      "title": "Dynamis Robotic Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1lTH76PqpCQ",
+      "title": "LEM Surgical: Dynamis, Bilateral Surgical Robotic System Animation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=X_jGrah0Q30",
+      "title": "LEM Surgical Dynamis & Fondue"
+    }
+  ]
+}

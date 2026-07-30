@@ -1,0 +1,49 @@
+{
+  "name": "KANGDUO SR2000",
+  "id": "sagebot_kangduo",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "SageBot product page (KANGDUO SR2000)",
+      "url": "http://kangduorobot.com/index.php?m=content&c=index&a=show&catid=24&id=6"
+    },
+    {
+      "caption": "SageBot official site",
+      "url": "http://sagebot-medical.com/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418041354291.png",
+      "site": "http://sagebot-medical.com"
+    },
+    {
+      "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418042135600.png",
+      "site": "http://sagebot-medical.com"
+    },
+    {
+      "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418042221870.png",
+      "site": "http://sagebot-medical.com"
+    }
+  ],
+  "tags": [
+    "Teleoperated",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "description": "KANGDUO SR2000 — a teleoperated surgical robot platform from Harbin Sagebot Intelligent Medical Equipment Co., Ltd.",
+  "also_known_as": [
+    "KangDuo SR2000"
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=FAjm4enbODI",
+      "title": "KangDuo Surgical Robot - Sagebot"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Mako",
+  "id": "stryker_mako",
+  "introduction_year": 2018,
+  "urls": [
+    {
+      "caption": "Stryker, Mako",
+      "url": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://media-assets.stryker.com/is/image/stryker/Mako%204%20Family%204%204K%20with%20shadow3?$max_width_1440$",
+      "site": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+    },
+    {
+      "url": "https://media-assets.stryker.com/is/image/stryker/Mako%204%20TKA%20and%20Q%20Guidance%204K%20(1)?$max_width_1440$",
+      "site": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic"
+  ],
+  "usages": [
+    "Hip",
+    "Knee"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=KSVBjAPK4jY",
+      "title": "Full Knee Replacement | Mako Robotic Arm Assisted Surgery Technology"
+    }
+  ]
+}

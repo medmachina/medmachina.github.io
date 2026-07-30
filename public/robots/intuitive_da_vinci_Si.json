@@ -1,0 +1,63 @@
+{
+  "name": "da Vinci Si",
+  "id": "intuitive_da_vinci_Si",
+  "introduction_year": 2009,
+  "urls": [
+    {
+      "caption": "Intuitive, da Vinci",
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "caption": "dVRK: da Vinci Si",
+      "url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+    },
+    {
+      "caption": "Synektik, da Vinci in the world",
+      "url": "https://synektik.com.pl/en/da-vinci-in-the-world/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/453845/isrg-da-vinci-system-photo.jpg",
+      "site": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Si/introduction.html"
+    },
+    {
+      "url": "https://auxomedical.com/wp-content/uploads/2024/06/Intuitive-Surgical-da-Vinci-Si-HD-Surgical-Robot-scaled.jpeg",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Commercial",
+    "Retired"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Transoral",
+    "Urological"
+  ],
+  "description": "Third generation da Vinci system.  The patient cart is very similar to the previous generation (da Vinci S). The surgeon's console is totally new, including new manipulators, individual clutch on each gripper, infinite roll...  The stereo viewer is updated to use two flat panel monitors.",
+  "also_known_as": [
+    "IS3000"
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=JJK4fZX48bQ",
+      "title": "da Vinci Si HD Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0VGgDT-IzFs",
+      "title": "The da Vinci Si System Overview"
+    }
+  ]
+}

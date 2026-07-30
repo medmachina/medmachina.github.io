@@ -1,0 +1,35 @@
+{
+  "name": "Senhance",
+  "id": "asensus_senhance",
+  "introduction_year": 2023,
+  "urls": [
+    {
+      "caption": "Asensus, Senhance",
+      "url": "https://www.asensus.com/senhance"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://ml.globenewswire.com/Resource/Download/37115e8d-9772-4352-a919-c794b2d3aa77/Asensus.png",
+      "site": "https://www.asensus.com/senhance"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=zOvAO8H-wyg",
+      "title": "SENHANCE ROBOTIC SOCIAL VIDEO FINAL"
+    }
+  ]
+}

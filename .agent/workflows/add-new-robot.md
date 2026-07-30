@@ -5,12 +5,13 @@ description: How to add a new surgical robot to the dataset
 
 Follow these steps to successfully add a new surgical robot to the MedMachina dataset.
 
-1. **Add to robots.json:**
-   - Create a new entry in `public/robots.json`.
+1. **Create Individual Robot JSON File:**
+   - Create a new JSON file in `public/robots/<ROBOT_ID>.json` (e.g., `public/robots/company_robotname.json`).
    - Provide a `name` and a unique `id` (e.g., `company_robotname`).
    - Use the `search_web` tool to find the official product page URL and high-quality image URLs. Add these to the `urls` and `photos` arrays.
    - Review `public/robots.schema.json` to assign the most appropriate `tags` and `usages` to the robot.
    - Add a brief `description` if requested or available.
+   - Run `python3 scripts/build_robots.py` to compile `public/robots.json`.
 
 2. **Update companies.json:**
    - Check if the manufacturer already exists in `public/companies.json`.

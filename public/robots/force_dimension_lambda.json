@@ -1,0 +1,26 @@
+{
+  "name": "Lambda",
+  "id": "force_dimension_lambda",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Force Dimensiom",
+      "url": "https://www.forcedimension.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.forcedimension.com/images/2020/09/05/banner-lambda.jpg",
+      "site": "https://www.forcedimension.com/products/lambda"
+    },
+    {
+      "url": "https://www.forcedimension.com/images/2020/09/05/lambda.jpg",
+      "site": "https://www.forcedimension.com/products/lambda"
+    }
+  ],
+  "tags": [
+    "Haptic device"
+  ],
+  "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
+  "also_known_as": []
+}

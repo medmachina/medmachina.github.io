@@ -1,0 +1,22 @@
+{
+  "name": "Virtuoso",
+  "id": "haption_virtuoso",
+  "introduction_year": 2015,
+  "urls": [
+    {
+      "caption": "Haption, Virtuoso",
+      "url": "https://www.haption.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/65a0fbd6a8419c511349c9f6/ce09e0a7-f879-4c01-a729-e2635bc2c821/medical-surgical-robotic-assistant-laparoscopy-minimum-invasive-isir-haption-1.jpg?format=1500w",
+      "site": "squarespace-cdn.com"
+    }
+  ],
+  "tags": [
+    "Haptic device"
+  ],
+  "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
+  "also_known_as": []
+}

@@ -1,0 +1,76 @@
+{
+  "name": "da Vinci SP",
+  "id": "intuitive_da_vinci_SP",
+  "introduction_year": 2014,
+  "urls": [
+    {
+      "caption": "Intuitive, da Vinci SP",
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
+    },
+    {
+      "caption": "Intuitive, da Vinci",
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "caption": "da Vinci SP at Tampa General Hospital",
+      "url": "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system"
+    },
+    {
+      "caption": "da Vinci SP at AdventHealth",
+      "url": "https://globalrobotics.adventhealth.com/global-robotics-institute/about-institute/da-vinci-sp-robot"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/Davinci-Systems/davinci-sp-single-port-surgical-robot-system-patient-cart.jpg?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=b63884311f09470892bcf5d9987baf78",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
+    },
+    {
+      "url": "https://blue-images-isi.imgix.net/en-us/-/media/ISI/Intuitive/Images/SP/da-vinci-sp-single-port-instruments.png?q=100&w=690&h=461&auto=compress%2Cformat&fit=crop&crop=entropy&s=f3a04fc53d052483c0db765876260d9c",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
+      "site": "https://www.tgh.org/institutes-and-services/treatments/da-vinci-sp-system"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Single port",
+    "3+ instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Mechanical RCM",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Transoral",
+    "Urological"
+  ],
+  "description": "The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=cypvK7yVLX0",
+      "title": "#Job to #Robot: Da Vinci SP by  Intuitive Surgical : #Robotic #Surgical Systems.#Robots"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-jm63JdTrp4",
+      "title": "Intuitive Surgical da Vinci Sp Single Port Robotic Surgical System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iC0MIbKNi9k",
+      "title": "da Vinci SP: Single Port Surgical Robotic System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8aC-TadYqF8",
+      "title": "intuitive da vinci sp surgical system introduction"
+    }
+  ]
+}

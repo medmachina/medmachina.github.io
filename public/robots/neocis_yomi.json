@@ -1,0 +1,41 @@
+{
+  "name": "Yomi",
+  "id": "neocis_yomi",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Neocis, Yomi",
+      "url": "https://www.neocis.com/products-and-services/yomi-robot/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.neocis.com/wp-content/uploads/2022/12/yomi-robot.png",
+      "site": "https://www.neocis.com/products-and-services/yomi-robot/"
+    }
+  ],
+  "tags": [
+    "Dental",
+    "Collaborative control",
+    "Commercial"
+  ],
+  "usages": [
+    "Dental implant"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=BrUcceNKVqc",
+      "title": "Meet Yomi S — The Next Generation of Robotic Dental Implant Surgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BIfrwNoztzg",
+      "title": "What is Yomi? A robotic platform that's revolutionizing dental implant surgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PwbaGXTS7rA",
+      "title": "Yomi Dental Robot - Neocis - 4K Medical Device Animation"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Maestro",
+  "id": "moon_maestro",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Moon Surgical, Maestro",
+      "url": "https://moonsurgical.com/maestro-system"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://moonsurgical.com/uploads//transforms/images/_default/754/Scene-1-2_2024-07-02-115704_eylh.webp",
+      "site": "https://moonsurgical.com/maestro-system"
+    },
+    {
+      "url": "https://mma.prnewswire.com/media/2721647/Maestro_System_by_Moon_Surgical.jpg",
+      "caption": "Maestro"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Multiple ports",
+    "Collaborative control",
+    "Autonomous",
+    "Commercial"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological"
+  ],
+  "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=AuplMN-VpCU",
+      "title": "Maestro Overview #1"
+    }
+  ]
+}

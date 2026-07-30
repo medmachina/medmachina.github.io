@@ -1,0 +1,40 @@
+{
+  "name": "Mona Lisa",
+  "id": "biobot_mona_lisa",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Biobot Mona Lisa",
+      "url": "https://biobotsurgical.com/technology/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://biobotsurgical.com/wp-content/uploads/2024/02/HomePage_ML2.png",
+      "site": "https://biobotsurgical.com/technology/"
+    },
+    {
+      "url": "https://www.priora.eu/wp-content/uploads/bf-advanced-images/3115/Mona-Lisa-Robot-scaled-1600x0.jpg",
+      "site": "https://www.priora.eu/equipment/mona-lisa/"
+    }
+  ],
+  "tags": [
+    "Biopsy",
+    "TRUS"
+  ],
+  "usages": [
+    "Prostate"
+  ],
+  "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=0SIkhvZyyCY",
+      "title": "Biobot Mona Lisa"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hD1p3w5p4O0",
+      "title": "iSR'obot Mona Lisa - Robotic Targeted Prostate Biopsy"
+    }
+  ]
+}

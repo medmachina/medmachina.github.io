@@ -1,0 +1,62 @@
+{
+  "name": "da Vinci X",
+  "id": "intuitive_da_vinci_X",
+  "introduction_year": 2017,
+  "urls": [
+    {
+      "caption": "Intuitive, da Vinci",
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIHOJZpucNEKrdWq7k6NzfOFC-cYLcGPyAg&s",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/FcoMHoWWQAI03kb.jpg",
+      "site": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+    },
+    {
+      "url": "https://headneckroboticsurgery.com/wp-content/uploads/2023/05/dv-x-burgos-1.jpg",
+      "site": "https://headneckroboticsurgery.com/2023/05/06/da-vinci-generations/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Teleoperated",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Haptic",
+    "Commercial"
+  ],
+  "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems.",
+  "also_known_as": [
+    "IS4000"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=CQ1sQBNtlM8",
+      "title": "Robotic Surgery - Da Vinci X (Intuitive)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n-X1-nQOXNA",
+      "title": "Da Vinci Xi System overview: Explanation of robotic system parts, instruments, docking, console use"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=H4WzUSq9OeY",
+      "title": "Introducing the da Vinci Xi Surgical System"
+    }
+  ]
+}

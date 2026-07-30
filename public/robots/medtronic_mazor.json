@@ -1,0 +1,48 @@
+{
+  "name": "Mazor",
+  "id": "medtronic_mazor",
+  "urls": [
+    {
+      "caption": "Medtronic, Mazor",
+      "url": "https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-robotics/robotic-systems/mazor-robotic-guidance-system.html"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.medtronic.com/content/dam/medtronic-com/global/HCP/artificial-intelligence/mazor-stealth-midas-clearview-or-prod.jpg",
+      "site": "https://www.medtronic.com/"
+    },
+    {
+      "url": "https://www.brownhealth.org/sites/default/files/2022-05/mazor-equipment-media-card.jpg",
+      "site": "https://www.brownhealth.org/"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Orthopedic",
+    "Semi-autonomous",
+    "Collaborative control"
+  ],
+  "usages": [
+    "Spine"
+  ],
+  "description": "",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=frl9kJJACTg",
+      "title": "Medtronic | Mazor X Stealth Edition (Navigated Spinal Robotics) - Spinal Deformity Revision Surgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Tr2-Bfk58UA",
+      "title": "Medtronic | Mazor X Stealth Edition - Minimally Invasive Robotic Spine Surgery (shoulder view)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Dfdy5F1l7HQ",
+      "title": "Simultaneous Robotic Single Position Surgery - Medtronic Mazor X Stealth Edition with OLIF"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_9Jpuvzeidc",
+      "title": "Mazor X - Robotic Assisted Spine Surgery (Technology Overview)"
+    }
+  ]
+}

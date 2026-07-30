@@ -1,0 +1,58 @@
+{
+  "name": "dVRK",
+  "id": "dvrk_dvrk",
+  "introduction_year": 2012,
+  "urls": [
+    {
+      "caption": "dVRK wiki (sawIntuitiveResearchKit)",
+      "url": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+    },
+    {
+      "caption": "Intuitive Foundation dVRK page",
+      "url": "http://www.intuitive-foundation.org/dvrk/"
+    },
+    {
+      "caption": "dVRK documentation",
+      "url": "https://dvrk.readthedocs.io/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/assets/general/full-daVinci-B08-03-2021.png",
+      "site": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Research system",
+    "Open source",
+    "Open architecture",
+    "Teleoperated",
+    "Autonomous motion",
+    "Multiple ports",
+    "3+ instruments",
+    "Stereo viewer",
+    "Stereo endoscope"
+  ],
+  "usages": [],
+  "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human–robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=apddu_CtdKo",
+      "title": "Raven/dVRK Surgical Robotics Research#HSMR21 Workshop"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Hu2UpngJ3Q0",
+      "title": "The da Vinci Research Kit (dVRK): System Description and Research Highlights"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yvgTuXm1IwQ",
+      "title": "Learning Autonomous Surgical Irrigation and Suction with dVRK Using Reinforcement Learning"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=abQcDzeNfQ8",
+      "title": "da Vinci Research Kit (dVRK) × MiRI"
+    }
+  ]
+}

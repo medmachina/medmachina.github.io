@@ -1,0 +1,30 @@
+{
+  "name": "Ion",
+  "id": "intuitive_ion",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Intuitive, Ion",
+      "url": "https://www.intuitive.com/en-us/products-and-services/ion"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5443452499001/7cc75a4e-dd27-425a-93e8-8dc5a4d442f6/a2153c62-2227-4650-848d-d89fd01e065e/1280x720/match/image.jpg",
+      "site": "https://www.intuitive.com/en-us/products-and-services/ion"
+    }
+  ],
+  "tags": [],
+  "usages": [
+    "Bronchoscopy",
+    "Lung"
+  ],
+  "description": "Used with C-Arm/CBCT.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=0ZaobUiJhCQ",
+      "title": "Introducing Ion by Intuitive | Advancing lung biopsy capability"
+    }
+  ]
+}

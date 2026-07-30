@@ -1,0 +1,37 @@
+{
+  "name": "TMINI",
+  "id": "think_surgical_t_mini",
+  "introduction_year": 2025,
+  "urls": [
+    {
+      "caption": "Think Surgical, TMINI",
+      "url": "https://thinksurgical.com/tmini/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMINI_Fade_v2.jpg",
+      "site": "https://thinksurgical.com/tmini/"
+    },
+    {
+      "url": "https://thinksurgical.com/wp-content/themes/KING/assets/images/tmini-page/TMini_Robot_V1_0010442+Left_hand_v1.jpg",
+      "site": "https://thinksurgical.com/tmini/"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic"
+  ],
+  "usages": [
+    "Hip",
+    "Knee"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=L7hEeYn-8UE",
+      "title": "TMINI® Miniature Robotic System - Hero"
+    }
+  ]
+}

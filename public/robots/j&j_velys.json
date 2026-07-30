@@ -1,0 +1,44 @@
+{
+  "name": "Velys",
+  "id": "j&j_velys",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Johnson & Johnson MedTech, Velys",
+      "url": "https://www.jnjmedtech.com/en-US/patient/velys"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.jnjmedtech.com/sites/default/files/images/VRAS_Robotic-Device_2023.jpg",
+      "site": "https://www.jnjmedtech.com/en-US/patient/velys"
+    },
+    {
+      "url": "https://www.jnjmedtech.com/sites/default/files/images/20_6065_VELYS-Product-084_W2_F_RGB.png",
+      "site": "https://www.jnjmedtech.com/en-US/patient/velys"
+    },
+    {
+      "url": "https://www.jnjmedtech.com/sites/default/files/images/VRAS_System_OR_2023.png",
+      "site": "https://www.jnjmedtech.com/en-US/patient/velys"
+    }
+  ],
+  "tags": [
+    "Open surgery",
+    "Orthopedic"
+  ],
+  "usages": [
+    "Knee"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=jTXyi2Y0r1c",
+      "title": "How is the robotic knee replacement surgery performed? (Velys™ system)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tv_0Zt71F0Q",
+      "title": "Knee Replacement Surgery at Wood County Hospital with the VELYS  Robotic Assisted Solution"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Monarch Quest",
+  "id": "j&j_monarch",
+  "introduction_year": 2023,
+  "urls": [
+    {
+      "caption": "Johnson & Johnson MedTech (Monarch platform)",
+      "url": "https://thenext.jnjmedtech.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2022-02/Monarch%20Bronchoscope%20System%20-%20Scope%20Coming%20Out%20of%20Lung%20Model%201%20%281%29.jpg?h=b7de626e&itok=tUD7PtXv",
+      "site": "https://www.jnjmedtech.com/en-US/search?search=Monarch"
+    },
+    {
+      "url": "https://www.jnjmedtech.com/sites/default/files/styles/picture_tag_scale_931/public/2022-03/Monarch%20Tower%20-%20User%20Touching%20Monarch%20Tower%27s%20Displays%20Touch%20Screen%20%281%29%20%281%29%20%281%29.jpg?h=783b7dca&itok=_Nrk_9ve",
+      "site": "https://www.jnjmedtech.com/en-US/search?search=Monarch"
+    }
+  ],
+  "tags": [
+    "Flexible robot"
+  ],
+  "usages": [
+    "Lung",
+    "Bronchoscopy"
+  ],
+  "description": "Used with C-Arm/CBCT.",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=jiDZM4LHarE",
+      "title": "MONARCH Platform Robotic-Assisted Bronchoscopy Overview | J&J MedTech"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fqtUlmhfZYE",
+      "title": "Auris Monarch® Robotic Bronchoscopy Platform Tutorial"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yGoUbRnsEko",
+      "title": "Monarch Robotic Bronchoscopy"
+    }
+  ]
+}

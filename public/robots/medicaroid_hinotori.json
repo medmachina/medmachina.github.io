@@ -1,0 +1,53 @@
+{
+  "name": "Hinotori",
+  "id": "medicaroid_hinotori",
+  "introduction_year": 2020,
+  "urls": [
+    {
+      "caption": "Medicaroid",
+      "url": "https://www.medicaroid.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.medicaroid.com/en/release/images/thumb_240417_en.jpg",
+      "site": "https://www.medicaroid.com/en/product/hinotori/"
+    },
+    {
+      "url": "https://www.medicaroid.com/en/product/hinotori/images/top_features04_img.png",
+      "site": "https://www.medicaroid.com/en/product/hinotori/"
+    },
+    {
+      "url": "https://www.medicaroid.com/en/release/images/thumb_221013-01.jpg",
+      "site": "https://www.medicaroid.com/en/product/hinotori/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Teleoperated",
+    "Single patient cart",
+    "Multiple ports",
+    "3+ instruments",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation",
+    "Software RCM",
+    "Motorized table",
+    "Commercial"
+  ],
+  "usages": [
+    "Thoracic"
+  ],
+  "description": "",
+  "also_known_as": [],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
+      "title": "hinotori™ Robotic Assisted Surgery System"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1h17p3GeULM",
+      "title": "An Overview of the hinotori™ Surgical Robot"
+    }
+  ]
+}
