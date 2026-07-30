@@ -1073,30 +1073,59 @@
   {
     "name": "Ottava",
     "id": "j&j_ottava",
-    "introduction_year": 2025,
+    "introduction_year": 2026,
+    "description": "The OTTAVA™ Robotic Surgical System, developed by Johnson & Johnson MedTech, is a soft-tissue robotic surgical platform featuring a table-integrated architecture. Four robotic arms are built directly into the operating table (utilizing Twin Motion™ technology to synchronize table and arm positioning), eliminating stand-alone patient carts and reducing operating room footprint by 30% to 50%. The platform features wristed laparoscopic instruments, zero-footprint arm storage under the table, and seamless connection to J&J's digital surgery ecosystem. FDA granted De Novo marketing authorization on July 22, 2026 for general surgery procedures including Roux-en-Y gastric bypass, sleeve gastrectomy, gastrectomy, cholecystectomy, splenectomy, small bowel resection, appendectomy, fundoplication, and hernia repair.",
     "urls": [
       {
         "caption": "Johnson & Johnson MedTech",
         "url": "https://thenext.jnjmedtech.com/surgical-robotics"
+      },
+      {
+        "caption": "FDA De Novo Authorization Press Release",
+        "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system"
       }
     ],
     "photos": [
       {
-        "url": "https://thenext.jnjmedtech.com/_next/image?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fbltb7c57cef5b058034%2Fbltd1b721f163bc0ba1%2F65259910fbc4f63a3d9ae4e4%2Fottava-02.webp&w=256&q=75",
+        "url": "https://images.contentstack.io/v3/assets/bltb7c57cef5b058034/bltd1b721f163bc0ba1/65259910fbc4f63a3d9ae4e4/ottava-02.webp",
         "site": "https://thenext.jnjmedtech.com/surgical-robotics"
+      },
+      {
+        "url": "https://img.youtube.com/vi/WgUZmfTjwcs/maxresdefault.jpg",
+        "site": "https://www.youtube.com/watch?v=WgUZmfTjwcs"
+      },
+      {
+        "url": "https://img.youtube.com/vi/D55AHbRo8Lo/maxresdefault.jpg",
+        "site": "https://www.youtube.com/watch?v=D55AHbRo8Lo"
+      },
+      {
+        "url": "https://img.youtube.com/vi/_DxXkRZj_Fg/maxresdefault.jpg",
+        "site": "https://www.youtube.com/watch?v=_DxXkRZj_Fg"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=WgUZmfTjwcs",
+        "title": "Introducing the OTTAVA Robotic Surgical System | J&J MedTech"
       }
     ],
     "tags": [
       "RAMIS",
       "Teleoperated",
-      "Commercial"
+      "Commercial",
+      "Multiple ports",
+      "3+ instruments",
+      "Motorized table",
+      "Wristed instruments",
+      "Stereo endoscope",
+      "Mechanical Cartesian manipulation",
+      "Single patient cart"
     ],
     "usages": [
       "Abdominal",
       "Gynecological",
       "Urological"
     ],
-    "description": "",
     "also_known_as": []
   },
   {
