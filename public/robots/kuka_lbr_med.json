@@ -10,8 +10,12 @@
   ],
   "photos": [
     {
-      "url": "https://www.kuka.com/-/media/kuka-corporate/images/products/robots/lbr-med/lbr-med-14-r820/kuka_lbr_med_14_r820.jpg",
-      "site": "https://www.kuka.com/medical-robotics"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/KUKA_LBR_Med.jpg",
+      "site": "https://commons.wikimedia.org/wiki/File:KUKA_LBR_Med.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/KUKA_LBR_iiwa.jpg",
+      "site": "https://commons.wikimedia.org/wiki/File:KUKA_LBR_iiwa.jpg"
     }
   ],
   "tags": [

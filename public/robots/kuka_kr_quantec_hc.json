@@ -1,0 +1,25 @@
+{
+  "name": "KR QUANTEC HC",
+  "id": "kuka_kr_quantec_hc",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "KUKA, KR QUANTEC HC Medical Robot",
+      "url": "https://www.kuka.com/medical-robotics"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kuka_ipari_robot%2C_Automotive_2017_Hungexpo.jpg",
+      "site": "https://commons.wikimedia.org/wiki/File:Kuka_ipari_robot,_Automotive_2017_Hungexpo.jpg"
+    }
+  ],
+  "tags": [
+    "OEM component"
+  ],
+  "description": "6-axis high-payload (up to 300 kg payload, 2,701 mm reach) industrial robot arm optimized for OEM integration into heavy medical equipment, such as radiation therapy systems and heavy C-arm X-ray imaging units. Features specialized medical safety enhancements including auxiliary brakes on axes 2 through 5, manual brake release mechanisms for power loss situations, integrated digital pressure sensors for abnormal load detection, and submillimeter positioning repeatability (±0.05 mm). Encapsulated structure rated IP65 with customizable protective covers for clinical environments.",
+  "also_known_as": [
+    "KR 300 R2700-2 HC",
+    "KR QUANTEC HC"
+  ]
+}

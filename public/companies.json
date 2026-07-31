@@ -861,7 +861,8 @@
     "linkedin_url": "https://www.linkedin.com/company/kukaglobal/",
     "opencorporates_url": "",
     "robots": [
-      "kuka_lbr_med"
+      "kuka_lbr_med",
+      "kuka_kr_quantec_hc"
     ],
     "description": "KUKA AG is a global automation company headquartered in Augsburg, Germany. Its LBR Med series offers medical-certified collaborative robot arms for OEM integration into medical devices and systems.",
     "employee_count": "1000+"

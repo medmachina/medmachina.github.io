@@ -232,7 +232,7 @@ def main():
     id_to_existing_reg = {} # (robot_id, reg_id) -> entry
     for rid, reg_list in regulatory_data.items():
         for reg in reg_list:
-            url = reg.get('url', '')
+            url = reg.get('url') or ''
             reg_id = None
             if 'ID=' in url: reg_id = url.split('ID=')[-1]
             elif 'id=' in url: reg_id = url.split('id=')[-1]

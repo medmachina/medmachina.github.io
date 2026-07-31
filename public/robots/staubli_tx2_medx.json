@@ -12,7 +12,12 @@
       "url": "https://www.staubli.com/en/robotics/products/6-axis-robots/tx2-60l-medx-ready/"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Staeubli_Robots_line.jpg",
+      "site": "https://commons.wikimedia.org/wiki/File:Staeubli_Robots_line.jpg"
+    }
+  ],
   "tags": [
     "OEM component"
   ],
