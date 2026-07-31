@@ -899,5 +899,22 @@
     ],
     "description": "Stäubli is a Swiss precision engineering and robotics company headquartered in Pfäffikon. Its TX2 MedX Ready series provides ISO 13485-compliant robot arms for OEM integration into medical and surgical systems.",
     "employee_count": "1000+"
+  },
+  {
+    "name": "Interventional Systems",
+    "country": "Austria",
+    "urls": [
+      {
+        "caption": "Interventional Systems",
+        "url": "https://www.interventional-systems.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/interventional-systems/",
+    "opencorporates_url": "",
+    "robots": [
+      "ins_micromate"
+    ],
+    "description": "Interventional Systems (iSYS Medizintechnik GmbH) is based in Kitzbühel, Austria, with offices in Germany and Portugal. Specializes in robotic guidance systems for percutaneous interventional procedures.",
+    "employee_count": "10-50"
   }
 ]

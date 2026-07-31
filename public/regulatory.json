@@ -1940,5 +1940,29 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "ins_micromate": [
+    {
+      "body": "FDA 510k",
+      "year": 2021,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203720",
+      "last_verified": "2026-07-31",
+      "product_code": "JAK",
+      "panel": "Radiology"
+    },
+    {
+      "body": "FDA 510k",
+      "year": 2023,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230130",
+      "last_verified": "2026-07-31",
+      "product_code": "JAK",
+      "panel": "Radiology"
+    },
+    {
+      "body": "CE mark",
+      "year": null,
+      "url": null,
+      "last_verified": null
+    }
   ]
 }
