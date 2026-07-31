@@ -1,0 +1,23 @@
+{
+  "name": "LBR Med",
+  "id": "kuka_lbr_med",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "KUKA, LBR Med",
+      "url": "https://www.kuka.com/medical-robotics"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.kuka.com/-/media/kuka-corporate/images/products/robots/lbr-med/lbr-med-14-r820/kuka_lbr_med_14_r820.jpg",
+      "site": "https://www.kuka.com/medical-robotics"
+    }
+  ],
+  "tags": [
+    "OEM component",
+    "Collaborative control"
+  ],
+  "description": "7-axis lightweight collaborative robot arm (cobot) certified for integration into medical devices. Available in two variants: LBR Med 7 R800 (7 kg payload, 800 mm reach) and LBR Med 14 R820 (14 kg payload, 820 mm reach). Compliant with IEC 60601-1 (electrical safety) and IEC 62304 (medical software development lifecycle). Features redundant torque sensors in all seven joints enabling safe human-robot collaboration, gravity compensation, manual hand-guiding, and haptic feedback. Powered by KUKA Sunrise Cabinet Med and Sunrise.OS Med (Java-based). Biocompatible and corrosion-resistant surfaces suitable for operating room environments. Used as an OEM component in surgical assistance, diagnostics, radiotherapy, and rehabilitation systems.",
+  "also_known_as": []
+}

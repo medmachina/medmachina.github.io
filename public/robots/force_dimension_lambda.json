@@ -19,7 +19,8 @@
     }
   ],
   "tags": [
-    "Haptic device"
+    "Haptic device",
+    "OEM component"
   ],
   "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
   "also_known_as": []

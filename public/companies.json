@@ -848,5 +848,56 @@
     "description": "LIVSMED Inc. is a global medical device company based in Seongnam, South Korea. Specializes in multi-joint handheld laparoscopic surgical instruments (ArtiSential line) and surgical robotics. IPO on KOSDAQ December 2025.",
     "founded_year": "2011",
     "employee_count": "100-500"
+  },
+  {
+    "name": "KUKA",
+    "country": "Germany",
+    "urls": [
+      {
+        "caption": "KUKA Medical Robotics",
+        "url": "https://www.kuka.com/medical-robotics"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/kukaglobal/",
+    "opencorporates_url": "",
+    "robots": [
+      "kuka_lbr_med"
+    ],
+    "description": "KUKA AG is a global automation company headquartered in Augsburg, Germany. Its LBR Med series offers medical-certified collaborative robot arms for OEM integration into medical devices and systems.",
+    "employee_count": "1000+"
+  },
+  {
+    "name": "Kinova Robotics",
+    "country": "Canada",
+    "urls": [
+      {
+        "caption": "Kinova Medical Robotics",
+        "url": "https://www.kinovarobotics.com/medical/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/kinova/",
+    "opencorporates_url": "",
+    "robots": [
+      "kinova_kima"
+    ],
+    "description": "Kinova is a Canadian robotics company based in Boisbriand, Quebec, and an ISO 13485-certified medical device manufacturer. Its KIMA arm is a purpose-built medical-grade robotic arm for OEM integration into surgical and clinical systems.",
+    "employee_count": "100-500"
+  },
+  {
+    "name": "Stäubli",
+    "country": "Switzerland",
+    "urls": [
+      {
+        "caption": "Stäubli Medical Robotics",
+        "url": "https://www.staubli.com/en/robotics/industries/medical-robotics/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/staubli/",
+    "opencorporates_url": "",
+    "robots": [
+      "staubli_tx2_medx"
+    ],
+    "description": "Stäubli is a Swiss precision engineering and robotics company headquartered in Pfäffikon. Its TX2 MedX Ready series provides ISO 13485-compliant robot arms for OEM integration into medical and surgical systems.",
+    "employee_count": "1000+"
   }
 ]

@@ -1,0 +1,23 @@
+{
+  "name": "TX2-60L MedX Ready",
+  "id": "staubli_tx2_medx",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Stäubli, Medical Robotics",
+      "url": "https://www.staubli.com/en/robotics/industries/medical-robotics/"
+    },
+    {
+      "caption": "Stäubli, TX2-60L MedX Ready",
+      "url": "https://www.staubli.com/en/robotics/products/6-axis-robots/tx2-60l-medx-ready/"
+    }
+  ],
+  "photos": [],
+  "tags": [
+    "OEM component"
+  ],
+  "description": "6-axis robot arm developed under an ISO 13485:2016-compliant quality management system for OEM integration into medical and surgical systems. Features a hygienic encapsulated design resistant to clinical disinfectants, submillimeter repeatability, and IP65/IP67 protection. Optional MedXguiding interface provides intuitive manual hand-guiding with configurable force transparency modes for clinical positioning. Not classified as a medical device itself; intended for integration into medical equipment by OEM manufacturers. Applications include orthopedics, neurosurgery, interventional oncology, diagnostics, robot-assisted imaging, and rehabilitation.",
+  "also_known_as": [
+    "TX2-60L MedX"
+  ]
+}

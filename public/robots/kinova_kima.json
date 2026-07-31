@@ -1,0 +1,26 @@
+{
+  "name": "KIMA",
+  "id": "kinova_kima",
+  "introduction_year": null,
+  "urls": [
+    {
+      "caption": "Kinova, KIMA Robotic Arm",
+      "url": "https://www.kinovarobotics.com/medical/kima-robotic-arm"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://cdn.prod.website-files.com/69c3f542a6a406f6fa93f2f4/69f200a2398122ca71d3b515_KIMA_Single_Cart_BeautyShot_Detoure-blanc_Web-8.webp",
+      "site": "https://www.kinovarobotics.com/medical/kima-robotic-arm"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/69c3f542a6a406f6fa93f2f4/69f1f8c9d874fa8f14180def_KIMA_Single_BeautyShot_Web-15.webp",
+      "site": "https://www.kinovarobotics.com/medical/kima-robotic-arm"
+    }
+  ],
+  "tags": [
+    "OEM component"
+  ],
+  "description": "Purpose-built medical-grade 7-axis robotic arm designed for OEM integration into surgical and clinical systems. Weighs 12.6 kg with a 750 mm reach, 3 kg payload, <0.1 mm repeatability, and <1 mm accuracy. Controller-less design using EtherCAT communication and a Robotic Control Library (RCL) compliant with IEC 62304 Class C. Features redundant torque sensors in all joints and integrated safety architecture. Engineered for compliance with IEC 60601-1 and IEC 62304 Class C software standards. Produced by Kinova, an ISO 13485-certified manufacturer. Distinct from the research-oriented Gen3 arm; KIMA is built from the ground up for operating room and clinical environments.",
+  "also_known_as": []
+}

@@ -15,7 +15,8 @@
     }
   ],
   "tags": [
-    "Haptic device"
+    "Haptic device",
+    "OEM component"
   ],
   "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
   "also_known_as": []

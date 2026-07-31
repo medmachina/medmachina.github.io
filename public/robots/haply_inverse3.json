@@ -27,7 +27,8 @@
     }
   ],
   "tags": [
-    "Haptic device"
+    "Haptic device",
+    "OEM component"
   ],
   "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons.",
   "also_known_as": [],
