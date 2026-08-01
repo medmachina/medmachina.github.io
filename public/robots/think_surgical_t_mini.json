@@ -33,5 +33,70 @@
       "url": "https://www.youtube.com/watch?v=L7hEeYn-8UE",
       "title": "TMINI® Miniature Robotic System - Hero"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243481",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241031",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230202",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242264",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250877",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252544",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243285",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232802",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253661",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "NE"
+    }
   ]
 }

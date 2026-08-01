@@ -41,5 +41,35 @@
     "Urological"
   ],
   "description": "",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230078",
+      "body": "FDA denovo",
+      "year": 2024,
+      "product_code": "SCV",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252111",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SCV",
+      "panel": "SU"
+    },
+    {
+      "url": "https://cmrsurgical.com/news/cmr-surgical-receives-ce-marking-for-versius/",
+      "body": "CE",
+      "year": 2019,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cmr-surgical-versius-pediatric-ce-ukca-mark/",
+      "body": "UKCA",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
+  ]
 }

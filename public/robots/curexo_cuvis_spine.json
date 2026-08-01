@@ -47,5 +47,28 @@
       "url": "https://www.youtube.com/watch?v=ttIGXxMDLng",
       "title": "Spine robot CUREXO"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223558",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K222698",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201569",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OLO",
+      "panel": "OR"
+    }
   ]
 }

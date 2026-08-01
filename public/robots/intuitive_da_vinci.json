@@ -55,5 +55,147 @@
     "IS4000",
     "IS4200",
     "IS5000"
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021036",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043153",
+      "body": "FDA 510k",
+      "year": 2004,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K002489",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K011002",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K022574",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K040237",
+      "body": "FDA 510k",
+      "year": 2004,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K043288",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050802",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K070947",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K080291",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101077",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "GCJ",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112208",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122532",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123840",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130726",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131861",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152448",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170865",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191043",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "GCJ",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241913",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "GCJ",
+      "panel": "GU"
+    }
   ]
 }

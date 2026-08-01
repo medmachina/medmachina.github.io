@@ -59,5 +59,210 @@
       "url": "https://www.youtube.com/watch?v=sbP-mb5ITIE",
       "title": "Intuitive da vinci xi surgical system"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192803",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162411",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191529",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153276",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151794",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170875",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182140",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171426",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153126",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "GCJ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240852",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211784",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223080",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242427",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202834",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203632",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231224",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240723",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152892",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161178",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161271",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170641",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170645",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170713",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171632",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171699",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172643",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173585",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173842",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci",
+      "body": "CE",
+      "year": 2014,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

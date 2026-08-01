@@ -34,5 +34,35 @@
       "url": "https://www.youtube.com/watch?v=GBT6PiFkxFM",
       "title": "NCauctions.com Aesop 3000 Zeus Endoscope Robot Positioning Robotic System"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K013551",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "GCJ",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K003431",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "GCJ",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021152",
+      "body": "FDA 510k",
+      "year": 2002,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K030578",
+      "body": "FDA 510k",
+      "year": 2003,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
   ]
 }

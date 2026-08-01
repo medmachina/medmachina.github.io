@@ -54,5 +54,28 @@
       "url": "https://www.youtube.com/watch?v=eQfLM4y-1I8",
       "title": "Medtronic's Exibition of the Hugo RAS: Robot Assisted Surgery"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250725",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SCV",
+      "panel": "SU"
+    },
+    {
+      "url": "https://news.medtronic.com/2021-10-11-Medtronic-Receives-CE-Mark-for-Hugo-RAS-System",
+      "body": "CE",
+      "year": 2021,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://news.medtronic.com/2022-10-19-Medtronic-Receives-CE-Mark-for-Hugo-RAS-System-for-General-Surgery",
+      "body": "CE",
+      "year": 2022,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

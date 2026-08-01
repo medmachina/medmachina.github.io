@@ -12,7 +12,6 @@ const route = useRoute()
 const items = ref([])
 const originalItems = ref([])
 const companies = ref([])
-const regulatoryData = ref({})
 const unitsDeployedData = ref({})
 const robotsError = ref('')
 const companiesError = ref('')
@@ -65,16 +64,6 @@ onMounted(async () => {
     companies.value = companiesData
   } catch (err) {
     companiesError.value = `Error loading companies.json: ${err}`
-  }
-
-  try {
-    const resRegulatory = await fetch('/regulatory.json')
-    if (resRegulatory.ok) {
-      const regulatoryJson = await resRegulatory.json()
-      regulatoryData.value = regulatoryJson
-    }
-  } catch (err) {
-    console.warn('Error loading regulatory.json:', err)
   }
 
   try {
@@ -178,10 +167,10 @@ const allUsages = computed(() => {
 })
 
 const allStatuses = computed(() => {
-  // Extract regulatory bodies from regulatory.json
+  // Extract regulatory bodies from item.regulatory
   const statusCount = {}
   items.value.forEach(item => {
-    const regulatory = regulatoryData.value[item.id] || []
+    const regulatory = item.regulatory || []
     regulatory.forEach(entry => {
       const body = entry.body || ''
       if (!body) return
@@ -226,7 +215,7 @@ const filteredItems = computed(() => {
     // Regulatory status filter only applies if tag or usage is selected
     const matchStatuses = selectedStatuses.value.length === 0 ||
       selectedStatuses.value.every(selectedStatus => {
-        const regulatory = regulatoryData.value[item.id] || []
+        const regulatory = item.regulatory || []
         return regulatory.some(entry => {
           return entry.body === selectedStatus
         })
@@ -295,7 +284,7 @@ const filteredItems = computed(() => {
         </div>
         <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>
         <div v-if="companiesError" class="alert alert-danger my-3">{{ companiesError }}</div>
-        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" :regulatoryData="regulatoryData" :unitsDeployedData="unitsDeployedData" />
+        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" :unitsDeployedData="unitsDeployedData" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

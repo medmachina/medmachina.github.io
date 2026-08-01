@@ -61,5 +61,63 @@
       "url": "https://www.youtube.com/watch?v=V5u1F2jEx-E",
       "title": "The da Vinci 5 Robot: The Latest Technology in Hernia Surgery"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232610",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241284",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243641",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250442",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251202",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251213",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251227",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.intuitivesurgical.com/company/news-and-events/news/2025-07-02-intuitive-receives-ce-mark-for-da-vinci-5",
+      "body": "CE",
+      "year": 2025,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

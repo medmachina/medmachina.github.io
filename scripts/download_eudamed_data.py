@@ -37,18 +37,41 @@ def load_companies_json(path: str = "public/companies.json"):
     with open(path, 'r') as f:
         return json.load(f)
 
-def load_regulatory_json(path: str = "public/regulatory.json"):
-    """Load regulatory data from regulatory.json."""
-    import os
-    if not os.path.exists(path):
-        return {}
-    with open(path, 'r') as f:
-        return json.load(f)
+def load_regulatory_json() -> Dict[str, List[Dict[str, Any]]]:
+    """Load regulatory data from public/robots/*.json files."""
+    robots_dir = Path("public/robots")
+    regulatory_data = {}
+    if not robots_dir.exists():
+        return regulatory_data
+    for filepath in robots_dir.glob("*.json"):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                robot = json.load(f)
+                rid = robot.get('id')
+                if rid:
+                    regulatory_data[rid] = robot.get('regulatory', [])
+        except Exception as e:
+            print(f"Warning: could not read {filepath}: {e}")
+    return regulatory_data
 
-def save_regulatory_json(data: dict, path: str = "public/regulatory.json"):
-    """Save regulatory data to regulatory.json."""
-    with open(path, 'w') as f:
-        json.dump(data, f, indent=2)
+def save_regulatory_json(regulatory_data: Dict[str, List[Dict[str, Any]]]):
+    """Save regulatory data into individual public/robots/<id>.json files and rebuild robots.json."""
+    robots_dir = Path("public/robots")
+    for rid, reg_list in regulatory_data.items():
+        filepath = robots_dir / f"{rid}.json"
+        if filepath.exists():
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    robot = json.load(f)
+                robot['regulatory'] = reg_list
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    json.dump(robot, f, indent=2, ensure_ascii=False)
+                    f.write('\n')
+            except Exception as e:
+                print(f"Error saving regulatory data for {filepath}: {e}")
+    import subprocess
+    subprocess.run(["python3", "scripts/build_robots.py"], check=False)
+
 
 def search_beudamed_scraping(search_term: str, max_pages: int = 3) -> List[Dict[str, Any]]:
     """

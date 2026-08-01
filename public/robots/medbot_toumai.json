@@ -48,5 +48,14 @@
     "Urological"
   ],
   "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised.",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://en.medbotsurgical.com/news/",
+      "body": "CE",
+      "year": 2024,
+      "product_code": "",
+      "panel": ""
+    }
+  ]
 }

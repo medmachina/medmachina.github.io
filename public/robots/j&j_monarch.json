@@ -40,5 +40,14 @@
       "url": "https://www.youtube.com/watch?v=yGoUbRnsEko",
       "title": "Monarch Robotic Bronchoscopy"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231473",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
   ]
 }

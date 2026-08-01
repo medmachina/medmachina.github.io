@@ -41,5 +41,14 @@
       "url": "https://www.youtube.com/watch?v=X_jGrah0Q30",
       "title": "LEM Surgical Dynamis & Fondue"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243326",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    }
   ]
 }

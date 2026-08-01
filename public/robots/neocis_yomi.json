@@ -37,5 +37,14 @@
       "url": "https://www.youtube.com/watch?v=PwbaGXTS7rA",
       "title": "Yomi Dental Robot - Neocis - 4K Medical Device Animation"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252376",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "PLV",
+      "panel": "DE"
+    }
   ]
 }

@@ -20,7 +20,7 @@ Follow these steps to successfully add a new surgical robot to the MedMachina da
 
 // turbo
 3. **Fetch FDA Regulatory Data:**
-   - Execute the FDA data processing script targeted specifically at the new robot's ID to fetch and append its regulatory registrations (510k, PMA, etc.) to `public/regulatory.json`.
+   - Execute the FDA data processing script targeted specifically at the new robot's ID to fetch and append its regulatory registrations (510k, PMA, etc.) to `public/robots/<ROBOT_ID>.json` (and automatically rebuild `public/robots.json`).
    - Make sure to replace `<ROBOT_ID>` with the actual ID you assigned in `robots.json`.
 
 ```bash

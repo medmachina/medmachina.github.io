@@ -37,5 +37,189 @@
       "url": "https://www.youtube.com/watch?v=7qOg4KN5xuI",
       "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA® Robotic Technology at Humber"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230180",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213708",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242864",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232533",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251314",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182417",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151359",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K092239",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101791",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151511",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172444",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182848",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182964",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192173",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200511",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210121",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210998",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "LLZ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K214065",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220733",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "LLZ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K221928",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230243",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230567",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231103",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231162",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "LLZ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233199",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.therobotreport.com/zimmer-biomet-rosa-robotic-surgery-history/",
+      "body": "CE",
+      "year": 2014,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

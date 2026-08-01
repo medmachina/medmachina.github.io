@@ -31,5 +31,119 @@
       "url": "https://www.youtube.com/watch?v=zOvAO8H-wyg",
       "title": "SENHANCE ROBOTIC SOCIAL VIDEO FINAL"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223095",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202166",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211325",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182421",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192877",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200049",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181517",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191482",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233866",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180163",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171120",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K183098",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212054",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220889",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "NAY",
+      "panel": "GU"
+    },
+    {
+      "url": "https://www.meddeviceonline.com/doc/transenterix-acquires-robotic-surgery-assets-from-sofar-0001",
+      "body": "CE",
+      "year": 2015,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.nsmedicaldevices.com/news/asensus-surgical-senhance-ce-mark-mdr/",
+      "body": "CE MDR",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

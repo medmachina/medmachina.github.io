@@ -48,5 +48,21 @@
       "url": "https://www.youtube.com/watch?v=FplldiyJvKI",
       "title": "Cuvis fully Active Robotic Joint Replacement Surgery"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252037",
+      "body": "FDA 510k",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.prnewswire.co.uk/news-releases/curexo-obtains-ce-mark-for-its-artificial-joint-surgical-robot-cuvis-joint-886989445.html",
+      "body": "CE",
+      "year": 2021,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

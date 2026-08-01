@@ -21,7 +21,7 @@
             <span v-if="(item.tags || []).length > 5">...</span>
             <span v-for="(usage, idx) in (item.usages || [])" :key="usage" class="badge bg-success me-1" :title="getUsageDescription(usage)">{{ usage }}</span>
             <!-- Regulatory bodies (show body and year) -->
-            <template v-for="reg in getUniqueRegulatory(item.id)" :key="'reg-'+reg.body">
+            <template v-for="reg in getUniqueRegulatory(item)" :key="'reg-'+reg.body">
               <span
                 class="badge bg-info text-dark ms-1"
                 v-if="reg.body"
@@ -176,8 +176,8 @@ function getUsageDescription(usageName) {
   return usageDescriptions[usageName] || '';
 }
 
-function getUniqueRegulatory(robotId) {
-  const regulatory = props.regulatoryData[robotId] || [];
+function getUniqueRegulatory(item) {
+  const regulatory = (typeof item === 'object' ? item?.regulatory : props.regulatoryData[item]) || props.regulatoryData[item?.id] || [];
   if (!regulatory) return [];
   const seen = new Set();
   return regulatory.filter(reg => {

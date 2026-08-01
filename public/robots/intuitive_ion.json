@@ -26,5 +26,84 @@
       "url": "https://www.youtube.com/watch?v=0ZaobUiJhCQ",
       "title": "Introducing Ion by Intuitive | Advancing lung biopsy capability"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201146",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182188",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192367",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202370",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212048",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220299",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232984",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240135",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242070",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252045",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "EOQ",
+      "panel": "EN"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252528",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "EOQ",
+      "panel": "EN"
+    }
   ]
 }

@@ -24,5 +24,42 @@
   "also_known_as": [
     "Neuromate Gen II",
     "Neuromate Gen III"
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132755",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180206",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181706",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.renishaw.com/en/neuromate-receives-updated-ce-marking-under-mdr--64459",
+      "body": "CE",
+      "year": 1997,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.renishaw.com/en/neuromate-receives-updated-ce-marking-under-mdr--64459",
+      "body": "CE MDR",
+      "year": 2022,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

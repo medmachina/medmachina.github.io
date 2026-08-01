@@ -41,5 +41,35 @@
       "url": "https://www.youtube.com/watch?v=wMY8_DpHAug",
       "title": "Dr. Erica Stockwell and her first impressions of DEXTER® Robotic Surgery System"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251197",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SDD",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250435",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "SDD",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230084",
+      "body": "FDA denovo",
+      "year": 2024,
+      "product_code": "SDD",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.distalmotion.com/news/distalmotion-receives-ce-mark-for-dexter-surgical-robot",
+      "body": "CE",
+      "year": 2020,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

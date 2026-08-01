@@ -53,5 +53,49 @@
   "description": "Second generation da Vinci system.  The surgeon's console is very similar to the previous generation (da Vinci Standard). The patient cart is totally new, with a more compact design, improved arms and new instruments. The setup joints (passive arms) have less degrees of freedom and are fully gravity compensated.  The setup arm for the third arm is now mounted on the back of the column and doesn't require a motor to go up and down.  The patient cart has motorized wheels to ease transport between rooms. The video remains similar to the Standard one. The stereo endoscopes are also unchanged but the camera head is updated to use SD or HD sensors with SDI outputs on the camera control unit (CCU). The patient's side active arms (both holding instruments: PSMs and the endoscope: ECM) are totally new.  They now require brakes and are not gravity compensated.  They are stronger and more precise.  Instruments are longer but the mechanics and end effectors are similar to the Standard ones.",
   "also_known_as": [
     "IS2000"
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081207",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101581",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063220",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072627",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170644",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K050369",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
   ]
 }

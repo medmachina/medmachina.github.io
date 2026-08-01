@@ -36,5 +36,42 @@
       "url": "https://www.youtube.com/watch?v=hD1p3w5p4O0",
       "title": "iSR'obot Mona Lisa - Robotic Targeted Prostate Biopsy"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203659",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111347",
+      "body": "FDA 510k",
+      "year": 2011,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130944",
+      "body": "FDA 510k",
+      "year": 2013,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232320",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "IYO",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213411",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "IYO",
+      "panel": "RA"
+    }
   ]
 }

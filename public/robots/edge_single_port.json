@@ -36,5 +36,14 @@
     "Urological"
   ],
   "description": "Imitation is the most sincere form of flattery: Edge Single-Port looks remarkably like da Vinci Sp.",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://www.vcbeathealth.com/news/edge-medical-receives-ce-certification-for-single-port-robot-and-multi-port-robotic-surgical-system/",
+      "body": "CE",
+      "year": 2025,
+      "product_code": "",
+      "panel": ""
+    }
+  ]
 }

@@ -183,7 +183,6 @@ const route = useRoute();
 const router = useRouter();
 const project = ref(null);
 const companies = ref([]);
-const regulatoryData = ref({});
 const unitsDeployedMap = ref({});
 const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
 
@@ -275,11 +274,6 @@ onMounted(async () => {
   const resCompanies = await fetch('/companies.json');
   const dataCompanies = await resCompanies.json();
   companies.value = dataCompanies;
-
-  // Load regulatory data
-  const resRegulatory = await fetch('/regulatory.json');
-  const dataRegulatory = await resRegulatory.json();
-  regulatoryData.value = dataRegulatory;
 
   // Load units deployed data
   try {
@@ -478,10 +472,10 @@ const projectUrls = computed(() => {
 });
 
 const projectRegulatoryInfo = computed(() => {
-  if (!project.value?.id) return [];
+  if (!project.value) return [];
 
-  // Get regulatory data for this robot from regulatory.json
-  const regulatory = regulatoryData.value[project.value.id] || [];
+  // Get regulatory data for this robot
+  const regulatory = project.value.regulatory || [];
 
   // Regulatory is an array of objects
   if (Array.isArray(regulatory)) {

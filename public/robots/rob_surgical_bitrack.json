@@ -35,5 +35,14 @@
     "Urological"
   ],
   "description": "",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://www.surgicalroboticstechnology.com/news/rob-surgical-receives-ce-mark-for-rob-surgical-robot/",
+      "body": "CE",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
+  ]
 }

@@ -35,5 +35,14 @@
   ],
   "usages": [
     "Spine"
+  ],
+  "regulatory": [
+    {
+      "url": "https://ecential-robotics.com/regulatory/",
+      "body": "CE",
+      "year": 2017,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

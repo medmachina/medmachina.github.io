@@ -50,5 +50,21 @@
     "Gynecological",
     "Urological"
   ],
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system",
+      "body": "FDA De Novo",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-ide-approval-for-ottava-robotic-surgical-system",
+      "body": "FDA IDE",
+      "year": 2024,
+      "product_code": "",
+      "panel": ""
+    }
+  ]
 }

@@ -59,5 +59,35 @@
       "url": "https://www.youtube.com/watch?v=0VGgDT-IzFs",
       "title": "The da Vinci Si System Overview"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123463",
+      "body": "FDA 510k",
+      "year": 2012,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081137",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090993",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "NAY",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093217",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "NAY",
+      "panel": "GU"
+    }
   ]
 }

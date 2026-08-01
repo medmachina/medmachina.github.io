@@ -43,5 +43,21 @@
       "url": "https://www.youtube.com/watch?v=u4f8BWTliJY",
       "title": "Robodoc"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140038",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "OJP",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072629",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "OJP",
+      "panel": "OR"
+    }
   ]
 }

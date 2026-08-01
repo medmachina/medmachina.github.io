@@ -30,8 +30,11 @@
   ],
   "regulatory": [
     {
+      "url": "https://microsure.nl/news/musa-3-ce-mark-approved-microsure-announces-new-ceo/",
       "body": "CE",
-      "year": 2026
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
     }
   ],
   "videos": [

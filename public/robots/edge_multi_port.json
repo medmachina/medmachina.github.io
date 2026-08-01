@@ -29,5 +29,14 @@
     "Urological"
   ],
   "description": "Imitation is the most sincere form of flattery: Edge Multi-Port looks remarkably like da Vinci Xi.",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/edge-medical-obtains-ce-mark-for-its-super-system-msp2000-multi-port-robotic-surgical-system-302300000.html",
+      "body": "CE",
+      "year": 2025,
+      "product_code": "",
+      "panel": ""
+    }
+  ]
 }

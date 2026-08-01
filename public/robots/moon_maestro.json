@@ -36,5 +36,28 @@
       "url": "https://www.youtube.com/watch?v=AuplMN-VpCU",
       "title": "Maestro Overview #1"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242323",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "QZB",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.moonsurgical.com/news/moon-surgical-obtains-ce-mark-for-its-maestro-system/",
+      "body": "CE",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20230906447126/en/Moon-Surgical-Receives-CE-Mark-Under-MDR-for-Maestro-System",
+      "body": "CE MDR",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

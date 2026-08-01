@@ -33,5 +33,182 @@
       "url": "https://www.youtube.com/watch?v=KSVBjAPK4jY",
       "title": "Full Knee Replacement | Mako Robotic Arm Assisted Surgery Technology"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172219",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193515",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K172301",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170581",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250608",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K060017",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K081867",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072806",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HAW",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K073248",
+      "body": "FDA 510k",
+      "year": 2007,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K080368",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K082081",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K082172",
+      "body": "FDA 510k",
+      "year": 2008,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K083644",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093425",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170584",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170593",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170891",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180612",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "HSX",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191998",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193128",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K220459",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241011",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241517",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242373",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243751",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "NE"
+    }
   ]
 }

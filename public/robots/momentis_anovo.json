@@ -33,5 +33,56 @@
     "Gynecological"
   ],
   "description": "",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251761",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250591",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251056",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241907",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232146",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242157",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "QNM",
+      "panel": "SU"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243182",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "QNM",
+      "panel": "SU"
+    }
+  ]
 }

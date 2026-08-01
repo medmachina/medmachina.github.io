@@ -52,5 +52,14 @@
       "url": "https://www.youtube.com/watch?v=bAMeQBHwMjk",
       "title": "Sentire Surgical Robot Aging Test"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://en.csrbtx.com/news/",
+      "body": "CE",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

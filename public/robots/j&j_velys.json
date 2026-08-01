@@ -40,5 +40,35 @@
       "url": "https://www.youtube.com/watch?v=tv_0Zt71F0Q",
       "title": "Knee Replacement Surgery at Wood County Hospital with the VELYS  Robotic Assisted Solution"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202769",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233227",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240211",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.jnjmedtech.com/en-US/patient/velys",
+      "body": "CE",
+      "year": 2023,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

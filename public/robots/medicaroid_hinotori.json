@@ -49,5 +49,14 @@
       "url": "https://www.youtube.com/watch?v=1h17p3GeULM",
       "title": "An Overview of the hinotori™ Surgical Robot"
     }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.medicaroid.com/en/release/2026/0709.html",
+      "body": "CE MDR",
+      "year": 2026,
+      "product_code": "",
+      "panel": ""
+    }
   ]
 }

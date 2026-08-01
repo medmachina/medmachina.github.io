@@ -20,5 +20,29 @@
     "Biopsy"
   ],
   "description": "Compact, table-mounted robotic needle guidance system for percutaneous interventional procedures. Acts as a \"third hand\" for the physician, providing stable and precise needle alignment for biopsies and tumor ablations under imaging guidance. Operator controls needle alignment via joystick from outside the direct radiation zone, reducing radiation exposure to clinical staff. Compatible with Cone-Beam CT, Fluoroscopy, and CT-Fluoroscopy imaging modalities. Universal design accepts standard instruments without proprietary consumables. FDA 510(k) cleared in 2021 for fluoroscopy/C-arm CBCT-guided procedures, and in 2023 for CT-guided navigation. CE marked. Marketed as a portable, accessible alternative to larger robotic platforms for interventional radiology and oncology.",
-  "also_known_as": []
+  "also_known_as": [],
+  "regulatory": [
+    {
+      "body": "FDA 510k",
+      "year": 2021,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K203720",
+      "last_verified": "2026-07-31",
+      "product_code": "JAK",
+      "panel": "Radiology"
+    },
+    {
+      "body": "FDA 510k",
+      "year": 2023,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230130",
+      "last_verified": "2026-07-31",
+      "product_code": "JAK",
+      "panel": "Radiology"
+    },
+    {
+      "body": "CE mark",
+      "year": null,
+      "url": null,
+      "last_verified": null
+    }
+  ]
 }
