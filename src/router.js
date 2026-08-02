@@ -16,13 +16,13 @@ const routes = [
     component: HomeComponent,
     meta: {
       title: 'Medical Robots Directory | Med Machina',
-      description: 'Explore the world\'s most comprehensive directory of medical and surgical robots, companies, and regulatory statuses.',
+      description: 'A spare-time, best-effort directory listing medical and surgical robotics systems, companies, and regulatory approvals. Community contributions are welcome!',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         'name': 'Med Machina',
         'url': 'https://medmachina.github.io/',
-        'description': 'Explore the world\'s most comprehensive directory of medical and surgical robots, companies, and regulatory statuses.'
+        'description': 'A spare-time, best-effort directory listing medical and surgical robotics systems, companies, and regulatory approvals. Community contributions are welcome!'
       }
     }
   },
