@@ -46,11 +46,11 @@ cd medmachina.github.io</code></pre>
       <div class="card-body">
         <h2 class="card-title">Step 3: Edit the Data Files</h2>
         <p class="card-text">
-          The main data files are located in the <code>/public/</code> folder:
+          The main data files are located in the <code>/public/</code> subdirectories:
         </p>
         <ul>
-          <li><code>robots.json</code> - Contains information about medical robots</li>
-          <li><code>companies.json</code> - Contains information about companies that manufacture robots</li>
+          <li><code>public/robots/&lt;robot_id&gt;.json</code> - Contains information about medical robots</li>
+          <li><code>public/companies/&lt;company_id&gt;.json</code> - Contains information about companies that manufacture robots</li>
         </ul>
 
         <h3>Robot Data Format</h3>
@@ -602,8 +602,8 @@ function generateCompany(){
 function copyJson(){ if(!generatedJson.value) return; navigator.clipboard.writeText(generatedJson.value).then(()=>{ copied.value=true; setTimeout(()=>copied.value=false,2000) }) }
 function copyCompanyJson(){ if(!generatedCompanyJson.value) return; navigator.clipboard.writeText(generatedCompanyJson.value).then(()=>{ copiedCompany.value=true; setTimeout(()=>copiedCompany.value=false,2000) }) }
 
-function buildPRInstructions(){ if(!generatedJson.value) return; const branch=`add-robot-${form.id}`; const commitMsg=`feat(robot): add ${form.name} (${form.id})`; prHelper.value=[ '# 1. Open public/robots.json and insert the generated object (maintain JSON array formatting).', '# 2. Create a new branch:', `git checkout -b ${branch}`, '# 3. Stage and commit changes:', 'git add public/robots.json', `git commit -m "${commitMsg}"`, '# 4. Push branch:', `git push origin ${branch}`, '# 5. Open your browser to create the PR (replace YOUR_USERNAME):', `https://github.com/medmachina/medmachina.github.io/compare/main...YOUR_USERNAME:${branch}?expand=1`, '# 6. In PR description, include references supporting URLs and regulatory claims.' ].join('\n'); copiedPR.value=false }
-function buildCompanyPR(){ if(!generatedCompanyJson.value) return; const branch=`add-company-${companyForm.name.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'')}`.slice(0,60); const commitMsg=`feat(company): add ${companyForm.name}`; companyPrHelper.value=[ '# 1. Open public/companies.json and insert the generated object (maintain array formatting).', '# 2. Create a new branch:', `git checkout -b ${branch}`, '# 3. Stage and commit changes:', 'git add public/companies.json', `git commit -m "${commitMsg}"`, '# 4. Push branch:', `git push origin ${branch}`, '# 5. Open PR URL (replace YOUR_USERNAME):', `https://github.com/medmachina/medmachina.github.io/compare/main...YOUR_USERNAME:${branch}?expand=1`, '# 6. Provide references supporting URLs / robots association.' ].join('\n'); copiedCompanyPR.value=false }
+function buildPRInstructions(){ if(!generatedJson.value) return; const branch=`add-robot-${form.id}`; const commitMsg=`feat(robot): add ${form.name} (${form.id})`; prHelper.value=[ `# 1. Save the generated JSON object to public/robots/${form.id}.json.`, '# 2. Create a new branch:', `git checkout -b ${branch}`, '# 3. Stage and commit changes:', `git add public/robots/${form.id}.json`, `git commit -m "${commitMsg}"`, '# 4. Push branch:', `git push origin ${branch}`, '# 5. Open your browser to create the PR (replace YOUR_USERNAME):', `https://github.com/medmachina/medmachina.github.io/compare/main...YOUR_USERNAME:${branch}?expand=1`, '# 6. In PR description, include references supporting URLs and regulatory claims.' ].join('\n'); copiedPR.value=false }
+function buildCompanyPR(){ if(!generatedCompanyJson.value) return; const cid=companyForm.name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,'_').replace(/[^a-z0-9_]/g,''); const branch=`add-company-${cid}`; const commitMsg=`feat(company): add ${companyForm.name}`; companyPrHelper.value=[ `# 1. Save the generated JSON object to public/companies/${cid}.json.`, '# 2. Create a new branch:', `git checkout -b ${branch}`, '# 3. Stage and commit changes:', `git add public/companies/${cid}.json`, `git commit -m "${commitMsg}"`, '# 4. Push branch:', `git push origin ${branch}`, '# 5. Open PR URL (replace YOUR_USERNAME):', `https://github.com/medmachina/medmachina.github.io/compare/main...YOUR_USERNAME:${branch}?expand=1`, '# 6. Provide references supporting URLs / robots association.' ].join('\n'); copiedCompanyPR.value=false }
 
 function copyPR(){ if(!prHelper.value) return; navigator.clipboard.writeText(prHelper.value).then(()=>{ copiedPR.value=true; setTimeout(()=>copiedPR.value=false,2000) }) }
 function copyCompanyPR(){ if(!companyPrHelper.value) return; navigator.clipboard.writeText(companyPrHelper.value).then(()=>{ copiedCompanyPR.value=true; setTimeout(()=>copiedCompanyPR.value=false,2000) }) }
@@ -631,17 +631,12 @@ async function submitRobotToGitHub(){
     const branchName=robotBranch.value || `add-robot-${form.id}`
     const createBranchResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/git/refs`, { method:'POST', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ ref:`refs/heads/${branchName}`, sha:mainSha }) })
     if(createBranchResp.status!==422 && !createBranchResp.ok) throw new Error('Failed to create branch')
-    const robotsResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/public/robots.json?ref=main`)
-    if(!robotsResp.ok) throw new Error('Failed to fetch robots.json')
-    const robotsData=await robotsResp.json(); const existingSha=robotsData.sha; const contentStr=atob(robotsData.content.replace(/\n/g,''))
-    let arr:any[]; try { arr=JSON.parse(contentStr) } catch{ throw new Error('Parse robots.json failed') }
-    const newObj=JSON.parse(generatedJson.value)
-    if(arr.some(r=>r.id===newObj.id)){ robotSubmitResult.value=`Robot id ${newObj.id} already exists.`; submittingRobot.value=false; return }
-    arr.push(newObj)
-    const newContentB64=btoa(JSON.stringify(arr,null,2))
-    const putResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/public/robots.json`, { method:'PUT', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ message: robotCommitMsg.value || `feat(robot): add ${newObj.name} (${newObj.id})`, content:newContentB64, branch:branchName, sha:existingSha }) })
-    if(!putResp.ok) throw new Error('Failed to update robots.json')
-    const prResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/pulls`, { method:'POST', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ title: robotCommitMsg.value || `feat(robot): add ${newObj.name} (${newObj.id})`, head:branchName, base:'main', body:'Add new robot entry via web form.' }) })
+    
+    const filePath=`public/robots/${form.id}.json`
+    const newContentB64=btoa(generatedJson.value)
+    const putResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, { method:'PUT', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ message: robotCommitMsg.value || `feat(robot): add ${form.name} (${form.id})`, content:newContentB64, branch:branchName }) })
+    if(!putResp.ok) throw new Error(`Failed to create ${filePath}`)
+    const prResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/pulls`, { method:'POST', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ title: robotCommitMsg.value || `feat(robot): add ${form.name} (${form.id})`, head:branchName, base:'main', body:'Add new robot entry via web form.' }) })
     if(!prResp.ok) throw new Error('Failed to create PR')
     const prData=await prResp.json(); robotSubmitResult.value=`Success! PR: ${prData.html_url}`
   } catch(e:any){ robotSubmitResult.value=`Error: ${e.message}` } finally { submittingRobot.value=false }
@@ -658,20 +653,16 @@ async function submitCompanyToGitHub(){
     const refResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/git/refs/heads/main`, { headers:{ Authorization:`Bearer ${githubToken.value}` } })
     if(!refResp.ok) throw new Error('Failed to fetch main ref')
     const refData=await refResp.json(); const mainSha=refData.object.sha
-    const branchName=companyBranch.value || `add-company-${companyForm.name.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'')}`
+    const cid=companyForm.name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,'_').replace(/[^a-z0-9_]/g,'')
+    const branchName=companyBranch.value || `add-company-${cid}`
     const createBranchResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/git/refs`, { method:'POST', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ ref:`refs/heads/${branchName}`, sha:mainSha }) })
     if(createBranchResp.status!==422 && !createBranchResp.ok) throw new Error('Failed to create branch')
-    const companiesResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/public/companies.json?ref=main`)
-    if(!companiesResp.ok) throw new Error('Failed to fetch companies.json')
-    const companiesData=await companiesResp.json(); const existingSha=companiesData.sha; const contentStr=atob(companiesData.content.replace(/\n/g,''))
-    let arr:any[]; try { arr=JSON.parse(contentStr) } catch{ throw new Error('Parse companies.json failed') }
-    const newObj=JSON.parse(generatedCompanyJson.value)
-    if(arr.some(c=>c.name.toLowerCase()===newObj.name.toLowerCase())){ companySubmitResult.value=`Company ${newObj.name} already exists.`; submittingCompany.value=false; return }
-    arr.push(newObj)
-    const newContentB64=btoa(JSON.stringify(arr,null,2))
-    const putResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/public/companies.json`, { method:'PUT', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ message: companyCommitMsg.value || `feat(company): add ${newObj.name}`, content:newContentB64, branch:branchName, sha:existingSha }) })
-    if(!putResp.ok) throw new Error('Failed to update companies.json')
-    const prResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/pulls`, { method:'POST', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ title: companyCommitMsg.value || `feat(company): add ${newObj.name}`, head:branchName, base:'main', body:'Add new company entry via web form.' }) })
+    
+    const filePath=`public/companies/${cid}.json`
+    const newContentB64=btoa(generatedCompanyJson.value)
+    const putResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, { method:'PUT', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ message: companyCommitMsg.value || `feat(company): add ${companyForm.name}`, content:newContentB64, branch:branchName }) })
+    if(!putResp.ok) throw new Error(`Failed to create ${filePath}`)
+    const prResp=await fetch(`https://api.github.com/repos/${owner}/${repo}/pulls`, { method:'POST', headers:{ 'Content-Type':'application/json', Authorization:`Bearer ${githubToken.value}` }, body:JSON.stringify({ title: companyCommitMsg.value || `feat(company): add ${companyForm.name}`, head:branchName, base:'main', body:'Add new company entry via web form.' }) })
     if(!prResp.ok) throw new Error('Failed to create PR')
     const prData=await prResp.json(); companySubmitResult.value=`Success! PR: ${prData.html_url}`
   } catch(e:any){ companySubmitResult.value=`Error: ${e.message}` } finally { submittingCompany.value=false }
