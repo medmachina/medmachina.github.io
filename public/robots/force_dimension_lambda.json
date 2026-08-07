@@ -1,6 +1,7 @@
 {
-  "name": "Lambda",
   "id": "force_dimension_lambda",
+  "name": "Lambda",
+  "db_added": "2025-11-15",
   "introduction_year": 2025,
   "urls": [
     {

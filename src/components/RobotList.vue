@@ -33,6 +33,13 @@
               class="badge bg-primary ms-1"
               :title="getUnitsDeployedTooltip(item.id)"
             >{{ getUnitsDeployed(item.id).category }}</span>
+            <!-- NEW badge for recently added robots -->
+            <span
+              v-if="isRecentlyAdded(item)"
+              class="badge ms-1"
+              style="background-color: #e8650a;"
+              title="Recently added to the database"
+            >★ NEW</span>
           </div>
 <!-- ...existing template code... -->
         </div>
@@ -199,6 +206,13 @@ function getUnitsDeployedTooltip(robotId) {
     return `${data.category} (~${data.count.toLocaleString()} units deployed)`;
   }
   return `${data.category} units deployed`;
+}
+
+const SIX_MONTHS_MS = 6 * 30 * 24 * 60 * 60 * 1000;
+function isRecentlyAdded(item) {
+  if (!item.db_added) return false;
+  const addedDate = new Date(item.db_added);
+  return (Date.now() - addedDate.getTime()) < SIX_MONTHS_MS;
 }
 </script>
 

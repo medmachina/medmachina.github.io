@@ -1,11 +1,12 @@
 {
-  "name": "AVIAR",
   "id": "ln_robotics_aviar",
+  "name": "AVIAR",
+  "db_added": "2026-03-19",
+  "introduction_year": 2023,
   "also_known_as": [
     "MX-03",
     "MX-01"
   ],
-  "introduction_year": 2023,
   "description": "AVIAR is a vascular robotic system for safer, more precise percutaneous coronary interventions (PCI).",
   "urls": [
     {

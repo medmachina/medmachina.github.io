@@ -1,10 +1,11 @@
 {
-  "name": "da Vinci 5",
   "id": "intuitive_da_vinci_5",
+  "name": "da Vinci 5",
+  "db_added": "2025-07-30",
+  "introduction_year": 2024,
   "also_known_as": [
     "IS5000"
   ],
-  "introduction_year": 2024,
   "urls": [
     {
       "caption": "Intuitive, da Vinci",

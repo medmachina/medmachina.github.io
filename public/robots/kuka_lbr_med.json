@@ -1,6 +1,7 @@
 {
-  "name": "LBR Med",
   "id": "kuka_lbr_med",
+  "name": "LBR Med",
+  "db_added": "2026-07-30",
   "introduction_year": null,
   "urls": [
     {

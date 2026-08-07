@@ -1,4 +1,5 @@
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -6,8 +7,29 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ROBOTS_DIR = REPO_ROOT / 'public' / 'robots'
 OUTPUT_FILE = REPO_ROOT / 'public' / 'robots.json'
 
+
+def get_git_added_date(filepath):
+    """Return the date (YYYY-MM-DD) when this file was first committed to git, or None."""
+    try:
+        rel = filepath.relative_to(REPO_ROOT)
+        result = subprocess.run(
+            ['git', 'log', '--diff-filter=A', '--format=%ai', '--', str(rel)],
+            cwd=REPO_ROOT, capture_output=True, text=True, check=True
+        )
+        line = result.stdout.strip().splitlines()
+        if line:
+            return line[-1].split()[0]  # YYYY-MM-DD
+    except Exception:
+        pass
+    return None
+
+
 def build_robots():
-    """Aggregates all JSON files in public/robots/ into public/robots.json."""
+    """Aggregates all JSON files in public/robots/ into public/robots.json.
+    
+    Auto-injects `db_added` (YYYY-MM-DD) for any robot missing the field,
+    sourced from the file's first Git commit date.
+    """
     if not ROBOTS_DIR.exists():
         print(f"Error: Directory {ROBOTS_DIR} does not exist.")
         sys.exit(1)
@@ -18,7 +40,17 @@ def build_robots():
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 robot = json.load(f)
-                robots.append(robot)
+            # Auto-inject db_added if missing
+            if 'db_added' not in robot:
+                added = get_git_added_date(filepath)
+                if added:
+                    robot['db_added'] = added
+                    # Write back to the individual file
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        json.dump(robot, f, indent=2, ensure_ascii=False)
+                        f.write('\n')
+                    print(f"  Auto-set db_added={added} for {filepath.name}")
+            robots.append(robot)
         except Exception as e:
             print(f"Error reading {filepath}: {e}")
             sys.exit(1)

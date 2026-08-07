@@ -1,6 +1,7 @@
 {
-  "name": "KANGDUO SR2000",
   "id": "sagebot_kangduo",
+  "name": "KANGDUO SR2000",
+  "db_added": "2026-01-21",
   "introduction_year": null,
   "urls": [
     {

@@ -19,7 +19,7 @@ const search = ref('')
 const selectedTags = ref([])
 const selectedUsages = ref([])
 const selectedStatuses = ref([])
-const sortMode = ref('random') // 'random', 'alphabetical', 'year', or 'units'
+const sortMode = ref('random') // 'random', 'alphabetical', 'year', 'units', or 'added'
 const yearSortAscending = ref(true) // true for oldest-first, false for newest-first
 
 function updateFiltersFromQuery() {
@@ -133,6 +133,17 @@ function sortByUnits() {
     const rankA = categoryRanks[dataA?.category] || 0
     const rankB = categoryRanks[dataB?.category] || 0
     return rankB - rankA
+  })
+}
+
+function sortByAdded() {
+  sortMode.value = 'added'
+  items.value = [...originalItems.value].sort((a, b) => {
+    // Sort newest db_added first; robots without the field go to the end
+    if (!a.db_added && !b.db_added) return 0
+    if (!a.db_added) return 1
+    if (!b.db_added) return -1
+    return b.db_added.localeCompare(a.db_added)
   })
 }
 
@@ -280,6 +291,14 @@ const filteredItems = computed(() => {
             style="min-width: 50px;"
           >
             📊
+          </button>
+          <button 
+            @click="sortByAdded" 
+            :class="['btn', 'ms-2', sortMode === 'added' ? 'btn-primary' : 'btn-outline-secondary']"
+            title="Sort by newest added to database"
+            style="min-width: 50px;"
+          >
+            🆕
           </button>
         </div>
         <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>

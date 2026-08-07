@@ -1,6 +1,7 @@
 {
-  "name": "Toumai",
   "id": "medbot_toumai",
+  "name": "Toumai",
+  "db_added": "2025-11-05",
   "introduction_year": 2022,
   "urls": [
     {

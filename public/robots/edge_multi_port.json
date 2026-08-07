@@ -1,6 +1,7 @@
 {
-  "name": "Edge Multi-Port",
   "id": "edge_multi_port",
+  "name": "Edge Multi-Port",
+  "db_added": "2025-11-18",
   "introduction_year": 2023,
   "urls": [
     {

@@ -1,8 +1,9 @@
 {
-  "name": "STARK",
   "id": "livsmed_stark",
-  "also_known_as": [],
+  "name": "STARK",
+  "db_added": "2026-06-03",
   "introduction_year": 2026,
+  "also_known_as": [],
   "description": "A laparoscopic surgical robot developed by LIVSMED. The system features a modular architecture consisting of two carts, each equipped with two robotic arms (four arms total). It utilizes the 90° articulating multi-joint technology from LIVSMED's ArtiSential handheld instrument line, and is designed to support remote telesurgery operations. Long-distance telesurgery has been demonstrated in trials between Santa Barbara and Chicago. As of mid-2026, the system is in a pre-commercial phase with animal clinical trials underway.",
   "urls": [
     {

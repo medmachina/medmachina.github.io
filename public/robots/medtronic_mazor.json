@@ -1,6 +1,7 @@
 {
-  "name": "Mazor",
   "id": "medtronic_mazor",
+  "name": "Mazor",
+  "db_added": "2026-03-19",
   "urls": [
     {
       "caption": "Medtronic, Mazor",

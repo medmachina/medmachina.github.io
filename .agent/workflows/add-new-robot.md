@@ -12,6 +12,7 @@ Follow these steps to successfully add a new surgical robot to the MedMachina da
    - Review `public/robots.schema.json` to assign the most appropriate `tags` and `usages` to the robot.
    - Add a brief `description` if requested or available.
    - Run `python3 scripts/build_robots.py` to compile `public/robots.json`.
+   - **`db_added` is set automatically**: When `build_robots.py` is run after the robot JSON is committed, it reads the Git commit date of the new file and injects `db_added` (YYYY-MM-DD format). No manual action needed.
 
 2. **Update companies.json:**
    - Check if the manufacturer already exists in `public/companies.json`.

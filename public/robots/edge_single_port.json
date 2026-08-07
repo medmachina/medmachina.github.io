@@ -1,6 +1,7 @@
 {
-  "name": "Edge Single-Port",
   "id": "edge_single_port",
+  "name": "Edge Single-Port",
+  "db_added": "2025-11-19",
   "introduction_year": 2023,
   "urls": [
     {

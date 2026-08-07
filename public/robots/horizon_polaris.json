@@ -1,6 +1,7 @@
 {
   "id": "horizon_polaris",
   "name": "Polaris",
+  "db_added": "2026-08-07",
   "introduction_year": 2025,
   "description": "The Polaris is an AI-powered micro-robotic surgical platform designed specifically for cataract surgery. Developed as a UCLA spin-off (Jules Stein Eye Institute and Henry Samueli School of Engineering), it combines a dedicated surgical cockpit with 3D visualization, AI-driven anatomical recognition, and micro-robotic instruments to provide precision beyond human capability. In October 2025, the Polaris completed the world's first robotic-assisted cataract surgery in a 10-patient first-in-human study at UCLA, with no adverse events. As of 2026, the system remains investigational and has not yet received FDA clearance.",
   "urls": [

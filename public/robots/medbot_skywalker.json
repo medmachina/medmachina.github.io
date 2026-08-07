@@ -1,6 +1,7 @@
 {
-  "name": "MedBot Skywalker",
   "id": "medbot_skywalker",
+  "name": "MedBot Skywalker",
+  "db_added": "2025-11-05",
   "introduction_year": 2021,
   "urls": [
     {

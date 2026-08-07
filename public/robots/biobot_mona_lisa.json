@@ -1,6 +1,7 @@
 {
-  "name": "Mona Lisa",
   "id": "biobot_mona_lisa",
+  "name": "Mona Lisa",
+  "db_added": "2025-11-05",
   "introduction_year": 2024,
   "urls": [
     {
