@@ -917,5 +917,22 @@
     ],
     "description": "Interventional Systems (iSYS Medizintechnik GmbH) is based in Kitzbühel, Austria, with offices in Germany and Portugal. Specializes in robotic guidance systems for percutaneous interventional procedures.",
     "employee_count": "10-50"
+  },
+  {
+    "name": "Horizon Surgical Systems",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Horizon Surgical Systems",
+        "url": "https://horizonsurgicalsystems.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/horizon-surgical-systems/",
+    "opencorporates_url": "",
+    "robots": [
+      "horizon_polaris"
+    ],
+    "description": "Horizon Surgical Systems is a California-based medical robotics company and UCLA spin-off (Jules Stein Eye Institute and Henry Samueli School of Engineering). It develops the Polaris ophthalmic surgical robotics platform, designed to bring AI-driven precision to cataract surgery.",
+    "employee_count": "10-50"
   }
 ]

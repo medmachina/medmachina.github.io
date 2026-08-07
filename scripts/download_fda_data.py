@@ -7,7 +7,9 @@ import io
 import os
 import re
 import argparse
+from pathlib import Path
 from typing import List, Dict, Any, Optional
+
 
 # FDA Download URLs
 URL_510K = "https://www.accessdata.fda.gov/premarket/ftparea/pmn96cur.zip"
