@@ -1,0 +1,25 @@
+{
+  "id": "neocis",
+  "name": "Neocis",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Neocis",
+      "url": "https://www.neocis.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/neocis/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/5215368",
+  "robots": [
+    "neocis_yomi"
+  ],
+  "description": "Neocis is based in Miami, Florida, USA.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Neocis"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Neocis",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Neocis%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

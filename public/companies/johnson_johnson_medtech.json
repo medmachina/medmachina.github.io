@@ -1,0 +1,31 @@
+{
+  "id": "johnson_johnson_medtech",
+  "name": "Johnson & Johnson MedTech",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Johnson & Johnson MedTech",
+      "url": "https://www.jnjmedtech.com/"
+    },
+    {
+      "caption": "Johnson & Johnson MedTech, surgical robotics",
+      "url": "https://thenext.jnjmedtech.com/surgical-robotics"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/johnson-&-johnson-medtech",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/5666313",
+  "robots": [
+    "j&j_ottava",
+    "j&j_monarch",
+    "j&j_velys"
+  ],
+  "description": "Johnson & Johnson MedTech is a US-based company.",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Johnson & Johnson MedTech"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Johnson+%26+Johnson+MedTech",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Johnson%20%26%20Johnson%20MedTech%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

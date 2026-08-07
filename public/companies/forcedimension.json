@@ -1,0 +1,26 @@
+{
+  "id": "forcedimension",
+  "name": "ForceDimension",
+  "country": "Switzerland",
+  "urls": [
+    {
+      "caption": "Force Dimension",
+      "url": "https://www.forcedimension.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
+  "opencorporates_url": "https://opencorporates.com/companies/ch/653136",
+  "robots": [
+    "force_dimension_sigma",
+    "force_dimension_lambda"
+  ],
+  "description": "ForceDimension is a Swiss company specializing in haptic devices.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "ForceDimension"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=ForceDimension",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22ForceDimension%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

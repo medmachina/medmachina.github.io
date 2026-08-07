@@ -1,0 +1,26 @@
+{
+  "id": "microsure",
+  "name": "Microsure",
+  "country": "Netherlands",
+  "urls": [
+    {
+      "caption": "Microsure",
+      "url": "https://www.microsure.nl"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/microsure-b.v./",
+  "opencorporates_url": "",
+  "robots": [
+    "microsure_musa_3"
+  ],
+  "description": "Microsure B.V. is a medical robotics company based in Eindhoven, Netherlands. Spin-off from Eindhoven University of Technology (TU/e) and Maastricht University Medical Center+ (MUMC+). Specializes in robotic systems for micro- and super-microsurgery.",
+  "founded_year": "2016",
+  "employee_count": "50-100",
+  "patents": {
+    "assignee_names": [
+      "Microsure"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Microsure",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Microsure%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

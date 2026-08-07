@@ -1,0 +1,25 @@
+{
+  "id": "ssii",
+  "name": "SSII",
+  "country": "India",
+  "urls": [
+    {
+      "caption": "SSInnovations",
+      "url": "https://ssinnovations.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_fl/P15000011722",
+  "robots": [
+    "ssii_mantra"
+  ],
+  "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "SSII"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=SSII",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22SSII%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

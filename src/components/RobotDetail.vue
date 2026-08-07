@@ -23,6 +23,9 @@
             <span v-if="unitsDeployedInfo.count">({{ unitsDeployedInfo.count.toLocaleString() }} units)</span>
             <a v-if="unitsDeployedInfo.source_url" :href="unitsDeployedInfo.source_url" target="_blank" rel="noopener noreferrer" class="ms-2 small text-muted">(source)</a>
           </p>
+          <p v-if="filteredProject.db_added" class="mb-2 text-muted" style="font-size:0.85em;">
+            Added to MedMachina: {{ filteredProject.db_added }}
+          </p>
           <div class="project-description">
             <template v-if="descriptionParagraphs.length">
               <p v-for="(para, idx) in descriptionParagraphs" :key="idx">{{ para }}</p>

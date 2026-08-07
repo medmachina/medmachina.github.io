@@ -1,0 +1,25 @@
+{
+  "id": "dvrk_consortium",
+  "name": "dVRK Consortium",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "dVRK Consortium home page",
+      "url": "https://dvrk.lcsr.jhu.edu/dvrk-consortium/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/in/lcsr-jhu-robotics-b54a44132/",
+  "opencorporates_url": "",
+  "robots": [
+    "dvrk_dvrk"
+  ],
+  "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "dVRK Consortium"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=dVRK+Consortium",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22dVRK%20Consortium%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

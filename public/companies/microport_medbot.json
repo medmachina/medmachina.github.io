@@ -1,0 +1,26 @@
+{
+  "id": "microport_medbot",
+  "name": "MicroPort MedBot",
+  "country": "China",
+  "urls": [
+    {
+      "caption": "MicroPort MedBot",
+      "url": "https://www.medbotsurgical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/microport-medbot/",
+  "opencorporates_url": "",
+  "robots": [
+    "medbot_toumai",
+    "medbot_skywalker"
+  ],
+  "description": "MedBot is based in Shanghai, China.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "MicroPort MedBot"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=MicroPort+MedBot",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22MicroPort%20MedBot%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

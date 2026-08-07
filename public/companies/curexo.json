@@ -1,0 +1,26 @@
+{
+  "id": "curexo",
+  "name": "Curexo",
+  "country": "South Korea",
+  "urls": [
+    {
+      "caption": "Curexo",
+      "url": "https://www.curexo.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/curexo/",
+  "opencorporates_url": "",
+  "robots": [
+    "curexo_cuvis_joint",
+    "curexo_cuvis_spine"
+  ],
+  "description": "Curexo is based in Seoul, South Korea.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Curexo"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Curexo",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Curexo%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

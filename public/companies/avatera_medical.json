@@ -1,0 +1,25 @@
+{
+  "id": "avatera_medical",
+  "name": "Avatera Medical",
+  "country": "Germany",
+  "urls": [
+    {
+      "caption": "Avatera Medical",
+      "url": "https://avatera.eu/en/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/avateramedical-gmbh/",
+  "opencorporates_url": "https://opencorporates.com/companies/de/F1103R_HRB167380",
+  "robots": [
+    "avatera_avatera"
+  ],
+  "description": "Avatera Medical is based in Jena, Germany.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "Avatera Medical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Avatera+Medical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Avatera%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

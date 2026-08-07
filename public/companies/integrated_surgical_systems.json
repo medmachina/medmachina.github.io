@@ -1,0 +1,28 @@
+{
+  "id": "integrated_surgical_systems",
+  "name": "Integrated Surgical Systems",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Think Surgical (lineage successor)",
+      "url": "https://thinksurgical.com/"
+    },
+    {
+      "caption": "UC Davis health (research origins context)",
+      "url": "https://health.ucdavis.edu/"
+    }
+  ],
+  "linkedin_url": "",
+  "robots": [
+    "iss_robodoc"
+  ],
+  "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "Integrated Surgical Systems"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Integrated+Surgical+Systems",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Integrated%20Surgical%20Systems%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

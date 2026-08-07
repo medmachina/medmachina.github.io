@@ -87,16 +87,33 @@
           <li>
             <a href="https://www.google.com/" target="_blank" rel="noopener">Google (site-limited queries)</a>
           </li>
+          <li>
+            <a href="https://open.fda.gov/" target="_blank" rel="noopener">FDA Open Data Portal</a>
+          </li>
         </ul>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card mb-4">
       <div class="card-body">
-        <h2 class="card-title">GitHub</h2>
-        <a href="https://github.com/medmachina/medmachina.github.io" target="_blank" rel="noopener" class="btn btn-primary">
-          github.com/medmachina/medmachina.github.io
-        </a>
+        <h2 class="card-title">Patent Databases</h2>
+        <ul class="mb-0">
+          <li>
+            <a href="https://patents.google.com/" target="_blank" rel="noopener">Google Patents</a>
+          </li>
+          <li>
+            <a href="https://www.lens.org/lens/search/patent" target="_blank" rel="noopener">Lens.org – Global Patent Search</a>
+          </li>
+          <li>
+            <a href="https://worldwide.espacenet.com/" target="_blank" rel="noopener">EPO Espacenet</a>
+          </li>
+          <li>
+            <a href="https://patentscope.wipo.int/" target="_blank" rel="noopener">WIPO PATENTSCOPE (PCT applications)</a>
+          </li>
+          <li>
+            <a href="https://patft.uspto.gov/" target="_blank" rel="noopener">USPTO Patent Full-Text Database</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

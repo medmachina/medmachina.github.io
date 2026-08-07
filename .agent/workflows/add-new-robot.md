@@ -14,10 +14,11 @@ Follow these steps to successfully add a new surgical robot to the MedMachina da
    - Run `python3 scripts/build_robots.py` to compile `public/robots.json`.
    - **`db_added` is set automatically**: When `build_robots.py` is run after the robot JSON is committed, it reads the Git commit date of the new file and injects `db_added` (YYYY-MM-DD format). No manual action needed.
 
-2. **Update companies.json:**
-   - Check if the manufacturer already exists in `public/companies.json`.
-   - If the company exists, carefully append the new robot's `id` to its `robots` array.
-   - If the company does not exist, create a new company entry including its `name`, `country`, `urls`, and the initialized `robots` array containing the new robot's `id`.
+2. **Update Company JSON:**
+   - Check if the manufacturer already exists in `public/companies/<COMPANY_ID>.json`.
+   - If the company exists, carefully append the new robot's `id` to its `robots` array in `public/companies/<COMPANY_ID>.json`.
+   - If the company does not exist, create a new company entry JSON in `public/companies/<COMPANY_ID>.json` including `id`, `name`, `country`, `urls`, and the initialized `robots` array containing the new robot's `id`.
+   - Run `python3 scripts/build_companies.py` to compile `public/companies.json`.
 
 // turbo
 3. **Fetch FDA Regulatory Data:**

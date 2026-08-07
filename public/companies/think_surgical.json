@@ -1,0 +1,25 @@
+{
+  "id": "think_surgical",
+  "name": "Think Surgical",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Think Surgical",
+      "url": "https://thinksurgical.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/4453075",
+  "robots": [
+    "think_surgical_t_mini"
+  ],
+  "description": "Think Surgical is based in Freemont, California, USA.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Think Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Think+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Think%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

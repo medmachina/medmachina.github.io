@@ -395,6 +395,10 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(enriched_companies, f, indent=2, ensure_ascii=False)
 
+    if output_file == COMPANIES_FILE:
+        import subprocess
+        subprocess.run([sys.executable, str(REPO_ROOT / 'scripts' / 'build_companies.py'), '--split'], check=True)
+
     logger.info(f"\n✓ Updated companies written to: {output_file}")
     logger.info(f"Total companies: {len(enriched_companies)}")
     logger.info("✓ Enriched dataset passed schema validation")

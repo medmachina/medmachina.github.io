@@ -1,0 +1,25 @@
+{
+  "id": "surgical_science",
+  "name": "Surgical Science",
+  "country": "Sweden",
+  "urls": [
+    {
+      "caption": "Surgical Science",
+      "url": "https://surgicalscience.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
+  "opencorporates_url": "https://opencorporates.com/companies/se/556544-8783",
+  "robots": [
+    "surgical_science_robotix_mentor"
+  ],
+  "description": "Surgical Science is based in Göteborg, Sweden.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Surgical Science"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Surgical+Science",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Surgical%20Science%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

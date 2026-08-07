@@ -1,0 +1,25 @@
+{
+  "id": "acusurgical",
+  "name": "AcuSurgical",
+  "country": "France",
+  "urls": [
+    {
+      "caption": "AcuSurgical ",
+      "url": "https://acusurgical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/fr/887721975",
+  "robots": [
+    "acusurgical_luca"
+  ],
+  "description": "AcuSurgical is based in Montpellier, France.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "AcuSurgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=AcuSurgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22AcuSurgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

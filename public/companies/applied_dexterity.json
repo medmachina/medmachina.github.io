@@ -1,0 +1,25 @@
+{
+  "id": "applied_dexterity",
+  "name": "Applied Dexterity",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Applied Dexterity",
+      "url": "https://applieddexterity.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
+  "opencorporates_url": "https://opencorporates.com/companies/us_wa/603258988",
+  "robots": [
+    "raven_II"
+  ],
+  "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "Applied Dexterity"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Applied+Dexterity",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Applied%20Dexterity%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

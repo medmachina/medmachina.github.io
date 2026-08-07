@@ -1,0 +1,27 @@
+{
+  "id": "asensus_surgical",
+  "name": "Asensus Surgical",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Asensus",
+      "url": "https://www.asensus.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_ca/4851984",
+  "robots": [
+    "asensus_senhance",
+    "asensus_luna"
+  ],
+  "description": "Asensus Surgical is based in Durham, North Carolina, USA.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Asensus Surgical",
+      "TransEnterix"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Asensus+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Asensus%20Surgical%22%20OR%20applicant%3A%22TransEnterix%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

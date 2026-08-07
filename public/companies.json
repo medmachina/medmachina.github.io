@@ -1,5 +1,493 @@
 [
   {
+    "id": "acusurgical",
+    "name": "AcuSurgical",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "AcuSurgical ",
+        "url": "https://acusurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/887721975",
+    "robots": [
+      "acusurgical_luca"
+    ],
+    "description": "AcuSurgical is based in Montpellier, France.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "AcuSurgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=AcuSurgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22AcuSurgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "applied_dexterity",
+    "name": "Applied Dexterity",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Applied Dexterity",
+        "url": "https://applieddexterity.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
+    "opencorporates_url": "https://opencorporates.com/companies/us_wa/603258988",
+    "robots": [
+      "raven_II"
+    ],
+    "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "Applied Dexterity"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Applied+Dexterity",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Applied%20Dexterity%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "asensus_surgical",
+    "name": "Asensus Surgical",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Asensus",
+        "url": "https://www.asensus.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_ca/4851984",
+    "robots": [
+      "asensus_senhance",
+      "asensus_luna"
+    ],
+    "description": "Asensus Surgical is based in Durham, North Carolina, USA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Asensus Surgical",
+        "TransEnterix"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Asensus+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Asensus%20Surgical%22%20OR%20applicant%3A%22TransEnterix%22%29&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "avatera_medical",
+    "name": "Avatera Medical",
+    "country": "Germany",
+    "urls": [
+      {
+        "caption": "Avatera Medical",
+        "url": "https://avatera.eu/en/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/avateramedical-gmbh/",
+    "opencorporates_url": "https://opencorporates.com/companies/de/F1103R_HRB167380",
+    "robots": [
+      "avatera_avatera"
+    ],
+    "description": "Avatera Medical is based in Jena, Germany.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "Avatera Medical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Avatera+Medical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Avatera%20Medical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "biobot_surgical",
+    "name": "Biobot Surgical",
+    "country": "Singapore",
+    "urls": [
+      {
+        "caption": "Biobot Surgical",
+        "url": "https://biobotsurgical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/biobot-surgical-pte-ltd/",
+    "opencorporates_url": "https://opencorporates.com/companies/sg/200715783Z",
+    "robots": [
+      "biobot_mona_lisa"
+    ],
+    "description": "Biobot Surgical is based in Singapore. Seems to be under the MedBot umbrella.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Biobot Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Biobot+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Biobot%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "cmr_surgical",
+    "name": "CMR Surgical",
+    "country": "United Kingdom",
+    "urls": [
+      {
+        "caption": "CMR Surgical",
+        "url": "https://cmrsurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/gb/11168540",
+    "robots": [
+      "cmr_versius"
+    ],
+    "description": "CMR Surgical is based in Cambridge, UK.",
+    "employee_count": "500-1000",
+    "patents": {
+      "assignee_names": [
+        "CMR Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=CMR+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22CMR%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "computer_motion",
+    "name": "Computer Motion",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Archived Computer Motion site",
+        "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
+      },
+      {
+        "caption": "Wikipedia: Computer Motion",
+        "url": "https://en.wikipedia.org/wiki/Computer_Motion"
+      }
+    ],
+    "linkedin_url": "",
+    "opencorporates_url": "",
+    "robots": [
+      "computer_motion_zeus"
+    ],
+    "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "Computer Motion"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Computer+Motion",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Computer%20Motion%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "cornerstone_robotics",
+    "name": "Cornerstone Robotics",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Cornerstone Robotics",
+        "url": "https://www.csrbtx.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
+    "opencorporates_url": "https://opencorporates.com/companies/hk/2804101",
+    "robots": [
+      "cornerstone_sentire"
+    ],
+    "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019",
+    "employee_count": "50-100",
+    "patents": {
+      "assignee_names": [
+        "Cornerstone Robotics"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Cornerstone+Robotics",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Cornerstone%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "curexo",
+    "name": "Curexo",
+    "country": "South Korea",
+    "urls": [
+      {
+        "caption": "Curexo",
+        "url": "https://www.curexo.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/curexo/",
+    "opencorporates_url": "",
+    "robots": [
+      "curexo_cuvis_joint",
+      "curexo_cuvis_spine"
+    ],
+    "description": "Curexo is based in Seoul, South Korea.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Curexo"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Curexo",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Curexo%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "distalmotion",
+    "name": "Distalmotion",
+    "country": "Switzerland",
+    "urls": [
+      {
+        "caption": "Distalmotion",
+        "url": "https://www.distalmotion.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/distalmotion/",
+    "opencorporates_url": "https://opencorporates.com/companies/ch/1050847",
+    "robots": [
+      "distalmotion_dexter"
+    ],
+    "description": "Distalmotion is based in Lausanne, Switzerland.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Distalmotion"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Distalmotion",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Distalmotion%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "dvrk_consortium",
+    "name": "dVRK Consortium",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "dVRK Consortium home page",
+        "url": "https://dvrk.lcsr.jhu.edu/dvrk-consortium/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/in/lcsr-jhu-robotics-b54a44132/",
+    "opencorporates_url": "",
+    "robots": [
+      "dvrk_dvrk"
+    ],
+    "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "dVRK Consortium"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=dVRK+Consortium",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22dVRK%20Consortium%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "ecential_robotics",
+    "name": "eCential Robotics",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "eCential Robotics",
+        "url": "https://www.ecential-robotics.com/en-us"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/ecential-robotics/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/518910419",
+    "robots": [
+      "ecential_robotics_platform"
+    ],
+    "description": "eCential Robotics is based in Grenoble, France.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "eCential Robotics"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=eCential+Robotics",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22eCential%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "edge_medical",
+    "name": "Edge Medical",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Edge Medical Robotics",
+        "url": "https://en.edgemed.cn"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/shenzhen-edge-medical/",
+    "opencorporates_url": "",
+    "robots": [
+      "edge_multi_port",
+      "edge_single_port"
+    ],
+    "description": "Edge Medical is based in Shenzhen, China.",
+    "employee_count": "500-1000",
+    "patents": {
+      "assignee_names": [
+        "Edge Medical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Edge+Medical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Edge%20Medical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "forcedimension",
+    "name": "ForceDimension",
+    "country": "Switzerland",
+    "urls": [
+      {
+        "caption": "Force Dimension",
+        "url": "https://www.forcedimension.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
+    "opencorporates_url": "https://opencorporates.com/companies/ch/653136",
+    "robots": [
+      "force_dimension_sigma",
+      "force_dimension_lambda"
+    ],
+    "description": "ForceDimension is a Swiss company specializing in haptic devices.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "ForceDimension"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=ForceDimension",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22ForceDimension%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "haply_robotics",
+    "name": "Haply Robotics",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "Haply Robotics",
+        "url": "https://www.haply.co/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/haplyrobotics",
+    "opencorporates_url": "https://opencorporates.com/companies/ca/10656151",
+    "robots": [
+      "haply_inverse3"
+    ],
+    "description": "Haply is based in Montreal, Canada.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Haply Robotics"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Haply+Robotics",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Haply%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "haption",
+    "name": "Haption",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "Haption",
+        "url": "https://www.haption.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/haption/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/439218801",
+    "robots": [
+      "haption_virtuoso"
+    ],
+    "description": "Haption is a French company specializing in haptic devices.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Haption"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Haption",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Haption%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "horizon_surgical_systems",
+    "name": "Horizon Surgical Systems",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Horizon Surgical Systems",
+        "url": "https://horizonsurgicalsystems.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/horizon-surgical-systems/",
+    "opencorporates_url": "",
+    "robots": [
+      "horizon_polaris"
+    ],
+    "description": "Horizon Surgical Systems is a California-based medical robotics company and UCLA spin-off (Jules Stein Eye Institute and Henry Samueli School of Engineering). It develops the Polaris ophthalmic surgical robotics platform, designed to bring AI-driven precision to cataract surgery.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Horizon Surgical Systems"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Horizon+Surgical+Systems",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Horizon%20Surgical%20Systems%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "integrated_surgical_systems",
+    "name": "Integrated Surgical Systems",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Think Surgical (lineage successor)",
+        "url": "https://thinksurgical.com/"
+      },
+      {
+        "caption": "UC Davis health (research origins context)",
+        "url": "https://health.ucdavis.edu/"
+      }
+    ],
+    "linkedin_url": "",
+    "robots": [
+      "iss_robodoc"
+    ],
+    "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "Integrated Surgical Systems"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Integrated+Surgical+Systems",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Integrated%20Surgical%20Systems%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "interventional_systems",
+    "name": "Interventional Systems",
+    "country": "Austria",
+    "urls": [
+      {
+        "caption": "Interventional Systems",
+        "url": "https://www.interventional-systems.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/interventional-systems/",
+    "opencorporates_url": "",
+    "robots": [
+      "ins_micromate"
+    ],
+    "description": "Interventional Systems (iSYS Medizintechnik GmbH) is based in Kitzbühel, Austria, with offices in Germany and Portugal. Specializes in robotic guidance systems for percutaneous interventional procedures.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Interventional Systems"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Interventional+Systems",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Interventional%20Systems%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "intuitive",
     "name": "Intuitive",
     "country": "United States",
     "urls": [
@@ -21,181 +509,18 @@
       "intuitive_ion"
     ],
     "description": "Intuitive is based in Sunnyvale, California, USA",
-    "employee_count": "1000+"
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Intuitive Surgical Operations",
+        "Intuitive Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Intuitive+Surgical+Operations",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Intuitive%20Surgical%20Operations%22%20OR%20applicant%3A%22Intuitive%20Surgical%22%29&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "Medtronic",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Medtronic",
-        "url": "https://www.medtronic.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/medtronic/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_mn/dee866a5-b1d4-e011-a886-001ec94ffe7f",
-    "robots": [
-      "medtronic_hugo_ras",
-      "medtronic_mazor"
-    ],
-    "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
-    "employee_count": "1000+"
-  },
-  {
-    "name": "Medicaroid",
-    "country": "Japan",
-    "urls": [
-      {
-        "caption": "Medicaroid",
-        "url": "https://www.medicaroid.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/medicaroid/",
-    "opencorporates_url": "",
-    "robots": [
-      "medicaroid_hinotori"
-    ],
-    "description": "Medicaroid is a Japanese company based in Kobe, Japan.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "CMR Surgical",
-    "country": "United Kingdom",
-    "urls": [
-      {
-        "caption": "CMR Surgical",
-        "url": "https://cmrsurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/gb/11168540",
-    "robots": [
-      "cmr_versius"
-    ],
-    "description": "CMR Surgical is based in Cambridge, UK.",
-    "employee_count": "500-1000"
-  },
-  {
-    "name": "SSII",
-    "country": "India",
-    "urls": [
-      {
-        "caption": "SSInnovations",
-        "url": "https://ssinnovations.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_fl/P15000011722",
-    "robots": [
-      "ssii_mantra"
-    ],
-    "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Cornerstone Robotics",
-    "country": "China",
-    "urls": [
-      {
-        "caption": "Cornerstone Robotics",
-        "url": "https://www.csrbtx.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
-    "opencorporates_url": "https://opencorporates.com/companies/hk/2804101",
-    "robots": [
-      "cornerstone_sentire"
-    ],
-    "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019",
-    "employee_count": "50-100"
-  },
-  {
-    "name": "Moon Surgical",
-    "country": "France / United States",
-    "urls": [
-      {
-        "caption": "Moon Surgical",
-        "url": "https://moonsurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/moon-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/fr/851436188",
-    "robots": [
-      "moon_maestro"
-    ],
-    "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, USA.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Revolve Surgical",
-    "country": "Canada",
-    "urls": [
-      {
-        "caption": "Revolve Surgical",
-        "url": "https://www.revolvesurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/revolve-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/ca/11465724",
-    "robots": [
-      "revolve_R1"
-    ],
-    "description": "Revolve Surgical is based in Toronto, Ontario, Canada.",
-    "employee_count": "0-10"
-  },
-  {
-    "name": "Vicarious Surgical Inc",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Vicarious Surgical",
-        "url": "https://www.vicarioussurgical.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_de/5526111",
-    "robots": [
-      "vicarious_v1.0"
-    ],
-    "description": "Vicarious Surgical Inc. is based in Waltham, Massachusetts, USA.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Asensus Surgical",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Asensus",
-        "url": "https://www.asensus.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/asensus-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_ca/4851984",
-    "robots": [
-      "asensus_senhance",
-      "asensus_luna"
-    ],
-    "description": "Asensus Surgical is based in Durham, North Carolina, USA.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Titan Medical",
-    "country": "Canada",
-    "urls": [
-      {
-        "caption": "Titan Medical",
-        "url": "https://titanmedicalinc.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/titan-medical-inc/",
-    "opencorporates_url": "",
-    "robots": [
-      "titan_enos"
-    ],
-    "description": "Titan Medical is based in Toronto, Ontario, CA.",
-    "employee_count": "100-500"
-  },
-  {
+    "id": "johnson_johnson_medtech",
     "name": "Johnson & Johnson MedTech",
     "country": "United States",
     "urls": [
@@ -216,549 +541,69 @@
       "j&j_velys"
     ],
     "description": "Johnson & Johnson MedTech is a US-based company.",
-    "employee_count": "1000+"
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Johnson & Johnson MedTech"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Johnson+%26+Johnson+MedTech",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Johnson%20%26%20Johnson%20MedTech%22&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "Virtuoso Surgical",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Virtuoso Surgical",
-        "url": "https://virtuososurgical.net/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_de/6692085",
-    "robots": [
-      "virtuoso_virtuoso"
-    ],
-    "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "Rob Surgical",
-    "country": "Spain",
-    "urls": [
-      {
-        "caption": "Rob Surgical",
-        "url": "https://www.robsurgical.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/rob-surgical/",
-    "opencorporates_url": "",
-    "robots": [
-      "rob_surgical_bitrack"
-    ],
-    "description": "Rob Surgical is based in Barcelona, Spain.",
-    "employee_count": "50-100"
-  },
-  {
-    "name": "Robeauté",
-    "country": "France",
-    "urls": [
-      {
-        "caption": "Robeauté",
-        "url": "https://www.robeaute.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/robeauté/",
-    "opencorporates_url": "https://opencorporates.com/companies/fr/829012236",
-    "robots": [],
-    "description": "Robeauté is based in Paris, France.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "Revo Surgical",
-    "country": "South Korea",
-    "urls": [
-      {
-        "caption": "Revo Surgical",
-        "url": "http://revosurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
-    "opencorporates_url": "",
-    "robots": [
-      "revo_revo_i"
-    ],
-    "description": "Revo Surgical is based in Seoul, South Korea.",
-    "employee_count": null
-  },
-  {
-    "name": "Surgical Science",
-    "country": "Sweden",
-    "urls": [
-      {
-        "caption": "Surgical Science",
-        "url": "https://surgicalscience.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
-    "opencorporates_url": "https://opencorporates.com/companies/se/556544-8783",
-    "robots": [
-      "surgical_science_robotix_mentor"
-    ],
-    "description": "Surgical Science is based in Göteborg, Sweden.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "ForceDimension",
-    "country": "Switzerland",
-    "urls": [
-      {
-        "caption": "Force Dimension",
-        "url": "https://www.forcedimension.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/force-dimension/",
-    "opencorporates_url": "https://opencorporates.com/companies/ch/653136",
-    "robots": [
-      "force_dimension_sigma",
-      "force_dimension_lambda"
-    ],
-    "description": "ForceDimension is a Swiss company specializing in haptic devices.",
-    "employee_count": null
-  },
-  {
-    "name": "Haption",
-    "country": "France",
-    "urls": [
-      {
-        "caption": "Haption",
-        "url": "https://www.haption.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/haption/",
-    "opencorporates_url": "https://opencorporates.com/companies/fr/439218801",
-    "robots": [
-      "haption_virtuoso"
-    ],
-    "description": "Haption is a French company specializing in haptic devices.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "Quanser",
+    "id": "kinova_robotics",
+    "name": "Kinova Robotics",
     "country": "Canada",
     "urls": [
       {
-        "caption": "Quanser",
-        "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+        "caption": "Kinova Medical Robotics",
+        "url": "https://www.kinovarobotics.com/medical/"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/company/quanser/",
-    "opencorporates_url": "https://opencorporates.com/companies/fr/439218801",
-    "robots": [
-      "quanser_hd2"
-    ],
-    "description": "Quanser is a Canadian company based in Markham, providing robot systems and parts, including the HD2 haptic device.",
-    "employee_count": "50-100"
-  },
-  {
-    "name": "Noah Medical",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Noah Medical",
-        "url": "https://www.noahmed.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_de/7019586",
-    "robots": [
-      "noah_galaxy"
-    ],
-    "description": "Noah Medical is based in San Carlos, California, USA.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Stryker",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Stryker",
-        "url": "https://www.stryker.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/stryker/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_mi/800151233",
-    "robots": [
-      "stryker_mako"
-    ],
-    "description": "Stryker is based in Kalamazoo, Michigan, USA.",
-    "employee_count": "1000+"
-  },
-  {
-    "name": "Think Surgical",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Think Surgical",
-        "url": "https://thinksurgical.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_de/4453075",
-    "robots": [
-      "think_surgical_t_mini"
-    ],
-    "description": "Think Surgical is based in Freemont, California, USA.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Curexo",
-    "country": "South Korea",
-    "urls": [
-      {
-        "caption": "Curexo",
-        "url": "https://www.curexo.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/curexo/",
+    "linkedin_url": "https://www.linkedin.com/company/kinova/",
     "opencorporates_url": "",
     "robots": [
-      "curexo_cuvis_joint",
-      "curexo_cuvis_spine"
+      "kinova_kima"
     ],
-    "description": "Curexo is based in Seoul, South Korea.",
-    "employee_count": "100-500"
+    "description": "Kinova is a Canadian robotics company based in Boisbriand, Quebec, and an ISO 13485-certified medical device manufacturer. Its KIMA arm is a purpose-built medical-grade robotic arm for OEM integration into surgical and clinical systems.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Kinova Robotics"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Kinova+Robotics",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Kinova%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "eCential Robotics",
-    "country": "France",
-    "urls": [
-      {
-        "caption": "eCential Robotics",
-        "url": "https://www.ecential-robotics.com/en-us"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/ecential-robotics/",
-    "opencorporates_url": "https://opencorporates.com/companies/fr/518910419",
-    "robots": [
-      "ecential_robotics_platform"
-    ],
-    "description": "eCential Robotics is based in Grenoble, France.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "AcuSurgical",
-    "country": "France",
-    "urls": [
-      {
-        "caption": "AcuSurgical ",
-        "url": "https://acusurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/acusurgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/fr/887721975",
-    "robots": [
-      "acusurgical_luca"
-    ],
-    "description": "AcuSurgical is based in Montpellier, France.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "MMI",
-    "country": "Italy",
-    "urls": [
-      {
-        "caption": "Medical Microinstruments",
-        "url": "https://www.mmimicro.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
-    "opencorporates_url": "",
-    "robots": [
-      "mmi_symani"
-    ],
-    "description": "MMI (Medical Microinstruments) is based in Calci, Italy.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Applied Dexterity",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Applied Dexterity",
-        "url": "https://applieddexterity.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
-    "opencorporates_url": "https://opencorporates.com/companies/us_wa/603258988",
-    "robots": [
-      "raven_II"
-    ],
-    "description": "RavenII is a research robotic system developed in the United States, compatible with da Vinci instruments.",
-    "employee_count": null
-  },
-  {
-    "name": "Avatera Medical",
+    "id": "kuka",
+    "name": "KUKA",
     "country": "Germany",
     "urls": [
       {
-        "caption": "Avatera Medical",
-        "url": "https://avatera.eu/en/"
+        "caption": "KUKA Medical Robotics",
+        "url": "https://www.kuka.com/medical-robotics"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/company/avateramedical-gmbh/",
-    "opencorporates_url": "https://opencorporates.com/companies/de/F1103R_HRB167380",
-    "robots": [
-      "avatera_avatera"
-    ],
-    "description": "Avatera Medical is based in Jena, Germany.",
-    "employee_count": null
-  },
-  {
-    "name": "Haply Robotics",
-    "country": "France",
-    "urls": [
-      {
-        "caption": "Haply Robotics",
-        "url": "https://www.haply.co/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/haplyrobotics",
-    "opencorporates_url": "https://opencorporates.com/companies/ca/10656151",
-    "robots": [
-      "haply_inverse3"
-    ],
-    "description": "Haply is based in Montreal, Canada.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "Biobot Surgical",
-    "country": "Singapore",
-    "urls": [
-      {
-        "caption": "Biobot Surgical",
-        "url": "https://biobotsurgical.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/biobot-surgical-pte-ltd/",
-    "opencorporates_url": "https://opencorporates.com/companies/sg/200715783Z",
-    "robots": [
-      "biobot_mona_lisa"
-    ],
-    "description": "Biobot Surgical is based in Singapore. Seems to be under the MedBot umbrella.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "MicroPort MedBot",
-    "country": "China",
-    "urls": [
-      {
-        "caption": "MicroPort MedBot",
-        "url": "https://www.medbotsurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/microport-medbot/",
+    "linkedin_url": "https://www.linkedin.com/company/kukaglobal/",
     "opencorporates_url": "",
     "robots": [
-      "medbot_toumai",
-      "medbot_skywalker"
+      "kuka_lbr_med",
+      "kuka_kr_quantec_hc"
     ],
-    "description": "MedBot is based in Shanghai, China.",
-    "employee_count": "100-500"
+    "description": "KUKA AG is a global automation company headquartered in Augsburg, Germany. Its LBR Med series offers medical-certified collaborative robot arms for OEM integration into medical devices and systems.",
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "KUKA",
+        "KUKA Roboter"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=KUKA",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22KUKA%22%20OR%20applicant%3A%22KUKA%20Roboter%22%29&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "Ronovo Surgical",
-    "country": "China",
-    "urls": [
-      {
-        "caption": "Ronovo Surgical",
-        "url": "https://www.ronovosurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/ronovo-surgical/",
-    "opencorporates_url": "https://opencorporates.com/companies/hk/2878302",
-    "robots": [
-      "ronovo_carina"
-    ],
-    "description": "Ronovo Surgical is based in Hangzhou, China.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Edge Medical",
-    "country": "China",
-    "urls": [
-      {
-        "caption": "Edge Medical Robotics",
-        "url": "https://en.edgemed.cn"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/shenzhen-edge-medical/",
-    "opencorporates_url": "",
-    "robots": [
-      "edge_multi_port",
-      "edge_single_port"
-    ],
-    "description": "Edge Medical is based in Shenzhen, China.",
-    "employee_count": "500-1000"
-  },
-  {
-    "name": "Neocis",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Neocis",
-        "url": "https://www.neocis.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/neocis/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_de/5215368",
-    "robots": [
-      "neocis_yomi"
-    ],
-    "description": "Neocis is based in Miami, Florida, USA.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "Distalmotion",
-    "country": "Switzerland",
-    "urls": [
-      {
-        "caption": "Distalmotion",
-        "url": "https://www.distalmotion.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/distalmotion/",
-    "opencorporates_url": "https://opencorporates.com/companies/ch/1050847",
-    "robots": [
-      "distalmotion_dexter"
-    ],
-    "description": "Distalmotion is based in Lausanne, Switzerland.",
-    "employee_count": "100-500"
-  },
-  {
-    "name": "dVRK Consortium",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "dVRK Consortium home page",
-        "url": "https://dvrk.lcsr.jhu.edu/dvrk-consortium/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/in/lcsr-jhu-robotics-b54a44132/",
-    "opencorporates_url": "",
-    "robots": [
-      "dvrk_dvrk"
-    ],
-    "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware.",
-    "employee_count": null
-  },
-  {
-    "name": "Computer Motion",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Archived Computer Motion site",
-        "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
-      },
-      {
-        "caption": "Wikipedia: Computer Motion",
-        "url": "https://en.wikipedia.org/wiki/Computer_Motion"
-      }
-    ],
-    "linkedin_url": "",
-    "opencorporates_url": "",
-    "robots": [
-      "computer_motion_zeus"
-    ],
-    "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems.",
-    "employee_count": null
-  },
-  {
-    "name": "Integrated Surgical Systems",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Think Surgical (lineage successor)",
-        "url": "https://thinksurgical.com/"
-      },
-      {
-        "caption": "UC Davis health (research origins context)",
-        "url": "https://health.ucdavis.edu/"
-      }
-    ],
-    "linkedin_url": "",
-    "robots": [
-      "iss_robodoc"
-    ],
-    "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement.",
-    "employee_count": null
-  },
-  {
-    "name": "Momentis Surgical",
-    "country": "Israel",
-    "urls": [
-      {
-        "caption": "Momentis Surgical",
-        "url": "https://www.momentissurgical.com"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/momentis-surgical",
-    "opencorporates_url": "https://opencorporates.com/companies/il/514809664",
-    "robots": [
-      "momentis_anovo"
-    ],
-    "description": "Momentis Surgical is based in Tel Aviv, Israel.",
-    "employee_count": "50-100"
-  },
-  {
-    "name": "Zimmer Biomet",
-    "country": "United States",
-    "urls": [
-      {
-        "caption": "Zimmer Biomet",
-        "url": "https://www.zimmerbiomet.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/zimmerbiomet/",
-    "opencorporates_url": "https://opencorporates.com/companies/us_de/776101",
-    "robots": [
-      "zimmer_rosa"
-    ],
-    "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
-    "employee_count": "1000+"
-  },
-  {
-    "name": "Surgerii",
-    "country": "China",
-    "urls": [
-      {
-        "caption": "Surgerii",
-        "url": "https://www.surgerii.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/surgerii-robotics/",
-    "opencorporates_url": "",
-    "robots": [
-      "surgerii_shurui"
-    ],
-    "description": "Surgerii is based in Beijing, China",
-    "employee_count": "500-1000"
-  },
-  {
-    "name": "Renishaw",
-    "country": "United Kingdom",
-    "urls": [
-      {
-        "caption": "Renishaw",
-        "url": "https://www.renishaw.com/"
-      },
-      {
-        "caption": "Renishaw Neuromate",
-        "url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/renishaw/",
-    "opencorporates_url": "",
-    "robots": [
-      "renishaw_neuromate"
-    ],
-    "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom.",
-    "employee_count": "1000+"
-  },
-  {
+    "id": "lem_surgical",
     "name": "LEM Surgical",
     "country": "Switzerland",
     "urls": [
@@ -773,61 +618,17 @@
       "lem_dynamis"
     ],
     "description": "LEM Surgical is based in Bern, Switzerland, with U.S. commercial operations in Tampa, Florida. Develops robotic surgical systems for hard tissue surgery.",
-    "employee_count": "50-100"
+    "employee_count": "50-100",
+    "patents": {
+      "assignee_names": [
+        "LEM Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=LEM+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22LEM%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "Sagebot",
-    "country": "China",
-    "urls": [
-      {
-        "caption": "Sagebot",
-        "url": "http://sagebot-medical.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/sagebot",
-    "opencorporates_url": "",
-    "robots": [
-      "sagebot_kangduo"
-    ],
-    "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China.",
-    "employee_count": null
-  },
-  {
-    "name": "LN Robotics",
-    "country": "South Korea",
-    "urls": [
-      {
-        "caption": "LN Robotics",
-        "url": "https://www.lnrobo.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/ln-robotics/",
-    "opencorporates_url": "",
-    "robots": [
-      "ln_robotics_aviar"
-    ],
-    "description": "LN Robotics is based in South Korea.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "Microsure",
-    "country": "Netherlands",
-    "urls": [
-      {
-        "caption": "Microsure",
-        "url": "https://www.microsure.nl"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/microsure-b.v./",
-    "opencorporates_url": "",
-    "robots": [
-      "microsure_musa_3"
-    ],
-    "description": "Microsure B.V. is a medical robotics company based in Eindhoven, Netherlands. Spin-off from Eindhoven University of Technology (TU/e) and Maastricht University Medical Center+ (MUMC+). Specializes in robotic systems for micro- and super-microsurgery.",
-    "founded_year": "2016",
-    "employee_count": "50-100"
-  },
-  {
+    "id": "livsmed",
     "name": "LIVSMED",
     "country": "South Korea",
     "urls": [
@@ -847,44 +648,499 @@
     ],
     "description": "LIVSMED Inc. is a global medical device company based in Seongnam, South Korea. Specializes in multi-joint handheld laparoscopic surgical instruments (ArtiSential line) and surgical robotics. IPO on KOSDAQ December 2025.",
     "founded_year": "2011",
-    "employee_count": "100-500"
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "LIVSMED"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=LIVSMED",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22LIVSMED%22&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "KUKA",
-    "country": "Germany",
+    "id": "ln_robotics",
+    "name": "LN Robotics",
+    "country": "South Korea",
     "urls": [
       {
-        "caption": "KUKA Medical Robotics",
-        "url": "https://www.kuka.com/medical-robotics"
+        "caption": "LN Robotics",
+        "url": "https://www.lnrobo.com/"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/company/kukaglobal/",
+    "linkedin_url": "https://www.linkedin.com/company/ln-robotics/",
     "opencorporates_url": "",
     "robots": [
-      "kuka_lbr_med",
-      "kuka_kr_quantec_hc"
+      "ln_robotics_aviar"
     ],
-    "description": "KUKA AG is a global automation company headquartered in Augsburg, Germany. Its LBR Med series offers medical-certified collaborative robot arms for OEM integration into medical devices and systems.",
-    "employee_count": "1000+"
+    "description": "LN Robotics is based in South Korea.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "LN Robotics"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=LN+Robotics",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22LN%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "Kinova Robotics",
+    "id": "medicaroid",
+    "name": "Medicaroid",
+    "country": "Japan",
+    "urls": [
+      {
+        "caption": "Medicaroid",
+        "url": "https://www.medicaroid.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/medicaroid/",
+    "opencorporates_url": "",
+    "robots": [
+      "medicaroid_hinotori"
+    ],
+    "description": "Medicaroid is a Japanese company based in Kobe, Japan.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Medicaroid"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Medicaroid",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Medicaroid%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "medtronic",
+    "name": "Medtronic",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Medtronic",
+        "url": "https://www.medtronic.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/medtronic/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_mn/dee866a5-b1d4-e011-a886-001ec94ffe7f",
+    "robots": [
+      "medtronic_hugo_ras",
+      "medtronic_mazor"
+    ],
+    "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Medtronic",
+        "Mazor Robotics"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Medtronic",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Medtronic%22%20OR%20applicant%3A%22Mazor%20Robotics%22%29&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "microport_medbot",
+    "name": "MicroPort MedBot",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "MicroPort MedBot",
+        "url": "https://www.medbotsurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/microport-medbot/",
+    "opencorporates_url": "",
+    "robots": [
+      "medbot_toumai",
+      "medbot_skywalker"
+    ],
+    "description": "MedBot is based in Shanghai, China.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "MicroPort MedBot"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=MicroPort+MedBot",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22MicroPort%20MedBot%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "microsure",
+    "name": "Microsure",
+    "country": "Netherlands",
+    "urls": [
+      {
+        "caption": "Microsure",
+        "url": "https://www.microsure.nl"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/microsure-b.v./",
+    "opencorporates_url": "",
+    "robots": [
+      "microsure_musa_3"
+    ],
+    "description": "Microsure B.V. is a medical robotics company based in Eindhoven, Netherlands. Spin-off from Eindhoven University of Technology (TU/e) and Maastricht University Medical Center+ (MUMC+). Specializes in robotic systems for micro- and super-microsurgery.",
+    "founded_year": "2016",
+    "employee_count": "50-100",
+    "patents": {
+      "assignee_names": [
+        "Microsure"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Microsure",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Microsure%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "mmi",
+    "name": "MMI",
+    "country": "Italy",
+    "urls": [
+      {
+        "caption": "Medical Microinstruments",
+        "url": "https://www.mmimicro.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
+    "opencorporates_url": "",
+    "robots": [
+      "mmi_symani"
+    ],
+    "description": "MMI (Medical Microinstruments) is based in Calci, Italy.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Medical Microinstruments",
+        "MMI"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Medical+Microinstruments",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Medical%20Microinstruments%22%20OR%20applicant%3A%22MMI%22%29&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "momentis_surgical",
+    "name": "Momentis Surgical",
+    "country": "Israel",
+    "urls": [
+      {
+        "caption": "Momentis Surgical",
+        "url": "https://www.momentissurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/momentis-surgical",
+    "opencorporates_url": "https://opencorporates.com/companies/il/514809664",
+    "robots": [
+      "momentis_anovo"
+    ],
+    "description": "Momentis Surgical is based in Tel Aviv, Israel.",
+    "employee_count": "50-100",
+    "patents": {
+      "assignee_names": [
+        "Momentis Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Momentis+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Momentis%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "moon_surgical",
+    "name": "Moon Surgical",
+    "country": "France / United States",
+    "urls": [
+      {
+        "caption": "Moon Surgical",
+        "url": "https://moonsurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/moon-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/851436188",
+    "robots": [
+      "moon_maestro"
+    ],
+    "description": "Moon Surgical is a medical device company with bases in Paris, France, and San Carlos, California, USA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Moon Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Moon+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Moon%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "neocis",
+    "name": "Neocis",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Neocis",
+        "url": "https://www.neocis.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/neocis/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/5215368",
+    "robots": [
+      "neocis_yomi"
+    ],
+    "description": "Neocis is based in Miami, Florida, USA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Neocis"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Neocis",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Neocis%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "noah_medical",
+    "name": "Noah Medical",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Noah Medical",
+        "url": "https://www.noahmed.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/7019586",
+    "robots": [
+      "noah_galaxy"
+    ],
+    "description": "Noah Medical is based in San Carlos, California, USA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Noah Medical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Noah+Medical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Noah%20Medical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "quanser",
+    "name": "Quanser",
     "country": "Canada",
     "urls": [
       {
-        "caption": "Kinova Medical Robotics",
-        "url": "https://www.kinovarobotics.com/medical/"
+        "caption": "Quanser",
+        "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/company/kinova/",
-    "opencorporates_url": "",
+    "linkedin_url": "https://www.linkedin.com/company/quanser/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/439218801",
     "robots": [
-      "kinova_kima"
+      "quanser_hd2"
     ],
-    "description": "Kinova is a Canadian robotics company based in Boisbriand, Quebec, and an ISO 13485-certified medical device manufacturer. Its KIMA arm is a purpose-built medical-grade robotic arm for OEM integration into surgical and clinical systems.",
-    "employee_count": "100-500"
+    "description": "Quanser is a Canadian company based in Markham, providing robot systems and parts, including the HD2 haptic device.",
+    "employee_count": "50-100",
+    "patents": {
+      "assignee_names": [
+        "Quanser"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Quanser",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Quanser%22&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
+    "id": "renishaw",
+    "name": "Renishaw",
+    "country": "United Kingdom",
+    "urls": [
+      {
+        "caption": "Renishaw",
+        "url": "https://www.renishaw.com/"
+      },
+      {
+        "caption": "Renishaw Neuromate",
+        "url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/renishaw/",
+    "opencorporates_url": "",
+    "robots": [
+      "renishaw_neuromate"
+    ],
+    "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom.",
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Renishaw"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Renishaw",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Renishaw%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "revo_surgical",
+    "name": "Revo Surgical",
+    "country": "South Korea",
+    "urls": [
+      {
+        "caption": "Revo Surgical",
+        "url": "http://revosurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
+    "opencorporates_url": "",
+    "robots": [
+      "revo_revo_i"
+    ],
+    "description": "Revo Surgical is based in Seoul, South Korea.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "Revo Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Revo+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Revo%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "revolve_surgical",
+    "name": "Revolve Surgical",
+    "country": "Canada",
+    "urls": [
+      {
+        "caption": "Revolve Surgical",
+        "url": "https://www.revolvesurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/revolve-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/ca/11465724",
+    "robots": [
+      "revolve_R1"
+    ],
+    "description": "Revolve Surgical is based in Toronto, Ontario, Canada.",
+    "employee_count": "0-10",
+    "patents": {
+      "assignee_names": [
+        "Revolve Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Revolve+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Revolve%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "rob_surgical",
+    "name": "Rob Surgical",
+    "country": "Spain",
+    "urls": [
+      {
+        "caption": "Rob Surgical",
+        "url": "https://www.robsurgical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/rob-surgical/",
+    "opencorporates_url": "",
+    "robots": [
+      "rob_surgical_bitrack"
+    ],
+    "description": "Rob Surgical is based in Barcelona, Spain.",
+    "employee_count": "50-100",
+    "patents": {
+      "assignee_names": [
+        "Rob Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Rob+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Rob%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "robeaute",
+    "name": "Robeauté",
+    "country": "France",
+    "urls": [
+      {
+        "caption": "Robeauté",
+        "url": "https://www.robeaute.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/robeauté/",
+    "opencorporates_url": "https://opencorporates.com/companies/fr/829012236",
+    "robots": [],
+    "description": "Robeauté is based in Paris, France.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Robeauté"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Robeaut%C3%A9",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Robeaut%C3%A9%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "ronovo_surgical",
+    "name": "Ronovo Surgical",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Ronovo Surgical",
+        "url": "https://www.ronovosurgical.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/ronovo-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/hk/2878302",
+    "robots": [
+      "ronovo_carina"
+    ],
+    "description": "Ronovo Surgical is based in Hangzhou, China.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Ronovo Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Ronovo+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Ronovo%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "sagebot",
+    "name": "Sagebot",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Sagebot",
+        "url": "http://sagebot-medical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/sagebot",
+    "opencorporates_url": "",
+    "robots": [
+      "sagebot_kangduo"
+    ],
+    "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China.",
+    "employee_count": null,
+    "patents": {
+      "assignee_names": [
+        "Sagebot"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Sagebot",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Sagebot%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "ssii",
+    "name": "SSII",
+    "country": "India",
+    "urls": [
+      {
+        "caption": "SSInnovations",
+        "url": "https://ssinnovations.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/ss-innovations-international/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_fl/P15000011722",
+    "robots": [
+      "ssii_mantra"
+    ],
+    "description": "SSII (SS Innovations International, Inc.) is based in Gurugram, India.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "SSII"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=SSII",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22SSII%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "staubli",
     "name": "Stäubli",
     "country": "Switzerland",
     "urls": [
@@ -899,40 +1155,216 @@
       "staubli_tx2_medx"
     ],
     "description": "Stäubli is a Swiss precision engineering and robotics company headquartered in Pfäffikon. Its TX2 MedX Ready series provides ISO 13485-compliant robot arms for OEM integration into medical and surgical systems.",
-    "employee_count": "1000+"
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Staubli",
+        "Stäubli"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Staubli",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Staubli%22%20OR%20applicant%3A%22St%C3%A4ubli%22%29&s=_score&d=%2B&p=0&n=50"
+    }
   },
   {
-    "name": "Interventional Systems",
-    "country": "Austria",
-    "urls": [
-      {
-        "caption": "Interventional Systems",
-        "url": "https://www.interventional-systems.com/"
-      }
-    ],
-    "linkedin_url": "https://www.linkedin.com/company/interventional-systems/",
-    "opencorporates_url": "",
-    "robots": [
-      "ins_micromate"
-    ],
-    "description": "Interventional Systems (iSYS Medizintechnik GmbH) is based in Kitzbühel, Austria, with offices in Germany and Portugal. Specializes in robotic guidance systems for percutaneous interventional procedures.",
-    "employee_count": "10-50"
-  },
-  {
-    "name": "Horizon Surgical Systems",
+    "id": "stryker",
+    "name": "Stryker",
     "country": "United States",
     "urls": [
       {
-        "caption": "Horizon Surgical Systems",
-        "url": "https://horizonsurgicalsystems.com/"
+        "caption": "Stryker",
+        "url": "https://www.stryker.com"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/company/horizon-surgical-systems/",
+    "linkedin_url": "https://www.linkedin.com/company/stryker/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_mi/800151233",
+    "robots": [
+      "stryker_mako"
+    ],
+    "description": "Stryker is based in Kalamazoo, Michigan, USA.",
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Stryker Corporation",
+        "Stryker"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Stryker+Corporation",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Stryker%20Corporation%22%20OR%20applicant%3A%22Stryker%22%29&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "surgerii",
+    "name": "Surgerii",
+    "country": "China",
+    "urls": [
+      {
+        "caption": "Surgerii",
+        "url": "https://www.surgerii.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/surgerii-robotics/",
     "opencorporates_url": "",
     "robots": [
-      "horizon_polaris"
+      "surgerii_shurui"
     ],
-    "description": "Horizon Surgical Systems is a California-based medical robotics company and UCLA spin-off (Jules Stein Eye Institute and Henry Samueli School of Engineering). It develops the Polaris ophthalmic surgical robotics platform, designed to bring AI-driven precision to cataract surgery.",
-    "employee_count": "10-50"
+    "description": "Surgerii is based in Beijing, China",
+    "employee_count": "500-1000",
+    "patents": {
+      "assignee_names": [
+        "Surgerii"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Surgerii",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Surgerii%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "surgical_science",
+    "name": "Surgical Science",
+    "country": "Sweden",
+    "urls": [
+      {
+        "caption": "Surgical Science",
+        "url": "https://surgicalscience.com"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
+    "opencorporates_url": "https://opencorporates.com/companies/se/556544-8783",
+    "robots": [
+      "surgical_science_robotix_mentor"
+    ],
+    "description": "Surgical Science is based in Göteborg, Sweden.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Surgical Science"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Surgical+Science",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Surgical%20Science%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "think_surgical",
+    "name": "Think Surgical",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Think Surgical",
+        "url": "https://thinksurgical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/think-surgical-inc/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/4453075",
+    "robots": [
+      "think_surgical_t_mini"
+    ],
+    "description": "Think Surgical is based in Freemont, California, USA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Think Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Think+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Think%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "titan_medical",
+    "name": "Titan Medical",
+    "country": "Canada",
+    "urls": [
+      {
+        "caption": "Titan Medical",
+        "url": "https://titanmedicalinc.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/titan-medical-inc/",
+    "opencorporates_url": "",
+    "robots": [
+      "titan_enos"
+    ],
+    "description": "Titan Medical is based in Toronto, Ontario, CA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Titan Medical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Titan+Medical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Titan%20Medical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "vicarious_surgical_inc",
+    "name": "Vicarious Surgical Inc",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Vicarious Surgical",
+        "url": "https://www.vicarioussurgical.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/5526111",
+    "robots": [
+      "vicarious_v1.0"
+    ],
+    "description": "Vicarious Surgical Inc. is based in Waltham, Massachusetts, USA.",
+    "employee_count": "100-500",
+    "patents": {
+      "assignee_names": [
+        "Vicarious Surgical Inc"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Vicarious+Surgical+Inc",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Vicarious%20Surgical%20Inc%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "virtuoso_surgical",
+    "name": "Virtuoso Surgical",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Virtuoso Surgical",
+        "url": "https://virtuososurgical.net/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/6692085",
+    "robots": [
+      "virtuoso_virtuoso"
+    ],
+    "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA.",
+    "employee_count": "10-50",
+    "patents": {
+      "assignee_names": [
+        "Virtuoso Surgical"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Virtuoso+Surgical",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Virtuoso%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+    }
+  },
+  {
+    "id": "zimmer_biomet",
+    "name": "Zimmer Biomet",
+    "country": "United States",
+    "urls": [
+      {
+        "caption": "Zimmer Biomet",
+        "url": "https://www.zimmerbiomet.com/"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/company/zimmerbiomet/",
+    "opencorporates_url": "https://opencorporates.com/companies/us_de/776101",
+    "robots": [
+      "zimmer_rosa"
+    ],
+    "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
+    "employee_count": "1000+",
+    "patents": {
+      "assignee_names": [
+        "Zimmer Biomet",
+        "Biomet"
+      ],
+      "google_patents_url": "https://patents.google.com/?assignee=Zimmer+Biomet",
+      "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Zimmer%20Biomet%22%20OR%20applicant%3A%22Biomet%22%29&s=_score&d=%2B&p=0&n=50"
+    }
   }
 ]

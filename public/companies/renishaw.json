@@ -1,0 +1,29 @@
+{
+  "id": "renishaw",
+  "name": "Renishaw",
+  "country": "United Kingdom",
+  "urls": [
+    {
+      "caption": "Renishaw",
+      "url": "https://www.renishaw.com/"
+    },
+    {
+      "caption": "Renishaw Neuromate",
+      "url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/renishaw/",
+  "opencorporates_url": "",
+  "robots": [
+    "renishaw_neuromate"
+  ],
+  "description": "Renishaw is based in Wotton-under-Edge, England, United Kingdom.",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Renishaw"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Renishaw",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Renishaw%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

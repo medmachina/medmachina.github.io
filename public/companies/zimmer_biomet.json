@@ -1,0 +1,26 @@
+{
+  "id": "zimmer_biomet",
+  "name": "Zimmer Biomet",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Zimmer Biomet",
+      "url": "https://www.zimmerbiomet.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/zimmerbiomet/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/776101",
+  "robots": [
+    "zimmer_rosa"
+  ],
+  "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Zimmer Biomet",
+      "Biomet"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Zimmer+Biomet",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Zimmer%20Biomet%22%20OR%20applicant%3A%22Biomet%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

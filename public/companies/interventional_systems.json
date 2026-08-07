@@ -1,0 +1,25 @@
+{
+  "id": "interventional_systems",
+  "name": "Interventional Systems",
+  "country": "Austria",
+  "urls": [
+    {
+      "caption": "Interventional Systems",
+      "url": "https://www.interventional-systems.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/interventional-systems/",
+  "opencorporates_url": "",
+  "robots": [
+    "ins_micromate"
+  ],
+  "description": "Interventional Systems (iSYS Medizintechnik GmbH) is based in Kitzbühel, Austria, with offices in Germany and Portugal. Specializes in robotic guidance systems for percutaneous interventional procedures.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "Interventional Systems"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Interventional+Systems",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Interventional%20Systems%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

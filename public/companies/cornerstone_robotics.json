@@ -1,0 +1,25 @@
+{
+  "id": "cornerstone_robotics",
+  "name": "Cornerstone Robotics",
+  "country": "China",
+  "urls": [
+    {
+      "caption": "Cornerstone Robotics",
+      "url": "https://www.csrbtx.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/cornerstonerobotics/",
+  "opencorporates_url": "https://opencorporates.com/companies/hk/2804101",
+  "robots": [
+    "cornerstone_sentire"
+  ],
+  "description": "Cornerstone Robotics is based in Hong Kong, China. Founded in 2019",
+  "employee_count": "50-100",
+  "patents": {
+    "assignee_names": [
+      "Cornerstone Robotics"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Cornerstone+Robotics",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Cornerstone%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

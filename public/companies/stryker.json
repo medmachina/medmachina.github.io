@@ -1,0 +1,26 @@
+{
+  "id": "stryker",
+  "name": "Stryker",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Stryker",
+      "url": "https://www.stryker.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/stryker/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_mi/800151233",
+  "robots": [
+    "stryker_mako"
+  ],
+  "description": "Stryker is based in Kalamazoo, Michigan, USA.",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Stryker Corporation",
+      "Stryker"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Stryker+Corporation",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Stryker%20Corporation%22%20OR%20applicant%3A%22Stryker%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

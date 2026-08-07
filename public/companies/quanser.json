@@ -1,0 +1,25 @@
+{
+  "id": "quanser",
+  "name": "Quanser",
+  "country": "Canada",
+  "urls": [
+    {
+      "caption": "Quanser",
+      "url": "https://www.quanser.com/products/hd2-high-definition-haptic-device"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/quanser/",
+  "opencorporates_url": "https://opencorporates.com/companies/fr/439218801",
+  "robots": [
+    "quanser_hd2"
+  ],
+  "description": "Quanser is a Canadian company based in Markham, providing robot systems and parts, including the HD2 haptic device.",
+  "employee_count": "50-100",
+  "patents": {
+    "assignee_names": [
+      "Quanser"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Quanser",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Quanser%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

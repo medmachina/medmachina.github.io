@@ -1,0 +1,26 @@
+{
+  "id": "mmi",
+  "name": "MMI",
+  "country": "Italy",
+  "urls": [
+    {
+      "caption": "Medical Microinstruments",
+      "url": "https://www.mmimicro.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/medical-microinstruments/",
+  "opencorporates_url": "",
+  "robots": [
+    "mmi_symani"
+  ],
+  "description": "MMI (Medical Microinstruments) is based in Calci, Italy.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Medical Microinstruments",
+      "MMI"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Medical+Microinstruments",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Medical%20Microinstruments%22%20OR%20applicant%3A%22MMI%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "edge_medical",
+  "name": "Edge Medical",
+  "country": "China",
+  "urls": [
+    {
+      "caption": "Edge Medical Robotics",
+      "url": "https://en.edgemed.cn"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/shenzhen-edge-medical/",
+  "opencorporates_url": "",
+  "robots": [
+    "edge_multi_port",
+    "edge_single_port"
+  ],
+  "description": "Edge Medical is based in Shenzhen, China.",
+  "employee_count": "500-1000",
+  "patents": {
+    "assignee_names": [
+      "Edge Medical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Edge+Medical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Edge%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

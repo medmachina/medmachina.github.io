@@ -1,0 +1,25 @@
+{
+  "id": "haply_robotics",
+  "name": "Haply Robotics",
+  "country": "France",
+  "urls": [
+    {
+      "caption": "Haply Robotics",
+      "url": "https://www.haply.co/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/haplyrobotics",
+  "opencorporates_url": "https://opencorporates.com/companies/ca/10656151",
+  "robots": [
+    "haply_inverse3"
+  ],
+  "description": "Haply is based in Montreal, Canada.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "Haply Robotics"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Haply+Robotics",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Haply%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

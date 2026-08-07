@@ -1,0 +1,25 @@
+{
+  "id": "revo_surgical",
+  "name": "Revo Surgical",
+  "country": "South Korea",
+  "urls": [
+    {
+      "caption": "Revo Surgical",
+      "url": "http://revosurgical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/revo-surgical/",
+  "opencorporates_url": "",
+  "robots": [
+    "revo_revo_i"
+  ],
+  "description": "Revo Surgical is based in Seoul, South Korea.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "Revo Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Revo+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Revo%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

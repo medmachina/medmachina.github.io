@@ -1,0 +1,25 @@
+{
+  "id": "momentis_surgical",
+  "name": "Momentis Surgical",
+  "country": "Israel",
+  "urls": [
+    {
+      "caption": "Momentis Surgical",
+      "url": "https://www.momentissurgical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/momentis-surgical",
+  "opencorporates_url": "https://opencorporates.com/companies/il/514809664",
+  "robots": [
+    "momentis_anovo"
+  ],
+  "description": "Momentis Surgical is based in Tel Aviv, Israel.",
+  "employee_count": "50-100",
+  "patents": {
+    "assignee_names": [
+      "Momentis Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Momentis+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Momentis%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

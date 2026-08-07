@@ -1,0 +1,25 @@
+{
+  "id": "surgerii",
+  "name": "Surgerii",
+  "country": "China",
+  "urls": [
+    {
+      "caption": "Surgerii",
+      "url": "https://www.surgerii.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/surgerii-robotics/",
+  "opencorporates_url": "",
+  "robots": [
+    "surgerii_shurui"
+  ],
+  "description": "Surgerii is based in Beijing, China",
+  "employee_count": "500-1000",
+  "patents": {
+    "assignee_names": [
+      "Surgerii"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Surgerii",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Surgerii%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

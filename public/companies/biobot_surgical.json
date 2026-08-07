@@ -1,0 +1,25 @@
+{
+  "id": "biobot_surgical",
+  "name": "Biobot Surgical",
+  "country": "Singapore",
+  "urls": [
+    {
+      "caption": "Biobot Surgical",
+      "url": "https://biobotsurgical.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/biobot-surgical-pte-ltd/",
+  "opencorporates_url": "https://opencorporates.com/companies/sg/200715783Z",
+  "robots": [
+    "biobot_mona_lisa"
+  ],
+  "description": "Biobot Surgical is based in Singapore. Seems to be under the MedBot umbrella.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "Biobot Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Biobot+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Biobot%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "medtronic",
+  "name": "Medtronic",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Medtronic",
+      "url": "https://www.medtronic.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/medtronic/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_mn/dee866a5-b1d4-e011-a886-001ec94ffe7f",
+  "robots": [
+    "medtronic_hugo_ras",
+    "medtronic_mazor"
+  ],
+  "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Medtronic",
+      "Mazor Robotics"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Medtronic",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Medtronic%22%20OR%20applicant%3A%22Mazor%20Robotics%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

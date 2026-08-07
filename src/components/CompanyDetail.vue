@@ -41,6 +41,24 @@
                 <span>OpenCorporates</span>
               </a>
             </li>
+            <!-- Patent search links -->
+            <li v-if="company.patents" class="mb-2">
+              <a :href="company.patents.google_patents_url" target="_blank" rel="noopener noreferrer" class="patent-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="patent-icon">
+                  <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1L14 5.5zM8.5 7.5a.5.5 0 0 0-1 0v3.793l-1.146-1.147a.5.5 0 0 0-.707.707l2 2a.5.5 0 0 0 .707 0l2-2a.5.5 0 0 0-.707-.707L8.5 11.293z"/>
+                </svg>
+                <span>Google Patents</span>
+              </a>
+              <a :href="company.patents.lens_url" target="_blank" rel="noopener noreferrer" class="patent-link ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="patent-icon">
+                  <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1L14 5.5zM5.5 8a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                </svg>
+                <span>Lens.org Patents</span>
+              </a>
+              <span v-if="company.patents.count" class="text-muted ms-2" style="font-size:0.85em;">
+                (~{{ company.patents.count.toLocaleString() }} patents)
+              </span>
+            </li>
           </ul>
 
           <!-- Edit on GitHub: fixed bottom-right via global style in main.css -->
@@ -80,7 +98,8 @@
 
   <!-- Edit on GitHub: fixed bottom-right -->
   <a
-    href="https://github.com/medmachina/medmachina.github.io/edit/main/public/companies.json"
+    v-if="company && companyId"
+    :href="`https://github.com/medmachina/medmachina.github.io/edit/main/public/companies/${companyId}.json`"
     target="_blank"
     rel="noopener noreferrer"
     class="btn btn-outline-secondary edit-github-fixed"
@@ -149,6 +168,12 @@ onMounted(async () => {
   } catch (error) {
     console.error('Error loading data:', error);
   }
+});
+
+const companyId = computed(() => {
+  if (!company.value) return '';
+  if (company.value.id) return company.value.id;
+  return company.value.name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
 });
 
 const companyRobots = computed(() => {

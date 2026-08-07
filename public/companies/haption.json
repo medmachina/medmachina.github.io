@@ -1,0 +1,25 @@
+{
+  "id": "haption",
+  "name": "Haption",
+  "country": "France",
+  "urls": [
+    {
+      "caption": "Haption",
+      "url": "https://www.haption.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/haption/",
+  "opencorporates_url": "https://opencorporates.com/companies/fr/439218801",
+  "robots": [
+    "haption_virtuoso"
+  ],
+  "description": "Haption is a French company specializing in haptic devices.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "Haption"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Haption",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Haption%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

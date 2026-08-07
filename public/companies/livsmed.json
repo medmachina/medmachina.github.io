@@ -1,0 +1,30 @@
+{
+  "id": "livsmed",
+  "name": "LIVSMED",
+  "country": "South Korea",
+  "urls": [
+    {
+      "caption": "LIVSMED",
+      "url": "https://www.livsmed.com"
+    },
+    {
+      "caption": "LIVSMED US",
+      "url": "https://www.livsmed.us"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/livsmed/",
+  "opencorporates_url": "",
+  "robots": [
+    "livsmed_stark"
+  ],
+  "description": "LIVSMED Inc. is a global medical device company based in Seongnam, South Korea. Specializes in multi-joint handheld laparoscopic surgical instruments (ArtiSential line) and surgical robotics. IPO on KOSDAQ December 2025.",
+  "founded_year": "2011",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "LIVSMED"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=LIVSMED",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22LIVSMED%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

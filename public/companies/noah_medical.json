@@ -1,0 +1,25 @@
+{
+  "id": "noah_medical",
+  "name": "Noah Medical",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Noah Medical",
+      "url": "https://www.noahmed.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/noah-medical/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/7019586",
+  "robots": [
+    "noah_galaxy"
+  ],
+  "description": "Noah Medical is based in San Carlos, California, USA.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Noah Medical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Noah+Medical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Noah%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

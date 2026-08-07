@@ -1,0 +1,29 @@
+{
+  "id": "computer_motion",
+  "name": "Computer Motion",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Archived Computer Motion site",
+      "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
+    },
+    {
+      "caption": "Wikipedia: Computer Motion",
+      "url": "https://en.wikipedia.org/wiki/Computer_Motion"
+    }
+  ],
+  "linkedin_url": "",
+  "opencorporates_url": "",
+  "robots": [
+    "computer_motion_zeus"
+  ],
+  "description": "Computer Motion was located in Santa Barbara, California. Merged with Intuitive Surgical in 2003; its technologies influenced subsequent RAMIS systems.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "Computer Motion"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Computer+Motion",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Computer%20Motion%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

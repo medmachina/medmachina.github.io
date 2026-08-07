@@ -1,0 +1,25 @@
+{
+  "id": "vicarious_surgical_inc",
+  "name": "Vicarious Surgical Inc",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Vicarious Surgical",
+      "url": "https://www.vicarioussurgical.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/vicarious-surgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/5526111",
+  "robots": [
+    "vicarious_v1.0"
+  ],
+  "description": "Vicarious Surgical Inc. is based in Waltham, Massachusetts, USA.",
+  "employee_count": "100-500",
+  "patents": {
+    "assignee_names": [
+      "Vicarious Surgical Inc"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Vicarious+Surgical+Inc",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Vicarious%20Surgical%20Inc%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

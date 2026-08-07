@@ -1,0 +1,25 @@
+{
+  "id": "cmr_surgical",
+  "name": "CMR Surgical",
+  "country": "United Kingdom",
+  "urls": [
+    {
+      "caption": "CMR Surgical",
+      "url": "https://cmrsurgical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/cmr-surgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/gb/11168540",
+  "robots": [
+    "cmr_versius"
+  ],
+  "description": "CMR Surgical is based in Cambridge, UK.",
+  "employee_count": "500-1000",
+  "patents": {
+    "assignee_names": [
+      "CMR Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=CMR+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22CMR%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

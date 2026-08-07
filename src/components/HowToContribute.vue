@@ -76,6 +76,7 @@ cd medmachina.github.io</code></pre>
         <h3>Company Data Format</h3>
         <p>Each company entry should follow this format:</p>
         <pre class="bg-dark text-light p-3 rounded"><code>{
+  "id": "unique_company_id",
   "name": "Company Name",
   "country": "Country Name",
   "urls": [

@@ -1,0 +1,33 @@
+{
+  "id": "intuitive",
+  "name": "Intuitive",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Intuitive",
+      "url": "https://www.intuitive.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/intuitive-surgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/4740915",
+  "robots": [
+    "intuitive_da_vinci_5",
+    "intuitive_da_vinci_SP",
+    "intuitive_da_vinci_Xi",
+    "intuitive_da_vinci_X",
+    "intuitive_da_vinci_Si",
+    "intuitive_da_vinci_S",
+    "intuitive_da_vinci",
+    "intuitive_ion"
+  ],
+  "description": "Intuitive is based in Sunnyvale, California, USA",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Intuitive Surgical Operations",
+      "Intuitive Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Intuitive+Surgical+Operations",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Intuitive%20Surgical%20Operations%22%20OR%20applicant%3A%22Intuitive%20Surgical%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

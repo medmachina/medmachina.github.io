@@ -1,0 +1,25 @@
+{
+  "id": "lem_surgical",
+  "name": "LEM Surgical",
+  "country": "Switzerland",
+  "urls": [
+    {
+      "caption": "LEM Surgical",
+      "url": "https://lemsurgical.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/lem-surgical-ag/",
+  "opencorporates_url": "",
+  "robots": [
+    "lem_dynamis"
+  ],
+  "description": "LEM Surgical is based in Bern, Switzerland, with U.S. commercial operations in Tampa, Florida. Develops robotic surgical systems for hard tissue surgery.",
+  "employee_count": "50-100",
+  "patents": {
+    "assignee_names": [
+      "LEM Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=LEM+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22LEM%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

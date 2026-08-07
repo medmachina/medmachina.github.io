@@ -1,0 +1,25 @@
+{
+  "id": "ln_robotics",
+  "name": "LN Robotics",
+  "country": "South Korea",
+  "urls": [
+    {
+      "caption": "LN Robotics",
+      "url": "https://www.lnrobo.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/ln-robotics/",
+  "opencorporates_url": "",
+  "robots": [
+    "ln_robotics_aviar"
+  ],
+  "description": "LN Robotics is based in South Korea.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "LN Robotics"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=LN+Robotics",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22LN%20Robotics%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "virtuoso_surgical",
+  "name": "Virtuoso Surgical",
+  "country": "United States",
+  "urls": [
+    {
+      "caption": "Virtuoso Surgical",
+      "url": "https://virtuososurgical.net/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/virtuoso-surgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/6692085",
+  "robots": [
+    "virtuoso_virtuoso"
+  ],
+  "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "Virtuoso Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Virtuoso+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Virtuoso%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

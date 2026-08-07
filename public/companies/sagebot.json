@@ -1,0 +1,25 @@
+{
+  "id": "sagebot",
+  "name": "Sagebot",
+  "country": "China",
+  "urls": [
+    {
+      "caption": "Sagebot",
+      "url": "http://sagebot-medical.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/sagebot",
+  "opencorporates_url": "",
+  "robots": [
+    "sagebot_kangduo"
+  ],
+  "description": "Harbin Sagebot Intelligent Medical Equipment Co., Ltd. is based in Harbin, China.",
+  "employee_count": null,
+  "patents": {
+    "assignee_names": [
+      "Sagebot"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Sagebot",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Sagebot%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

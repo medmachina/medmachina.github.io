@@ -1,0 +1,23 @@
+{
+  "id": "robeaute",
+  "name": "Robeauté",
+  "country": "France",
+  "urls": [
+    {
+      "caption": "Robeauté",
+      "url": "https://www.robeaute.com/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/robeauté/",
+  "opencorporates_url": "https://opencorporates.com/companies/fr/829012236",
+  "robots": [],
+  "description": "Robeauté is based in Paris, France.",
+  "employee_count": "10-50",
+  "patents": {
+    "assignee_names": [
+      "Robeauté"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Robeaut%C3%A9",
+    "lens_url": "https://www.lens.org/lens/search/patent?q=applicant%3A%22Robeaut%C3%A9%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
