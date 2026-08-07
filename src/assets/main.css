@@ -122,13 +122,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 1.25rem;
   z-index: 150;
   opacity: 1;
-  background-color: var(--color-background-soft);
-  transition: background-color 0.2s;
   font-size: 0.72rem;
   padding: 0.25rem 0.6rem;
   line-height: 1.4;
-}
-.edit-github-fixed:hover {
-  background-color: var(--color-background-mute);
 }
 
