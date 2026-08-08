@@ -34,36 +34,58 @@
       </div>
     </div>
 
-    <!-- Two Contribution Paths -->
+    <!-- Three Contribution Paths -->
     <div class="row g-4 mb-4">
-      <div class="col-md-6">
-        <div class="card h-100 border-primary-subtle">
+      <!-- Path 1: Edit on GitHub button -->
+      <div class="col-md-4">
+        <div class="card h-100 border-info-subtle">
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
-              <div class="badge bg-primary fs-6 me-2">Path 1</div>
-              <h3 class="card-title h5 mb-0">Git Pull Requests</h3>
+              <div class="badge bg-info text-dark fs-6 me-2">Quickest</div>
+              <h3 class="card-title h5 mb-0">"Edit on GitHub" Button</h3>
             </div>
             <p class="card-text text-muted">
-              Best for developers and data contributors comfortable with Git and JSON files. Add or modify individual robot and company JSON files directly.
+              Fastest way to fix typos, add missing URLs, or update info for an existing robot or company directly in your browser.
             </p>
             <ul class="small text-muted ps-3 mb-0">
-              <li>Edit standalone JSON files in <code>public/robots/</code> and <code>public/companies/</code></li>
-              <li>Validate schema &amp; URLs with Python CLI tools</li>
-              <li>Submit a GitHub Pull Request for review</li>
+              <li>Click <strong>"Edit on GitHub"</strong> at the bottom right of any detail page</li>
+              <li>GitHub automatically forks the repository into your account</li>
+              <li>Edit the JSON file online &amp; click <strong>"Propose changes"</strong> to open a PR</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6">
+      <!-- Path 2: Full Git Pull Request -->
+      <div class="col-md-4">
+        <div class="card h-100 border-primary-subtle">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="badge bg-primary fs-6 me-2">Developer</div>
+              <h3 class="card-title h5 mb-0">Local Git &amp; PR Workflow</h3>
+            </div>
+            <p class="card-text text-muted">
+              Best for adding new robot/company entries, running automated FDA lookup scripts, and validating schemas locally.
+            </p>
+            <ul class="small text-muted ps-3 mb-0">
+              <li>Clone your fork and edit <code>public/robots/</code> or <code>public/companies/</code></li>
+              <li>Run Python build and validation tools</li>
+              <li>Submit a Pull Request on GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Path 3: GitHub Issues -->
+      <div class="col-md-4">
         <div class="card h-100 border-success-subtle">
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
-              <div class="badge bg-success fs-6 me-2">Path 2</div>
-              <h3 class="card-title h5 mb-0">GitHub Issues (No Code Required)</h3>
+              <div class="badge bg-success fs-6 me-2">No Code</div>
+              <h3 class="card-title h5 mb-0">GitHub Issues</h3>
             </div>
             <p class="card-text text-muted">
-              Ideal for clinicians, researchers, or anyone discovering missing systems or incorrect information who prefers not to edit code.
+              Ideal for clinicians, researchers, or anyone discovering missing systems who prefers not to edit code directly.
             </p>
             <ul class="small text-muted ps-3 mb-0">
               <li>Report inaccurate or outdated information</li>
@@ -75,13 +97,30 @@
       </div>
     </div>
 
+    <!-- Quick Web Editing Explainer -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title h4">Web-Based Quick Editing ("Edit on GitHub")</h2>
+        <p class="card-text">
+          Every robot and company detail page includes a floating <strong>"Edit on GitHub"</strong> button in the bottom-right corner.
+          When you click it:
+        </p>
+        <ol class="card-text">
+          <li>GitHub opens the exact raw JSON file (e.g. <code>public/robots/intuitive_da_vinci_5.json</code>) in their online editor.</li>
+          <li>If you do not have write permissions, GitHub automatically forks the repository to your GitHub account behind the scenes.</li>
+          <li>Make your changes in the online editor, then click the green <strong>"Propose changes"</strong> button at the bottom.</li>
+          <li>GitHub automatically creates a pull request to the main repository for maintainers to review!</li>
+        </ol>
+      </div>
+    </div>
+
     <!-- Step 1: Fork and Clone -->
     <div class="card mb-4">
       <div class="card-body">
-        <h2 class="card-title h4">Step 1: Fork &amp; Clone the Repository</h2>
+        <h2 class="card-title h4">Step 1: Fork &amp; Clone for Local Development</h2>
         <p class="card-text">
-          Fork the <a href="https://github.com/medmachina/medmachina.github.io" target="_blank">MedMachina GitHub repository</a>
-          to your GitHub account and clone it locally:
+          For adding new entries or running local validation scripts, fork the <a href="https://github.com/medmachina/medmachina.github.io" target="_blank">MedMachina GitHub repository</a>
+          and clone it locally:
         </p>
         <pre class="bg-dark text-light p-3 rounded"><code>git clone https://github.com/YOUR_USERNAME/medmachina.github.io.git
 cd medmachina.github.io</code></pre>
