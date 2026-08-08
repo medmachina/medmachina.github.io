@@ -256,8 +256,8 @@ def prerender_dist(robots_data, companies_data):
         {
             "path": "contribute",
             "title": "How to Contribute | Med Machina",
-            "description": "Learn how to contribute data or request updates for the Med Machina surgical robotics directory.",
-            "body": "<div class='container py-4'><h1>How to Contribute</h1><p>Guidelines for contributing data to Med Machina.</p></div>"
+            "description": "Learn how to contribute data, submit pull requests, or request updates for the Med Machina surgical robotics directory.",
+            "body": "<div class='container py-4'><h1>How to Contribute</h1><p>Guidelines for contributing surgical robot and company dataset entries to Med Machina via GitHub Pull Requests or Issues.</p></div>"
         },
         {
             "path": "links",
