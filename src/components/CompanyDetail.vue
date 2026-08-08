@@ -297,4 +297,28 @@ function handleImageError(event) {
   fill: currentColor;
   margin-right: 8px;
 }
+
+.patent-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: var(--color-background-soft);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.patent-link:hover {
+  background-color: var(--color-background-mute);
+  color: var(--color-heading);
+}
+
+.patent-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  margin-right: 8px;
+}
 </style>

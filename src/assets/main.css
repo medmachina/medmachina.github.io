@@ -122,8 +122,39 @@ h1, h2, h3, h4, h5, h6 {
   right: 1.25rem;
   z-index: 150;
   opacity: 1;
+  background-color: var(--color-background-soft);
   font-size: 0.72rem;
   padding: 0.25rem 0.6rem;
   line-height: 1.4;
+}
+
+/* Button & badge pop-up hover effect */
+.btn,
+.badge,
+.status-cloud-badge,
+.tag-cloud-badge,
+.usage-cloud-badge,
+.regulatory-badge,
+.linkedin-link,
+.opencorporates-link,
+.patent-link,
+.edit-github-fixed {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+@media (hover: hover) {
+  .btn:hover,
+  .badge:hover,
+  .status-cloud-badge:hover,
+  .tag-cloud-badge:hover,
+  .usage-cloud-badge:hover,
+  .regulatory-badge:hover,
+  .linkedin-link:hover,
+  .opencorporates-link:hover,
+  .patent-link:hover,
+  .edit-github-fixed:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
 }
 
