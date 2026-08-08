@@ -102,7 +102,7 @@
             <a href="https://patents.google.com/" target="_blank" rel="noopener">Google Patents</a>
           </li>
           <li>
-            <a href="https://www.lens.org/lens/search/patent" target="_blank" rel="noopener">Lens.org – Global Patent Search</a>
+            <a href="https://www.lens.org/lens/search/patent/list" target="_blank" rel="noopener">Lens.org – Global Patent Search</a>
           </li>
           <li>
             <a href="https://worldwide.espacenet.com/" target="_blank" rel="noopener">EPO Espacenet</a>

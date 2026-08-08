@@ -21,6 +21,6 @@
       "MMI"
     ],
     "google_patents_url": "https://patents.google.com/?assignee=Medical+Microinstruments",
-    "lens_url": "https://www.lens.org/lens/search/patent?q=%28applicant%3A%22Medical%20Microinstruments%22%20OR%20applicant%3A%22MMI%22%29&s=_score&d=%2B&p=0&n=50"
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Medical%20Microinstruments%22%20OR%20applicant%3A%22MMI%22%29&s=_score&d=%2B&p=0&n=50"
   }
 }

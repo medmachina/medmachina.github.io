@@ -83,7 +83,7 @@ def build_lens_url(assignee_names: list[str]) -> str:
         parts = " OR ".join(f'applicant:"{n}"' for n in assignee_names)
         q = f"({parts})"
     return (
-        "https://www.lens.org/lens/search/patent?q="
+        "https://www.lens.org/lens/search/patent/list?q="
         + urllib.parse.quote(q)
         + "&s=_score&d=%2B&p=0&n=50"
     )
