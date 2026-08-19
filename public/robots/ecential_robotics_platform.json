@@ -2,11 +2,15 @@
   "id": "ecential_robotics_platform",
   "name": "eCential Robotics",
   "db_added": "2025-07-30",
-  "introduction_year": null,
+  "introduction_year": 2021,
   "urls": [
     {
       "caption": "Ecential Robotics platform",
       "url": "https://www.ecential-robotics.com/en-us"
+    },
+    {
+      "caption": "DePuy Synthes VELYS SPINE Collaboration",
+      "url": "https://www.jnjmedtech.com/en-US/product/velys-spine"
     }
   ],
   "photos": [
@@ -18,8 +22,12 @@
   "tags": [
     "Open surgery"
   ],
-  "description": "",
-  "also_known_as": [],
+  "description": "Unified open platform integrating 2D/3D intraoperative imaging, optical surgical navigation, and robotic assistance for spine surgery.",
+  "also_known_as": [
+    "Surgivisio",
+    "Op.n",
+    "VELYS SPINE"
+  ],
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=rANu2lL0glc",
@@ -38,6 +46,27 @@
     "Spine"
   ],
   "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242914",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231886",
+      "body": "FDA 510k",
+      "year": 2023,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202547",
+      "body": "FDA 510k",
+      "year": 2021,
+      "product_code": "OXO",
+      "panel": "RAD"
+    },
     {
       "url": "https://ecential-robotics.com/regulatory/",
       "body": "CE",
