@@ -1,0 +1,153 @@
+{
+  "id": "accuray_cyberknife",
+  "name": "CyberKnife",
+  "introduction_year": 2001,
+  "urls": [
+    {
+      "caption": "Accuray, CyberKnife Product Page",
+      "url": "https://www.accuray.com/cyberknife/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Robotic_CyberKnife_at_St._Marys_Of_Michigan.jpg",
+      "site": "https://commons.wikimedia.org/wiki/File:Robotic_CyberKnife_at_St._Marys_Of_Michigan.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Next_generation_CyberKnife_Machine_in_India.jpg",
+      "site": "https://commons.wikimedia.org/wiki/File:Next_generation_CyberKnife_Machine_in_India.jpg"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Autonomous motion",
+    "Motorized table"
+  ],
+  "usages": [
+    "Neurological",
+    "Spine",
+    "Lung",
+    "Prostate",
+    "Thoracic",
+    "Abdominal"
+  ],
+  "description": "The CyberKnife System is a fully robotic, non-invasive stereotactic radiosurgery (SRS) and stereotactic body radiation therapy (SBRT) platform developed by Accuray. It mounts a compact 6 MV linear accelerator (LINAC) onto a 6-axis articulated robotic arm, enabling targeted radiation delivery from hundreds of angles with sub-millimeter precision. Integrated real-time X-ray imaging and Synchrony motion tracking continuously adapt beam delivery to patient and tumor movement in real-time. Paired with the 6-DOF RoboCouch patient positioning couch, CyberKnife treats both intracranial and extracranial tumors across the body without rigid head frames.",
+  "also_known_as": [
+    "CyberKnife System",
+    "CyberKnife S7"
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K000478",
+      "body": "FDA 510k",
+      "year": 2000,
+      "product_code": "IWB",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K011024",
+      "body": "FDA 510k",
+      "year": 2001,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K032345",
+      "body": "FDA 510k",
+      "year": 2003,
+      "product_code": "MUJ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K041315",
+      "body": "FDA 510k",
+      "year": 2004,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K052325",
+      "body": "FDA 510k",
+      "year": 2005,
+      "product_code": "MUJ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K062514",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "MUJ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K062967",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "MUJ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K071531",
+      "body": "FDA 510k",
+      "year": 2007,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K072504",
+      "body": "FDA 510k",
+      "year": 2007,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091146",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "MUJ",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091999",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K102650",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122137",
+      "body": "FDA 510k",
+      "year": 2012,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150873",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170788",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "IYE",
+      "panel": "RA"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K984563",
+      "body": "FDA 510k",
+      "year": 1999,
+      "product_code": "IWB",
+      "panel": "RA"
+    }
+  ]
+}

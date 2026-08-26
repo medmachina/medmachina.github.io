@@ -1,0 +1,18 @@
+{
+  "id": "accuray",
+  "name": "Accuray",
+  "country": "United States",
+  "description": "Accuray Incorporated is an American radiation therapy company headquartered in Madison, Wisconsin (originally Sunnyvale, California). Accuray designs, develops, and manufactures advanced radiation therapy and radiosurgery systems, including the CyberKnife System and TomoTherapy System.",
+  "founded_year": "1990",
+  "employee_count": "500-1000",
+  "urls": [
+    {
+      "caption": "Accuray Official Website",
+      "url": "https://www.accuray.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/accuray/",
+  "robots": [
+    "accuray_cyberknife"
+  ]
+}

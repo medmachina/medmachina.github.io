@@ -19,7 +19,8 @@ URL_PMA = "https://www.accessdata.fda.gov/premarket/ftparea/pma.zip"
 ROBOTIC_PRODUCT_CODES = {
     "NAY", "OAY", "PQC", "BWS", "LLZ", "NUV", "SCV", "NEQ", "PLV",
     "EOQ", "QNW", "HAW", "HSX", "PSQ", "OLO", "SDD", "QNM",
-    "OJP", "IYO", "GCJ", "SAQ", "NQT", "PBF", "PNH", "OYC"
+    "OJP", "IYO", "GCJ", "SAQ", "NQT", "PBF", "PNH", "OYC",
+    "IYE", "MUJ", "IWB"
 }
 
 def download_and_extract_zip(url: str, extract_to: str = "tmp_fda", force: bool = False):
@@ -113,10 +114,13 @@ def save_regulatory_json(regulatory_data: Dict[str, List[Dict[str, Any]]]):
             try:
                 with open(filepath, 'r', encoding='utf-8') as f:
                     robot = json.load(f)
-                robot['regulatory'] = reg_list
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    json.dump(robot, f, indent=2, ensure_ascii=False)
-                    f.write('\n')
+                current_reg = robot.get('regulatory')
+                if current_reg != reg_list:
+                    if reg_list or 'regulatory' in robot:
+                        robot['regulatory'] = reg_list
+                        with open(filepath, 'w', encoding='utf-8') as f:
+                            json.dump(robot, f, indent=2, ensure_ascii=False)
+                            f.write('\n')
             except Exception as e:
                 print(f"Error saving regulatory data for {filepath}: {e}")
     import subprocess
