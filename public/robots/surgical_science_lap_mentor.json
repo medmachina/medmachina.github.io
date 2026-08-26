@@ -1,0 +1,35 @@
+{
+  "id": "surgical_science_lap_mentor",
+  "name": "LAP Mentor",
+  "introduction_year": 2002,
+  "urls": [
+    {
+      "caption": "Surgical Science, LAP Mentor Product Page",
+      "url": "https://surgicalscience.com/simulators/lap-mentor/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://surgicalscience.com/wp-content/uploads/2022/06/LAPIII_07_2021-with-new-camera-copy-2021_11-copy-623x968.png",
+      "site": "https://surgicalscience.com/simulators/lap-mentor/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Simulation",
+    "Haptic",
+    "Haptic device"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Urological"
+  ],
+  "description": "The LAP Mentor (including LAP Mentor VR and LAP Mentor Express) is a multidisciplinary laparoscopic surgical simulator developed by Surgical Science (originally Simbionix). It features tactile haptic feedback mechanisms and realistic instrument handles that simulate true tissue resistance, organ manipulation, and tactile feedback during laparoscopic procedures. Offering an extensive library of VR modules ranging from basic laparoscopic skills and suturing to complex laparoscopic cholecystectomy, hernia repair, hysterectomy, and lobectomy procedures, LAP Mentor provides a comprehensive training environment for surgical residents and teams.",
+  "also_known_as": [
+    "LAP Mentor VR",
+    "LAP Mentor III",
+    "Simbionix LAP Mentor"
+  ],
+  "db_added": "2026-08-26"
+}

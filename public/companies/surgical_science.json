@@ -11,7 +11,8 @@
   "linkedin_url": "https://www.linkedin.com/company/surgical-science-sweden-ab/",
   "opencorporates_url": "https://opencorporates.com/companies/se/556544-8783",
   "robots": [
-    "surgical_science_robotix_mentor"
+    "surgical_science_robotix_mentor",
+    "surgical_science_lap_mentor"
   ],
   "description": "Surgical Science is based in Göteborg, Sweden.",
   "employee_count": "100-500",
