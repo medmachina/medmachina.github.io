@@ -62,7 +62,9 @@ const tagDescriptions = {
   "Biopsy": "Supports tissue sampling guidance or extraction.",
   "TRUS": "Transrectal ultrasound guidance or manipulation.",
   "Dental": "Focused on dental or oral implant procedures.",
-  "Autonomous motion": "Capable of moving independently without human control."
+  "Autonomous motion": "Capable of moving independently without human control.",
+  "OEM component": "A robotic arm or subsystem sold to medical device manufacturers for integration into their products; not a standalone clinical system.",
+  "Ultrasound": "Utilizes or guides ultrasound imaging for diagnostic or therapeutic procedures."
 };
 
 function getTagDescription(tagName) {

@@ -273,6 +273,10 @@
         {
           "const": "OEM component",
           "description": "A robotic arm or subsystem sold to medical device manufacturers for integration into their products; not a standalone clinical system."
+        },
+        {
+          "const": "Ultrasound",
+          "description": "Utilizes or guides ultrasound imaging for diagnostic or therapeutic procedures."
         }
       ]
     },
