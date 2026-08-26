@@ -14,8 +14,12 @@
   ],
   "photos": [
     {
-      "url": "https://ropca.com/wp-content/uploads/2022/10/founders-scaled.jpg",
-      "site": "https://ropca.com/media/"
+      "url": "https://ropca.com/wp-content/uploads/2022/10/ropca-framegrab-01-scaled.jpg",
+      "site": "https://ropca.com/arthur/"
+    },
+    {
+      "url": "https://ropca.com/wp-content/uploads/2022/09/r00001-rev10-ropca-complete55-500x543-1.png",
+      "site": "https://ropca.com/arthur/"
     }
   ],
   "tags": [
@@ -35,5 +39,6 @@
       "url": "https://ropca.com/arthur/",
       "last_verified": "2026-08-26"
     }
-  ]
+  ],
+  "db_added": "2026-08-26"
 }
