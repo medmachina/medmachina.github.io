@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+import glob
 import html
 import json
 import os
 import re
+import subprocess
 from urllib.parse import quote, unquote
 from datetime import datetime
 
@@ -33,39 +35,99 @@ Sitemap: {BASE_URL}/sitemap.xml
         with open(dist_robots, "w", encoding="utf-8") as f:
             f.write(content)
 
+def get_file_lastmod(filepath, fallback_date=None):
+    today = datetime.now().strftime("%Y-%m-%d")
+    if not filepath or not os.path.exists(filepath):
+        return fallback_date or today
+    
+    try:
+        status_res = subprocess.run(["git", "status", "--porcelain", filepath], capture_output=True, text=True, check=False)
+        if status_res.stdout.strip():
+            return today
+        
+        git_res = subprocess.run(["git", "log", "-1", "--format=%cd", "--date=short", "--", filepath], capture_output=True, text=True, check=False)
+        last_commit = git_res.stdout.strip()
+        if last_commit:
+            return last_commit
+    except Exception:
+        pass
+
+    try:
+        mtime = os.path.getmtime(filepath)
+        return datetime.fromtimestamp(mtime).strftime("%Y-%m-%d")
+    except Exception:
+        return fallback_date or today
+
 def generate_sitemap(robots_data, companies_data):
     today = datetime.now().strftime("%Y-%m-%d")
 
-    urls = [
-        {"loc": f"{BASE_URL}/", "priority": "1.0", "changefreq": "daily"},
-        {"loc": f"{BASE_URL}/companies", "priority": "0.8", "changefreq": "weekly"},
-        {"loc": f"{BASE_URL}/contribute", "priority": "0.5", "changefreq": "monthly"},
-        {"loc": f"{BASE_URL}/links", "priority": "0.5", "changefreq": "monthly"},
-    ]
+    robots_dir = os.path.join(PUBLIC_DIR, "robots")
+    companies_dir = os.path.join(PUBLIC_DIR, "companies")
 
+    urls = []
+
+    robot_lastmods = []
     for robot in robots_data:
         if "id" in robot:
+            r_id = robot["id"]
+            file_path = os.path.join(robots_dir, f"{r_id}.json")
+            lm = get_file_lastmod(file_path, fallback_date=robot.get("db_added"))
+            robot_lastmods.append(lm)
             urls.append({
-                "loc": f"{BASE_URL}/robot/{robot['id']}",
+                "loc": f"{BASE_URL}/robot/{r_id}",
+                "lastmod": lm,
                 "priority": "0.9",
                 "changefreq": "weekly"
             })
 
+    company_lastmods = []
     for company in companies_data:
         if "name" in company:
-            encoded_name = quote(company['name'])
+            c_name = company["name"]
+            encoded_name = quote(c_name)
+            # Find matching file in public/companies/
+            comp_files = glob.glob(os.path.join(companies_dir, "*.json"))
+            matching_file = None
+            for cf in comp_files:
+                try:
+                    with open(cf, "r", encoding="utf-8") as f:
+                        cdata = json.load(f)
+                        if cdata.get("name") == c_name:
+                            matching_file = cf
+                            break
+                except Exception:
+                    pass
+            lm = get_file_lastmod(matching_file)
+            company_lastmods.append(lm)
             urls.append({
                 "loc": f"{BASE_URL}/company/{encoded_name}",
+                "lastmod": lm,
                 "priority": "0.8",
                 "changefreq": "weekly"
             })
 
+    latest_robot_mod = max(robot_lastmods) if robot_lastmods else today
+    latest_company_mod = max(company_lastmods) if company_lastmods else today
+    latest_overall_mod = max(latest_robot_mod, latest_company_mod)
+
+    contribute_src = os.path.join(os.path.dirname(__file__), "..", "src", "views", "ContributeView.vue")
+    links_src = os.path.join(os.path.dirname(__file__), "..", "src", "views", "LinksView.vue")
+
+    static_urls = [
+        {"loc": f"{BASE_URL}/", "lastmod": latest_overall_mod, "priority": "1.0", "changefreq": "daily"},
+        {"loc": f"{BASE_URL}/companies", "lastmod": latest_company_mod, "priority": "0.8", "changefreq": "weekly"},
+        {"loc": f"{BASE_URL}/contribute", "lastmod": get_file_lastmod(contribute_src), "priority": "0.5", "changefreq": "monthly"},
+        {"loc": f"{BASE_URL}/links", "lastmod": get_file_lastmod(links_src), "priority": "0.5", "changefreq": "monthly"},
+    ]
+
+    all_urls = static_urls + urls
+
     xml_entries = []
-    for u in urls:
+    for u in all_urls:
         escaped_loc = html.escape(u['loc'], quote=True)
         xml_entries.append(f"""  <url>
     <loc>{escaped_loc}</loc>
-    <lastmod>{today}</lastmod>
+    <lastmod>{u['lastmod']}</lastmod>
     <changefreq>{u['changefreq']}</changefreq>
     <priority>{u['priority']}</priority>
   </url>""")
@@ -79,7 +141,7 @@ def generate_sitemap(robots_data, companies_data):
     sitemap_path = os.path.join(PUBLIC_DIR, "sitemap.xml")
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(sitemap_content)
-    print(f"Generated {sitemap_path} ({len(urls)} URLs)")
+    print(f"Generated {sitemap_path} ({len(all_urls)} URLs)")
 
     if os.path.exists(DIST_DIR):
         dist_sitemap = os.path.join(DIST_DIR, "sitemap.xml")
