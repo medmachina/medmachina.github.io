@@ -7,6 +7,10 @@
     {
       "caption": "KUKA, KR QUANTEC HC Medical Robot",
       "url": "https://www.kuka.com/medical-robotics"
+    },
+    {
+      "caption": "Accuray CyberKnife on MedMachina",
+      "url": "https://medmachina.github.io/robot/accuray_cyberknife"
     }
   ],
   "photos": [

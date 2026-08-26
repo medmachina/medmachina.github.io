@@ -277,6 +277,14 @@
         {
           "const": "Ultrasound",
           "description": "Utilizes or guides ultrasound imaging for diagnostic or therapeutic procedures."
+        },
+        {
+          "const": "X-Ray",
+          "description": "Utilizes or guides X-ray or fluoroscopic imaging for diagnostic or interventional procedures."
+        },
+        {
+          "const": "Radiation",
+          "description": "Delivers or utilizes targeted ionizing radiation for radiation therapy or stereotactic radiosurgery."
         }
       ]
     },

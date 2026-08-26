@@ -21,7 +21,9 @@
   "tags": [
     "Research system",
     "Commercial",
-    "Autonomous motion"
+    "Autonomous motion",
+    "Radiation",
+    "X-Ray"
   ],
   "usages": [],
   "description": "The Small Animal Radiation Research Platform (SARRP) is a high-precision preclinical robotic radiation research system developed by Xstrahl in collaboration with Johns Hopkins University. SARRP integrates micro-CT image guidance with a 360-degree motorized rotating gantry and a robotic multi-axis specimen stage capable of sub-millimeter targeting accuracy. Designed to replicate clinical human image-guided radiotherapy (IGRT) and stereotactic radiosurgery (SRS) techniques, SARRP allows researchers to deliver targeted, conformal radiation beams in small animal oncology models.",

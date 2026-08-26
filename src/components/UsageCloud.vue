@@ -20,27 +20,8 @@
 
 <script setup>
 import { computed } from 'vue';
+import { getUsageDescription } from '../utils/tagDescriptions.js';
 
-// Usage descriptions from robots.schema.json
-const usageDescriptions = {
-  "Abdominal": "Procedures within the abdominal cavity (e.g., general, colorectal).",
-  "Urological": "Procedures involving urinary tract or male reproductive organs.",
-  "Gynecological": "Procedures involving female reproductive system.",
-  "Transoral": "Access through the mouth for head and neck or airway surgery.",
-  "Knee": "Orthopedic interventions focused on the knee joint.",
-  "Hip": "Orthopedic procedures involving the hip joint (e.g., replacement).",
-  "Lung": "Pulmonary surgical or interventional procedures.",
-  "Bronchoscopy": "Endoscopic examination or intervention in bronchial airways.",
-  "Thoracic": "Procedures within the chest excluding the heart.",
-  "Spine": "Spinal column or vertebral interventions.",
-  "Eye": "Ophthalmic microsurgery or ocular interventions.",
-  "Prostate": "Procedures targeting the prostate gland.",
-  "Dental implant": "Placement or guidance for dental implants."
-};
-
-function getUsageDescription(usageName) {
-  return usageDescriptions[usageName] || '';
-}
 
 const props = defineProps({
   usages: Array,

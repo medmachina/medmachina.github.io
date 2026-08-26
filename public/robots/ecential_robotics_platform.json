@@ -11,6 +11,10 @@
     {
       "caption": "DePuy Synthes VELYS SPINE Collaboration",
       "url": "https://www.jnjmedtech.com/en-US/product/velys-spine"
+    },
+    {
+      "caption": "KUKA LBR Med on MedMachina",
+      "url": "https://medmachina.github.io/robot/kuka_lbr_med"
     }
   ],
   "photos": [
@@ -22,7 +26,7 @@
   "tags": [
     "Open surgery"
   ],
-  "description": "Unified open platform integrating 2D/3D intraoperative imaging, optical surgical navigation, and robotic assistance for spine surgery.",
+  "description": "Unified open platform integrating 2D/3D intraoperative X-ray imaging, optical surgical navigation, and robotic assistance built on the KUKA LBR Med collaborative robotic arm for spine surgery.",
   "also_known_as": [
     "Surgivisio",
     "Op.n",

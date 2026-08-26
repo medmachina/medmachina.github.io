@@ -7,6 +7,14 @@
     {
       "caption": "KUKA, LBR Med",
       "url": "https://www.kuka.com/medical-robotics"
+    },
+    {
+      "caption": "ROPCA ARTHUR on MedMachina",
+      "url": "https://medmachina.github.io/robot/ropca_arthur"
+    },
+    {
+      "caption": "eCential Robotics on MedMachina",
+      "url": "https://medmachina.github.io/robot/ecential_robotics_platform"
     }
   ],
   "photos": [
