@@ -1,0 +1,18 @@
+{
+  "id": "xstrahl",
+  "name": "Xstrahl",
+  "country": "United Kingdom",
+  "description": "Xstrahl is a medical technology company specializing in superficial and orthovoltage radiation therapy systems for dermatological conditions and skin cancer, as well as advanced preclinical radiation research platforms for oncology research.",
+  "founded_year": "1997",
+  "employee_count": "50-200",
+  "urls": [
+    {
+      "caption": "Xstrahl Official Website",
+      "url": "https://xstrahl.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/xstrahl-limited/",
+  "robots": [
+    "xstrahl_sarrp"
+  ]
+}
