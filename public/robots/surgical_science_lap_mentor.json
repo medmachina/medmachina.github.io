@@ -30,5 +30,123 @@
     "LAP Mentor III",
     "Simbionix LAP Mentor"
   ],
-  "db_added": "2026-08-26"
+  "db_added": "2026-08-26",
+  "publications": [
+    {
+      "title": "Application of virtual reality technology in clinical medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28979666/",
+      "year": 2017,
+      "journal": "American journal of translational research",
+      "pmid": "28979666",
+      "citations": 182
+    },
+    {
+      "title": "Psychomotor control in a virtual laparoscopic surgery training environment: gaze control parameters differentiate novices from experts",
+      "url": "https://doi.org/10.1007/s00464-010-0986-1",
+      "year": 2010,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-010-0986-1",
+      "pmid": "20333405",
+      "citations": 112
+    },
+    {
+      "title": "Gaze training enhances laparoscopic technical skill acquisition and multi-tasking performance: a randomized, controlled study",
+      "url": "https://doi.org/10.1007/s00464-011-1802-2",
+      "year": 2011,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-011-1802-2",
+      "pmid": "21671125",
+      "citations": 109
+    },
+    {
+      "title": "Construct validity testing of a laparoscopic surgery simulator (Lap Mentor): evaluation of surgical skill with a virtual laparoscopic training simulator",
+      "url": "https://doi.org/10.1007/s00464-007-9625-x",
+      "year": 2008,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-007-9625-x",
+      "pmid": "17972134",
+      "citations": 72
+    },
+    {
+      "title": "Impact of laparoscopy simulator training on the technical skills of future surgeons in the operating room: a prospective study",
+      "url": "https://doi.org/10.1016/j.amjsurg.2010.11.008",
+      "year": 2011,
+      "journal": "American journal of surgery",
+      "doi": "10.1016/j.amjsurg.2010.11.008",
+      "pmid": "21658672",
+      "citations": 66
+    },
+    {
+      "title": "Perceptual impairment and psychomotor control in virtual laparoscopic surgery",
+      "url": "https://doi.org/10.1007/s00464-010-1546-4",
+      "year": 2011,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-010-1546-4",
+      "pmid": "21359902",
+      "citations": 50
+    },
+    {
+      "title": "Construct validity for eye-hand coordination skill on a virtual reality laparoscopic surgical simulator",
+      "url": "https://doi.org/10.1007/s00464-007-9362-1",
+      "year": 2007,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-007-9362-1",
+      "pmid": "17479319",
+      "citations": 50
+    },
+    {
+      "title": "Face validation of the Simbionix LAP Mentor virtual reality training module and its applicability in the surgical curriculum",
+      "url": "https://doi.org/10.1007/s00464-007-9219-7",
+      "year": 2007,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-007-9219-7",
+      "pmid": "17356944",
+      "citations": 47
+    },
+    {
+      "title": "The role of haptic feedback in laparoscopic training using the LapMentor II",
+      "url": "https://doi.org/10.1089/end.2009.0307",
+      "year": 2010,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2009.0307",
+      "pmid": "20059385",
+      "citations": 44
+    },
+    {
+      "title": "Comparison of fresh-frozen cadaver and high-fidelity virtual reality simulator as methods of laparoscopic training",
+      "url": "https://doi.org/10.1007/s00268-012-1564-6",
+      "year": 2012,
+      "journal": "World journal of surgery",
+      "doi": "10.1007/s00268-012-1564-6",
+      "pmid": "22484566",
+      "citations": 43
+    },
+    {
+      "title": "Preoperative warm-up using a virtual reality simulator",
+      "url": "https://doi.org/10.4293/108680811x13176785204409",
+      "year": 2011,
+      "journal": "JSLS : Journal of the Society of Laparoendoscopic Surgeons",
+      "doi": "10.4293/108680811x13176785204409",
+      "pmid": "22643511",
+      "citations": 39
+    },
+    {
+      "title": "Training on a virtual reality laparoscopic simulator improves performance of an unfamiliar live laparoscopic procedure",
+      "url": "https://doi.org/10.1016/j.juro.2008.08.041",
+      "year": 2008,
+      "journal": "The Journal of urology",
+      "doi": "10.1016/j.juro.2008.08.041",
+      "pmid": "18950817",
+      "citations": 35
+    },
+    {
+      "title": "Virtual reality training improves simulated laparoscopic surgery performance in laparoscopy na\u00efve medical students",
+      "url": "https://doi.org/10.1089/end.2007.0366",
+      "year": 2008,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2007.0366",
+      "pmid": "18643722",
+      "citations": 34
+    }
+  ]
 }

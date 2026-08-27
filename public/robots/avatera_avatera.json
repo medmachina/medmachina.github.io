@@ -50,7 +50,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=AHfkWIitDW4",
-      "title": "Avatera Robot -  Laparoscopie minim invazivă -  DrTech.ro"
+      "title": "Avatera Robot -  Laparoscopie minim invaziv\u0103 -  DrTech.ro"
     },
     {
       "url": "https://www.youtube.com/watch?v=c60jg8KxQOs",
@@ -62,7 +62,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
-      "title": "hinotori™ Robotic Assisted Surgery System"
+      "title": "hinotori\u2122 Robotic Assisted Surgery System"
     }
   ],
   "regulatory": [
@@ -72,6 +72,35 @@
       "year": 2019,
       "product_code": "",
       "panel": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Market potentials of robotic systems in medical science: analysis of the Avatera robotic system",
+      "url": "https://doi.org/10.1007/s00345-021-03809-z",
+      "year": 2022,
+      "journal": "World J Urol",
+      "doi": "10.1007/s00345-021-03809-z",
+      "pmid": "34424374",
+      "citations": 0
+    },
+    {
+      "title": "The feasibility of robot-assisted radical cystectomy: an experimental study",
+      "url": "https://doi.org/10.1007/s00345-022-04266-y",
+      "year": 2023,
+      "journal": "World journal of urology",
+      "doi": "10.1007/s00345-022-04266-y",
+      "pmid": "36577927",
+      "citations": 10
+    },
+    {
+      "title": "Robot-assisted radical prostatectomy using the avatera system\u2122: a prospective pilot study",
+      "url": "https://doi.org/10.23736/s2724-6051.23.05545-3",
+      "year": 2024,
+      "journal": "Minerva urology and nephrology",
+      "doi": "10.23736/s2724-6051.23.05545-3",
+      "pmid": "38015550",
+      "citations": 7
     }
   ]
 }

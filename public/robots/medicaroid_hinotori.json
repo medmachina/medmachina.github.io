@@ -44,11 +44,11 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
-      "title": "hinotori™ Robotic Assisted Surgery System"
+      "title": "hinotori\u2122 Robotic Assisted Surgery System"
     },
     {
       "url": "https://www.youtube.com/watch?v=1h17p3GeULM",
-      "title": "An Overview of the hinotori™ Surgical Robot"
+      "title": "An Overview of the hinotori\u2122 Surgical Robot"
     }
   ],
   "regulatory": [
@@ -58,6 +58,89 @@
       "year": 2026,
       "product_code": "",
       "panel": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Hinotori Surgical Robot System, a novel robot-assisted surgical platform: Preclinical and clinical evaluation",
+      "url": "https://doi.org/10.1111/iju.14973",
+      "year": 2022,
+      "journal": "International journal of urology : official journal of the Japanese Urological Association",
+      "doi": "10.1111/iju.14973",
+      "pmid": "35851692",
+      "citations": 89
+    },
+    {
+      "title": "Initial Experience of Robot-Assisted Partial Nephrectomy Using Hinotori Surgical Robot System: Single Institutional Prospective Assessment of Perioperative Outcomes in 30 Cases",
+      "url": "https://doi.org/10.1089/end.2022.0775",
+      "year": 2023,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2022.0775",
+      "pmid": "36800894",
+      "citations": 45
+    },
+    {
+      "title": "The first report of surgery for gynecological diseases using the hinotori\u2122 surgical robot system",
+      "url": "https://doi.org/10.1093/jjco/hyad105",
+      "year": 2023,
+      "journal": "Japanese journal of clinical oncology",
+      "doi": "10.1093/jjco/hyad105",
+      "pmid": "37595992",
+      "citations": 39
+    },
+    {
+      "title": "Perioperative outcomes of robot-assisted partial nephrectomy using hinotori versus da Vinci surgical robot system: a propensity score-matched analysis",
+      "url": "https://doi.org/10.1007/s11701-023-01614-x",
+      "year": 2023,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-023-01614-x",
+      "pmid": "37462888",
+      "citations": 38
+    },
+    {
+      "title": "Robot-assisted adrenalectomy using a hinotori surgical robot system: Report of first series of six cases",
+      "url": "https://doi.org/10.1111/ases.13212",
+      "year": 2023,
+      "journal": "Asian journal of endoscopic surgery",
+      "doi": "10.1111/ases.13212",
+      "pmid": "37231618",
+      "citations": 31
+    },
+    {
+      "title": "Early experience and future prospects regarding use of newly developed surgical robot system, hinotori, in the field of urologic cancer surgery",
+      "url": "https://doi.org/10.1007/s10147-024-02503-5",
+      "year": 2024,
+      "journal": "International journal of clinical oncology",
+      "doi": "10.1007/s10147-024-02503-5",
+      "pmid": "38625439",
+      "citations": 25
+    },
+    {
+      "title": "First clinical experiences of robotic gastrectomy for gastric cancer using the hinotori\u2122 surgical robot system",
+      "url": "https://doi.org/10.1007/s00464-024-10695-0",
+      "year": 2024,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-024-10695-0",
+      "pmid": "38332175",
+      "citations": 25
+    },
+    {
+      "title": "Robot-assisted radical nephrectomy using novel surgical robot platform, hinotori: Report of initial series of 13 cases",
+      "url": "https://doi.org/10.1111/iju.15292",
+      "year": 2023,
+      "journal": "International journal of urology : official journal of the Japanese Urological Association",
+      "doi": "10.1111/iju.15292",
+      "pmid": "37654155",
+      "citations": 25
+    },
+    {
+      "title": "Robot-assisted radical prostatectomy using the novel hinotori<sup>TM</sup> surgical robot system: initial experience and operation learning curve at a single institution",
+      "url": "https://doi.org/10.21037/tcr-23-1025",
+      "year": 2024,
+      "journal": "Translational cancer research",
+      "doi": "10.21037/tcr-23-1025",
+      "pmid": "38410216",
+      "citations": 23
     }
   ]
 }

@@ -45,5 +45,25 @@
       "url": null,
       "last_verified": null
     }
+  ],
+  "publications": [
+    {
+      "title": "Puncture Accuracy of Robot-Assisted CT-Based Punctures in Interventional Radiology: An Ex Vivo Study",
+      "url": "https://doi.org/10.3390/diagnostics14131371",
+      "year": 2024,
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "doi": "10.3390/diagnostics14131371",
+      "pmid": "39001261",
+      "citations": 6
+    },
+    {
+      "title": "Robot-assisted lumbar facet joint infiltration improves accuracy and reduces radiation exposure compared to the manual technique in a comparative phantom study",
+      "url": "https://doi.org/10.1038/s41598-026-52435-5",
+      "year": 2026,
+      "journal": "Scientific reports",
+      "doi": "10.1038/s41598-026-52435-5",
+      "pmid": "42120532",
+      "citations": 0
+    }
   ]
 }

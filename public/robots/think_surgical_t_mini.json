@@ -32,7 +32,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=L7hEeYn-8UE",
-      "title": "TMINI® Miniature Robotic System - Hero"
+      "title": "TMINI\u00ae Miniature Robotic System - Hero"
     }
   ],
   "regulatory": [
@@ -98,6 +98,17 @@
       "year": 2025,
       "product_code": "OLO",
       "panel": "NE"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Step-specific learning curve of the TMINI robotic system for total knee arthroplasty: a single-surgeon CUSUM analysis",
+      "url": "https://doi.org/10.1007/s11701-026-03683-0",
+      "year": 2026,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-026-03683-0",
+      "pmid": "42474882",
+      "citations": 0
     }
   ]
 }

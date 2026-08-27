@@ -55,6 +55,41 @@
       },
       "additionalProperties": false
     },
+    "PublicationEntry": {
+      "type": "object",
+      "required": [
+        "title",
+        "url"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "journal": {
+          "type": "string"
+        },
+        "doi": {
+          "type": "string"
+        },
+        "pmid": {
+          "type": "string"
+        },
+        "citations": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
     "RegulatoryEntry": {
       "type": "object",
       "required": [
@@ -431,6 +466,12 @@
         "type": "array",
         "items": {
           "$ref": "#/$defs/RegulatoryEntry"
+        }
+      },
+      "publications": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/PublicationEntry"
         }
       }
     }

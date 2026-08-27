@@ -45,7 +45,7 @@
   "usages": [
     "Abdominal"
   ],
-  "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
+  "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon\u2019s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
   "also_known_as": [],
   "videos": [
     {
@@ -55,6 +55,17 @@
     {
       "url": "https://www.youtube.com/watch?v=nPk90YCpqFg",
       "title": "RAVEN Surgical Robot, Overview"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Semi-autonomous Simulated Brain Tumor Ablation with RavenII Surgical Robot using Behavior Tree",
+      "url": "https://doi.org/10.1109/icra.2015.7139738",
+      "year": 2015,
+      "journal": "IEEE International Conference on Robotics and Automation : ICRA : [proceedings]. IEEE International Conference on Robotics and Automation",
+      "doi": "10.1109/icra.2015.7139738",
+      "pmid": "26405563",
+      "citations": 19
     }
   ]
 }

@@ -156,5 +156,34 @@
       "panel": "RA"
     }
   ],
-  "db_added": "2026-08-26"
+  "db_added": "2026-08-26",
+  "publications": [
+    {
+      "title": "The Cyberknife: a frameless robotic system for radiosurgery",
+      "url": "https://doi.org/10.1159/000099863",
+      "year": 1997,
+      "journal": "Stereotact Funct Neurosurg",
+      "doi": "10.1159/000099863",
+      "pmid": "9711744",
+      "citations": 0
+    },
+    {
+      "title": "Stereotactic body radiotherapy for localized prostate cancer: pooled analysis from a multi-institutional consortium of prospective phase II trials",
+      "url": "https://doi.org/10.1016/j.radonc.2013.08.030",
+      "year": 2013,
+      "journal": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology",
+      "doi": "10.1016/j.radonc.2013.08.030",
+      "pmid": "24060175",
+      "citations": 356
+    },
+    {
+      "title": "Long-term outcomes from a prospective trial of stereotactic body radiotherapy for low-risk prostate cancer",
+      "url": "https://doi.org/10.1016/j.ijrobp.2010.11.054",
+      "year": 2012,
+      "journal": "International journal of radiation oncology, biology, physics",
+      "doi": "10.1016/j.ijrobp.2010.11.054",
+      "pmid": "21300474",
+      "citations": 301
+    }
+  ]
 }

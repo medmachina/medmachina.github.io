@@ -117,5 +117,61 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Accuracy of robot-guided versus freehand fluoroscopy-assisted pedicle screw insertion in thoracolumbar spinal surgery",
+      "url": "https://doi.org/10.3171/2017.3.focus179",
+      "year": 2017,
+      "journal": "Neurosurgical focus",
+      "doi": "10.3171/2017.3.focus179",
+      "pmid": "28463623",
+      "citations": 171
+    },
+    {
+      "title": "Next-Generation Robotic Spine Surgery: First Report on Feasibility, Safety, and Learning Curve",
+      "url": "https://doi.org/10.1093/ons/opy280",
+      "year": 2019,
+      "journal": "Operative neurosurgery (Hagerstown, Md.)",
+      "doi": "10.1093/ons/opy280",
+      "pmid": "30247684",
+      "citations": 115
+    },
+    {
+      "title": "Bone-mounted miniature robotic guidance for pedicle screw and translaminar facet screw placement: Part I--Technical development and a test case result",
+      "url": "https://doi.org/10.1227/01.neu.0000229055.00829.5b",
+      "year": 2006,
+      "journal": "Neurosurgery",
+      "doi": "10.1227/01.neu.0000229055.00829.5b",
+      "pmid": "16955046",
+      "citations": 111
+    },
+    {
+      "title": "Robotic-Assisted Pedicle Screw Placement During Spine Surgery",
+      "url": "https://doi.org/10.2106/jbjs.st.19.00020",
+      "year": 2020,
+      "journal": "JBJS essential surgical techniques",
+      "doi": "10.2106/jbjs.st.19.00020",
+      "pmid": "32944411",
+      "citations": 95
+    },
+    {
+      "title": "Impact of robot-assisted spine surgery on health care quality and neurosurgical economics: A systemic review",
+      "url": "https://doi.org/10.1007/s10143-018-0971-z",
+      "year": 2020,
+      "journal": "Neurosurgical review",
+      "doi": "10.1007/s10143-018-0971-z",
+      "pmid": "29611081",
+      "citations": 78
+    },
+    {
+      "title": "Mazor X Stealth Robotic Technology: A Technical Note",
+      "url": "https://doi.org/10.1016/j.wneu.2020.10.010",
+      "year": 2021,
+      "journal": "World neurosurgery",
+      "doi": "10.1016/j.wneu.2020.10.010",
+      "pmid": "33059080",
+      "citations": 49
+    }
   ]
 }

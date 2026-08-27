@@ -35,7 +35,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=jTXyi2Y0r1c",
-      "title": "How is the robotic knee replacement surgery performed? (Velys™ system)"
+      "title": "How is the robotic knee replacement surgery performed? (Velys\u2122 system)"
     },
     {
       "url": "https://www.youtube.com/watch?v=tv_0Zt71F0Q",
@@ -70,6 +70,53 @@
       "year": 2023,
       "product_code": "",
       "panel": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Image-Free Robotic-Assisted Total Knee Arthroplasty Improves Implant Alignment Accuracy: A Cadaveric Study",
+      "url": "https://doi.org/10.1016/j.arth.2021.12.035",
+      "year": 2022,
+      "journal": "The Journal of arthroplasty",
+      "doi": "10.1016/j.arth.2021.12.035",
+      "pmid": "34979253",
+      "citations": 53
+    },
+    {
+      "title": "Patient-Specific TKA with the VELYS\u2122 Robotic-Assisted Solution",
+      "url": "https://doi.org/10.52198/22.sti.40.os1561",
+      "year": 2022,
+      "journal": "Surgical technology international",
+      "doi": "10.52198/22.sti.40.os1561",
+      "pmid": "35325451",
+      "citations": 27
+    },
+    {
+      "title": "Transition to Robotic Total Knee Arthroplasty With Kinematic Alignment is Associated With a Short Learning Curve and Similar Acute-Period Functional Recoveries",
+      "url": "https://doi.org/10.7759/cureus.38872",
+      "year": 2023,
+      "journal": "Cureus",
+      "doi": "10.7759/cureus.38872",
+      "pmid": "37303372",
+      "citations": 18
+    },
+    {
+      "title": "VELYS robotic-assisted total knee arthroplasty: Enhanced accuracy and comparable early outcomes versus manual instrumentation during adoption",
+      "url": "https://doi.org/10.1002/jeo2.70163",
+      "year": 2025,
+      "journal": "Journal of experimental orthopaedics",
+      "doi": "10.1002/jeo2.70163",
+      "pmid": "39931150",
+      "citations": 10
+    },
+    {
+      "title": "Early Clinical and Economic Outcomes for the VELYS Robotic-Assisted Solution Compared with Manual Instrumentation for Total Knee Arthroplasty",
+      "url": "https://doi.org/10.1055/a-2343-2444",
+      "year": 2024,
+      "journal": "The journal of knee surgery",
+      "doi": "10.1055/a-2343-2444",
+      "pmid": "38866046",
+      "citations": 10
     }
   ]
 }

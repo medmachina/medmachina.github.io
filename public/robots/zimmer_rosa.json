@@ -36,7 +36,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=7qOg4KN5xuI",
-      "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA® Robotic Technology at Humber"
+      "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA\u00ae Robotic Technology at Humber"
     }
   ],
   "regulatory": [
@@ -221,6 +221,17 @@
       "year": 2014,
       "product_code": "",
       "panel": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Robot-assisted spine surgery: feasibility study through a prospective case-matched analysis",
+      "url": "https://doi.org/10.1007/s00586-015-3758-8",
+      "year": 2016,
+      "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+      "doi": "10.1007/s00586-015-3758-8",
+      "pmid": "25575857",
+      "citations": 150
     }
   ]
 }

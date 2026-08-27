@@ -65,5 +65,79 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Efficacy of the Pre-operative Three-Dimensional (3D) CT Scan Templating in Predicting Accurate Implant Size and Alignment in Robot Assisted Total Knee Arthroplasty",
+      "url": "https://doi.org/10.1007/s43465-022-00742-0",
+      "year": 2022,
+      "journal": "Indian J Orthop",
+      "doi": "10.1007/s43465-022-00742-0",
+      "pmid": "36507208",
+      "citations": 0
+    },
+    {
+      "title": "Comparison of Time Taken in Conventional versus Active Robotic-Assisted Total Knee Arthroplasty",
+      "url": "https://doi.org/10.4055/cios23062",
+      "year": 2024,
+      "journal": "Clin Orthop Surg",
+      "doi": "10.4055/cios23062",
+      "pmid": "38562637",
+      "citations": 0
+    },
+    {
+      "title": "Analysis of robot-specific operative time and surgical team anxiety level and its effect on alignment during robot-assisted TKA",
+      "url": "https://doi.org/10.1007/s11701-024-01823-y",
+      "year": 2024,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-024-01823-y",
+      "pmid": "38386217",
+      "citations": 9
+    },
+    {
+      "title": "Intra-operative Safety of an Autonomous Robotic System for Total Knee Replacement: A Review of 500 Cases in India",
+      "url": "https://doi.org/10.1007/s43465-023-00970-y",
+      "year": 2023,
+      "journal": "Indian journal of orthopaedics",
+      "doi": "10.1007/s43465-023-00970-y",
+      "pmid": "37881287",
+      "citations": 6
+    },
+    {
+      "title": "Does preoperative 3D CT planning helps in predicting the component size determination and alignment in automatic robotic total knee arthroplasty (RA-TKA)",
+      "url": "https://doi.org/10.1016/j.jor.2023.07.011",
+      "year": 2023,
+      "journal": "Journal of orthopaedics",
+      "doi": "10.1016/j.jor.2023.07.011",
+      "pmid": "37555200",
+      "citations": 6
+    },
+    {
+      "title": "Accuracy of Advanced Active Robot for Total Knee Arthroplasty: A Cadaveric Study",
+      "url": "https://doi.org/10.1055/s-0042-1760391",
+      "year": 2024,
+      "journal": "The journal of knee surgery",
+      "doi": "10.1055/s-0042-1760391",
+      "pmid": "36638805",
+      "citations": 4
+    },
+    {
+      "title": "Gap Balancing Technique With Functional Alignment in Total Knee Arthroplasty Using the Cuvis Joint Robotic System: Surgical Technique and Functional Outcome",
+      "url": "https://doi.org/10.7759/cureus.78914",
+      "year": 2025,
+      "journal": "Cureus",
+      "doi": "10.7759/cureus.78914",
+      "pmid": "40091934",
+      "citations": 3
+    },
+    {
+      "title": "Assessment of average femoral component rotation for balancing functionally aligned total knee replacement in varus deformity: Robotic image guidance study",
+      "url": "https://doi.org/10.1016/j.jor.2024.05.027",
+      "year": 2024,
+      "journal": "Journal of orthopaedics",
+      "doi": "10.1016/j.jor.2024.05.027",
+      "pmid": "38948500",
+      "citations": 3
+    }
   ]
 }

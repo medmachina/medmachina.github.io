@@ -74,5 +74,25 @@
       "product_code": "IYO",
       "panel": "RA"
     }
+  ],
+  "publications": [
+    {
+      "title": "Stereotactic robot-assisted transperineal prostate biopsy under local anaesthesia and sedation: moving robotic biopsy from operating theatre to clinic",
+      "url": "https://doi.org/10.1007/s11701-020-01052-z",
+      "year": 2020,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-020-01052-z",
+      "pmid": "32052276",
+      "citations": 10
+    },
+    {
+      "title": "The impact of robotic-assisted transperineal biopsy of the prostate on erectile function",
+      "url": "https://doi.org/10.1111/andr.13346",
+      "year": 2023,
+      "journal": "Andrology",
+      "doi": "10.1111/andr.13346",
+      "pmid": "36427333",
+      "citations": 6
+    }
   ]
 }

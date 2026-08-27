@@ -110,12 +110,14 @@ def generate_sitemap(robots_data, companies_data):
     latest_company_mod = max(company_lastmods) if company_lastmods else today
     latest_overall_mod = max(latest_robot_mod, latest_company_mod)
 
-    contribute_src = os.path.join(os.path.dirname(__file__), "..", "src", "views", "ContributeView.vue")
-    links_src = os.path.join(os.path.dirname(__file__), "..", "src", "views", "LinksView.vue")
+    contribute_src = os.path.join(os.path.dirname(__file__), "..", "src", "components", "HowToContribute.vue")
+    links_src = os.path.join(os.path.dirname(__file__), "..", "src", "components", "Links.vue")
+    pubs_src = os.path.join(os.path.dirname(__file__), "..", "public", "publications.json")
 
     static_urls = [
         {"loc": f"{BASE_URL}/", "lastmod": latest_overall_mod, "priority": "1.0", "changefreq": "daily"},
         {"loc": f"{BASE_URL}/companies", "lastmod": latest_company_mod, "priority": "0.8", "changefreq": "weekly"},
+        {"loc": f"{BASE_URL}/publications", "lastmod": get_file_lastmod(pubs_src), "priority": "0.8", "changefreq": "weekly"},
         {"loc": f"{BASE_URL}/contribute", "lastmod": get_file_lastmod(contribute_src), "priority": "0.5", "changefreq": "monthly"},
         {"loc": f"{BASE_URL}/links", "lastmod": get_file_lastmod(links_src), "priority": "0.5", "changefreq": "monthly"},
     ]
@@ -314,6 +316,12 @@ def prerender_dist(robots_data, companies_data):
             "title": "Medical Robotics Companies | Med Machina",
             "description": "Browse companies manufacturing medical and surgical robotics systems worldwide.",
             "body": "<div class='container py-4'><h1>Medical Robotics Companies</h1><p>Browse global medical and surgical robotics manufacturers.</p></div>"
+        },
+        {
+            "path": "publications",
+            "title": "Medical Robotics Publications & Literature | Med Machina",
+            "description": "Curated landmark research papers, clinical trials, and survey articles covering the field of medical and surgical robotics.",
+            "body": "<div class='container py-4'><h1>Medical Robotics Publications</h1><p>Curated landmark literature in medical and surgical robotics.</p></div>"
         },
         {
             "path": "contribute",

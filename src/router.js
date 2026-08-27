@@ -7,6 +7,7 @@ import HowToContribute from './components/HowToContribute.vue';
 import Links from './components/Links.vue';
 import CompaniesComponent from './components/CompaniesComponent.vue';
 import CompanyDetail from './components/CompanyDetail.vue';
+import Publications from './components/Publications.vue';
 import { updateSeo } from './utils/seo';
 
 const routes = [
@@ -67,6 +68,15 @@ const routes = [
     path: '/company/:name',
     name: 'CompanyDetail',
     component: CompanyDetail
+  },
+  {
+    path: '/publications',
+    name: 'Publications',
+    component: Publications,
+    meta: {
+      title: 'Medical Robotics Publications & Literature | Med Machina',
+      description: 'Curated landmark research papers, clinical trials, and survey articles covering the field of medical and surgical robotics.'
+    }
   }
 ];
 

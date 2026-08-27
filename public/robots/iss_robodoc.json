@@ -38,7 +38,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=yEO4dMWmYro",
-      "title": "1. ROBODOC® Introduction_Dr. Bargar.wmv"
+      "title": "1. ROBODOC\u00ae Introduction_Dr. Bargar.wmv"
     },
     {
       "url": "https://www.youtube.com/watch?v=u4f8BWTliJY",
@@ -59,6 +59,62 @@
       "year": 2008,
       "product_code": "OJP",
       "panel": "OR"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Primary and revision total hip replacement using the Robodoc system",
+      "url": "https://doi.org/10.1097/00003086-199809000-00011",
+      "year": 1998,
+      "journal": "Clinical orthopaedics and related research",
+      "doi": "10.1097/00003086-199809000-00011",
+      "pmid": "9755767",
+      "citations": 156
+    },
+    {
+      "title": "Computer-assisted orthopaedic surgery and robotic surgery in total hip arthroplasty",
+      "url": "https://doi.org/10.4055/cios.2013.5.1.1",
+      "year": 2013,
+      "journal": "Clinics in orthopedic surgery",
+      "doi": "10.4055/cios.2013.5.1.1",
+      "pmid": "23467021",
+      "citations": 131
+    },
+    {
+      "title": "Comparison of robotic-assisted and manual implantation of a primary total hip replacement. A prospective study",
+      "url": "https://doi.org/10.2106/00004623-200308000-00007",
+      "year": 2003,
+      "journal": "The Journal of bone and joint surgery. American volume",
+      "doi": "10.2106/00004623-200308000-00007",
+      "pmid": "12925626",
+      "citations": 144
+    },
+    {
+      "title": "Comparison between hand rasping and robotic milling for stem implantation in cementless total hip arthroplasty",
+      "url": "https://doi.org/10.1016/j.arth.2006.01.001",
+      "year": 2006,
+      "journal": "The Journal of arthroplasty",
+      "doi": "10.1016/j.arth.2006.01.001",
+      "pmid": "17027537",
+      "citations": 62
+    },
+    {
+      "title": "THINK surgical TSolution-One<sup>\u00ae</sup> (Robodoc) total knee arthroplasty",
+      "url": "https://doi.org/10.1051/sicotj/2017052",
+      "year": 2017,
+      "journal": "SICOT-J",
+      "doi": "10.1051/sicotj/2017052",
+      "pmid": "29087292",
+      "citations": 45
+    },
+    {
+      "title": "Effect of robotic milling on periprosthetic bone remodeling",
+      "url": "https://doi.org/10.1002/jor.20376",
+      "year": 2007,
+      "journal": "Journal of orthopaedic research : official publication of the Orthopaedic Research Society",
+      "doi": "10.1002/jor.20376",
+      "pmid": "17457823",
+      "citations": 34
     }
   ]
 }

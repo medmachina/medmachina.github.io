@@ -55,5 +55,43 @@
       "url": "https://www.youtube.com/watch?v=SC8Yo9qIe3M",
       "title": "Shurui surgical robot (2)"
     }
+  ],
+  "publications": [
+    {
+      "title": "Robot-assisted Single-port Radical Prostatectomy with the SHURUI SP and da Vinci SP Platforms: Comparison of the Technology, Intraoperative Performance, and Outcomes",
+      "url": "https://doi.org/10.1016/j.euros.2024.07.107",
+      "year": 2024,
+      "journal": "European urology open science",
+      "doi": "10.1016/j.euros.2024.07.107",
+      "pmid": "39113717",
+      "citations": 21
+    },
+    {
+      "title": "Single-Port Robot-Assisted Radical Prostatectomy with the Novel Shurui Single-Port Robotic Surgical System",
+      "url": "https://doi.org/10.1089/end.2023.0185",
+      "year": 2023,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2023.0185",
+      "pmid": "37597208",
+      "citations": 17
+    },
+    {
+      "title": "Single-incision robotic assisted surgery: a nonrandomized cohort pilot study on a novel surgical platform in colorectal surgery",
+      "url": "https://doi.org/10.1097/js9.0000000000000612",
+      "year": 2023,
+      "journal": "International journal of surgery (London, England)",
+      "doi": "10.1097/js9.0000000000000612",
+      "pmid": "37526117",
+      "citations": 13
+    },
+    {
+      "title": "Robot-assisted single-port retroperitoneal partial nephrectomy with a novel purpose-built single-port robotic system with deformable surgical instruments",
+      "url": "https://doi.org/10.1007/s00345-024-04827-3",
+      "year": 2024,
+      "journal": "World journal of urology",
+      "doi": "10.1007/s00345-024-04827-3",
+      "pmid": "38478100",
+      "citations": 12
+    }
   ]
 }

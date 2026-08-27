@@ -30,5 +30,97 @@
   "also_known_as": [
     "Small Animal Radiation Research Platform"
   ],
-  "db_added": "2026-08-26"
+  "db_added": "2026-08-26",
+  "publications": [
+    {
+      "title": "Stereotactic Radiation Therapy Augments Antigen-Specific PD-1-Mediated Antitumor Immune Responses via Cross-Presentation of Tumor Antigen",
+      "url": "https://doi.org/10.1158/2326-6066.cir-14-0196",
+      "year": 2015,
+      "journal": "Cancer immunology research",
+      "doi": "10.1158/2326-6066.cir-14-0196",
+      "pmid": "25527358",
+      "citations": 540
+    },
+    {
+      "title": "High-resolution, small animal radiation research platform with x-ray tomographic guidance capabilities",
+      "url": "https://doi.org/10.1016/j.ijrobp.2008.04.025",
+      "year": 2008,
+      "journal": "International journal of radiation oncology, biology, physics",
+      "doi": "10.1016/j.ijrobp.2008.04.025",
+      "pmid": "18640502",
+      "citations": 302
+    },
+    {
+      "title": "Optimized fractionated radiotherapy with anti-PD-L1 and anti-TIGIT: a promising new combination",
+      "url": "https://doi.org/10.1186/s40425-019-0634-9",
+      "year": 2019,
+      "journal": "Journal for immunotherapy of cancer",
+      "doi": "10.1186/s40425-019-0634-9",
+      "pmid": "31238970",
+      "citations": 187
+    },
+    {
+      "title": "Image-guided small animal radiation research platform: calibration of treatment beam alignment",
+      "url": "https://doi.org/10.1088/0031-9155/54/4/005",
+      "year": 2009,
+      "journal": "Physics in medicine and biology",
+      "doi": "10.1088/0031-9155/54/4/005",
+      "pmid": "19141881",
+      "citations": 63
+    },
+    {
+      "title": "A comprehensive system for dosimetric commissioning and Monte Carlo validation for the small animal radiation research platform",
+      "url": "https://doi.org/10.1088/0031-9155/54/17/017",
+      "year": 2009,
+      "journal": "Physics in medicine and biology",
+      "doi": "10.1088/0031-9155/54/17/017",
+      "pmid": "19687532",
+      "citations": 60
+    },
+    {
+      "title": "Small field dosimetry for the small animal radiotherapy research platform (SARRP)",
+      "url": "https://doi.org/10.1186/s13014-017-0936-3",
+      "year": 2017,
+      "journal": "Radiation oncology (London, England)",
+      "doi": "10.1186/s13014-017-0936-3",
+      "pmid": "29282134",
+      "citations": 28
+    },
+    {
+      "title": "Systematic calibration of an integrated x-ray and optical tomography system for preclinical radiation research",
+      "url": "https://doi.org/10.1118/1.4914860",
+      "year": 2015,
+      "journal": "Medical physics",
+      "doi": "10.1118/1.4914860",
+      "pmid": "25832060",
+      "citations": 24
+    },
+    {
+      "title": "Comprehensive quality assurance phantom for the small animal radiation research platform (SARRP)",
+      "url": "https://doi.org/10.1016/j.ejmp.2015.04.010",
+      "year": 2015,
+      "journal": "Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)",
+      "doi": "10.1016/j.ejmp.2015.04.010",
+      "pmid": "25964129",
+      "citations": 21
+    },
+    {
+      "title": "Small animal radiation research platform: imaging, mechanics, control and calibration",
+      "url": "https://doi.org/10.1007/978-3-540-75759-7_112",
+      "year": 2007,
+      "journal": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "doi": "10.1007/978-3-540-75759-7_112",
+      "pmid": "18044657",
+      "citations": 21
+    },
+    {
+      "title": "Validation of GPU-accelerated superposition-convolution dose computations for the Small Animal Radiation Research Platform",
+      "url": "https://doi.org/10.1002/mp.12862",
+      "year": 2018,
+      "journal": "Medical physics",
+      "doi": "10.1002/mp.12862",
+      "pmid": "29542820",
+      "citations": 16
+    }
+  ]
 }

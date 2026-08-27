@@ -62,5 +62,16 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Evaluation of the safety and efficacy of the Sentire Surgical System (C1000) for robot-assisted radical prostatectomy",
+      "url": "https://doi.org/10.12809/hkmj2412169",
+      "year": 2025,
+      "journal": "Hong Kong medical journal = Xianggang yi xue za zhi",
+      "doi": "10.12809/hkmj2412169",
+      "pmid": "40461168",
+      "citations": 1
+    }
   ]
 }

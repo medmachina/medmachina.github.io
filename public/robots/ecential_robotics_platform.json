@@ -78,5 +78,16 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Radiation Exposure Analysis on 274 Patients With Vertebral Augmentation Using the Surgivisio Intraoperative Navigation System",
+      "url": "https://doi.org/10.14444/8701",
+      "year": 2025,
+      "journal": "International journal of spine surgery",
+      "doi": "10.14444/8701",
+      "pmid": "39837659",
+      "citations": 1
+    }
   ]
 }

@@ -28,7 +28,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=BrUcceNKVqc",
-      "title": "Meet Yomi S — The Next Generation of Robotic Dental Implant Surgery"
+      "title": "Meet Yomi S \u2014 The Next Generation of Robotic Dental Implant Surgery"
     },
     {
       "url": "https://www.youtube.com/watch?v=BIfrwNoztzg",
@@ -46,6 +46,35 @@
       "year": 2025,
       "product_code": "PLV",
       "panel": "DE"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Robot-Assisted and Haptic-Guided Endodontic Surgery: A Case Report",
+      "url": "https://doi.org/10.1016/j.joen.2024.01.012",
+      "year": 2024,
+      "journal": "Journal of endodontics",
+      "doi": "10.1016/j.joen.2024.01.012",
+      "pmid": "38280513",
+      "citations": 28
+    },
+    {
+      "title": "Robot assisted implant surgery: Hype or hope?",
+      "url": "https://doi.org/10.1016/j.jormas.2023.101612",
+      "year": 2023,
+      "journal": "Journal of stomatology, oral and maxillofacial surgery",
+      "doi": "10.1016/j.jormas.2023.101612",
+      "pmid": "37633359",
+      "citations": 10
+    },
+    {
+      "title": "From Tradition to Technology: Robotic Artificial Intelligence in Dental Implantology",
+      "url": "https://doi.org/10.7759/cureus.73340",
+      "year": 2024,
+      "journal": "Cureus",
+      "doi": "10.7759/cureus.73340",
+      "pmid": "39655116",
+      "citations": 5
     }
   ]
 }

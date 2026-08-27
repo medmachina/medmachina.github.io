@@ -28,7 +28,7 @@
   "usages": [
     "Abdominal"
   ],
-  "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master–slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
+  "description": "Zeus was an early teleoperated minimally invasive surgery (MIS) system from Computer Motion combining two instrument manipulators with the AESOP robotic endoscope holder and HERMES OR integration (voice control, equipment management). Instruments were essentially laparoscopic tools without a distal wrist, limiting dexterity compared to later wristed systems (e.g., da Vinci). Surgeon control used an open console with 2D video (no immersive stereoscopic viewer). Zeus demonstrated core concepts of master\u2013slave teleoperation, motion scaling and tremor filtering before the 2003 Computer Motion / Intuitive Surgical merger, after which development ceased.",
   "also_known_as": [],
   "videos": [
     {
@@ -64,6 +64,98 @@
       "year": 2003,
       "product_code": "NAY",
       "panel": "GU"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Robotic laparoscopic surgery: a comparison of the DA Vinci and Zeus systems",
+      "url": "https://doi.org/10.1016/s0090-4295(01)01423-6",
+      "year": 2001,
+      "journal": "Urology",
+      "doi": "10.1016/s0090-4295(01)01423-6",
+      "pmid": "11744453",
+      "citations": 142
+    },
+    {
+      "title": "Establishment of the world's first telerobotic remote surgical service: for provision of advanced laparoscopic surgery in a rural community",
+      "url": "https://doi.org/10.1097/01.sla.0000154456.69815.ee",
+      "year": 2005,
+      "journal": "Annals of surgery",
+      "doi": "10.1097/01.sla.0000154456.69815.ee",
+      "pmid": "15729068",
+      "citations": 108
+    },
+    {
+      "title": "Use of the voice-controlled and computer-assisted surgical system ZEUS for endoscopic coronary artery bypass grafting",
+      "url": "https://doi.org/10.1016/s0022-5223(99)70134-0",
+      "year": 1999,
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "doi": "10.1016/s0022-5223(99)70134-0",
+      "pmid": "10384178",
+      "citations": 106
+    },
+    {
+      "title": "Robotic-assisted laparoscopic pyeloplasty: a pilot study",
+      "url": "https://doi.org/10.1016/s0090-4295(99)00030-8",
+      "year": 1999,
+      "journal": "Urology",
+      "doi": "10.1016/s0090-4295(99)00030-8",
+      "pmid": "10367834",
+      "citations": 105
+    },
+    {
+      "title": "The effect of robotic assistance on learning curves for basic laparoscopic skills",
+      "url": "https://doi.org/10.1016/s0002-9610(02)00871-1",
+      "year": 2002,
+      "journal": "American journal of surgery",
+      "doi": "10.1016/s0002-9610(02)00871-1",
+      "pmid": "12095605",
+      "citations": 73
+    },
+    {
+      "title": "The role of telementoring and telerobotic assistance in the provision of laparoscopic colorectal surgery in rural areas",
+      "url": "https://doi.org/10.1007/s00464-005-0260-0",
+      "year": 2006,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-005-0260-0",
+      "pmid": "16823656",
+      "citations": 62
+    },
+    {
+      "title": "Robotic-assisted laparoscopic colorectal surgery",
+      "url": "https://doi.org/10.1097/01.sle.0000148473.05042.8f",
+      "year": 2004,
+      "journal": "Surgical laparoscopy, endoscopy & percutaneous techniques",
+      "doi": "10.1097/01.sle.0000148473.05042.8f",
+      "pmid": "15599293",
+      "citations": 58
+    },
+    {
+      "title": "Total laparoscopically and robotically assisted aortic aneurysm surgery: a critical evaluation",
+      "url": "https://doi.org/10.1016/j.jvs.2003.10.050",
+      "year": 2004,
+      "journal": "Journal of vascular surgery",
+      "doi": "10.1016/j.jvs.2003.10.050",
+      "pmid": "15071439",
+      "citations": 58
+    },
+    {
+      "title": "Robot-assisted laparoscopic cholecystectomy versus conventional laparoscopic cholecystectomy: a comparative study",
+      "url": "https://doi.org/10.1007/s00464-003-9133-6",
+      "year": 2004,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-003-9133-6",
+      "pmid": "14716538",
+      "citations": 47
+    },
+    {
+      "title": "Analysis of the learning curve in telerobotic, beating heart coronary artery bypass grafting: a 90 patient experience",
+      "url": "https://doi.org/10.1016/s0003-4975(03)00680-5",
+      "year": 2003,
+      "journal": "The Annals of thoracic surgery",
+      "doi": "10.1016/s0003-4975(03)00680-5",
+      "pmid": "12963192",
+      "citations": 46
     }
   ]
 }

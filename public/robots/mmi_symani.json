@@ -38,15 +38,15 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=Po6yhlp1-H8",
-      "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani® Patient Story"
+      "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani\u00ae Patient Story"
     },
     {
       "url": "https://www.youtube.com/watch?v=BcYBOsCFYF8",
-      "title": "Symani® | Discover the Beauty of Robotic Microsurgery"
+      "title": "Symani\u00ae | Discover the Beauty of Robotic Microsurgery"
     },
     {
       "url": "https://www.youtube.com/watch?v=QxXJhChEEdE",
-      "title": "Symani® | Why Begin a Microsurgical Robotics Program"
+      "title": "Symani\u00ae | Why Begin a Microsurgical Robotics Program"
     }
   ],
   "regulatory": [
@@ -91,6 +91,89 @@
       "year": 2019,
       "product_code": "",
       "panel": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Exploring the learning curve of a new robotic microsurgical system for microsurgery",
+      "url": "https://doi.org/10.1016/j.jpra.2022.09.002",
+      "year": 2022,
+      "journal": "JPRAS open",
+      "doi": "10.1016/j.jpra.2022.09.002",
+      "pmid": "36304073",
+      "citations": 71
+    },
+    {
+      "title": "Early Experience Using a New Robotic Microsurgical System for Lymphatic Surgery",
+      "url": "https://doi.org/10.1097/gox.0000000000004013",
+      "year": 2022,
+      "journal": "Plastic and reconstructive surgery. Global open",
+      "doi": "10.1097/gox.0000000000004013",
+      "pmid": "35028251",
+      "citations": 70
+    },
+    {
+      "title": "First-in-Human Free Flap Tissue Reconstruction Using a Dedicated Microsurgical Robotic Platform",
+      "url": "https://doi.org/10.1097/prs.0000000000010108",
+      "year": 2023,
+      "journal": "Plastic and reconstructive surgery",
+      "doi": "10.1097/prs.0000000000010108",
+      "pmid": "36563175",
+      "citations": 54
+    },
+    {
+      "title": "Microsurgical robotic system enables the performance of microvascular anastomoses: a randomized in vivo preclinical trial",
+      "url": "https://doi.org/10.1038/s41598-023-41143-z",
+      "year": 2023,
+      "journal": "Scientific reports",
+      "doi": "10.1038/s41598-023-41143-z",
+      "pmid": "37635195",
+      "citations": 36
+    },
+    {
+      "title": "The Use of the Symani Surgical System\u00ae in Emergency Hand Trauma Care",
+      "url": "https://doi.org/10.1177/15533506241262568",
+      "year": 2024,
+      "journal": "Surgical innovation",
+      "doi": "10.1177/15533506241262568",
+      "pmid": "38884216",
+      "citations": 18
+    },
+    {
+      "title": "Preclinical Performance of the Combined Application of Two Robotic Systems in Microsurgery: A Two-center Study",
+      "url": "https://doi.org/10.1097/gox.0000000000005775",
+      "year": 2024,
+      "journal": "Plastic and reconstructive surgery. Global open",
+      "doi": "10.1097/gox.0000000000005775",
+      "pmid": "38689940",
+      "citations": 17
+    },
+    {
+      "title": "Nerve Transfers Using a Dedicated Microsurgical Robotic System",
+      "url": "https://doi.org/10.1097/gox.0000000000005192",
+      "year": 2023,
+      "journal": "Plastic and reconstructive surgery. Global open",
+      "doi": "10.1097/gox.0000000000005192",
+      "pmid": "37583397",
+      "citations": 17
+    },
+    {
+      "title": "A Novel Microsurgical Robot: Preliminary Feasibility Test in Ophthalmic Field",
+      "url": "https://doi.org/10.1167/tvst.11.8.13",
+      "year": 2022,
+      "journal": "Translational vision science & technology",
+      "doi": "10.1167/tvst.11.8.13",
+      "pmid": "35976656",
+      "citations": 17
+    },
+    {
+      "title": "Using a Microsurgical Robotic Platform for In-flap Anastomosis in Autologous Bipedicular Breast Reconstruction",
+      "url": "https://doi.org/10.1097/gox.0000000000005511",
+      "year": 2024,
+      "journal": "Plastic and reconstructive surgery. Global open",
+      "doi": "10.1097/gox.0000000000005511",
+      "pmid": "38204872",
+      "citations": 12
     }
   ]
 }

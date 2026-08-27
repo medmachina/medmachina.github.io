@@ -78,5 +78,43 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Robot-assisted Radical Prostatectomy with the Novel Hugo Robotic System: Initial Experience and Optimal Surgical Set-up at a Tertiary Referral Robotic Center",
+      "url": "https://doi.org/10.1016/j.eururo.2022.04.029",
+      "year": 2022,
+      "journal": "European urology",
+      "doi": "10.1016/j.eururo.2022.04.029",
+      "pmid": "35568597",
+      "citations": 108
+    },
+    {
+      "title": "Robot-Assisted Laparoscopic Radical Prostatectomy Utilizing Hugo RAS Platform: Initial Experience",
+      "url": "https://doi.org/10.1089/end.2022.0461",
+      "year": 2023,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2022.0461",
+      "pmid": "36205571",
+      "citations": 59
+    },
+    {
+      "title": "Outcomes of Robot-assisted Radical Prostatectomy with the Hugo RAS Surgical System: Initial Experience at a High-volume Robotic Center",
+      "url": "https://doi.org/10.1016/j.euf.2023.01.008",
+      "year": 2023,
+      "journal": "European urology focus",
+      "doi": "10.1016/j.euf.2023.01.008",
+      "pmid": "36690548",
+      "citations": 46
+    },
+    {
+      "title": "Intraoperative Performance of DaVinci Versus Hugo RAS During Radical Prostatectomy: Focus on Timing, Malfunctioning, Complications, and User Satisfaction in 100 Consecutive Cases (the COMPAR-P Trial)",
+      "url": "https://doi.org/10.1016/j.euros.2024.03.013",
+      "year": 2024,
+      "journal": "European urology open science",
+      "doi": "10.1016/j.euros.2024.03.013",
+      "pmid": "38591096",
+      "citations": 32
+    }
   ]
 }

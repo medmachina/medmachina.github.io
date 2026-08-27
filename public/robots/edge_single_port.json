@@ -46,5 +46,25 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Initial Urological Surgery Using a New Domestic Single-Port Surgical Robotic System",
+      "url": "https://doi.org/10.1089/end.2024.0822",
+      "year": 2025,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2024.0822",
+      "pmid": "40103571",
+      "citations": 4
+    },
+    {
+      "title": "Single-port EDGE SP1000 versus multi-port Da Vinci Xi robot-assisted radical prostatectomy: a comparative analysis of technique and perioperative outcomes",
+      "url": "https://doi.org/10.1007/s11701-026-03461-y",
+      "year": 2026,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-026-03461-y",
+      "pmid": "42133277",
+      "citations": 0
+    }
   ]
 }

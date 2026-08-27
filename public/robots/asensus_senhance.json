@@ -146,5 +146,79 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Robotic surgery using Senhance<sup>\u00ae</sup> robotic platform: single center experience with first 100 cases",
+      "url": "https://doi.org/10.1007/s11701-019-01000-6",
+      "year": 2020,
+      "journal": "J Robot Surg",
+      "doi": "10.1007/s11701-019-01000-6",
+      "pmid": "31301021",
+      "citations": 0
+    },
+    {
+      "title": "Robotic surgery: new robots and finally some real competition!",
+      "url": "https://doi.org/10.1007/s00345-018-2213-y",
+      "year": 2018,
+      "journal": "World journal of urology",
+      "doi": "10.1007/s00345-018-2213-y",
+      "pmid": "29427003",
+      "citations": 80
+    },
+    {
+      "title": "First experience in colorectal surgery with a new robotic platform with haptic feedback",
+      "url": "https://doi.org/10.1111/codi.13882",
+      "year": 2017,
+      "journal": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+      "doi": "10.1111/codi.13882",
+      "pmid": "28905524",
+      "citations": 44
+    },
+    {
+      "title": "The Senhance\u2122 surgical robotic system (\"Senhance\") for total hysterectomy in obese patients: a pilot study",
+      "url": "https://doi.org/10.1007/s11701-017-0718-9",
+      "year": 2018,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-017-0718-9",
+      "pmid": "28624984",
+      "citations": 42
+    },
+    {
+      "title": "First Experiences with the New Senhance\u00ae Telerobotic System in Visceral Surgery",
+      "url": "https://doi.org/10.1159/000486111",
+      "year": 2018,
+      "journal": "Visceral medicine",
+      "doi": "10.1159/000486111",
+      "pmid": "29594167",
+      "citations": 38
+    },
+    {
+      "title": "Upper urinary tract surgery and radical prostatectomy with Senhance<sup>\u00ae</sup> robotic system: Single center experience-First 100 cases",
+      "url": "https://doi.org/10.1002/rcs.2269",
+      "year": 2021,
+      "journal": "The international journal of medical robotics + computer assisted surgery : MRCAS",
+      "doi": "10.1002/rcs.2269",
+      "pmid": "33900026",
+      "citations": 30
+    },
+    {
+      "title": "Early experience with the Senhance\u00ae-laparoscopic/robotic platform in the US",
+      "url": "https://doi.org/10.1007/s11701-018-0893-3",
+      "year": 2019,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-018-0893-3",
+      "pmid": "30426353",
+      "citations": 25
+    },
+    {
+      "title": "Comparison of extraperitoneal laparoscopic and extraperitoneal Senhance radical prostatectomy",
+      "url": "https://doi.org/10.1002/rcs.2344",
+      "year": 2022,
+      "journal": "The international journal of medical robotics + computer assisted surgery : MRCAS",
+      "doi": "10.1002/rcs.2344",
+      "pmid": "34662926",
+      "citations": 24
+    }
   ]
 }

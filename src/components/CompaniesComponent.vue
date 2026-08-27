@@ -3,7 +3,8 @@
     <header class="d-flex align-items-center justify-content-between px-0 py-2 mb-3 border-bottom">
       <div class="d-flex align-items-center">
         <h1 class="mb-0 me-4">Companies</h1>
-        <router-link to="/" class="btn btn-outline-primary">Robots</router-link>
+        <router-link to="/" class="btn btn-outline-primary me-2">Robots</router-link>
+        <router-link to="/publications" class="btn btn-outline-primary">Publications</router-link>
       </div>
       <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
         <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />

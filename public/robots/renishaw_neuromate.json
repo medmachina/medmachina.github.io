@@ -62,5 +62,97 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "The application accuracy of the NeuroMate robot--A quantitative comparison with frameless and frame-based surgical localization systems",
+      "url": "https://doi.org/10.1002/igs.10035",
+      "year": 2002,
+      "journal": "Computer aided surgery : official journal of the International Society for Computer Aided Surgery",
+      "doi": "10.1002/igs.10035",
+      "pmid": "12112718",
+      "citations": 91
+    },
+    {
+      "title": "An integrated system for planning, navigation and robotic assistance for skull base surgery",
+      "url": "https://doi.org/10.1002/rcs.213",
+      "year": 2008,
+      "journal": "The international journal of medical robotics + computer assisted surgery : MRCAS",
+      "doi": "10.1002/rcs.213",
+      "pmid": "18803337",
+      "citations": 75
+    },
+    {
+      "title": "Robot-guided convection-enhanced delivery of carboplatin for advanced brainstem glioma",
+      "url": "https://doi.org/10.1007/s00701-013-1700-6",
+      "year": 2013,
+      "journal": "Acta neurochirurgica",
+      "doi": "10.1007/s00701-013-1700-6",
+      "pmid": "23595829",
+      "citations": 69
+    },
+    {
+      "title": "In vivo measurement of the frame-based application accuracy of the Neuromate neurosurgical robot",
+      "url": "https://doi.org/10.3171/2014.9.jns14256",
+      "year": 2015,
+      "journal": "Journal of neurosurgery",
+      "doi": "10.3171/2014.9.jns14256",
+      "pmid": "25361490",
+      "citations": 67
+    },
+    {
+      "title": "Use of the NeuroMate stereotactic robot in a frameless mode for functional neurosurgery",
+      "url": "https://doi.org/10.1002/rcs.88",
+      "year": 2006,
+      "journal": "The international journal of medical robotics + computer assisted surgery : MRCAS",
+      "doi": "10.1002/rcs.88",
+      "pmid": "17520621",
+      "citations": 63
+    },
+    {
+      "title": "Experience with 102 Frameless Stereotactic Biopsies Using the neuromate Robotic Device",
+      "url": "https://doi.org/10.1016/j.wneu.2018.11.187",
+      "year": 2019,
+      "journal": "World neurosurgery",
+      "doi": "10.1016/j.wneu.2018.11.187",
+      "pmid": "30500594",
+      "citations": 29
+    },
+    {
+      "title": "Use of robot-guided stereotactic placement of intracerebral electrodes for investigation of focal epilepsy: initial experience in the UK",
+      "url": "https://doi.org/10.3109/02688697.2013.798859",
+      "year": 2013,
+      "journal": "British journal of neurosurgery",
+      "doi": "10.3109/02688697.2013.798859",
+      "pmid": "23808680",
+      "citations": 27
+    },
+    {
+      "title": "Frameless robot-assisted pallidal deep brain stimulation surgery in pediatric patients with movement disorders: precision and short-term clinical results",
+      "url": "https://doi.org/10.3171/2018.5.peds1814",
+      "year": 2018,
+      "journal": "Journal of neurosurgery. Pediatrics",
+      "doi": "10.3171/2018.5.peds1814",
+      "pmid": "30028274",
+      "citations": 26
+    },
+    {
+      "title": "Robot-assisted stereotactic brainstem biopsy in children: prospective cohort study",
+      "url": "https://doi.org/10.1007/s11701-018-0899-x",
+      "year": 2019,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-018-0899-x",
+      "pmid": "30523502",
+      "citations": 22
+    },
+    {
+      "title": "Frameless robot-assisted stereotactic biopsies for lesions of the brainstem-a series of 103 consecutive biopsies",
+      "url": "https://doi.org/10.1007/s11060-022-03952-6",
+      "year": 2022,
+      "journal": "Journal of neuro-oncology",
+      "doi": "10.1007/s11060-022-03952-6",
+      "pmid": "35083580",
+      "citations": 19
+    }
   ]
 }

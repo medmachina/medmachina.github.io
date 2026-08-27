@@ -211,5 +211,43 @@
       "product_code": "OLO",
       "panel": "NE"
     }
+  ],
+  "publications": [
+    {
+      "title": "Improved Accuracy of Component Positioning with Robotic-Assisted Unicompartmental Knee Arthroplasty: Data from a Prospective, Randomized Controlled Study",
+      "url": "https://doi.org/10.2106/jbjs.15.00664",
+      "year": 2016,
+      "journal": "The Journal of bone and joint surgery. American volume",
+      "doi": "10.2106/jbjs.15.00664",
+      "pmid": "27098321",
+      "citations": 219
+    },
+    {
+      "title": "MAKO CT-based robotic arm-assisted system is a reliable procedure for total knee arthroplasty: a systematic review",
+      "url": "https://doi.org/10.1007/s00167-020-06283-z",
+      "year": 2021,
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "doi": "10.1007/s00167-020-06283-z",
+      "pmid": "32975626",
+      "citations": 142
+    },
+    {
+      "title": "Accuracy of Bone Resection in MAKO Total Knee Robotic-Assisted Surgery",
+      "url": "https://doi.org/10.1055/s-0039-1700570",
+      "year": 2021,
+      "journal": "The journal of knee surgery",
+      "doi": "10.1055/s-0039-1700570",
+      "pmid": "31694057",
+      "citations": 111
+    },
+    {
+      "title": "The MAKO robotic-arm knee arthroplasty system",
+      "url": "https://doi.org/10.1007/s00402-021-04208-0",
+      "year": 2021,
+      "journal": "Archives of orthopaedic and trauma surgery",
+      "doi": "10.1007/s00402-021-04208-0",
+      "pmid": "34757462",
+      "citations": 67
+    }
   ]
 }

@@ -244,7 +244,8 @@ const filteredItems = computed(() => {
   <header class="d-flex align-items-center justify-content-between px-0 py-2 mb-3 border-bottom">
     <div class="d-flex align-items-center">
       <h1 class="mb-0 me-4">Robots</h1>
-      <router-link to="/companies" class="btn btn-outline-primary">Companies</router-link>
+      <router-link to="/companies" class="btn btn-outline-primary me-2">Companies</router-link>
+      <router-link to="/publications" class="btn btn-outline-primary">Publications</router-link>
     </div>
     <router-link to="/" style="display: flex; align-items: center; text-decoration: none;">
       <img src="/text-logo.svg" alt="medmachina logo" class="global-logo" />

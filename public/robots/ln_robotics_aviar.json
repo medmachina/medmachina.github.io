@@ -38,5 +38,16 @@
   ],
   "usages": [
     "Spine"
+  ],
+  "publications": [
+    {
+      "title": "Safety and Feasibility of Robot-Assisted Percutaneous Coronary Intervention Using the AVIAR 2.0 System: A Prospective, Multi-Center, Single-Arm, Open, Investigator-Initiated, Post-Approval Clinical Trial",
+      "url": "https://doi.org/10.4070/kcj.2024.0226",
+      "year": 2025,
+      "journal": "Korean circulation journal",
+      "doi": "10.4070/kcj.2024.0226",
+      "pmid": "39733457",
+      "citations": 1
+    }
   ]
 }

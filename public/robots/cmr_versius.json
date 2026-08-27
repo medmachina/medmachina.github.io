@@ -72,5 +72,70 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Usability assessment of Versius, a new robot-assisted surgical device for use in minimal access surgery",
+      "url": "https://doi.org/10.1136/bmjsit-2019-000028",
+      "year": 2020,
+      "journal": "BMJ surgery, interventions, & health technologies",
+      "doi": "10.1136/bmjsit-2019-000028",
+      "pmid": "35047788",
+      "citations": 44
+    },
+    {
+      "title": "Transition from da Vinci to Versius robotic surgical system: initial experience and outcomes of over 100 consecutive procedures",
+      "url": "https://doi.org/10.1007/s11701-022-01422-9",
+      "year": 2023,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-022-01422-9",
+      "pmid": "35752748",
+      "citations": 40
+    },
+    {
+      "title": "Using end-user feedback to optimize the design of the Versius Surgical System, a new robot-assisted device for use in minimal access surgery",
+      "url": "https://doi.org/10.1136/bmjsit-2019-000019",
+      "year": 2019,
+      "journal": "BMJ surgery, interventions, & health technologies",
+      "doi": "10.1136/bmjsit-2019-000019",
+      "pmid": "35047780",
+      "citations": 40
+    },
+    {
+      "title": "Interim safety analysis of the first-in-human clinical trial of the Versius surgical system, a new robot-assisted device for use in minimal access surgery",
+      "url": "https://doi.org/10.1007/s00464-020-08014-4",
+      "year": 2021,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-020-08014-4",
+      "pmid": "32989548",
+      "citations": 39
+    },
+    {
+      "title": "Preclinical evaluation of the versius surgical system, a new robot-assisted surgical device for use in minimal access general and colorectal procedures",
+      "url": "https://doi.org/10.1007/s00464-020-07622-4",
+      "year": 2021,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-020-07622-4",
+      "pmid": "32405893",
+      "citations": 38
+    },
+    {
+      "title": "Safe Implementation of a Next-Generation Surgical Robot: First Analysis of 2,083 Cases in the Versius Surgical Registry",
+      "url": "https://doi.org/10.1097/sla.0000000000005871",
+      "year": 2023,
+      "journal": "Annals of surgery",
+      "doi": "10.1097/sla.0000000000005871",
+      "pmid": "37036097",
+      "citations": 30
+    },
+    {
+      "title": "An Early Prospective Clinical Study to Evaluate the Safety and Performance of the Versius Surgical System in Robot-Assisted Cholecystectomy",
+      "url": "https://doi.org/10.1097/sla.0000000000005410",
+      "year": 2023,
+      "journal": "Annals of surgery",
+      "doi": "10.1097/sla.0000000000005410",
+      "pmid": "35170538",
+      "citations": 24
+    }
   ]
 }

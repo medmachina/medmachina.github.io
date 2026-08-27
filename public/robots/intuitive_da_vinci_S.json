@@ -98,5 +98,61 @@
       "product_code": "NAY",
       "panel": "GU"
     }
+  ],
+  "publications": [
+    {
+      "title": "Robotic thyroid surgery using a gasless, transaxillary approach and the da Vinci S system: the operative outcomes of 338 consecutive patients",
+      "url": "https://doi.org/10.1016/j.surg.2009.09.007",
+      "year": 2009,
+      "journal": "Surgery",
+      "doi": "10.1016/j.surg.2009.09.007",
+      "pmid": "19879615",
+      "citations": 296
+    },
+    {
+      "title": "Robotic single-port transumbilical surgery in humans: initial report",
+      "url": "https://doi.org/10.1111/j.1464-410x.2008.07949.x",
+      "year": 2009,
+      "journal": "BJU international",
+      "doi": "10.1111/j.1464-410x.2008.07949.x",
+      "pmid": "18778353",
+      "citations": 213
+    },
+    {
+      "title": "Robotic versus laparoscopic total mesorectal excision for rectal cancer: a comparative analysis of oncological safety and short-term outcomes",
+      "url": "https://doi.org/10.1007/s00464-010-1134-7",
+      "year": 2010,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-010-1134-7",
+      "pmid": "20526623",
+      "citations": 182
+    },
+    {
+      "title": "Initial experience with robot-assisted modified radical neck dissection for the management of thyroid carcinoma with lateral neck node metastasis",
+      "url": "https://doi.org/10.1016/j.surg.2010.09.016",
+      "year": 2010,
+      "journal": "Surgery",
+      "doi": "10.1016/j.surg.2010.09.016",
+      "pmid": "21134554",
+      "citations": 124
+    },
+    {
+      "title": "The virtual reality simulator dV-Trainer(\u00ae) is a valid assessment tool for robotic surgical skills",
+      "url": "https://doi.org/10.1007/s00464-012-2237-0",
+      "year": 2012,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-012-2237-0",
+      "pmid": "22476836",
+      "citations": 116
+    },
+    {
+      "title": "\"Chopstick\" surgery: a novel technique improves surgeon performance and eliminates arm collision in robotic single-incision laparoscopic surgery",
+      "url": "https://doi.org/10.1007/s00464-009-0769-8",
+      "year": 2010,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-009-0769-8",
+      "pmid": "20033723",
+      "citations": 74
+    }
   ]
 }

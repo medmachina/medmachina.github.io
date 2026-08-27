@@ -58,5 +58,43 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "Expanding Surgical Frontiers Across the Pacific Ocean: Insights from the First Telesurgery Procedures Connecting Orlando with Shanghai in Animal Models",
+      "url": "https://doi.org/10.1016/j.euros.2024.09.009",
+      "year": 2024,
+      "journal": "European urology open science",
+      "doi": "10.1016/j.euros.2024.09.009",
+      "pmid": "39502103",
+      "citations": 22
+    },
+    {
+      "title": "The era of telesurgery: insights from ultra-long-distance Asia to Middle East human telesurgery robotic assisted radical prostatectomy",
+      "url": "https://doi.org/10.1007/s11701-025-02274-9",
+      "year": 2025,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-025-02274-9",
+      "pmid": "40064737",
+      "citations": 19
+    },
+    {
+      "title": "Comparison of lobectomy performed through Toumai<sup>\u00ae</sup> surgical robot and da Vinci surgical robot in early-stage non-small cell lung cancer: a retrospective study of early perioperative results",
+      "url": "https://doi.org/10.21037/tlcr-23-603",
+      "year": 2023,
+      "journal": "Translational lung cancer research",
+      "doi": "10.21037/tlcr-23-603",
+      "pmid": "38090510",
+      "citations": 11
+    },
+    {
+      "title": "Comparison of efficacy between the da Vinci surgical system and Toumai\u00ae robotic surgical systems for robot-assisted radical prostatectomy and robot-assisted partial nephrectomy",
+      "url": "https://doi.org/10.1016/j.ejso.2025.110426",
+      "year": 2025,
+      "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+      "doi": "10.1016/j.ejso.2025.110426",
+      "pmid": "40966817",
+      "citations": 9
+    }
   ]
 }

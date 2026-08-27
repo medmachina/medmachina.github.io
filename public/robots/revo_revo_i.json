@@ -51,5 +51,43 @@
       "url": "https://www.youtube.com/watch?v=9uEmDVvZoTM",
       "title": "The First Korean Laparoscopic Surgical Robot, Revo-i"
     }
+  ],
+  "publications": [
+    {
+      "title": "Robotic surgery: new robots and finally some real competition!",
+      "url": "https://doi.org/10.1007/s00345-018-2213-y",
+      "year": 2018,
+      "journal": "World journal of urology",
+      "doi": "10.1007/s00345-018-2213-y",
+      "pmid": "29427003",
+      "citations": 80
+    },
+    {
+      "title": "Retzius-sparing robot-assisted radical prostatectomy using the Revo-i robotic surgical system: surgical technique and results of the first human trial",
+      "url": "https://doi.org/10.1111/bju.14245",
+      "year": 2018,
+      "journal": "BJU international",
+      "doi": "10.1111/bju.14245",
+      "pmid": "29645348",
+      "citations": 65
+    },
+    {
+      "title": "Robotic cholecystectomy using Revo-i Model MSR-5000, the newly developed Korean robotic surgical system: a preclinical study",
+      "url": "https://doi.org/10.1007/s00464-016-5357-0",
+      "year": 2017,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-016-5357-0",
+      "pmid": "27873012",
+      "citations": 19
+    },
+    {
+      "title": "Cholecystectomy using the Revo-i robotic surgical system from Korea: the first clinical study",
+      "url": "https://doi.org/10.1007/s13304-020-00877-5",
+      "year": 2021,
+      "journal": "Updates in surgery",
+      "doi": "10.1007/s13304-020-00877-5",
+      "pmid": "32936390",
+      "citations": 18
+    }
   ]
 }

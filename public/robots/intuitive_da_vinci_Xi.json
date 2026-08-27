@@ -265,5 +265,16 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "The da Vinci Xi: a review of its capabilities, versatility, and potential role in robotic colorectal surgery",
+      "url": "https://doi.org/10.2147/rsrr.s119317",
+      "year": 2017,
+      "journal": "Robotic surgery (Auckland)",
+      "doi": "10.2147/rsrr.s119317",
+      "pmid": "30697566",
+      "citations": 59
+    }
   ]
 }

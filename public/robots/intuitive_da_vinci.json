@@ -198,5 +198,97 @@
       "product_code": "GCJ",
       "panel": "GU"
     }
+  ],
+  "publications": [
+    {
+      "title": "Robotics in general surgery: personal experience in a large community hospital",
+      "url": "https://doi.org/10.1001/archsurg.138.7.777",
+      "year": 2003,
+      "journal": "Archives of surgery (Chicago, Ill. : 1960)",
+      "doi": "10.1001/archsurg.138.7.777",
+      "pmid": "12860761",
+      "citations": 752
+    },
+    {
+      "title": "Transoral robotic surgery (TORS) for base of tongue neoplasms",
+      "url": "https://doi.org/10.1097/01.mlg.0000227184.90514.1a",
+      "year": 2006,
+      "journal": "The Laryngoscope",
+      "doi": "10.1097/01.mlg.0000227184.90514.1a",
+      "pmid": "16885755",
+      "citations": 453
+    },
+    {
+      "title": "Successful transfer of open surgical skills to a laparoscopic environment using a robotic interface: initial experience with laparoscopic radical prostatectomy",
+      "url": "https://doi.org/10.1097/01.ju.0000092881.24608.5e",
+      "year": 2003,
+      "journal": "The Journal of urology",
+      "doi": "10.1097/01.ju.0000092881.24608.5e",
+      "pmid": "14532766",
+      "citations": 438
+    },
+    {
+      "title": "Nerve-sparing robot-assisted radical cystoprostatectomy and urinary diversion",
+      "url": "https://doi.org/10.1046/j.1464-410x.2003.04329.x",
+      "year": 2003,
+      "journal": "BJU international",
+      "doi": "10.1046/j.1464-410x.2003.04329.x",
+      "pmid": "12887473",
+      "citations": 405
+    },
+    {
+      "title": "Systematic review and cumulative analysis of perioperative outcomes and complications after robot-assisted radical cystectomy",
+      "url": "https://doi.org/10.1016/j.eururo.2014.12.007",
+      "year": 2015,
+      "journal": "European urology",
+      "doi": "10.1016/j.eururo.2014.12.007",
+      "pmid": "25560798",
+      "citations": 320
+    },
+    {
+      "title": "Telerobotic-assisted laparoscopic right and sigmoid colectomies for benign disease",
+      "url": "https://doi.org/10.1007/s10350-004-7261-2",
+      "year": 2002,
+      "journal": "Diseases of the colon and rectum",
+      "doi": "10.1007/s10350-004-7261-2",
+      "pmid": "12473897",
+      "citations": 320
+    },
+    {
+      "title": "Robotic versus laparoscopic low anterior resection of rectal cancer: short-term outcome of a prospective comparative study",
+      "url": "https://doi.org/10.1245/s10434-009-0435-3",
+      "year": 2009,
+      "journal": "Annals of surgical oncology",
+      "doi": "10.1245/s10434-009-0435-3",
+      "pmid": "19290486",
+      "citations": 301
+    },
+    {
+      "title": "Efficacy of the Da Vinci surgical system in abdominal surgery compared with that of laparoscopy: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1097/sla.0b013e3181e6239e",
+      "year": 2010,
+      "journal": "Annals of surgery",
+      "doi": "10.1097/sla.0b013e3181e6239e",
+      "pmid": "20622659",
+      "citations": 243
+    },
+    {
+      "title": "Transoral robotic surgery: supraglottic partial laryngectomy",
+      "url": "https://doi.org/10.1177/000348940711600104",
+      "year": 2007,
+      "journal": "The Annals of otology, rhinology, and laryngology",
+      "doi": "10.1177/000348940711600104",
+      "pmid": "17305273",
+      "citations": 236
+    },
+    {
+      "title": "Robotic and laparoscopic surgery for treatment of colorectal diseases",
+      "url": "https://doi.org/10.1007/s10350-004-0711-z",
+      "year": 2004,
+      "journal": "Diseases of the colon and rectum",
+      "doi": "10.1007/s10350-004-0711-z",
+      "pmid": "15657669",
+      "citations": 233
+    }
   ]
 }

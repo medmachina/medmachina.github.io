@@ -250,5 +250,97 @@
       "product_code": "",
       "panel": ""
     }
+  ],
+  "publications": [
+    {
+      "title": "A novel robotic system for single-port urologic surgery: first clinical investigation",
+      "url": "https://doi.org/10.1016/j.eururo.2014.06.039",
+      "year": 2014,
+      "journal": "European urology",
+      "doi": "10.1016/j.eururo.2014.06.039",
+      "pmid": "25041850",
+      "citations": 185
+    },
+    {
+      "title": "Single-port robotic surgery: the next generation of minimally invasive urology",
+      "url": "https://doi.org/10.1007/s00345-019-02898-1",
+      "year": 2020,
+      "journal": "World journal of urology",
+      "doi": "10.1007/s00345-019-02898-1",
+      "pmid": "31463560",
+      "citations": 101
+    },
+    {
+      "title": "Initial Experience with da Vinci Single-port Robot-assisted Radical Prostatectomies",
+      "url": "https://doi.org/10.1016/j.eururo.2019.04.001",
+      "year": 2020,
+      "journal": "European urology",
+      "doi": "10.1016/j.eururo.2019.04.001",
+      "pmid": "31010600",
+      "citations": 88
+    },
+    {
+      "title": "A Comparison of Perioperative Outcomes Between Single-port and Multiport Robot-assisted Laparoscopic Prostatectomy",
+      "url": "https://doi.org/10.1016/j.eururo.2020.03.031",
+      "year": 2020,
+      "journal": "European urology",
+      "doi": "10.1016/j.eururo.2020.03.031",
+      "pmid": "32279904",
+      "citations": 80
+    },
+    {
+      "title": "Single-Port Robot-Assisted Radical Prostatectomy: First Clinical Experience Using The SP Surgical System",
+      "url": "https://doi.org/10.1016/j.urology.2018.10.025",
+      "year": 2019,
+      "journal": "Urology",
+      "doi": "10.1016/j.urology.2018.10.025",
+      "pmid": "30367924",
+      "citations": 74
+    },
+    {
+      "title": "Single-port Robotic Surgery Allows Same-day Discharge in Majority of Cases",
+      "url": "https://doi.org/10.1016/j.urology.2020.08.092",
+      "year": 2021,
+      "journal": "Urology",
+      "doi": "10.1016/j.urology.2020.08.092",
+      "pmid": "33217457",
+      "citations": 67
+    },
+    {
+      "title": "Comparing the Approach to Radical Prostatectomy Using the Multiport da Vinci Xi and da Vinci SP Robots: A Propensity Score Analysis of Perioperative Outcomes",
+      "url": "https://doi.org/10.1016/j.eururo.2020.11.042",
+      "year": 2021,
+      "journal": "European urology",
+      "doi": "10.1016/j.eururo.2020.11.042",
+      "pmid": "33357994",
+      "citations": 64
+    },
+    {
+      "title": "Safety and Feasibility of Single-Port Robotic-Assisted Nipple-Sparing Mastectomy",
+      "url": "https://doi.org/10.1001/jamasurg.2023.6999",
+      "year": 2024,
+      "journal": "JAMA surgery",
+      "doi": "10.1001/jamasurg.2023.6999",
+      "pmid": "38231502",
+      "citations": 54
+    },
+    {
+      "title": "Pure Single-Site Robot-Assisted Partial Nephrectomy Using the SP Surgical System: Initial Clinical Experience",
+      "url": "https://doi.org/10.1016/j.urology.2018.11.024",
+      "year": 2019,
+      "journal": "Urology",
+      "doi": "10.1016/j.urology.2018.11.024",
+      "pmid": "30472258",
+      "citations": 52
+    },
+    {
+      "title": "Single Port Transvesical Robotic Radical Prostatectomy: Initial Clinical Experience and Description of Technique",
+      "url": "https://doi.org/10.1016/j.urology.2021.05.022",
+      "year": 2021,
+      "journal": "Urology",
+      "doi": "10.1016/j.urology.2021.05.022",
+      "pmid": "34038749",
+      "citations": 51
+    }
   ]
 }

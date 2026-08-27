@@ -142,6 +142,25 @@
         </div>
       </div>
 
+      <!-- Key Publications card -->
+      <div v-if="projectPublications.length > 0" class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title h5 mb-3">Publications</h2>
+          <ul class="list-group list-group-flush">
+            <li v-for="(pub, index) in projectPublications" :key="index" class="list-group-item bg-transparent px-0 py-2 border-bottom">
+              <a :href="pub.url" target="_blank" rel="noopener noreferrer" class="fw-semibold text-decoration-none">
+                {{ pub.title }}
+              </a>
+              <div class="small text-muted mt-1">
+                <span v-if="pub.journal"><em>{{ pub.journal }}</em></span>
+                <span v-if="pub.year"> ({{ pub.year }})</span>
+                <span v-if="pub.citations" class="badge bg-secondary ms-2">{{ pub.citations }} citations</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <!-- Links card -->
       <div v-if="projectUrls.length > 0" class="card mb-4">
         <div class="card-body">
@@ -251,6 +270,11 @@ onMounted(async () => {
       jsonLd
     });
   }
+});
+
+const projectPublications = computed(() => {
+  if (!project.value?.publications) return [];
+  return Array.isArray(project.value.publications) ? project.value.publications : [];
 });
 
 const unitsDeployedInfo = computed(() => {

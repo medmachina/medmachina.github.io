@@ -90,5 +90,61 @@
       "product_code": "NAY",
       "panel": "GU"
     }
+  ],
+  "publications": [
+    {
+      "title": "Face, content and construct validity of a novel robotic surgery simulator",
+      "url": "https://doi.org/10.1016/j.juro.2011.04.064",
+      "year": 2011,
+      "journal": "The Journal of urology",
+      "doi": "10.1016/j.juro.2011.04.064",
+      "pmid": "21784469",
+      "citations": 144
+    },
+    {
+      "title": "Near infrared fluorescence imaging with robotic assisted laparoscopic partial nephrectomy: initial clinical experience for renal cortical tumors",
+      "url": "https://doi.org/10.1016/j.juro.2011.02.2701",
+      "year": 2011,
+      "journal": "The Journal of urology",
+      "doi": "10.1016/j.juro.2011.02.2701",
+      "pmid": "21571337",
+      "citations": 110
+    },
+    {
+      "title": "Indocyanine green for intraoperative localization of ureter",
+      "url": "https://doi.org/10.1016/j.ajog.2014.05.017",
+      "year": 2014,
+      "journal": "American journal of obstetrics and gynecology",
+      "doi": "10.1016/j.ajog.2014.05.017",
+      "pmid": "24835212",
+      "citations": 99
+    },
+    {
+      "title": "Novel use of indocyanine green for intraoperative, real-time localization of ureteral stenosis during robot-assisted ureteroureterostomy",
+      "url": "https://doi.org/10.1016/j.urology.2013.05.032",
+      "year": 2013,
+      "journal": "Urology",
+      "doi": "10.1016/j.urology.2013.05.032",
+      "pmid": "23987169",
+      "citations": 66
+    },
+    {
+      "title": "Intraoperative localization of the parathyroid glands with indocyanine green and Firefly(R) technology during BABA robotic thyroidectomy",
+      "url": "https://doi.org/10.1007/s00464-016-5330-y",
+      "year": 2017,
+      "journal": "Surgical endoscopy",
+      "doi": "10.1007/s00464-016-5330-y",
+      "pmid": "27864717",
+      "citations": 59
+    },
+    {
+      "title": "An experimental study about haptic feedback in robotic surgery: may visual feedback substitute tactile feedback?",
+      "url": "https://doi.org/10.1007/s11701-015-0541-0",
+      "year": 2016,
+      "journal": "Journal of robotic surgery",
+      "doi": "10.1007/s11701-015-0541-0",
+      "pmid": "26559538",
+      "citations": 52
+    }
   ]
 }
