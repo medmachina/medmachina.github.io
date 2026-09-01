@@ -15,6 +15,10 @@
     {
       "caption": "eCential Robotics on MedMachina",
       "url": "https://medmachina.github.io/robot/ecential_robotics_platform"
+    },
+    {
+      "caption": "Andromeda Beacon on MedMachina",
+      "url": "https://medmachina.github.io/robot/andromeda_beacon"
     }
   ],
   "photos": [
