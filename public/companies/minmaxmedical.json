@@ -1,0 +1,33 @@
+{
+  "id": "minmaxmedical",
+  "name": "MinMaxMedical",
+  "country": "France",
+  "founded_year": "2008",
+  "employee_count": "50-100",
+  "description": "MinMaxMedical (MMM) is a medical technology company based in Saint-Martin-d'Hères and Apprieu, France. Founded in 2008 by Stéphane Lavallée, MMM conducts R&D in computer-assisted surgery, surgical navigation, and sensors, including the Gemtrack miniature radiofrequency tracking technology acquired by DePuy Synthes / Johnson & Johnson for the VELYS platform. In coordination with the Haventure startup accelerator, MMM develops underlying technologies for early-stage surgical device ventures.",
+  "urls": [
+    {
+      "caption": "MinMaxMedical",
+      "url": "https://www.minmaxmedical.com/"
+    },
+    {
+      "caption": "MathWorks Story: Real-Time Model-Based Design for Surgical Robotics",
+      "url": "https://www.mathworks.com/company/mathworks-stories/real-time-model-based-design-for-surgical-robotics.html"
+    },
+    {
+      "caption": "DePuy Synthes Gemtrack Technology Agreement",
+      "url": "https://www.jnj.com/media-center/press-releases/depuy-synthes-announces-agreement-to-acquire-miniature-radiofrequency-tracking-technology-across-its-joint-reconstruction-portfolio"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/minmaxmedical/",
+  "opencorporates_url": "https://opencorporates.com/companies/fr/508333101",
+  "robots": [],
+  "patents": {
+    "assignee_names": [
+      "MinMaxMedical",
+      "MinMax Medical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=MinMaxMedical",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22MinMaxMedical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
