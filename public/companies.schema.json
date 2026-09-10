@@ -39,6 +39,12 @@
         "uniqueItems": true,
         "description": "List of robot IDs associated with the company. Allowed characters: letters, digits, underscore, period, ampersand."
       },
+      "subsidiaries": {
+        "type": "array",
+        "items": {"type": "string"},
+        "uniqueItems": true,
+        "description": "List of subsidiary companies, acquired brands, or alternative applicant names used in regulatory filings."
+      },
       "patents": {
         "type": "object",
         "properties": {

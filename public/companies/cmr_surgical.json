@@ -13,6 +13,9 @@
   "robots": [
     "cmr_versius"
   ],
+  "subsidiaries": [
+    "CMR"
+  ],
   "description": "CMR Surgical is based in Cambridge, UK.",
   "employee_count": "500-1000",
   "patents": {

@@ -210,14 +210,28 @@ def save_field_pub(paper):
         json.dump(pubs, f, indent=2)
     print(f"✓ Added '{paper['title'][:50]}...' to field-wide publications ({FIELD_PUBS_FILE})")
 
-def curate_robot(robot_path, blacklist):
+def load_robot_company_map():
+    comp_files = glob.glob(os.path.join(PUBLIC_DIR, "companies", "*.json"))
+    robot_to_company = {}
+    for cf in comp_files:
+        try:
+            with open(cf, "r", encoding="utf-8") as f:
+                cdata = json.load(f)
+                c_name = cdata.get("name")
+                for r_id in cdata.get("robots", []):
+                    robot_to_company[r_id] = c_name
+        except Exception:
+            pass
+    return robot_to_company
+
+def curate_robot(robot_path, blacklist, robot_company_map=None):
     with open(robot_path, "r", encoding="utf-8") as f:
         robot_data = json.load(f)
 
     robot_name = robot_data.get("name", "")
     robot_id = robot_data.get("id", os.path.splitext(os.path.basename(robot_path))[0])
-    company_name = robot_data.get("company", {}).get("name") if isinstance(robot_data.get("company"), dict) else None
-    other_names = robot_data.get("other_names", [])
+    company_name = robot_company_map.get(robot_id) if robot_company_map else None
+    other_names = robot_data.get("also_known_as", [])
 
     # Load field-wide publications
     field_pubs = load_field_pubs()
@@ -325,6 +339,7 @@ def curate_robot(robot_path, blacklist):
 
 def main():
     blacklist = load_blacklist()
+    robot_company_map = load_robot_company_map()
     
     target_robot = None
     if len(sys.argv) > 1:
@@ -336,7 +351,7 @@ def main():
         r_id = os.path.splitext(os.path.basename(r_file))[0]
         if target_robot and target_robot not in (r_id, r_file):
             continue
-        curate_robot(r_file, blacklist)
+        curate_robot(r_file, blacklist, robot_company_map)
 
 if __name__ == "__main__":
     main()

@@ -13,6 +13,11 @@
   "robots": [
     "zimmer_rosa"
   ],
+  "subsidiaries": [
+    "ROSA",
+    "Medtech",
+    "OrthoSoft"
+  ],
   "description": "Zimmer Biomet is based in Warsaw, Indiana, USA.",
   "employee_count": "1000+",
   "patents": {

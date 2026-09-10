@@ -31,42 +31,16 @@ COMPANIES_FILE = REPO_ROOT / "public" / "companies.json"
 
 LENS_API_URL = "https://api.lens.org/patent/search"
 
-# -----------------------------------------------------------------------------
-# Known assignee name overrides for companies whose legal patent-filing name
-# differs from their display name in companies.json
-# Add entries here when Google Patents / Lens returns 0 results for the company name.
-# -----------------------------------------------------------------------------
-ASSIGNEE_OVERRIDES = {
-    "Intuitive":         ["Intuitive Surgical Operations", "Intuitive Surgical"],
-    "J&J MedTech":       ["Ethicon", "DePuy Synthes", "Johnson & Johnson"],
-    "Stryker":           ["Stryker Corporation", "Stryker"],
-    "Medtronic":         ["Medtronic", "Mazor Robotics"],
-    "CMR Surgical":      ["CMR Surgical"],
-    "Zimmer Biomet":     ["Zimmer Biomet", "Biomet"],
-    "Think Surgical":    ["Think Surgical"],
-    "Renishaw":          ["Renishaw"],
-    "Vicarious Surgical":["Vicarious Surgical"],
-    "Momentis Surgical": ["Momentis Surgical"],
-    "Moon Surgical":     ["Moon Surgical"],
-    "Distal Motion":     ["Distal Motion", "DistalMotion"],
-    "Avatera Medical":   ["Avatera Medical"],
-    "Microsure":         ["Microsure"],
-    "MMI":               ["Medical Microinstruments", "MMI"],
-    "Haply Robotics":    ["Haply Robotics"],
-    "Asensus Surgical":  ["Asensus Surgical", "TransEnterix"],
-    "ISS":               ["Integrated Surgical Systems"],
-    "Kinova":            ["Kinova", "Kinova Robotics"],
-    "KUKA":              ["KUKA", "KUKA Roboter"],
-    "Stäubli":           ["Staubli", "Stäubli"],
-    "LEM Surgical":      ["LEM Surgical"],
-    "Neocis":            ["Neocis"],
-}
-
-
 def get_assignee_names(company: dict) -> list[str]:
-    """Return list of patent assignee name(s) to use for this company."""
+    """Return list of patent assignee name(s) to use for this company.
+    Prefers assignee_names already defined in the company's JSON;
+    falls back to [company name].
+    """
+    existing = company.get("patents", {}).get("assignee_names")
+    if existing:
+        return existing
     name = company.get("name", "")
-    return ASSIGNEE_OVERRIDES.get(name, [name])
+    return [name] if name else []
 
 
 def build_google_patents_url(assignee_names: list[str]) -> str:

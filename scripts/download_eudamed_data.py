@@ -153,7 +153,7 @@ def search_beudamed_scraping(search_term: str, max_pages: int = 3) -> List[Dict[
             
     return devices
 
-def is_relevant_match(search_names: List[str], device_data: Dict, company_name: Optional[str], excludes: List[str] = []) -> Optional[str]:
+def is_relevant_match(search_names: List[str], device_data: Dict, company_name: Optional[str], excludes: List[str] = [], subsidiaries: List[str] = []) -> Optional[str]:
     """
     Determine if a EUDAMED device is a relevant match for a robot.
     """
@@ -195,23 +195,9 @@ def is_relevant_match(search_names: List[str], device_data: Dict, company_name: 
         if company_clean in manufacturer or (len(first_word) > 3 and first_word in manufacturer):
             return best_matching_string
             
-        # Check subsidiary map
-        subsidiary_map = {
-            "johnson & johnson": ["auris", "ethicon", "verb", "monarch", "depuy", "synthes"],
-            "medtronic": ["mazor", "covidien"],
-            "stryker": ["mako", "orthosoft"],
-            "zimmer": ["rosa", "medtech", "orthosoft"],
-            "smith & nephew": ["blue belt", "navio"],
-            "cmr surgical": ["cmr"],
-            "intuitive": ["intuitive"],
-            "accray": ["accray", "cyberknife", "zapping"]
-        }
-        
-        for parent, subs in subsidiary_map.items():
-            if parent in company_clean:
-                for sub in subs:
-                    if sub in manufacturer:
-                        return best_matching_string
+        for sub in subsidiaries:
+            if sub.lower().strip() in manufacturer:
+                return best_matching_string
         
         return None
     
@@ -232,7 +218,7 @@ def main():
     rid_to_company = {}
     for c in companies:
         for rid in c.get('robots', []):
-            rid_to_company[rid] = c['name']
+            rid_to_company[rid] = c
     
     # Collect all devices
     all_devices = []
@@ -281,7 +267,9 @@ def main():
         
         for robot in robots:
             rid = robot.get('id')
-            company = rid_to_company.get(rid, "")
+            comp = rid_to_company.get(rid, {})
+            company_name = comp.get('name', '')
+            subsidiaries = comp.get('subsidiaries', [])
             
             excludes = robot.get('excludes_from_automated_searches', [])
             excludes_clean = [e.lower().strip() for e in excludes]
@@ -289,7 +277,7 @@ def main():
             search_names = [robot['name']] + robot.get('also_known_as', [])
             search_names = [sn for sn in search_names if sn.lower().strip() not in excludes_clean]
             
-            match_string = is_relevant_match(search_names, device, company, excludes)
+            match_string = is_relevant_match(search_names, device, company_name, excludes, subsidiaries)
             if match_string:
                 if len(match_string) > best_match_len:
                     best_match_len = len(match_string)

@@ -14,6 +14,10 @@
     "medtronic_hugo_ras",
     "medtronic_mazor"
   ],
+  "subsidiaries": [
+    "Mazor",
+    "Covidien"
+  ],
   "description": "Medtronic is a company with operational headquarters in Minneapolis, Minnesota, USA and legal headquarters in Ireland.",
   "employee_count": "1000+",
   "patents": {

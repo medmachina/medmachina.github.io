@@ -1,0 +1,25 @@
+{
+  "id": "panda_surgical",
+  "name": "Panda Surgical",
+  "country": "United Kingdom",
+  "founded_year": "2022",
+  "employee_count": "10-50",
+  "urls": [
+    {
+      "caption": "Panda Surgical",
+      "url": "https://www.panda-surgical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/panda-surgical/",
+  "opencorporates_url": "https://opencorporates.com/companies/gb/14356593",
+  "robots": [],
+  "description": "Panda Surgical is a University College London (UCL) spinout based in London, UK. Founded in 2022, the company is developing a handheld robotic platform with 3mm articulated wristed instruments and AI guidance software for minimally invasive neurosurgery.",
+  "patents": {
+    "assignee_names": [
+      "Panda Surgical",
+      "Panda Surgical Limited"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Panda+Surgical",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Panda%20Surgical%22%20OR%20applicant%3A%22Panda%20Surgical%20Limited%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

@@ -14,5 +14,8 @@
   "linkedin_url": "https://www.linkedin.com/company/accuray/",
   "robots": [
     "accuray_cyberknife"
+  ],
+  "subsidiaries": [
+    "CyberKnife"
   ]
 }

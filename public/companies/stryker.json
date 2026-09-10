@@ -13,6 +13,10 @@
   "robots": [
     "stryker_mako"
   ],
+  "subsidiaries": [
+    "Mako",
+    "OrthoSoft"
+  ],
   "description": "Stryker is based in Kalamazoo, Michigan, USA.",
   "employee_count": "1000+",
   "patents": {

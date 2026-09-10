@@ -19,6 +19,14 @@
     "j&j_monarch",
     "j&j_velys"
   ],
+  "subsidiaries": [
+    "Auris",
+    "Ethicon",
+    "Verb Surgical",
+    "Monarch",
+    "DePuy",
+    "Synthes"
+  ],
   "description": "Johnson & Johnson MedTech is a US-based company.",
   "employee_count": "1000+",
   "patents": {

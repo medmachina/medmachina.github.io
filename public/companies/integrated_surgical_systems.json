@@ -16,6 +16,10 @@
   "robots": [
     "iss_robodoc"
   ],
+  "subsidiaries": [
+    "Curexo",
+    "Think Surgical"
+  ],
   "description": "Integrated Surgical Systems (ISS) was based in Sacramento, California. Its RoboDoc system was an early robotic assistant for orthopedic surgery, particularly total hip replacement.",
   "employee_count": null,
   "patents": {

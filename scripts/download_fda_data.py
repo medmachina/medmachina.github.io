@@ -127,7 +127,7 @@ def save_regulatory_json(regulatory_data: Dict[str, List[Dict[str, Any]]]):
     subprocess.run(["python3", "scripts/build_robots.py"], check=False)
 
 
-def is_relevant_match(search_names: List[str], device_name: str, applicant: str, company_name: Optional[str], product_code: str, excludes: List[str] = []) -> Optional[str]:
+def is_relevant_match(search_names: List[str], device_name: str, applicant: str, company_name: Optional[str], product_code: str, excludes: List[str] = [], subsidiaries: List[str] = []) -> Optional[str]:
     """Determine if an FDA record is a relevant match for a robot.
     
     Returns the matching string if found and relevant, else None.
@@ -177,27 +177,10 @@ def is_relevant_match(search_names: List[str], device_name: str, applicant: str,
         if company_clean in applicant_clean or (len(first_word) > 3 and first_word in applicant_clean):
             company_matched = True
         else:
-            # Specific subsidiary/acquisition mapping
-            subsidiary_map = {
-                "johnson & johnson": ["auris", "ethicon", "verb surgical", "monarch", "depuy", "synthes"],
-                "j&j": ["auris", "ethicon", "verb surgical", "monarch", "depuy", "synthes"],
-                "medtronic": ["mazor", "covidien"],
-                "stryker": ["mako", "orthosoft"],
-                "zimmer": ["rosa", "medtech", "orthosoft"],
-                "smith & nephew": ["blue belt", "navio"],
-                "asensus": ["transenterix"],
-                "intuitive": ["intuitive"],
-                "mmi": ["medical microinstruments"],
-                "integrated surgical systems": ["curexo", "think surgical"]
-            }
-            
-            for parent, subs in subsidiary_map.items():
-                if parent in company_clean:
-                    for sub in subs:
-                        if sub in applicant_clean:
-                            company_matched = True
-                            break
-                if company_matched: break
+            for sub in subsidiaries:
+                if sub.lower().strip() in applicant_clean:
+                    company_matched = True
+                    break
         
         if not company_matched:
             return None
@@ -256,7 +239,7 @@ def main():
     rid_to_company = {}
     for c in companies:
         for rid in c.get('robots', []):
-            rid_to_company[rid] = c['name']
+            rid_to_company[rid] = c
 
     # Pre-calculate existing entries from regulatory.json
     id_to_existing_reg = {} # (robot_id, reg_id) -> entry
@@ -284,7 +267,9 @@ def main():
         
         for robot in robots:
             rid = robot.get('id')
-            company = rid_to_company.get(rid, "")
+            comp = rid_to_company.get(rid, {})
+            company_name = comp.get('name', '')
+            subsidiaries = comp.get('subsidiaries', [])
             
             # Filter out names that should be excluded from search_names
             # but also pass excludes to is_relevant_match for substring rejection
@@ -295,7 +280,7 @@ def main():
             # Also filter search_names themselves if they are in excludes
             search_names = [sn for sn in search_names if sn.lower().strip() not in excludes_clean]
             
-            match_string = is_relevant_match(search_names, rec['device_name'], rec['applicant'], company, rec['product_code'], excludes)
+            match_string = is_relevant_match(search_names, rec['device_name'], rec['applicant'], company_name, rec['product_code'], excludes, subsidiaries)
             if match_string:
                 if len(match_string) > best_match_len:
                     best_match_len = len(match_string)
