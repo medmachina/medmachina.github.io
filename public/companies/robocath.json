@@ -1,0 +1,31 @@
+{
+  "id": "robocath",
+  "name": "Robocath",
+  "country": "France",
+  "description": "Robocath is a French medical robotics company founded in 2009 by radiologist Dr. Philippe Bencteux and headquartered in Rouen, Normandy. The company designs and commercializes robotic-assisted systems for endovascular intervention, notably the R-One and R-One+ platforms for percutaneous coronary intervention (PCI). In 2020, Robocath established the CathBot joint venture with MicroPort MedBot for development and commercialization in China, and in 2024 it entered into an acquisition agreement with Stereotaxis to broaden its robotic endovascular presence.",
+  "founded_year": "2009",
+  "employee_count": "50-200",
+  "urls": [
+    {
+      "caption": "Robocath Official Website",
+      "url": "https://www.robocath.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/robocath/",
+  "robots": [
+    "robocath_r_one"
+  ],
+  "subsidiaries": [
+    "Robocath SAS",
+    "CathBot",
+    "Stereotaxis"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Robocath",
+      "Robocath SAS"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Robocath%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Robocath%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

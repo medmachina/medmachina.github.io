@@ -1,0 +1,66 @@
+{
+  "id": "robocath_r_one",
+  "name": "R-One",
+  "also_known_as": [
+    "R-One+",
+    "R-One System",
+    "R-One+ System",
+    "CathBot"
+  ],
+  "introduction_year": 2019,
+  "description": "The R-One (and second-generation R-One+) is a robotic-assisted vascular interventional system developed by French medtech company Robocath (acquired by Stereotaxis). Engineered for percutaneous coronary intervention (PCI), R-One enables interventional cardiologists to navigate and deliver guidewires, stent catheters, and angioplasty balloons with sub-millimeter axial translation and rotation from a mobile, radiation-shielded control console using joysticks and touchscreens. The bedside robotic unit attaches to the operating table and drives a sterile single-use cassette (R-Box / R-3C), protecting operators from ionizing radiation and orthopedic fatigue by reducing radiation exposure by over 84% without compromising procedure speed or technical success. R-One received European CE mark approval in 2019 and Chinese NMPA approval through the CathBot joint venture with MicroPort MedBot, with safety and clinical efficacy validated in the multicenter European R-EVOLUTION trial.",
+  "urls": [
+    {
+      "caption": "Robocath Official Website",
+      "url": "https://www.robocath.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.robocath.com/wp-content/uploads/2020/07/salle2.1204.png",
+      "site": "https://www.robocath.com"
+    },
+    {
+      "url": "https://www.robocath.com/wp-content/uploads/2023/05/Plan_Joystick_B.jpg",
+      "site": "https://www.robocath.com"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=Svd88YN0BXQ",
+      "title": "Robocath: Innovation in Interventional Cardiology"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2k8WR7eE81c",
+      "title": "Robocath - First Telerobotic Procedure in Europe"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Open console",
+    "Catheter",
+    "X-Ray"
+  ],
+  "usages": [
+    "Endovascular",
+    "Cardiovascular"
+  ],
+  "regulatory": [
+    {
+      "body": "CE",
+      "year": 2019,
+      "url": "https://www.robocath.com"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Evaluation of the R-One robotic system for percutaneous coronary intervention: the R-EVOLUTION study",
+      "url": "https://doi.org/10.4244/EIJ-D-22-00642",
+      "year": 2023,
+      "journal": "EuroIntervention",
+      "doi": "10.4244/EIJ-D-22-00642",
+      "pmid": "36602883"
+    }
+  ]
+}
