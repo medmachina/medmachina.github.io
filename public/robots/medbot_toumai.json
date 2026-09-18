@@ -79,7 +79,7 @@
       "citations": 19
     },
     {
-      "title": "Comparison of lobectomy performed through Toumai<sup>\u00ae</sup> surgical robot and da Vinci surgical robot in early-stage non-small cell lung cancer: a retrospective study of early perioperative results",
+      "title": "Comparison of lobectomy performed through Toumai<sup>®</sup> surgical robot and da Vinci surgical robot in early-stage non-small cell lung cancer: a retrospective study of early perioperative results",
       "url": "https://doi.org/10.21037/tlcr-23-603",
       "year": 2023,
       "journal": "Translational lung cancer research",
@@ -88,7 +88,7 @@
       "citations": 11
     },
     {
-      "title": "Comparison of efficacy between the da Vinci surgical system and Toumai\u00ae robotic surgical systems for robot-assisted radical prostatectomy and robot-assisted partial nephrectomy",
+      "title": "Comparison of efficacy between the da Vinci surgical system and Toumai® robotic surgical systems for robot-assisted radical prostatectomy and robot-assisted partial nephrectomy",
       "url": "https://doi.org/10.1016/j.ejso.2025.110426",
       "year": 2025,
       "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
@@ -96,5 +96,9 @@
       "pmid": "40966817",
       "citations": 9
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 120,
+    "source_url": "http://www.medbotsurgical.com/en/"
+  }
 }

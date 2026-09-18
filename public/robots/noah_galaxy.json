@@ -40,5 +40,9 @@
       "product_code": "EOQ",
       "panel": "EN"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 60,
+    "source_url": "https://www.noahmed.com/"
+  }
 }

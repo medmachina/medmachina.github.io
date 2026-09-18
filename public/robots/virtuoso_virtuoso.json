@@ -40,5 +40,9 @@
       "url": "https://www.youtube.com/watch?v=emijbWd7ygo",
       "title": "Virtuoso Surgical Technology - Feb 2019"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 6,
+    "source_url": "https://virtuososurgical.net/"
+  }
 }

@@ -38,5 +38,9 @@
       "url": "https://www.youtube.com/watch?v=NUfjaQxjGKA",
       "title": "Enos single port laparoscopic surgical robot"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 6,
+    "source_url": "https://titanmedicalinc.com/"
+  }
 }

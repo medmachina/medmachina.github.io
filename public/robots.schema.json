@@ -34,6 +34,9 @@
         "site": {
           "type": "string",
           "format": "uri"
+        },
+        "caption": {
+          "type": "string"
         }
       },
       "additionalProperties": false
@@ -135,6 +138,27 @@
             "null"
           ],
           "description": "FDA review panel (e.g. Radiology, General & Plastic Surgery)."
+        }
+      },
+      "additionalProperties": false
+    },
+    "UnitsDeployedEntry": {
+      "type": "object",
+      "description": "Information on the number of deployed or installed units worldwide.",
+      "required": [
+        "count"
+      ],
+      "properties": {
+        "count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
         }
       },
       "additionalProperties": false
@@ -497,6 +521,16 @@
         "items": {
           "$ref": "#/$defs/PublicationEntry"
         }
+      },
+      "units_deployed": {
+        "$ref": "#/$defs/UnitsDeployedEntry"
+      },
+      "excludes_from_automated_searches": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of search terms to exclude during automated FDA/EUDAMED searches."
       }
     }
   }

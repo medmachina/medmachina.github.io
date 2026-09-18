@@ -72,5 +72,9 @@
       "product_code": "",
       "panel": ""
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 40,
+    "source_url": "https://www.distalmotion.com/dexter/"
+  }
 }

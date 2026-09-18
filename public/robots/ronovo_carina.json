@@ -45,5 +45,9 @@
       "url": "https://www.youtube.com/watch?v=DXg9dGX4MwM",
       "title": "Ronovo Surgical Carina"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 8,
+    "source_url": "https://www.ronovosurgical.com"
+  }
 }

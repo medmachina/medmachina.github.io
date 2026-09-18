@@ -201,12 +201,12 @@ import { ref, onMounted, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { updateSeo } from '../utils/seo';
 import { getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
+import { getUnitsCategory } from '../utils/unitsDeployed.js';
 
 const route = useRoute();
 const router = useRouter();
 const project = ref(null);
 const companies = ref([]);
-const unitsDeployedMap = ref({});
 const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
 
 // Computed property for project usages
@@ -231,16 +231,6 @@ onMounted(async () => {
   const resCompanies = await fetch('/companies.json');
   const dataCompanies = await resCompanies.json();
   companies.value = dataCompanies;
-
-  // Load units deployed data
-  try {
-    const resUnits = await fetch('/units_deployed.json');
-    if (resUnits.ok) {
-      unitsDeployedMap.value = await resUnits.json();
-    }
-  } catch (e) {
-    console.error('Error fetching units deployed data:', e);
-  }
 
   // Update SEO Meta Tags & Structured Data
   if (project.value) {
@@ -278,8 +268,12 @@ const projectPublications = computed(() => {
 });
 
 const unitsDeployedInfo = computed(() => {
-  if (!project.value || !unitsDeployedMap.value) return null;
-  return unitsDeployedMap.value[project.value.id] || null;
+  const ud = project.value?.units_deployed;
+  if (!ud || ud.count == null) return null;
+  return {
+    ...ud,
+    category: getUnitsCategory(ud.count)
+  };
 });
 
 function goHome() {

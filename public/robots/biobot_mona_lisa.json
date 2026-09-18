@@ -94,5 +94,9 @@
       "pmid": "36427333",
       "citations": 6
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 40,
+    "source_url": "https://biobotmd.com/"
+  }
 }

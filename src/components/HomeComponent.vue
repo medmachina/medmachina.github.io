@@ -12,7 +12,6 @@ const route = useRoute()
 const items = ref([])
 const originalItems = ref([])
 const companies = ref([])
-const unitsDeployedData = ref({})
 const robotsError = ref('')
 const companiesError = ref('')
 const search = ref('')
@@ -65,15 +64,6 @@ onMounted(async () => {
   } catch (err) {
     companiesError.value = `Error loading companies.json: ${err}`
   }
-
-  try {
-    const resUnits = await fetch('/units_deployed.json')
-    if (resUnits.ok) {
-      unitsDeployedData.value = await resUnits.json()
-    }
-  } catch (err) {
-    console.warn('Error loading units_deployed.json:', err)
-  }
 })
 
 function sortAlphabetically() {
@@ -113,26 +103,11 @@ function sortByYear() {
 
 function sortByUnits() {
   sortMode.value = 'units'
-  const categoryRanks = {
-    '1000+': 6,
-    '500-1000': 5,
-    '100-500': 4,
-    '50-100': 3,
-    '10-50': 2,
-    '0-10': 1
-  }
-
   items.value = [...originalItems.value].sort((a, b) => {
-    const dataA = unitsDeployedData.value[a.id]
-    const dataB = unitsDeployedData.value[b.id]
-
-    const countA = dataA?.count ?? 0
-    const countB = dataB?.count ?? 0
+    const countA = a.units_deployed?.count ?? -1
+    const countB = b.units_deployed?.count ?? -1
     if (countA !== countB) return countB - countA
-
-    const rankA = categoryRanks[dataA?.category] || 0
-    const rankB = categoryRanks[dataB?.category] || 0
-    return rankB - rankA
+    return a.name.localeCompare(b.name)
   })
 }
 
@@ -304,7 +279,7 @@ const filteredItems = computed(() => {
         </div>
         <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>
         <div v-if="companiesError" class="alert alert-danger my-3">{{ companiesError }}</div>
-        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" :unitsDeployedData="unitsDeployedData" />
+        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

@@ -89,5 +89,9 @@
       "pmid": "39837659",
       "citations": 1
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 30,
+    "source_url": "https://ecential-robotics.com/"
+  }
 }

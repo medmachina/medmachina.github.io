@@ -106,5 +106,9 @@
       "product_code": "EOQ",
       "panel": "EN"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 750,
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/ion"
+  }
 }

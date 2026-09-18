@@ -47,5 +47,9 @@
       "url": "https://www.youtube.com/watch?v=wC_FfcOVX4Y",
       "title": "The Story of SSI Mantra - India's First Surgical Robotic System"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 65,
+    "source_url": "https://ssinnovations.com/ssi-mantra/"
+  }
 }

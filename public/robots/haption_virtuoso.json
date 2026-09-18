@@ -20,5 +20,9 @@
     "OEM component"
   ],
   "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
-  "also_known_as": []
+  "also_known_as": [],
+  "units_deployed": {
+    "count": 150,
+    "source_url": "https://www.haption.com/"
+  }
 }

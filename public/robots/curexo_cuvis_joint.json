@@ -139,5 +139,9 @@
       "pmid": "38948500",
       "citations": 3
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 110,
+    "source_url": "https://www.curexo.com/"
+  }
 }

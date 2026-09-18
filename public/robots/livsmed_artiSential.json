@@ -31,5 +31,9 @@
   "usages": [
     "Abdominal"
   ],
-  "regulatory": []
+  "regulatory": [],
+  "units_deployed": {
+    "count": 350,
+    "source_url": "http://www.livsmed.com/"
+  }
 }

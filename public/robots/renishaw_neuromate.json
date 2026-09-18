@@ -154,5 +154,9 @@
       "pmid": "35083580",
       "citations": 19
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 80,
+    "source_url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+  }
 }

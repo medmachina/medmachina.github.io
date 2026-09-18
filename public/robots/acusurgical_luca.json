@@ -26,5 +26,9 @@
     "Eye"
   ],
   "description": "Location: Montpellier, France. 2 patient side manipulators.",
-  "also_known_as": []
+  "also_known_as": [],
+  "units_deployed": {
+    "count": 8,
+    "source_url": "https://acusurgical.com/"
+  }
 }

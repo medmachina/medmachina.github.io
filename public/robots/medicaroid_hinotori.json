@@ -44,11 +44,11 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
-      "title": "hinotori\u2122 Robotic Assisted Surgery System"
+      "title": "hinotori™ Robotic Assisted Surgery System"
     },
     {
       "url": "https://www.youtube.com/watch?v=1h17p3GeULM",
-      "title": "An Overview of the hinotori\u2122 Surgical Robot"
+      "title": "An Overview of the hinotori™ Surgical Robot"
     }
   ],
   "regulatory": [
@@ -80,7 +80,7 @@
       "citations": 45
     },
     {
-      "title": "The first report of surgery for gynecological diseases using the hinotori\u2122 surgical robot system",
+      "title": "The first report of surgery for gynecological diseases using the hinotori™ surgical robot system",
       "url": "https://doi.org/10.1093/jjco/hyad105",
       "year": 2023,
       "journal": "Japanese journal of clinical oncology",
@@ -116,7 +116,7 @@
       "citations": 25
     },
     {
-      "title": "First clinical experiences of robotic gastrectomy for gastric cancer using the hinotori\u2122 surgical robot system",
+      "title": "First clinical experiences of robotic gastrectomy for gastric cancer using the hinotori™ surgical robot system",
       "url": "https://doi.org/10.1007/s00464-024-10695-0",
       "year": 2024,
       "journal": "Surgical endoscopy",
@@ -142,5 +142,9 @@
       "pmid": "38410216",
       "citations": 23
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 75,
+    "source_url": "https://www.medicaroid.com"
+  }
 }

@@ -42,5 +42,9 @@
       "url": "https://www.youtube.com/watch?v=B9u7USDozr8",
       "title": "Surgical robot， Medbot ，Microport ，China ，Orthopedic Robot"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 35,
+    "source_url": "http://www.medbotsurgical.com/en/"
+  }
 }

@@ -45,5 +45,9 @@
       "product_code": "",
       "panel": ""
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 10,
+    "source_url": "https://robsurgical.com/"
+  }
 }

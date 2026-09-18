@@ -38,15 +38,15 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=Po6yhlp1-H8",
-      "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani\u00ae Patient Story"
+      "title": "Robotic-Assisted Breast Reconstruction Surgery | DIEP Surgery | A Symani® Patient Story"
     },
     {
       "url": "https://www.youtube.com/watch?v=BcYBOsCFYF8",
-      "title": "Symani\u00ae | Discover the Beauty of Robotic Microsurgery"
+      "title": "Symani® | Discover the Beauty of Robotic Microsurgery"
     },
     {
       "url": "https://www.youtube.com/watch?v=QxXJhChEEdE",
-      "title": "Symani\u00ae | Why Begin a Microsurgical Robotics Program"
+      "title": "Symani® | Why Begin a Microsurgical Robotics Program"
     }
   ],
   "regulatory": [
@@ -131,7 +131,7 @@
       "citations": 36
     },
     {
-      "title": "The Use of the Symani Surgical System\u00ae in Emergency Hand Trauma Care",
+      "title": "The Use of the Symani Surgical System® in Emergency Hand Trauma Care",
       "url": "https://doi.org/10.1177/15533506241262568",
       "year": 2024,
       "journal": "Surgical innovation",
@@ -175,5 +175,9 @@
       "pmid": "38204872",
       "citations": 12
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 45,
+    "source_url": "https://www.mmimicro.com/our-technology/symani-surgical-system/"
+  }
 }

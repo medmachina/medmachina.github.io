@@ -249,5 +249,9 @@
       "pmid": "34757462",
       "citations": 67
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 3000,
+    "source_url": "https://www.stryker.com/us/en/joint-replacement/systems/Mako_SmartRobotics_Overview.html"
+  }
 }

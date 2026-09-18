@@ -50,7 +50,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=AHfkWIitDW4",
-      "title": "Avatera Robot -  Laparoscopie minim invaziv\u0103 -  DrTech.ro"
+      "title": "Avatera Robot -  Laparoscopie minim invazivă -  DrTech.ro"
     },
     {
       "url": "https://www.youtube.com/watch?v=c60jg8KxQOs",
@@ -62,7 +62,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=XVNb1KbkJOU",
-      "title": "hinotori\u2122 Robotic Assisted Surgery System"
+      "title": "hinotori™ Robotic Assisted Surgery System"
     }
   ],
   "regulatory": [
@@ -94,7 +94,7 @@
       "citations": 10
     },
     {
-      "title": "Robot-assisted radical prostatectomy using the avatera system\u2122: a prospective pilot study",
+      "title": "Robot-assisted radical prostatectomy using the avatera system™: a prospective pilot study",
       "url": "https://doi.org/10.23736/s2724-6051.23.05545-3",
       "year": 2024,
       "journal": "Minerva urology and nephrology",
@@ -102,5 +102,9 @@
       "pmid": "38015550",
       "citations": 7
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 10,
+    "source_url": "https://avatera.eu/en/avatera-system"
+  }
 }

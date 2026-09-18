@@ -23,5 +23,9 @@
   ],
   "usages": [],
   "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle.",
-  "also_known_as": []
+  "also_known_as": [],
+  "units_deployed": {
+    "count": 4,
+    "source_url": "https://revolvesurgical.com/"
+  }
 }

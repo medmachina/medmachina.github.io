@@ -137,5 +137,9 @@
       "pmid": "35170538",
       "citations": 24
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 250,
+    "source_url": "https://cmrsurgical.com/versius"
+  }
 }

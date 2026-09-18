@@ -36,7 +36,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=7qOg4KN5xuI",
-      "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA\u00ae Robotic Technology at Humber"
+      "title": "Dr. Sebastian Rodriguez-Elizalde - 1000 Cases Utilizing ROSA® Robotic Technology at Humber"
     }
   ],
   "regulatory": [
@@ -233,5 +233,9 @@
       "pmid": "25575857",
       "citations": 150
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 1400,
+    "source_url": "https://www.zimmerbiomet.com/en/products-and-solutions/rosa-robotics.html"
+  }
 }

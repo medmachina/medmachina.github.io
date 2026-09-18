@@ -38,7 +38,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=yEO4dMWmYro",
-      "title": "1. ROBODOC\u00ae Introduction_Dr. Bargar.wmv"
+      "title": "1. ROBODOC® Introduction_Dr. Bargar.wmv"
     },
     {
       "url": "https://www.youtube.com/watch?v=u4f8BWTliJY",
@@ -99,7 +99,7 @@
       "citations": 62
     },
     {
-      "title": "THINK surgical TSolution-One<sup>\u00ae</sup> (Robodoc) total knee arthroplasty",
+      "title": "THINK surgical TSolution-One<sup>®</sup> (Robodoc) total knee arthroplasty",
       "url": "https://doi.org/10.1051/sicotj/2017052",
       "year": 2017,
       "journal": "SICOT-J",
@@ -116,5 +116,9 @@
       "pmid": "17457823",
       "citations": 34
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 120,
+    "source_url": "https://thinksurgical.com/"
+  }
 }

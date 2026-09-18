@@ -146,5 +146,9 @@
       "pmid": "26559538",
       "citations": 52
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 1500,
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  }
 }

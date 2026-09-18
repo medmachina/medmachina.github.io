@@ -56,7 +56,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=MxIuOdny2cs",
-      "title": "Introducing da Vinci 5: our most advanced and integrated robotic system\u2014ever."
+      "title": "Introducing da Vinci 5: our most advanced and integrated robotic system—ever."
     },
     {
       "url": "https://www.youtube.com/watch?v=V5u1F2jEx-E",
@@ -176,5 +176,9 @@
       "pmid": "42209862",
       "citations": 1
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 350,
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  }
 }

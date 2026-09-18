@@ -51,5 +51,9 @@
       "pmid": "39733457",
       "citations": 1
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 12,
+    "source_url": "https://lnrobotics.com/"
+  }
 }

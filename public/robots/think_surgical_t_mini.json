@@ -32,7 +32,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=L7hEeYn-8UE",
-      "title": "TMINI\u00ae Miniature Robotic System - Hero"
+      "title": "TMINI® Miniature Robotic System - Hero"
     }
   ],
   "regulatory": [
@@ -110,5 +110,9 @@
       "pmid": "42474882",
       "citations": 0
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 35,
+    "source_url": "https://www.thinksurgical.com/"
+  }
 }

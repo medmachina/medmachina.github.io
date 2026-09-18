@@ -85,5 +85,9 @@
       "product_code": "QNM",
       "panel": "SU"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 20,
+    "source_url": "https://www.momentissurgical.com"
+  }
 }

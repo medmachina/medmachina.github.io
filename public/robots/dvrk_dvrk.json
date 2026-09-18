@@ -36,7 +36,7 @@
     "Stereo endoscope"
   ],
   "usages": [],
-  "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human\u2013robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
+  "description": "The da Vinci Research Kit (dVRK) repurposes retired first and second generation da Vinci surgical system hardware (master tool manipulators, patient side manipulators, endoscopic camera manipulator) with an open controller stack, open APIs (C++, Python, MATLAB, ROS1/ROS2) and community-maintained software modules. It enables academic and industrial research in teleoperation, autonomy, advanced perception, reinforcement learning, mixed reality, and human–robot interaction using clinically realistic kinematics, wristed instruments, and stereoscopic vision without being a regulated clinical device. The platform is modular: users can integrate simulators (AMBF, V-REP), mixed reality (dVRK-XR), ML frameworks (dVRL, SurRoL) and custom sensors (force/vision).",
   "also_known_as": [],
   "videos": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "url": "https://www.youtube.com/watch?v=abQcDzeNfQ8",
-      "title": "da Vinci Research Kit (dVRK) \u00d7 MiRI"
+      "title": "da Vinci Research Kit (dVRK) × MiRI"
     }
   ],
   "publications": [
@@ -75,5 +75,9 @@
       "pmid": "30970387",
       "citations": 23
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 45,
+    "source_url": "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+  }
 }

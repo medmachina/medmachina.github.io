@@ -116,5 +116,9 @@
       "pmid": "38591096",
       "citations": 32
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 200,
+    "source_url": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+  }
 }

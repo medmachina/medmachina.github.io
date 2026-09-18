@@ -93,5 +93,9 @@
       "pmid": "38478100",
       "citations": 12
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 25,
+    "source_url": "http://www.surgerii.com/"
+  }
 }

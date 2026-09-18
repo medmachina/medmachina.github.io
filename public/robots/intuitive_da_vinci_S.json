@@ -137,7 +137,7 @@
       "citations": 124
     },
     {
-      "title": "The virtual reality simulator dV-Trainer(\u00ae) is a valid assessment tool for robotic surgical skills",
+      "title": "The virtual reality simulator dV-Trainer(®) is a valid assessment tool for robotic surgical skills",
       "url": "https://doi.org/10.1007/s00464-012-2237-0",
       "year": 2012,
       "journal": "Surgical endoscopy",
@@ -154,5 +154,9 @@
       "pmid": "20033723",
       "citations": 74
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 500,
+    "source_url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  }
 }

@@ -29,10 +29,10 @@
             </template>
             <!-- Units Deployed Badge -->
             <span
-              v-if="getUnitsDeployed(item.id)"
+              v-if="item.units_deployed?.count != null"
               class="badge bg-primary ms-1"
-              :title="getUnitsDeployedTooltip(item.id)"
-            >{{ getUnitsDeployed(item.id).category }}</span>
+              :title="getUnitsDeployedTooltip(item.units_deployed)"
+            >{{ getUnitsCategory(item.units_deployed.count) }}</span>
             <!-- NEW badge for recently added robots -->
             <span
               v-if="isRecentlyAdded(item)"
@@ -52,6 +52,7 @@
 import { useRouter } from 'vue-router';
 import { ref } from 'vue';
 import { getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
+import { getUnitsCategory, getUnitsDeployedTooltip } from '../utils/unitsDeployed.js';
 
 const props = defineProps({
   items: {
@@ -130,19 +131,6 @@ function getUniqueRegulatory(item) {
     seen.add(reg.body);
     return true;
   });
-}
-
-function getUnitsDeployed(robotId) {
-  return props.unitsDeployedData?.[robotId] || null;
-}
-
-function getUnitsDeployedTooltip(robotId) {
-  const data = getUnitsDeployed(robotId);
-  if (!data) return '';
-  if (data.count) {
-    return `${data.category} (~${data.count.toLocaleString()} units deployed)`;
-  }
-  return `${data.category} units deployed`;
 }
 
 const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;

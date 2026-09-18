@@ -51,5 +51,9 @@
       "url": "https://www.youtube.com/watch?v=nixZQUxu5Zg",
       "title": "Vicarious Surgical Inc   Robot"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 5,
+    "source_url": "https://www.vicarioussurgical.com/"
+  }
 }

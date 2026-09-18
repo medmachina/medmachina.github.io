@@ -173,5 +173,9 @@
       "pmid": "33059080",
       "citations": 49
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 450,
+    "source_url": "https://news.medtronic.com/"
+  }
 }

@@ -73,5 +73,9 @@
       "pmid": "40461168",
       "citations": 1
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 15,
+    "source_url": "https://www.cs-robotics.com/"
+  }
 }

@@ -28,7 +28,7 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=BrUcceNKVqc",
-      "title": "Meet Yomi S \u2014 The Next Generation of Robotic Dental Implant Surgery"
+      "title": "Meet Yomi S — The Next Generation of Robotic Dental Implant Surgery"
     },
     {
       "url": "https://www.youtube.com/watch?v=BIfrwNoztzg",
@@ -76,5 +76,9 @@
       "pmid": "39655116",
       "citations": 5
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 150,
+    "source_url": "https://www.neocis.com/products-and-services/yomi-robot/"
+  }
 }

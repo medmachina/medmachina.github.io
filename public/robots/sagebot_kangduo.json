@@ -125,5 +125,9 @@
       "pmid": "36924278",
       "citations": 34
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 80,
+    "source_url": "http://sagebot-medical.com/"
+  }
 }

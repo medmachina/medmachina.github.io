@@ -290,5 +290,9 @@
       "pmid": "15657669",
       "citations": 233
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 300,
+    "source_url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  }
 }

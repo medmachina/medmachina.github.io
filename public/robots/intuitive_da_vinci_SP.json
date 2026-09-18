@@ -342,5 +342,9 @@
       "pmid": "34038749",
       "citations": 51
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 320,
+    "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci/sp"
+  }
 }

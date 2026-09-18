@@ -55,5 +55,9 @@
       "url": "https://www.youtube.com/watch?v=vTsohJ3aP-8",
       "title": "World’s First Clinically Available Microsurgical Robotic System: Super-Microsurgery with Robot Hands"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 12,
+    "source_url": "https://microsure.nl/"
+  }
 }

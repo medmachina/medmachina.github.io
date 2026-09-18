@@ -51,5 +51,9 @@
       "product_code": "OLO",
       "panel": "OR"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 6,
+    "source_url": "https://lemsurgical.com/"
+  }
 }

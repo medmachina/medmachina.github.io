@@ -42,5 +42,9 @@
       "url": "https://www.youtube.com/watch?v=qhsQ50p5K8Q",
       "title": "65% More Accurate: The Science Behind Haptic Surgical Training | Haply Robotics"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 50,
+    "source_url": "https://www.haply.co/inverse3"
+  }
 }

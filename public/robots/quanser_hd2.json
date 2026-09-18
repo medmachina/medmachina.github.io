@@ -29,5 +29,9 @@
       "url": "https://www.youtube.com/watch?v=J5OIiWopb2w",
       "title": "HD2 High Definition Haptic Device: Multi-Domain Haptics, Single Platform"
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 200,
+    "source_url": "https://www.quanser.com/"
+  }
 }

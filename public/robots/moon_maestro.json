@@ -60,5 +60,9 @@
       "product_code": "",
       "panel": ""
     }
-  ]
+  ],
+  "units_deployed": {
+    "count": 25,
+    "source_url": "https://moonsurgical.com/maestro-system"
+  }
 }
