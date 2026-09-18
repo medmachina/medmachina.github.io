@@ -3,35 +3,55 @@
   "name": "Ottava",
   "db_added": "2025-07-30",
   "introduction_year": 2026,
-  "description": "The OTTAVA™ Robotic Surgical System, developed by Johnson & Johnson MedTech, is a soft-tissue robotic surgical platform featuring a table-integrated architecture. Four robotic arms are integrated into the operating table. The platform features wristed instruments and seamless connection to J&J's digital surgery ecosystem. FDA granted De Novo marketing authorization on July 22, 2026 for general surgery procedures",
+  "description": "The OTTAVA™ Robotic Surgical System, developed by Johnson & Johnson MedTech (Auris Health, Inc.), is a soft-tissue robotic surgical platform featuring a table-integrated architecture. Four robotic arms are integrated into the operating table and stow beneath it when not in use, reducing operating room footprint. The platform features Twin Motion™ synchronized table movements, Ethicon-designed wristed instruments (including a two-in-one needle driver), an open console, and integration with J&J's Polyphonic™ digital surgery ecosystem. The U.S. FDA granted De Novo marketing authorization (DEN250068) in July 2026 for general surgery procedures.",
   "urls": [
     {
-      "caption": "Johnson & Johnson MedTech",
-      "url": "https://thenext.jnjmedtech.com/surgical-robotics"
+      "caption": "Johnson & Johnson MedTech - OTTAVA Overview",
+      "url": "https://www.jnjmedtech.com/en-US/products/robotics/ottava-robotic-surgical-system/overview/"
     },
     {
       "caption": "FDA De Novo Authorization Press Release",
       "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system"
+    },
+    {
+      "caption": "The Robot Report - First Look at J&J's Ottava",
+      "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/"
     }
   ],
   "photos": [
     {
-      "url": "https://images.contentstack.io/v3/assets/bltb7c57cef5b058034/bltd1b721f163bc0ba1/65259910fbc4f63a3d9ae4e4/ottava-02.webp",
-      "site": "https://thenext.jnjmedtech.com/surgical-robotics"
+      "url": "https://www.therobotreport.com/wp-content/uploads/2026/07/JNJ-Ottava-table-scaled-1.jpg",
+      "site": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/"
     },
     {
-      "url": "https://img.youtube.com/vi/WgUZmfTjwcs/maxresdefault.jpg",
-      "site": "https://www.youtube.com/watch?v=WgUZmfTjwcs"
+      "url": "https://www.therobotreport.com/wp-content/uploads/2026/07/JNJ-Ottava-arms-stowed.jpg",
+      "site": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/"
     },
     {
-      "url": "https://img.youtube.com/vi/D55AHbRo8Lo/maxresdefault.jpg",
-      "site": "https://www.youtube.com/watch?v=D55AHbRo8Lo"
+      "url": "https://www.therobotreport.com/wp-content/uploads/2026/07/JNJ-Ottava-console-controls.jpg",
+      "site": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/"
+    },
+    {
+      "url": "https://www.therobotreport.com/wp-content/uploads/2026/07/JNJ-Ottava-controls.jpg",
+      "site": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/"
     }
   ],
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=WgUZmfTjwcs",
       "title": "Introducing the OTTAVA Robotic Surgical System | J&J MedTech"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=395ghe8E5CA",
+      "title": "Johnson & Johnson Receives FDA Market Authorization in the U.S. for its OTTAVA™ Robotic Surgical..."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ntkXL7eYum8",
+      "title": "Johnson & Johnson's Ottava Robotic Surgical System (video provided by J&J)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lV1gPV3EQRs",
+      "title": "Ottava table with integrated robotic arms - Close up and personal"
     }
   ],
   "tags": [
@@ -44,7 +64,8 @@
     "Wristed instruments",
     "Stereo endoscope",
     "Mechanical Cartesian manipulation",
-    "Single patient cart"
+    "Open console",
+    "Stereo display"
   ],
   "usages": [
     "Abdominal",
@@ -54,11 +75,11 @@
   "also_known_as": [],
   "regulatory": [
     {
-      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system",
-      "body": "FDA De Novo",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN250068",
+      "body": "FDA denovo",
       "year": 2026,
-      "product_code": "",
-      "panel": ""
+      "product_code": "SIR",
+      "panel": "SU"
     },
     {
       "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-ide-approval-for-ottava-robotic-surgical-system",
