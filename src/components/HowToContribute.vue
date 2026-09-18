@@ -241,14 +241,15 @@ git push origin add-new-robot</code></pre>
           <pre class="bg-dark text-light p-3 rounded"><code>{{ robotSampleJson }}</code></pre>
 
           <h5 class="mt-4">Supported Robot Tags</h5>
-          <p class="small text-muted">Assign tags from the defined schema definitions:</p>
+          <p class="small text-muted">Assign tags from the defined schema definitions (hover for descriptions):</p>
           <div class="d-flex flex-wrap gap-1 mb-3">
-            <span v-for="t in tagList" :key="t" class="badge bg-secondary me-1 mb-1">{{ t }}</span>
+            <span v-for="t in tagList" :key="t.name" class="badge bg-secondary me-1 mb-1" :title="t.description" style="cursor: help;">{{ t.name }}</span>
           </div>
 
           <h5 class="mt-3">Supported Anatomical Usages</h5>
+          <p class="small text-muted">Assign anatomical or clinical applications from the defined schema definitions (hover for descriptions):</p>
           <div class="d-flex flex-wrap gap-1 mb-3">
-            <span v-for="u in usageList" :key="u" class="badge bg-info text-dark me-1 mb-1">{{ u }}</span>
+            <span v-for="u in usageList" :key="u.name" class="badge bg-info text-dark me-1 mb-1" :title="u.description" style="cursor: help;">{{ u.name }}</span>
           </div>
         </div>
 
@@ -282,29 +283,26 @@ git push origin add-new-robot</code></pre>
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import robotsSchema from '../../public/robots.schema.json'
 
 const activeTab = ref<'robot' | 'company'>('robot')
 const copiedRobot = ref(false)
 const copiedCompany = ref(false)
 
-const tagList = [
-  'RAMIS', 'Commercial', 'Teleoperated', 'Multiple ports', '3+ instruments',
-  'Stereo endoscope', 'Mechanical Cartesian manipulation', 'Stereo viewer',
-  'Single patient cart', 'Haptic', 'Wristed instruments', 'Snake-like instruments',
-  'Open surgery', 'Mechanical RCM', 'Retired', 'Orthopedic', 'Multiple patient carts',
-  'Stereo display', 'Haptic device', 'Motorized table', 'Single port', '2 instruments',
-  'Collaborative control', 'Force feedback', 'Mono endoscope', 'Mechanical manipulation',
-  'Open console', 'Research system', 'Software RCM', 'Semi-autonomous', 'Open source',
-  'Open architecture', 'Free hand manipulation', 'Autonomous', 'Simulation',
-  'Flexible robot', 'Open microsurgery', 'Biopsy', 'TRUS', 'Dental', 'Autonomous motion', 'OEM component',
-  'Ultrasound', 'X-Ray', 'Radiation', 'Catheter'
-]
+interface SchemaItem {
+  name: string
+  description?: string
+}
 
-const usageList = [
-  'Abdominal', 'Urological', 'Gynecological', 'Transoral', 'Knee', 'Hip', 'Shoulder',
-  'Lung', 'Bronchoscopy', 'Thoracic', 'Spine', 'Eye', 'Prostate', 'Dental implant',
-  'Neurological', 'Microsurgery', 'Endovascular', 'Neurovascular', 'Cardiovascular'
-]
+const tagList: SchemaItem[] = (robotsSchema.$defs?.Tag?.oneOf || []).map((t: any) => ({
+  name: t.const,
+  description: t.description
+}))
+
+const usageList: SchemaItem[] = (robotsSchema.$defs?.Usage?.oneOf || []).map((u: any) => ({
+  name: u.const,
+  description: u.description
+}))
 
 const robotSampleJson = JSON.stringify({
   id: "company_robotname",
