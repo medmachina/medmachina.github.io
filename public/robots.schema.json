@@ -425,6 +425,14 @@
         "minimum": 1900,
         "maximum": 2100
       },
+      "db_added": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "description": "Date (YYYY-MM-DD) when this robot was added to the database."
+      },
       "description": {
         "type": "string"
       },
