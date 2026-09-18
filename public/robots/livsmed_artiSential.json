@@ -2,36 +2,72 @@
   "id": "livsmed_artiSential",
   "name": "ArtiSential",
   "db_added": "2026-06-03",
-  "introduction_year": 2026,
+  "introduction_year": 2018,
   "also_known_as": [
-    "STARK",
-    "Stark",
-    "ArtiSential Robotic System"
+    "ArtiSential 5",
+    "ArtiSential PRO"
   ],
-  "description": "A laparoscopic surgical robot developed by LivsMed (formerly known as STARK). The system features a modular architecture consisting of two carts, each equipped with two robotic arms (four arms total). It utilizes the 90° articulating multi-joint technology from LivsMed's ArtiSential instrument line, and is designed to support remote telesurgery operations. Long-distance telesurgery has been demonstrated in trials between Santa Barbara and Chicago. As of mid-2026, the system is in a pre-commercial phase with animal clinical trials underway.",
+  "description": "ArtiSential is a pioneering line of handheld articulating laparoscopic surgical instruments developed by South Korean medical device manufacturer LivsMed. Designed to provide robotic-like dexterity without the capital costs, footprint, or complexity of a robotic console, ArtiSential features a multi-jointed wristed end effector that synchronizes mechanically with the surgeon's natural wrist and finger motions with 7 degrees of freedom and up to 90° of articulation. Unlike robotic platforms, ArtiSential is a purely mechanical, handheld laparoscopic instrument that potentially preserves direct tactile and force feedback. The instrument lineup includes articulating bipolar and monopolar dissectors, fenestrated forceps, needle holders, clip appliers, and vessel sealers in both 8 mm and 5 mm (ArtiSential 5) diameters for abdominal, gynecological, thoracic, and urological minimally invasive surgery.",
   "urls": [
     {
-      "caption": "LivsMed",
+      "caption": "LivsMed US",
+      "url": "https://livsmed.us/products/"
+    },
+    {
+      "caption": "LivsMed Global",
+      "url": "https://www.livsmed.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://livsmed.us/wp-content/uploads/ArtiSential-Anatomy-update.png",
+      "site": "https://livsmed.us/products/",
+      "caption": "ArtiSential Mechanical Joint Anatomy"
+    },
+    {
+      "url": "https://livsmed.us/wp-content/uploads/ArtiSential-Approach_01-update.jpg",
+      "site": "https://livsmed.us/",
+      "caption": "Clinical Handheld Manipulation in Minimally Invasive Surgery"
+    },
+    {
+      "url": "https://livsmed.us/wp-content/uploads/5AUF01_mobile.png",
+      "site": "https://livsmed.us/products/",
+      "caption": "ArtiSential 5 mm Wristed End-Effector"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Wristed instruments",
+    "Mechanical manipulation"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "regulatory": [
+    {
+      "body": "MFDS",
+      "year": 2018,
       "url": "https://www.livsmed.com"
     },
     {
-      "caption": "LivsMed US",
-      "url": "https://www.livsmed.us"
+      "body": "CE",
+      "year": 2019,
+      "url": "https://www.livsmed.com"
+    },
+    {
+      "body": "FDA",
+      "year": 2020,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K190909"
+    },
+    {
+      "body": "FDA",
+      "year": 2024,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240657"
     }
   ],
-  "photos": [],
-  "tags": [
-    "RAMIS",
-    "Teleoperated",
-    "Multiple patient carts",
-    "Multiple ports",
-    "3+ instruments",
-    "Wristed instruments"
-  ],
-  "usages": [
-    "Abdominal"
-  ],
-  "regulatory": [],
   "units_deployed": {
     "count": 350,
     "source_url": "http://www.livsmed.com/"
