@@ -14,5 +14,12 @@
   "robots": [
     "andromeda_beacon"
   ],
-  "description": "Andromeda Surgical is a surgical robotics startup founded in 2023 in San Francisco, California. The company develops robotic platforms for endourology, starting with robot-assisted Holmium Laser Enucleation of the Prostate (RoLEP/HoLEP)."
+  "description": "Andromeda Surgical is a surgical robotics startup founded in 2023 in San Francisco, California. The company develops robotic platforms for endourology, starting with robot-assisted Holmium Laser Enucleation of the Prostate (RoLEP/HoLEP).",
+  "patents": {
+    "assignee_names": [
+      "Andromeda Surgical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Andromeda+Surgical%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Andromeda%20Surgical%22&s=_score&d=%2B&p=0&n=50"
+  }
 }

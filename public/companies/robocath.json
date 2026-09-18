@@ -25,7 +25,7 @@
       "Robocath",
       "Robocath SAS"
     ],
-    "google_patents_url": "https://patents.google.com/?assignee=%22Robocath%22",
-    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Robocath%22%29&s=_score&d=%2B&p=0&n=50"
+    "google_patents_url": "https://patents.google.com/?assignee=Robocath",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Robocath%22%20OR%20applicant%3A%22Robocath%20SAS%22%29&s=_score&d=%2B&p=0&n=50"
   }
 }

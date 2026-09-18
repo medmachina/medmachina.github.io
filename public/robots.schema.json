@@ -348,6 +348,18 @@
         {
           "const": "Catheter",
           "description": "Manipulates or drives steerable endovascular or intraluminal catheters, guidewires, or sheath systems."
+        },
+        {
+          "const": "Natural orifice",
+          "description": "Accesses the surgical site through a natural body opening (mouth, anus, urethra, vagina) without external incisions (NOTES/POET)."
+        },
+        {
+          "const": "Add-on system",
+          "description": "A robotic module designed to attach to and augment an existing conventional device (e.g., endoscope), rather than function as a standalone system."
+        },
+        {
+          "const": "Capsule",
+          "description": "Swallowable or micro-scale robotic system designed to be ingested or passed through a natural orifice and navigated from outside."
         }
       ]
     },
@@ -428,6 +440,14 @@
         {
           "const": "Cardiovascular",
           "description": "Surgical or interventional procedures involving the heart, cardiac valves, and coronary arteries."
+        },
+        {
+          "const": "Upper GI",
+          "description": "Endoscopic or surgical procedures targeting the esophagus, stomach, and duodenum (e.g., EGD, ESG, gastric ESD/EMR)."
+        },
+        {
+          "const": "Colorectal",
+          "description": "Endoscopic or surgical procedures targeting the colon, rectum, and anal canal (e.g., colonoscopy, colonic ESD/EMR, colectomy)."
         }
       ]
     }

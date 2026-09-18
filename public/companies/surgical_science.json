@@ -20,7 +20,7 @@
     "assignee_names": [
       "Surgical Science"
     ],
-    "google_patents_url": "https://patents.google.com/?assignee=Surgical+Science",
+    "google_patents_url": "https://patents.google.com/?assignee=%22Surgical+Science%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Surgical%20Science%22&s=_score&d=%2B&p=0&n=50"
   }
 }

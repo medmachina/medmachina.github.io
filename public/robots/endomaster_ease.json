@@ -35,6 +35,7 @@
   ],
   "tags": [
     "Flexible robot",
+    "Natural orifice",
     "Teleoperated",
     "Research system",
     "Haptic",
@@ -45,17 +46,10 @@
     "Single patient cart"
   ],
   "usages": [
-    "Abdominal"
+    "Upper GI",
+    "Colorectal"
   ],
   "publications": [
-    {
-      "title": "Prospective single-arm trial on feasibility and safety of an endoscopic robotic system for colonic endoscopic submucosal dissection",
-      "url": "https://doi.org/10.1055/a-2411-0892",
-      "year": 2025,
-      "journal": "Endoscopy",
-      "doi": "10.1055/a-2411-0892",
-      "pmid": "39242090"
-    },
     {
       "title": "Colonic endoscopic submucosal dissection using a novel robotic system (with video)",
       "url": "https://doi.org/10.1016/j.gie.2020.09.042",

@@ -17,5 +17,12 @@
   ],
   "subsidiaries": [
     "CyberKnife"
-  ]
+  ],
+  "patents": {
+    "assignee_names": [
+      "Accuray"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Accuray",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Accuray%22&s=_score&d=%2B&p=0&n=50"
+  }
 }

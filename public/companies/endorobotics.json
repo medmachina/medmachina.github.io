@@ -1,0 +1,24 @@
+{
+  "id": "endorobotics",
+  "name": "EndoRobotics",
+  "country": "KR",
+  "urls": [
+    {
+      "caption": "Official Website",
+      "url": "https://endorobo.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/endorobotics/",
+  "employee_count": "51-200",
+  "robots": [
+    "endorobotics_robopera"
+  ],
+  "description": "EndoRobotics develops robotic and manual devices for non-invasive endoscopic therapy — ESD, ESG, EMR and endoscopic stitching.",
+  "patents": {
+    "assignee_names": [
+      "EndoRobotics"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=EndoRobotics",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22EndoRobotics%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

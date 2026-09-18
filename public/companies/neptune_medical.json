@@ -1,0 +1,25 @@
+{
+  "id": "neptune_medical",
+  "name": "Neptune Medical",
+  "country": "US",
+  "urls": [
+    {
+      "caption": "Official Website",
+      "url": "https://neptunemedical.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/neptunemedical",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/5903888",
+  "employee_count": "51-200",
+  "robots": [
+    "neptune_triton_1"
+  ],
+  "description": "Neptune Medical is creating the future of endoscopy with our proprietary Dynamic Rigidization technology",
+  "patents": {
+    "assignee_names": [
+      "Neptune Medical"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Neptune+Medical%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Neptune%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

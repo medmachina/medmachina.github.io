@@ -26,7 +26,7 @@
       "Corindus, Inc.",
       "Corindus Inc."
     ],
-    "google_patents_url": "https://patents.google.com/?assignee=%22Corindus%22",
-    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Corindus%22%29&s=_score&d=%2B&p=0&n=50"
+    "google_patents_url": "https://patents.google.com/?assignee=Corindus",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Corindus%22%20OR%20applicant%3A%22Corindus%2C%20Inc.%22%20OR%20applicant%3A%22Corindus%20Inc.%22%29&s=_score&d=%2B&p=0&n=50"
   }
 }

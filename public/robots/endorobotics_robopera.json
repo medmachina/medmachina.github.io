@@ -1,0 +1,48 @@
+{
+  "id": "endorobotics_robopera",
+  "name": "ROBOPERA",
+  "also_known_as": [
+    "Robopera"
+  ],
+  "introduction_year": 2022,
+  "description": "The ROBOPERA system by EndoRobotics (Seoul, South Korea) is a modular, add-on robotic platform for therapeutic gastrointestinal endoscopy. Unlike standalone surgical robots, ROBOPERA attaches to conventional diagnostic endoscopes to transform them into advanced surgical platforms, and can be detached after a procedure to restore the scope to standard diagnostic use. The system provides multi-degree-of-freedom control via four antagonistic cable motions, enabling triangulation and improved tissue manipulation not achievable with standard tools. Its dual-controller interface accommodates both the surgeon and an assistant for cooperative control. Supported procedures include ESD (Endoscopic Submucosal Dissection), ESG (Endoscopic Sleeve Gastroplasty), EMR (Endoscopic Mucosal Resection), and endoscopic suturing. In May 2026, Olympus Corporation signed an exclusive global distribution agreement to include ROBOPERA and its accessories (TraCloser traction device, RollingStitch suturing instrument) in its EndoTherapy portfolio.",
+  "urls": [
+    {
+      "caption": "EndoRobotics Official Website",
+      "url": "https://endorobo.com"
+    },
+    {
+      "caption": "Olympus Partnership Announcement",
+      "url": "https://www.olympusamerica.com"
+    }
+  ],
+  "tags": [
+    "Add-on system",
+    "Flexible robot",
+    "Natural orifice",
+    "Teleoperated",
+    "Open console",
+    "2 instruments",
+    "Wristed instruments"
+  ],
+  "usages": [
+    "Upper GI",
+    "Colorectal"
+  ],
+  "publications": [
+    {
+      "title": "A novel robotic arm-assisted endoscopic submucosal dissection platform with augmented traction for gastric neoplasms: a first-in-human prospective pilot study",
+      "url": "https://doi.org/10.1016/j.gie.2025.09.012",
+      "year": 2026,
+      "journal": "Gastrointestinal Endoscopy",
+      "doi": "10.1016/j.gie.2025.09.012"
+    },
+    {
+      "title": "Development of a Coaxial Over-the-Scope Bimanual Robot Enabling Lesion-Aligned Manipulation for ESD",
+      "url": "https://doi.org/10.1002/rcs.70179",
+      "year": 2026,
+      "journal": "The International Journal of Medical Robotics and Computer Assisted Surgery",
+      "doi": "10.1002/rcs.70179"
+    }
+  ]
+}

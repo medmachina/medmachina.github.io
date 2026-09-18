@@ -1,0 +1,54 @@
+{
+  "id": "neptune_triton_1",
+  "name": "Triton 1",
+  "also_known_as": [
+    "Triton 1 System",
+    "Triton Robotic Endoscopy System"
+  ],
+  "introduction_year": 2026,
+  "description": "The Triton 1 System by Neptune Medical is a robotic endoscopy platform purpose-built for flexible colonoscopy. Designed to overcome the ergonomic and control limitations of conventional manual scopes, it provides the endoscopist with increased precision, stability, and maneuverability throughout the colon. The system received FDA 510(k) clearance in September 2026 for diagnostic and therapeutic procedures including screening, surveillance, endoscopic mucosal resection (EMR), and endoscopic submucosal dissection (ESD).",
+  "urls": [
+    {
+      "caption": "Official Product Website",
+      "url": "https://tritonroboticendoscopy.com"
+    },
+    {
+      "caption": "Neptune Medical Corporate Website",
+      "url": "https://neptunemedical.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://tritonroboticendoscopy.com/wp-content/uploads/2026/04/triton-social-card.jpg",
+      "site": "https://tritonroboticendoscopy.com"
+    }
+  ],
+  "regulatory": [
+    {
+      "body": "FDA 510k",
+      "year": 2026,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260503",
+      "last_verified": "2026-09-18"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Flexible robot",
+    "Natural orifice",
+    "Teleoperated",
+    "Mono endoscope",
+    "Single patient cart"
+  ],
+  "usages": [
+    "Colorectal"
+  ],
+  "publications": [
+    {
+      "title": "979b Colonoscopy with a robotic endoscope (CARE) study: 50-patient first-in-human experience using a novel robotic colonoscopy system (Triton)",
+      "url": "https://doi.org/10.1016/S0016-5107(26)06679-4",
+      "year": 2026,
+      "journal": "Gastrointestinal Endoscopy",
+      "doi": "10.1016/S0016-5107(26)06679-4"
+    }
+  ]
+}
