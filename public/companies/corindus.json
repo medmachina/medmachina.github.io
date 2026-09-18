@@ -1,0 +1,32 @@
+{
+  "id": "corindus",
+  "name": "Corindus Vascular Robotics",
+  "country": "United States",
+  "description": "Corindus Vascular Robotics (formerly Corindus, Inc., acquired by Siemens Healthineers in 2019 for $1.1 billion) was a medical device company that pioneered robotic-assisted endovascular interventions. Founded in 2002 by Rafael Beyar and Tal Wenderow in Israel and later based in Waltham, Massachusetts, Corindus engineered the CorPath 200 and CorPath GRX systems to bring robotic precision to percutaneous coronary and peripheral vascular procedures while protecting operators from occupational radiation exposure.",
+  "founded_year": "2002",
+  "employee_count": "100-250",
+  "urls": [
+    {
+      "caption": "Siemens Healthineers Website",
+      "url": "https://www.siemens-healthineers.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/corindus-vascular-robotics/",
+  "robots": [
+    "corindus_corpath"
+  ],
+  "subsidiaries": [
+    "Corindus, Inc.",
+    "Corindus Inc.",
+    "Siemens Healthineers"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Corindus",
+      "Corindus, Inc.",
+      "Corindus Inc."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Corindus%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Corindus%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

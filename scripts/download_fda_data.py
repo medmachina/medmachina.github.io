@@ -20,7 +20,7 @@ ROBOTIC_PRODUCT_CODES = {
     "NAY", "OAY", "PQC", "BWS", "LLZ", "NUV", "SCV", "NEQ", "PLV",
     "EOQ", "QNW", "HAW", "HSX", "PSQ", "OLO", "SDD", "QNM",
     "OJP", "IYO", "GCJ", "SAQ", "NQT", "PBF", "PNH", "OYC",
-    "IYE", "MUJ", "IWB", "SIW"
+    "IYE", "MUJ", "IWB", "SIW", "DXX", "JAK", "OXO", "QZB", "SAB"
 }
 
 def download_and_extract_zip(url: str, extract_to: str = "tmp_fda", force: bool = False):

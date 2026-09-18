@@ -320,6 +320,10 @@
         {
           "const": "Radiation",
           "description": "Delivers or utilizes targeted ionizing radiation for radiation therapy or stereotactic radiosurgery."
+        },
+        {
+          "const": "Catheter",
+          "description": "Manipulates or drives steerable endovascular or intraluminal catheters, guidewires, or sheath systems."
         }
       ]
     },
@@ -388,6 +392,18 @@
         {
           "const": "Microsurgery",
           "description": "Delicate open microsurgical procedures on small anatomical structures (vessels, nerves, lymphatics)."
+        },
+        {
+          "const": "Endovascular",
+          "description": "Catheter-based and wire-guided interventional procedures within blood vessels (e.g., coronary, peripheral, aortic)."
+        },
+        {
+          "const": "Neurovascular",
+          "description": "Catheter-based or interventional procedures within cerebral and intracranial vasculature (e.g., stroke thrombectomy, aneurysm embolization)."
+        },
+        {
+          "const": "Cardiovascular",
+          "description": "Surgical or interventional procedures involving the heart, cardiac valves, and coronary arteries."
         }
       ]
     }

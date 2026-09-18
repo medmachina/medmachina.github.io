@@ -296,13 +296,14 @@ const tagList = [
   'Collaborative control', 'Force feedback', 'Mono endoscope', 'Mechanical manipulation',
   'Open console', 'Research system', 'Software RCM', 'Semi-autonomous', 'Open source',
   'Open architecture', 'Free hand manipulation', 'Autonomous', 'Simulation',
-  'Flexible robot', 'Open microsurgery', 'Biopsy', 'TRUS', 'Dental', 'Autonomous motion', 'OEM component'
+  'Flexible robot', 'Open microsurgery', 'Biopsy', 'TRUS', 'Dental', 'Autonomous motion', 'OEM component',
+  'Ultrasound', 'X-Ray', 'Radiation', 'Catheter'
 ]
 
 const usageList = [
   'Abdominal', 'Urological', 'Gynecological', 'Transoral', 'Knee', 'Hip', 'Shoulder',
   'Lung', 'Bronchoscopy', 'Thoracic', 'Spine', 'Eye', 'Prostate', 'Dental implant',
-  'Neurological', 'Microsurgery'
+  'Neurological', 'Microsurgery', 'Endovascular', 'Neurovascular', 'Cardiovascular'
 ]
 
 const robotSampleJson = JSON.stringify({

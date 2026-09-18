@@ -1,0 +1,134 @@
+{
+  "id": "corindus_corpath",
+  "name": "CorPath GRX",
+  "also_known_as": [
+    "GRX",
+    "CorPath",
+    "CorPath 200",
+    "CorPath System",
+    "CorPath GRX System"
+  ],
+  "introduction_year": 2016,
+  "description": "The CorPath GRX System is a second-generation robotic-assisted endovascular platform developed by Corindus Vascular Robotics (acquired by Siemens Healthineers in 2019). The system enables interventional cardiologists and radiologists to precisely navigate and manipulate guidewires, guide catheters, and rapid-exchange coronary and peripheral devices (balloons and stents) from a radiation-shielded interventional cockpit using joysticks and touchscreen controls. The bedside articulated robotic arm mounts a sterile single-use drive cassette that delivers sub-millimeter axial advancement and active rotational guidance while reducing operator radiation exposure. In 2018, CorPath GRX was utilized to perform the world's first long-distance remote tele-robotic percutaneous coronary intervention (tele-PCI) over an internet connection across a 20-mile distance. In May 2023, Siemens Healthineers announced the discontinuation of commercial sales in the cardiovascular market to redirect robotic development toward neurovascular interventions.",
+  "urls": [
+    {
+      "caption": "Siemens Healthineers Website",
+      "url": "https://www.siemens-healthineers.com"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://healthcare-in-europe.com/media/story_section_text/16573/image-01-robotics-angio-robotic-siemens2_hires.jpg",
+      "site": "https://healthcare-in-europe.com/en/news/angio-robotic-suite-in-mainz.html"
+    },
+    {
+      "url": "https://www.therobotreport.com/wp-content/uploads/2019/11/Extended-Reach_Arm_HR-1-1024x523.jpg",
+      "site": "https://www.therobotreport.com/corindus-launches-extended-reach-arm-for-corpath-grx-surgical-robot/"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Open console",
+    "Semi-autonomous",
+    "X-Ray",
+    "Catheter",
+    "Retired"
+  ],
+  "usages": [
+    "Endovascular",
+    "Cardiovascular",
+    "Neurovascular"
+  ],
+  "publications": [
+    {
+      "title": "Long Distance Tele-Robotic-Assisted Percutaneous Coronary Intervention: A World First in Human Experience",
+      "url": "https://doi.org/10.1016/j.eclinm.2019.07.017",
+      "year": 2019,
+      "journal": "EClinicalMedicine",
+      "doi": "10.1016/j.eclinm.2019.07.017",
+      "pmid": "31709405"
+    },
+    {
+      "title": "Safety and Feasibility of Robotic Percutaneous Coronary Intervention: PRECISE (Percutaneous Robotically-Enhanced Coronary Intervention) Study",
+      "url": "https://doi.org/10.1016/j.jacc.2012.12.045",
+      "year": 2013,
+      "journal": "Journal of the American College of Cardiology",
+      "doi": "10.1016/j.jacc.2012.12.045",
+      "pmid": "23500287"
+    },
+    {
+      "title": "First-in-human evaluation of a next-generation robotic-assisted percutaneous coronary intervention system with active guide catheter control",
+      "url": "https://doi.org/10.1002/ccd.27415",
+      "year": 2018,
+      "journal": "Catheterization and Cardiovascular Interventions",
+      "doi": "10.1002/ccd.27415",
+      "pmid": "29194951"
+    }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K120834",
+      "body": "FDA 510k",
+      "year": 2012,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150892",
+      "body": "FDA 510k",
+      "year": 2015,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152999",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K160121",
+      "body": "FDA 510k",
+      "year": 2016,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173288",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173806",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180517",
+      "body": "FDA 510k",
+      "year": 2018,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202275",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K221464",
+      "body": "FDA 510k",
+      "year": 2022,
+      "product_code": "DXX",
+      "panel": "CV"
+    }
+  ]
+}

@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/contribute</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -81,6 +81,12 @@
   <url>
     <loc>https://medmachina.github.io/robot/computer_motion_zeus</loc>
     <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/robot/corindus_corpath</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -284,7 +290,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/ln_robotics_aviar</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -549,6 +555,12 @@
   <url>
     <loc>https://medmachina.github.io/company/Computer%20Motion</loc>
     <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Corindus%20Vascular%20Robotics</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

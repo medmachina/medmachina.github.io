@@ -46,6 +46,8 @@ def get_assignee_names(company: dict) -> list[str]:
 def build_google_patents_url(assignee_names: list[str]) -> str:
     """Build a Google Patents search URL for the given assignee name(s)."""
     primary = assignee_names[0]
+    if any(c in primary for c in (',', ' ', '.')) and not (primary.startswith('"') and primary.endswith('"')):
+        primary = f'"{primary}"'
     return "https://patents.google.com/?assignee=" + urllib.parse.quote_plus(primary)
 
 

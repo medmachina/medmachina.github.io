@@ -34,10 +34,12 @@
   ],
   "tags": [
     "Commercial",
-    "Teleoperated"
+    "Teleoperated",
+    "Catheter"
   ],
   "usages": [
-    "Spine"
+    "Endovascular",
+    "Cardiovascular"
   ],
   "publications": [
     {
