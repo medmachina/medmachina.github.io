@@ -145,11 +145,11 @@ function getUnitsDeployedTooltip(robotId) {
   return `${data.category} units deployed`;
 }
 
-const SIX_MONTHS_MS = 6 * 30 * 24 * 60 * 60 * 1000;
+const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;
 function isRecentlyAdded(item) {
   if (!item.db_added) return false;
   const addedDate = new Date(item.db_added);
-  return (Date.now() - addedDate.getTime()) < SIX_MONTHS_MS;
+  return (Date.now() - addedDate.getTime()) < ONE_MONTH_MS;
 }
 </script>
 
