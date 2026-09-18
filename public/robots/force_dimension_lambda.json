@@ -5,8 +5,16 @@
   "introduction_year": 2025,
   "urls": [
     {
-      "caption": "Force Dimensiom",
+      "caption": "Force Dimension Official Website",
       "url": "https://www.forcedimension.com"
+    },
+    {
+      "caption": "Force Dimension lambda.7 Product Page",
+      "url": "https://www.forcedimension.com/products/lambda"
+    },
+    {
+      "caption": "RIVERFIELD Saroa (surgical system integrating Lambda)",
+      "url": "https://medmachina.github.io/robot/riverfield_saroa"
     }
   ],
   "photos": [
@@ -23,6 +31,9 @@
     "Haptic device",
     "OEM component"
   ],
-  "description": "Haptic devices using parallel platform for position, gripper is motorized, up to 7 dofs motorized.",
-  "also_known_as": []
+  "description": "Haptic devices using a parallel kinematics platform for position and a motorized active wrist/gripper providing up to 7 active DOFs with force and torque feedback. Designed for OEM integration into surgical consoles and bimanual workstations, such as the RIVERFIELD Saroa surgical system.",
+  "also_known_as": [
+    "lambda.7",
+    "lambda 7"
+  ]
 }

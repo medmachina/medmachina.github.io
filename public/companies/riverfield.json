@@ -1,0 +1,25 @@
+{
+  "id": "riverfield",
+  "name": "RIVERFIELD",
+  "country": "Japan",
+  "description": "RIVERFIELD Inc. is a Japanese medical robotics venture founded in 2014 from research at the Tokyo Institute of Technology and Tokyo Medical and Dental University. The company specializes in pneumatic-driven surgical assist robots featuring real-time haptic force feedback.",
+  "founded_year": "2014",
+  "employee_count": "50-200",
+  "urls": [
+    {
+      "caption": "RIVERFIELD Official Website",
+      "url": "https://riverfieldinc.com/en/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/riverfieldinc/",
+  "robots": [
+    "riverfield_saroa"
+  ],
+  "patents": {
+    "assignee_names": [
+      "RIVERFIELD Inc."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Riverfield+Inc.",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22RIVERFIELD%20Inc.%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

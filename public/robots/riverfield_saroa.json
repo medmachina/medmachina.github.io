@@ -1,0 +1,85 @@
+{
+  "id": "riverfield_saroa",
+  "name": "Saroa",
+  "also_known_as": [
+    "Saroa Surgical System",
+    "RF-SS01"
+  ],
+  "introduction_year": 2023,
+  "description": "The Saroa Surgical System (RF-SS01) is a compact, pneumatically actuated surgical assist robot developed by Japanese venture RIVERFIELD Inc. The Saroa provides tactile force feedback, reproducing tissue resistance to the surgeon's master handles using air pressure control. Designed with three robotic arms (one camera arm and two instrument arms) on a single cart and an open console with a 3D-4K flat monitor. The surgeon console integrates dual Force Dimension lambda.7 master devices for 7-DOF haptic control.",
+  "urls": [
+    {
+      "caption": "RIVERFIELD Saroa Product Page",
+      "url": "https://riverfieldinc.com/en/products/p04/"
+    },
+    {
+      "caption": "Force Dimension Lambda (OEM master device)",
+      "url": "https://medmachina.github.io/robot/force_dimension_lambda"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.riverfieldinc.com/files/img/products/p04/visual.jpg",
+      "site": "https://riverfieldinc.com/en/products/p04/"
+    },
+    {
+      "url": "https://www.riverfieldinc.com/files/img/products/p04/visual_controller.jpg",
+      "site": "https://riverfieldinc.com/en/products/p04/"
+    },
+    {
+      "url": "https://www.riverfieldinc.com/files/img/products/p04/img_safety.jpg",
+      "site": "https://riverfieldinc.com/en/products/p04/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Commercial",
+    "Teleoperated",
+    "Multiple ports",
+    "2 instruments",
+    "Single patient cart",
+    "Haptic",
+    "Force feedback",
+    "Open console",
+    "Stereo display",
+    "Wristed instruments"
+  ],
+  "usages": [
+    "Abdominal",
+    "Urological",
+    "Gynecological",
+    "Thoracic",
+    "Prostate"
+  ],
+  "regulatory": [
+    {
+      "body": "Japan PMDA",
+      "year": 2023,
+      "url": "https://www.info.pmda.go.jp/ysearch/html/menu_tenpu_base.html",
+      "last_verified": "2026-09-17"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Initial experience of a novel surgical assist robot 'Saroa' featuring tactile feedback and a roll-clutch system in radical prostatectomy",
+      "url": "https://doi.org/10.1038/s41598-024-82531-3",
+      "year": 2024,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-024-82531-3"
+    },
+    {
+      "title": "Initial Experience with the Saroa Surgical System in Robot-Assisted Hysterectomy: Evaluation of Feasibility and Haptic Feedback",
+      "url": "https://doi.org/10.3390/medicina61091716",
+      "year": 2025,
+      "journal": "Medicina",
+      "doi": "10.3390/medicina61091716"
+    },
+    {
+      "title": "First clinical experience of robot-assisted inguinal hernia repair using the Saroa Surgical System",
+      "url": "https://doi.org/10.1111/ases.70129",
+      "year": 2025,
+      "journal": "Asian Journal of Endoscopic Surgery",
+      "doi": "10.1111/ases.70129"
+    }
+  ]
+}
