@@ -1,0 +1,26 @@
+{
+  "id": "virtual_incision",
+  "name": "Virtual Incision",
+  "country": "USA",
+  "description": "Virtual Incision Corporation is an American medical robotics company founded in 2006 as a spin-out from the University of Nebraska-Lincoln and the University of Nebraska Medical Center. Headquartered in Lincoln, Nebraska, the company pioneers miniaturized robotic-assisted surgery (miniRAS) designed to transform abdominal surgery without large carts.",
+  "founded_year": "2006",
+  "employee_count": "50-200",
+  "urls": [
+    {
+      "caption": "Virtual Incision Official Website",
+      "url": "https://virtualincision.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/virtual-incision-corporation/",
+  "robots": [
+    "virtual_incision_mira"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Virtual Incision Corp",
+      "Virtual Incision Corporation"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Virtual+Incision+Corporation",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Virtual%20Incision%20Corp%22%20OR%20applicant%3A%22Virtual%20Incision%20Corporation%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

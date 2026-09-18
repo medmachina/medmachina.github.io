@@ -1,0 +1,83 @@
+{
+  "id": "virtual_incision_mira",
+  "name": "MIRA",
+  "also_known_as": [
+    "MIRA Surgical System",
+    "Miniaturized In Vivo Robotic Assistant",
+    "spaceMIRA"
+  ],
+  "introduction_year": 2024,
+  "description": "The MIRA Surgical System (Miniaturized In Vivo Robotic Assistant) is a compact, portable robotic-assisted surgery platform developed by Virtual Incision Corporation. Unlike traditional multi-hundred-kilogram mainframe surgical robots, MIRA is a ~2-pound in-vivo robotic device designed for tray-to-table setup. Inserted through a single small umbilical incision, MIRA achieves internal triangulation with two articulating wristed instrument arms and a central camera, eliminating external robotic arm clashes and enabling multi-quadrant abdominal access. The surgeon console integrates dual Force Dimension sigma.7 parallel-kinematic haptic master controllers for 7-DOF telemanipulation. A modified research variant (spaceMIRA) was operated aboard the International Space Station in February 2024 as the first surgical robot in space.",
+  "urls": [
+    {
+      "caption": "Virtual Incision MIRA Product Page",
+      "url": "https://virtualincision.com/mira/"
+    },
+    {
+      "caption": "Force Dimension Sigma (OEM master device)",
+      "url": "https://medmachina.github.io/robot/force_dimension_sigma"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://virtualincision.com/wp-content/uploads/2023/10/VIC-MIRA-ISO-1-e1696966301602.png",
+      "site": "https://virtualincision.com/mira/"
+    },
+    {
+      "url": "https://virtualincision.com/wp-content/uploads/2023/10/VIC-Console-ISO-e1696966345222.png",
+      "site": "https://virtualincision.com/mira/"
+    },
+    {
+      "url": "https://virtualincision.com/wp-content/uploads/2023/10/VIC-Cart-ISO-e1696966320478.png",
+      "site": "https://virtualincision.com/mira/"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Commercial",
+    "Teleoperated",
+    "Single port",
+    "2 instruments",
+    "Wristed instruments",
+    "Open console",
+    "Haptic",
+    "Force feedback"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological"
+  ],
+  "regulatory": [
+    {
+      "body": "FDA denovo",
+      "year": 2024,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230025",
+      "product_code": "SAB",
+      "panel": "SU"
+    },
+    {
+      "body": "FDA 510k",
+      "year": 2026,
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260817",
+      "product_code": "SAB",
+      "panel": "SU"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Safety and Efficacy of a Novel Miniaturized Robotic-Assisted Surgery System in Colectomy: A Prospective, Investigational Device Exemption Clinical Study Using the IDEAL Framework",
+      "url": "https://doi.org/10.1097/DCR.0000000000003249",
+      "year": 2024,
+      "journal": "Diseases of the Colon & Rectum",
+      "doi": "10.1097/DCR.0000000000003249"
+    },
+    {
+      "title": "One year follow-up of the colon cancer patient cohort treated with a novel miniaturized robotic-assisted surgery device (mRASD)",
+      "url": "https://doi.org/10.1007/s00464-024-11179-x",
+      "year": 2024,
+      "journal": "Surgical Endoscopy",
+      "doi": "10.1007/s00464-024-11179-x"
+    }
+  ],
+  "db_added": "2026-09-18"
+}
