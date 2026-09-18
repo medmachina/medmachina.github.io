@@ -283,8 +283,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://medmachina.github.io/robot/livsmed_stark</loc>
-    <lastmod>2026-08-07</lastmod>
+    <loc>https://medmachina.github.io/robot/livsmed_artiSential</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/sagebot_kangduo</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -679,8 +679,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medmachina.github.io/company/LIVSMED</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://medmachina.github.io/company/LivsMed</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

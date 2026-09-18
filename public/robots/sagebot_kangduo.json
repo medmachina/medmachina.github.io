@@ -2,34 +2,59 @@
   "id": "sagebot_kangduo",
   "name": "KANGDUO SR2000",
   "db_added": "2026-01-21",
-  "introduction_year": null,
+  "introduction_year": 2024,
   "urls": [
     {
       "caption": "SageBot product page (KANGDUO SR2000)",
       "url": "http://kangduorobot.com/index.php?m=content&c=index&a=show&catid=24&id=6"
     },
     {
+      "caption": "KangDuo Europe official site",
+      "url": "https://kangduo.eu/"
+    },
+    {
       "caption": "SageBot official site",
       "url": "http://sagebot-medical.com/"
+    },
+    {
+      "caption": "KangDuo SR2000 Product Catalog (English)",
+      "url": "https://cdn.prod.website-files.com/69c79908f7411bb1f0766a00/6a6b33af6a10b656c6f3525e_catalog-english.pdf"
     }
   ],
   "photos": [
     {
-      "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418041354291.png",
-      "site": "http://sagebot-medical.com"
+      "url": "https://cdn.prod.website-files.com/69c79908f7411bb1f0766a00/6a97f52f10232cbd180d3c13_zestaw-kangduo.png",
+      "site": "https://kangduo.eu/"
     },
     {
-      "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418042135600.png",
-      "site": "http://sagebot-medical.com"
+      "url": "https://cdn.prod.website-files.com/69c79908f7411bb1f0766a00/69da72cafd6292bdcda4d2bd_Projekt%20bez%20nazwy%20(7).png",
+      "site": "https://kangduo.eu/"
     },
     {
-      "url": "http://sagebot-medical.com/uploadfile/2025/0418/20250418042221870.png",
-      "site": "http://sagebot-medical.com"
+      "url": "https://cdn.prod.website-files.com/69c79908f7411bb1f0766a00/69da72ca603d5b8c1cbe43e7_Projekt%20bez%20nazwy%20(5).png",
+      "site": "https://kangduo.eu/"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/69c79908f7411bb1f0766a00/6a6853d8e14b13d229b0b958_SR2000(dual%20console)%20%E2%80%94%20Odzyskano.png",
+      "site": "https://kangduo.eu/"
+    },
+    {
+      "url": "http://kangduorobot.com/statics/img/n_banner01.png",
+      "site": "http://kangduorobot.com/"
     }
   ],
   "tags": [
+    "RAMIS",
+    "Commercial",
     "Teleoperated",
-    "Commercial"
+    "Multiple ports",
+    "3+ instruments",
+    "Single patient cart",
+    "Wristed instruments",
+    "Stereo endoscope",
+    "Stereo display",
+    "Open console",
+    "Mechanical Cartesian manipulation"
   ],
   "usages": [
     "Abdominal",
@@ -37,14 +62,68 @@
     "Thoracic",
     "Urological"
   ],
-  "description": "KANGDUO SR2000 — a teleoperated surgical robot platform from Harbin Sagebot Intelligent Medical Equipment Co., Ltd.",
+  "description": "The KANGDUO SR2000 is a modular teleoperated surgical robotic system developed by Harbin Sagebot Intelligent Medical Equipment Co., Ltd. (Sagebot). Built for multiport robot-assisted minimally invasive surgery (RAMIS), the platform consists of a single patient cart featuring four multi-joint robotic arms, an ergonomic open surgeon console with an high-definition 3D stereoscopic display viewed via passive polarized glasses, and a mobile vision cart housing the 3D endoscopic imaging processor and illumination system. The SR2000 received NMPA marketing approval in China in 2024 and European CE mark certification, with clinical indications covering urological, gynecological, general abdominal, and thoracic procedures.",
   "also_known_as": [
-    "KangDuo SR2000"
+    "KangDuo SR2000",
+    "KangDuo",
+    "KangDuo Robot",
+    "SageBot KangDuo",
+    "KD-SR-2000"
+  ],
+  "regulatory": [
+    {
+      "url": "http://kangduorobot.com/index.php?m=content&c=index&a=show&catid=24&id=6",
+      "body": "NMPA",
+      "year": 2024
+    },
+    {
+      "url": "https://kangduo.eu/aktualnosci/kangduo-w-lodzi",
+      "body": "CE",
+      "year": 2026
+    }
   ],
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=FAjm4enbODI",
       "title": "KangDuo Surgical Robot - Sagebot"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Robot-Assisted Radical Prostatectomy Using the KangDuo Surgical Robot-01 System: A Prospective, Single-Center, Single-Arm Clinical Study",
+      "url": "https://doi.org/10.1097/ju.0000000000002498",
+      "year": 2022,
+      "journal": "The Journal of urology",
+      "doi": "10.1097/ju.0000000000002498",
+      "pmid": "35442762",
+      "citations": 51
+    },
+    {
+      "title": "Robot-assisted Partial Nephrectomy with the Newly Developed KangDuo Surgical Robot Versus the da Vinci Si Surgical System: A Double-center Prospective Randomized Controlled Noninferiority Trial",
+      "url": "https://doi.org/10.1016/j.euf.2022.07.008",
+      "year": 2023,
+      "journal": "European urology focus",
+      "doi": "10.1016/j.euf.2022.07.008",
+      "pmid": "36446724",
+      "citations": 45
+    },
+    {
+      "title": "Robot-assisted pyeloplasty using a new robotic system, the KangDuo-Surgical Robot-01: a prospective, single-centre, single-arm clinical study",
+      "url": "https://doi.org/10.1111/bju.15396",
+      "year": 2021,
+      "journal": "BJU international",
+      "doi": "10.1111/bju.15396",
+      "pmid": "33725392",
+      "citations": 35
+    },
+    {
+      "title": "Robot-Assisted Laparoscopic Radical Prostatectomy Using the KangDuo Surgical Robot System vs the da Vinci Si Robotic System",
+      "url": "https://doi.org/10.1089/end.2022.0739",
+      "year": 2023,
+      "journal": "Journal of endourology",
+      "doi": "10.1089/end.2022.0739",
+      "pmid": "36924278",
+      "citations": 34
     }
   ]
 }

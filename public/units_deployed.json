@@ -129,10 +129,10 @@
     "category": "10-50",
     "source_url": "http://www.medbotsurgical.com/en/"
   },
-  "edge_kangduo": {
+  "sagebot_kangduo": {
     "count": 80,
     "category": "50-100",
-    "source_url": "https://en.edgemed.cn/"
+    "source_url": "http://sagebot-medical.com/"
   },
   "neocis_yomi": {
     "count": 150,
