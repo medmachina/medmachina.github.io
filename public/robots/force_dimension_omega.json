@@ -1,0 +1,42 @@
+{
+  "id": "force_dimension_omega",
+  "name": "Omega",
+  "introduction_year": 2002,
+  "urls": [
+    {
+      "caption": "Force Dimension Official Website",
+      "url": "https://www.forcedimension.com"
+    },
+    {
+      "caption": "Force Dimension omega.x Product Page",
+      "url": "https://www.forcedimension.com/products/omega"
+    },
+    {
+      "caption": "EndoMaster EASE (endoscopic system integrating Omega)",
+      "url": "https://medmachina.github.io/robot/endomaster_ease"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.forcedimension.com/images/2020/08/02/omega-g1.jpg",
+      "site": "https://www.forcedimension.com/products/omega"
+    },
+    {
+      "url": "https://www.forcedimension.com/images/2020/08/02/omega-g2.jpg",
+      "site": "https://www.forcedimension.com/products/omega"
+    }
+  ],
+  "tags": [
+    "Haptic device",
+    "OEM component"
+  ],
+  "description": "High-precision parallel-kinematics haptic devices (omega.3, omega.6, omega.7) providing 3-DOF to 7-DOF force feedback and teleoperation.",
+  "also_known_as": [
+    "omega.7",
+    "omega 7",
+    "omega.6",
+    "omega.3",
+    "omega.x"
+  ],
+  "db_added": "2026-09-18"
+}

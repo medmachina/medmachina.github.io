@@ -1,0 +1,77 @@
+{
+  "id": "endomaster_ease",
+  "name": "EASE",
+  "also_known_as": [
+    "E-System",
+    "EndoMaster EASE",
+    "EASE System",
+    "EndoMaster E-System",
+    "MASTER",
+    "Endoluminal Access Surgical Efficacy"
+  ],
+  "introduction_year": 2020,
+  "description": "The EndoMaster EASE System (Endoluminal Access Surgical Efficacy, formerly MASTER) is a flexible robotic-assisted platform designed for incision-less endoluminal procedures, particularly colorectal and gastric Endoscopic Submucosal Dissection (ESD). Developed by Singaporean venture EndoMaster Pte Ltd, the system deploys two flexible miniature robotic instrument arms through the channels of an endoscope to achieve internal triangulation, traction, and tissue dissection. The surgeon sits at an open Surgeon Console Unit (SCU) integrating dual Force Dimension omega.7 haptic master manipulators for 7-DOF teleoperation with force feedback.",
+  "urls": [
+    {
+      "caption": "Force Dimension Omega (OEM master device)",
+      "url": "https://medmachina.github.io/robot/force_dimension_omega"
+    },
+    {
+      "caption": "US Patent 10,939,804 (Master-slave flexible robotic endoscopy system)",
+      "url": "https://patents.google.com/patent/US10939804B2/en"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.idd.cuhk.edu.hk/wp-content/uploads/2020/12/20200915_pic1_1600160498.jpg",
+      "site": "https://www.idd.cuhk.edu.hk"
+    }
+  ],
+  "videos": [
+    {
+      "title": "ESD of a Rectal Lesion by EndoMaster EASE System - Prof. Philip Chiu",
+      "url": "https://www.youtube.com/watch?v=g2huLJEfDZ4"
+    }
+  ],
+  "tags": [
+    "Flexible robot",
+    "Teleoperated",
+    "Research system",
+    "Haptic",
+    "Force feedback",
+    "Open console",
+    "2 instruments",
+    "Wristed instruments",
+    "Single patient cart"
+  ],
+  "usages": [
+    "Abdominal"
+  ],
+  "publications": [
+    {
+      "title": "Prospective single-arm trial on feasibility and safety of an endoscopic robotic system for colonic endoscopic submucosal dissection",
+      "url": "https://doi.org/10.1055/a-2411-0892",
+      "year": 2025,
+      "journal": "Endoscopy",
+      "doi": "10.1055/a-2411-0892",
+      "pmid": "39242090"
+    },
+    {
+      "title": "Colonic endoscopic submucosal dissection using a novel robotic system (with video)",
+      "url": "https://doi.org/10.1016/j.gie.2020.09.042",
+      "year": 2021,
+      "journal": "Gastrointestinal Endoscopy",
+      "doi": "10.1016/j.gie.2020.09.042",
+      "pmid": "32991869"
+    },
+    {
+      "title": "Robot-assisted endoscopic submucosal dissection is effective in treating patients with early-stage gastric neoplasia",
+      "url": "https://doi.org/10.1016/j.cgh.2012.05.019",
+      "year": 2012,
+      "journal": "Clinical Gastroenterology and Hepatology",
+      "doi": "10.1016/j.cgh.2012.05.019",
+      "pmid": "22642956"
+    }
+  ],
+  "db_added": "2026-09-18"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "endomaster",
+  "name": "EndoMaster",
+  "country": "Singapore",
+  "description": "EndoMaster is a Singaporean medical robotics company spun out from Nanyang Technological University (NTU) and the National University of Singapore (NUS) by Prof. Louis Phee and Prof. Lawrence Ho. The company developed the MASTER and EndoMaster EASE flexible endoscopic robotic systems for incision-less endoluminal procedures.",
+  "employee_count": null,
+  "founded_year": "2011",
+  "urls": [
+    {
+      "caption": "Archived EndoMaster site",
+      "url": "https://web.archive.org/web/20210803134057/http://endomastermedical.com/"
+    }
+  ],
+  "robots": [
+    "endomaster_ease"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Endomaster Pte Ltd",
+      "Endomaster"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Endomaster+Pte+Ltd",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Endomaster+Pte+Ltd%22+OR+applicant%3A%22Endomaster%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}
