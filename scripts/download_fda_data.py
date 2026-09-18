@@ -336,7 +336,12 @@ def main():
             
             # If it's an FDA entry and NOT assigned to this robot by current logic
             if reg_id and (reg.get('body', '').startswith('FDA ')) and reg_id not in record_assignments.get(rid, set()):
-                to_remove.append(reg)
+                # Preserve entries that were manually verified (last_verified is set)
+                # — these may be too recent to appear in the bulk FDA data file yet.
+                if reg.get('last_verified'):
+                    new_reg.append(reg)
+                else:
+                    to_remove.append(reg)
             else:
                 new_reg.append(reg)
         
