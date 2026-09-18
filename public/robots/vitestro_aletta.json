@@ -1,0 +1,63 @@
+{
+  "id": "vitestro_aletta",
+  "name": "Aletta",
+  "introduction_year": 2024,
+  "urls": [
+    {
+      "caption": "Vitestro, Aletta Product Page",
+      "url": "https://vitestro.com/aletta/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://devbright.b-cdn.net/app/uploads/2025/12/Patient-with-grey-hair-with-Aletta_1-e1765876938102-1280x883.jpg",
+      "site": "https://vitestro.com/aletta/"
+    },
+    {
+      "url": "https://devbright.b-cdn.net/app/uploads/2025/06/VI80F81-1024x683.jpg",
+      "site": "https://vitestro.com"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Vitestro - Aletta Autonomous Robotic Phlebotomy Device",
+      "url": "https://vimeo.com/1152241746"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Autonomous",
+    "Autonomous motion",
+    "Ultrasound"
+  ],
+  "usages": [],
+  "description": "Aletta is an autonomous robotic phlebotomy device (ARPD), developed by Dutch medtech company Vitestro. Combining artificial intelligence, near-infrared imaging, and robotic ultrasound guidance, Aletta autonomously maps veins, performs venipuncture, and handles blood collection tubes under the supervision of a trained phlebotomist. The system received CE mark approval in 2024 and FDA De Novo marketing authorization in 2026.",
+  "also_known_as": [
+    "Autonomous Robotic Phlebotomy Device",
+    "ARPD"
+  ],
+  "regulatory": [
+    {
+      "body": "CE mark",
+      "year": 2024,
+      "url": "https://vitestro.com/aletta/",
+      "last_verified": "2026-09-17"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN250046",
+      "body": "FDA denovo",
+      "year": 2026,
+      "product_code": "SIW",
+      "panel": "HO"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Performance, Safety, and Patient Experience of an Autonomous Robotic Phlebotomy Device: A Multicenter Trial",
+      "url": "https://doi.org/10.1093/clinchem/hvag029",
+      "year": 2026,
+      "journal": "Clinical Chemistry",
+      "doi": "10.1093/clinchem/hvag029"
+    }
+  ]
+}

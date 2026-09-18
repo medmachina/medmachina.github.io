@@ -20,7 +20,7 @@ ROBOTIC_PRODUCT_CODES = {
     "NAY", "OAY", "PQC", "BWS", "LLZ", "NUV", "SCV", "NEQ", "PLV",
     "EOQ", "QNW", "HAW", "HSX", "PSQ", "OLO", "SDD", "QNM",
     "OJP", "IYO", "GCJ", "SAQ", "NQT", "PBF", "PNH", "OYC",
-    "IYE", "MUJ", "IWB"
+    "IYE", "MUJ", "IWB", "SIW"
 }
 
 def download_and_extract_zip(url: str, extract_to: str = "tmp_fda", force: bool = False):
@@ -191,11 +191,12 @@ def main():
     parser = argparse.ArgumentParser(description="Download and match FDA regulatory data.")
     parser.add_argument("--yes", "-y", action="store_true", help="Automatically accept removals.")
     parser.add_argument("--robot", help="Limit search and update to a specific robot ID")
+    parser.add_argument("--force", "-f", action="store_true", help="Force redownload of FDA database files.")
     args = parser.parse_args()
 
     # 1. Download
-    files_510k = download_and_extract_zip(URL_510K, "tmp_fda/510k")
-    files_pma = download_and_extract_zip(URL_PMA, "tmp_fda/pma")
+    files_510k = download_and_extract_zip(URL_510K, "tmp_fda/510k", force=args.force)
+    files_pma = download_and_extract_zip(URL_PMA, "tmp_fda/pma", force=args.force)
     
     if not files_510k or not files_pma:
         print("Download failed.")

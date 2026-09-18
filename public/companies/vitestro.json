@@ -1,0 +1,25 @@
+{
+  "id": "vitestro",
+  "name": "Vitestro",
+  "country": "Netherlands",
+  "description": "Vitestro is a Dutch medical robotics company founded in 2017 and headquartered in Utrecht, Netherlands. The company develops autonomous robotic phlebotomy systems, combining artificial intelligence, near-infrared imaging, and robotic ultrasound guidance to automate routine venous blood draws for clinical diagnostics.",
+  "founded_year": "2017",
+  "employee_count": "50-200",
+  "urls": [
+    {
+      "caption": "Vitestro Official Website",
+      "url": "https://vitestro.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/vitestro/",
+  "robots": [
+    "vitestro_aletta"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Vitestro Holding B.V."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Vitestro+Holding+B.V.",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Vitestro%20Holding%20B.V.%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
