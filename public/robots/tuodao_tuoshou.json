@@ -1,0 +1,70 @@
+{
+  "id": "tuodao_tuoshou",
+  "name": "TuoShou",
+  "introduction_year": 2022,
+  "also_known_as": [
+    "NS100",
+    "Trinity",
+    "佗手",
+    "Tuoshou"
+  ],
+  "urls": [
+    {
+      "caption": "TuoShou Trinity Orthopedic Surgical Robot",
+      "url": "https://www.tuodaomedical.com/product-1"
+    },
+    {
+      "caption": "Orthopedic General Surgical Robot (English)",
+      "url": "https://www.tuodaomedical.com/en/product-1"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space01.jpg",
+      "site": "https://www.tuodaomedical.com/product-1"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space02.jpg",
+      "site": "https://www.tuodaomedical.com/product-1"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space03.jpg",
+      "site": "https://www.tuodaomedical.com/product-1"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space04.jpg",
+      "site": "https://www.tuodaomedical.com/product-1"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Orthopedic",
+    "Open surgery",
+    "Single patient cart",
+    "Collaborative control",
+    "Semi-autonomous"
+  ],
+  "usages": [
+    "Hip",
+    "Knee",
+    "Spine"
+  ],
+  "description": "The TuoShou® Trinity (佗手 / NS100) is an orthopedic and spinal surgical robotic system developed by Tuodao Medical. Integrating an active robotic positioning arm cart with a dual-camera optical navigation tracking system, the platform assists in pedicle screw placement, spinal decompression, trauma stabilization, and joint replacement. Surgeons design 3D trajectories from CT or intraoperative C-arm fluoroscopy scans, while the robotic arm aligns surgical guides to planned trajectories with real-time optical tracking feedback and servo compensation. It received China NMPA marketing approval in 2022 (Registration No. 国械注准20223011042).",
+  "regulatory": [
+    {
+      "body": "NMPA",
+      "year": 2022,
+      "url": "https://www.tuodaomedical.com/product-1"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Development and Clinical Trial of a New Orthopedic Surgical Robot for Positioning and Navigation",
+      "url": "https://doi.org/10.3390/jcm11237091",
+      "year": 2022,
+      "journal": "Journal of Clinical Medicine",
+      "doi": "10.3390/jcm11237091",
+      "pmid": "36498666"
+    }
+  ]
+}

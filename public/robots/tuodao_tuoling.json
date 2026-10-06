@@ -1,0 +1,66 @@
+{
+  "id": "tuodao_tuoling",
+  "name": "TuoLing",
+  "introduction_year": 2025,
+  "also_known_as": [
+    "MA2000",
+    "YC100",
+    "YC200",
+    "佗灵",
+    "Robot X"
+  ],
+  "urls": [
+    {
+      "caption": "TuoLing Laparoscopic Surgical Robot",
+      "url": "https://www.tuodaomedical.com/product-3"
+    },
+    {
+      "caption": "MA2000 Endoscopic Surgical System",
+      "url": "https://www.tuodaomedical.com/en/product-3"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space01_qj.jpg",
+      "site": "https://www.tuodaomedical.com/product-3"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space02_qj.jpg",
+      "site": "https://www.tuodaomedical.com/product-3"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space03_qj.jpg",
+      "site": "https://www.tuodaomedical.com/product-3"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space04_qj.jpg",
+      "site": "https://www.tuodaomedical.com/product-3"
+    }
+  ],
+  "tags": [
+    "RAMIS",
+    "Commercial",
+    "Teleoperated",
+    "Multiple ports",
+    "3+ instruments",
+    "Wristed instruments",
+    "Single patient cart",
+    "Stereo viewer",
+    "Stereo endoscope",
+    "Mechanical Cartesian manipulation"
+  ],
+  "usages": [
+    "Abdominal",
+    "Gynecological",
+    "Thoracic",
+    "Urological"
+  ],
+  "description": "The TuoLing® (佗灵 / MA2000, development models YC100/YC200) is a multiport laparoscopic surgical robot developed by Tuodao Medical (originating from 'Robot X Lab'). The master-slave platform comprises an ergonomic surgeon console with dual master controllers and an immersive 3D viewer, a multi-arm patient cart carrying articulating wristed instruments, and a high-definition 3D stereoscopic imaging tower with tremor filtering and motion scaling. It received China NMPA marketing approval in 2025 (Registration No. 国械注准20253011314) for urological, gynecological, thoracic, and general laparoscopic surgical procedures.",
+  "regulatory": [
+    {
+      "body": "NMPA",
+      "year": 2025,
+      "url": "https://www.tuodaomedical.com/product-3"
+    }
+  ]
+}

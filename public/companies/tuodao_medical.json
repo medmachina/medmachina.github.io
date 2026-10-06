@@ -1,0 +1,39 @@
+{
+  "id": "tuodao_medical",
+  "name": "Tuodao Medical",
+  "country": "China",
+  "urls": [
+    {
+      "caption": "Tuodao Medical",
+      "url": "https://www.tuodaomedical.com/"
+    },
+    {
+      "caption": "Tuodao Medical (English)",
+      "url": "https://www.tuodaomedical.com/en/"
+    }
+  ],
+  "linkedin_url": "https://sg.linkedin.com/company/tuodao-singapore",
+  "robots": [
+    "tuodao_tuoling",
+    "tuodao_tuoshu",
+    "tuodao_tuoshou"
+  ],
+  "description": "Tuodao Medical Technology Co., Ltd. (佗道医疗) is a surgical robotics company based in Nanjing, China. Founded in 2019 out of the 'Robot X Lab' research incubator founded by Dr. Cheng Min and supported by the Yijiahe ecosystem, the company develops robotic surgical systems across laparoscopy, orthopedics, percutaneous intervention, and natural orifice transluminal endoscopic surgery.",
+  "employee_count": "500+",
+  "founded_year": "2019",
+  "subsidiaries": [
+    "Nanjing Tuodao Medical Technology Co., Ltd.",
+    "Tuodao Medical Technology Co., Ltd.",
+    "Robot X Lab"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Tuodao Medical",
+      "Nanjing Tuodao Medical Technology",
+      "佗道医疗科技有限公司",
+      "南京佗道医疗科技有限公司"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=Tuodao+Medical",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Tuodao+Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

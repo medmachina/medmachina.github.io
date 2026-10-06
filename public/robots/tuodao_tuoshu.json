@@ -1,0 +1,53 @@
+{
+  "id": "tuodao_tuoshu",
+  "name": "TuoShu",
+  "introduction_year": 2023,
+  "also_known_as": [
+    "NP100",
+    "佗术",
+    "Tuoshu"
+  ],
+  "urls": [
+    {
+      "caption": "TuoShu Percutaneous Surgical Robot",
+      "url": "https://www.tuodaomedical.com/product-4"
+    },
+    {
+      "caption": "Tuoshu Percutaneous Surgical Robot (English)",
+      "url": "https://www.tuodaomedical.com/en/product-4"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space01_cc.jpg",
+      "site": "https://www.tuodaomedical.com/product-4"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space02_cc.jpg",
+      "site": "https://www.tuodaomedical.com/product-4"
+    },
+    {
+      "url": "https://www.tuodaomedical.com/wp-content/themes/china/uploads/img_space03_cc.jpg",
+      "site": "https://www.tuodaomedical.com/product-4"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Single patient cart",
+    "Biopsy",
+    "Collaborative control",
+    "Semi-autonomous"
+  ],
+  "usages": [
+    "Abdominal",
+    "Lung"
+  ],
+  "description": "The TuoShu® (佗术 / NP100) is a robotic navigation and positioning platform for percutaneous puncture surgery developed by Tuodao Medical. Composed of a robotic arm positioning cart, an optical navigation tracking system, and a respiratory motion sensing module, the system fuses preoperative CT imaging with real-time optical tracking to guide needle insertion for biopsies and ablations while compensating for patient breathing motion. It received China NMPA marketing approval in September 2023 (Registration No. 国械注准20233011291) for percutaneous puncture procedures in pulmonary and abdominal lesions.",
+  "regulatory": [
+    {
+      "body": "NMPA",
+      "year": 2023,
+      "url": "https://www.tuodaomedical.com/product-4"
+    }
+  ]
+}
