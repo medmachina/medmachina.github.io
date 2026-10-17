@@ -8,7 +8,51 @@
         "required": ["caption", "url"],
         "properties": {
           "caption": {"type": "string"},
-          "url": {"type": "string", "format": "uri"}
+          "url": {"type": "string", "format": "uri"},
+          "archive_url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "description": "Wayback Machine or web archive snapshot URL."
+          }
+        },
+        "additionalProperties": false
+      },
+      "CompanyStatusEntry": {
+        "type": "object",
+        "description": "Current corporate operating status.",
+        "required": ["state"],
+        "properties": {
+          "state": {
+            "type": "string",
+            "enum": [
+              "active",
+              "acquired",
+              "merged",
+              "defunct",
+              "liquidated",
+              "restructuring"
+            ],
+            "description": "Corporate status: active, acquired, merged, defunct (ceased operations), liquidated (wound up), restructuring (e.g. insolvency proceedings)."
+          },
+          "year": {
+            "type": ["integer", "null"],
+            "minimum": 1900,
+            "maximum": 2100,
+            "description": "Year when the corporate event occurred."
+          },
+          "successor": {
+            "type": ["string", "null"],
+            "description": "Successor company ID or legal entity name (e.g. karl_storz, Conavi Medical Corp)."
+          },
+          "note": {
+            "type": "string",
+            "description": "Factual context explaining the corporate change."
+          },
+          "source_url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "description": "Authoritative source URL documenting the status."
+          }
         },
         "additionalProperties": false
       }
@@ -33,6 +77,9 @@
       "linkedin_url": {"type": ["string", "null"], "format": "uri"},
       "opencorporates_url": {"type": ["string", "null"], "format": "uri"},
       "urls": {"type": "array", "items": {"$ref": "#/$defs/UrlEntry"}},
+      "status": {
+        "$ref": "#/$defs/CompanyStatusEntry"
+      },
       "robots": {
         "type": "array",
         "items": {"type": "string", "pattern": "^[A-Za-z0-9_.&]+$"},

@@ -5,7 +5,8 @@
   "urls": [
     {
       "caption": "Avatera Medical",
-      "url": "https://avatera.eu/en/"
+      "url": "https://avatera.eu/en/",
+      "archive_url": "https://web.archive.org/web/20230605000000*/https://avatera.eu/en/"
     }
   ],
   "linkedin_url": "https://www.linkedin.com/company/avateramedical-gmbh/",
@@ -21,5 +22,12 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=%22Avatera+Medical%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Avatera%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  },
+  "status": {
+    "state": "restructuring",
+    "year": 2023,
+    "successor": null,
+    "note": "Entered insolvency proceedings in October 2023 at the Erfurt district court.",
+    "source_url": "https://www.eqs-news.com/news/corporate/medical-technology-specialist-avateramedical-is-restructuring-through-insolvency-proceedings/b2a55f39-a54f-48dd-b003-cff63ebe02dc"
   }
 }

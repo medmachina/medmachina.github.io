@@ -241,6 +241,9 @@ def prerender_dist(robots_data, companies_data):
                 "name": comp_name
             }
 
+        lifecycle = robot.get("lifecycle")
+        lifecycle_html = f"    <li><strong>Status:</strong> {lifecycle.get('status').title()} ({lifecycle.get('year', '')}) - {html.escape(lifecycle.get('note', ''))}</li>\n" if lifecycle else ""
+
         body_html = f"""
 <div class="container py-4">
   <h1>{name}</h1>
@@ -248,7 +251,7 @@ def prerender_dist(robots_data, companies_data):
   <ul>
     <li><strong>Manufacturer:</strong> {comp_name or 'N/A'}</li>
     <li><strong>Introduction Year:</strong> {intro_yr}</li>
-    <li><strong>Category/Tags:</strong> {', '.join(robot.get('tags', []))}</li>
+{lifecycle_html}    <li><strong>Category/Tags:</strong> {', '.join(robot.get('tags', []))}</li>
   </ul>
 </div>
 """
@@ -291,13 +294,16 @@ def prerender_dist(robots_data, companies_data):
         if company.get("country"):
             json_ld["address"] = {"@type": "PostalAddress", "addressCountry": company["country"]}
 
+        c_status = company.get("status")
+        c_status_html = f"    <li><strong>Status:</strong> {c_status.get('state').title()} ({c_status.get('year', '')}) - {html.escape(c_status.get('note', ''))}</li>\n" if c_status else ""
+
         body_html = f"""
 <div class="container py-4">
   <h1>{name}</h1>
   <p class="lead">{description}</p>
   <ul>
     <li><strong>Country:</strong> {company.get('country', 'N/A')}</li>
-    <li><strong>Robots Portfolio:</strong> {', '.join(company.get('robots', []))}</li>
+{c_status_html}    <li><strong>Robots Portfolio:</strong> {', '.join(company.get('robots', []))}</li>
   </ul>
 </div>
 """

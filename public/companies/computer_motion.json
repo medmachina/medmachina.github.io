@@ -4,8 +4,9 @@
   "country": "United States",
   "urls": [
     {
-      "caption": "Archived Computer Motion site",
-      "url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
+      "caption": "Computer Motion (Original Site)",
+      "url": "http://www.computermotion.com",
+      "archive_url": "https://web.archive.org/web/20021001000000*/http://www.computermotion.com"
     },
     {
       "caption": "Wikipedia: Computer Motion",
@@ -25,5 +26,12 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=%22Computer+Motion%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Computer%20Motion%22&s=_score&d=%2B&p=0&n=50"
+  },
+  "status": {
+    "state": "merged",
+    "year": 2003,
+    "successor": "intuitive",
+    "note": "Merged with Intuitive Surgical in 2003, uniting Zeus and early da Vinci patent portfolios.",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_Motion"
   }
 }

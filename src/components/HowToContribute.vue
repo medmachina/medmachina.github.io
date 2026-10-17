@@ -322,7 +322,13 @@ const robotSampleJson = JSON.stringify({
   usages: ["Abdominal", "Urological"],
   regulatory: [
     { body: "FDA", year: 2024, url: "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123456" }
-  ]
+  ],
+  lifecycle: {
+    status: "active",
+    year: 2024,
+    note: "Commercial release in target markets.",
+    source_url: "https://example.com/press-release"
+  }
 }, null, 2)
 
 const companySampleJson = JSON.stringify({
@@ -333,6 +339,12 @@ const companySampleJson = JSON.stringify({
   company_type: "Public",
   employee_count: "50-200",
   description: "Company background and headquarters location.",
+  status: {
+    state: "active",
+    year: 2015,
+    note: "Operating headquarters in Boston, MA.",
+    source_url: "https://example.com/about"
+  },
   urls: [
     { caption: "Official Website", url: "https://example.com" }
   ],

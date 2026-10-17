@@ -43,7 +43,8 @@
     "Open console",
     "2 instruments",
     "Wristed instruments",
-    "Single patient cart"
+    "Single patient cart",
+    "Retired"
   ],
   "usages": [
     "Upper GI",
@@ -67,5 +68,11 @@
       "pmid": "22642956"
     }
   ],
-  "db_added": "2026-09-18"
+  "db_added": "2026-09-18",
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2024,
+    "note": "Development and commercialization ceased following EndoMaster entering creditors' voluntary winding up / liquidation.",
+    "source_url": "https://www.sgpbusiness.com/company/Endomaster-Pte-Ltd"
+  }
 }

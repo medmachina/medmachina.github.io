@@ -131,5 +131,11 @@
       "panel": "CV"
     }
   ],
-  "db_added": "2026-09-18"
+  "db_added": "2026-09-18",
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2023,
+    "note": "Commercial sales in the cardiovascular market discontinued by Siemens Healthineers in May 2023.",
+    "source_url": "https://www.siemens-healthineers.com"
+  }
 }

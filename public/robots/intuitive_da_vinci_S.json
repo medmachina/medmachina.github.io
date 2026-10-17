@@ -158,5 +158,10 @@
   "units_deployed": {
     "count": 500,
     "source_url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2015,
+    "note": "Second-generation da Vinci S system discontinued and succeeded by newer platforms."
   }
 }

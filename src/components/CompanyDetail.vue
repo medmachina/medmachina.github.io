@@ -14,6 +14,21 @@
       <div class="card mb-4">
         <div class="card-body">
           <h2 class="card-title h5">Information</h2>
+          <p v-if="company.status" class="mb-2">
+            <strong>Status:</strong>
+            <span class="badge ms-2" :class="getCompanyStatusBadgeClass(company.status.state)">
+              {{ formatCompanyState(company.status.state) }}
+            </span>
+            <span v-if="company.status.year" class="ms-1 text-muted">({{ company.status.year }})</span>
+            <span v-if="company.status.successor" class="ms-1 fw-semibold">
+              <span v-if="company.status.state === 'acquired'">by</span>
+              <span v-else-if="company.status.state === 'merged'">with / into</span>
+              <span v-else>→</span>
+              {{ company.status.successor }}
+            </span>
+            <span v-if="company.status.note" class="ms-2 small">{{ company.status.note }}</span>
+            <a v-if="company.status.source_url" :href="company.status.source_url" target="_blank" rel="noopener noreferrer" class="ms-2 small text-muted">(source)</a>
+          </p>
           <p><strong>Country:</strong> {{ company.country }}</p>
           <p v-if="company.employee_count"><strong>Employees:</strong> {{ company.employee_count.toLocaleString() }}</p>
           <p v-if="company.description">{{ company.description }}</p>
@@ -22,8 +37,18 @@
             <strong>Links:</strong>
           </p>
           <ul v-if="company.urls && company.urls.length || company.linkedin_url || company.opencorporates_url" class="list-unstyled">
-            <li v-for="url in company.urls" :key="url.url" class="mb-2">
+            <li v-for="url in company.urls" :key="url.url" class="mb-2 d-flex align-items-center flex-wrap gap-2">
               <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+              <a
+                v-if="url.archive_url"
+                :href="url.archive_url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="badge bg-secondary text-decoration-none"
+                title="Historical archive copy on Wayback Machine"
+              >
+                Archived ↗
+              </a>
             </li>
             <li v-if="company.linkedin_url" class="mb-2">
               <a :href="company.linkedin_url" target="_blank" rel="noopener noreferrer" class="linkedin-link">
@@ -202,6 +227,24 @@ function getFirstPhotoUrl(item) {
 
 function handleImageError(event) {
   event.target.src = '/text-logo.svg'; // Fallback image on error
+}
+
+function formatCompanyState(state) {
+  if (state === 'acquired') return 'Acquired';
+  if (state === 'merged') return 'Merged';
+  if (state === 'defunct') return 'Defunct';
+  if (state === 'liquidated') return 'Liquidated';
+  if (state === 'restructuring') return 'Insolvency / Restructuring';
+  if (state === 'active') return 'Active';
+  return state;
+}
+
+function getCompanyStatusBadgeClass(state) {
+  if (state === 'acquired' || state === 'merged') return 'bg-info text-dark';
+  if (state === 'defunct' || state === 'liquidated') return 'bg-danger';
+  if (state === 'restructuring') return 'bg-warning text-dark';
+  if (state === 'active') return 'bg-success';
+  return 'bg-secondary';
 }
 </script>
 

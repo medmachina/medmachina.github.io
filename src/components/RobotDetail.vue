@@ -17,6 +17,15 @@
       <div class="card mb-4">
         <div class="card-body">
           <h2 class="card-title h5">Information</h2>
+          <p v-if="filteredProject.lifecycle" class="mb-2">
+            <strong>Status:</strong>
+            <span class="badge ms-2" :class="getLifecycleBadgeClass(filteredProject.lifecycle.status)">
+              {{ formatLifecycleStatus(filteredProject.lifecycle.status) }}
+            </span>
+            <span v-if="filteredProject.lifecycle.year" class="ms-1 text-muted">({{ filteredProject.lifecycle.year }})</span>
+            <span v-if="filteredProject.lifecycle.note" class="ms-2 small">{{ filteredProject.lifecycle.note }}</span>
+            <a v-if="filteredProject.lifecycle.source_url" :href="filteredProject.lifecycle.source_url" target="_blank" rel="noopener noreferrer" class="ms-2 small text-muted">(source)</a>
+          </p>
           <p v-if="unitsDeployedInfo" class="mb-2">
             <strong>Units Deployed:</strong>
             <span class="badge bg-primary ms-2 me-1">{{ unitsDeployedInfo.category }}</span>
@@ -166,8 +175,18 @@
         <div class="card-body">
           <h2 class="card-title h5">Links</h2>
           <ul class="list-unstyled mb-0">
-            <li v-for="(url, index) in projectUrls" :key="index" class="mb-2">
+            <li v-for="(url, index) in projectUrls" :key="index" class="mb-2 d-flex align-items-center flex-wrap gap-2">
               <a :href="url.url" target="_blank" rel="noopener noreferrer">{{ url.caption }}</a>
+              <a
+                v-if="url.archive_url"
+                :href="url.archive_url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="badge bg-secondary text-decoration-none"
+                title="Historical archive copy on Wayback Machine"
+              >
+                Archived ↗
+              </a>
             </li>
           </ul>
         </div>
@@ -300,8 +319,30 @@ function openPhoto(photo) {
 function handleImageError(photo) {
   console.warn('Image not available:', photo.url);
 
+  // If an archive fallback exists and we haven't already tried it, fallback to archive_url
+  if (photo.archive_url && photo.url !== photo.archive_url) {
+    photo.url = photo.archive_url;
+    return;
+  }
+
   // Add URL to the list of invalid URLs
   invalidPhotoUrls.value.add(photo.url);
+}
+
+function formatLifecycleStatus(status) {
+  if (status === 'development_halted') return 'Development Halted';
+  if (status === 'discontinued') return 'Discontinued';
+  if (status === 'premarket') return 'Premarket';
+  if (status === 'active') return 'Active';
+  return status;
+}
+
+function getLifecycleBadgeClass(status) {
+  if (status === 'discontinued') return 'bg-danger';
+  if (status === 'development_halted') return 'bg-warning text-dark';
+  if (status === 'premarket') return 'bg-info text-dark';
+  if (status === 'active') return 'bg-success';
+  return 'bg-secondary';
 }
 
 // Computed property to find the company associated with the robot

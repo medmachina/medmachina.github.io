@@ -150,5 +150,10 @@
   "units_deployed": {
     "count": 1500,
     "source_url": "https://www.intuitive.com/en-us/products-and-services/da-vinci"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2021,
+    "note": "Third-generation da Vinci Si reached end-of-support in 2024."
   }
 }

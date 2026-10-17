@@ -16,6 +16,14 @@
         "url": {
           "type": "string",
           "format": "uri"
+        },
+        "archive_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Wayback Machine or web archive snapshot URL."
         }
       },
       "additionalProperties": false
@@ -37,6 +45,14 @@
         },
         "caption": {
           "type": "string"
+        },
+        "archive_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Wayback Machine or web archive snapshot URL for the photo."
         }
       },
       "additionalProperties": false
@@ -159,6 +175,47 @@
             "null"
           ],
           "format": "uri"
+        }
+      },
+      "additionalProperties": false
+    },
+    "LifecycleEntry": {
+      "type": "object",
+      "description": "Commercial and development lifecycle status of the robot.",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "discontinued",
+            "development_halted",
+            "premarket"
+          ],
+          "description": "Current lifecycle status: active (in clinical use or commercially available), discontinued (commercial sales/production ended), development_halted (development paused/cancelled before commercialization), premarket (in development/trials, not yet cleared or marketed)."
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1900,
+          "maximum": 2100,
+          "description": "Year of the status transition (e.g. year discontinued or halted)."
+        },
+        "note": {
+          "type": "string",
+          "description": "Factual context explaining the status transition."
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Authoritative source URL documenting the status transition."
         }
       },
       "additionalProperties": false
@@ -551,6 +608,9 @@
           "type": "string"
         },
         "description": "List of search terms to exclude during automated FDA/EUDAMED searches."
+      },
+      "lifecycle": {
+        "$ref": "#/$defs/LifecycleEntry"
       }
     }
   }

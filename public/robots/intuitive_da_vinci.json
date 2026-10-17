@@ -294,5 +294,10 @@
   "units_deployed": {
     "count": 300,
     "source_url": "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2007,
+    "note": "First-generation da Vinci Standard system retired and succeeded by subsequent generations (S, Si, Xi, X, da Vinci 5)."
   }
 }

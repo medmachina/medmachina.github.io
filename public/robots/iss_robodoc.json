@@ -120,5 +120,10 @@
   "units_deployed": {
     "count": 120,
     "source_url": "https://thinksurgical.com/"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2008,
+    "note": "Early orthopedic robotic milling platform; technology lineage continued under successor platforms culminating in Think Surgical."
   }
 }

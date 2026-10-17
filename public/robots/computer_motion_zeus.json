@@ -161,5 +161,11 @@
   "units_deployed": {
     "count": 50,
     "source_url": "https://en.wikipedia.org/wiki/ZEUS_robotic_surgical_system"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2003,
+    "note": "Development ceased following the 2003 merger of Computer Motion and Intuitive Surgical.",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_Motion"
   }
 }

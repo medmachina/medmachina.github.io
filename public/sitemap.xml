@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://medmachina.github.io/</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/companies</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -20,13 +20,13 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/contribute</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/links</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -50,19 +50,19 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/asensus_luna</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/asensus_senhance</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/avatera_avatera</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -74,19 +74,19 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/cmr_versius</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/computer_motion_zeus</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/corindus_corpath</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -98,19 +98,19 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/curexo_cuvis_joint</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/curexo_cuvis_spine</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/distalmotion_dexter</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -140,7 +140,13 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/endomaster_ease</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/robot/endorobotics_robopera</loc>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -188,7 +194,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/intuitive_da_vinci</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -200,7 +206,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/intuitive_da_vinci_S</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -212,7 +218,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/intuitive_da_vinci_Si</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -236,7 +242,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/iss_robodoc</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -254,7 +260,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/j&amp;j_velys</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -296,7 +302,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/medbot_skywalker</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -308,19 +314,19 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/medicaroid_hinotori</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/medtronic_hugo_ras</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/medtronic_mazor</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -338,7 +344,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/momentis_anovo</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -350,7 +356,13 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/neocis_yomi</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/robot/neptune_triton_1</loc>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -362,7 +374,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/quanser_hd2</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -380,7 +392,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/revo_revo_i</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -398,7 +410,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/rob_surgical_bitrack</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -428,7 +440,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/ssii_mantra</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -440,13 +452,13 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/stryker_mako</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/surgerii_shurui</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -458,25 +470,43 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/surgical_science_robotix_mentor</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/think_surgical_t_mini</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/titan_enos</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/robot/tuodao_tuoling</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/robot/tuodao_tuoshou</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/robot/tuodao_tuoshu</loc>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/robot/vicarious_v1.0</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -512,7 +542,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Accuray</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -524,55 +554,55 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Andromeda%20Surgical</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/Applied%20Dexterity</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/Asensus%20Surgical</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/Avatera%20Medical</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/Biobot%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/CMR%20Surgical</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/Computer%20Motion</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medmachina.github.io/company/Corindus%20Vascular%20Robotics</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://medmachina.github.io/company/Applied%20Dexterity</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Asensus%20Surgical</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Avatera%20Medical</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Biobot%20Surgical</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/CMR%20Surgical</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Computer%20Motion</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Corindus%20Vascular%20Robotics</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://medmachina.github.io/company/Cornerstone%20Robotics</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -590,24 +620,30 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/dVRK%20Consortium</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/eCential%20Robotics</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Edge%20Medical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/EndoMaster</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/EndoRobotics</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -620,7 +656,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Haply%20Robotics</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -632,49 +668,49 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Horizon%20Surgical%20Systems</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Integrated%20Surgical%20Systems</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Interventional%20Systems</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Intuitive</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Johnson%20%26%20Johnson%20MedTech</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Kinova%20Robotics</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/KUKA</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/LEM%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -686,7 +722,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/LN%20Robotics</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -704,7 +740,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/MicroPort%20MedBot</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -716,25 +752,25 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/MinMaxMedical</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/MMI</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Momentis%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Moon%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -745,14 +781,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://medmachina.github.io/company/Neptune%20Medical</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://medmachina.github.io/company/Noah%20Medical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Panda%20Surgical</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -770,13 +812,13 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Revo%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Revolve%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -788,7 +830,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Rob%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -806,13 +848,13 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Ronovo%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/ROPCA</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -836,7 +878,7 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Stryker</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -848,25 +890,31 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Surgical%20Science</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Think%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Titan%20Medical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://medmachina.github.io/company/Tuodao%20Medical</loc>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Vicarious%20Surgical%20Inc</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -878,25 +926,25 @@
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Virtuoso%20Surgical</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Vitestro</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Xstrahl</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medmachina.github.io/company/Zimmer%20Biomet</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

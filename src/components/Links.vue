@@ -15,19 +15,19 @@
             <a href="https://www.escatec.com/blog/24-exciting-surgical-robotics-companies" target="_blank" rel="noopener">Escatec: 24 Exciting Surgical Robotics Companies</a>
           </li>
           <li>
+            <a href="https://www.fiercebiotech.com/medtech" target="_blank" rel="noopener">Fierce Medtech</a>
+          </li>
+          <li>
             <a href="https://medical-robots.healthcaretechoutlook.com/" target="_blank" rel="noopener">Healthcare Tech Outlook: Medical Robots</a>
           </li>
           <li>
             <a href="https://www.massdevice.com/10-surgical-robotics-companies-you-need-to-know-2025/" target="_blank" rel="noopener">MassDevice: 10 Surgical Robotics Companies You Need to Know (2025)</a>
           </li>
           <li>
-            <a href="https://en.wikipedia.org/wiki/Medical_robot" target="_blank" rel="noopener">Wikipedia: Medical robot</a>
+            <a href="https://www.medicaldesignandoutsourcing.com/" target="_blank" rel="noopener">Medical Design and Outsourcing (MDO)</a>
           </li>
           <li>
             <a href="https://www.medtechdive.com/" target="_blank" rel="noopener">MedTech Dive: Medical Technology News & Analysis</a>
-          </li>
-          <li>
-            <a href="https://www.medicaldesignandoutsourcing.com/" target="_blank" rel="noopener">Medical Design and Outsourcing (MDO)</a>
           </li>
           <li>
             <a href="https://pubmed.ncbi.nlm.nih.gov/?term=surgical+robotics" target="_blank" rel="noopener">PubMed: Surgical robotics (latest articles)</a>
@@ -42,6 +42,9 @@
             <a href="https://www.therobotreport.com/10-surgical-robotics-companies-follow-2025/" target="_blank" rel="noopener">The Robot Report: 10 Surgical Robotics Companies to Follow (2025)</a>
           </li>
           <li>
+            <a href="https://en.wikipedia.org/wiki/Medical_robot" target="_blank" rel="noopener">Wikipedia: Medical robot</a>
+          </li>
+          <li>
             <a href="https://en.wikipedia.org/wiki/Surgical_robot" target="_blank" rel="noopener">Wikipedia: Surgical robot</a>
           </li>
         </ul>
@@ -50,7 +53,7 @@
 
     <div class="card mb-4">
       <div class="card-body">
-        <h2 class="card-title">Regulatory Databases</h2>
+        <h2 class="card-title">Regulatory & Clinical Databases</h2>
         <ul class="mb-0">
           <li>
             <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm" target="_blank" rel="noopener">FDA 510(k) database</a>
@@ -60,6 +63,9 @@
           </li>
           <li>
             <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm" target="_blank" rel="noopener">FDA De Novo database</a>
+          </li>
+          <li>
+            <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov (Study Registry)</a>
           </li>
           <li>
             <a href="https://ec.europa.eu/growth/tools-databases/nando/index.cfm" target="_blank" rel="noopener">EU NANDO / EUDAMED portal</a>
@@ -86,6 +92,9 @@
         <ul class="mb-0">
           <li>
             <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive: Wayback Machine</a>
+          </li>
+          <li>
+            <a href="https://www.sec.gov/edgar/searchedgar/companysearch" target="_blank" rel="noopener">SEC EDGAR (U.S. SEC Company Filings)</a>
           </li>
           <li>
             <a href="https://opencorporates.com/" target="_blank" rel="noopener">OpenCorporates</a>

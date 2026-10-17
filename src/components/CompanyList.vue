@@ -3,7 +3,17 @@
     <div v-for="company in companies" :key="company.name" class="col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm card-clickable" @click="goToDetail(company)">
         <div class="card-body">
-          <h5 class="card-title">{{ company.name }}</h5>
+          <h5 class="card-title">
+            {{ company.name }}
+            <span
+              v-if="company.status && company.status.state !== 'active'"
+              class="badge ms-1"
+              :class="getCompanyStatusBadgeClass(company.status.state)"
+              :title="company.status.note || company.status.state"
+            >
+              {{ formatCompanyState(company.status.state) }}
+            </span>
+          </h5>
           <h6 class="card-subtitle mb-2">{{ company.country }}</h6>
           <div class="mb-2">
             <span v-if="company.employee_count" class="badge bg-info text-dark me-1" title="Number of employees">
@@ -79,6 +89,22 @@ function goToDetail(company) {
 
 function goToRobot(robotId) {
   router.push(`/robot/${robotId}`);
+}
+
+function formatCompanyState(state) {
+  if (state === 'acquired') return 'Acquired';
+  if (state === 'merged') return 'Merged';
+  if (state === 'defunct') return 'Defunct';
+  if (state === 'liquidated') return 'Liquidated';
+  if (state === 'restructuring') return 'Insolvent';
+  return state;
+}
+
+function getCompanyStatusBadgeClass(state) {
+  if (state === 'acquired' || state === 'merged') return 'bg-info text-dark';
+  if (state === 'defunct' || state === 'liquidated') return 'bg-danger';
+  if (state === 'restructuring') return 'bg-warning text-dark';
+  return 'bg-secondary';
 }
 </script>
 

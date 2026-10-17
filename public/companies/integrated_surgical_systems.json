@@ -28,5 +28,12 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=%22Integrated+Surgical+Systems%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Integrated%20Surgical%20Systems%22&s=_score&d=%2B&p=0&n=50"
+  },
+  "status": {
+    "state": "defunct",
+    "year": 2007,
+    "successor": "think_surgical",
+    "note": "Original developer of ROBODOC; assets and technology lineage transitioned to Curexo and subsequently Think Surgical.",
+    "source_url": "https://thinksurgical.com/"
   }
 }

@@ -5,18 +5,20 @@
   "introduction_year": null,
   "urls": [
     {
-      "caption": "Titan Medical [defunct]",
-      "url": "https://titanmedicalinc.com/"
+      "caption": "Titan Medical (Original Site)",
+      "url": "https://titanmedicalinc.com/",
+      "archive_url": "https://web.archive.org/web/20250724131809/https://titanmedicalinc.com/"
     },
     {
       "caption": "FIERCE Biotech, 06/2023 article",
-      "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
+      "url": "https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic",
+      "archive_url": "https://web.archive.org/web/20260209220427/https://www.fiercebiotech.com/medtech/titan-medical-licenses-robotic-surgery-tech-intuitive-shuffles-c-suite-amid-strategic"
     }
   ],
   "photos": [],
   "tags": [
     "RAMIS",
-    "Commercial"
+    "Retired"
   ],
   "usages": [
     "Abdominal",
@@ -42,5 +44,11 @@
   "units_deployed": {
     "count": 6,
     "source_url": "https://titanmedicalinc.com/"
+  },
+  "lifecycle": {
+    "status": "development_halted",
+    "year": 2023,
+    "note": "Development paused in 2023; Titan Medical licensed its surgical robotics IP to Intuitive Surgical and subsequently completed a reverse takeover merger with Conavi Medical Corp in 2024.",
+    "source_url": "https://www.globenewswire.com/news-release/2024/10/11/2962201/0/en/conavi-medical-corp-formerly-titan-medical-inc-completes-business-combination.html"
   }
 }

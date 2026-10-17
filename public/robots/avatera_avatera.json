@@ -38,7 +38,6 @@
     "Stereo endoscope",
     "Mechanical Cartesian manipulation",
     "Haptic",
-    "Commercial",
     "Retired"
   ],
   "usages": [
@@ -106,5 +105,11 @@
   "units_deployed": {
     "count": 10,
     "source_url": "https://avatera.eu/en/avatera-system"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2023,
+    "note": "Manufacturer avateramedical entered insolvency proceedings in October 2023 at the Erfurt district court.",
+    "source_url": "https://www.eqs-news.com/news/corporate/medical-technology-specialist-avateramedical-is-restructuring-through-insolvency-proceedings/b2a55f39-a54f-48dd-b003-cff63ebe02dc"
   }
 }

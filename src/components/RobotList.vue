@@ -40,6 +40,22 @@
               style="background-color: #e8650a;"
               title="Recently added to the database"
             >★ NEW</span>
+            <!-- Lifecycle Status Badge -->
+            <span
+              v-if="item.lifecycle?.status === 'discontinued'"
+              class="badge bg-danger ms-1"
+              :title="item.lifecycle.note || 'Discontinued'"
+            >Discontinued</span>
+            <span
+              v-else-if="item.lifecycle?.status === 'development_halted'"
+              class="badge bg-warning text-dark ms-1"
+              :title="item.lifecycle.note || 'Development Halted'"
+            >Dev Halted</span>
+            <span
+              v-else-if="item.lifecycle?.status === 'premarket'"
+              class="badge bg-info text-dark ms-1"
+              :title="item.lifecycle.note || 'In premarket development / clinical trials'"
+            >Premarket</span>
           </div>
 <!-- ...existing template code... -->
         </div>
