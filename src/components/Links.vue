@@ -24,6 +24,12 @@
             <a href="https://en.wikipedia.org/wiki/Medical_robot" target="_blank" rel="noopener">Wikipedia: Medical robot</a>
           </li>
           <li>
+            <a href="https://www.medtechdive.com/" target="_blank" rel="noopener">MedTech Dive: Medical Technology News & Analysis</a>
+          </li>
+          <li>
+            <a href="https://www.medicaldesignandoutsourcing.com/" target="_blank" rel="noopener">Medical Design and Outsourcing (MDO)</a>
+          </li>
+          <li>
             <a href="https://pubmed.ncbi.nlm.nih.gov/?term=surgical+robotics" target="_blank" rel="noopener">PubMed: Surgical robotics (latest articles)</a>
           </li>
           <li>
@@ -78,6 +84,9 @@
       <div class="card-body">
         <h2 class="card-title">Company & Data Sources</h2>
         <ul class="mb-0">
+          <li>
+            <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive: Wayback Machine</a>
+          </li>
           <li>
             <a href="https://opencorporates.com/" target="_blank" rel="noopener">OpenCorporates</a>
           </li>
