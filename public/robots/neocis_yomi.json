@@ -23,7 +23,7 @@
   "usages": [
     "Dental implant"
   ],
-  "description": "",
+  "description": "Yomi is a computerized robotic guidance system developed by Neocis for dental implant surgery. The platform consists of a multi-axis articulated robotic arm on a mobile cart, real-time tracking arrays, and CBCT-based 3D treatment planning software. During osteotomy preparation and implant placement, the robotic arm provides physical haptic constraints that guide the clinician's handpiece precisely along planned angular trajectories and depth limits while allowing dynamic visualization and adjustments. Yomi is the first FDA-cleared robotic guidance system for dental implantology.",
   "also_known_as": [],
   "videos": [
     {

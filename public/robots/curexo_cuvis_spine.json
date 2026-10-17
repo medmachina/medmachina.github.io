@@ -33,7 +33,7 @@
   "usages": [
     "Spine"
   ],
-  "description": "",
+  "description": "CUVIS-spine is a robotic navigation and trajectory guidance system developed by Curexo for spinal surgery. The system integrates a multi-joint robotic arm mounted on a mobile base with dual-camera optical tracking and planning software compatible with 2D fluoroscopy (C-arm) and 3D intraoperative imaging (O-arm). Based on pre-planned trajectories, the robotic arm positions a rigid drill guide for accurate pedicle screw insertion while monitoring real-time patient movement and tool contact forces. The system holds FDA 510(k) clearance and CE mark approval.",
   "also_known_as": [],
   "videos": [
     {

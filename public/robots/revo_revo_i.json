@@ -36,7 +36,7 @@
     "Gynecological",
     "Urological"
   ],
-  "description": "",
+  "description": "The Revo-i (Model MSR-5000) is a multiport teleoperated robotic surgical platform developed by meerecompany in South Korea. The system comprises a patient-side cart with four multi-joint robotic arms, an enclosed surgeon console with a 3D stereoscopic viewer and master tool manipulators, and a mobile vision cart. The platform utilizes mechanical remote center of motion (RCM) kinematics and multi-joint wristed instruments with tremor filtering for minimally invasive procedures. Revo-i is approved by South Korea's MFDS and internationally for urological, gynecological, general, and thoracic surgery.",
   "also_known_as": [],
   "videos": [
     {

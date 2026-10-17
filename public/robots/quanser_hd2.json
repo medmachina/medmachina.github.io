@@ -22,7 +22,7 @@
   "tags": [
     "Haptic device"
   ],
-  "description": "",
+  "description": "The HD2 High-Definition Haptic Device is a high-performance parallel-kinematic haptic interface manufactured by Quanser for robotics research, teleoperation master consoles, and virtual reality simulations. It provides 6 degrees of freedom of position sensing with optical encoders and 5 degrees of freedom of force actuation driven by DC motors and capstan linkages. Counterbalanced to minimize perceived weight and baseline friction, the HD2 interfaces with MATLAB/Simulink, Python, and ROS 2 for research in bilateral teleoperation, haptic rendering, and surgical control algorithms.",
   "also_known_as": [],
   "videos": [
     {

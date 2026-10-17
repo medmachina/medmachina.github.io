@@ -40,7 +40,7 @@
     "Gynecological",
     "Urological"
   ],
-  "description": "",
+  "description": "The Hugo Robotic-Assisted Surgery (RAS) system is a modular multiport teleoperated platform developed by Medtronic for minimally invasive surgery. It features up to four independent mobile arm carts that can be positioned flexibly around the operating table, an open surgeon console with an HD 3D stereoscopic display viewed with passive glasses, and pistol-grip controllers. Utilizing mechanical remote centers of motion and wristed articulating instruments, the system is integrated with Karl Storz 3D visualization and Medtronic's digital surgery ecosystem. Hugo RAS has received CE mark certification, US FDA clearance, and international approvals for urologic, gynecologic, and general surgical procedures.",
   "also_known_as": [],
   "videos": [
     {

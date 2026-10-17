@@ -27,7 +27,7 @@
   "usages": [
     "Spine"
   ],
-  "description": "",
+  "description": "The Mazor Robotic Guidance System (including Mazor X Stealth Edition) is a robotic navigation platform developed for spine surgery by Medtronic (originally Mazor Robotics). The system integrates a bed-mounted or cart-mounted articulated robotic arm with Medtronic StealthStation optical navigation and intraoperative 3D/fluoroscopic imaging. Utilizing CT-based preoperative plans, the robotic arm automatically aligns a rigid guidance sleeve along planned screw trajectories for precise pedicle screw placement and spinal instrumentation. The system is FDA-cleared and widely used in open and minimally invasive spinal procedures.",
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=frl9kJJACTg",

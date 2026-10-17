@@ -25,7 +25,7 @@
     "Gynecological",
     "Urological"
   ],
-  "description": "",
+  "description": "The Senhance Surgical System is a teleoperated multiport robotic platform for minimally invasive surgery developed by Asensus Surgical (originally TransEnterix). The system features up to four independent bedside robotic arm carts, an open surgeon console with a 3D display and infrared eye-tracking camera navigation, and reusable 3 mm, 5 mm, and 10 mm laparoscopic instruments with haptic force sensing. Cleared by the US FDA and CE marked for abdominal, gynecological, urological, and pediatric laparoscopy, development of the standalone hardware platform was discontinued following Karl Storz's acquisition of Asensus in 2024.",
   "also_known_as": [],
   "videos": [
     {

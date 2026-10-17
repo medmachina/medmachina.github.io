@@ -35,7 +35,7 @@
     "Gynecological",
     "Urological"
   ],
-  "description": "",
+  "description": "Dexter is a hybrid robotic surgery platform developed by Distalmotion for minimally invasive laparoscopic procedures. Designed for an on-demand workflow, the system comprises two mobile patient-side robotic arm carts that dock with standard laparoscopic trocars and an open surgeon console with 3D visualization operable seated or standing. The architecture allows surgeons to switch directly between teleoperated robotic wristed manipulation and conventional bedside laparoscopy without re-draping or altering the surgical setup. Dexter has received CE mark certification and US FDA De Novo and 510(k) clearances for general surgery and gynecological procedures.",
   "also_known_as": [],
   "videos": [
     {

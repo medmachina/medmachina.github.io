@@ -27,7 +27,7 @@
     "Hip",
     "Knee"
   ],
-  "description": "",
+  "description": "Mako SmartRobotics is a surgeon-guided robotic-arm assisted orthopedic platform developed by Stryker for total knee, partial knee, and total hip arthroplasty. The system integrates an articulated robotic arm cart, an optical camera tracking unit, and CT-based 3D preoperative planning software. During bone preparation, the platform uses AccuStop haptic technology: the surgeon guides the cutting saw or reaming tool while the robotic arm enforces stereotactic boundaries that physically prevent resection outside the planned envelope. Extensively cleared by the US FDA and CE marked, Mako is widely deployed worldwide for joint reconstruction.",
   "also_known_as": [],
   "videos": [
     {

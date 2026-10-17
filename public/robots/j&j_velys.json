@@ -30,12 +30,12 @@
   "usages": [
     "Knee"
   ],
-  "description": "",
+  "description": "The VELYS Robotic-Assisted Solution is an orthopedic robotic platform developed by DePuy Synthes (Johnson & Johnson MedTech) for total knee arthroplasty (TKA). Designed with a compact, table-mounted robotic arm that attaches directly to the operating room table rails, the system operates without requiring preoperative CT or MRI imaging (imageless navigation). It uses optical tracking arrays to evaluate joint stability and gap balance intraoperatively, while the robotic arm positions and stabilizes a saw cutting block along planned resection planes for surgeon-directed bone cuts. The system holds US FDA 510(k) clearance and CE mark approval.",
   "also_known_as": [],
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=jTXyi2Y0r1c",
-      "title": "How is the robotic knee replacement surgery performed? (Velys\u2122 system)"
+      "title": "How is the robotic knee replacement surgery performed? (Velys™ system)"
     },
     {
       "url": "https://www.youtube.com/watch?v=tv_0Zt71F0Q",
@@ -83,7 +83,7 @@
       "citations": 53
     },
     {
-      "title": "Patient-Specific TKA with the VELYS\u2122 Robotic-Assisted Solution",
+      "title": "Patient-Specific TKA with the VELYS™ Robotic-Assisted Solution",
       "url": "https://doi.org/10.52198/22.sti.40.os1561",
       "year": 2022,
       "journal": "Surgical technology international",

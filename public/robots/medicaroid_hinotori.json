@@ -39,7 +39,7 @@
   "usages": [
     "Thoracic"
   ],
-  "description": "",
+  "description": "The hinotori Surgical Robot System is a multiport teleoperated surgical robotic platform developed by Medicaroid Corporation (a joint venture between Kawasaki Heavy Industries and Sysmex Corporation). The system consists of an Operation Unit with four 8-axis robotic arms on a single cart, an ergonomic Surgeon Cockpit with a 3D stereoscopic viewer, and an integrated motorized operating table. Using software-defined remote centers of motion to reduce external arm collisions, the platform supports multi-quadrant access with articulating wristed instruments. Approved by Japan's PMDA and CE marked, it is utilized in urology, gastroenterology, gynecology, and thoracic procedures.",
   "also_known_as": [],
   "videos": [
     {

@@ -36,7 +36,7 @@
     "Commercial"
   ],
   "usages": [],
-  "description": "",
+  "description": "The Vicarious Surgical System (v1.0) is a single-port robotic surgery platform developed by Vicarious Surgical for minimally invasive abdominal procedures, with an initial focus on ventral hernia repair. The system features a single patient cart designed to insert two miniaturized multi-jointed robotic arms—providing 9 degrees of freedom each to emulate human shoulder, elbow, and wrist kinematics—and a 3D 360-degree stereoscopic camera through a single 1.5 cm incision. The surgeon operates from a console utilizing immersive 3D visualization and ergonomic hand controllers.",
   "also_known_as": [],
   "videos": [
     {

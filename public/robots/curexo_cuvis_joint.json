@@ -30,7 +30,7 @@
   "usages": [
     "Knee"
   ],
-  "description": "",
+  "description": "CUVIS-joint is an active robotic surgical system developed by Curexo for orthopedic joint replacement, including total knee arthroplasty (TKA). The platform pairs a 6-axis articulated robotic arm on a mobile cart with an optical tracking system and CT-based 3D preoperative planning software. Using pre-calculated milling paths, the robotic arm autonomously resects bone surfaces to match planned implant specifications while allowing the surgeon to monitor progress and adjust alignment based on intraoperative soft-tissue gap balancing. The system has received regulatory clearances including the CE mark and FDA 510(k).",
   "also_known_as": [],
   "videos": [
     {

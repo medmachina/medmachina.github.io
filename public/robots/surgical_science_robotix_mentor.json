@@ -19,6 +19,6 @@
     "RAMIS",
     "Simulation"
   ],
-  "description": "",
+  "description": "The FlexVR (part of the RobotiX Mentor simulation line) is a virtual reality training simulator for robotic surgery developed by Surgical Science. Featuring a lightweight form factor with master controllers, foot pedals, and 3D visualization, the simulator trains surgical trainees in core robotic skills including camera control, clutching, wristed manipulation, needle driving, and energy application. The system provides objective skill tracking, metrics evaluation, and procedural curriculum modules for multi-specialty surgical education.",
   "also_known_as": []
 }

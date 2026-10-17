@@ -35,7 +35,7 @@
   "usages": [
     "Urological"
   ],
-  "description": "",
+  "description": "The Bitrack System is a robotic platform for minimally invasive surgery developed by Rob Surgical (a spin-off from the Universitat Politècnica de Catalunya). Built around an open architecture philosophy, the platform consists of a single mobile robotic column with four articulated arms and an open surgeon console with a 3D display. The system is designed for hybrid surgery, allowing quick docking and intraoperative switching between robotic wristed instruments and conventional manual laparoscopic tools using standard trocars. The Bitrack received European CE mark certification in 2026 for abdominal and pelvic surgical procedures.",
   "also_known_as": [],
   "regulatory": [
     {

@@ -31,7 +31,7 @@
     "Hip",
     "Knee"
   ],
-  "description": "",
+  "description": "The Skywalker Orthopedic Surgical Robot is a joint replacement robotic platform developed by MicroPort MedBot for total knee arthroplasty (TKA) and total hip arthroplasty (THA). The platform integrates a lightweight 6-axis collaborative robotic arm cart with an optical tracking system and CT-based 3D preoperative planning software. During surgery, the robotic arm positions osteotomy cutting guides or reaming tools to planned trajectories with real-time motion tracking compensation and safety boundary protection. The system has received NMPA approval in China, CE mark certification, and US FDA 510(k) clearance.",
   "also_known_as": [],
   "videos": [
     {

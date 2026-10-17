@@ -41,7 +41,7 @@
     "Thoracic",
     "Urological"
   ],
-  "description": "",
+  "description": "The Versius Surgical System is a modular teleoperated robotic platform developed by CMR Surgical for robot-assisted minimally invasive surgery. It consists of multiple independent, mobile bedside arm carts—each featuring a 7-degree-of-freedom robotic arm modeled after human arm kinematics—paired with an open surgeon console with an HD 3D stereoscopic display operated using polarized 3D glasses and hand controllers. Utilizing 5 mm articulating wristed instruments, the system holds CE mark, UKCA, and US FDA clearance for procedures in general surgery, gynecology, urology, and thoracic surgery.",
   "also_known_as": [],
   "regulatory": [
     {

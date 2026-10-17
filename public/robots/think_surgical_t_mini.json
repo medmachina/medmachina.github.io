@@ -27,7 +27,7 @@
     "Hip",
     "Knee"
   ],
-  "description": "",
+  "description": "The TMINI Miniature Robotic System is a handheld wireless robotic platform developed by Think Surgical for total knee arthroplasty (TKA). The system combines a handheld robotic cutting guide, an optical camera tracking unit, and open-platform CT-based 3D planning software compatible with multiple implant brands. During surgery, the motorized handheld device adjusts and aligns the cutting guide pin block to the pre-planned resection plane while compensating for patient movement and surgeon tremor, after which standard oscillating saw cuts are executed. The system holds US FDA 510(k) clearance.",
   "also_known_as": [],
   "videos": [
     {
