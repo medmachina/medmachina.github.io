@@ -27,7 +27,7 @@
     "Shoulder",
     "Spine"
   ],
-  "description": "ROSA (Robotic Surgical Assistant) is Zimmer Biomet's platform for robotic-assisted orthopedic surgery, including knee procedures. It provides preoperative planning, intraoperative navigation, and robotic guidance to improve precision and reproducibility in joint replacement.",
+  "description": "ROSA (Robotic Surgical Assistant) is a family of robotic-assisted surgical platforms originally developed by French company Medtech SA for stereotactic neurosurgery and spine surgery (ROSA Brain and ROSA Spine) before being acquired by Zimmer Biomet in 2016 and expanded to orthopedic joint reconstruction (ROSA Knee, ROSA Hip, and ROSA Shoulder). The system combines a mobile cart-mounted 6-degree-of-freedom serial robotic arm equipped with force-torque sensing for manual hand-guiding, an optical camera tracking unit, and surgical planning software supporting both 2D X-ray/3D CT preoperative models and imageless intraoperative registration. During arthroplasty or stereotactic procedures, the robotic arm positions cutting blocks or instrument guides along planned trajectories while compensating for patient motion. It holds US FDA 510(k) clearances and CE mark certification.",
   "also_known_as": [],
   "videos": [
     {

@@ -22,7 +22,7 @@
     "Commercial"
   ],
   "usages": [],
-  "description": "Wristed instruments held by mechanical RCMs. Surgeon holds the instruments using wristed handle.",
+  "description": "The R1 is a compact, table-mounted collaborative laparoscopic platform developed by Revolve Surgical (Toronto, Canada) for multiport minimally invasive soft-tissue surgery. Rather than using a remote teleoperation console and floor-standing cart, the system mounts mechanical remote center of motion (RCM) linkages to the operating table to stabilize and assist articulating wristed laparoscopic instruments. The surgeon stands at the bedside and manipulates the instruments directly via ergonomic wristed handles, combining motorized/electromechanical assistance with direct bedside control. The platform received US FDA 510(k) clearance for minimally invasive abdominal and general laparoscopic surgery.",
   "also_known_as": [],
   "units_deployed": {
     "count": 4,

@@ -30,7 +30,7 @@
     "Haptic device",
     "OEM component"
   ],
-  "description": "High-precision parallel-kinematics haptic devices (omega.3, omega.6, omega.7) providing 3-DOF to 7-DOF force feedback and teleoperation.",
+  "description": "The omega.x series (omega.3, omega.6, and omega.7) by Force Dimension is a family of desktop parallel-kinematic haptic interfaces based on a delta mechanical structure for low-inertia, high-stiffness 3-DOF translational force feedback. The omega.3 provides 3 active translational degrees of freedom; the omega.6 adds a 3-DOF passive gimbal wrist for 6-DOF position and orientation sensing; and the omega.7 replaces the passive wrist handle with a 1-DOF active motorized force-feedback pinch gripper (7 DOFs total, 4 actuated). Equipped with active gravity compensation and a high-frequency C/C++ and ROS SDK, omega devices are widely integrated as OEM master controllers in surgical robotics platforms such as the Raven-II and EndoMaster EASE.",
   "also_known_as": [
     "omega.7",
     "omega 7",

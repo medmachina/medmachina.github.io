@@ -26,7 +26,7 @@
   "tags": [
     "Open microsurgery"
   ],
-  "description": "2 patient side manipulators with wrist (7 dofs), direct line of sight, free hand joysticks?",
+  "description": "The Symani Surgical System is a teleoperated robotic platform developed by Medical Microinstruments (MMI) for open microsurgery and super-microsurgery, such as free-flap microvascular anastomosis and lymphatic reconstruction. The bedside cart suspends two macro-positioner arms over the surgical field that deploy miniature 7-degree-of-freedom wristed micro-instruments (NanoWrist). The surgeon sits at a console—viewing the operative field either directly through a 3D exoscope display or an optical microscope—and manipulates two untethered, forceps-like electromagnetic hand controllers that apply 7x to 20x motion scaling and tremor filtration. The system received European CE mark certification in 2019 and US FDA De Novo authorization in 2024.",
   "also_known_as": [],
   "usages": [
     "Microsurgery"

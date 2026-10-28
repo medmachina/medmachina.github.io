@@ -26,7 +26,7 @@
     "Lung",
     "Bronchoscopy"
   ],
-  "description": "Used with C-Arm/CBCT.",
+  "description": "The MONARCH Platform (including MONARCH Quest) is a flexible robotic-assisted bronchoscopy and endourology system developed by Auris Health (acquired by Johnson & Johnson MedTech in 2019). For diagnostic bronchoscopy, the platform employs a telescopic mother-daughter catheter design (an outer sheath and an inner articulating bronchoscope) steered via a handheld twin-joystick controller. Navigation to peripheral lung nodules combines continuous direct endoscopic vision, electromagnetic (EM) tracking registered to preoperative 3D CT models, and compatibility with intraoperative C-arm fluoroscopy and cone-beam CT (CBCT). The platform holds US FDA 510(k) clearances for both bronchoscopy (2018) and endourological stone management (2022).",
   "also_known_as": [],
   "videos": [
     {

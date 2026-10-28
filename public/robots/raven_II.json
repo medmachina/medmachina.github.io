@@ -45,7 +45,7 @@
   "usages": [
     "Abdominal"
   ],
-  "description": "Patient side, physical RCM, compatible with da Vinci instruments. Surgeon’s side uses off-the-shelf haptic devices (ForceDimension). No camera nor display.",
+  "description": "The Raven-II is an open-architecture, open-source surgical robotics research platform originally developed by the University of Washington and UC Santa Cruz and distributed to academic laboratories through Applied Dexterity. On the patient side, the system features two cable-driven 7-degree-of-freedom surgical manipulators built around a spherical mechanism that enforces a physical remote center of motion (RCM) and uses an adapter interface compatible with wristed Intuitive Surgical da Vinci instruments. The platform does not include an integrated camera arm or stereoscopic display; instead, researchers typically pair it with external endoscopes and teleoperate it via ROS software using off-the-shelf haptic master controllers such as Force Dimension Omega devices.",
   "also_known_as": [],
   "videos": [
     {

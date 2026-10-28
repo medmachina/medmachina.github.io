@@ -7,7 +7,7 @@
     "MX-03",
     "MX-01"
   ],
-  "description": "AVIAR is a vascular robotic system for safer, more precise percutaneous coronary interventions (PCI).",
+  "description": "AVIAR (Advanced Vascular Intervention Assist Robot) is a teleoperated endovascular robotic system developed by South Korean medical device manufacturer LN Robotics for percutaneous coronary intervention (PCI). The system consists of a table-mounted multi-channel robotic drive unit capable of simultaneously loading and independently manipulating multiple interventional devices—including guidewires, balloon catheters, and stents—controlled by the physician from a radiation-shielded console with haptic/force monitoring. AVIAR received regulatory approval from South Korea's Ministry of Food and Drug Safety (MFDS) in 2023 and has been clinically evaluated in multi-center coronary intervention trials.",
   "urls": [
     {
       "caption": "LN Robotics Official Website",

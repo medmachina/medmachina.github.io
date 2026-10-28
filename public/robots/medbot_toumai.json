@@ -48,7 +48,7 @@
     "Thoracic",
     "Urological"
   ],
-  "description": "Imitation is the most sincere form of flattery: The MedBot Toumai looks remarkably like da Vinci Xi.  Force feedback is advertised.",
+  "description": "The Toumai Endoscopic Surgical Robot (MT-1000) is a 4-arm multiport teleoperated laparoscopic platform developed by Shanghai MicroPort MedBot. Its system layout and mechanical design closely resemble the Intuitive Surgical da Vinci Xi, featuring an overhead boom-mounted four-arm patient cart, an enclosed 3D stereoscopic surgeon console with Cartesian master manipulators, and an imaging cart, while advertising force-feedback capabilities and 5G/fiber-optic remote telesurgery support. The platform pairs with wristed articulating instruments and a 3D HD endoscope, and has received China NMPA marketing approval (2022) and European CE mark certification (2024) for urological, gynecological, thoracic, and general abdominal surgery.",
   "also_known_as": [],
   "regulatory": [
     {

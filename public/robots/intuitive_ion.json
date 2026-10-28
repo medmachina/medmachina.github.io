@@ -20,7 +20,7 @@
     "Bronchoscopy",
     "Lung"
   ],
-  "description": "Used with C-Arm/CBCT.",
+  "description": "The Ion Endoluminal System is a robotic-assisted bronchoscopy platform developed by Intuitive Surgical for minimally invasive peripheral lung biopsy. The system utilizes an ultra-thin (3.5 mm outer diameter), fully articulating robotic catheter integrated with fiber-optic shape-sensing technology that measures the catheter's full shape hundreds of times per second to provide real-time location and stability throughout navigation. The physician steers the catheter along pre-planned 3D pathways derived from preoperative CT scans using a trackball and scroll wheel console, and the system integrates with intraoperative 2D fluoroscopy (C-arm) and 3D cone-beam CT (CBCT) imaging to update target alignment during biopsy. Ion received US FDA 510(k) clearance in 2019 and CE mark approval.",
   "also_known_as": [],
   "videos": [
     {

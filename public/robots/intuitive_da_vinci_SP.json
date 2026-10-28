@@ -54,7 +54,7 @@
     "Transoral",
     "Urological"
   ],
-  "description": "The da Vinci SP system is uniquely designed for single-incision or natural orifice surgery. It features a single arm that delivers three multi-jointed instruments and a fully articulating 3DHD endoscope for enhanced visibility and control in narrow surgical spaces, empowering surgeons to perform a wide range of complex procedures.",
+  "description": "The da Vinci SP (IS4000 SP) is a single-port teleoperated robotic platform developed by Intuitive Surgical for single-incision laparoscopy and natural orifice (transoral, transanal, and transvesical) surgical procedures. Instead of multiple independent arms, the patient cart mounts a single instrument drive arm with a mechanical remote center of motion (RCM) that deploys up to three 6 mm multi-jointed EndoWrist SP instruments and an articulating 3D HD stereoscopic endoscope through a single 25 mm multi-channel cannula. Inside the body, each instrument deploys an elbow joint and a distal wrist to achieve internal triangulation, while the entire instrument cluster can revolve 360 degrees around the port axis. The surgeon operates from a console similar to the da Vinci Si/Xi supplemented by a graphical heads-up display tracking relative instrument and camera positions.",
   "also_known_as": [],
   "videos": [
     {

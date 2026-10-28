@@ -31,7 +31,7 @@
     "Haptic device",
     "OEM component"
   ],
-  "description": "Haptic devices using a parallel kinematics platform for position and a motorized active wrist/gripper providing up to 7 active DOFs with force and torque feedback. Designed for OEM integration into surgical consoles and bimanual workstations, such as the RIVERFIELD Saroa surgical system.",
+  "description": "The lambda.7 by Force Dimension is a 7-degree-of-freedom haptic master interface combining a delta-based parallel kinematic structure for 3-DOF translation with a motorized serial wrist and active pinch gripper, providing full 7-DOF position sensing and active force, torque, and grasping feedback. Compared to desktop haptic devices, its slim profile and asymmetric workspace are engineered specifically for side-by-side bimanual mounting inside surgical consoles without mechanical interference between the operator's hands. It is used as an OEM master controller in commercial surgical platforms such as the RIVERFIELD Saroa surgical system.",
   "also_known_as": [
     "lambda.7",
     "lambda 7"

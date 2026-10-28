@@ -24,7 +24,7 @@
     "Bronchoscopy",
     "Lung"
   ],
-  "description": "Used with C-Arm/CBCT.",
+  "description": "The Galaxy System is a robotic-assisted navigation bronchoscopy platform developed by Noah Medical for peripheral lung lesion biopsy. The system pairs a cart-mounted robotic positioning arm and handheld controller with a single-use disposable bronchoscope featuring continuous direct tip visualization to reduce cross-contamination and eliminate reprocessing. Navigation integrates electromagnetic tracking with proprietary TiLT+ (Tool-in-Lesion Tomosynthesis) technology, which reconstructs 3D target views using standard 2D fluoroscopic C-arm sweeps or cone-beam CT (CBCT) to verify needle placement inside lung nodules. The Galaxy System received US FDA 510(k) clearance in March 2023.",
   "also_known_as": [],
   "videos": [
     {

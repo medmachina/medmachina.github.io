@@ -25,7 +25,7 @@
   "usages": [
     "Eye"
   ],
-  "description": "Location: Montpellier, France. 2 patient side manipulators.",
+  "description": "Luca is a bimanual teleoperated robotic microsurgery platform developed by AcuSurgical (Montpellier, France) for vitreoretinal ophthalmic surgery. The system comprises two independent patient-side robotic manipulators positioned on either side of the patient's head that hold standard intraocular micro-instruments, controlled from an ergonomic surgeon piloting console. The platform provides physiological tremor filtering, motion scaling, and active gravity compensation while operating alongside a surgical microscope or 3D heads-up visualization display. A first-in-human clinical study evaluating safety and feasibility in vitreoretinal procedures was completed in 2024.",
   "also_known_as": [],
   "units_deployed": {
     "count": 8,

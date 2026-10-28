@@ -26,7 +26,7 @@
   "usages": [
     "Prostate"
   ],
-  "description": "Robotic system for transrectal ultrasound (TRUS) guided prostate biopsy.",
+  "description": "The iSR'obot Mona Lisa is a robotic needle-guidance platform developed by Biobot Surgical for transperineal prostate biopsy and focal therapy. The system combines software that fuses preoperative MRI with real-time 3D transrectal ultrasound (TRUS) scans and a table-mounted robotic positioning arm. Using a dual-cone trajectory geometry, the robot automatically angles and guides the biopsy or ablation needle through only two perineal skin puncture points to sample target lesions across the prostate while compensating for gland deformation. The system holds US FDA 510(k) clearance and CE mark certification.",
   "also_known_as": [],
   "videos": [
     {

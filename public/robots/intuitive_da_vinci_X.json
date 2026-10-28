@@ -36,7 +36,7 @@
     "Haptic",
     "Commercial"
   ],
-  "description": "Released along the fourth generation da Vinci (Xi).  It uses all the features of the Xi system except the setup arms which are inheritied from the third generation (Si).  This is a lower cost version of the Xi system but since it uses the same instruments and endoscopes as the Xi, hospitals don't have to buy separate sets of instruments for the two systems.",
+  "description": "The da Vinci X (IS4200), released in 2017 alongside the fourth-generation da Vinci Xi, is a lower-cost multiport teleoperated surgical platform from Intuitive Surgical. It combines the active universal serial manipulator (USM) arms, compact instrument motor packs, digital 3D HD endoscope, vision cart, and surgeon console of the da Vinci Xi with the passive column-mounted setup joint chassis inherited from the third-generation da Vinci Si (lacking the Xi's motorized overhead boom and integrated table motion). Because the active arms and sterile interface match the Xi, hospitals can share the same inventory of EndoWrist instruments and endoscopes across both systems.",
   "also_known_as": [
     "IS4000"
   ],

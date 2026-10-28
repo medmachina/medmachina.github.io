@@ -29,7 +29,7 @@
     "Single port"
   ],
   "usages": [],
-  "description": "Patient side single port, concentric tubes, mono camera. Surgeon’s side manipulators emulate laparoscopic instruments (not Cartesian).",
+  "description": "The Virtuoso Surgical System is a single-port rigid endoscopic robot developed by Virtuoso Surgical (Nashville, Tennessee), originating from research at Vanderbilt University and Johns Hopkins University. On the patient side, the platform deploys two needle-sized concentric-tube manipulators—composed of telescoping, pre-curved superelastic nitinol tubes—through the working channel of a rigid monocular endoscope to provide bimanual grasping, retraction, and electrosurgical tissue dissection (such as en bloc transurethral bladder tumor resection). On the surgeon's console side, the master controllers emulate the kinematics and pivot motion of conventional handheld laparoscopic instruments rather than Cartesian manipulators.",
   "also_known_as": [],
   "videos": [
     {

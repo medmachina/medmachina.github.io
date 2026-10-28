@@ -30,7 +30,7 @@
     "Abdominal",
     "Gynecological"
   ],
-  "description": "ScoPilot (similar to AESOP) assistant holding endoscope for manual surgery.",
+  "description": "The Maestro System (initially developed under the name ScoPilot) is a collaborative robotic surgical assistant for conventional multiport laparoscopy developed by Moon Surgical. Conceptually extending robotic camera holders like AESOP to a dual-arm configuration, the bedside cart features two spring-balanced, motorized arms fitted with magnetic instrument adapters that hold a standard laparoscope and a laparoscopic tissue retractor. Instead of using a remote teleoperation console, the surgeon works at the operating table and repositions the instruments directly by hand-guiding them in place or using computer-vision-assisted autonomous camera tracking (ScoPilot). The platform holds CE mark approval and US FDA 510(k) clearance.",
   "also_known_as": [],
   "videos": [
     {

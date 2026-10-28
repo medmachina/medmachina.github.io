@@ -19,7 +19,7 @@
     "Haptic device",
     "OEM component"
   ],
-  "description": "Haptic devices using serial arm, up to 6 dofs motorized.",
+  "description": "The Virtuose 6D family by Haption consists of motorized serial-kinematic haptic master devices providing 6 active degrees of freedom (3 translations and 3 rotations) of position tracking and force/torque feedback. Designed with static mechanical spring weight-balancing for gravity compensation and a 1 kHz control loop over Ethernet/EtherCAT, the devices are available in desktop, large-workspace virtual reality (RV), and teleoperation (TAO) configurations with an optional 7th-DOF analog finger trigger. They are used as OEM master controllers for bilateral robot teleoperation, surgical robotics research, and CAD/VR simulation with APIs for C/C++, Python, and ROS/ROS 2.",
   "also_known_as": [],
   "units_deployed": {
     "count": 150,
