@@ -47,7 +47,7 @@
     "Transoral",
     "Urological"
   ],
-  "description": "The da Vinci Si (IS3000), introduced in 2009, is the third-generation multiport teleoperated surgical system from Intuitive Surgical. While its four-arm column-mounted patient cart remains mechanically very similar to the second-generation da Vinci S, the Si introduced a redesigned surgeon console with updated master tool manipulators (MTMs) featuring individual finger-grip clutches and an increased roll range, an ergonomic touchpad and foot-pedal panel, and a stereoscopic viewer using two high-definition flat-panel LCD monitors instead of CRTs. The generation also introduced dual-console support for collaborative surgery and training, integrated Firefly near-infrared fluorescence imaging, and a dedicated simulator backpack option.",
+  "description": "The da Vinci Si (IS3000), introduced in 2009, is the third-generation multiport teleoperated surgical system from Intuitive Surgical. While its four-arm column-mounted patient cart remains mechanically very similar to the second-generation [da Vinci S](/robot/intuitive_da_vinci_S), the Si introduced a redesigned surgeon console with updated master tool manipulators (MTMs) featuring individual finger-grip clutches and an increased roll range, an ergonomic touchpad and foot-pedal panel, and a stereoscopic viewer using two high-definition flat-panel LCD monitors instead of CRTs. The generation also introduced dual-console support for collaborative surgery and training, integrated Firefly near-infrared fluorescence imaging, and a dedicated simulator backpack option.",
   "also_known_as": [
     "IS3000"
   ],

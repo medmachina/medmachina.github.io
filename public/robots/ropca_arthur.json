@@ -28,7 +28,7 @@
     "Ultrasound"
   ],
   "usages": [],
-  "description": "ARTHUR (ARTHritis Ultrasound Robot) is an AI-powered, fully autonomous ultrasound robotic platform developed by Danish medtech company ROPCA. Built on the KUKA LBR Med collaborative robotic arm, ARTHUR automates standardized ultrasound scanning of hand and wrist joints for patients with rheumatoid arthritis. Operating in tandem with DIANA, an AI image analysis module, the system delivers disease activity reports without requiring direct sonographer supervision during scans. Received CE mark certification in 2022.",
+  "description": "ARTHUR (ARTHritis Ultrasound Robot) is an AI-powered, fully autonomous ultrasound robotic platform developed by Danish medtech company ROPCA. Built on the [KUKA LBR Med](/robot/kuka_lbr_med) collaborative robotic arm, ARTHUR automates standardized ultrasound scanning of hand and wrist joints for patients with rheumatoid arthritis. Operating in tandem with DIANA, an AI image analysis module, the system delivers disease activity reports without requiring direct sonographer supervision during scans. Received CE mark certification in 2022.",
   "also_known_as": [
     "ARTHritis Ultrasound Robot"
   ],

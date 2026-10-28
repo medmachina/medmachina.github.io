@@ -31,7 +31,7 @@
     "Haptic device",
     "OEM component"
   ],
-  "description": "The sigma.7 by Force Dimension is an active 7-degree-of-freedom haptic master interface that pairs a delta parallel-kinematic base for 3-DOF translational motion with an active motorized 3-DOF gimbal wrist and a 1-DOF motorized pinch gripper. Available in dedicated left- and right-hand configurations with active gravity compensation and kHz-rate control, it delivers simultaneous 3-DOF translational force feedback, 3-DOF rotational torque feedback, and 1-DOF grasping force feedback. It is designed for bimanual teleoperation workstations and OEM integration into surgical consoles, such as the Virtual Incision MIRA surgical system.",
+  "description": "The sigma.7 by Force Dimension is an active 7-degree-of-freedom haptic master interface that pairs a delta parallel-kinematic base for 3-DOF translational motion with an active motorized 3-DOF gimbal wrist and a 1-DOF motorized pinch gripper. Available in dedicated left- and right-hand configurations with active gravity compensation and kHz-rate control, it delivers simultaneous 3-DOF translational force feedback, 3-DOF rotational torque feedback, and 1-DOF grasping force feedback. It is designed for bimanual teleoperation workstations and OEM integration into surgical consoles, such as the [Virtual Incision MIRA](/robot/virtual_incision_mira) surgical system.",
   "also_known_as": [
     "sigma.7",
     "sigma 7"

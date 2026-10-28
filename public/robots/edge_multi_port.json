@@ -29,7 +29,7 @@
     "Thoracic",
     "Urological"
   ],
-  "description": "The Edge Multi-Port Endoscopic Surgical Robot (MP1000) is a 4-arm teleoperated surgical platform developed by Edge Medical (Shenzhen, China) for multiport robot-assisted minimally invasive surgery. Its overall mechanical and visual architecture closely resembles the Intuitive Surgical da Vinci Xi, comprising an overhead boom-mounted four-arm patient cart, an enclosed surgeon console with a stereoscopic 3D viewer and master manipulators, and an endoscopic vision cart. The system uses multi-jointed wristed instruments and shares a unified console and imaging ecosystem (MSP2000) with the Edge Single-Port robot. It received China NMPA approval (2022–2023) and European CE mark certification (2025) for urological, gynecological, thoracic, and general abdominal procedures.",
+  "description": "The Edge Multi-Port Endoscopic Surgical Robot (MP1000) is a 4-arm teleoperated surgical platform developed by Edge Medical (Shenzhen, China) for multiport robot-assisted minimally invasive surgery. Its overall mechanical and visual architecture closely resembles the Intuitive Surgical [da Vinci Xi](/robot/intuitive_da_vinci_Xi), comprising an overhead boom-mounted four-arm patient cart, an enclosed surgeon console with a stereoscopic 3D viewer and master manipulators, and an endoscopic vision cart. The system uses multi-jointed wristed instruments and shares a unified console and imaging ecosystem (MSP2000) with the [Edge Single-Port](/robot/edge_single_port) robot. It received China NMPA approval (2022–2023) and European CE mark certification (2025) for urological, gynecological, thoracic, and general abdominal procedures.",
   "also_known_as": [],
   "regulatory": [
     {

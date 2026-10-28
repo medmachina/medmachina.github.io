@@ -6,7 +6,7 @@
     "RF-SS01"
   ],
   "introduction_year": 2023,
-  "description": "The Saroa Surgical System (RF-SS01) is a compact, pneumatically actuated surgical assist robot developed by Japanese venture RIVERFIELD Inc. The Saroa provides tactile force feedback, reproducing tissue resistance to the surgeon's master handles using air pressure control. Designed with three robotic arms (one camera arm and two instrument arms) on a single cart and an open console with a 3D-4K flat monitor. The surgeon console integrates dual Force Dimension lambda.7 master devices for 7-DOF haptic control.",
+  "description": "The Saroa Surgical System (RF-SS01) is a compact, pneumatically actuated surgical assist robot developed by Japanese venture RIVERFIELD Inc. The Saroa provides tactile force feedback, reproducing tissue resistance to the surgeon's master handles using air pressure control. Designed with three robotic arms (one camera arm and two instrument arms) on a single cart and an open console with a 3D-4K flat monitor. The surgeon console integrates dual [Force Dimension lambda.7](/robot/force_dimension_lambda) master devices for 7-DOF haptic control.",
   "urls": [
     {
       "caption": "RIVERFIELD Saroa Product Page",

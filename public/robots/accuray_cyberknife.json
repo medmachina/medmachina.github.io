@@ -37,7 +37,7 @@
     "Thoracic",
     "Abdominal"
   ],
-  "description": "The CyberKnife System is a fully robotic, non-invasive stereotactic radiosurgery (SRS) and stereotactic body radiation therapy (SBRT) platform developed by Accuray. Built on a heavy-duty 6-axis articulated robotic arm (KUKA KR QUANTEC HC), it mounts a compact 6 MV linear accelerator (LINAC) to deliver targeted radiation from hundreds of angles with sub-millimeter precision. Integrated real-time X-ray imaging and Synchrony motion tracking continuously adapt beam delivery to patient and tumor movement in real-time. Paired with the 6-DOF RoboCouch patient positioning couch, CyberKnife treats both intracranial and extracranial tumors across the body without rigid head frames.",
+  "description": "The CyberKnife System is a fully robotic, non-invasive stereotactic radiosurgery (SRS) and stereotactic body radiation therapy (SBRT) platform developed by Accuray. Built on a heavy-duty 6-axis articulated robotic arm ([KUKA KR QUANTEC HC](/robot/kuka_kr_quantec_hc)), it mounts a compact 6 MV linear accelerator (LINAC) to deliver targeted radiation from hundreds of angles with sub-millimeter precision. Integrated real-time X-ray imaging and Synchrony motion tracking continuously adapt beam delivery to patient and tumor movement in real-time. Paired with the 6-DOF RoboCouch patient positioning couch, CyberKnife treats both intracranial and extracranial tumors across the body without rigid head frames.",
   "also_known_as": [
     "CyberKnife System",
     "CyberKnife S7"

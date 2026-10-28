@@ -38,7 +38,7 @@
     "Thoracic",
     "Urological"
   ],
-  "description": "The Carina Platform is a modular multiport teleoperated robotic surgery system developed by Ronovo Surgical (Shanghai, China) for robot-assisted minimally invasive surgery. The system pairs an enclosed 3D stereoscopic surgeon console—similar in layout to the da Vinci Si/Xi—with three or four independent mobile bedside robotic arm carts, each carrying one active robotic arm whose kinematics and compact instrument motor pack closely resemble the da Vinci Xi universal serial manipulator. The platform supports both wristed articulating instruments and straight laparoscopic tools using standard trocars, and received China NMPA marketing approval in March 2025 for general abdominal, gynecological, urological, and thoracic surgery.",
+  "description": "The Carina Platform is a modular multiport teleoperated robotic surgery system developed by Ronovo Surgical (Shanghai, China) for robot-assisted minimally invasive surgery. The system pairs an enclosed 3D stereoscopic surgeon console—similar in layout to the [da Vinci Si](/robot/intuitive_da_vinci_Si)/[Xi](/robot/intuitive_da_vinci_Xi)—with three or four independent mobile bedside robotic arm carts, each carrying one active robotic arm whose kinematics and compact instrument motor pack closely resemble the [da Vinci Xi](/robot/intuitive_da_vinci_Xi) universal serial manipulator. The platform supports both wristed articulating instruments and straight laparoscopic tools using standard trocars, and received China NMPA marketing approval in March 2025 for general abdominal, gynecological, urological, and thoracic surgery.",
   "also_known_as": [],
   "videos": [
     {

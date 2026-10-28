@@ -37,7 +37,13 @@
           </p>
           <div class="project-description">
             <template v-if="descriptionParagraphs.length">
-              <p v-for="(para, idx) in descriptionParagraphs" :key="idx">{{ para }}</p>
+              <p v-for="(para, idx) in descriptionParagraphs" :key="idx">
+                <template v-for="(seg, sIdx) in para" :key="sIdx">
+                  <router-link v-if="seg.type === 'router'" :to="seg.to">{{ seg.text }}</router-link>
+                  <a v-else-if="seg.type === 'external'" :href="seg.href" target="_blank" rel="noopener noreferrer">{{ seg.text }}</a>
+                  <template v-else>{{ seg.text }}</template>
+                </template>
+              </p>
             </template>
             <template v-else>
               {{ filteredProject["description"] }}
@@ -216,7 +222,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { updateSeo } from '../utils/seo';
 import { getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
@@ -224,6 +230,7 @@ import { getUnitsCategory } from '../utils/unitsDeployed.js';
 
 const route = useRoute();
 const router = useRouter();
+const allRobots = ref([]);
 const project = ref(null);
 const companies = ref([]);
 const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
@@ -240,16 +247,9 @@ const projectUsages = computed(() => {
   return [];
 });
 
-onMounted(async () => {
-  // Load robots data
-  const resRobots = await fetch('/robots.json');
-  const dataRobots = await resRobots.json();
-  project.value = dataRobots.find(p => String(p.id) === route.params.id);
-
-  // Load companies data
-  const resCompanies = await fetch('/companies.json');
-  const dataCompanies = await resCompanies.json();
-  companies.value = dataCompanies;
+function selectRobotById(id) {
+  invalidPhotoUrls.value = new Set();
+  project.value = allRobots.value.find(p => String(p.id) === String(id)) || null;
 
   // Update SEO Meta Tags & Structured Data
   if (project.value) {
@@ -279,6 +279,23 @@ onMounted(async () => {
       jsonLd
     });
   }
+}
+
+watch(() => route.params.id, (newId) => {
+  if (allRobots.value.length) {
+    selectRobotById(newId);
+    window.scrollTo(0, 0);
+  }
+});
+
+onMounted(async () => {
+  const [resRobots, resCompanies] = await Promise.all([
+    fetch('/robots.json'),
+    fetch('/companies.json')
+  ]);
+  allRobots.value = await resRobots.json();
+  companies.value = await resCompanies.json();
+  selectRobotById(route.params.id);
 });
 
 const projectPublications = computed(() => {
@@ -422,7 +439,34 @@ function getVideoEmbedUrl(url) {
   }
 }
 
-// Split description into paragraphs by double newlines. Keeps text escaped (no v-html).
+function parseParagraphSegments(para) {
+  const segments = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = regex.exec(para)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push({ type: 'text', text: para.slice(lastIndex, match.index) });
+    }
+    const label = match[1];
+    const rawUrl = match[2].trim();
+    const internalPrefix = 'https://medmachina.github.io';
+    if (rawUrl.startsWith('/')) {
+      segments.push({ type: 'router', text: label, to: rawUrl });
+    } else if (rawUrl.startsWith(internalPrefix)) {
+      segments.push({ type: 'router', text: label, to: rawUrl.slice(internalPrefix.length) || '/' });
+    } else {
+      segments.push({ type: 'external', text: label, href: rawUrl });
+    }
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < para.length) {
+    segments.push({ type: 'text', text: para.slice(lastIndex) });
+  }
+  return segments;
+}
+
+// Split description into paragraphs by double newlines and parse markdown links (no v-html).
 const descriptionParagraphs = computed(() => {
   const desc = filteredProject.value?.description;
   if (!desc) return [];
@@ -430,8 +474,12 @@ const descriptionParagraphs = computed(() => {
   // Normalize CRLF and CR to LF
   const text = String(desc).replace(/\r\n/g, '\n').replace(/\r/g, '\n');
 
-  // Split on two or more newlines to create paragraphs, trim each
-  return text.split(/\n{2,}/).map(s => s.trim()).filter(s => s.length > 0);
+  // Split on two or more newlines to create paragraphs, trim each, and parse link segments
+  return text
+    .split(/\n{2,}/)
+    .map(s => s.trim())
+    .filter(s => s.length > 0)
+    .map(parseParagraphSegments);
 });
 
 // Computed property for project tags

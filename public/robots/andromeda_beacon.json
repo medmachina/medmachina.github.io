@@ -39,7 +39,7 @@
     "Urological",
     "Prostate"
   ],
-  "description": "AI-powered robotic platform for natural orifice endourology, initially targeting Holmium Laser Enucleation of the Prostate (HoLEP / RoLEP). The platform utilizes a 7-axis KUKA LBR Med collaborative robotic arm mounted on a mobile cart with touch tablet navigation, paired with proprietary AI computer vision for real-time spatial navigation and anatomical guidance to streamline transurethral laser surgeries.",
+  "description": "AI-powered robotic platform for natural orifice endourology, initially targeting Holmium Laser Enucleation of the Prostate (HoLEP / RoLEP). The platform utilizes a 7-axis [KUKA LBR Med](/robot/kuka_lbr_med) collaborative robotic arm mounted on a mobile cart with touch tablet navigation, paired with proprietary AI computer vision for real-time spatial navigation and anatomical guidance to streamline transurethral laser surgeries.",
   "also_known_as": [
     "Beacon Platform",
     "Andromeda Beacon",

@@ -10,7 +10,7 @@
     "Endoluminal Access Surgical Efficacy"
   ],
   "introduction_year": 2020,
-  "description": "The EndoMaster EASE System (Endoluminal Access Surgical Efficacy, formerly MASTER) is a flexible robotic-assisted platform designed for incision-less endoluminal procedures, particularly colorectal and gastric Endoscopic Submucosal Dissection (ESD). Developed by Singaporean venture EndoMaster Pte Ltd, the system deploys two flexible miniature robotic instrument arms through the channels of an endoscope to achieve internal triangulation, traction, and tissue dissection. The surgeon sits at an open Surgeon Console Unit (SCU) integrating dual Force Dimension omega.7 haptic master manipulators for 7-DOF teleoperation with force feedback.",
+  "description": "The EndoMaster EASE System (Endoluminal Access Surgical Efficacy, formerly MASTER) is a flexible robotic-assisted platform designed for incision-less endoluminal procedures, particularly colorectal and gastric Endoscopic Submucosal Dissection (ESD). Developed by Singaporean venture EndoMaster Pte Ltd, the system deploys two flexible miniature robotic instrument arms through the channels of an endoscope to achieve internal triangulation, traction, and tissue dissection. The surgeon sits at an open Surgeon Console Unit (SCU) integrating dual [Force Dimension omega.7](/robot/force_dimension_omega) haptic master manipulators for 7-DOF teleoperation with force feedback.",
   "urls": [
     {
       "caption": "Force Dimension Omega (OEM master device)",

@@ -36,7 +36,7 @@
     "Thoracic",
     "Urological"
   ],
-  "description": "The Edge Single-Port Endoscopic Surgical Robot (SP1000) is a single-incision teleoperated surgical system developed by Edge Medical (Shenzhen, China). Its overall architecture closely resembles the Intuitive Surgical da Vinci SP, featuring a single patient-side arm with a mechanical remote center of motion (RCM) that deploys three multi-jointed elbowed/wristed instruments and an articulating 3D stereoscopic endoscope through a single multi-channel port cannula. The SP1000 operates from an enclosed stereoscopic 3D surgeon console that can also drive the Edge MP1000 multiport cart as part of the unified MSP2000 platform. It holds China NMPA approval and received European CE mark certification in 2025 for gynecological, urological, general, and thoracic procedures.",
+  "description": "The Edge Single-Port Endoscopic Surgical Robot (SP1000) is a single-incision teleoperated surgical system developed by Edge Medical (Shenzhen, China). Its overall architecture closely resembles the Intuitive Surgical [da Vinci SP](/robot/intuitive_da_vinci_SP), featuring a single patient-side arm with a mechanical remote center of motion (RCM) that deploys three multi-jointed elbowed/wristed instruments and an articulating 3D stereoscopic endoscope through a single multi-channel port cannula. The SP1000 operates from an enclosed stereoscopic 3D surgeon console that can also drive the [Edge MP1000](/robot/edge_multi_port) multiport cart as part of the unified MSP2000 platform. It holds China NMPA approval and received European CE mark certification in 2025 for gynecological, urological, general, and thoracic procedures.",
   "also_known_as": [],
   "regulatory": [
     {

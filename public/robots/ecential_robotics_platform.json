@@ -26,7 +26,7 @@
   "tags": [
     "Open surgery"
   ],
-  "description": "The eCential Robotics platform (formerly marketed as Surgivisio and Op.n, and developed in partnership with DePuy Synthes as VELYS Spine) is a unified intraoperative 2D/3D X-ray imaging, optical surgical navigation, and robotic guidance system for open and percutaneous spine surgery. Built on a mobile motorized C-arm imaging platform integrated with a 7-axis KUKA LBR Med collaborative robotic arm, the system automatically registers intraoperative 3D fluoroscopic reconstructions with optical tracking markers in a single step, eliminating manual image-to-patient registration. The collaborative robotic arm then aligns drill guides and instrument holders along planned pedicle screw trajectories. The platform holds European CE mark certification and US FDA 510(k) clearances.",
+  "description": "The eCential Robotics platform (formerly marketed as Surgivisio and Op.n, and developed in partnership with DePuy Synthes as VELYS Spine) is a unified intraoperative 2D/3D X-ray imaging, optical surgical navigation, and robotic guidance system for open and percutaneous spine surgery. Built on a mobile motorized C-arm imaging platform integrated with a 7-axis [KUKA LBR Med](/robot/kuka_lbr_med) collaborative robotic arm, the system automatically registers intraoperative 3D fluoroscopic reconstructions with optical tracking markers in a single step, eliminating manual image-to-patient registration. The collaborative robotic arm then aligns drill guides and instrument holders along planned pedicle screw trajectories. The platform holds European CE mark certification and US FDA 510(k) clearances.",
   "also_known_as": [
     "Surgivisio",
     "Op.n",
