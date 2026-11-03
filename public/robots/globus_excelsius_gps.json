@@ -1,0 +1,166 @@
+{
+  "id": "globus_excelsius_gps",
+  "name": "ExcelsiusGPS",
+  "db_added": "2026-11-03",
+  "introduction_year": 2017,
+  "also_known_as": [
+    "Excelsius GPS"
+  ],
+  "urls": [
+    {
+      "caption": "Globus Medical, ExcelsiusGPS",
+      "url": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.globusmedical.com/wp-content/themes/globus/images/scrollers/egps/EXCL_GPS_1801_TECH_FINALCONSTRUCT_ExcelsiusGPS_C.png",
+      "site": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/"
+    },
+    {
+      "url": "https://www.globusmedical.com/wp-content/uploads/2024/08/egps-sq.png",
+      "site": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Orthopedic",
+    "Open surgery",
+    "X-Ray"
+  ],
+  "usages": [
+    "Spine",
+    "Neurological"
+  ],
+  "description": "The ExcelsiusGPS is a robotic navigation and trajectory alignment platform developed by Globus Medical (originating from Excelsius Surgical, acquired in 2014) for open and minimally invasive spine surgery and stereotactic cranial neurosurgery. The system consists of a floor-mounted mobile base with a rigid serial robotic arm and a separate optical navigation camera cart that tracks a dynamic reference array alongside an independent surveillance marker to detect patient registration shift. Compatible with preoperative CT/MRI, intraoperative 3D CT/CBCT (including Excelsius3D), and 2D fluoroscopy workflows, the robotic arm positions a rigid guide tube along planned trajectories for pedicle screw insertion, interbody cage preparation, or cranial electrode/biopsy placement while an integrated end-effector force sensor monitors lateral tool deflection (skiving). The platform received CE mark certification and US FDA 510(k) clearance for spine procedures in 2017 and for cranial neurosurgery in 2020.",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=0SevPxRFsXc",
+      "title": "How Does ExcelsiusGPS™ Work?"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=06YapAnXl6A",
+      "title": "ExcelsiusGPS™ Spine and Interbody Solutions"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hmzS1gf2R3A",
+      "title": "ExcelsiusGPS®: SMARTER - Multifunctional"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=F3YKbh-DSGc",
+      "title": "How It Works: ExcelsiusGPS™"
+    }
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171651",
+      "body": "FDA 510k",
+      "year": 2017,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K190653",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191100",
+      "body": "FDA 510k",
+      "year": 2019,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200047",
+      "body": "FDA 510k",
+      "year": 2020,
+      "product_code": "OLO",
+      "panel": "NE"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243671",
+      "body": "FDA 510k",
+      "year": 2024,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250599",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "OLO",
+      "panel": "OR"
+    },
+    {
+      "url": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/",
+      "body": "CE",
+      "year": 2017,
+      "product_code": "",
+      "panel": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Next-Generation Robotic Spine Surgery: First Report on Feasibility, Safety, and Learning Curve",
+      "url": "https://doi.org/10.1093/ons/opy280",
+      "year": 2019,
+      "journal": "Operative neurosurgery (Hagerstown, Md.)",
+      "doi": "10.1093/ons/opy280",
+      "pmid": "30247684",
+      "citations": 115
+    },
+    {
+      "title": "Pedicle screw accuracy assessment in ExcelsiusGPS® robotic spine surgery: evaluation of deviation from pre-planned trajectory",
+      "url": "https://doi.org/10.1186/s41016-018-0131-x",
+      "year": 2018,
+      "journal": "Chinese Neurosurgical Journal",
+      "doi": "10.1186/s41016-018-0131-x",
+      "pmid": "32922884",
+      "citations": 76
+    },
+    {
+      "title": "Technique: open lumbar decompression and fusion with the Excelsius GPS robot",
+      "url": "https://doi.org/10.3171/2018.7.focusvid.18123",
+      "year": 2018,
+      "journal": "Neurosurgical FOCUS",
+      "doi": "10.3171/2018.7.focusvid.18123",
+      "pmid": "29963912",
+      "citations": 49
+    },
+    {
+      "title": "Proficiency Development and Learning Curve in Robot-Assisted Spine Surgery Using the ExcelsiusGPS® System: Experience From a Single Institution",
+      "url": "https://doi.org/10.1177/21925682241242449",
+      "year": 2024,
+      "journal": "Global Spine Journal",
+      "doi": "10.1177/21925682241242449",
+      "pmid": "38635306",
+      "citations": 16
+    },
+    {
+      "title": "Accuracy of Pedicle Screw Placement Using the ExcelsiusGPS Robotic Navigation Platform: An Analysis of 728 Screws",
+      "url": "https://doi.org/10.14444/8660",
+      "year": 2024,
+      "journal": "The International Journal of Spine Surgery",
+      "doi": "10.14444/8660",
+      "pmid": "39592194",
+      "citations": 14
+    },
+    {
+      "title": "Use of the Globus ExcelsiusGPS System for Robotic Stereoelectroencephalography: An Initial Experience",
+      "url": "https://doi.org/10.1016/j.wneu.2023.04.007",
+      "year": 2023,
+      "journal": "World Neurosurgery",
+      "doi": "10.1016/j.wneu.2023.04.007",
+      "pmid": "37044205",
+      "citations": 4
+    }
+  ],
+  "units_deployed": {
+    "count": 400,
+    "source_url": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/"
+  }
+}
+

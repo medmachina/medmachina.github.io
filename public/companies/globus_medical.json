@@ -1,0 +1,38 @@
+{
+  "id": "globus_medical",
+  "name": "Globus Medical",
+  "country": "United States",
+  "founded_year": "2003",
+  "company_type": "Public",
+  "employee_count": "5000+",
+  "description": "Globus Medical, Inc. is a musculoskeletal medical device manufacturer headquartered in Audubon, Pennsylvania, USA. The company entered surgical robotics with the acquisition of Excelsius Surgical in 2014 and expanded its spine and orthopedic portfolio through its merger with NuVasive in 2023.",
+  "urls": [
+    {
+      "caption": "Globus Medical",
+      "url": "https://www.globusmedical.com/"
+    },
+    {
+      "caption": "Excelsius Technology",
+      "url": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/globus-medical/",
+  "opencorporates_url": "https://opencorporates.com/companies/us_de/3630429",
+  "robots": [
+    "globus_excelsius_gps"
+  ],
+  "subsidiaries": [
+    "Globus Medical, Inc.",
+    "Excelsius Surgical",
+    "NuVasive"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Globus Medical",
+      "Globus Medical, Inc."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Globus+Medical%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Globus%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
+
