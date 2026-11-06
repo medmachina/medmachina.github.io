@@ -1,0 +1,102 @@
+{
+  "id": "endoquest_els",
+  "name": "ELS",
+  "db_added": "2026-11-06",
+  "introduction_year": 2021,
+  "also_known_as": [
+    "Endoluminal Surgical System",
+    "ELS System",
+    "EndoQuest ELS",
+    "ColubrisMX ELS",
+    "Colubriscope"
+  ],
+  "description": "The Endoluminal Surgical (ELS) System is an investigational flexible teleoperated robotic platform developed by EndoQuest Robotics (formerly ColubrisMX) for natural-orifice gastrointestinal procedures—such as colorectal and upper-GI endoscopic submucosal dissection (ESD), full-thickness resection, and endoluminal suturing—as well as single-incision transumbilical surgery. The architecture comprises a mobile bedside patient cart (EndoDrive actuation unit) that positions a steerable flexible overtube delivering an articulating HD videoscope, working channels for insufflation, irrigation, and suction, and two 7-degree-of-freedom flexible robotic instruments (3.7–6 mm graspers, scissors, electrosurgical knives, and needle drivers) to establish bimanual triangulation and countertraction inside the GI lumen. The open physician console pairs an HD display and mode-switching foot pedals with dual OEM [Force Dimension lambda.7](/robot/force_dimension_lambda) 7-DOF haptic master interfaces (succeeding the [Force Dimension omega.7](/robot/force_dimension_omega) controllers used in the earlier ColubrisMX ELS prototype). Enrolled in the US FDA Safer Technologies Program (STeP), the system received FDA Investigational Device Exemption (IDE) approval in December 2024 and completed patient enrollment across 50 colorectal ESD procedures in the multicenter PARADIGM pivotal trial in 2026 toward an FDA De Novo submission.",
+  "urls": [
+    {
+      "caption": "EndoQuest Robotics — ELS System",
+      "url": "https://endoquestrobotics.com/next-generation-robotic-surgery"
+    },
+    {
+      "caption": "PARADIGM Pivotal FDA IDE Trial (NCT06133387)",
+      "url": "https://clinicaltrials.gov/study/NCT06133387"
+    },
+    {
+      "caption": "Force Dimension Lambda (OEM master device)",
+      "url": "https://medmachina.github.io/robot/force_dimension_lambda"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://endoquestrobotics.com/images/new-slides/patient-console-slide1.jpg",
+      "site": "https://endoquestrobotics.com/next-generation-robotic-surgery",
+      "caption": "ELS Patient Cart and steerable flexible overtube"
+    },
+    {
+      "url": "https://endoquestrobotics.com/images/new-slides/physician-console-slide1.jpg",
+      "site": "https://endoquestrobotics.com/next-generation-robotic-surgery",
+      "caption": "ELS Physician Console with dual Force Dimension lambda.7 master controllers"
+    },
+    {
+      "url": "https://endoquestrobotics.com/images/new-slides/instrument-console-slide1.jpg",
+      "site": "https://endoquestrobotics.com/next-generation-robotic-surgery",
+      "caption": "Multi-articulating flexible robotic instruments"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/927686123",
+      "title": "EndoQuest Robotics Overview"
+    },
+    {
+      "url": "https://vimeo.com/927688215",
+      "title": "EndoQuest Robotics: Endoscopic Submucosal Dissection, with Todd Wilson MD"
+    }
+  ],
+  "tags": [
+    "Flexible robot",
+    "Natural orifice",
+    "Single port",
+    "Teleoperated",
+    "Open console",
+    "Haptic",
+    "2 instruments",
+    "Snake-like instruments",
+    "Wristed instruments",
+    "Single patient cart"
+  ],
+  "usages": [
+    "Colorectal",
+    "Upper GI",
+    "Abdominal"
+  ],
+  "publications": [
+    {
+      "title": "Envisioning the future of colorectal surgery: preclinical assessment and detailed description of an endoluminal robotic system (ColubrisMX ELS)",
+      "url": "https://doi.org/10.1007/s10151-021-02481-0",
+      "year": 2021,
+      "journal": "Techniques in Coloproctology",
+      "doi": "10.1007/s10151-021-02481-0",
+      "pmid": "34224035",
+      "citations": 34
+    },
+    {
+      "title": "Video demonstration of the ColubrisMX ELS robotic system for local excision and suture closure in a preclinical model",
+      "url": "https://doi.org/10.1007/s10151-021-02490-z",
+      "year": 2021,
+      "journal": "Techniques in Coloproctology",
+      "doi": "10.1007/s10151-021-02490-z",
+      "pmid": "34185194",
+      "citations": 2
+    }
+  ],
+  "excludes_from_automated_searches": [
+    "EndoQUEST"
+  ],
+  "lifecycle": {
+    "status": "premarket",
+    "year": 2026,
+    "note": "Completed enrollment of 50 robotic colorectal ESD procedures in the multicenter US FDA IDE pivotal trial (PARADIGM); preparing FDA De Novo submission.",
+    "source_url": "https://clinicaltrials.gov/study/NCT06133387"
+  }
+}
+

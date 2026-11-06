@@ -1,0 +1,41 @@
+{
+  "id": "endoquest_robotics",
+  "name": "EndoQuest Robotics",
+  "country": "United States",
+  "founded_year": "2017",
+  "company_type": "Private",
+  "employee_count": "51-200",
+  "status": {
+    "state": "active"
+  },
+  "description": "EndoQuest Robotics, Inc. is a privately held medical robotics company headquartered in Houston, Texas, USA. Founded in 2017 as ColubrisMX, Inc. out of flexible surgical robotics research with the University of Texas Health Science Center at Houston, the company rebranded to EndoQuest Robotics in June 2022 and develops teleoperated flexible endoluminal surgical systems for natural-orifice gastrointestinal and single-incision procedures.",
+  "urls": [
+    {
+      "caption": "EndoQuest Robotics Official Website",
+      "url": "https://endoquestrobotics.com/"
+    },
+    {
+      "caption": "EndoQuest Patent Notice",
+      "url": "https://endoquestrobotics.com/patent-notice"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/endoquest/",
+  "robots": [
+    "endoquest_els"
+  ],
+  "subsidiaries": [
+    "EndoQuest Robotics, Inc.",
+    "ColubrisMX",
+    "ColubrisMX, Inc."
+  ],
+  "patents": {
+    "assignee_names": [
+      "Endoquest Robotics Inc",
+      "EndoQuest Robotics, Inc.",
+      "ColubrisMX, Inc."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Endoquest+Robotics+Inc%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Endoquest%20Robotics%22%20OR%20applicant%3A%22ColubrisMX%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}
+
