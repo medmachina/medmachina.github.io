@@ -17,6 +17,18 @@
       <div class="card mb-4">
         <div class="card-body">
           <h2 class="card-title h5">Information</h2>
+          <p v-if="projectCategories.length > 0" class="mb-2 d-flex flex-wrap align-items-center gap-2">
+            <strong>{{ projectCategories.length > 1 ? 'Categories:' : 'Category:' }}</strong>
+            <router-link
+              v-for="cat in projectCategories"
+              :key="cat"
+              :to="{ path: '/', query: { category: cat } }"
+              class="badge category-cloud-badge text-decoration-none"
+              :title="getCategoryDescription(cat)"
+            >
+              {{ cat }}
+            </router-link>
+          </p>
           <p v-if="filteredProject.lifecycle" class="mb-2">
             <strong>Status:</strong>
             <span class="badge ms-2" :class="getLifecycleBadgeClass(filteredProject.lifecycle.status)">
@@ -225,7 +237,7 @@
 import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { updateSeo } from '../utils/seo';
-import { getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
+import { getCategoryDescription, getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
 import { getUnitsCategory } from '../utils/unitsDeployed.js';
 
 const route = useRoute();
@@ -234,6 +246,15 @@ const allRobots = ref([]);
 const project = ref(null);
 const companies = ref([]);
 const invalidPhotoUrls = ref(new Set()); // Set to store invalid image URLs
+
+// Computed property for project categories
+const projectCategories = computed(() => {
+  if (!project.value?.categories) return [];
+  if (Array.isArray(project.value.categories)) {
+    return project.value.categories.filter(c => c);
+  }
+  return [];
+});
 
 // Computed property for project usages
 const projectUsages = computed(() => {
@@ -674,13 +695,17 @@ function getShortDomain(url) {
 .tags-section, .usages-section {
   margin-bottom: 1.5rem;
 }
-.tag-cloud-badge, .usage-cloud-badge {
+.tag-cloud-badge, .usage-cloud-badge, .category-cloud-badge {
   padding: 0.2rem 0.55rem;
   border-radius: 1rem;
   font-size: 0.78rem;
   transition: transform 0.2s;
 }
-.tag-cloud-badge:hover, .usage-cloud-badge:hover {
+.category-cloud-badge {
+  background-color: #4c3575;
+  color: #fff;
+}
+.tag-cloud-badge:hover, .usage-cloud-badge:hover, .category-cloud-badge:hover {
   transform: translateY(-2px);
   color: #fff;
 }

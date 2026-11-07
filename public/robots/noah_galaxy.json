@@ -1,6 +1,9 @@
 {
   "id": "noah_galaxy",
   "name": "Galaxy",
+  "categories": [
+    "Flexible & Endoluminal"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2025,
   "urls": [
@@ -19,7 +22,15 @@
       "site": "https://www.noahmed.com/galaxy"
     }
   ],
-  "tags": [],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Natural orifice",
+    "Single patient cart",
+    "Open console",
+    "Mono endoscope",
+    "X-Ray"
+  ],
   "usages": [
     "Bronchoscopy",
     "Lung"

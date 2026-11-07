@@ -1,6 +1,9 @@
 {
   "id": "haply_inverse3",
   "name": "Inverse3",
+  "categories": [
+    "OEM & Haptic Subsystems"
+  ],
   "db_added": "2025-11-05",
   "introduction_year": null,
   "urls": [
@@ -29,7 +32,8 @@
   ],
   "tags": [
     "Haptic device",
-    "OEM component"
+    "Commercial",
+    "Force feedback"
   ],
   "description": "Haptic device.  First 3 dofs are motorized for force feedback, last 3 dofs are passive.  Rotational space is represented using a spherical joint which allows for unlimited rotations.  The trick is to use an IMU-like sensor to track the handle orientation instead of using rotary encoders which would require cable management for unlimited rotation.  Stylus comes in different shapes, the default is a pen-like handle with a couple of buttons.",
   "also_known_as": [],

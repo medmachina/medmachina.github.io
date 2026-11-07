@@ -1,6 +1,9 @@
 {
   "id": "j&j_ottava",
   "name": "Ottava",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2026,
   "description": "The OTTAVA™ Robotic Surgical System, developed by Johnson & Johnson MedTech (Auris Health, Inc.), is a soft-tissue robotic surgical platform featuring a table-integrated architecture. Four robotic arms are integrated into the operating table and stow beneath it when not in use, reducing operating room footprint. The platform features Twin Motion™ synchronized table movements, Ethicon-designed wristed instruments (including a two-in-one needle driver), an open console, and integration with J&J's Polyphonic™ digital surgery ecosystem. The U.S. FDA granted De Novo marketing authorization (DEN250068) in July 2026 for general surgery procedures.",
@@ -55,7 +58,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "Commercial",
     "Multiple ports",
@@ -65,7 +67,8 @@
     "Stereo endoscope",
     "Mechanical Cartesian manipulation",
     "Open console",
-    "Stereo display"
+    "Stereo display",
+    "Table-mounted"
   ],
   "usages": [
     "Abdominal",

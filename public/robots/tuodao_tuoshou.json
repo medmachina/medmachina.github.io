@@ -1,6 +1,9 @@
 {
   "id": "tuodao_tuoshou",
   "name": "TuoShou",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2026-10-05",
   "introduction_year": 2022,
   "also_known_as": [
@@ -39,11 +42,12 @@
   ],
   "tags": [
     "Commercial",
-    "Orthopedic",
     "Open surgery",
     "Single patient cart",
     "Collaborative control",
-    "Semi-autonomous"
+    "Semi-autonomous",
+    "Optical navigation",
+    "X-Ray"
   ],
   "usages": [
     "Hip",

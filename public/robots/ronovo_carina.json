@@ -1,6 +1,9 @@
 {
   "id": "ronovo_carina",
   "name": "Carina",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-15",
   "introduction_year": 2025,
   "urls": [
@@ -20,7 +23,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Multiple patient carts",
     "Multiple ports",
     "3+ instruments",

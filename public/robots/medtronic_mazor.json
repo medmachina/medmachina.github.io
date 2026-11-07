@@ -1,6 +1,9 @@
 {
   "id": "medtronic_mazor",
   "name": "Mazor",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2026-03-19",
   "urls": [
     {
@@ -20,9 +23,11 @@
   ],
   "tags": [
     "Commercial",
-    "Orthopedic",
     "Semi-autonomous",
-    "Collaborative control"
+    "Collaborative control",
+    "Table-mounted",
+    "Optical navigation",
+    "X-Ray"
   ],
   "usages": [
     "Spine"

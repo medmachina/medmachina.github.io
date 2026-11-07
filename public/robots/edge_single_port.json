@@ -1,6 +1,9 @@
 {
   "id": "edge_single_port",
   "name": "Edge Single-Port",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-19",
   "introduction_year": 2023,
   "urls": [
@@ -20,7 +23,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Single port",
     "3+ instruments",
     "Wristed instruments",

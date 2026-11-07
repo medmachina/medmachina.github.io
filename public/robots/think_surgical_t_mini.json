@@ -1,6 +1,9 @@
 {
   "id": "think_surgical_t_mini",
   "name": "TMINI",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2025,
   "urls": [
@@ -21,7 +24,11 @@
   ],
   "tags": [
     "Open surgery",
-    "Orthopedic"
+    "Commercial",
+    "Handheld",
+    "Collaborative control",
+    "Semi-autonomous",
+    "Optical navigation"
   ],
   "usages": [
     "Hip",

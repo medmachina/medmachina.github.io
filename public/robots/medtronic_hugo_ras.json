@@ -1,6 +1,9 @@
 {
   "id": "medtronic_hugo_ras",
   "name": "Hugo RAS",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2021,
   "urls": [
@@ -24,7 +27,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "Multiple patient carts",
     "Multiple ports",

@@ -1,6 +1,9 @@
 {
   "id": "medbot_toumai",
   "name": "Toumai",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-05",
   "introduction_year": 2022,
   "urls": [
@@ -28,7 +31,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Single patient cart",
     "Multiple ports",
     "3+ instruments",

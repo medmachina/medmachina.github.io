@@ -1,6 +1,9 @@
 {
   "id": "endomaster_ease",
   "name": "EASE",
+  "categories": [
+    "Flexible & Endoluminal"
+  ],
   "also_known_as": [
     "E-System",
     "EndoMaster EASE",
@@ -34,7 +37,6 @@
     }
   ],
   "tags": [
-    "Flexible robot",
     "Natural orifice",
     "Teleoperated",
     "Research system",

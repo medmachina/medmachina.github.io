@@ -1,6 +1,9 @@
 {
   "id": "tuodao_tuoshu",
   "name": "TuoShu",
+  "categories": [
+    "Percutaneous, Diagnostic & Radiosurgery"
+  ],
   "db_added": "2026-10-05",
   "introduction_year": 2023,
   "also_known_as": [
@@ -37,7 +40,8 @@
     "Single patient cart",
     "Biopsy",
     "Collaborative control",
-    "Semi-autonomous"
+    "Semi-autonomous",
+    "Optical navigation"
   ],
   "usages": [
     "Abdominal",

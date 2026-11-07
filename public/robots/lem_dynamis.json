@@ -1,6 +1,9 @@
 {
   "id": "lem_dynamis",
   "name": "Dynamis Robotic Surgical System",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2026-01-01",
   "introduction_year": 2025,
   "urls": [
@@ -21,8 +24,9 @@
   ],
   "tags": [
     "Open surgery",
-    "Orthopedic",
-    "Commercial"
+    "Commercial",
+    "Single patient cart",
+    "Optical navigation"
   ],
   "usages": [
     "Spine"

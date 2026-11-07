@@ -1,6 +1,9 @@
 {
   "id": "ln_robotics_aviar",
   "name": "AVIAR",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
   "db_added": "2026-03-19",
   "introduction_year": 2023,
   "also_known_as": [
@@ -34,8 +37,7 @@
   ],
   "tags": [
     "Commercial",
-    "Teleoperated",
-    "Catheter"
+    "Teleoperated"
   ],
   "usages": [
     "Endovascular",

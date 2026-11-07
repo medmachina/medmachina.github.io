@@ -1,6 +1,9 @@
 {
   "id": "iss_robodoc",
   "name": "ROBODOC",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2025-11-21",
   "introduction_year": 1992,
   "urls": [
@@ -21,7 +24,6 @@
   ],
   "tags": [
     "Open surgery",
-    "Orthopedic",
     "Semi-autonomous",
     "Commercial",
     "Retired"

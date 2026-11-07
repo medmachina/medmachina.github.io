@@ -1,6 +1,9 @@
 {
   "id": "xstrahl_sarrp",
   "name": "SARRP",
+  "categories": [
+    "Percutaneous, Diagnostic & Radiosurgery"
+  ],
   "introduction_year": 2008,
   "urls": [
     {

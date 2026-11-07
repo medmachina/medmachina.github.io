@@ -1,6 +1,9 @@
 {
   "id": "avatera_avatera",
   "name": "avatera",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-10-31",
   "introduction_year": 2023,
   "urls": [
@@ -28,7 +31,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Single patient cart",
     "Multiple ports",
     "3+ instruments",

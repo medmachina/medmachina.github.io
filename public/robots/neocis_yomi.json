@@ -1,6 +1,9 @@
 {
   "id": "neocis_yomi",
   "name": "Yomi",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2026-06-03",
   "introduction_year": 2024,
   "urls": [
@@ -16,9 +19,11 @@
     }
   ],
   "tags": [
-    "Dental",
     "Collaborative control",
-    "Commercial"
+    "Commercial",
+    "Open surgery",
+    "Single patient cart",
+    "Haptic"
   ],
   "usages": [
     "Dental implant"

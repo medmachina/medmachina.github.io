@@ -1,6 +1,9 @@
 {
   "id": "dvrk_dvrk",
   "name": "dVRK",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-21",
   "introduction_year": 2012,
   "urls": [
@@ -24,7 +27,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Research system",
     "Open source",
     "Open architecture",

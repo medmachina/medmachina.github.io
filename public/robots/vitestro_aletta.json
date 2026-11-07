@@ -1,6 +1,9 @@
 {
   "id": "vitestro_aletta",
   "name": "Aletta",
+  "categories": [
+    "Percutaneous, Diagnostic & Radiosurgery"
+  ],
   "introduction_year": 2024,
   "urls": [
     {

@@ -1,6 +1,9 @@
 {
   "id": "sagebot_kangduo",
   "name": "KANGDUO SR2000",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2026-01-21",
   "introduction_year": 2024,
   "urls": [
@@ -44,7 +47,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Commercial",
     "Teleoperated",
     "Multiple ports",

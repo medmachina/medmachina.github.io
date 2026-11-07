@@ -1,6 +1,9 @@
 {
   "id": "kinova_kima",
   "name": "KIMA",
+  "categories": [
+    "OEM & Haptic Subsystems"
+  ],
   "db_added": "2026-07-30",
   "introduction_year": null,
   "urls": [
@@ -20,7 +23,9 @@
     }
   ],
   "tags": [
-    "OEM component"
+    "Robotic arm",
+    "Commercial",
+    "Collaborative control"
   ],
   "description": "Purpose-built medical-grade 7-axis robotic arm designed for OEM integration into surgical and clinical systems. Weighs 12.6 kg with a 750 mm reach, 3 kg payload, <0.1 mm repeatability, and <1 mm accuracy. Controller-less design using EtherCAT communication and a Robotic Control Library (RCL) compliant with IEC 62304 Class C. Features redundant torque sensors in all joints and integrated safety architecture. Engineered for compliance with IEC 60601-1 and IEC 62304 Class C software standards. Produced by Kinova, an ISO 13485-certified manufacturer. Distinct from the research-oriented Gen3 arm; KIMA is built from the ground up for operating room and clinical environments.",
   "also_known_as": []

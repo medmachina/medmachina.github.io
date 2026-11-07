@@ -1,6 +1,9 @@
 {
   "id": "computer_motion_zeus",
   "name": "Zeus",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-21",
   "introduction_year": 1998,
   "urls": [
@@ -15,7 +18,6 @@
   ],
   "photos": [],
   "tags": [
-    "RAMIS",
     "Multiple ports",
     "2 instruments",
     "Teleoperated",
@@ -23,7 +25,8 @@
     "Mechanical manipulation",
     "Open console",
     "Commercial",
-    "Retired"
+    "Retired",
+    "Table-mounted"
   ],
   "usages": [
     "Abdominal"

@@ -1,6 +1,9 @@
 {
   "id": "distalmotion_dexter",
   "name": "Dexter",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-21",
   "introduction_year": 2024,
   "urls": [
@@ -20,7 +23,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "Commercial",
     "Stereo display",

@@ -1,6 +1,9 @@
 {
   "id": "edge_multi_port",
   "name": "Edge Multi-Port",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-18",
   "introduction_year": 2023,
   "urls": [
@@ -16,7 +19,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Multiple ports",
     "3+ instruments",
     "Wristed instruments",

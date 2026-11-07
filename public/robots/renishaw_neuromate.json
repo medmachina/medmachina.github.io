@@ -1,6 +1,9 @@
 {
   "id": "renishaw_neuromate",
   "name": "Neuromate",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2025-12-03",
   "introduction_year": 1987,
   "urls": [
@@ -16,7 +19,9 @@
     }
   ],
   "tags": [
-    "Commercial"
+    "Commercial",
+    "Single patient cart",
+    "X-Ray"
   ],
   "usages": [
     "Neurological"

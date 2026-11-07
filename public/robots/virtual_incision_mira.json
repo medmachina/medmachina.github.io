@@ -1,6 +1,9 @@
 {
   "id": "virtual_incision_mira",
   "name": "MIRA",
+  "categories": [
+    "RAMIS"
+  ],
   "also_known_as": [
     "MIRA Surgical System",
     "Miniaturized In Vivo Robotic Assistant",
@@ -33,7 +36,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Commercial",
     "Teleoperated",
     "Single port",

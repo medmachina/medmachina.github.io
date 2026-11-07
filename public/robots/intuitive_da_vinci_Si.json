@@ -1,6 +1,9 @@
 {
   "id": "intuitive_da_vinci_Si",
   "name": "da Vinci Si",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-08-28",
   "introduction_year": 2009,
   "urls": [
@@ -28,7 +31,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Single patient cart",
     "Multiple ports",
     "3+ instruments",

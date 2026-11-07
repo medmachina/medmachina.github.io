@@ -1,6 +1,9 @@
 {
   "id": "surgical_science_lap_mentor",
   "name": "LAP Mentor",
+  "categories": [
+    "Simulation & Training"
+  ],
   "introduction_year": 2002,
   "urls": [
     {
@@ -15,9 +18,9 @@
     }
   ],
   "tags": [
-    "Simulation",
     "Haptic",
-    "Haptic device"
+    "Haptic device",
+    "Commercial"
   ],
   "usages": [
     "Abdominal",
@@ -140,7 +143,7 @@
       "citations": 35
     },
     {
-      "title": "Virtual reality training improves simulated laparoscopic surgery performance in laparoscopy na\u00efve medical students",
+      "title": "Virtual reality training improves simulated laparoscopic surgery performance in laparoscopy naïve medical students",
       "url": "https://doi.org/10.1089/end.2007.0366",
       "year": 2008,
       "journal": "Journal of endourology",

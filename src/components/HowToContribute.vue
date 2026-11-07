@@ -240,7 +240,13 @@ git push origin add-new-robot</code></pre>
           </div>
           <pre class="bg-dark text-light p-3 rounded"><code>{{ robotSampleJson }}</code></pre>
 
-          <h5 class="mt-4">Supported Robot Tags</h5>
+          <h5 class="mt-4">Supported Robot Categories</h5>
+          <p class="small text-muted">Assign one or more categories from the defined schema definitions (hover for descriptions):</p>
+          <div class="d-flex flex-wrap gap-1 mb-3">
+            <span v-for="c in categoryList" :key="c.name" class="badge me-1 mb-1" style="background-color: #4c3575; color: #fff; border-radius: 1rem; padding: 0.25rem 0.6rem; cursor: help;" :title="c.description">{{ c.name }}</span>
+          </div>
+
+          <h5 class="mt-3">Supported Robot Tags</h5>
           <p class="small text-muted">Assign tags from the defined schema definitions (hover for descriptions):</p>
           <div class="d-flex flex-wrap gap-1 mb-3">
             <span v-for="t in tagList" :key="t.name" class="badge bg-secondary me-1 mb-1" :title="t.description" style="cursor: help;">{{ t.name }}</span>
@@ -294,6 +300,11 @@ interface SchemaItem {
   description?: string
 }
 
+const categoryList: SchemaItem[] = (robotsSchema.$defs?.Category?.oneOf || []).map((c: any) => ({
+  name: c.const,
+  description: c.description
+}))
+
 const tagList: SchemaItem[] = (robotsSchema.$defs?.Tag?.oneOf || []).map((t: any) => ({
   name: t.const,
   description: t.description
@@ -307,6 +318,7 @@ const usageList: SchemaItem[] = (robotsSchema.$defs?.Usage?.oneOf || []).map((u:
 const robotSampleJson = JSON.stringify({
   id: "company_robotname",
   name: "Example Surgical Robot",
+  categories: ["RAMIS"],
   introduction_year: 2024,
   description: "Detailed summary of system kinematics, patient side cart, and clinical focus.",
   urls: [
@@ -318,7 +330,7 @@ const robotSampleJson = JSON.stringify({
   videos: [
     { title: "System Overview", url: "https://www.youtube.com/watch?v=EXAMPLE" }
   ],
-  tags: ["RAMIS", "Teleoperated", "Commercial"],
+  tags: ["Teleoperated", "Multiple ports", "Commercial"],
   usages: ["Abdominal", "Urological"],
   regulatory: [
     { body: "FDA", year: 2024, url: "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123456" }

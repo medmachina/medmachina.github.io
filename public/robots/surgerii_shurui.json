@@ -1,6 +1,9 @@
 {
   "id": "surgerii_shurui",
   "name": "SHURUI",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-28",
   "introduction_year": null,
   "urls": [
@@ -24,7 +27,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Single patient cart",
     "Single port",
     "3+ instruments",

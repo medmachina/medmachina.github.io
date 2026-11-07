@@ -1,6 +1,10 @@
 {
   "id": "endoquest_els",
   "name": "ELS",
+  "categories": [
+    "Flexible & Endoluminal",
+    "RAMIS"
+  ],
   "db_added": "2026-11-06",
   "introduction_year": 2021,
   "also_known_as": [
@@ -53,7 +57,6 @@
     }
   ],
   "tags": [
-    "Flexible robot",
     "Natural orifice",
     "Single port",
     "Teleoperated",
@@ -99,4 +102,3 @@
     "source_url": "https://clinicaltrials.gov/study/NCT06133387"
   }
 }
-

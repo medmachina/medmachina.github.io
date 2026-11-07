@@ -1,6 +1,9 @@
 {
   "id": "robocath_r_one",
   "name": "R-One",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
   "also_known_as": [
     "R-One+",
     "R-One System",
@@ -39,7 +42,6 @@
     "Commercial",
     "Teleoperated",
     "Open console",
-    "Catheter",
     "X-Ray"
   ],
   "usages": [

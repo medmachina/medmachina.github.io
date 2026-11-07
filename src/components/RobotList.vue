@@ -17,6 +17,13 @@
             <span v-if="getCompanyForItem(item)" style="font-size:0.9em; color:var(--color-text-muted);">(<router-link :to="`/company/${getCompanyForItem(item).name}`" @click.stop>{{ getCompanyForItem(item).name }}</router-link>)</span>
           </h5>
           <div class="mb-2">
+            <span
+              v-for="cat in (item.categories || [])"
+              :key="cat"
+              class="badge category-card-badge me-1"
+              :title="getCategoryDescription(cat)"
+              @click.stop="emit('select-category', cat)"
+            >{{ cat }}</span>
             <span v-for="(tag, idx) in (item.tags || []).slice(0,5)" :key="tag" class="badge bg-secondary me-1" :title="getTagDescription(tag)">{{ tag }}</span>
             <span v-if="(item.tags || []).length > 5">...</span>
             <span v-for="(usage, idx) in (item.usages || [])" :key="usage" class="badge bg-success me-1" :title="getUsageDescription(usage)">{{ usage }}</span>
@@ -67,8 +74,10 @@
 <script setup>
 import { useRouter } from 'vue-router';
 import { ref } from 'vue';
-import { getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
+import { getCategoryDescription, getTagDescription, getUsageDescription } from '../utils/tagDescriptions.js';
 import { getUnitsCategory, getUnitsDeployedTooltip } from '../utils/unitsDeployed.js';
+
+const emit = defineEmits(['select-category']);
 
 const props = defineProps({
   items: {
@@ -184,5 +193,13 @@ function isRecentlyAdded(item) {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.category-card-badge {
+  background-color: #4c3575;
+  color: #ffffff;
+  cursor: pointer;
+}
+.category-card-badge:hover {
+  background-color: #3a275c;
 }
 </style>

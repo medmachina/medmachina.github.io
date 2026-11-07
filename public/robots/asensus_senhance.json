@@ -1,6 +1,9 @@
 {
   "id": "asensus_senhance",
   "name": "Senhance",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2023,
   "urls": [
@@ -16,7 +19,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "Commercial",
     "Retired"

@@ -1,6 +1,9 @@
 {
   "id": "medbot_skywalker",
   "name": "MedBot Skywalker",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2025-11-05",
   "introduction_year": 2021,
   "urls": [
@@ -25,7 +28,11 @@
   ],
   "tags": [
     "Open surgery",
-    "Orthopedic"
+    "Commercial",
+    "Single patient cart",
+    "Collaborative control",
+    "Semi-autonomous",
+    "Optical navigation"
   ],
   "usages": [
     "Hip",

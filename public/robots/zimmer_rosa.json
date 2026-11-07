@@ -1,6 +1,9 @@
 {
   "id": "zimmer_rosa",
   "name": "ROSA",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2025-11-24",
   "introduction_year": 2012,
   "urls": [
@@ -16,9 +19,11 @@
     }
   ],
   "tags": [
-    "Orthopedic",
     "Open surgery",
-    "Commercial"
+    "Commercial",
+    "Single patient cart",
+    "Collaborative control",
+    "Optical navigation"
   ],
   "usages": [
     "Hip",

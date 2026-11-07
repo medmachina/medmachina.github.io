@@ -1,6 +1,9 @@
 {
   "id": "cmr_versius",
   "name": "Versius",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2019,
   "urls": [
@@ -24,7 +27,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "Multiple patient carts",
     "Multiple ports",

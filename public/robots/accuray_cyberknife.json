@@ -1,6 +1,9 @@
 {
   "id": "accuray_cyberknife",
   "name": "CyberKnife",
+  "categories": [
+    "Percutaneous, Diagnostic & Radiosurgery"
+  ],
   "introduction_year": 2001,
   "urls": [
     {

@@ -1,6 +1,9 @@
 {
   "id": "livsmed_artiSential",
   "name": "ArtiSential",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2026-06-03",
   "introduction_year": 2018,
   "also_known_as": [
@@ -38,7 +41,8 @@
   "tags": [
     "Commercial",
     "Wristed instruments",
-    "Mechanical manipulation"
+    "Mechanical manipulation",
+    "Handheld"
   ],
   "usages": [
     "Abdominal",

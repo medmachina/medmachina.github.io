@@ -220,12 +220,44 @@
       },
       "additionalProperties": false
     },
-    "Tag": {
+    "Category": {
       "oneOf": [
         {
           "const": "RAMIS",
-          "description": "Robot-assisted minimally invasive surgery systems."
+          "description": "Soft-tissue laparoscopic and single-port robot-assisted minimally invasive surgery systems."
         },
+        {
+          "const": "Orthopedic, Spine & Cranial",
+          "description": "Hard-tissue bone-milling, trajectory-alignment, stereotactic cranial, and dental implant systems."
+        },
+        {
+          "const": "Flexible & Endoluminal",
+          "description": "Continuum and steerable natural-orifice robotic platforms for GI endoscopy and bronchoscopy."
+        },
+        {
+          "const": "Percutaneous, Diagnostic & Radiosurgery",
+          "description": "Percutaneous needle/biopsy guidance, autonomous ultrasound/venipuncture, and robotic radiosurgery systems."
+        },
+        {
+          "const": "Microsurgery & Ophthalmic",
+          "description": "High-motion-scaling open microsurgical and intraocular surgical platforms."
+        },
+        {
+          "const": "Endovascular & Catheter",
+          "description": "Robotic guidewire and catheter manipulation systems for vascular interventions."
+        },
+        {
+          "const": "OEM & Haptic Subsystems",
+          "description": "Non-clinical robotic arms and haptic master interfaces integrated as building blocks into medical systems."
+        },
+        {
+          "const": "Simulation & Training",
+          "description": "Virtual-reality and haptic surgical training simulators."
+        }
+      ]
+    },
+    "Tag": {
+      "oneOf": [
         {
           "const": "Commercial",
           "description": "Available as a marketed, regulatory-cleared product."
@@ -283,10 +315,6 @@
           "description": "No longer produced or clinically supported."
         },
         {
-          "const": "Orthopedic",
-          "description": "Focused on bone and joint related procedures."
-        },
-        {
           "const": "Multiple patient carts",
           "description": "System separates arms across multiple bases."
         },
@@ -296,7 +324,23 @@
         },
         {
           "const": "Haptic device",
-          "description": "Provides an haptic interface."
+          "description": "Provides a haptic master or tactile interface."
+        },
+        {
+          "const": "Robotic arm",
+          "description": "Standalone serial or collaborative robotic manipulator arm subsystem."
+        },
+        {
+          "const": "Table-mounted",
+          "description": "Manipulator mounts directly onto the operating table rather than a floor-standing cart."
+        },
+        {
+          "const": "Handheld",
+          "description": "Handheld robotic or articulating instrument operated directly in the clinician's hand without a floor cart."
+        },
+        {
+          "const": "Optical navigation",
+          "description": "Integrates optical camera tracking of fiducial markers for registration and tool guidance."
         },
         {
           "const": "Motorized table",
@@ -359,18 +403,6 @@
           "description": "Capable of executing tasks without direct real-time human input."
         },
         {
-          "const": "Simulation",
-          "description": "Used chiefly for training or procedural rehearsal."
-        },
-        {
-          "const": "Flexible robot",
-          "description": "Employs flexible continuum or snake-like mechanisms."
-        },
-        {
-          "const": "Open microsurgery",
-          "description": "Designed for delicate open microsurgical procedures."
-        },
-        {
           "const": "Biopsy",
           "description": "Supports tissue sampling guidance or extraction."
         },
@@ -379,16 +411,8 @@
           "description": "Transrectal ultrasound guidance or manipulation."
         },
         {
-          "const": "Dental",
-          "description": "Focused on dental or oral implant procedures."
-        },
-        {
           "const": "Autonomous motion",
           "description": "Capable of moving independently without human control."
-        },
-        {
-          "const": "OEM component",
-          "description": "A robotic arm or subsystem sold to medical device manufacturers for integration into their products; not a standalone clinical system."
         },
         {
           "const": "Ultrasound",
@@ -401,10 +425,6 @@
         {
           "const": "Radiation",
           "description": "Delivers or utilizes targeted ionizing radiation for radiation therapy or stereotactic radiosurgery."
-        },
-        {
-          "const": "Catheter",
-          "description": "Manipulates or drives steerable endovascular or intraluminal catheters, guidewires, or sheath systems."
         },
         {
           "const": "Natural orifice",
@@ -514,7 +534,8 @@
     "type": "object",
     "required": [
       "name",
-      "id"
+      "id",
+      "categories"
     ],
     "additionalProperties": false,
     "properties": {
@@ -526,6 +547,14 @@
         "type": "string",
         "pattern": "^[A-Za-z0-9_.&]+$",
         "description": "Unique robot identifier. Allowed characters: letters, digits, underscore, period, ampersand."
+      },
+      "categories": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Category"
+        },
+        "minItems": 1,
+        "uniqueItems": true
       },
       "also_known_as": {
         "type": "array",

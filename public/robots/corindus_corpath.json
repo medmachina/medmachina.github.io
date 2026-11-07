@@ -1,6 +1,9 @@
 {
   "id": "corindus_corpath",
   "name": "CorPath GRX",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
   "also_known_as": [
     "GRX",
     "CorPath",
@@ -32,7 +35,6 @@
     "Open console",
     "Semi-autonomous",
     "X-Ray",
-    "Catheter",
     "Retired"
   ],
   "usages": [

@@ -1,6 +1,9 @@
 {
   "id": "endorobotics_robopera",
   "name": "ROBOPERA",
+  "categories": [
+    "Flexible & Endoluminal"
+  ],
   "also_known_as": [
     "Robopera"
   ],
@@ -18,7 +21,6 @@
   ],
   "tags": [
     "Add-on system",
-    "Flexible robot",
     "Natural orifice",
     "Teleoperated",
     "Open console",

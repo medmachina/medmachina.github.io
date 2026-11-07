@@ -1,6 +1,9 @@
 {
   "id": "ropca_arthur",
   "name": "ARTHUR",
+  "categories": [
+    "Percutaneous, Diagnostic & Radiosurgery"
+  ],
   "introduction_year": 2022,
   "urls": [
     {

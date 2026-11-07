@@ -1,6 +1,9 @@
 {
   "id": "raven_II",
   "name": "RavenII",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2006,
   "urls": [
@@ -36,7 +39,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Research system",
     "Open architecture",
     "Open source",

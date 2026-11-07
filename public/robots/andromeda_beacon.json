@@ -1,6 +1,9 @@
 {
   "id": "andromeda_beacon",
   "name": "Beacon",
+  "categories": [
+    "RAMIS"
+  ],
   "introduction_year": 2024,
   "urls": [
     {

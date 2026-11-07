@@ -1,6 +1,9 @@
 {
   "id": "riverfield_saroa",
   "name": "Saroa",
+  "categories": [
+    "RAMIS"
+  ],
   "also_known_as": [
     "Saroa Surgical System",
     "RF-SS01"
@@ -32,7 +35,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Commercial",
     "Teleoperated",
     "Multiple ports",

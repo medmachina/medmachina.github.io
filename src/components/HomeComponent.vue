@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import RobotList from './RobotList.vue'
+import CategoryCloud from './CategoryCloud.vue'
 import TagCloud from './TagCloud.vue'
 import UsageCloud from './UsageCloud.vue'
 import RegulatoryStatusCloud from './RegulatoryStatusCloud.vue'
@@ -15,6 +16,7 @@ const companies = ref([])
 const robotsError = ref('')
 const companiesError = ref('')
 const search = ref('')
+const selectedCategories = ref([])
 const selectedTags = ref([])
 const selectedUsages = ref([])
 const selectedStatuses = ref([])
@@ -22,13 +24,25 @@ const sortMode = ref('random') // 'random', 'alphabetical', 'year', 'units', or 
 const yearSortAscending = ref(true) // true for oldest-first, false for newest-first
 
 function updateFiltersFromQuery() {
-  selectedTags.value = route.query.tag ? [route.query.tag] : []
-  selectedUsages.value = route.query.usage ? [route.query.usage] : []
+  selectedCategories.value = route.query.category ? [String(route.query.category)] : []
+  selectedTags.value = route.query.tag ? [String(route.query.tag)] : []
+  selectedUsages.value = route.query.usage ? [String(route.query.usage)] : []
 }
 
 watch(() => route.query, () => {
   updateFiltersFromQuery()
 })
+
+function toggleCategoryFromCard(cat) {
+  const updated = [...selectedCategories.value]
+  const idx = updated.indexOf(cat)
+  if (idx > -1) {
+    updated.splice(idx, 1)
+  } else {
+    updated.push(cat)
+  }
+  selectedCategories.value = updated
+}
 
 onMounted(async () => {
   updateFiltersFromQuery()
@@ -122,46 +136,71 @@ function sortByAdded() {
   })
 }
 
+const allCategories = computed(() => {
+  const counts = {}
+  originalItems.value.forEach(item => {
+    (item.categories || []).forEach(cat => {
+      counts[cat] = (counts[cat] || 0) + 1
+    })
+  })
+  return Object.keys(counts)
+    .map(name => ({ name, count: counts[name] }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+})
+
+const categoryScopedItems = computed(() => {
+  if (selectedCategories.value.length === 0) return items.value
+  return items.value.filter(item =>
+    (item.categories || []).some(cat => selectedCategories.value.includes(cat))
+  )
+})
+
 const allTags = computed(() => {
-  // Count the frequency of each tag
   const tagCount = {}
-  items.value.forEach(item => {
+  categoryScopedItems.value.forEach(item => {
     (item.tags || []).forEach(tag => {
       tagCount[tag] = (tagCount[tag] || 0) + 1
     })
   })
+  selectedTags.value.forEach(tag => {
+    if (!(tag in tagCount)) tagCount[tag] = 0
+  })
 
-  // Convert to array of objects with tag and frequency
   return Object.keys(tagCount)
     .map(tag => ({ name: tag, count: tagCount[tag] }))
-    .sort((a, b) => b.count - a.count) // Sort by descending frequency
+    .sort((a, b) => b.count - a.count)
 })
 
 const allUsages = computed(() => {
-  // Count the frequency of each usage
   const usageCount = {}
-  items.value.forEach(item => {
+  categoryScopedItems.value.forEach(item => {
     (item.usages || []).forEach(usage => {
       usageCount[usage] = (usageCount[usage] || 0) + 1
     })
   })
+  selectedUsages.value.forEach(usage => {
+    if (!(usage in usageCount)) usageCount[usage] = 0
+  })
 
-  // Convert to array of objects with usage and frequency
   return Object.keys(usageCount)
     .map(usage => ({ name: usage, count: usageCount[usage] }))
-    .sort((a, b) => b.count - a.count) // Sort by descending frequency
+    .sort((a, b) => b.count - a.count)
 })
 
 const allStatuses = computed(() => {
-  // Extract regulatory bodies from item.regulatory
   const statusCount = {}
-  items.value.forEach(item => {
+  categoryScopedItems.value.forEach(item => {
     const regulatory = item.regulatory || []
+    const seen = new Set()
     regulatory.forEach(entry => {
       const body = entry.body || ''
-      if (!body) return
+      if (!body || seen.has(body)) return
+      seen.add(body)
       statusCount[body] = (statusCount[body] || 0) + 1
     })
+  })
+  selectedStatuses.value.forEach(status => {
+    if (!(status in statusCount)) statusCount[status] = 0
   })
   return Object.keys(statusCount)
     .map(body => ({ name: body, count: statusCount[body] }))
@@ -170,45 +209,48 @@ const allStatuses = computed(() => {
 
 const filteredItems = computed(() => {
   return items.value.filter(item => {
-    // If no tag or usage is selected, show all robots (ignore status filter)
-    if (selectedTags.value.length === 0 && selectedUsages.value.length === 0 && !search.value) {
-      return true;
+    if (
+      selectedCategories.value.length > 0 &&
+      !(item.categories || []).some(cat => selectedCategories.value.includes(cat))
+    ) {
+      return false
     }
 
-    // Improved search: match robot name, tags, usages, and company name
-    const term = (search.value || '').toLowerCase().trim();
-    let matchSearch = true;
+    if (
+      selectedTags.value.length === 0 &&
+      selectedUsages.value.length === 0 &&
+      selectedStatuses.value.length === 0 &&
+      !search.value
+    ) {
+      return true
+    }
+
+    const term = (search.value || '').toLowerCase().trim()
+    let matchSearch = true
     if (term) {
-      // Check robot name
-      matchSearch = (item.name && item.name.toLowerCase().includes(term));
-      // Check tags
-      matchSearch = matchSearch || (item.tags && item.tags.some(tag => tag.toLowerCase().includes(term)));
-      // Check usages
-      matchSearch = matchSearch || (item.usages && item.usages.some(usage => usage.toLowerCase().includes(term)));
-      // Check company name
-      if (companies.value && companies.value.length) {
-        const company = companies.value.find(c => c.robots && c.robots.includes(item.id));
+      matchSearch = Boolean(item.name && item.name.toLowerCase().includes(term))
+      matchSearch = matchSearch || Boolean(item.categories && item.categories.some(cat => cat.toLowerCase().includes(term)))
+      matchSearch = matchSearch || Boolean(item.also_known_as && item.also_known_as.some(alias => alias.toLowerCase().includes(term)))
+      matchSearch = matchSearch || Boolean(item.tags && item.tags.some(tag => tag.toLowerCase().includes(term)))
+      matchSearch = matchSearch || Boolean(item.usages && item.usages.some(usage => usage.toLowerCase().includes(term)))
+      if (!matchSearch && companies.value && companies.value.length) {
+        const company = companies.value.find(c => c.robots && c.robots.includes(item.id))
         if (company && company.name && company.name.toLowerCase().includes(term)) {
-          matchSearch = true;
+          matchSearch = true
         }
       }
     }
 
-    // Only show robots that have all selected tags and all selected usages
-    const hasAllSelectedTags = selectedTags.value.length === 0 || selectedTags.value.every(tag => (item.tags || []).includes(tag));
-    const hasAllSelectedUsages = selectedUsages.value.length === 0 || selectedUsages.value.every(usage => (item.usages || []).includes(usage));
-
-    // Regulatory status filter only applies if tag or usage is selected
+    const hasAllSelectedTags = selectedTags.value.length === 0 || selectedTags.value.every(tag => (item.tags || []).includes(tag))
+    const hasAllSelectedUsages = selectedUsages.value.length === 0 || selectedUsages.value.every(usage => (item.usages || []).includes(usage))
     const matchStatuses = selectedStatuses.value.length === 0 ||
       selectedStatuses.value.every(selectedStatus => {
         const regulatory = item.regulatory || []
-        return regulatory.some(entry => {
-          return entry.body === selectedStatus
-        })
+        return regulatory.some(entry => entry.body === selectedStatus)
       })
 
-    return matchSearch && hasAllSelectedTags && hasAllSelectedUsages && matchStatuses;
-  });
+    return matchSearch && hasAllSelectedTags && hasAllSelectedUsages && matchStatuses
+  })
 })
 </script>
 
@@ -227,6 +269,14 @@ const filteredItems = computed(() => {
     </router-link>
   </header>
   <main class="container-fluid pt-2 pb-4">
+    <!-- Category Pill Bar -->
+    <nav v-if="allCategories.length" class="mb-3" aria-label="Robot categories">
+      <CategoryCloud
+        :categories="allCategories"
+        v-model:selectedCategories="selectedCategories"
+      />
+    </nav>
+
     <div class="row">
       <section class="col-md-9 mb-4">
         <div class="d-flex align-items-center mb-3">
@@ -279,7 +329,12 @@ const filteredItems = computed(() => {
         </div>
         <div v-if="robotsError" class="alert alert-danger my-3">{{ robotsError }}</div>
         <div v-if="companiesError" class="alert alert-danger my-3">{{ companiesError }}</div>
-        <RobotList v-if="!robotsError" :items="filteredItems" :companies="companies" />
+        <RobotList
+          v-if="!robotsError"
+          :items="filteredItems"
+          :companies="companies"
+          @select-category="toggleCategoryFromCard"
+        />
       </section>
       <aside class="col-md-3">
         <h2 class="h5 mb-3">Usages</h2>

@@ -1,6 +1,9 @@
 {
   "id": "momentis_anovo",
   "name": "Anovo",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-11-22",
   "introduction_year": null,
   "urls": [
@@ -24,10 +27,10 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "Commercial",
-    "Mechanical Cartesian manipulation"
+    "Mechanical Cartesian manipulation",
+    "Natural orifice"
   ],
   "usages": [
     "Abdominal",

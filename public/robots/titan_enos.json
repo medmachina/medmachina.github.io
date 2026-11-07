@@ -1,6 +1,9 @@
 {
   "id": "titan_enos",
   "name": "Enos",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": null,
   "urls": [
@@ -17,7 +20,6 @@
   ],
   "photos": [],
   "tags": [
-    "RAMIS",
     "Retired"
   ],
   "usages": [

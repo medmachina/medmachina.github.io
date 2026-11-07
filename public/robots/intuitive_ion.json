@@ -1,6 +1,9 @@
 {
   "id": "intuitive_ion",
   "name": "Ion",
+  "categories": [
+    "Flexible & Endoluminal"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": null,
   "urls": [
@@ -15,7 +18,14 @@
       "site": "https://www.intuitive.com/en-us/products-and-services/ion"
     }
   ],
-  "tags": [],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Natural orifice",
+    "Single patient cart",
+    "Open console",
+    "Mono endoscope"
+  ],
   "usages": [
     "Bronchoscopy",
     "Lung"

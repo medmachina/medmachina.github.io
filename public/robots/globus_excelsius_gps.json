@@ -1,6 +1,9 @@
 {
   "id": "globus_excelsius_gps",
   "name": "ExcelsiusGPS",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2026-11-03",
   "introduction_year": 2017,
   "also_known_as": [
@@ -24,9 +27,10 @@
   ],
   "tags": [
     "Commercial",
-    "Orthopedic",
     "Open surgery",
-    "X-Ray"
+    "X-Ray",
+    "Single patient cart",
+    "Optical navigation"
   ],
   "usages": [
     "Spine",
@@ -163,4 +167,3 @@
     "source_url": "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/"
   }
 }
-

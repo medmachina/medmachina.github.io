@@ -1,6 +1,9 @@
 {
   "id": "microsure_musa_3",
   "name": "MUSA-3",
+  "categories": [
+    "Microsurgery & Ophthalmic"
+  ],
   "db_added": "2026-06-03",
   "introduction_year": 2026,
   "also_known_as": [
@@ -20,11 +23,11 @@
     }
   ],
   "tags": [
-    "Open microsurgery",
     "Teleoperated",
     "2 instruments",
     "Open console",
-    "Commercial"
+    "Commercial",
+    "Open surgery"
   ],
   "usages": [
     "Microsurgery"

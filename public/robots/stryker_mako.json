@@ -1,6 +1,9 @@
 {
   "id": "stryker_mako",
   "name": "Mako",
+  "categories": [
+    "Orthopedic, Spine & Cranial"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2018,
   "urls": [
@@ -21,7 +24,12 @@
   ],
   "tags": [
     "Open surgery",
-    "Orthopedic"
+    "Commercial",
+    "Single patient cart",
+    "Collaborative control",
+    "Semi-autonomous",
+    "Haptic",
+    "Optical navigation"
   ],
   "usages": [
     "Hip",

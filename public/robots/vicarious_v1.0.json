@@ -1,6 +1,9 @@
 {
   "id": "vicarious_v1.0",
   "name": "Vicarious Surgical v1.0",
+  "categories": [
+    "RAMIS"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2022,
   "urls": [
@@ -24,7 +27,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Single patient cart",
     "Single port",
     "2 instruments",

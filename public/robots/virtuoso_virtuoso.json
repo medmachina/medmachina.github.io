@@ -1,6 +1,10 @@
 {
   "id": "virtuoso_virtuoso",
   "name": "Virtuoso",
+  "categories": [
+    "RAMIS",
+    "Flexible & Endoluminal"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2025,
   "urls": [
@@ -20,7 +24,6 @@
     }
   ],
   "tags": [
-    "RAMIS",
     "Teleoperated",
     "2 instruments",
     "Mechanical manipulation",

@@ -1,6 +1,9 @@
 {
   "id": "quanser_hd2",
   "name": "HD2",
+  "categories": [
+    "OEM & Haptic Subsystems"
+  ],
   "db_added": "2025-07-30",
   "introduction_year": 2025,
   "urls": [
@@ -20,7 +23,9 @@
     }
   ],
   "tags": [
-    "Haptic device"
+    "Haptic device",
+    "Commercial",
+    "Force feedback"
   ],
   "description": "The HD2 High-Definition Haptic Device is a high-performance parallel-kinematic haptic interface manufactured by Quanser for robotics research, teleoperation master consoles, and virtual reality simulations. It provides 6 degrees of freedom of position sensing with optical encoders and 5 degrees of freedom of force actuation driven by DC motors and capstan linkages. Counterbalanced to minimize perceived weight and baseline friction, the HD2 interfaces with MATLAB/Simulink, Python, and ROS 2 for research in bilateral teleoperation, haptic rendering, and surgical control algorithms.",
   "also_known_as": [],
