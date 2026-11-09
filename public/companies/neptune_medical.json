@@ -10,11 +10,12 @@
   ],
   "linkedin_url": "https://www.linkedin.com/company/neptunemedical",
   "opencorporates_url": "https://opencorporates.com/companies/us_de/5903888",
+  "founded_year": "2016",
   "employee_count": "51-200",
   "robots": [
     "neptune_triton_1"
   ],
-  "description": "Neptune Medical is creating the future of endoscopy with our proprietary Dynamic Rigidization technology",
+  "description": "Neptune Medical is a medical device and robotics company founded in 2016 in Burlingame, California, USA. The company develops flexible endoscopy technologies, including variable-stiffness overtubes (Dynamic Rigidization) and the [Triton 1](/robot/neptune_triton_1) robotic colonoscopy platform.",
   "patents": {
     "assignee_names": [
       "Neptune Medical"
