@@ -14,7 +14,12 @@
   ],
   "photos": [
     {
-      "url": "https://www.neocis.com/wp-content/uploads/2022/12/yomi-robot.png",
+      "url": "https://www.neocis.com/wp-content/uploads/2026/02/Yomi-S-Rendering-full-scaled.webp",
+      "site": "https://www.neocis.com/products-and-services/yomi-robot/"
+    },
+    {
+      "url": "https://www.neocis.com/wp-content/uploads/2026/05/Yomi-S-with-hand-green-LED-2-scaled.webp",
+      "caption": "Yomi S robotic arm with LED status indicator",
       "site": "https://www.neocis.com/products-and-services/yomi-robot/"
     }
   ],
