@@ -7,7 +7,7 @@
             {{ company.name }}
             <span
               v-if="company.status && company.status.state !== 'active'"
-              class="badge ms-1"
+              class="badge ms-1 status-pill"
               :class="getCompanyStatusBadgeClass(company.status.state)"
               :title="company.status.note || company.status.state"
             >
@@ -152,5 +152,12 @@ function getCompanyStatusBadgeClass(state) {
 }
 .robot-link:hover {
   background-color: var(--color-primary);
+}
+.status-pill {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  vertical-align: middle;
 }
 </style>

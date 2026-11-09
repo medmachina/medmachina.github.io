@@ -50,17 +50,17 @@
             <!-- Lifecycle Status Badge -->
             <span
               v-if="item.lifecycle?.status === 'discontinued'"
-              class="badge bg-danger ms-1"
+              class="badge bg-danger ms-1 status-pill"
               :title="item.lifecycle.note || 'Discontinued'"
             >Discontinued</span>
             <span
               v-else-if="item.lifecycle?.status === 'development_halted'"
-              class="badge bg-warning text-dark ms-1"
+              class="badge bg-warning text-dark ms-1 status-pill"
               :title="item.lifecycle.note || 'Development Halted'"
             >Dev Halted</span>
             <span
               v-else-if="item.lifecycle?.status === 'premarket'"
-              class="badge bg-info text-dark ms-1"
+              class="badge bg-info text-dark ms-1 status-pill"
               :title="item.lifecycle.note || 'In premarket development / clinical trials'"
             >Premarket</span>
           </div>
@@ -201,5 +201,12 @@ function isRecentlyAdded(item) {
 }
 .category-card-badge:hover {
   background-color: #3a275c;
+}
+.status-pill {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  vertical-align: middle;
 }
 </style>

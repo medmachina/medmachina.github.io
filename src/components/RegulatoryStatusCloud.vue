@@ -4,10 +4,7 @@
       v-for="status in statuses"
       :key="status.name"
       :class="['badge', isSelected(status.name) ? 'bg-primary' : 'dark-status', 'status-cloud-badge']"
-      :style="{
-        cursor: 'pointer',
-        fontSize: `${0.7 + (status.count / maxStatusCount) * 0.22}rem`
-      }"
+      style="cursor: pointer;"
       @click="toggleStatus(status.name)"
     >
       {{ status.name }}
@@ -18,8 +15,6 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
-
 const props = defineProps({
   statuses: Array,
   selectedStatuses: {
@@ -29,12 +24,6 @@ const props = defineProps({
 });
 
 const emit = defineEmits(['update:selectedStatuses']);
-
-// Calculate the maximum number of occurrences to normalize sizes
-const maxStatusCount = computed(() => {
-  if (!props.statuses || props.statuses.length === 0) return 1;
-  return Math.max(...props.statuses.map(status => status.count));
-});
 
 function isSelected(statusName) {
   return props.selectedStatuses.includes(statusName);
@@ -68,6 +57,7 @@ function clearAllStatuses() {
 .status-cloud-badge {
   padding: 0.25rem 0.6rem;
   border-radius: 1rem;
+  font-size: 0.75rem;
   transition: all 0.2s ease;
 }
 .status-cloud-badge:hover {

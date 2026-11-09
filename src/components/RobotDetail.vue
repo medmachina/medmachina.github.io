@@ -31,7 +31,7 @@
           </p>
           <p v-if="filteredProject.lifecycle" class="mb-2">
             <strong>Status:</strong>
-            <span class="badge ms-2" :class="getLifecycleBadgeClass(filteredProject.lifecycle.status)">
+            <span class="badge ms-2 status-pill" :class="getLifecycleBadgeClass(filteredProject.lifecycle.status)">
               {{ formatLifecycleStatus(filteredProject.lifecycle.status) }}
             </span>
             <span v-if="filteredProject.lifecycle.year" class="ms-1 text-muted">({{ filteredProject.lifecycle.year }})</span>
@@ -695,7 +695,7 @@ function getShortDomain(url) {
 .tags-section, .usages-section {
   margin-bottom: 1.5rem;
 }
-.tag-cloud-badge, .usage-cloud-badge, .category-cloud-badge {
+.tag-cloud-badge, .usage-cloud-badge, .category-cloud-badge, .status-pill {
   padding: 0.2rem 0.55rem;
   border-radius: 1rem;
   font-size: 0.78rem;

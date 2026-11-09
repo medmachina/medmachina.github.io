@@ -16,7 +16,7 @@
           <h2 class="card-title h5">Information</h2>
           <p v-if="company.status" class="mb-2">
             <strong>Status:</strong>
-            <span class="badge ms-2" :class="getCompanyStatusBadgeClass(company.status.state)">
+            <span class="badge ms-2 status-pill" :class="getCompanyStatusBadgeClass(company.status.state)">
               {{ formatCompanyState(company.status.state) }}
             </span>
             <span v-if="company.status.year" class="ms-1 text-muted">({{ company.status.year }})</span>
@@ -363,5 +363,13 @@ function getCompanyStatusBadgeClass(state) {
   height: 18px;
   fill: currentColor;
   margin-right: 8px;
+}
+
+.status-pill {
+  font-size: 0.78rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  vertical-align: middle;
 }
 </style>
