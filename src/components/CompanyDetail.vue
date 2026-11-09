@@ -31,7 +31,15 @@
           </p>
           <p><strong>Country:</strong> {{ company.country }}</p>
           <p v-if="company.employee_count"><strong>Employees:</strong> {{ company.employee_count.toLocaleString() }}</p>
-          <p v-if="company.description">{{ company.description }}</p>
+          <div v-if="company.description" class="mb-3">
+            <p v-for="(para, pIdx) in descriptionParagraphs" :key="pIdx" class="mb-2">
+              <template v-for="(seg, sIdx) in para" :key="sIdx">
+                <span v-if="seg.type === 'text'">{{ seg.text }}</span>
+                <router-link v-else-if="seg.type === 'router'" :to="seg.to">{{ seg.text }}</router-link>
+                <a v-else-if="seg.type === 'external'" :href="seg.href" target="_blank" rel="noopener noreferrer">{{ seg.text }}</a>
+              </template>
+            </p>
+          </div>
 
           <p v-if="company.urls && company.urls.length || company.linkedin_url || company.opencorporates_url">
             <strong>Links:</strong>
@@ -138,7 +146,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { updateSeo } from '../utils/seo';
 
@@ -146,53 +154,124 @@ const route = useRoute();
 const router = useRouter();
 
 const company = ref(null);
+const allCompanies = ref([]);
 const allRobots = ref([]);
+
+function normalizeSlug(str) {
+  if (!str) return '';
+  return str.normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+function resolveCompany(param) {
+  if (!param || !allCompanies.value.length) return null;
+  const decoded = decodeURIComponent(param);
+  const normalizedParam = normalizeSlug(decoded);
+
+  return allCompanies.value.find(c => {
+    if (c.id && c.id === decoded) return true;
+    if (c.name && c.name === decoded) return true;
+    if (c.id && normalizeSlug(c.id) === normalizedParam) return true;
+    if (c.name && normalizeSlug(c.name) === normalizedParam) return true;
+    return false;
+  }) || null;
+}
+
+function updateCompanySeo() {
+  if (!company.value) return;
+  const title = `${company.value.name} - Medical Robotics Company | Med Machina`;
+  const description = company.value.description 
+    ? `${company.value.description}. Explore surgical robots and regulatory portfolio for ${company.value.name}.`
+    : `Explore surgical robotics portfolio and company information for ${company.value.name}.`;
+  
+  const sameAs = [];
+  if (company.value.linkedin_url) sameAs.push(company.value.linkedin_url);
+  if (company.value.opencorporates_url) sameAs.push(company.value.opencorporates_url);
+  if (company.value.urls && company.value.urls[0]) sameAs.push(company.value.urls[0].url);
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    'name': company.value.name,
+    'description': description,
+    'url': `https://medmachina.github.io/company/${company.value.id || encodeURIComponent(company.value.name)}`,
+    'address': company.value.country ? { '@type': 'PostalAddress', 'addressCountry': company.value.country } : undefined,
+    'sameAs': sameAs.length ? sameAs : undefined
+  };
+
+  updateSeo({
+    title,
+    description,
+    path: `/company/${encodeURIComponent(company.value.name)}`,
+    jsonLd
+  });
+}
+
+function parseParagraphSegments(para) {
+  const segments = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = regex.exec(para)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push({ type: 'text', text: para.slice(lastIndex, match.index) });
+    }
+    const label = match[1];
+    const rawUrl = match[2].trim();
+    const internalPrefix = 'https://medmachina.github.io';
+    if (rawUrl.startsWith('/')) {
+      segments.push({ type: 'router', text: label, to: rawUrl });
+    } else if (rawUrl.startsWith(internalPrefix)) {
+      segments.push({ type: 'router', text: label, to: rawUrl.slice(internalPrefix.length) || '/' });
+    } else {
+      segments.push({ type: 'external', text: label, href: rawUrl });
+    }
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < para.length) {
+    segments.push({ type: 'text', text: para.slice(lastIndex) });
+  }
+  return segments;
+}
+
+const descriptionParagraphs = computed(() => {
+  const desc = company.value?.description;
+  if (!desc) return [];
+  const text = String(desc).replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  return text
+    .split(/\n{2,}/)
+    .map(s => s.trim())
+    .filter(s => s.length > 0)
+    .map(parseParagraphSegments);
+});
 
 onMounted(async () => {
   try {
     // Load companies data
     const companyResponse = await fetch('/companies.json');
-    const companies = await companyResponse.json();
+    allCompanies.value = await companyResponse.json();
 
-    // Find current company by name
-    const companyName = route.params.name;
-    company.value = companies.find(c => c.name === companyName);
+    // Find current company by id, name, or slug
+    company.value = resolveCompany(route.params.name);
 
     // Load robots data
     const robotsResponse = await fetch('/robots.json');
     allRobots.value = await robotsResponse.json();
 
-    if (company.value) {
-      const title = `${company.value.name} - Medical Robotics Company | Med Machina`;
-      const description = company.value.description 
-        ? `${company.value.description}. Explore surgical robots and regulatory portfolio for ${company.value.name}.`
-        : `Explore surgical robotics portfolio and company information for ${company.value.name}.`;
-      
-      const sameAs = [];
-      if (company.value.linkedin_url) sameAs.push(company.value.linkedin_url);
-      if (company.value.opencorporates_url) sameAs.push(company.value.opencorporates_url);
-      if (company.value.urls && company.value.urls[0]) sameAs.push(company.value.urls[0].url);
-
-      const jsonLd = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        'name': company.value.name,
-        'description': description,
-        'url': `https://medmachina.github.io/company/${encodeURIComponent(company.value.name)}`,
-        'address': company.value.country ? { '@type': 'PostalAddress', 'addressCountry': company.value.country } : undefined,
-        'sameAs': sameAs.length ? sameAs : undefined
-      };
-
-      updateSeo({
-        title,
-        description,
-        path: `/company/${encodeURIComponent(company.value.name)}`,
-        jsonLd
-      });
-    }
+    updateCompanySeo();
   } catch (error) {
     console.error('Error loading data:', error);
   }
+});
+
+watch(() => route.params.name, (newName) => {
+  company.value = resolveCompany(newName);
+  updateCompanySeo();
+  window.scrollTo(0, 0);
 });
 
 const companyId = computed(() => {

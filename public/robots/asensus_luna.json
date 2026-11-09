@@ -23,7 +23,7 @@
     "Retired"
   ],
   "usages": [],
-  "description": "The LUNA Surgical System is a digital robotic platform developed by Asensus Surgical for minimally invasive laparoscopic procedures. Designed around an open surgeon console and articulating 5 mm TrueWrist instruments, the system was engineered to integrate with the Intelligent Surgical Unit (ISU) for real-time digital image analytics. Standalone hardware development of the LUNA platform was discontinued following the acquisition of Asensus Surgical by KARL STORZ in 2024.",
+  "description": "The LUNA Surgical System is a digital robotic platform developed by [Asensus Surgical](/company/asensus_surgical) for minimally invasive laparoscopic procedures. Designed around an open surgeon console and articulating 5 mm TrueWrist instruments, the system was engineered to integrate with the Intelligent Surgical Unit (ISU) for real-time digital image analytics. Standalone hardware development of the LUNA platform was discontinued following the acquisition of Asensus Surgical by [KARL STORZ](/company/karl_storz) in 2024.",
   "also_known_as": [],
   "lifecycle": {
     "status": "development_halted",

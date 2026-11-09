@@ -1,0 +1,34 @@
+{
+  "id": "karl_storz",
+  "name": "KARL STORZ",
+  "country": "Germany",
+  "founded_year": "1945",
+  "urls": [
+    {
+      "caption": "KARL STORZ Official Website",
+      "url": "https://www.karlstorz.com"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/karlstorz/",
+  "opencorporates_url": "",
+  "robots": [
+    "asensus_senhance",
+    "asensus_luna"
+  ],
+  "subsidiaries": [
+    "Asensus Surgical",
+    "Innersight Labs",
+    "AventaMed",
+    "KARL STORZ VentureONE"
+  ],
+  "description": "KARL STORZ SE & Co. KG is a medical device manufacturer founded in 1945 in Tuttlingen, Germany, producing rigid and flexible endoscopes, surgical instruments, and operating room integration systems (OR1 and CollaboratOR). In August 2024, KARL STORZ acquired [Asensus Surgical](/company/asensus_surgical), adding the Senhance and Luna laparoscopic platforms to its portfolio. KARL STORZ serves as an OEM visualization supplier for surgical robotics, including the 3D endoscopic vision system for the [Medtronic Hugo RAS](/robot/medtronic_hugo_ras), and maintains commercial partnerships with [Moon Surgical](/robot/moon_maestro) and Sovato. Karl Storz endoscopes were also paired with Computer Motion's [Zeus](/robot/computer_motion_zeus) robotic system.",
+  "employee_count": "1000+",
+  "patents": {
+    "assignee_names": [
+      "Karl Storz SE & Co. KG",
+      "Karl Storz Endoskopie"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Karl+Storz%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Karl%20Storz%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
