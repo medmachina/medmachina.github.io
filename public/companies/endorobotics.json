@@ -1,19 +1,20 @@
 {
   "id": "endorobotics",
   "name": "EndoRobotics",
-  "country": "KR",
+  "country": "South Korea",
   "urls": [
     {
-      "caption": "Official Website",
+      "caption": "EndoRobotics Official Website",
       "url": "https://endorobo.com"
     }
   ],
   "linkedin_url": "https://www.linkedin.com/company/endorobotics/",
+  "opencorporates_url": "",
   "employee_count": "51-200",
   "robots": [
     "endorobotics_robopera"
   ],
-  "description": "EndoRobotics develops robotic and manual devices for non-invasive endoscopic therapy — ESD, ESG, EMR and endoscopic stitching.",
+  "description": "EndoRobotics is a surgical robotics company based in Seoul, South Korea. The company develops the [ROBOPERA](/robot/endorobotics_robopera) modular add-on robotic platform and instruments for therapeutic gastrointestinal endoscopy (including ESD, ESG, EMR, and endoscopic stitching), distributed globally in partnership with Olympus.",
   "patents": {
     "assignee_names": [
       "EndoRobotics"
