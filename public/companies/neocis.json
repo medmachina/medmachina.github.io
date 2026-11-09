@@ -11,7 +11,8 @@
   "linkedin_url": "https://www.linkedin.com/company/neocis/",
   "opencorporates_url": "https://opencorporates.com/companies/us_de/5215368",
   "robots": [
-    "neocis_yomi"
+    "neocis_yomi",
+    "neocis_yomi_s"
   ],
   "description": "Neocis is based in Miami, Florida, USA.",
   "employee_count": "100-500",

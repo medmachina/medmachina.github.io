@@ -5,7 +5,7 @@
     "Orthopedic, Spine & Cranial"
   ],
   "db_added": "2026-06-03",
-  "introduction_year": 2024,
+  "introduction_year": 2016,
   "urls": [
     {
       "caption": "Neocis, Yomi",
@@ -28,13 +28,11 @@
   "usages": [
     "Dental implant"
   ],
-  "description": "Yomi is a computerized robotic guidance system developed by Neocis for dental implant surgery. The platform consists of a multi-axis articulated robotic arm on a mobile cart, real-time tracking arrays, and CBCT-based 3D treatment planning software. During osteotomy preparation and implant placement, the robotic arm provides physical haptic constraints that guide the clinician's handpiece precisely along planned angular trajectories and depth limits while allowing dynamic visualization and adjustments. Yomi is the first FDA-cleared robotic guidance system for dental implantology.",
-  "also_known_as": [],
+  "description": "Yomi is a computerized robotic guidance system developed by Neocis for dental implant surgery. Introduced in 2016 as the first FDA-cleared robotic system in dental implantology, the platform features a multi-axis articulated robotic arm on a mobile cart, real-time physical patient tracking (YomiLink), and CBCT-based 3D treatment planning software. During osteotomy preparation and implant placement, the robotic arm provides physical haptic guidance, constraining the clinician's handpiece along the pre-planned angular trajectory and depth limits while allowing tactile feedback and dynamic visualization.",
+  "also_known_as": [
+    "Neocis Guidance System"
+  ],
   "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=BrUcceNKVqc",
-      "title": "Meet Yomi S — The Next Generation of Robotic Dental Implant Surgery"
-    },
     {
       "url": "https://www.youtube.com/watch?v=BIfrwNoztzg",
       "title": "What is Yomi? A robotic platform that's revolutionizing dental implant surgery"
@@ -46,9 +44,9 @@
   ],
   "regulatory": [
     {
-      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252376",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161399",
       "body": "FDA 510k",
-      "year": 2025,
+      "year": 2016,
       "product_code": "PLV",
       "panel": "DE"
     }
