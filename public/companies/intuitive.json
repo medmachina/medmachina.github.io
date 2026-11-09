@@ -20,7 +20,10 @@
     "intuitive_da_vinci",
     "intuitive_ion"
   ],
-  "description": "Intuitive is based in Sunnyvale, California, USA",
+  "subsidiaries": [
+    "Computer Motion"
+  ],
+  "description": "Intuitive (Intuitive Surgical, Inc.) is a surgical robotics company based in Sunnyvale, California, USA, developing the da Vinci and Ion platforms. In July 2019, Intuitive acquired the robotic endoscope manufacturing operations of [SCHÖLLY FIBEROPTIC](/company/schoelly_fiberoptic), its long-term German OEM supplier of 3D stereoscopic endoscopes.",
   "employee_count": "1000+",
   "patents": {
     "assignee_names": [
