@@ -21,5 +21,12 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=%22Vicarious+Surgical+Inc%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Vicarious%20Surgical%20Inc%22&s=_score&d=%2B&p=0&n=50"
+  },
+  "status": {
+    "state": "liquidated",
+    "year": 2026,
+    "successor": null,
+    "note": "Ceased operations and approved formal dissolution in July 2026, transferring all assets to Vicarious Liquidation, LLC under an Assignment for the Benefit of Creditors.",
+    "source_url": "https://www.sec.gov"
   }
 }

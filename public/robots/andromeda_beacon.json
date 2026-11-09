@@ -54,5 +54,10 @@
       "title": "Andromeda Surgical"
     }
   ],
-  "db_added": "2026-09-01"
+  "db_added": "2026-09-01",
+  "lifecycle": {
+    "status": "premarket",
+    "note": "In premarket engineering and clinical development for autonomous/AI-guided transurethral enucleation of the prostate.",
+    "source_url": "https://www.andromedasurgical.com"
+  }
 }

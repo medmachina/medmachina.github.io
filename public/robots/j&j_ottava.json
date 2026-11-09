@@ -91,5 +91,11 @@
       "product_code": "",
       "panel": ""
     }
-  ]
+  ],
+  "lifecycle": {
+    "status": "active",
+    "year": 2026,
+    "note": "Granted FDA De Novo marketing authorization (DEN250068) in July 2026 for robotic-assisted general surgical procedures in the upper abdomen.",
+    "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system"
+  }
 }

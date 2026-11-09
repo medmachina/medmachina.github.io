@@ -57,5 +57,11 @@
   "units_deployed": {
     "count": 5,
     "source_url": "https://www.vicarioussurgical.com/"
+  },
+  "lifecycle": {
+    "status": "development_halted",
+    "year": 2026,
+    "note": "Development ceased and company entered liquidation via Assignment for the Benefit of Creditors in July 2026 before entering human clinical trials.",
+    "source_url": "https://www.medtechdive.com"
   }
 }

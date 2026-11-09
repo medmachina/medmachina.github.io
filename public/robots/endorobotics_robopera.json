@@ -47,5 +47,11 @@
       "doi": "10.1002/rcs.70179"
     }
   ],
-  "db_added": "2026-09-18"
+  "db_added": "2026-09-18",
+  "lifecycle": {
+    "status": "premarket",
+    "year": 2026,
+    "note": "In premarket clinical development and first-in-human trials; partnered with Olympus for global commercial distribution.",
+    "source_url": "https://endorobo.com"
+  }
 }

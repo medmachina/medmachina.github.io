@@ -163,5 +163,11 @@
   "units_deployed": {
     "count": 80,
     "source_url": "https://www.renishaw.com/en/neuromate-stereotactic-robot--10712"
+  },
+  "lifecycle": {
+    "status": "active",
+    "year": 2022,
+    "note": "Actively commercialized and supported by Renishaw (Neuromate Gen III); recertified under EU MDR in 2022.",
+    "source_url": "https://www.renishaw.com/en/neuromate-receives-updated-ce-marking-under-mdr--64459"
   }
 }
