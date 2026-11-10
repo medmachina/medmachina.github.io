@@ -2,6 +2,7 @@
   "id": "virtuoso_surgical",
   "name": "Virtuoso Surgical",
   "country": "United States",
+  "founded_year": "2016",
   "urls": [
     {
       "caption": "Virtuoso Surgical",
@@ -13,7 +14,7 @@
   "robots": [
     "virtuoso_virtuoso"
   ],
-  "description": "Virtuoso Surgical is based in Nashville, Tennessee, USA.",
+  "description": "Virtuoso Surgical is a medical robotics company founded in 2016 in Nashville, Tennessee, USA, as a spin-out from Vanderbilt University and Johns Hopkins University. The company develops concentric-tube endoscopic robotic systems, receiving FDA De Novo marketing authorization in October 2026 for the [Virtuoso](/robot/virtuoso_virtuoso) system for transurethral en bloc bladder tumor resection.",
   "employee_count": "10-50",
   "patents": {
     "assignee_names": [

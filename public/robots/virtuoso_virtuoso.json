@@ -36,7 +36,7 @@
     "Bladder",
     "Endoscopy"
   ],
-  "description": "The Virtuoso Surgical System is a single-port rigid endoscopic robot developed by Virtuoso Surgical (Nashville, Tennessee), originating from research at Vanderbilt University and Johns Hopkins University. On the patient side, the platform deploys two needle-sized concentric-tube manipulators—composed of telescoping, pre-curved superelastic nitinol tubes—through the working channel of a rigid monocular endoscope to provide bimanual grasping, retraction, and electrosurgical tissue dissection (such as en bloc transurethral bladder tumor resection). On the surgeon's console side, the master controllers emulate the kinematics and pivot motion of conventional handheld laparoscopic instruments rather than Cartesian manipulators.",
+  "description": "The Virtuoso Surgical System is a single-port rigid endoscopic robot developed by [Virtuoso Surgical](/company/virtuoso_surgical) (Nashville, Tennessee), originating from research at Vanderbilt University and Johns Hopkins University. On the patient side, the platform deploys two needle-sized concentric-tube manipulators—composed of telescoping, pre-curved superelastic nitinol tubes—through the working channel of a rigid monocular endoscope to provide bimanual grasping, retraction, and electrosurgical tissue dissection. On the surgeon's console side, the master controllers emulate the kinematics and pivot motion of conventional handheld laparoscopic instruments rather than Cartesian manipulators. In October 2026, the system received FDA De Novo marketing authorization (DEN250054) for transurethral en bloc resection of bladder lesions.",
   "also_known_as": [],
   "videos": [
     {
