@@ -78,7 +78,7 @@
   "also_known_as": [],
   "regulatory": [
     {
-      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN250068",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN250068",
       "body": "FDA denovo",
       "year": 2026,
       "product_code": "SIR",

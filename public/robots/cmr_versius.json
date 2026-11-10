@@ -47,7 +47,7 @@
   "also_known_as": [],
   "regulatory": [
     {
-      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230078",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN230078",
       "body": "FDA denovo",
       "year": 2024,
       "product_code": "SCV",

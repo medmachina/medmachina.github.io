@@ -53,7 +53,7 @@
     {
       "body": "FDA denovo",
       "year": 2024,
-      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?denovo=DEN230025",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN230025",
       "product_code": "SAB",
       "panel": "SU"
     },
