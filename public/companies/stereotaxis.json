@@ -31,5 +31,10 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=%22Stereotaxis%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Stereotaxis%22&s=_score&d=%2B&p=0&n=50"
+  },
+  "stock": {
+    "ticker": "NYSE: STXS",
+    "cnbc_symbol": "STXS",
+    "url": "https://finance.yahoo.com/quote/STXS/"
   }
 }

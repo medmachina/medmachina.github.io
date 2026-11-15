@@ -32,6 +32,10 @@
           <p><strong>Country:</strong> {{ company.country }}</p>
           <p v-if="company.founded_year"><strong>Founded:</strong> {{ company.founded_year }}</p>
           <p v-if="company.employee_count"><strong>Employees:</strong> {{ company.employee_count.toLocaleString() }}</p>
+          <p v-if="company.stock" class="d-flex align-items-center gap-2">
+            <strong>Stock:</strong>
+            <StockSticker :stock="company.stock" />
+          </p>
           <div v-if="company.description" class="mb-3">
             <p v-for="(para, pIdx) in descriptionParagraphs" :key="pIdx" class="mb-2">
               <template v-for="(seg, sIdx) in para" :key="sIdx">
@@ -163,6 +167,7 @@ import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { updateSeo } from '../utils/seo';
 import CompanyTimeGraph from './CompanyTimeGraph.vue';
+import StockSticker from './StockSticker.vue';
 
 const route = useRoute();
 const router = useRouter();

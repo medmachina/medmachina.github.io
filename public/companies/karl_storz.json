@@ -1,11 +1,11 @@
 {
   "id": "karl_storz",
-  "name": "KARL STORZ",
+  "name": "Karl Storz",
   "country": "Germany",
   "founded_year": 1945,
   "urls": [
     {
-      "caption": "KARL STORZ Official Website",
+      "caption": "Karl Storz Official Website",
       "url": "https://www.karlstorz.com"
     }
   ],
@@ -19,9 +19,9 @@
     "Asensus Surgical",
     "Innersight Labs",
     "AventaMed",
-    "KARL STORZ VentureONE"
+    "Karl Storz VentureONE"
   ],
-  "description": "KARL STORZ SE & Co. KG is a medical device manufacturer founded in 1945 in Tuttlingen, Germany, producing rigid and flexible endoscopes, surgical instruments, and operating room integration systems (OR1 and CollaboratOR). In August 2024, KARL STORZ acquired [Asensus Surgical](/company/asensus_surgical), adding the [Senhance](/robot/asensus_senhance) and [LUNA](/robot/asensus_luna) laparoscopic platforms to its portfolio. KARL STORZ serves as an OEM visualization supplier for surgical robotics, including the 3D endoscopic vision system for [Medtronic](/company/medtronic)'s [Hugo RAS](/robot/medtronic_hugo_ras), and maintains commercial partnerships with [Moon Surgical](/company/moon_surgical) ([Maestro](/robot/moon_maestro)) and Sovato. Karl Storz endoscopes were also paired with [Computer Motion](/company/computer_motion)'s [Zeus](/robot/computer_motion_zeus) robotic system.",
+  "description": "Karl Storz SE & Co. KG is a medical device manufacturer founded in 1945 in Tuttlingen, Germany, producing rigid and flexible endoscopes, surgical instruments, and operating room integration systems (OR1 and CollaboratOR). In August 2024, Karl Storz acquired [Asensus Surgical](/company/asensus_surgical), adding the [Senhance](/robot/asensus_senhance) and [LUNA](/robot/asensus_luna) laparoscopic platforms to its portfolio. Karl Storz serves as an OEM visualization supplier for surgical robotics, including the 3D endoscopic vision system for [Medtronic](/company/medtronic)'s [Hugo RAS](/robot/medtronic_hugo_ras), and maintains commercial partnerships with [Moon Surgical](/company/moon_surgical) ([Maestro](/robot/moon_maestro)) and Sovato. Karl Storz endoscopes were also paired with [Computer Motion](/company/computer_motion)'s [Zeus](/robot/computer_motion_zeus) robotic system.",
   "employee_count": "1000+",
   "patents": {
     "assignee_names": [

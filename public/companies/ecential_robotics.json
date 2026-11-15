@@ -13,7 +13,7 @@
   "robots": [
     "ecential_robotics_platform"
   ],
-  "description": "eCential Robotics (formerly Surgivisio) is a medical robotics company founded in 2009 in Gières (Grenoble), France. The company develops the [eCential Robotics](/robot/ecential_robotics_platform) unified intraoperative 2D/3D X-ray imaging, optical navigation, and robotic guidance platform for spine and orthopedic surgery (built on the [KUKA](/company/kuka) [LBR Med](/robot/kuka_lbr_med) arm and co-developed with DePuy Synthes / [Johnson & Johnson MedTech](/company/johnson_johnson_medtech) from 2022 to 2024 as VELYS Spine).",
+  "description": "eCential Robotics (formerly Surgivisio) is a medical robotics company founded in 2009 by Stéphane Lavallée in Gières (Grenoble), France, within the [MinMaxMedical](/company/minmaxmedical) and Haventure computer-assisted surgery ecosystem. The company develops the [eCential Robotics](/robot/ecential_robotics_platform) unified intraoperative 2D/3D X-ray imaging, optical navigation, and robotic guidance platform for spine and orthopedic surgery (built on the [KUKA](/company/kuka) [LBR Med](/robot/kuka_lbr_med) arm and co-developed with DePuy Synthes / [Johnson & Johnson MedTech](/company/johnson_johnson_medtech) from 2022 to 2024 as VELYS Spine).",
   "employee_count": "100-500",
   "patents": {
     "assignee_names": [

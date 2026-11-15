@@ -17,7 +17,7 @@
   "subsidiaries": [
     "TransEnterix"
   ],
-  "description": "Asensus Surgical (formerly TransEnterix) is a medical robotics company based in Durham, North Carolina, USA, that developed the [Senhance](/robot/asensus_senhance) multiport laparoscopic system and the [LUNA](/robot/asensus_luna) digital surgical platform. In August 2024, the company was acquired by [KARL STORZ](/company/karl_storz).",
+  "description": "Asensus Surgical (formerly TransEnterix) is a medical robotics company based in Durham, North Carolina, USA, that developed the [Senhance](/robot/asensus_senhance) multiport laparoscopic system and the [LUNA](/robot/asensus_luna) digital surgical platform. In August 2024, the company was acquired by [Karl Storz](/company/karl_storz).",
   "employee_count": "100-500",
   "patents": {
     "assignee_names": [
@@ -30,8 +30,8 @@
   "status": {
     "state": "acquired",
     "year": 2024,
-    "successor": "KARL STORZ",
-    "note": "Acquired by KARL STORZ in August 2024; standalone robotic hardware development was subsequently phased out to integrate software, AI, and IP into KARL STORZ surgical ecosystems.",
+    "successor": "Karl Storz",
+    "note": "Acquired by Karl Storz in August 2024; standalone robotic hardware development was subsequently phased out to integrate software, AI, and IP into Karl Storz surgical ecosystems.",
     "source_url": "https://www.karlstorz.com/us/en/asensus-surgical-announces-closing-of-acquisition-by-karl-storz.htm"
   },
   "founded_year": 2006

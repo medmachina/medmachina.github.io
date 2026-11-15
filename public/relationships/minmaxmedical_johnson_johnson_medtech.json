@@ -3,11 +3,12 @@
   "source": "minmaxmedical",
   "target": "johnson_johnson_medtech",
   "type": "oem",
-  "subtype": "Gemtrack Sensor Buyout",
+  "subtype": "Orthotaxy R&D & Gemtrack Buyout",
   "year": 2020,
-  "note": "Developed the Gemtrack miniature radiofrequency tracking sensor acquired by DePuy Synthes / J&J MedTech for the VELYS platform.",
+  "note": "Incubated sister venture Orthotaxy (acquired by DePuy Synthes / J&J MedTech in 2018 for VELYS) and developed the Gemtrack miniature radiofrequency tracking sensor acquired by DePuy Synthes in 2020.",
   "sources": [
     "https://www.jnj.com/media-center/press-releases/depuy-synthes-announces-agreement-to-acquire-miniature-radiofrequency-tracking-technology-across-its-joint-reconstruction-portfolio",
-    "https://www.minmaxmedical.com/"
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-medical-devices-companies-acquire-orthotaxy-to-develop-next-generation-robotic-assisted-surgery-platform-in-orthopaedics",
+    "https://www.orthoworld.com/serial-entrepreneur-shares-vision-for-robotics-market/"
   ]
 }

@@ -36,5 +36,10 @@
     "google_patents_url": "https://patents.google.com/?assignee=%22Johnson+%26+Johnson+MedTech%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Johnson%20%26%20Johnson%20MedTech%22&s=_score&d=%2B&p=0&n=50"
   },
-  "founded_year": 1886
+  "founded_year": 1886,
+  "stock": {
+    "ticker": "NYSE: JNJ",
+    "cnbc_symbol": "JNJ",
+    "url": "https://finance.yahoo.com/quote/JNJ/"
+  }
 }

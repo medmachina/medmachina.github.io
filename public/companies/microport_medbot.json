@@ -23,5 +23,10 @@
     "google_patents_url": "https://patents.google.com/?assignee=%22MicroPort+MedBot%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22MicroPort%20MedBot%22&s=_score&d=%2B&p=0&n=50"
   },
-  "founded_year": 2015
+  "founded_year": 2015,
+  "stock": {
+    "ticker": "HKEX: 2252",
+    "cnbc_symbol": "2252.HK",
+    "url": "https://finance.yahoo.com/quote/2252.HK/"
+  }
 }

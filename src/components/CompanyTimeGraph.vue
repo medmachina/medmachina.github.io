@@ -532,23 +532,20 @@ const layout = computed(() => {
     }
   });
 
-  // Build ordered list of row descriptors:
-  // 1. Incoming companies (sorted by founded_year)
-  // 2. Predecessors of focusCompany (sorted by source_founded_year)
-  // 3. focusCompany itself (center row)
-  // 4. Outgoing companies (sorted by founded_year)
-  const orderedDescriptors = [];
+  // Build candidate row descriptors and reorder to minimize edge/bar crossings
+  const initialDescriptors = [];
   Array.from(incomingIds)
     .map(id => companyMap.value.get(id))
     .filter(Boolean)
     .sort((a, b) => (Number(a.founded_year) || 2000) - (Number(b.founded_year) || 2000))
-    .forEach(c => orderedDescriptors.push({ type: 'company', company: c }));
+    .forEach(c => initialDescriptors.push({ type: 'company', role: 'in', company: c }));
 
   predecessorRels
     .sort((a, b) => (Number(a.source_founded_year) || 2000) - (Number(b.source_founded_year) || 2000))
     .forEach(pred => {
-      orderedDescriptors.push({
+      initialDescriptors.push({
         type: 'predecessor',
+        role: 'pred',
         parentId: focusId,
         company: {
           id: pred.source,
@@ -566,14 +563,90 @@ const layout = computed(() => {
       });
     });
 
-  orderedDescriptors.push({ type: 'company', company: focusCompany });
+  initialDescriptors.push({ type: 'company', role: 'focus', company: focusCompany });
 
   Array.from(outgoingIds)
     .filter(id => !incomingIds.has(id))
     .map(id => companyMap.value.get(id))
     .filter(Boolean)
     .sort((a, b) => (Number(a.founded_year) || 2000) - (Number(b.founded_year) || 2000))
-    .forEach(c => orderedDescriptors.push({ type: 'company', company: c }));
+    .forEach(c => initialDescriptors.push({ type: 'company', role: 'out', company: c }));
+
+  function getDescSpan(d) {
+    const start = Number(d.company.founded_year) || 2010;
+    const st = d.company.status?.state || 'active';
+    const end = (st !== 'active' && d.company.status?.year) ? Number(d.company.status.year) : CURRENT_YEAR;
+    return { start, end };
+  }
+
+  let orderedDescriptors = initialDescriptors;
+  if (initialDescriptors.length > 2 && initialDescriptors.length <= 8) {
+    const spans = new Map();
+    initialDescriptors.forEach(d => spans.set(d.company.id, getDescSpan(d)));
+    const nLen = initialDescriptors.length;
+    const center = (nLen - 1) / 2.0;
+    let bestPerm = initialDescriptors;
+    let bestScore = Infinity;
+
+    function permute(arr, l) {
+      if (l === arr.length - 1) {
+        const pos = new Map();
+        for (let i = 0; i < arr.length; i++) {
+          pos.set(arr[i].company.id, i);
+        }
+        const fIdx = pos.get(focusId);
+        let barCrossings = 0;
+        let spanPenalty = 0;
+
+        for (let eIdx = 0; eIdx < relevantEdges.length; eIdx++) {
+          const e = relevantEdges[eIdx];
+          const sIdx = pos.get(e.source);
+          const tIdx = pos.get(e.target);
+          if (sIdx === undefined || tIdx === undefined) continue;
+          const lo = Math.min(sIdx, tIdx);
+          const hi = Math.max(sIdx, tIdx);
+          const yr = Number(e.year) || 2020;
+          spanPenalty += (hi - lo - 1) * 100;
+          const sSpan = spans.get(e.source);
+          const xMin = e.type === 'oem' ? yr - 1 : Math.min(yr, sSpan ? sSpan.end : yr);
+          const xMax = yr;
+
+          for (let midIdx = lo + 1; midIdx < hi; midIdx++) {
+            const midSpan = spans.get(arr[midIdx].company.id);
+            if (midSpan && midSpan.start <= xMax && midSpan.end >= xMin) {
+              barCrossings += 1;
+            }
+          }
+        }
+
+        const centerDist = Math.abs(fIdx - center) * 50;
+        let dirPenalty = 0;
+        for (let i = 0; i < arr.length; i++) {
+          const r = arr[i].role;
+          if ((r === 'in' || r === 'pred') && i > fIdx) dirPenalty += 10;
+          else if (r === 'out' && i < fIdx) dirPenalty += 10;
+        }
+
+        const score = barCrossings * 10000 + spanPenalty + centerDist + dirPenalty;
+        if (score < bestScore) {
+          bestScore = score;
+          bestPerm = arr.slice();
+        }
+        return;
+      }
+      for (let i = l; i < arr.length; i++) {
+        const tmp = arr[l];
+        arr[l] = arr[i];
+        arr[i] = tmp;
+        permute(arr, l + 1);
+        arr[i] = arr[l];
+        arr[l] = tmp;
+      }
+    }
+
+    permute(initialDescriptors.slice(), 0);
+    orderedDescriptors = bestPerm;
+  }
 
   // Compute adaptive linear start year for this subgraph
   const allFoundedYears = orderedDescriptors.map(d => Number(d.company.founded_year) || 2000);

@@ -15,10 +15,11 @@
             </span>
           </h5>
           <h6 class="card-subtitle mb-2">{{ company.country }}</h6>
-          <div class="mb-2">
-            <span v-if="company.employee_count" class="badge bg-info text-dark me-1" title="Number of employees">
+          <div class="mb-2 d-flex flex-wrap align-items-center gap-1">
+            <span v-if="company.employee_count" class="badge bg-info text-dark" title="Number of employees">
               👥 {{ company.employee_count.toLocaleString() }}
             </span>
+            <StockSticker v-if="company.stock" :stock="company.stock" />
           </div>
           <div class="mb-2" v-if="company.robots && company.robots.length">
 <!--            <span class="badge bg-info me-1">{{ company.robots.length }} robots</span>-->
@@ -35,6 +36,7 @@
 <script setup>
 import { useRouter } from 'vue-router';
 import { ref, onMounted } from 'vue';
+import StockSticker from './StockSticker.vue';
 
 const props = defineProps({
   companies: {
