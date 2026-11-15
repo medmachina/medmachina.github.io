@@ -13,7 +13,7 @@
   "robots": [
     "horizon_polaris"
   ],
-  "description": "Horizon Surgical Systems is a California-based medical robotics company and UCLA spin-off (Jules Stein Eye Institute and Henry Samueli School of Engineering). It develops the Polaris ophthalmic surgical robotics platform, designed to bring AI-driven precision to cataract surgery.",
+  "description": "Horizon Surgical Systems is a medical robotics company based in Los Angeles, California, USA, founded in 2021 as a spin-off from the UCLA Stein Eye Institute and Henry Samueli School of Engineering. The company develops the [Polaris](/robot/horizon_polaris) micro-robotic ophthalmic surgical platform with optical coherence tomography (OCT) imaging and computer vision guidance for cataract surgery.",
   "employee_count": "10-50",
   "patents": {
     "assignee_names": [

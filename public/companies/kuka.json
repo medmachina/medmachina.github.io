@@ -14,7 +14,7 @@
     "kuka_lbr_med",
     "kuka_kr_quantec_hc"
   ],
-  "description": "KUKA AG is a global automation company headquartered in Augsburg, Germany. Its LBR Med series offers medical-certified collaborative robot arms for OEM integration into medical devices and systems.",
+  "description": "KUKA AG is an industrial automation and robotics manufacturer headquartered in Augsburg, Germany. In healthcare, KUKA produces the 7-axis [LBR Med](/robot/kuka_lbr_med) collaborative robot arm certified for medical device OEM integration, as well as the high-payload 6-axis [KR QUANTEC HC](/robot/kuka_kr_quantec_hc) arm used in radiation therapy and imaging systems.",
   "employee_count": "1000+",
   "patents": {
     "assignee_names": [

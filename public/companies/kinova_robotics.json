@@ -13,7 +13,7 @@
   "robots": [
     "kinova_kima"
   ],
-  "description": "Kinova is a Canadian robotics company based in Boisbriand, Quebec, and an ISO 13485-certified medical device manufacturer. Its KIMA arm is a purpose-built medical-grade robotic arm for OEM integration into surgical and clinical systems.",
+  "description": "Kinova is a Canadian robotics company founded in 2006 in Boisbriand, Quebec, and an ISO 13485-certified medical device manufacturer. Its [KIMA](/robot/kinova_kima) 7-axis robotic arm is a medical-grade manipulator engineered for OEM integration into surgical and clinical systems.",
   "employee_count": "100-500",
   "patents": {
     "assignee_names": [

@@ -13,7 +13,7 @@
   "robots": [
     "rob_surgical_bitrack"
   ],
-  "description": "Rob Surgical is based in Barcelona, Spain.",
+  "description": "Rob Surgical Systems S.L. is a medical robotics company founded in 2012 in Barcelona, Spain, as a spin-off from the Technical University of Catalonia (UPC) and the Institute for Bioengineering of Catalonia (IBEC). The company develops the [Bitrack](/robot/rob_surgical_bitrack) open-console four-arm multiport teleoperated laparoscopic platform.",
   "employee_count": "50-100",
   "patents": {
     "assignee_names": [

@@ -15,7 +15,7 @@
     "force_dimension_lambda",
     "force_dimension_omega"
   ],
-  "description": "ForceDimension is a Swiss company specializing in haptic devices.",
+  "description": "Force Dimension is a robotics company founded in 2001 in Nyon, Switzerland, as a spin-off from the Swiss Federal Institute of Technology in Lausanne (EPFL). The company designs and manufactures parallel-kinematic delta haptic master interfaces, including the [omega.x](/robot/force_dimension_omega), [sigma.7](/robot/force_dimension_sigma), and [lambda.7](/robot/force_dimension_lambda) series used in surgical robotics research and teleoperation consoles.",
   "employee_count": null,
   "patents": {
     "assignee_names": [

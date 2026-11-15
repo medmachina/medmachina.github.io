@@ -13,7 +13,7 @@
   "robots": [
     "haption_virtuoso"
   ],
-  "description": "Haption is a French company specializing in haptic devices.",
+  "description": "Haption SA is a robotics company founded in 2001 in Soulgé-sur-Ouette, France, as a spin-off from the French Alternative Energies and Atomic Energy Commission (CEA). The company manufactures 6-degree-of-freedom force-feedback haptic interfaces, including the [Virtuose 6D](/robot/haption_virtuoso) series used in teleoperation and medical simulation.",
   "employee_count": "10-50",
   "patents": {
     "assignee_names": [

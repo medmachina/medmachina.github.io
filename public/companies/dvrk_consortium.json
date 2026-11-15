@@ -13,7 +13,7 @@
   "robots": [
     "dvrk_dvrk"
   ],
-  "description": "Academic and industry collaboration around the open-source da Vinci Research Kit (dVRK). Provides shared software, hardware integration guidance, and community resources to accelerate research in teleoperation, autonomy, perception, mixed reality, and learning using repurposed clinical robotic hardware.",
+  "description": "The dVRK Consortium is an academic and industry collaboration around the open-source [da Vinci Research Kit (dVRK)](/robot/dvrk_dvrk), led by Johns Hopkins University and Worcester Polytechnic Institute in collaboration with [Intuitive](/company/intuitive). It provides open-source control electronics, software, and community resources for research in teleoperation, surgical autonomy, perception, and machine learning using repurposed first-generation [da Vinci](/robot/intuitive_da_vinci) hardware.",
   "employee_count": null,
   "patents": {
     "assignee_names": [

@@ -6,7 +6,8 @@
 - **Concise descriptions:** Highlight concrete mechanism types (Cartesian, parallel linkage, concentric tubes), degrees of freedom, endoscopes/optics, console layout, control schemes, and regulatory clearances.
 
 ## 2. URL & Link Conventions
-- **Internal Cross-Links:**
+- **Internal Cross-Links (Wikipedia-Style First Mention):**
+  - Link the first mention of any robot or company in `description` text—including a company's own robots on its company page, and a robot's manufacturer or OEM/commercial partners on its robot page.
   - Company links: `[Company Name](/company/company_id)` (always use snake_case IDs with `_`, e.g., `/company/karl_storz`, `/company/virtuoso_surgical`).
   - Robot links: `[Robot Name](/robot/robot_id)` (e.g., `/robot/medtronic_hugo_ras`).
   - **Never use `%20` or raw spaces in internal URLs.**
