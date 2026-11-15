@@ -6,4 +6,5 @@ node_modules
 venv
 public/robots.json
 public/companies.json
+public/relationships.json
 tmp_fda/

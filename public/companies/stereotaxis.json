@@ -1,0 +1,35 @@
+{
+  "id": "stereotaxis",
+  "name": "Stereotaxis",
+  "country": "United States",
+  "founded_year": 1990,
+  "employee_count": "100-250",
+  "description": "Stereotaxis, Inc. (NYSE American: STXS) is a medical robotics company founded in 1990 and headquartered in St. Louis, Missouri, United States. The company develops Robotic Magnetic Navigation (RMN) systems—including the [Niobe](/robot/stereotaxis_niobe), [Genesis RMN](/robot/stereotaxis_genesis), and GenesisX platforms—that use dual computer-controlled permanent magnets positioned on either side of the fluoroscopy table to steer magnet-tipped catheters inside the heart and vasculature during cardiac electrophysiology ablation and endovascular procedures. In July 2026, Stereotaxis completed the acquisition of French vascular robotics developer [Robocath](/company/robocath), adding the mechanical [R-One](/robot/robocath_r_one) percutaneous coronary intervention platform to its portfolio.",
+  "urls": [
+    {
+      "caption": "Stereotaxis Official Website",
+      "url": "https://www.stereotaxis.com/"
+    },
+    {
+      "caption": "Stereotaxis Products Overview",
+      "url": "https://www.stereotaxis.com/products/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/stereotaxis/",
+  "opencorporates_url": "",
+  "robots": [
+    "stereotaxis_niobe",
+    "stereotaxis_genesis"
+  ],
+  "subsidiaries": [
+    "Robocath"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Stereotaxis, Inc.",
+      "Stereotaxis"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Stereotaxis%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Stereotaxis%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "stereotaxis_genesis",
+  "name": "Stereotaxis Genesis RMN",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "Genesis RMN",
+    "GenesisX",
+    "GenesisX RMN",
+    "Stereotaxis Genesis"
+  ],
+  "introduction_year": 2020,
+  "description": "The Genesis RMN (and the mobile, self-shielded GenesisX generation) is a Robotic Magnetic Navigation system developed by [Stereotaxis](/company/stereotaxis) for cardiac electrophysiology ablation and endovascular interventions, succeeding the [Niobe](/robot/stereotaxis_niobe) platform. Cleared by the FDA in March 2020 (K193147), Genesis replaces the large enclosed magnet housings of the Niobe with compact permanent magnets mounted on multi-DOF articulated robotic arms on either side of the fluoroscopy table. Because the magnets rotate about their center of mass, Genesis achieves 70% to 80% faster magnetic field vector response while reducing system size and improving C-arm angulation and bedside patient access.\n\nIn 2024–2025, Stereotaxis introduced the GenesisX platform (FDA 510(k) K251792 in November 2025), which integrates magnetic shielding directly into the system architecture and mounts both robotic magnet arms onto a single mobile base. This eliminates the need for structural room reinforcement, floor anchoring, or dedicated room shielding, allowing the system to roll through standard hospital doors and operate with existing fluoroscopy equipment alongside the Synchrony digital cockpit and MAGiC robotic ablation catheter.",
+  "urls": [
+    {
+      "caption": "Stereotaxis Genesis RMN Product Page",
+      "url": "https://www.stereotaxis.com/products/genesis/"
+    },
+    {
+      "caption": "Stereotaxis GenesisX Product Page",
+      "url": "https://www.stereotaxis.com/products/genesisx/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.stereotaxis.com/wp-content/uploads/2024/09/Genesis-Product-Image-1536x768.webp",
+      "site": "https://www.stereotaxis.com/products/genesis/"
+    },
+    {
+      "url": "https://www.stereotaxis.com/wp-content/uploads/2024/09/GenesisX-Product-Image-1-1536x937.webp",
+      "site": "https://www.stereotaxis.com/products/genesisx/"
+    },
+    {
+      "url": "https://www.stereotaxis.com/wp-content/uploads/2024/09/Stereotaxis-Genesis-RMN-System-2024-1.webp",
+      "site": "https://www.stereotaxis.com/products/"
+    }
+  ],
+  "videos": [],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Open console",
+    "X-Ray"
+  ],
+  "usages": [
+    "Endovascular",
+    "Cardiovascular"
+  ],
+  "regulatory": [
+    {
+      "body": "FDA",
+      "type": "510(k)",
+      "number": "K193147",
+      "year": 2020,
+      "date": "2020-03-05",
+      "device_name": "Genesis RMN System with Navigant Workstation and Cardiodrive System",
+      "product_code": "DRF",
+      "Specialty": "Cardiovascular",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193147"
+    },
+    {
+      "body": "CE",
+      "year": 2024,
+      "notes": "CE Mark approval for the GenesisX Robotic Magnetic Navigation system",
+      "url": "https://www.stereotaxis.com/products/genesisx/"
+    },
+    {
+      "body": "FDA",
+      "type": "510(k)",
+      "number": "K251792",
+      "year": 2025,
+      "date": "2025-11-06",
+      "device_name": "Stereotaxis GenesisX RMN with Navigant Workstation",
+      "product_code": "DRF",
+      "Specialty": "Cardiovascular",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251792"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262744",
+      "body": "FDA 510k",
+      "year": 2026,
+      "product_code": "DXX",
+      "panel": "CV"
+    }
+  ],
+  "publications": [
+    {
+      "title": "First in-human results of the MAGiC robotic magnetic navigation radiofrequency ablation catheter",
+      "url": "https://doi.org/10.1007/s10840-025-02082-z",
+      "year": 2025,
+      "journal": "Journal of Interventional Cardiac Electrophysiology",
+      "doi": "10.1007/s10840-025-02082-z",
+      "pmid": "40555971"
+    }
+  ],
+  "db_added": "2026-11-15"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "robocath_stereotaxis",
+  "source": "robocath",
+  "target": "stereotaxis",
+  "type": "acquired",
+  "subtype": "Acquired",
+  "year": 2026,
+  "note": "Stereotaxis completed the acquisition of Robocath in July 2026 for up to $45M, uniting mechanical endovascular PCI robotics (R-One) with Robotic Magnetic Navigation.",
+  "sources": [
+    "https://www.globenewswire.com/news-release/2026/07/09/3324770/21634/en/stereotaxis-completes-acquisition-of-robocath.html",
+    "https://www.massdevice.com/stereotaxis-completes-45m-robocath-acquisition/"
+  ]
+}

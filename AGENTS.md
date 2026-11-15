@@ -37,6 +37,7 @@
   - Conversely, whenever a relationship file is added to `public/relationships/`, ensure the participating company/robot `description` text includes matching `[Company Name](/company/company_id)` cross-links. `scripts/build_relationships.py` automatically checks for prose/relationship drift during `npm run build`.
 - OpenCorporates URLs: If a verified company record exists on OpenCorporates, provide the link. If not indexed, leave as `""` (do not guess court codes or registration numbers).
 - LinkedIn URLs: Prefer official global corporate company pages (`https://www.linkedin.com/company/<handle>/`).
+- **Publications (`publications`):** Publications are optional—only add peer-reviewed publications when you are certain that the study directly uses or evaluates the specific robot/system in clinical or technical research (never include generic review articles or unrelated papers that merely match a keyword).
 
 ## 5. Build & Validation
 - After modifying any robot, company, or relationship JSON file, always run:

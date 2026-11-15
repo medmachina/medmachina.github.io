@@ -1,0 +1,117 @@
+{
+  "id": "stereotaxis_niobe",
+  "name": "Stereotaxis Niobe",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "Niobe",
+    "Niobe ES",
+    "Niobe II",
+    "Niobe Magnetic Navigation System",
+    "Niobe MNS"
+  ],
+  "introduction_year": 2003,
+  "description": "The Niobe (including the Niobe II and Niobe ES generations) is a Robotic Magnetic Navigation (RMN) system developed by [Stereotaxis](/company/stereotaxis) for catheter-based cardiac electrophysiology ablation and endovascular interventions. Rather than using mechanical pull-wires to deflect a stiff catheter shaft, the Niobe positions two large permanent magnets inside computer-controlled housings on either side of the patient fluoroscopy table. By tilting and rotating these external magnets, the system generates a uniform, steerable magnetic field (0.08 to 0.1 Tesla) within the patient's chest that omni-directionally orientates the distal tip of a flexible, magnet-tipped ablation catheter or guidewire.\n\nAxial advancement and retraction of the catheter are driven by a bedside mechanical motor drive unit (Cardiodrive, QuikCAS, or the Vdrive robotic sheath/catheter manipulator), while the physician operates the system remotely from a radiation-shielded control room via the Navigant workstation using a mouse or joystick integrated with 3D electroanatomical mapping systems (such as CARTO). The soft, atraumatic distal shaft of magnetic catheters reduces maximum wall contact force and myocardial perforation risk compared with manual pull-wire catheters.",
+  "urls": [
+    {
+      "caption": "Stereotaxis Official Website",
+      "url": "https://www.stereotaxis.com/"
+    },
+    {
+      "caption": "Wikimedia Commons: Niobe ES Lab with Vdrive Duo System",
+      "url": "https://commons.wikimedia.org/wiki/File:Niobe_ES_Lab_with_Vdrive_Duo_System.png"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Niobe_ES_Lab_with_Vdrive_Duo_System.png",
+      "site": "https://commons.wikimedia.org/wiki/File:Niobe_ES_Lab_with_Vdrive_Duo_System.png"
+    }
+  ],
+  "videos": [],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Open console",
+    "X-Ray"
+  ],
+  "usages": [
+    "Endovascular",
+    "Cardiovascular"
+  ],
+  "units_deployed": {
+    "category": "100+",
+    "count": 100,
+    "source_url": "https://www.stereotaxis.com/"
+  },
+  "regulatory": [
+    {
+      "body": "FDA",
+      "type": "510(k)",
+      "number": "K021555",
+      "year": 2003,
+      "date": "2003-01-17",
+      "device_name": "Stereotaxis Niobe Magnetic Navigation System",
+      "product_code": "DRF",
+      "Specialty": "Cardiovascular",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K021555"
+    },
+    {
+      "body": "FDA",
+      "type": "510(k)",
+      "number": "K032937",
+      "year": 2003,
+      "date": "2003-11-18",
+      "device_name": "Niobe Magnetic Navigation System",
+      "product_code": "DRF",
+      "Specialty": "Cardiovascular",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K032937"
+    },
+    {
+      "body": "FDA",
+      "type": "510(k)",
+      "number": "K192775",
+      "year": 2019,
+      "date": "2019-12-19",
+      "device_name": "Niobe MNS with Navigant Workstation",
+      "product_code": "DRF",
+      "Specialty": "Cardiovascular",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192775"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K051760",
+      "body": "FDA 510k",
+      "year": 2006,
+      "product_code": "DXX",
+      "panel": "CV"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Initial Experience With Remote Catheter Ablation Using a Novel Magnetic Navigation System",
+      "url": "https://doi.org/10.1161/01.cir.0000125126.83579.1b",
+      "year": 2004,
+      "journal": "Circulation",
+      "doi": "10.1161/01.cir.0000125126.83579.1b",
+      "pmid": "15023876"
+    },
+    {
+      "title": "Robotic Magnetic Navigation for Atrial Fibrillation Ablation",
+      "url": "https://doi.org/10.1016/j.jacc.2005.11.058",
+      "year": 2006,
+      "journal": "Journal of the American College of Cardiology",
+      "doi": "10.1016/j.jacc.2005.11.058",
+      "pmid": "16580527"
+    },
+    {
+      "title": "Use of the Stereotaxis Niobe magnetic navigation system for percutaneous coronary intervention: Results from 350 consecutive patients",
+      "url": "https://doi.org/10.1002/ccd.21425",
+      "year": 2008,
+      "journal": "Catheterization and Cardiovascular Interventions",
+      "doi": "10.1002/ccd.21425",
+      "pmid": "18307222"
+    }
+  ],
+  "db_added": "2026-11-15"
+}

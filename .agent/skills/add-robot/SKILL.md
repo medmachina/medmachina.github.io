@@ -14,6 +14,7 @@ Follow these steps to add a new surgical robot and maintain database integrity:
 - Assign appropriate `categories` (matching `public/robots.schema.json`), `usages`, and mechanical/clinical `tags`.
 - Draft a neutral, factual `description` adhering to the guidelines in `AGENTS.md` (no superlatives or PR copy).
 - Cross-link related platforms or manufacturers using snake_case router URLs (`[Company Name](/company/company_id)`).
+- **Publications (Optional):** Only add `publications` entries if you have verified that the study directly uses or evaluates the specific robot/system in research or clinical practice (avoid generic review papers or keyword false positives).
 
 ## 2. Update or Create Company Entry & Ecosystem Relationships
 - Check if manufacturer exists in `public/companies/<company_id>.json`.
