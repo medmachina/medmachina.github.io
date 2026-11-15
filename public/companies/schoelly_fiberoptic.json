@@ -1,18 +1,18 @@
 {
   "id": "schoelly_fiberoptic",
-  "name": "SCHÖLLY FIBEROPTIC",
+  "name": "Schölly Fiberoptic",
   "country": "Germany",
   "founded_year": 1973,
   "urls": [
     {
-      "caption": "SCHÖLLY FIBEROPTIC Official Website",
+      "caption": "Schölly Fiberoptic Official Website",
       "url": "https://www.schoelly.de"
     }
   ],
   "linkedin_url": "https://www.linkedin.com/company/schoelly-fiberoptic-gmbh/",
   "opencorporates_url": "",
   "robots": [],
-  "description": "SCHÖLLY FIBEROPTIC GMBH is a medical optics manufacturer founded in 1973 in Denzlingen, Germany, specializing in 3D endoscopes, camera systems, and micro-optics for minimally invasive surgery. For over two decades, the company was the primary OEM developer and manufacturer of 3D stereoscopic endoscopes for [Intuitive](/company/intuitive)'s [da Vinci](/robot/intuitive_da_vinci) surgical systems. In July 2019, Intuitive acquired Schölly's robotic endoscope business and manufacturing facilities to bring its surgical vision production in-house.",
+  "description": "Schölly Fiberoptic GmbH is a medical optics manufacturer founded in 1973 in Denzlingen, Germany, specializing in 3D endoscopes, camera systems, and micro-optics for minimally invasive surgery. For over two decades, the company was the primary OEM developer and manufacturer of 3D stereoscopic endoscopes for [Intuitive](/company/intuitive)'s [da Vinci](/robot/intuitive_da_vinci) surgical systems. In July 2019, Intuitive acquired Schölly's robotic endoscope business and manufacturing facilities to bring its surgical vision production in-house.",
   "employee_count": "500-1000",
   "patents": {
     "assignee_names": [
