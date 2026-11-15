@@ -5,5 +5,8 @@
   "type": "oem",
   "subtype": "3D Vision OEM (Hugo RAS)",
   "year": 2021,
-  "note": "Supplies 3D TipCam endoscopic visualization hardware for Medtronic's Hugo RAS system."
+  "note": "Supplies 3D TipCam endoscopic visualization hardware for Medtronic's Hugo RAS system.",
+  "sources": [
+    "https://news.medtronic.com/2019-06-10-Medtronic-Announces-Its-Forthcoming-Robotic-Assisted-Surgical-Platform-to-Feature-Three-Dimensional-Vision-System-from-KARL-STORZ"
+  ]
 }

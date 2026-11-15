@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "3D Endoscope OEM & 2019 Unit Buyout",
   "year": 2019,
-  "note": "Long-standing 3D endoscope OEM for Intuitive; Intuitive acquired Schölly's robotic endoscope business and manufacturing line in 2019."
+  "note": "Long-standing 3D endoscope OEM for Intuitive; Intuitive acquired Schölly's robotic endoscope business and manufacturing line in 2019.",
+  "sources": [
+    "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-surgical-acquires-scholly-fiberoptics-robotic",
+    "https://www.schoelly.de/en/medical-endoscopy/oem-solutions/referenz-visualisierungssysteme"
+  ]
 }

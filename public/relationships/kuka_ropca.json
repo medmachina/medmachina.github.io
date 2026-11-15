@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "LBR Med 7-Axis Arm OEM",
   "year": 2022,
-  "note": "Supplies the 7-axis KUKA LBR Med collaborative medical robot arm for ROPCA's ARTHUR ultrasound scanning system."
+  "note": "Supplies the 7-axis KUKA LBR Med collaborative medical robot arm for ROPCA's ARTHUR ultrasound scanning system.",
+  "sources": [
+    "https://www.kuka.com/medical-robotics",
+    "https://ropca.com/arthur/"
+  ]
 }

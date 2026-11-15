@@ -353,6 +353,20 @@
         </div>
       </div>
 
+      <!-- Source citation links -->
+      <div v-if="tooltip.sources && tooltip.sources.length" class="small text-muted mb-2">
+        sources:
+        <a
+          v-for="(srcUrl, sIdx) in tooltip.sources"
+          :key="sIdx"
+          :href="srcUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ms-1 text-decoration-none fw-semibold tooltip-source-link"
+          :title="srcUrl"
+        >[{{ sIdx + 1 }}]</a>
+      </div>
+
       <!-- Reachable router-link button -->
       <div v-if="tooltip.linkTo" class="pt-1 border-top">
         <router-link :to="tooltip.linkTo" class="btn btn-sm btn-outline-primary py-0 px-2 small">
@@ -414,6 +428,7 @@ const tooltip = ref({
   badgeClass: 'bg-secondary',
   body: '',
   robots: [],
+  sources: [],
   linkTo: '',
   linkLabel: ''
 });
@@ -474,7 +489,8 @@ const layout = computed(() => {
         relevantEdges.push(rel);
         relationByRowId.set(rel.source, {
           summary: `${rel.subtype || rel.type} (${rel.year})`,
-          category: cat
+          category: cat,
+          sources: Array.isArray(rel.sources) ? rel.sources : []
         });
       } else {
         // Acquired predecessor without a standalone company page
@@ -482,7 +498,8 @@ const layout = computed(() => {
         relevantEdges.push(rel);
         relationByRowId.set(rel.source, {
           summary: `${rel.subtype || 'Acquired'} (${rel.year})`,
-          category: 'ma'
+          category: 'ma',
+          sources: Array.isArray(rel.sources) ? rel.sources : []
         });
       }
     } else if (rel.source === focusId) {
@@ -491,7 +508,8 @@ const layout = computed(() => {
         relevantEdges.push(rel);
         relationByRowId.set(rel.target, {
           summary: `${rel.subtype || rel.type} (${rel.year})`,
-          category: cat
+          category: cat,
+          sources: Array.isArray(rel.sources) ? rel.sources : []
         });
       }
     }
@@ -593,7 +611,10 @@ const layout = computed(() => {
       if (shortName.toLowerCase().startsWith(company.name.toLowerCase() + ' ')) {
         shortName = shortName.slice(company.name.length + 1);
       }
-      return { id: r.id, name: r.name, shortName, year: yr, x, yOffset };
+      const rSources = (r.urls || [])
+        .map(u => u.url)
+        .filter(u => u && !u.includes('medmachina.github.io'));
+      return { id: r.id, name: r.name, shortName, year: yr, x, yOffset, sources: rSources };
     });
 
     const externalBadges = [];
@@ -622,6 +643,10 @@ const layout = computed(() => {
     }
 
     const relInfo = relationByRowId.get(company.id);
+    const rowSourcesSet = new Set(relInfo?.sources || []);
+    if (company.status?.source_url) {
+      rowSourcesSet.add(company.status.source_url);
+    }
 
     const rowObj = {
       id: company.id,
@@ -633,6 +658,7 @@ const layout = computed(() => {
       statusNote: company.status?.note || '',
       relationSummary: relInfo?.summary || '',
       relationCategory: relInfo?.category || 'collab',
+      sources: Array.from(rowSourcesSet),
       startX,
       endX,
       y: currentY,
@@ -691,6 +717,7 @@ const layout = computed(() => {
       subtype: rel.subtype || rel.type,
       category: cat,
       note: rel.note || '',
+      sources: Array.isArray(rel.sources) ? rel.sources : [],
       path,
       labelX,
       labelY
@@ -808,6 +835,7 @@ function onHoverRow(row, evt) {
     badgeClass: badgeInfo.cls,
     body: row.statusNote || row.relationSummary || '',
     robots: row.robotDots || [],
+    sources: row.sources || [],
     linkTo: (!row.isPredecessor && row.id !== props.focusCompanyId) ? `/company/${row.id}` : '',
     linkLabel: `View ${row.name}`
   };
@@ -843,6 +871,7 @@ function onHoverEdge(edge, evt) {
     badgeClass: catBadge.cls,
     body: edge.note,
     robots: [],
+    sources: edge.sources || [],
     linkTo: (otherRow && !otherRow.isPredecessor) ? `/company/${otherRow.id}` : '',
     linkLabel: otherRow ? `View ${otherRow.name}` : ''
   };
@@ -868,6 +897,7 @@ function onHoverRobot(rDot, row, evt) {
     badgeClass: 'bg-secondary',
     body: '',
     robots: [],
+    sources: rDot.sources || [],
     linkTo: `/robot/${rDot.id}`,
     linkLabel: `View ${rDot.shortName}`
   };

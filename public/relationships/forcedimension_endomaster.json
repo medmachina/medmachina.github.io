@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "omega.7 Haptic Master OEM",
   "year": 2020,
-  "note": "Supplied dual Force Dimension omega.7 7-DOF haptic master interfaces for the EndoMaster EASE Surgeon Console Unit."
+  "note": "Supplied dual Force Dimension omega.7 7-DOF haptic master interfaces for the EndoMaster EASE Surgeon Console Unit.",
+  "sources": [
+    "https://www.forcedimension.com/products/omega",
+    "https://patents.google.com/patent/US10939804B2/en"
+  ]
 }

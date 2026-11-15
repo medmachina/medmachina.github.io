@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "lambda.7 Haptic Master OEM",
   "year": 2021,
-  "note": "Supplies dual Force Dimension lambda.7 7-DOF haptic master controllers (succeeding earlier omega.7 units) for the EndoQuest ELS physician console."
+  "note": "Supplies dual Force Dimension lambda.7 7-DOF haptic master controllers (succeeding earlier omega.7 units) for the EndoQuest ELS physician console.",
+  "sources": [
+    "https://www.forcedimension.com/products/lambda",
+    "https://endoquestrobotics.com/"
+  ]
 }

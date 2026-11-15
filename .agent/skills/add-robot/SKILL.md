@@ -21,7 +21,8 @@ Follow these steps to add a new surgical robot and maintain database integrity:
 - If new: create `public/companies/<company_id>.json` with `id`, `name`, standardized full `country` name, `founded_year` (integer), official `urls`, `description`, and initialize `robots: ["<robot_id>"]`.
 - **Keep Prose and `public/relationships/` Synchronized:** If the robot or company uses OEM components from another company in the database (e.g. Force Dimension master controllers, KUKA/Stäubli/Kinova robot arms, KARL STORZ/Schölly optics) or involves an acquisition, merger, spin-off, or distribution partnership, you must **both**:
   1. Cross-link the partner/OEM company in the `description` text (`[Company Name](/company/company_id)`), and
-  2. Create or update the corresponding `public/relationships/<source>_<target>.json` file so the Company Time Graph stays in sync with the prose.
+  2. Create or update the corresponding `public/relationships/<source>_<target>.json` file (including a non-empty `"sources": ["https://..."]` array of full source URLs) so the Company Time Graph stays in sync with the prose.
+- **Full Source URLs Required:** Keep at least one full source URL (`https://...`) for every piece of information added to the database (`urls`, `status.source_url`, `sources` in `public/relationships/*.json`, `regulatory[].url`, `units_deployed.source_url`).
 
 ## 3. Fetch Regulatory Data
 - Query FDA CDRH databases for 510(k), De Novo, or PMA clearances:

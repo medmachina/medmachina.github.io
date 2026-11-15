@@ -5,5 +5,9 @@
   "type": "collaboration",
   "subtype": "Open-Source Research Hardware",
   "year": 2012,
-  "note": "Academic-industry research consortium launched in 2012 repurposing retired first-generation da Vinci hardware supplied by Intuitive."
+  "note": "Academic-industry research consortium launched in 2012 repurposing retired first-generation da Vinci hardware supplied by Intuitive.",
+  "sources": [
+    "https://dvrk.lcsr.jhu.edu/dvrk-consortium/",
+    "https://dvrk.readthedocs.io/main/pages/kit/from_ISI/Classic/introduction.html"
+  ]
 }

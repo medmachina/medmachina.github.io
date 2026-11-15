@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "3D Vision OEM",
   "year": 1998,
-  "note": "Supplied endoscopic optics and 3D visualization systems for Computer Motion's Zeus platform."
+  "note": "Supplied endoscopic optics and 3D visualization systems for Computer Motion's Zeus platform.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/ZEUS_robotic_surgical_system",
+    "https://headneckroboticsurgery.com/zeus/"
+  ]
 }

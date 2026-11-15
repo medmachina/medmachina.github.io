@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "Gemtrack Sensor Buyout",
   "year": 2020,
-  "note": "Developed the Gemtrack miniature radiofrequency tracking sensor acquired by DePuy Synthes / J&J MedTech for the VELYS platform."
+  "note": "Developed the Gemtrack miniature radiofrequency tracking sensor acquired by DePuy Synthes / J&J MedTech for the VELYS platform.",
+  "sources": [
+    "https://www.jnj.com/media-center/press-releases/depuy-synthes-announces-agreement-to-acquire-miniature-radiofrequency-tracking-technology-across-its-joint-reconstruction-portfolio",
+    "https://www.minmaxmedical.com/"
+  ]
 }

@@ -36,9 +36,18 @@ def build_relationships():
                 rel['id'] = filepath.stem
 
             # Validate required fields
-            for req in ('source', 'target', 'type', 'year'):
+            for req in ('source', 'target', 'type', 'year', 'sources'):
                 if req not in rel:
                     print(f"Error in {filepath.name}: missing required field '{req}'")
+                    sys.exit(1)
+
+            sources = rel.get('sources')
+            if not isinstance(sources, list) or len(sources) == 0:
+                print(f"Error in {filepath.name}: 'sources' must be a non-empty list of full URLs")
+                sys.exit(1)
+            for url in sources:
+                if not isinstance(url, str) or not url.startswith(('http://', 'https://')):
+                    print(f"Error in {filepath.name}: invalid source URL '{url}' (must start with http:// or https://)")
                     sys.exit(1)
 
             s, t = rel['source'], rel['target']

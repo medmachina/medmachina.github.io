@@ -7,5 +7,9 @@
   "type": "acquired",
   "subtype": "Acquisition ($3.4B)",
   "year": 2019,
-  "note": "Acquired Auris Health (founded 2007) in 2019 for $3.4B upfront, adding the MONARCH endoluminal platform and OTTAVA soft-tissue program."
+  "note": "Acquired Auris Health (founded 2007) in 2019 for $3.4B upfront, adding the MONARCH endoluminal platform and OTTAVA soft-tissue program.",
+  "sources": [
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-completion-of-acquisition-of-auris-health-inc",
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-agreement-to-acquire-auris-health-inc"
+  ]
 }

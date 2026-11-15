@@ -5,5 +5,9 @@
   "type": "collaboration",
   "subtype": "IP License",
   "year": 2023,
-  "note": "Licensed surgical robotics intellectual property to Medtronic prior to 2024 reverse merger with Conavi Medical."
+  "note": "Licensed surgical robotics intellectual property to Medtronic prior to 2024 reverse merger with Conavi Medical.",
+  "sources": [
+    "https://www.businesswire.com/news/home/20220126005658/en/Titan-Medical-Receives-Final-Milestone-Payment-and-Retires-Senior-Secured-Loan-From-Medtronic",
+    "https://www.massdevice.com/titan-medical-receives-final-milestone-payment-from-medtronic/"
+  ]
 }

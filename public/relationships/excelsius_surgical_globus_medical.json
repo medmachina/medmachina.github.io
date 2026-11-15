@@ -7,5 +7,10 @@
   "type": "acquired",
   "subtype": "Acquisition",
   "year": 2014,
-  "note": "Acquired Excelsius Surgical in 2014 to develop and commercialize the ExcelsiusGPS spinal and cranial robotic navigation platform."
+  "note": "Acquired Excelsius Surgical in 2014 to develop and commercialize the ExcelsiusGPS spinal and cranial robotic navigation platform.",
+  "sources": [
+    "https://www.massdevice.com/globus-medical-gets-robotic-surgery-with-excelsius-surgical-acquisition/",
+    "https://investors.globusmedical.com/static-files/8385fa8e-73c9-46b4-b12b-fb3ddd6a8e5c",
+    "https://www.globusmedical.com/musculoskeletal-solutions/excelsiustechnology/excelsiusgps/"
+  ]
 }

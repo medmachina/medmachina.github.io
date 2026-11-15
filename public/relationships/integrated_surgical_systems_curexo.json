@@ -5,5 +5,9 @@
   "type": "acquired",
   "subtype": "Asset Acquisition",
   "year": 2007,
-  "note": "ROBODOC orthopedic surgical robotics assets and technology lineage acquired by Curexo in 2007."
+  "note": "ROBODOC orthopedic surgical robotics assets and technology lineage acquired by Curexo in 2007.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/ROBODOC",
+    "https://www.curexo.com/"
+  ]
 }

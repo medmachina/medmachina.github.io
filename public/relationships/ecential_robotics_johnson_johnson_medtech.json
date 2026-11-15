@@ -5,5 +5,9 @@
   "type": "collaboration",
   "subtype": "VELYS Spine Co-Development",
   "year": 2022,
-  "note": "Collaborated with DePuy Synthes (J&J MedTech) on joint development of the VELYS Active Robotic-Assisted Spine system (2022–2024)."
+  "note": "Collaborated with DePuy Synthes (J&J MedTech) on joint development of the VELYS Active Robotic-Assisted Spine system (2022–2024).",
+  "sources": [
+    "https://www.jnjmedtech.com/en-US/product/velys-spine",
+    "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242914"
+  ]
 }

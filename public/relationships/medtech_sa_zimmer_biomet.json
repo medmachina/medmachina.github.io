@@ -7,5 +7,9 @@
   "type": "acquired",
   "subtype": "Acquisition (€164M)",
   "year": 2016,
-  "note": "Acquired French surgical robotics manufacturer Medtech SA (founded 2002) in 2016 to commercialize the ROSA Brain, Spine, and Knee platforms."
+  "note": "Acquired French surgical robotics manufacturer Medtech SA (founded 2002) in 2016 to commercialize the ROSA Brain, Spine, and Knee platforms.",
+  "sources": [
+    "https://www.therobotreport.com/zimmer-biomet-rosa-robotic-surgery-history/",
+    "https://www.zimmerbiomet.com/en/products/rosa.html"
+  ]
 }

@@ -5,5 +5,9 @@
   "type": "oem",
   "subtype": "KR QUANTEC HC Arm OEM",
   "year": 2001,
-  "note": "Supplies the 6-axis high-payload KUKA KR QUANTEC HC robot arm for the CyberKnife radiosurgery platform."
+  "note": "Supplies the 6-axis high-payload KUKA KR QUANTEC HC robot arm for the CyberKnife radiosurgery platform.",
+  "sources": [
+    "https://www.kuka.com/medical-robotics",
+    "https://www.accuray.com/cyberknife/"
+  ]
 }
