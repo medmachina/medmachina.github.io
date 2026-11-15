@@ -1,0 +1,64 @@
+{
+  "id": "xcath_iris",
+  "name": "XCath Iris",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "Iris System",
+    "XCath EVR"
+  ],
+  "introduction_year": 2024,
+  "db_added": "2026-11-15",
+  "description": "The XCath Iris is a teleoperated triaxial neuro-endovascular robotic platform developed by [XCath](/company/xcath) for intracranial vascular navigation, cerebral aneurysm embolization, and mechanical thrombectomy in acute ischemic stroke. The bedside subsystem consists of a mobile cart with a positioning arm supporting a sterile cassette drive mechanism that provides sub-millimeter axial translation and rotation of standard commercial guidewires, microcatheters, aspiration/guide catheters, and treatment devices, as well as XCath's ElectroSteer electrically deflectable Nitinol guidewire. Controlled under fluoroscopic guidance from a radiation-shielded physician workstation locally or over long-distance network links, the system completed first-in-human intracranial brain aneurysm procedures in November 2025 and a remote telerobotic mechanical thrombectomy across 120 miles in Panama in March 2026.",
+  "urls": [
+    {
+      "caption": "XCath Iris Product Page",
+      "url": "https://xcath.com/products.html"
+    },
+    {
+      "caption": "FDA TAP Program Acceptance Announcement (2026)",
+      "url": "https://www.surgicalroboticstechnology.com/news/xcath-robotics-iris-system-accepted-into-fda-tap-program-for-robotic-stroke-treatment/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://xcath.com/images/iris.webp",
+      "site": "https://xcath.com/products.html"
+    },
+    {
+      "url": "https://xcath.com/images/guidewire.png",
+      "site": "https://xcath.com/products.html"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=IxzxTd5IBSQ",
+      "title": "Operation RoboAngel – Chapter 1: Breaking New Ground in Robotic Surgery"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zZRmUOfRsgs",
+      "title": "XCath - What is Telerobotics?"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dfFakjyCkOU",
+      "title": "XCath : Endovascular Robotics Series Episode 2"
+    }
+  ],
+  "tags": [
+    "Teleoperated",
+    "Single patient cart",
+    "Open console",
+    "X-Ray"
+  ],
+  "usages": [
+    "Neurovascular",
+    "Endovascular"
+  ],
+  "lifecycle": {
+    "status": "premarket",
+    "year": 2026,
+    "note": "Completed first-in-human intracranial aneurysm and remote telerobotic stroke thrombectomy trials in Panama; granted FDA Breakthrough Device Designation and accepted into the FDA TAP program in 2026.",
+    "source_url": "https://www.surgicalroboticstechnology.com/news/xcath-robotics-iris-system-accepted-into-fda-tap-program-for-robotic-stroke-treatment/"
+  }
+}

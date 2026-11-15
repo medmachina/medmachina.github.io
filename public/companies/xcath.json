@@ -1,0 +1,38 @@
+{
+  "id": "xcath",
+  "name": "XCath",
+  "country": "United States",
+  "founded_year": 2017,
+  "company_type": "Private",
+  "employee_count": null,
+  "status": {
+    "state": "active"
+  },
+  "description": "XCath, Inc. is a privately held medical robotics company headquartered in Houston, Texas, USA, with an engineering and research campus in Pangyo, South Korea. Founded in 2017 out of the Microsurgical Robotics Laboratory at the University of Texas Health Science Center at Houston (UTHealth), the company develops the [XCath Iris](/robot/xcath_iris) endovascular robotic system and the ElectroSteer electronically actuated steerable micro-guidewire for local and remote telerobotic neurovascular interventions.",
+  "urls": [
+    {
+      "caption": "XCath Official Website",
+      "url": "https://xcath.com/"
+    },
+    {
+      "caption": "XCath Products",
+      "url": "https://xcath.com/products.html"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/xcath/",
+  "robots": [
+    "xcath_iris"
+  ],
+  "subsidiaries": [
+    "XCath, Inc.",
+    "XCath Robotics"
+  ],
+  "patents": {
+    "assignee_names": [
+      "XCath, Inc.",
+      "XCath Inc"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22XCath%2C+Inc.%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22XCath%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
