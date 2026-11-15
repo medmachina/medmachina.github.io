@@ -1,0 +1,11 @@
+{
+  "id": "excelsius_surgical_globus_medical",
+  "source": "excelsius_surgical",
+  "source_name": "Excelsius Surgical",
+  "source_founded_year": 2011,
+  "target": "globus_medical",
+  "type": "acquired",
+  "subtype": "Acquisition",
+  "year": 2014,
+  "note": "Acquired Excelsius Surgical in 2014 to develop and commercialize the ExcelsiusGPS spinal and cranial robotic navigation platform."
+}

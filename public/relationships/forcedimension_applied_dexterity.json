@@ -1,0 +1,9 @@
+{
+  "id": "forcedimension_applied_dexterity",
+  "source": "forcedimension",
+  "target": "applied_dexterity",
+  "type": "oem",
+  "subtype": "omega.x Haptic Master OEM",
+  "year": 2006,
+  "note": "Supplies Force Dimension omega.x desktop parallel-kinematic haptic master controllers used to teleoperate the Raven-II research platform."
+}

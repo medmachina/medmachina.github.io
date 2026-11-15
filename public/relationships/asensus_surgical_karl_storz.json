@@ -1,0 +1,9 @@
+{
+  "id": "asensus_surgical_karl_storz",
+  "source": "asensus_surgical",
+  "target": "karl_storz",
+  "type": "acquired",
+  "subtype": "Acquisition",
+  "year": 2024,
+  "note": "Acquired by KARL STORZ in August 2024; Senhance and LUNA digital surgery IP integrated into KARL STORZ surgical ecosystems."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "karl_storz_computer_motion",
+  "source": "karl_storz",
+  "target": "computer_motion",
+  "type": "oem",
+  "subtype": "3D Vision OEM",
+  "year": 1998,
+  "note": "Supplied endoscopic optics and 3D visualization systems for Computer Motion's Zeus platform."
+}

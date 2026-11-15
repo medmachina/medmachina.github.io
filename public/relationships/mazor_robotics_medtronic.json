@@ -1,0 +1,11 @@
+{
+  "id": "mazor_robotics_medtronic",
+  "source": "mazor_robotics",
+  "source_name": "Mazor Robotics",
+  "source_founded_year": 2001,
+  "target": "medtronic",
+  "type": "acquired",
+  "subtype": "Acquisition ($1.64B)",
+  "year": 2018,
+  "note": "Acquired Israeli spine robotics manufacturer Mazor Robotics (founded 2001) in 2018 for $1.64B to anchor Medtronic's Mazor spine portfolio."
+}

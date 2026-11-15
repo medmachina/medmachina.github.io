@@ -1,0 +1,9 @@
+{
+  "id": "microport_medbot_robocath",
+  "source": "microport_medbot",
+  "target": "robocath",
+  "type": "collaboration",
+  "subtype": "CathBot China JV",
+  "year": 2020,
+  "note": "Formed the CathBot joint venture in China in 2020 to manufacture and register the R-One vascular robotic system."
+}

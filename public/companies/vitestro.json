@@ -3,7 +3,7 @@
   "name": "Vitestro",
   "country": "Netherlands",
   "description": "Vitestro is a Dutch medical robotics company founded in 2017 and headquartered in Utrecht, Netherlands. The company develops the [Aletta](/robot/vitestro_aletta) autonomous robotic phlebotomy device, combining computer vision, near-infrared imaging, and ultrasound guidance to automate routine venous blood draws for clinical diagnostics.",
-  "founded_year": "2017",
+  "founded_year": 2017,
   "employee_count": "50-200",
   "urls": [
     {

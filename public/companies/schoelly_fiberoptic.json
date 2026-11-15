@@ -2,7 +2,7 @@
   "id": "schoelly_fiberoptic",
   "name": "SCHÖLLY FIBEROPTIC",
   "country": "Germany",
-  "founded_year": "1973",
+  "founded_year": 1973,
   "urls": [
     {
       "caption": "SCHÖLLY FIBEROPTIC Official Website",
@@ -23,4 +23,3 @@
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Scholly%20Fiberoptic%22&s=_score&d=%2B&p=0&n=50"
   }
 }
-

@@ -1,0 +1,9 @@
+{
+  "id": "kuka_accuray",
+  "source": "kuka",
+  "target": "accuray",
+  "type": "oem",
+  "subtype": "KR QUANTEC HC Arm OEM",
+  "year": 2001,
+  "note": "Supplies the 6-axis high-payload KUKA KR QUANTEC HC robot arm for the CyberKnife radiosurgery platform."
+}

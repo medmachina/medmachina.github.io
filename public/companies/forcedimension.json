@@ -15,7 +15,7 @@
     "force_dimension_lambda",
     "force_dimension_omega"
   ],
-  "description": "Force Dimension is a robotics company founded in 2001 in Nyon, Switzerland, as a spin-off from the Swiss Federal Institute of Technology in Lausanne (EPFL). The company designs and manufactures parallel-kinematic delta haptic master interfaces, including the [omega.x](/robot/force_dimension_omega), [sigma.7](/robot/force_dimension_sigma), and [lambda.7](/robot/force_dimension_lambda) series used in surgical robotics research and teleoperation consoles.",
+  "description": "Force Dimension is a robotics company founded in 2001 in Nyon, Switzerland, as a spin-off from the Swiss Federal Institute of Technology in Lausanne (EPFL). The company designs and manufactures parallel-kinematic delta haptic master interfaces—including the [omega.x](/robot/force_dimension_omega), [sigma.7](/robot/force_dimension_sigma), and [lambda.7](/robot/force_dimension_lambda) series—integrated as OEM master controllers in surgical consoles from [Virtual Incision](/company/virtual_incision) ([MIRA](/robot/virtual_incision_mira)), [RIVERFIELD](/company/riverfield) ([Saroa](/robot/riverfield_saroa)), [EndoQuest Robotics](/company/endoquest_robotics) ([ELS](/robot/endoquest_els)), [Endomaster](/company/endomaster) ([EASE](/robot/endomaster_ease)), and [Applied Dexterity](/company/applied_dexterity) ([Raven-II](/robot/raven_II)).",
   "employee_count": null,
   "patents": {
     "assignee_names": [
@@ -23,5 +23,6 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=ForceDimension",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22ForceDimension%22&s=_score&d=%2B&p=0&n=50"
-  }
+  },
+  "founded_year": 2001
 }

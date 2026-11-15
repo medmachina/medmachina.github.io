@@ -1,0 +1,9 @@
+{
+  "id": "forcedimension_riverfield",
+  "source": "forcedimension",
+  "target": "riverfield",
+  "type": "oem",
+  "subtype": "lambda.7 Haptic Master OEM",
+  "year": 2023,
+  "note": "Supplies dual Force Dimension lambda.7 7-DOF haptic master interfaces for the RIVERFIELD Saroa surgeon console."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "orthotaxy_johnson_johnson_medtech",
+  "source": "orthotaxy",
+  "source_name": "Orthotaxy",
+  "source_founded_year": 2010,
+  "target": "johnson_johnson_medtech",
+  "type": "acquired",
+  "subtype": "Acquisition (VELYS)",
+  "year": 2018,
+  "note": "DePuy Synthes acquired French orthopedic robotics developer Orthotaxy in 2018 to develop the VELYS knee platform."
+}

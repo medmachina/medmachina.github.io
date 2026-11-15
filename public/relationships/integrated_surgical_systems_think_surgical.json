@@ -1,0 +1,9 @@
+{
+  "id": "integrated_surgical_systems_think_surgical",
+  "source": "integrated_surgical_systems",
+  "target": "think_surgical",
+  "type": "acquired",
+  "subtype": "ROBODOC Lineage",
+  "year": 2007,
+  "note": "Original ROBODOC orthopedic surgical robotics technology developed by Integrated Surgical Systems transitioned via Curexo (2007) into US subsidiary Think Surgical (2014)."
+}

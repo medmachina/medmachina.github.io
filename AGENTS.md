@@ -24,18 +24,23 @@
 
 ## 4. Dataset Consistency & Schema
 - Every robot file in `public/robots/<id>.json` must be listed in its company's `robots` array in `public/companies/<company_id>.json`.
-- All companies must have valid `id` (snake_case slug), `name`, `country`, `urls`, and `robots` fields.
+- All companies must have valid `id` (snake_case slug), `name`, `country`, `founded_year` (integer), `urls`, and `robots` fields.
+- **Company Ecosystem Relationships (`public/relationships/<source>_<target>.json`):** Mergers, acquisitions, OEM hardware/optics/haptics supply contracts, and strategic distribution/investment/JV alliances are stored as standalone files in `public/relationships/<source>_<target>.json` (`{ "id": "<source>_<target>", "source": "company_a", "target": "company_b", "type": "acquired" | "merged" | "oem" | "collaboration", "subtype": "...", "year": 2026, "note": "..." }`) and aggregated into `public/relationships.json` by `scripts/build_relationships.py`.
+- **Prose ↔ Relationship Consistency (Preventing Divergence):**
+  - Whenever an M&A event, OEM component integration (e.g. Force Dimension haptic masters, KUKA/Stäubli/Kinova arms, KARL STORZ/Schölly optics), or strategic alliance is added or updated in a company or robot `description` (or `status`), you **must** also create or update the corresponding file in `public/relationships/<source>_<target>.json`.
+  - Conversely, whenever a relationship file is added to `public/relationships/`, ensure the participating company/robot `description` text includes matching `[Company Name](/company/company_id)` cross-links. `scripts/build_relationships.py` automatically checks for prose/relationship drift during `npm run build`.
 - OpenCorporates URLs: If a verified company record exists on OpenCorporates, provide the link. If not indexed, leave as `""` (do not guess court codes or registration numbers).
 - LinkedIn URLs: Prefer official global corporate company pages (`https://www.linkedin.com/company/<handle>/`).
 
 ## 5. Build & Validation
-- After modifying any robot or company JSON file, always run:
+- After modifying any robot, company, or relationship JSON file, always run:
   ```bash
   npm run build
   ```
   This command automatically:
   1. Runs `scripts/build_companies.py` to aggregate `public/companies.json`.
   2. Runs `scripts/build_robots.py` to aggregate `public/robots.json`.
-  3. Builds Vite assets (`dist/`).
-  4. Runs `scripts/generate_seo.py` to update `sitemap.xml`, `robots.txt`, and generate pre-rendered HTML pages.
+  3. Runs `scripts/build_relationships.py` to aggregate and validate `public/relationships.json`.
+  4. Builds Vite assets (`dist/`).
+  5. Runs `scripts/generate_seo.py` to update `sitemap.xml`, `robots.txt`, and generate pre-rendered HTML pages.
 

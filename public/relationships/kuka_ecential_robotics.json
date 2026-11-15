@@ -1,0 +1,9 @@
+{
+  "id": "kuka_ecential_robotics",
+  "source": "kuka",
+  "target": "ecential_robotics",
+  "type": "oem",
+  "subtype": "LBR Med 7-Axis Arm OEM",
+  "year": 2021,
+  "note": "Supplies the 7-axis KUKA LBR Med collaborative robotic arm integrated into the eCential Robotics spine navigation platform."
+}

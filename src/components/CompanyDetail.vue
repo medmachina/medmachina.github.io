@@ -30,6 +30,7 @@
             <a v-if="company.status.source_url" :href="company.status.source_url" target="_blank" rel="noopener noreferrer" class="ms-2 small text-muted">(source)</a>
           </p>
           <p><strong>Country:</strong> {{ company.country }}</p>
+          <p v-if="company.founded_year"><strong>Founded:</strong> {{ company.founded_year }}</p>
           <p v-if="company.employee_count"><strong>Employees:</strong> {{ company.employee_count.toLocaleString() }}</p>
           <div v-if="company.description" class="mb-3">
             <p v-for="(para, pIdx) in descriptionParagraphs" :key="pIdx" class="mb-2">
@@ -98,6 +99,18 @@
         </div>
       </div>
 
+      <div class="card mb-4" v-if="hasEcosystemGraph">
+        <div class="card-body">
+          <h2 class="card-title h5 mb-3">Corporate Lineage &amp; Ecosystem</h2>
+          <CompanyTimeGraph
+            :companies="allCompanies"
+            :robots="allRobots"
+            :relationships="allRelationships"
+            :focus-company-id="companyId"
+          />
+        </div>
+      </div>
+
       <div class="card mb-4" v-if="companyRobots.length > 0">
         <div class="card-body">
           <h2 class="card-title h5">Robots</h2>
@@ -149,6 +162,7 @@
 import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { updateSeo } from '../utils/seo';
+import CompanyTimeGraph from './CompanyTimeGraph.vue';
 
 const route = useRoute();
 const router = useRouter();
@@ -156,6 +170,7 @@ const router = useRouter();
 const company = ref(null);
 const allCompanies = ref([]);
 const allRobots = ref([]);
+const allRelationships = ref([]);
 
 function normalizeSlug(str) {
   if (!str) return '';
@@ -251,16 +266,17 @@ const descriptionParagraphs = computed(() => {
 
 onMounted(async () => {
   try {
-    // Load companies data
-    const companyResponse = await fetch('/companies.json');
+    const [companyResponse, robotsResponse, relationshipsResponse] = await Promise.all([
+      fetch('/companies.json'),
+      fetch('/robots.json'),
+      fetch('/relationships.json')
+    ]);
     allCompanies.value = await companyResponse.json();
-
-    // Find current company by id, name, or slug
     company.value = resolveCompany(route.params.name);
-
-    // Load robots data
-    const robotsResponse = await fetch('/robots.json');
     allRobots.value = await robotsResponse.json();
+    if (relationshipsResponse.ok) {
+      allRelationships.value = await relationshipsResponse.json();
+    }
 
     updateCompanySeo();
   } catch (error) {
@@ -278,6 +294,13 @@ const companyId = computed(() => {
   if (!company.value) return '';
   if (company.value.id) return company.value.id;
   return company.value.name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+});
+
+const hasEcosystemGraph = computed(() => {
+  if (!company.value || !allCompanies.value.length) return false;
+  const cid = companyId.value;
+  if (company.value.status && company.value.status.state && company.value.status.state !== 'active') return true;
+  return allRelationships.value.some(rel => rel.source === cid || rel.target === cid);
 });
 
 const companyRobots = computed(() => {

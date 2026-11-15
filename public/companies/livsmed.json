@@ -18,7 +18,7 @@
     "livsmed_artiSential"
   ],
   "description": "LivsMed Inc. is a medical device company founded in 2011 in Seongnam, South Korea. The company manufactures the [ArtiSential](/robot/livsmed_artiSential) line of multi-joint handheld articulating laparoscopic instruments and develops teleoperated surgical robotics, completing an IPO on the KOSDAQ exchange in December 2025.",
-  "founded_year": "2011",
+  "founded_year": 2011,
   "employee_count": "100-500",
   "patents": {
     "assignee_names": [

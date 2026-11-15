@@ -1,0 +1,9 @@
+{
+  "id": "forcedimension_virtual_incision",
+  "source": "forcedimension",
+  "target": "virtual_incision",
+  "type": "oem",
+  "subtype": "sigma.7 Haptic Master OEM",
+  "year": 2024,
+  "note": "Supplies dual Force Dimension sigma.7 7-DOF haptic master controllers for the Virtual Incision MIRA surgeon console."
+}

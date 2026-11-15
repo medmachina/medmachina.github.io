@@ -1,0 +1,11 @@
+{
+  "id": "mako_surgical_stryker",
+  "source": "mako_surgical",
+  "source_name": "Mako Surgical",
+  "source_founded_year": 2004,
+  "target": "stryker",
+  "type": "acquired",
+  "subtype": "Acquisition ($1.65B)",
+  "year": 2013,
+  "note": "Acquired Mako Surgical Corp. (founded 2004) in 2013 for $1.65B to establish Stryker's Mako orthopedic joint replacement division."
+}

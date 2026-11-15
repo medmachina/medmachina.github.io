@@ -1,0 +1,9 @@
+{
+  "id": "kuka_andromeda_surgical",
+  "source": "kuka",
+  "target": "andromeda_surgical",
+  "type": "oem",
+  "subtype": "LBR Med 7-Axis Arm OEM",
+  "year": 2024,
+  "note": "Supplies the 7-axis KUKA LBR Med medical robot arm integrated into Andromeda Surgical's Beacon platform."
+}

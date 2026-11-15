@@ -1,0 +1,321 @@
+[
+  {
+    "id": "asensus_surgical_karl_storz",
+    "source": "asensus_surgical",
+    "target": "karl_storz",
+    "type": "acquired",
+    "subtype": "Acquisition",
+    "year": 2024,
+    "note": "Acquired by KARL STORZ in August 2024; Senhance and LUNA digital surgery IP integrated into KARL STORZ surgical ecosystems."
+  },
+  {
+    "id": "auris_health_johnson_johnson_medtech",
+    "source": "auris_health",
+    "source_name": "Auris Health",
+    "source_founded_year": 2007,
+    "target": "johnson_johnson_medtech",
+    "type": "acquired",
+    "subtype": "Acquisition ($3.4B)",
+    "year": 2019,
+    "note": "Acquired Auris Health (founded 2007) in 2019 for $3.4B upfront, adding the MONARCH endoluminal platform and OTTAVA soft-tissue program."
+  },
+  {
+    "id": "computer_motion_intuitive",
+    "source": "computer_motion",
+    "target": "intuitive",
+    "type": "merged",
+    "subtype": "Merger",
+    "year": 2003,
+    "note": "Merged with Intuitive Surgical in 2003, ending litigation and uniting the Zeus and da Vinci patent portfolios."
+  },
+  {
+    "id": "curexo_think_surgical",
+    "source": "curexo",
+    "target": "think_surgical",
+    "type": "collaboration",
+    "subtype": "US Subsidiary Spin-out",
+    "year": 2014,
+    "note": "Reorganized US subsidiary Think Surgical in Fremont, California in 2014 to commercialize ROBODOC / TSolution One and TMINI."
+  },
+  {
+    "id": "dvrk_consortium_intuitive",
+    "source": "dvrk_consortium",
+    "target": "intuitive",
+    "type": "collaboration",
+    "subtype": "Open-Source Research Hardware",
+    "year": 2012,
+    "note": "Academic-industry research consortium launched in 2012 repurposing retired first-generation da Vinci hardware supplied by Intuitive."
+  },
+  {
+    "id": "ecential_robotics_johnson_johnson_medtech",
+    "source": "ecential_robotics",
+    "target": "johnson_johnson_medtech",
+    "type": "collaboration",
+    "subtype": "VELYS Spine Co-Development",
+    "year": 2022,
+    "note": "Collaborated with DePuy Synthes (J&J MedTech) on joint development of the VELYS Active Robotic-Assisted Spine system (2022–2024)."
+  },
+  {
+    "id": "endorobotics_olympus",
+    "source": "endorobotics",
+    "target": "olympus",
+    "target_name": "Olympus",
+    "type": "collaboration",
+    "subtype": "Global Distribution",
+    "year": 2026,
+    "note": "Exclusive global distribution agreement with Olympus for the ROBOPERA flexible endoscopic surgical platform."
+  },
+  {
+    "id": "excelsius_surgical_globus_medical",
+    "source": "excelsius_surgical",
+    "source_name": "Excelsius Surgical",
+    "source_founded_year": 2011,
+    "target": "globus_medical",
+    "type": "acquired",
+    "subtype": "Acquisition",
+    "year": 2014,
+    "note": "Acquired Excelsius Surgical in 2014 to develop and commercialize the ExcelsiusGPS spinal and cranial robotic navigation platform."
+  },
+  {
+    "id": "forcedimension_applied_dexterity",
+    "source": "forcedimension",
+    "target": "applied_dexterity",
+    "type": "oem",
+    "subtype": "omega.x Haptic Master OEM",
+    "year": 2006,
+    "note": "Supplies Force Dimension omega.x desktop parallel-kinematic haptic master controllers used to teleoperate the Raven-II research platform."
+  },
+  {
+    "id": "forcedimension_endomaster",
+    "source": "forcedimension",
+    "target": "endomaster",
+    "type": "oem",
+    "subtype": "omega.7 Haptic Master OEM",
+    "year": 2020,
+    "note": "Supplied dual Force Dimension omega.7 7-DOF haptic master interfaces for the EndoMaster EASE Surgeon Console Unit."
+  },
+  {
+    "id": "forcedimension_endoquest_robotics",
+    "source": "forcedimension",
+    "target": "endoquest_robotics",
+    "type": "oem",
+    "subtype": "lambda.7 Haptic Master OEM",
+    "year": 2021,
+    "note": "Supplies dual Force Dimension lambda.7 7-DOF haptic master controllers (succeeding earlier omega.7 units) for the EndoQuest ELS physician console."
+  },
+  {
+    "id": "forcedimension_riverfield",
+    "source": "forcedimension",
+    "target": "riverfield",
+    "type": "oem",
+    "subtype": "lambda.7 Haptic Master OEM",
+    "year": 2023,
+    "note": "Supplies dual Force Dimension lambda.7 7-DOF haptic master interfaces for the RIVERFIELD Saroa surgeon console."
+  },
+  {
+    "id": "forcedimension_virtual_incision",
+    "source": "forcedimension",
+    "target": "virtual_incision",
+    "type": "oem",
+    "subtype": "sigma.7 Haptic Master OEM",
+    "year": 2024,
+    "note": "Supplies dual Force Dimension sigma.7 7-DOF haptic master controllers for the Virtual Incision MIRA surgeon console."
+  },
+  {
+    "id": "integrated_surgical_systems_curexo",
+    "source": "integrated_surgical_systems",
+    "target": "curexo",
+    "type": "acquired",
+    "subtype": "Asset Acquisition",
+    "year": 2007,
+    "note": "ROBODOC orthopedic surgical robotics assets and technology lineage acquired by Curexo in 2007."
+  },
+  {
+    "id": "integrated_surgical_systems_think_surgical",
+    "source": "integrated_surgical_systems",
+    "target": "think_surgical",
+    "type": "acquired",
+    "subtype": "ROBODOC Lineage",
+    "year": 2007,
+    "note": "Original ROBODOC orthopedic surgical robotics technology developed by Integrated Surgical Systems transitioned via Curexo (2007) into US subsidiary Think Surgical (2014)."
+  },
+  {
+    "id": "karl_storz_computer_motion",
+    "source": "karl_storz",
+    "target": "computer_motion",
+    "type": "oem",
+    "subtype": "3D Vision OEM",
+    "year": 1998,
+    "note": "Supplied endoscopic optics and 3D visualization systems for Computer Motion's Zeus platform."
+  },
+  {
+    "id": "karl_storz_medtronic",
+    "source": "karl_storz",
+    "target": "medtronic",
+    "type": "oem",
+    "subtype": "3D Vision OEM (Hugo RAS)",
+    "year": 2021,
+    "note": "Supplies 3D TipCam endoscopic visualization hardware for Medtronic's Hugo RAS system."
+  },
+  {
+    "id": "karl_storz_moon_surgical",
+    "source": "karl_storz",
+    "target": "moon_surgical",
+    "type": "collaboration",
+    "subtype": "Optics & Commercial Partnership",
+    "year": 2023,
+    "note": "Strategic investment and commercial integration of KARL STORZ imaging systems with Moon Surgical's Maestro platform."
+  },
+  {
+    "id": "kuka_accuray",
+    "source": "kuka",
+    "target": "accuray",
+    "type": "oem",
+    "subtype": "KR QUANTEC HC Arm OEM",
+    "year": 2001,
+    "note": "Supplies the 6-axis high-payload KUKA KR QUANTEC HC robot arm for the CyberKnife radiosurgery platform."
+  },
+  {
+    "id": "kuka_andromeda_surgical",
+    "source": "kuka",
+    "target": "andromeda_surgical",
+    "type": "oem",
+    "subtype": "LBR Med 7-Axis Arm OEM",
+    "year": 2024,
+    "note": "Supplies the 7-axis KUKA LBR Med medical robot arm integrated into Andromeda Surgical's Beacon platform."
+  },
+  {
+    "id": "kuka_ecential_robotics",
+    "source": "kuka",
+    "target": "ecential_robotics",
+    "type": "oem",
+    "subtype": "LBR Med 7-Axis Arm OEM",
+    "year": 2021,
+    "note": "Supplies the 7-axis KUKA LBR Med collaborative robotic arm integrated into the eCential Robotics spine navigation platform."
+  },
+  {
+    "id": "kuka_ropca",
+    "source": "kuka",
+    "target": "ropca",
+    "type": "oem",
+    "subtype": "LBR Med 7-Axis Arm OEM",
+    "year": 2022,
+    "note": "Supplies the 7-axis KUKA LBR Med collaborative medical robot arm for ROPCA's ARTHUR ultrasound scanning system."
+  },
+  {
+    "id": "mako_surgical_stryker",
+    "source": "mako_surgical",
+    "source_name": "Mako Surgical",
+    "source_founded_year": 2004,
+    "target": "stryker",
+    "type": "acquired",
+    "subtype": "Acquisition ($1.65B)",
+    "year": 2013,
+    "note": "Acquired Mako Surgical Corp. (founded 2004) in 2013 for $1.65B to establish Stryker's Mako orthopedic joint replacement division."
+  },
+  {
+    "id": "mazor_robotics_medtronic",
+    "source": "mazor_robotics",
+    "source_name": "Mazor Robotics",
+    "source_founded_year": 2001,
+    "target": "medtronic",
+    "type": "acquired",
+    "subtype": "Acquisition ($1.64B)",
+    "year": 2018,
+    "note": "Acquired Israeli spine robotics manufacturer Mazor Robotics (founded 2001) in 2018 for $1.64B to anchor Medtronic's Mazor spine portfolio."
+  },
+  {
+    "id": "medtech_sa_zimmer_biomet",
+    "source": "medtech_sa",
+    "source_name": "Medtech SA (ROSA)",
+    "source_founded_year": 2002,
+    "target": "zimmer_biomet",
+    "type": "acquired",
+    "subtype": "Acquisition (€164M)",
+    "year": 2016,
+    "note": "Acquired French surgical robotics manufacturer Medtech SA (founded 2002) in 2016 to commercialize the ROSA Brain, Spine, and Knee platforms."
+  },
+  {
+    "id": "medtronic_cornerstone_robotics",
+    "source": "medtronic",
+    "target": "cornerstone_robotics",
+    "type": "collaboration",
+    "subtype": "Investment & Ex-US Distribution",
+    "year": 2026,
+    "note": "Strategic investment and distribution agreement in September 2026 to commercialize the Sentire RAS system in the UK and select markets outside the US."
+  },
+  {
+    "id": "microport_medbot_biobot_surgical",
+    "source": "microport_medbot",
+    "target": "biobot_surgical",
+    "type": "collaboration",
+    "subtype": "Intbot China JV",
+    "year": 2020,
+    "note": "Formed the Intbot joint venture in China to manufacture and commercialize the iSR'obot Mona Lisa prostate biopsy system."
+  },
+  {
+    "id": "microport_medbot_robocath",
+    "source": "microport_medbot",
+    "target": "robocath",
+    "type": "collaboration",
+    "subtype": "CathBot China JV",
+    "year": 2020,
+    "note": "Formed the CathBot joint venture in China in 2020 to manufacture and register the R-One vascular robotic system."
+  },
+  {
+    "id": "minmaxmedical_johnson_johnson_medtech",
+    "source": "minmaxmedical",
+    "target": "johnson_johnson_medtech",
+    "type": "oem",
+    "subtype": "Gemtrack Sensor Buyout",
+    "year": 2020,
+    "note": "Developed the Gemtrack miniature radiofrequency tracking sensor acquired by DePuy Synthes / J&J MedTech for the VELYS platform."
+  },
+  {
+    "id": "orthotaxy_johnson_johnson_medtech",
+    "source": "orthotaxy",
+    "source_name": "Orthotaxy",
+    "source_founded_year": 2010,
+    "target": "johnson_johnson_medtech",
+    "type": "acquired",
+    "subtype": "Acquisition (VELYS)",
+    "year": 2018,
+    "note": "DePuy Synthes acquired French orthopedic robotics developer Orthotaxy in 2018 to develop the VELYS knee platform."
+  },
+  {
+    "id": "schoelly_fiberoptic_intuitive",
+    "source": "schoelly_fiberoptic",
+    "target": "intuitive",
+    "type": "oem",
+    "subtype": "3D Endoscope OEM & 2019 Unit Buyout",
+    "year": 2019,
+    "note": "Long-standing 3D endoscope OEM for Intuitive; Intuitive acquired Schölly's robotic endoscope business and manufacturing line in 2019."
+  },
+  {
+    "id": "stryker_cmr_surgical",
+    "source": "stryker",
+    "target": "cmr_surgical",
+    "type": "collaboration",
+    "subtype": "$400M Investment & US Distribution",
+    "year": 2026,
+    "note": "Led $400M financing round in April 2026 with exclusive US distribution rights for Versius and a 2028–2029 call option to acquire CMR Surgical."
+  },
+  {
+    "id": "titan_medical_intuitive",
+    "source": "titan_medical",
+    "target": "intuitive",
+    "type": "collaboration",
+    "subtype": "IP License",
+    "year": 2023,
+    "note": "Licensed single-access surgical robotics patent portfolio to Intuitive in 2023."
+  },
+  {
+    "id": "titan_medical_medtronic",
+    "source": "titan_medical",
+    "target": "medtronic",
+    "type": "collaboration",
+    "subtype": "IP License",
+    "year": 2023,
+    "note": "Licensed surgical robotics intellectual property to Medtronic prior to 2024 reverse merger with Conavi Medical."
+  }
+]

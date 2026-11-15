@@ -3,7 +3,7 @@
   "name": "ROPCA",
   "country": "Denmark",
   "description": "ROPCA (Robotic Platform for Clinical Automation) is a Danish medical technology company founded in 2019 in Odense as a spin-off from the University of Southern Denmark (SDU) and Odense University Hospital. ROPCA develops the [ARTHUR](/robot/ropca_arthur) automated robotic ultrasound platform (built on the [KUKA LBR Med](/robot/kuka_lbr_med) arm) for clinical diagnostics in rheumatoid arthritis.",
-  "founded_year": "2019",
+  "founded_year": 2019,
   "employee_count": "10-50",
   "urls": [
     {

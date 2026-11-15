@@ -1,0 +1,9 @@
+{
+  "id": "dvrk_consortium_intuitive",
+  "source": "dvrk_consortium",
+  "target": "intuitive",
+  "type": "collaboration",
+  "subtype": "Open-Source Research Hardware",
+  "year": 2012,
+  "note": "Academic-industry research consortium launched in 2012 repurposing retired first-generation da Vinci hardware supplied by Intuitive."
+}
