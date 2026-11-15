@@ -4,8 +4,9 @@
   "country": "United States",
   "urls": [
     {
-      "caption": "Applied Dexterity",
-      "url": "https://applieddexterity.com/"
+      "caption": "Applied Dexterity (Original Site)",
+      "url": "https://applieddexterity.com/",
+      "archive_url": "https://web.archive.org/web/20260607231038/https://applieddexterity.com/"
     }
   ],
   "linkedin_url": "https://www.linkedin.com/company/applied-dexterity-inc-",
@@ -13,7 +14,7 @@
   "robots": [
     "raven_II"
   ],
-  "description": "Applied Dexterity is a surgical robotics spin-out founded by researchers from the University of Washington and the University of California, Santa Cruz, in Seattle, Washington, USA. The company distributes and supports the open-architecture [Raven-II](/robot/raven_II) surgical robotics research platform for academic laboratories.",
+  "description": "Applied Dexterity was a surgical robotics spin-out founded by researchers from the University of Washington and the University of California, Santa Cruz, in Seattle, Washington, USA. The company distributed and supported the open-architecture [Raven-II](/robot/raven_II) surgical robotics research platform for academic laboratories before ceasing commercial operations.",
   "employee_count": null,
   "patents": {
     "assignee_names": [
@@ -21,6 +22,13 @@
     ],
     "google_patents_url": "https://patents.google.com/?assignee=%22Applied+Dexterity%22",
     "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Applied%20Dexterity%22&s=_score&d=%2B&p=0&n=50"
+  },
+  "status": {
+    "state": "defunct",
+    "year": 2026,
+    "successor": null,
+    "note": "Ceased commercial operations; research support contracts and corporate website wound down by 2026.",
+    "source_url": "https://web.archive.org/web/20260607231038/https://applieddexterity.com/"
   },
   "founded_year": 2006
 }

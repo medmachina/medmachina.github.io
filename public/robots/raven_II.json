@@ -47,7 +47,7 @@
   "usages": [
     "Abdominal"
   ],
-  "description": "The Raven-II is an open-architecture, open-source surgical robotics research platform originally developed by the University of Washington and UC Santa Cruz and distributed to academic laboratories through Applied Dexterity. On the patient side, the system features two cable-driven 7-degree-of-freedom surgical manipulators built around a spherical mechanism that enforces a physical remote center of motion (RCM) and uses an adapter interface compatible with wristed Intuitive Surgical [da Vinci](/robot/intuitive_da_vinci) instruments. The platform does not include an integrated camera arm or stereoscopic display; instead, researchers typically pair it with external endoscopes and teleoperate it via ROS software using off-the-shelf haptic master controllers such as [Force Dimension Omega](/robot/force_dimension_omega) devices.",
+  "description": "The Raven-II is an open-architecture, open-source surgical robotics research platform originally developed by the University of Washington and UC Santa Cruz and distributed to academic laboratories through [Applied Dexterity](/company/applied_dexterity). On the patient side, the system features two cable-driven 7-degree-of-freedom surgical manipulators built around a spherical mechanism that enforces a physical remote center of motion (RCM) and uses an adapter interface compatible with wristed Intuitive Surgical [da Vinci](/robot/intuitive_da_vinci) instruments. The platform does not include an integrated camera arm or stereoscopic display; instead, researchers typically pair it with external endoscopes and teleoperate it via ROS software using off-the-shelf haptic master controllers such as [Force Dimension Omega](/robot/force_dimension_omega) devices.",
   "also_known_as": [],
   "videos": [
     {
@@ -72,6 +72,12 @@
   ],
   "units_deployed": {
     "count": 25,
-    "source_url": "https://applieddexterity.com/"
+    "source_url": "https://web.archive.org/web/20260607231038/https://applieddexterity.com/"
+  },
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2026,
+    "note": "Commercial manufacturing and support through Applied Dexterity ended after the company ceased operations; existing open-source units remain in academic research laboratories.",
+    "source_url": "https://web.archive.org/web/20260607231038/https://applieddexterity.com/"
   }
 }
