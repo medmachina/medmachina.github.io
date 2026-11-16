@@ -1,0 +1,40 @@
+{
+  "id": "imperative_care",
+  "name": "Imperative Care",
+  "country": "United States",
+  "founded_year": 2016,
+  "company_type": "Private",
+  "employee_count": "201-500",
+  "status": {
+    "state": "active"
+  },
+  "description": "Imperative Care, Inc. is a privately held medical technology company headquartered in Campbell, California, USA. Founded in 2016 by Fred Khosravi and Dr. L. Nelson (Nick) Hopkins, the company manufactures neurovascular and peripheral vascular aspiration thrombectomy systems and develops the [Telos](/robot/imperative_care_telos) endovascular robotic platform through its Telos Health business unit.",
+  "urls": [
+    {
+      "caption": "Imperative Care Official Website",
+      "url": "https://imperativecare.com/"
+    },
+    {
+      "caption": "Telos Robotic Platform",
+      "url": "https://imperativecare.com/robotics-platform/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/imperativecare/",
+  "robots": [
+    "imperative_care_telos"
+  ],
+  "subsidiaries": [
+    "Imperative Care, Inc.",
+    "Telos Health",
+    "Telos Health, Inc."
+  ],
+  "patents": {
+    "assignee_names": [
+      "Imperative Care, Inc.",
+      "Imperative Care Inc",
+      "Telos Health, Inc."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Imperative+Care%2C+Inc.%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Imperative%20Care%22%20OR%20applicant%3A%22Telos%20Health%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}

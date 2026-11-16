@@ -1,0 +1,58 @@
+{
+  "id": "imperative_care_telos",
+  "name": "Telos",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "Telos Robotic Platform",
+    "Telos Health Robotic System"
+  ],
+  "introduction_year": 2025,
+  "db_added": "2026-11-16",
+  "description": "The Telos Robotic Platform is an endovascular robotic and telerobotic system developed by [Imperative Care](/company/imperative_care) (through its Telos Health business unit) for aspiration thrombectomy in acute ischemic stroke and vascular interventions. The platform combines a bedside robotic catheter and guidewire manipulation unit with a physician control console engineered for both on-site catheterization laboratory operation and remote telerobotic procedures.",
+  "urls": [
+    {
+      "caption": "Imperative Care — Telos Robotic Platform",
+      "url": "https://imperativecare.com/robotics-platform/"
+    },
+    {
+      "caption": "Proximie & Imperative Care Robotic Stroke Partnership (2025)",
+      "url": "https://www.businesswire.com/news/home/20250708482854/en/Global-Healthtech-Proximie-Partners-With-U.S.-MedTech-Pioneer-Imperative-Care-Driving-Development-of-Robotic-Stroke-Treatment-System"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://imperativecare.com/wp-content/uploads/2026/10/93fd07aaf2014b2b5c40990c288f188d622d2193-scaled.png",
+      "site": "https://imperativecare.com/robotics-platform/"
+    },
+    {
+      "url": "https://imperativecare.com/wp-content/uploads/2026/10/bc7f41ee387a1c0ae5567790fd30767ee61882f4-scaled.png",
+      "site": "https://imperativecare.com/robotics-platform/"
+    }
+  ],
+  "tags": [
+    "Teleoperated",
+    "Single patient cart",
+    "Open console",
+    "X-Ray"
+  ],
+  "usages": [
+    "Neurovascular",
+    "Endovascular"
+  ],
+  "excludes_from_automated_searches": [
+    "Zoom",
+    "Symphony",
+    "Prodigy",
+    "TracStar",
+    "Ariel",
+    "Ikon"
+  ],
+  "lifecycle": {
+    "status": "premarket",
+    "year": 2026,
+    "note": "In premarket development under Imperative Care's Telos Health division for local and remote telerobotic aspiration thrombectomy in acute ischemic stroke; not yet cleared for commercial sale.",
+    "source_url": "https://imperativecare.com/robotics-platform/"
+  }
+}
