@@ -27,5 +27,6 @@
     "ticker": "NASDAQ: SSII",
     "cnbc_symbol": "SSII",
     "url": "https://finance.yahoo.com/quote/SSII/"
-  }
+  },
+  "db_added": "2025-07-10"
 }

@@ -28,5 +28,6 @@
     "ticker": "HKEX: 2675",
     "cnbc_symbol": "2675.HK",
     "url": "https://finance.yahoo.com/quote/2675.HK/"
-  }
+  },
+  "db_added": "2025-11-18"
 }

@@ -37,6 +37,14 @@
             >
               🔤
             </button>
+            <button 
+              @click="sortByAdded" 
+              :class="['btn', 'ms-2', sortMode === 'added' ? 'btn-primary' : 'btn-outline-secondary']"
+              title="Sort by newest added to database"
+              style="min-width: 50px;"
+            >
+              🆕
+            </button>
           </div>
           <CompanyList :companies="filteredCompanies" />
         </section>
@@ -73,7 +81,7 @@ const companies = ref([])
 const originalCompanies = ref([])
 const search = ref('')
 const selectedCountries = ref([])
-const sortMode = ref('random') // 'random' or 'alphabetical'
+const sortMode = ref('random') // 'random', 'alphabetical', or 'added'
 
 onMounted(async () => {
   const response = await fetch('/companies.json')
@@ -99,6 +107,19 @@ function sortAlphabetically() {
 function sortRandomly() {
   sortMode.value = 'random'
   companies.value = shuffleArray(originalCompanies.value)
+}
+
+function sortByAdded() {
+  sortMode.value = 'added'
+  companies.value = [...originalCompanies.value].sort((a, b) => {
+    // Sort newest db_added first; companies without the field go to the end
+    if (!a.db_added && !b.db_added) return 0
+    if (!a.db_added) return 1
+    if (!b.db_added) return -1
+    const dateCompare = b.db_added.localeCompare(a.db_added)
+    if (dateCompare !== 0) return dateCompare
+    return a.name.localeCompare(b.name)
+  })
 }
 
 const allCountries = computed(() => {

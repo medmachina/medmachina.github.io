@@ -28,5 +28,6 @@
     "ticker": "HKEX: 2252",
     "cnbc_symbol": "2252.HK",
     "url": "https://finance.yahoo.com/quote/2252.HK/"
-  }
+  },
+  "db_added": "2025-11-05"
 }

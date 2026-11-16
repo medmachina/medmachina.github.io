@@ -31,5 +31,6 @@
     "ticker": "LSE: RSW",
     "cnbc_symbol": "RSW-GB",
     "url": "https://finance.yahoo.com/quote/RSW.L/"
-  }
+  },
+  "db_added": "2025-12-03"
 }

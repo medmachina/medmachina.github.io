@@ -20,6 +20,12 @@
               👥 {{ company.employee_count.toLocaleString() }}
             </span>
             <StockSticker v-if="company.stock" :stock="company.stock" />
+            <span
+              v-if="isRecentlyAdded(company)"
+              class="badge"
+              style="background-color: #e8650a;"
+              title="Recently added to the database"
+            >★ NEW</span>
           </div>
           <div class="mb-2" v-if="company.robots && company.robots.length">
 <!--            <span class="badge bg-info me-1">{{ company.robots.length }} robots</span>-->
@@ -107,6 +113,13 @@ function getCompanyStatusBadgeClass(state) {
   if (state === 'defunct' || state === 'liquidated') return 'bg-danger';
   if (state === 'restructuring') return 'bg-warning text-dark';
   return 'bg-secondary';
+}
+
+const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;
+function isRecentlyAdded(company) {
+  if (!company.db_added) return false;
+  const addedDate = new Date(company.db_added);
+  return (Date.now() - addedDate.getTime()) < ONE_MONTH_MS;
 }
 </script>
 

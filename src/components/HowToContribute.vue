@@ -166,7 +166,7 @@ python3 scripts/build_relationships.py
 # Or run the full production build (runs all three builders, builds Vite assets, and updates SEO/sitemap)
 npm run build</code></pre>
         <p class="card-text text-muted mt-2">
-          Note: <code>build_robots.py</code> automatically populates the <code>db_added</code> field (<code>YYYY-MM-DD</code>) from Git commit dates.
+          Note: <code>build_robots.py</code> and <code>build_companies.py</code> automatically populate the <code>db_added</code> field (<code>YYYY-MM-DD</code>) from Git commit dates.
         </p>
 
         <h5 class="mt-4">Automated Regulatory Lookup (FDA Data)</h5>
@@ -327,7 +327,8 @@ git push origin add-new-robot</code></pre>
           </div>
           <pre class="bg-dark text-light p-3 rounded"><code>{{ companySampleJson }}</code></pre>
           <p class="small text-muted mb-3">
-            Note: <code>founded_year</code> is an integer (e.g. <code>2015</code>) and <code>country</code> uses the full English country name (e.g. <code>"United States"</code>, <code>"South Korea"</code>).
+            Note: <code>db_added</code> is automatically injected by <code>scripts/build_companies.py</code> from the file's Git commit date.
+            <code>founded_year</code> is an integer (e.g. <code>2015</code>) and <code>country</code> uses the full English country name (e.g. <code>"United States"</code>, <code>"South Korea"</code>).
             <code>stock</code>, <code>subsidiaries</code>, <code>opencorporates_url</code>, and <code>patents</code> are optional.
             For <code>acquired</code> or <code>merged</code> companies, include <code>status.successor</code> and a corresponding entry in <code>public/relationships/</code>.
           </p>

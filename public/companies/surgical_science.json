@@ -28,5 +28,6 @@
     "ticker": "NASDAQ: SUS",
     "cnbc_symbol": "SUS-SE",
     "url": "https://finance.yahoo.com/quote/SUS.ST/"
-  }
+  },
+  "db_added": "2025-07-10"
 }

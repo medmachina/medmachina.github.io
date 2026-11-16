@@ -90,6 +90,11 @@
           {"type": "null"}
         ]
       },
+      "db_added": {
+        "type": ["string", "null"],
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "description": "Date (YYYY-MM-DD) when this company was added to the database."
+      },
       "company_type": {"type": ["string", "null"]},
       "stock": {
         "$ref": "#/$defs/StockEntry"

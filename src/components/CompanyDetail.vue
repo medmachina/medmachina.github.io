@@ -36,6 +36,9 @@
             <strong>Stock:</strong>
             <StockSticker :stock="company.stock" />
           </p>
+          <p v-if="company.db_added" class="mb-2 text-muted" style="font-size:0.85em;">
+            Added to MedMachina: {{ company.db_added }}
+          </p>
           <div v-if="company.description" class="mb-3">
             <p v-for="(para, pIdx) in descriptionParagraphs" :key="pIdx" class="mb-2">
               <template v-for="(seg, sIdx) in para" :key="sIdx">

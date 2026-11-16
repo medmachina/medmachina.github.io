@@ -1,5 +1,6 @@
 import json
 import re
+import subprocess
 import sys
 import unicodedata
 from pathlib import Path
@@ -7,6 +8,22 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 COMPANIES_DIR = REPO_ROOT / 'public' / 'companies'
 OUTPUT_FILE = REPO_ROOT / 'public' / 'companies.json'
+
+
+def get_git_added_date(filepath):
+    """Return the date (YYYY-MM-DD) when this file was first committed to git, or None."""
+    try:
+        rel = filepath.relative_to(REPO_ROOT)
+        result = subprocess.run(
+            ['git', 'log', '--diff-filter=A', '--format=%ai', '--', str(rel)],
+            cwd=REPO_ROOT, capture_output=True, text=True, check=True
+        )
+        line = result.stdout.strip().splitlines()
+        if line:
+            return line[-1].split()[0]  # YYYY-MM-DD
+    except Exception:
+        pass
+    return None
 
 
 def slugify(text: str) -> str:
@@ -18,7 +35,11 @@ def slugify(text: str) -> str:
 
 
 def build_companies():
-    """Aggregates all JSON files in public/companies/ into public/companies.json."""
+    """Aggregates all JSON files in public/companies/ into public/companies.json.
+
+    Auto-injects `db_added` (YYYY-MM-DD) for any company missing the field,
+    sourced from the file's first Git commit date.
+    """
     if not COMPANIES_DIR.exists():
         print(f"Error: Directory {COMPANIES_DIR} does not exist.")
         sys.exit(1)
@@ -29,14 +50,26 @@ def build_companies():
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 company = json.load(f)
-            
+
+            updated = False
             # Ensure id exists
             if 'id' not in company and 'name' in company:
                 company['id'] = slugify(company['name'])
+                updated = True
+                print(f"  Auto-set id={company['id']} for {filepath.name}")
+
+            # Auto-inject db_added if missing
+            if 'db_added' not in company:
+                added = get_git_added_date(filepath)
+                if added:
+                    company['db_added'] = added
+                    updated = True
+                    print(f"  Auto-set db_added={added} for {filepath.name}")
+
+            if updated:
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(company, f, indent=2, ensure_ascii=False)
                     f.write('\n')
-                print(f"  Auto-set id={company['id']} for {filepath.name}")
 
             companies.append(company)
         except Exception as e:
