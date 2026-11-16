@@ -7,4 +7,6 @@ venv
 public/robots.json
 public/companies.json
 public/relationships.json
+public/sitemap.xml
+public/robots.txt
 tmp_fda/

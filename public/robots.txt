@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://medmachina.github.io/sitemap.xml
