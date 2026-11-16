@@ -1,0 +1,94 @@
+{
+  "id": "sentante_endovascular",
+  "name": "Sentante Endovascular Platform",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "Sentante",
+    "Sentante Endovascular Robotic System",
+    "Sentante Stroke System"
+  ],
+  "introduction_year": 2024,
+  "db_added": "2026-11-15",
+  "description": "The Sentante Endovascular Platform is a teleoperated, device-agnostic endovascular robotic system developed by [Sentante](/company/sentante) for peripheral vascular, neurovascular, and cardiovascular interventions. Comprising a radiation-shielded remote workstation, a bedside robotic cart, and single-use sterile cassettes (Sentacles), the system simultaneously manipulates up to three standard off-the-shelf guidewires (0.014\" to 0.035\") and catheters (2Fr to 8Fr) without requiring proprietary instruments. Drive-side force and torque sensing provides 1:1 haptic resistance feedback to the operator's hands, paired with tremor filtering, motion scaling, and a Device LOCK mode. Following the first-in-human ESSENTIAL clinical study (NCT06537947) and FDA Breakthrough Device Designation with TAP acceptance for the Sentante Stroke System in 2025, the platform received European CE Mark approval in May 2026 and entered commercial rollout in August 2026.",
+  "urls": [
+    {
+      "caption": "Sentante Product Page",
+      "url": "https://sentante.com/product/"
+    },
+    {
+      "caption": "CE Mark Approval Announcement (2026)",
+      "url": "https://sentante.com/news/sentante-receives-ce-mark-approval-unlocking-commercialisation-of-its-endovascular-robotic-platform/"
+    },
+    {
+      "caption": "ESSENTIAL Clinical Study (NCT06537947)",
+      "url": "https://clinicaltrials.gov/study/NCT06537947"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://sentante.com/wp-content/uploads/2025/12/img-product-v2-min.jpg",
+      "site": "https://sentante.com/product/"
+    },
+    {
+      "url": "https://sentante.com/wp-content/uploads/2025/12/SENTANTE_web_D.2_v001.png",
+      "site": "https://sentante.com/"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=856OwXr4GR8",
+      "title": "SENTANTE - the future of endovascular interventions."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BDvr4ErxLeo",
+      "title": "Sentante : Endovascular Robotics Series Episode 1"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Open console",
+    "Haptic",
+    "Force feedback",
+    "X-Ray",
+    "Open architecture"
+  ],
+  "usages": [
+    "Endovascular",
+    "Neurovascular",
+    "Cardiovascular"
+  ],
+  "regulatory": [
+    {
+      "url": "https://sentante.com/news/sentante-receives-ce-mark-approval-unlocking-commercialisation-of-its-endovascular-robotic-platform/",
+      "body": "CE",
+      "year": 2026
+    }
+  ],
+  "publications": [
+    {
+      "title": "Fully Teleoperated Peripheral Endovascular Interventions With a Novel Robotic System: A First in Human Study",
+      "url": "https://doi.org/10.1016/j.jcin.2025.12.021",
+      "year": 2026,
+      "journal": "JACC: Cardiovascular Interventions",
+      "doi": "10.1016/j.jcin.2025.12.021",
+      "pmid": "42055651"
+    },
+    {
+      "title": "Evaluation of Fully Teleoperated Robotic Endovascular Interventions with Haptic Feedback: The SENTANTE Endovascular Robotic System",
+      "url": "https://doi.org/10.1007/s00270-026-04375-w",
+      "year": 2026,
+      "journal": "CardioVascular and Interventional Radiology",
+      "doi": "10.1007/s00270-026-04375-w",
+      "pmid": "41739170"
+    }
+  ],
+  "lifecycle": {
+    "status": "active",
+    "year": 2026,
+    "note": "Received CE Mark approval in May 2026; European commercial rollout began in August 2026.",
+    "source_url": "https://sentante.com/news/sentante-takes-physical-ai-to-market-beginning-commercial-rollout-in-vascular-surgery-and-interventional-radiology/"
+  }
+}

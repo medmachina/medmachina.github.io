@@ -1,0 +1,39 @@
+{
+  "id": "sentante",
+  "name": "Sentante",
+  "country": "Lithuania",
+  "founded_year": 2017,
+  "company_type": "Private",
+  "status": {
+    "state": "active"
+  },
+  "description": "Sentante (legal entity UAB Inovatyvi Medicina) is a privately held medical robotics company founded in 2017 and headquartered in Lithuania. The company develops the [Sentante Endovascular Platform](/robot/sentante_endovascular), a teleoperated, device-agnostic robotic system with haptic feedback for peripheral vascular and neurovascular interventions.",
+  "urls": [
+    {
+      "caption": "Sentante Official Website",
+      "url": "https://sentante.com/"
+    },
+    {
+      "caption": "Sentante Product Page",
+      "url": "https://sentante.com/product/"
+    },
+    {
+      "caption": "CE Mark Approval Announcement (2026)",
+      "url": "https://sentante.com/news/sentante-receives-ce-mark-approval-unlocking-commercialisation-of-its-endovascular-robotic-platform/"
+    }
+  ],
+  "robots": [
+    "sentante_endovascular"
+  ],
+  "subsidiaries": [
+    "UAB Inovatyvi Medicina"
+  ],
+  "patents": {
+    "assignee_names": [
+      "UAB Inovatyvi Medicina",
+      "Sentante"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Inovatyvi+Medicina%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Inovatyvi%20Medicina%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

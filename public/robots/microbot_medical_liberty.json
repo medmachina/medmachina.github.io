@@ -1,0 +1,79 @@
+{
+  "id": "microbot_medical_liberty",
+  "name": "LIBERTY",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "LIBERTY Endovascular Robotic System",
+    "LIBERTYOS"
+  ],
+  "introduction_year": 2025,
+  "db_added": "2026-11-15",
+  "description": "LIBERTY is a single-use, remotely operated endovascular robotic system developed by [Microbot Medical](/company/microbot_medical) for peripheral vascular interventions. Rather than a floor-standing capital console, the system pairs a disposable robotic drive unit mounted at the procedure table with a handheld wireless remote controller, enabling linear and rotational manipulation of standard off-the-shelf microcatheters, guidewires, and embolic devices from outside the primary radiation field. Evaluated in the multicenter ACCESS-PVI feasibility study for arterial peripheral vascular interventions—including prostatic artery embolization, uterine fibroid embolization, genicular artery embolization, and Y-90 radioembolization mapping—LIBERTY received US FDA 510(k) clearance in September 2025 and entered full US commercial release in April 2026.",
+  "urls": [
+    {
+      "caption": "LIBERTY Product Page",
+      "url": "https://www.microbotmedical.com/liberty/"
+    },
+    {
+      "caption": "The Robot Report — FDA Clearance (2025)",
+      "url": "https://www.therobotreport.com/microbot-medical-secures-fda-clearance-for-endovascular-surgical-robot/"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.microbotmedical.com/wp-content/uploads/2026/03/Device.png",
+      "site": "https://www.microbotmedical.com/liberty/"
+    },
+    {
+      "url": "https://www.therobotreport.com/wp-content/uploads/2025/09/liberty-hand-and-remote-featured.jpg",
+      "site": "https://www.therobotreport.com/microbot-medical-secures-fda-clearance-for-endovascular-surgical-robot/"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=floCmzQRXpw",
+      "title": "Microbot LIBERTY"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cAgL611eNbo",
+      "title": "Microbot Medical – Winner Spotlight: Innovative Start-up, Surgical Robotics Industry Awards 2026"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Table-mounted",
+    "X-Ray",
+    "Open architecture"
+  ],
+  "usages": [
+    "Endovascular"
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243789",
+      "body": "FDA 510k",
+      "year": 2025,
+      "product_code": "DXX",
+      "panel": "CV"
+    }
+  ],
+  "publications": [
+    {
+      "title": "In Vivo Evaluation of a Disposable Endovascular Robotic System for Arterial Peripheral Vascular Interventions: A Multicenter Feasibility Study",
+      "url": "https://doi.org/10.1016/j.jvir.2026.108591",
+      "year": 2026,
+      "journal": "Journal of Vascular and Interventional Radiology",
+      "doi": "10.1016/j.jvir.2026.108591",
+      "pmid": "41692299"
+    }
+  ],
+  "lifecycle": {
+    "status": "active",
+    "year": 2026,
+    "note": "Cleared by the US FDA in September 2025 (K243789); Full Market Release initiated in April 2026.",
+    "source_url": "https://www.therobotreport.com/microbot-medical-secures-fda-clearance-for-endovascular-surgical-robot/"
+  }
+}

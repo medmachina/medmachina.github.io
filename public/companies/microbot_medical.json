@@ -1,0 +1,42 @@
+{
+  "id": "microbot_medical",
+  "name": "Microbot Medical",
+  "country": "United States",
+  "founded_year": 2010,
+  "company_type": "Public",
+  "status": {
+    "state": "active"
+  },
+  "stock": {
+    "ticker": "NASDAQ: MBOT",
+    "cnbc_symbol": "MBOT",
+    "url": "https://finance.yahoo.com/quote/MBOT/"
+  },
+  "description": "Microbot Medical Inc. is a publicly traded medical device company founded in 2010 and headquartered in Hingham, Massachusetts, USA, with research and development operations in Yokneam, Israel. The company develops and commercializes the [LIBERTY](/robot/microbot_medical_liberty) endovascular robotic system, a single-use, remotely operated robotic platform for peripheral vascular interventions.",
+  "urls": [
+    {
+      "caption": "Microbot Medical Official Website",
+      "url": "https://www.microbotmedical.com/"
+    },
+    {
+      "caption": "LIBERTY System Page",
+      "url": "https://www.microbotmedical.com/liberty/"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/microbot-medical/",
+  "robots": [
+    "microbot_medical_liberty"
+  ],
+  "subsidiaries": [
+    "Microbot Medical Inc.",
+    "Microbot Medical Ltd."
+  ],
+  "patents": {
+    "assignee_names": [
+      "Microbot Medical",
+      "Microbot Medical Ltd."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Microbot+Medical%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Microbot%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}
