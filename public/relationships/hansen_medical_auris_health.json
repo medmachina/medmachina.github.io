@@ -1,0 +1,14 @@
+{
+  "id": "hansen_medical_auris_health",
+  "source": "hansen_medical",
+  "target": "auris_health",
+  "target_name": "Auris Health",
+  "type": "acquired",
+  "subtype": "Acquisition ($80M)",
+  "year": 2016,
+  "note": "Auris Surgical Robotics (later Auris Health) acquired Hansen Medical in July 2016 for approximately $80M ($4.00 per share in cash), adding the Sensei and Magellan intravascular robotic platforms.",
+  "sources": [
+    "https://www.dicardiology.com/content/auris-surgical-robotics-agrees-acquire-hansen-medical",
+    "https://en.wikipedia.org/wiki/Hansen_Medical"
+  ]
+}

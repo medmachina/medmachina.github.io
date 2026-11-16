@@ -1,0 +1,39 @@
+{
+  "id": "hansen_medical",
+  "name": "Hansen Medical",
+  "country": "United States",
+  "founded_year": 2002,
+  "description": "Hansen Medical, Inc. was an intravascular surgical robotics company founded in 2002 by Frederic Moll and headquartered in Mountain View, California, USA. The company developed steerable robotic catheter platforms for cardiac electrophysiology and peripheral vascular interventions, including the [Sensei X2](/robot/hansen_medical_sensei_x2) cardiac catheter control system and the Magellan vascular robotic platform. In July 2016, Hansen Medical was acquired by Auris Surgical Robotics (later Auris Health), after which its legacy catheter platforms were phased out.",
+  "status": {
+    "state": "acquired",
+    "year": 2016,
+    "successor": "Auris Health",
+    "note": "Acquired by Auris Surgical Robotics (later Auris Health) in July 2016 for approximately $80M ($4.00 per share in cash).",
+    "source_url": "https://www.dicardiology.com/content/auris-surgical-robotics-agrees-acquire-hansen-medical"
+  },
+  "urls": [
+    {
+      "caption": "Wikipedia — Hansen Medical",
+      "url": "https://en.wikipedia.org/wiki/Hansen_Medical"
+    },
+    {
+      "caption": "Which Medical Device — Sensei X",
+      "url": "https://www.whichmedicaldevice.com/devices/hansen-medical-sensei-x-robotic-catheter-system"
+    }
+  ],
+  "robots": [
+    "hansen_medical_sensei_x2"
+  ],
+  "subsidiaries": [
+    "Hansen Medical, Inc.",
+    "Hanson Medical, Inc."
+  ],
+  "patents": {
+    "assignee_names": [
+      "Hansen Medical",
+      "Hansen Medical, Inc."
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Hansen+Medical%2C+Inc.%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=applicant%3A%22Hansen%20Medical%22&s=_score&d=%2B&p=0&n=50"
+  }
+}

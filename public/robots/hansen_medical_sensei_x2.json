@@ -1,0 +1,90 @@
+{
+  "id": "hansen_medical_sensei_x2",
+  "name": "Sensei X2",
+  "categories": [
+    "Endovascular & Catheter"
+  ],
+  "also_known_as": [
+    "Sensei X2 Robotic System",
+    "Sensei X Robotic Catheter System",
+    "Sensei"
+  ],
+  "introduction_year": 2014,
+  "db_added": "2026-11-15",
+  "description": "The Sensei X2 is a third-generation teleoperated intravascular robotic catheter system developed by [Hansen Medical](/company/hansen_medical) for cardiac electrophysiology mapping and catheter ablation procedures, including atrial fibrillation. Controlled from a radiation-shielded physician workstation via a 3D hand controller (Instinctive Motion) with IntelliSense tactile force-sensing feedback and multi-modality imaging integration, the bedside robotic catheter manipulator (RCM) drives coaxial tendon-driven Artisan and Artisan Extend steerable sheaths with three degrees of freedom (deflection, rotation, and axial translation). Built with an open architecture compatible with third-party diagnostic and mapping catheters—such as Boston Scientific PolarisDx and St. Jude Medical Livewire catheters—as well as standard electro-anatomic mapping systems, the Sensei X2 introduced a slimmer console profile and faster image processing over the earlier Sensei X upon its 2014 clearance and launch. The platform was discontinued following Auris Surgical Robotics' acquisition of Hansen Medical in July 2016.",
+  "urls": [
+    {
+      "caption": "Which Medical Device — Sensei X",
+      "url": "https://www.whichmedicaldevice.com/devices/hansen-medical-sensei-x-robotic-catheter-system"
+    },
+    {
+      "caption": "Wikipedia — Hansen Medical",
+      "url": "https://en.wikipedia.org/wiki/Hansen_Medical"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://www.whichmedicaldevice.com/uploads/products/large/hansen-sensei.jpg",
+      "site": "https://www.whichmedicaldevice.com/devices/hansen-medical-sensei-x-robotic-catheter-system"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=PjXQLkiq8io",
+      "title": "Learn: Sensei X2 Robotic System by Hansen Medical"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yg2YQcsxQ6k",
+      "title": "Sensei X System Overview"
+    }
+  ],
+  "tags": [
+    "Commercial",
+    "Teleoperated",
+    "Open console",
+    "Haptic",
+    "X-Ray",
+    "Open architecture",
+    "Retired"
+  ],
+  "usages": [
+    "Cardiovascular",
+    "Endovascular"
+  ],
+  "regulatory": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K052480",
+      "body": "FDA 510k",
+      "year": 2007,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K091808",
+      "body": "FDA 510k",
+      "year": 2009,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K102168",
+      "body": "FDA 510k",
+      "year": 2010,
+      "product_code": "DXX",
+      "panel": "CV"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141822",
+      "body": "FDA 510k",
+      "year": 2014,
+      "product_code": "DXX",
+      "panel": "CV"
+    }
+  ],
+  "lifecycle": {
+    "status": "discontinued",
+    "year": 2016,
+    "note": "Discontinued following the July 2016 acquisition of Hansen Medical by Auris Surgical Robotics (later Auris Health).",
+    "source_url": "https://www.dicardiology.com/content/auris-surgical-robotics-agrees-acquire-hansen-medical"
+  }
+}
