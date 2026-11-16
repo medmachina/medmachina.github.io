@@ -1,0 +1,39 @@
+{
+  "id": "auris_health",
+  "name": "Auris Health",
+  "country": "United States",
+  "founded_year": 2007,
+  "description": "Auris Health, Inc. (originally founded as Auris Surgical Robotics in 2007 by Frederic Moll) was a surgical robotics company headquartered in Redwood City, California, USA. The company developed the [MONARCH](/robot/j&j_monarch) flexible endoluminal bronchoscopy platform and initiated the [OTTAVA](/robot/j&j_ottava) soft-tissue surgical robotics program. In July 2016, Auris acquired intravascular robotics developer [Hansen Medical](/company/hansen_medical), and in April 2019 Auris Health was acquired by [Johnson & Johnson MedTech](/company/johnson_johnson_medtech) for $3.4B upfront.",
+  "status": {
+    "state": "acquired",
+    "year": 2019,
+    "successor": "Johnson & Johnson MedTech",
+    "note": "Acquired by Johnson & Johnson in April 2019 for $3.4B upfront (plus contingent milestones), integrating MONARCH and OTTAVA into Johnson & Johnson MedTech.",
+    "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-completion-of-acquisition-of-auris-health-inc"
+  },
+  "urls": [
+    {
+      "caption": "Johnson & Johnson — Acquisition of Auris Health (2019)",
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-completion-of-acquisition-of-auris-health-inc"
+    },
+    {
+      "caption": "Johnson & Johnson — Agreement to Acquire Auris Health (2019)",
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-agreement-to-acquire-auris-health-inc"
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/auris-health/",
+  "robots": [],
+  "subsidiaries": [
+    "Auris Surgical Robotics, Inc.",
+    "Auris Health, Inc.",
+    "Hansen Medical"
+  ],
+  "patents": {
+    "assignee_names": [
+      "Auris Health",
+      "Auris Surgical Robotics"
+    ],
+    "google_patents_url": "https://patents.google.com/?assignee=%22Auris+Health%22",
+    "lens_url": "https://www.lens.org/lens/search/patent/list?q=%28applicant%3A%22Auris%20Health%22%20OR%20applicant%3A%22Auris%20Surgical%20Robotics%22%29&s=_score&d=%2B&p=0&n=50"
+  }
+}
