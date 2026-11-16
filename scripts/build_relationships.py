@@ -5,8 +5,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RELATIONSHIPS_DIR = REPO_ROOT / 'public' / 'relationships'
+RELATIONSHIPS_SCHEMA_FILE = REPO_ROOT / 'public' / 'relationships.schema.json'
 COMPANIES_DIR = REPO_ROOT / 'public' / 'companies'
 OUTPUT_FILE = REPO_ROOT / 'public' / 'relationships.json'
+VALID_RELATIONSHIP_TYPES = ('acquired', 'merged', 'oem', 'collaboration')
 
 
 def build_relationships():
@@ -40,6 +42,14 @@ def build_relationships():
                 if req not in rel:
                     print(f"Error in {filepath.name}: missing required field '{req}'")
                     sys.exit(1)
+
+            if rel['type'] not in VALID_RELATIONSHIP_TYPES:
+                print(f"Error in {filepath.name}: invalid type '{rel['type']}' (expected one of {VALID_RELATIONSHIP_TYPES})")
+                sys.exit(1)
+
+            if not isinstance(rel['year'], int) or isinstance(rel['year'], bool):
+                print(f"Error in {filepath.name}: 'year' must be an integer")
+                sys.exit(1)
 
             sources = rel.get('sources')
             if not isinstance(sources, list) or len(sources) == 0:
@@ -82,6 +92,23 @@ def build_relationships():
             other = m.group(1)
             if other != cid and other in company_ids and (cid, other) not in rel_pairs:
                 print(f"  [Consistency Warning] {cid}.json links to /company/{other} in prose, but no file exists in public/relationships/ for ({cid}, {other})")
+
+    # Validate against public/relationships.schema.json when jsonschema is available
+    if RELATIONSHIPS_SCHEMA_FILE.exists():
+        try:
+            import jsonschema
+            with open(RELATIONSHIPS_SCHEMA_FILE, 'r', encoding='utf-8') as sf:
+                schema = json.load(sf)
+            validator = jsonschema.Draft202012Validator(schema)
+            errors = sorted(validator.iter_errors(relationships), key=lambda e: e.path)
+            if errors:
+                print(f"Error: Relationships failed schema validation against {RELATIONSHIPS_SCHEMA_FILE}:")
+                for err in errors[:20]:
+                    path = '.'.join(str(p) for p in err.path) or '<root>'
+                    print(f"  - {path}: {err.message}")
+                sys.exit(1)
+        except ImportError:
+            pass
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(relationships, f, indent=2, ensure_ascii=False)

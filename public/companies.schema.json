@@ -55,6 +55,17 @@
           }
         },
         "additionalProperties": false
+      },
+      "StockEntry": {
+        "type": "object",
+        "description": "Public stock listing information.",
+        "required": ["ticker", "url"],
+        "properties": {
+          "ticker": {"type": "string", "minLength": 1},
+          "cnbc_symbol": {"type": "string"},
+          "url": {"type": "string", "format": "uri"}
+        },
+        "additionalProperties": false
       }
     },
   "type": "array",
@@ -72,8 +83,17 @@
       "country": {"type": "string", "minLength": 1},
       "description": {"type": "string"},
       "employee_count": {"type": ["integer", "string", "null"]},
-      "founded_year": {"type": ["string", "null"], "pattern": "^(19|20)\\d{2}$"},
+      "founded_year": {
+        "oneOf": [
+          {"type": "integer", "minimum": 1800, "maximum": 2100},
+          {"type": "string", "pattern": "^(18|19|20)\\d{2}$"},
+          {"type": "null"}
+        ]
+      },
       "company_type": {"type": ["string", "null"]},
+      "stock": {
+        "$ref": "#/$defs/StockEntry"
+      },
       "linkedin_url": {"type": ["string", "null"], "format": "uri"},
       "opencorporates_url": {"type": ["string", "null"], "format": "uri"},
       "urls": {"type": "array", "items": {"$ref": "#/$defs/UrlEntry"}},

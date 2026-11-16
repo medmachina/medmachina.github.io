@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://medmachina.github.io/schemas/relationships.schema.json",
+  "title": "Company Relationships Dataset",
+  "$defs": {
+    "RelationshipType": {
+      "oneOf": [
+        {
+          "const": "acquired",
+          "description": "Source company (or business unit/assets) was acquired by target company."
+        },
+        {
+          "const": "merged",
+          "description": "Source and target companies merged into a combined organization."
+        },
+        {
+          "const": "oem",
+          "description": "Source company supplies OEM subsystems (robotic arms, haptic masters, optics) integrated into target company's systems."
+        },
+        {
+          "const": "collaboration",
+          "description": "Strategic partnership, joint venture, co-development, IP licensing, investment, or distribution agreement."
+        }
+      ]
+    }
+  },
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "source",
+      "target",
+      "type",
+      "year",
+      "sources"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9_.&]+$",
+        "description": "Unique relationship identifier (typically <source>_<target>, matching the filename)."
+      },
+      "source": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9_.&]+$",
+        "description": "Source company ID (snake_case slug in public/companies/, or predecessor/external entity ID)."
+      },
+      "source_name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Display name for the source entity when it does not have a standalone entry in public/companies/."
+      },
+      "source_founded_year": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1800,
+        "maximum": 2100,
+        "description": "Founding year of an external or predecessor source entity not listed in public/companies/."
+      },
+      "target": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9_.&]+$",
+        "description": "Target company ID (snake_case slug in public/companies/, or external partner entity ID)."
+      },
+      "target_name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Display name for the target entity when it does not have a standalone entry in public/companies/."
+      },
+      "type": {
+        "$ref": "#/$defs/RelationshipType"
+      },
+      "subtype": {
+        "type": "string",
+        "description": "Short descriptive label for the relationship (e.g. 'Acquisition ($1.65B)', 'sigma.7 Haptic Master OEM', 'Global Distribution')."
+      },
+      "year": {
+        "type": "integer",
+        "minimum": 1800,
+        "maximum": 2100,
+        "description": "Year when the acquisition, merger, OEM supply, or collaboration took effect."
+      },
+      "note": {
+        "type": "string",
+        "description": "Concise factual summary of the relationship."
+      },
+      "sources": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "description": "Non-empty array of authoritative source URLs documenting the relationship."
+      }
+    }
+  }
+}

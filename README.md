@@ -9,10 +9,12 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Data Files
 
-- `public/robots.json`: Primary dataset of robot entries consumed by the UI.
-- `public/companies.json`: Company metadata.
-- `public/companies.schema.json`: JSON Schema (Draft 2020-12) for companies dataset.
-- `public/robots.schema.json`: JSON Schema (Draft 2020-12) for robots dataset (includes inline tag & usage descriptions).
+- `public/robots/`: Individual robot JSON files.
+- `public/companies/`: Individual company JSON files.
+- `public/relationships/`: Individual company relationship JSON files (M&A, OEM, collaborations).
+- `public/robots.schema.json`: JSON Schema (Draft 2020-12) for the robots dataset (includes inline category, tag, and usage descriptions).
+- `public/companies.schema.json`: JSON Schema (Draft 2020-12) for the companies dataset.
+- `public/relationships.schema.json`: JSON Schema (Draft 2020-12) for the company relationships dataset.
 
 ### Validating Data
 
@@ -26,6 +28,12 @@ Robot dataset validation (schema conformance and URL verification):
 
 ```bash
 python3 scripts/update_robots.py --verify-only
+```
+
+Relationship dataset validation (schema conformance, source URLs, and prose cross-link consistency):
+
+```bash
+python3 scripts/build_relationships.py
 ```
 
 Both commands validate against JSON Schema (Draft 2020-12) and verify all URLs. The update scripts also validate automatically before writing output.
