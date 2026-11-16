@@ -23,16 +23,35 @@
         </span>
       </div>
 
-      <div class="form-check form-switch mb-0">
-        <input
-          id="toggleRobotDots"
-          v-model="showRobotDots"
-          class="form-check-input"
-          type="checkbox"
-        />
-        <label class="form-check-label small" for="toggleRobotDots">
-          Show robots
-        </label>
+      <div class="d-flex flex-wrap align-items-center gap-3">
+        <div v-if="maxAvailableDegree > 1" class="d-flex align-items-center gap-1">
+          <span class="small text-muted me-1">Degrees:</span>
+          <div class="btn-group btn-group-sm" role="group" aria-label="Degrees of separation">
+            <button
+              v-for="deg in maxAvailableDegree"
+              :key="deg"
+              type="button"
+              class="btn py-0 px-2 degree-btn"
+              :class="activeDegree === deg ? 'btn-primary' : 'btn-outline-secondary'"
+              @click="selectedDegree = deg"
+              :title="`Show relationships up to ${deg} degree${deg > 1 ? 's' : ''} of separation`"
+            >
+              {{ deg }}°
+            </button>
+          </div>
+        </div>
+
+        <div class="form-check form-switch mb-0">
+          <input
+            id="toggleRobotDots"
+            v-model="showRobotDots"
+            class="form-check-input"
+            type="checkbox"
+          />
+          <label class="form-check-label small" for="toggleRobotDots">
+            Show robots
+          </label>
+        </div>
       </div>
     </div>
 
@@ -391,7 +410,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import { useRouter } from 'vue-router';
 
 const props = defineProps({
@@ -426,9 +445,14 @@ const BOTTOM_AXIS_HEIGHT = 22;
 const ROW_HEIGHT = 46;
 
 const showRobotDots = ref(true);
+const selectedDegree = ref(1);
 const hoveredRowId = ref(null);
 const hoveredEdge = ref(null);
 let hideTimer = null;
+
+watch(() => props.focusCompanyId, () => {
+  selectedDegree.value = 1;
+});
 
 const tooltip = ref({
   visible: false,
@@ -478,7 +502,62 @@ const robotsByCompany = computed(() => {
   return map;
 });
 
-// Build focused 1-degree per-company ego-graph layout
+// Precompute BFS distances and predecessor nodes from focusCompanyId
+const bfsGraph = computed(() => {
+  const focusId = props.focusCompanyId;
+  const dist = new Map();
+  const discoveryRel = new Map();
+  const predecessorRelsById = new Map();
+  const adj = new Map();
+
+  function addAdj(u, v, rel) {
+    if (!adj.has(u)) adj.set(u, []);
+    adj.get(u).push({ neighbor: v, rel });
+  }
+
+  (props.relationships || []).forEach(rel => {
+    if (!rel || !rel.source || !rel.target) return;
+    const hasSource = companyMap.value.has(rel.source);
+    const hasTarget = companyMap.value.has(rel.target);
+    // Ignore external non-company targets (e.g. inline badge only)
+    if (!hasTarget) return;
+    if (!hasSource) {
+      predecessorRelsById.set(rel.source, rel);
+    }
+    addAdj(rel.source, rel.target, rel);
+    addAdj(rel.target, rel.source, rel);
+  });
+
+  if (!companyMap.value.has(focusId)) {
+    return { dist, discoveryRel, predecessorRelsById, maxDegree: 1 };
+  }
+
+  dist.set(focusId, 0);
+  const queue = [focusId];
+  let maxDegree = 1;
+
+  while (queue.length > 0) {
+    const u = queue.shift();
+    const d = dist.get(u);
+    const neighbors = adj.get(u) || [];
+    for (const { neighbor: v, rel } of neighbors) {
+      if (!dist.has(v)) {
+        const nextD = d + 1;
+        dist.set(v, nextD);
+        discoveryRel.set(v, { rel, via: u, distance: nextD });
+        if (nextD > maxDegree) maxDegree = nextD;
+        queue.push(v);
+      }
+    }
+  }
+
+  return { dist, discoveryRel, predecessorRelsById, maxDegree };
+});
+
+const maxAvailableDegree = computed(() => bfsGraph.value.maxDegree);
+const activeDegree = computed(() => Math.min(Math.max(1, selectedDegree.value), maxAvailableDegree.value));
+
+// Build focused N-degree per-company ego-graph layout
 const layout = computed(() => {
   const focusId = props.focusCompanyId;
   const focusCompany = companyMap.value.get(focusId);
@@ -486,91 +565,91 @@ const layout = computed(() => {
     return { rows: [], edges: [], axisYears: [], totalHeight: 0, hasPreEra: false, minLinearYear: 1990, linearStartX: LEFT_MARGIN, yearToX: () => LEFT_MARGIN };
   }
 
-  const incomingIds = new Set();
-  const outgoingIds = new Set();
-  const predecessorRels = [];
+  const maxDeg = activeDegree.value;
+  const { dist, discoveryRel, predecessorRelsById } = bfsGraph.value;
+
+  const includedNodeIds = new Set();
+  dist.forEach((d, nodeId) => {
+    if (d <= maxDeg) includedNodeIds.add(nodeId);
+  });
+
   const relevantEdges = [];
   const relationByRowId = new Map();
 
-  // Read from standalone props.relationships (public/relationships/*.json)
+  // Populate subtitle metadata for each discovered node
+  includedNodeIds.forEach(nodeId => {
+    if (nodeId === focusId) return;
+    const disc = discoveryRel.get(nodeId);
+    if (!disc) return;
+    const { rel } = disc;
+    const isPred = !companyMap.value.has(nodeId);
+    const cat = isPred ? 'ma' : edgeCategory(rel.type);
+    relationByRowId.set(nodeId, {
+      relId: rel.id || `${rel.source}_${rel.target}`,
+      summary: `${rel.subtype || (isPred ? 'Acquired' : rel.type)} (${rel.year})`,
+      category: cat,
+      sources: Array.isArray(rel.sources) ? rel.sources : []
+    });
+  });
+
+  // Collect edges within the selected degree subgraph
   (props.relationships || []).forEach(rel => {
     if (!rel) return;
-    const cat = edgeCategory(rel.type);
-
-    if (rel.target === focusId) {
-      if (companyMap.value.has(rel.source)) {
-        incomingIds.add(rel.source);
-        relevantEdges.push(rel);
-        relationByRowId.set(rel.source, {
-          relId: rel.id || `${rel.source}_${rel.target}`,
-          summary: `${rel.subtype || rel.type} (${rel.year})`,
-          category: cat,
-          sources: Array.isArray(rel.sources) ? rel.sources : []
-        });
-      } else {
-        // Acquired predecessor without a standalone company page
-        predecessorRels.push(rel);
-        relevantEdges.push(rel);
-        relationByRowId.set(rel.source, {
-          relId: rel.id || `${rel.source}_${rel.target}`,
-          summary: `${rel.subtype || 'Acquired'} (${rel.year})`,
-          category: 'ma',
-          sources: Array.isArray(rel.sources) ? rel.sources : []
-        });
-      }
-    } else if (rel.source === focusId) {
-      if (companyMap.value.has(rel.target)) {
-        outgoingIds.add(rel.target);
-        relevantEdges.push(rel);
-        relationByRowId.set(rel.target, {
-          relId: rel.id || `${rel.source}_${rel.target}`,
-          summary: `${rel.subtype || rel.type} (${rel.year})`,
-          category: cat,
-          sources: Array.isArray(rel.sources) ? rel.sources : []
-        });
-      }
-    }
+    if (!includedNodeIds.has(rel.source) || !includedNodeIds.has(rel.target)) return;
+    if (maxDeg === 1 && rel.source !== focusId && rel.target !== focusId) return;
+    relevantEdges.push(rel);
   });
 
   // Build candidate row descriptors and reorder to minimize edge/bar crossings
-  const initialDescriptors = [];
-  Array.from(incomingIds)
-    .map(id => companyMap.value.get(id))
-    .filter(Boolean)
-    .sort((a, b) => (Number(a.founded_year) || 2000) - (Number(b.founded_year) || 2000))
-    .forEach(c => initialDescriptors.push({ type: 'company', role: 'in', company: c }));
+  const incomingList = [];
+  const outgoingList = [];
+  const predecessorList = [];
 
-  predecessorRels
-    .sort((a, b) => (Number(a.source_founded_year) || 2000) - (Number(b.source_founded_year) || 2000))
-    .forEach(pred => {
-      initialDescriptors.push({
+  includedNodeIds.forEach(nodeId => {
+    if (nodeId === focusId) return;
+    if (companyMap.value.has(nodeId)) {
+      const c = companyMap.value.get(nodeId);
+      const disc = discoveryRel.get(nodeId);
+      const isIncoming = disc && disc.rel.target === disc.via && disc.rel.source === nodeId;
+      if (isIncoming) {
+        incomingList.push({ type: 'company', role: 'in', company: c });
+      } else {
+        outgoingList.push({ type: 'company', role: 'out', company: c });
+      }
+    } else if (predecessorRelsById.has(nodeId)) {
+      const pred = predecessorRelsById.get(nodeId);
+      const parentCompany = companyMap.value.get(pred.target) || focusCompany;
+      predecessorList.push({
         type: 'predecessor',
         role: 'pred',
-        parentId: focusId,
+        parentId: pred.target,
         company: {
           id: pred.source,
           name: pred.source_name || pred.source,
-          country: focusCompany.country,
+          country: parentCompany.country,
           founded_year: pred.source_founded_year || (pred.year - 6),
           status: {
             state: 'acquired',
             year: pred.year,
-            successor: focusCompany.name,
+            successor: parentCompany.name,
             note: pred.note
           },
           robots: []
         }
       });
-    });
+    }
+  });
 
-  initialDescriptors.push({ type: 'company', role: 'focus', company: focusCompany });
+  incomingList.sort((a, b) => (Number(a.company.founded_year) || 2000) - (Number(b.company.founded_year) || 2000));
+  predecessorList.sort((a, b) => (Number(a.company.founded_year) || 2000) - (Number(b.company.founded_year) || 2000));
+  outgoingList.sort((a, b) => (Number(a.company.founded_year) || 2000) - (Number(b.company.founded_year) || 2000));
 
-  Array.from(outgoingIds)
-    .filter(id => !incomingIds.has(id))
-    .map(id => companyMap.value.get(id))
-    .filter(Boolean)
-    .sort((a, b) => (Number(a.founded_year) || 2000) - (Number(b.founded_year) || 2000))
-    .forEach(c => initialDescriptors.push({ type: 'company', role: 'out', company: c }));
+  const initialDescriptors = [
+    ...incomingList,
+    ...predecessorList,
+    { type: 'company', role: 'focus', company: focusCompany },
+    ...outgoingList
+  ];
 
   function getDescSpan(d) {
     const start = Number(d.company.founded_year) || 2010;
@@ -580,72 +659,127 @@ const layout = computed(() => {
   }
 
   let orderedDescriptors = initialDescriptors;
-  if (initialDescriptors.length > 2 && initialDescriptors.length <= 8) {
+  if (initialDescriptors.length > 2) {
     const spans = new Map();
     initialDescriptors.forEach(d => spans.set(d.company.id, getDescSpan(d)));
     const nLen = initialDescriptors.length;
     const center = (nLen - 1) / 2.0;
-    let bestPerm = initialDescriptors;
-    let bestScore = Infinity;
 
-    function permute(arr, l) {
-      if (l === arr.length - 1) {
-        const pos = new Map();
-        for (let i = 0; i < arr.length; i++) {
-          pos.set(arr[i].company.id, i);
+    function evaluateOrder(arr) {
+      const pos = new Map();
+      for (let i = 0; i < arr.length; i++) {
+        pos.set(arr[i].company.id, i);
+      }
+      const fIdx = pos.get(focusId);
+      let barCrossings = 0;
+      let spanPenalty = 0;
+
+      for (let eIdx = 0; eIdx < relevantEdges.length; eIdx++) {
+        const e = relevantEdges[eIdx];
+        const sIdx = pos.get(e.source);
+        const tIdx = pos.get(e.target);
+        if (sIdx === undefined || tIdx === undefined) continue;
+        const lo = Math.min(sIdx, tIdx);
+        const hi = Math.max(sIdx, tIdx);
+        const yr = Number(e.year) || 2020;
+        spanPenalty += (hi - lo - 1) * 120;
+        const sSpan = spans.get(e.source);
+        const xMin = e.type === 'oem' ? yr - 1 : Math.min(yr, sSpan ? sSpan.end : yr);
+        const xMax = yr;
+
+        for (let midIdx = lo + 1; midIdx < hi; midIdx++) {
+          const midSpan = spans.get(arr[midIdx].company.id);
+          if (midSpan && midSpan.start <= xMax && midSpan.end >= xMin) {
+            barCrossings += 1;
+          }
         }
-        const fIdx = pos.get(focusId);
-        let barCrossings = 0;
-        let spanPenalty = 0;
+      }
 
-        for (let eIdx = 0; eIdx < relevantEdges.length; eIdx++) {
-          const e = relevantEdges[eIdx];
-          const sIdx = pos.get(e.source);
-          const tIdx = pos.get(e.target);
-          if (sIdx === undefined || tIdx === undefined) continue;
-          const lo = Math.min(sIdx, tIdx);
-          const hi = Math.max(sIdx, tIdx);
-          const yr = Number(e.year) || 2020;
-          spanPenalty += (hi - lo - 1) * 100;
-          const sSpan = spans.get(e.source);
-          const xMin = e.type === 'oem' ? yr - 1 : Math.min(yr, sSpan ? sSpan.end : yr);
-          const xMax = yr;
+      let predPenalty = 0;
+      for (let i = 0; i < arr.length; i++) {
+        const d = arr[i];
+        if (d.type === 'predecessor' && d.parentId && pos.has(d.parentId)) {
+          const distToParent = Math.abs(i - pos.get(d.parentId));
+          if (distToParent > 1) predPenalty += (distToParent - 1) * 300;
+        }
+      }
 
-          for (let midIdx = lo + 1; midIdx < hi; midIdx++) {
-            const midSpan = spans.get(arr[midIdx].company.id);
-            if (midSpan && midSpan.start <= xMax && midSpan.end >= xMin) {
-              barCrossings += 1;
+      const centerDist = Math.abs(fIdx - center) * 50;
+      let dirPenalty = 0;
+      for (let i = 0; i < arr.length; i++) {
+        const r = arr[i].role;
+        if ((r === 'in' || r === 'pred') && i > fIdx) dirPenalty += 10;
+        else if (r === 'out' && i < fIdx) dirPenalty += 10;
+      }
+
+      return barCrossings * 10000 + predPenalty + spanPenalty + centerDist + dirPenalty;
+    }
+
+    if (nLen <= 8) {
+      let bestPerm = initialDescriptors;
+      let bestScore = Infinity;
+
+      function permute(arr, l) {
+        if (l === arr.length - 1) {
+          const score = evaluateOrder(arr);
+          if (score < bestScore) {
+            bestScore = score;
+            bestPerm = arr.slice();
+          }
+          return;
+        }
+        for (let i = l; i < arr.length; i++) {
+          const tmp = arr[l];
+          arr[l] = arr[i];
+          arr[i] = tmp;
+          permute(arr, l + 1);
+          arr[i] = arr[l];
+          arr[l] = tmp;
+        }
+      }
+
+      permute(initialDescriptors.slice(), 0);
+      orderedDescriptors = bestPerm;
+    } else {
+      // Fast local search (insertion + swap moves) for larger multi-degree graphs
+      let current = initialDescriptors.slice();
+      let currentScore = evaluateOrder(current);
+      let improved = true;
+      let iter = 0;
+      while (improved && iter < 40) {
+        improved = false;
+        iter++;
+        for (let i = 0; i < nLen; i++) {
+          for (let j = 0; j < nLen; j++) {
+            if (i === j) continue;
+            const candidate = current.slice();
+            const [moved] = candidate.splice(i, 1);
+            candidate.splice(j, 0, moved);
+            const s = evaluateOrder(candidate);
+            if (s < currentScore) {
+              currentScore = s;
+              current = candidate;
+              improved = true;
             }
           }
         }
-
-        const centerDist = Math.abs(fIdx - center) * 50;
-        let dirPenalty = 0;
-        for (let i = 0; i < arr.length; i++) {
-          const r = arr[i].role;
-          if ((r === 'in' || r === 'pred') && i > fIdx) dirPenalty += 10;
-          else if (r === 'out' && i < fIdx) dirPenalty += 10;
+        for (let i = 0; i < nLen; i++) {
+          for (let j = i + 1; j < nLen; j++) {
+            const candidate = current.slice();
+            const tmp = candidate[i];
+            candidate[i] = candidate[j];
+            candidate[j] = tmp;
+            const s = evaluateOrder(candidate);
+            if (s < currentScore) {
+              currentScore = s;
+              current = candidate;
+              improved = true;
+            }
+          }
         }
-
-        const score = barCrossings * 10000 + spanPenalty + centerDist + dirPenalty;
-        if (score < bestScore) {
-          bestScore = score;
-          bestPerm = arr.slice();
-        }
-        return;
       }
-      for (let i = l; i < arr.length; i++) {
-        const tmp = arr[l];
-        arr[l] = arr[i];
-        arr[i] = tmp;
-        permute(arr, l + 1);
-        arr[i] = arr[l];
-        arr[l] = tmp;
-      }
+      orderedDescriptors = current;
     }
-
-    permute(initialDescriptors.slice(), 0);
-    orderedDescriptors = bestPerm;
   }
 
   // Compute adaptive linear start year for this subgraph
@@ -951,8 +1085,13 @@ function onHoverEdge(edge, evt) {
       ? { label: edge.subtype, cls: 'bg-warning text-dark' }
       : { label: edge.subtype, cls: 'bg-primary' };
 
-  const otherId = edge.sourceId === props.focusCompanyId ? edge.targetId : edge.sourceId;
-  const otherRow = layout.value.rows.find(r => r.id === otherId);
+  const sRow = layout.value.rows.find(r => r.id === edge.sourceId);
+  const tRow = layout.value.rows.find(r => r.id === edge.targetId);
+  const sDist = bfsGraph.value.dist.get(edge.sourceId) ?? 0;
+  const tDist = bfsGraph.value.dist.get(edge.targetId) ?? 0;
+  const candidates = (tDist >= sDist ? [tRow, sRow] : [sRow, tRow])
+    .filter(r => r && !r.isPredecessor && r.id !== props.focusCompanyId);
+  const otherRow = candidates[0] || null;
 
   tooltip.value = {
     visible: true,
@@ -1363,5 +1502,10 @@ function truncateText(str, maxLen) {
 .tooltip-robot-pill:hover {
   background-color: #0d6efd !important;
   color: #fff !important;
+}
+
+.degree-btn {
+  font-size: 0.78rem;
+  line-height: 1.35;
 }
 </style>
