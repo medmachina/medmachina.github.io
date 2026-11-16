@@ -277,7 +277,9 @@ function selectRobotById(id) {
     const compName = companyInfo.value?.name || '';
     const title = `${project.value.name}${compName ? ' by ' + compName : ''} - Medical Robot | Med Machina`;
     const description = `Specifications, regulatory history, videos, and manufacturer details for ${project.value.name}${compName ? ' (' + compName + ')' : ''}.`;
-    const photo = project.value.photos && project.value.photos[0] && project.value.photos[0].url ? project.value.photos[0].url : '/og/og-home.png';
+    const photosList = Array.isArray(project.value.photos) ? project.value.photos : [];
+    const compatiblePhoto = photosList.find(p => p?.url && !/\.(webp|avif|svg)(\?|$)/i.test(p.url));
+    const photo = compatiblePhoto?.url || '/og/og-home.png';
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'MedicalDevice',

@@ -58,7 +58,25 @@ onMounted(async () => {
       return
     }
     originalItems.value = robots
-    items.value = shuffleArray(robots)
+    if (route.query.og === '1') {
+      const priorityIds = [
+        'intuitive_da_vinci_5',
+        'intuitive_da_vinci_Xi',
+        'stryker_mako',
+        'medtronic_hugo_ras',
+        'cmr_versius',
+        'intuitive_da_vinci_SP',
+        'j&j_ottava',
+        'globus_excelsius_gps',
+        'intuitive_ion'
+      ]
+      const byId = new Map(robots.map(r => [r.id, r]))
+      const top = priorityIds.map(id => byId.get(id)).filter(Boolean)
+      const rest = robots.filter(r => !priorityIds.includes(r.id) && r.photos && r.photos.length > 0)
+      items.value = [...top, ...rest]
+    } else {
+      items.value = shuffleArray(robots)
+    }
   } catch (err) {
     robotsError.value = `Error loading robots.json: ${err}`
   }

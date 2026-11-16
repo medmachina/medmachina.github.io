@@ -47,12 +47,17 @@ export function updateSeo({
   // 3. Meta Description
   setMeta('meta[name="description"]', 'content', description);
 
-  // 4. Open Graph Tags
+  // 4. Open Graph & Twitter Card Tags
+  const fullImage = image.startsWith('http') ? image : `${BASE_URL}${image}`;
   setMeta('meta[property="og:title"]', 'content', title);
   setMeta('meta[property="og:description"]', 'content', description);
   setMeta('meta[property="og:url"]', 'content', canonicalUrl);
   setMeta('meta[property="og:type"]', 'content', type);
-  setMeta('meta[property="og:image"]', 'content', image.startsWith('http') ? image : `${BASE_URL}${image}`);
+  setMeta('meta[property="og:image"]', 'content', fullImage);
+  setMeta('meta[name="twitter:card"]', 'content', 'summary_large_image');
+  setMeta('meta[name="twitter:title"]', 'content', title);
+  setMeta('meta[name="twitter:description"]', 'content', description);
+  setMeta('meta[name="twitter:image"]', 'content', fullImage);
 
   // 5. JSON-LD Structured Data
   let jsonLdEl = document.getElementById('seo-jsonld');

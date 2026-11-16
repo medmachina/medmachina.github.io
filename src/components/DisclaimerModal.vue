@@ -24,8 +24,9 @@ function openHandler() {
 }
 
 onMounted(() => {
+  const isOgPreview = new URLSearchParams(window.location.search).get('og') === '1';
   const hasSeenDisclaimer = localStorage.getItem('hasSeenDisclaimer');
-  if (!hasSeenDisclaimer) {
+  if (!hasSeenDisclaimer && !isOgPreview) {
     showModal.value = true;
   }
 

@@ -172,14 +172,19 @@ def build_prerender_html(template, title, description, canonical_url, image_url,
     else:
         html_out = html_out.replace('</head>', f'  <link rel="canonical" href="{escaped_canonical_url}" />\n  </head>')
 
-    # Open Graph replacement
+    # Open Graph & Twitter Card replacement
     html_out = re.sub(r'<meta property="og:title"[^>]*>', lambda m: f'<meta property="og:title" content="{escaped_title}" />', html_out)
     html_out = re.sub(r'<meta property="og:description"[^>]*>', lambda m: f'<meta property="og:description" content="{escaped_description}" />', html_out)
     html_out = re.sub(r'<meta property="og:url"[^>]*>', lambda m: f'<meta property="og:url" content="{escaped_canonical_url}" />', html_out)
+    html_out = re.sub(r'<meta name="twitter:title"[^>]*>', lambda m: f'<meta name="twitter:title" content="{escaped_title}" />', html_out)
+    html_out = re.sub(r'<meta name="twitter:description"[^>]*>', lambda m: f'<meta name="twitter:description" content="{escaped_description}" />', html_out)
     if image_url:
         full_image = image_url if image_url.startswith('http') else f"{BASE_URL}{image_url}"
         escaped_image_url = html.escape(full_image, quote=True)
         html_out = re.sub(r'<meta property="og:image"[^>]*>', lambda m: f'<meta property="og:image" content="{escaped_image_url}" />', html_out)
+        html_out = re.sub(r'<meta name="twitter:image"[^>]*>', lambda m: f'<meta name="twitter:image" content="{escaped_image_url}" />', html_out)
+        if image_url != "/og/og-home.png":
+            html_out = re.sub(r'\s*<meta property="og:image:(width|height)"[^>]*>', '', html_out)
 
     # JSON-LD injection
     if json_ld:
@@ -225,7 +230,11 @@ def prerender_dist(robots_data, companies_data):
         canonical_url = f"{BASE_URL}/robot/{r_id}"
         
         photos = robot.get("photos", [])
-        image_url = photos[0]["url"] if photos and isinstance(photos, list) and len(photos) > 0 and "url" in photos[0] else "/og/og-home.png"
+        compatible_photos = [
+            p["url"] for p in (photos if isinstance(photos, list) else [])
+            if isinstance(p, dict) and p.get("url") and not re.search(r'\.(webp|avif|svg)(\?|$)', p["url"], re.IGNORECASE)
+        ]
+        image_url = compatible_photos[0] if compatible_photos else "/og/og-home.png"
 
         json_ld = {
             "@context": "https://schema.org",
