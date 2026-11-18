@@ -10,6 +10,10 @@
     {
       "caption": "Medtronic, Hugo RAS",
       "url": "https://www.medtronic.com/covidien/en-au/robotic-assisted-surgery/hugo-ras-system.html"
+    },
+    {
+      "caption": "FDA General Surgery Clearance Announcement (Nov 2026)",
+      "url": "https://news.medtronic.com/2026-11-17-Medtronic-announces-FDA-clearance-of-general-surgery-procedures-for-the-Hugo-TM-robotic-assisted-surgery-RAS-system"
     }
   ],
   "photos": [
@@ -42,7 +46,7 @@
     "Gynecological",
     "Urological"
   ],
-  "description": "The Hugo Robotic-Assisted Surgery (RAS) system is a modular multiport teleoperated platform developed by [Medtronic](/company/medtronic) for minimally invasive surgery. It features up to four independent mobile arm carts that can be positioned flexibly around the operating table, an open surgeon console with an HD 3D stereoscopic display viewed with passive glasses, and pistol-grip controllers. Utilizing mechanical remote centers of motion and wristed articulating instruments, the system is integrated with [Karl Storz](/company/karl_storz) 3D endoscopic visualization and Medtronic's digital surgery ecosystem. Hugo RAS has received CE mark certification, US FDA clearance, and international approvals for urologic, gynecologic, and general surgical procedures. In select international markets, Medtronic also distributes Cornerstone's single-cart [Sentire](/robot/cornerstone_sentire) system alongside Hugo RAS.",
+  "description": "The Hugo Robotic-Assisted Surgery (RAS) system is a modular multiport teleoperated platform developed by [Medtronic](/company/medtronic) for minimally invasive surgery. It features up to four independent mobile arm carts that can be positioned flexibly around the operating table, an open surgeon console with an HD 3D stereoscopic display viewed with passive glasses, and pistol-grip controllers. Utilizing mechanical remote centers of motion and wristed articulating instruments, the system is integrated with [Karl Storz](/company/karl_storz) 3D endoscopic visualization and Medtronic's digital surgery ecosystem. Hugo RAS holds CE mark certification and US FDA 510(k) clearances for urologic (2025) and general surgical procedures (November 2026, covering upper abdominal procedures, inguinal hernia repair, and appendectomy). In select international markets, Medtronic also distributes Cornerstone's single-cart [Sentire](/robot/cornerstone_sentire) system alongside Hugo RAS.",
   "also_known_as": [],
   "videos": [
     {
@@ -79,6 +83,13 @@
       "year": 2022,
       "product_code": "",
       "panel": ""
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261444",
+      "body": "FDA 510k",
+      "year": 2026,
+      "product_code": "SCV",
+      "panel": "SU"
     }
   ],
   "publications": [
